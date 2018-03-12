@@ -1,0 +1,16 @@
+/* ==============================================
+    Dark Version
+   ============================================== */
+ 
+h5, .feature-icon i, .themeix-title-h1, .feature-content .themeix-feature-title, .themeix-dark-home-page .caption-area .caption-heading, .themeix-dark-home-page .main-menu .navbar-nav li a,.themeix-footer-bottom a ,.footer-menu li {
+    color: #777;
+}
+.footer-menu li a {
+ color: #777!important;
+}
+.footer-menu li {
+    border-right: 1px solid #777;
+}
+.themeix-dark-home-page .phone-holder {
+    top: 50px;
+ }
