@@ -1,4 +1,50 @@
+
+
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "NavCoin Community Site"
 theme = "nav-community-v1"
+
+
+
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir = true
+
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "English"
+
+[Languages.fr]
+title = "Documentation du thème Hugo Learn"
+weight = 2
+languageName = "Français"
+
+
+
+#linkedin = "english-link"
+#
+#languageCode = "en"
+#DefaultContentLanguage = "en"
+#copyright = "Everything is mine"
+#
+#
+#[languages]
+#[languages.en]
+#title = "NavCoin Community Site"
+
+
+# Main Menu
+[[menu.main]]
+    name = "News"
+    title = "News"
+    weight = -110
+    identifier = "news"
+    url = "/news/"
+[[menu.main]]
+    name = "About"
+    title = "About"
+    weight = -110
+    identifier = "about"
+    url = "/about/"

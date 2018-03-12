@@ -1,5 +1,4 @@
 
-
 <header id="stickey-menu">
     <div class="main-menu">
         <div class="container">
@@ -20,23 +19,38 @@
                 <div class="col-sm-9">
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-right" id="header-menu">
-
                         <nav>
                             <ul class="nav navbar-nav">
-                                <!--<li class="active"><a href="" class="smoothScroll">Home</a></li>-->
-                                <!--<li><a href="#about" class="smoothScroll">About</a></li>-->
-                                <!--<li><a href="#features" class="smoothScroll">Features</a></li>-->
-                                <!--<li><a href="#pricing" class="smoothScroll">Pricing</a></li>-->
-                                <!--<li><a href="#contact" class="smoothScroll">Contact</a></li>-->
-
-                                {{ range .Data.Pages }}
-
-                                <li><a href="{{ .Permalink }}">{{ .Type }} - {{ .Title }} - {{ .RelPermalink }}</a></li>
-
-                                {{ end }}
+                                {{ $currentPage := . }}
+                                {{ range .Site.Menus.main }}
+                                {{ if .HasChildren }}
+                                <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                                <a href="#">
+                                    {{ .Pre }}
+                                    <span>{{ .Name }}</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    {{ range .Children }}
+                                    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                    <a href="{{ .URL }}">{{ .Name }}</a>
+                                    {{ end }}
+                                </ul>
+                                {{else}}
+                                <li>
+                                    <a href="{{.URL}}">
+                                        {{ .Pre }}
+                                        <span>{{ .Name }}</span>
+                                    </a>
+                                    {{end}}
+                                    {{end}}
+                                </li>
+                                <li>
+                                    <a href="#" target="blank">Hardcoded Link 1</a> </li>
+                                <li>
+                                    <a href="#" target="blank">Hardcoded Link 2</a>
+                                </li>
                             </ul>
                         </nav>
-
                     </div>
                     <!-- /.navbar-collapse -->
                 </div>
@@ -45,4 +59,5 @@
         </div>
     </div>
 </header>
+
 
