@@ -6,5 +6,6 @@ author = ""
 description = ""
 resources = []
 slug = ""
+type = "news"
 ---
 
