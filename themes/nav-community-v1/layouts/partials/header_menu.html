@@ -1,0 +1,48 @@
+
+
+<header id="stickey-menu">
+    <div class="main-menu">
+        <div class="container">
+            <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="col-sm-3">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed custom-toggle" data-toggle="collapse" data-target="#header-menu" aria-expanded="false">
+                            <i class="fa fa-bars fa-lg"></i>
+                        </button>
+                        <div class="logo-brand">
+                            <a href="">
+                                <img src="/assets/images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right" id="header-menu">
+
+                        <nav>
+                            <ul class="nav navbar-nav">
+                                <!--<li class="active"><a href="" class="smoothScroll">Home</a></li>-->
+                                <!--<li><a href="#about" class="smoothScroll">About</a></li>-->
+                                <!--<li><a href="#features" class="smoothScroll">Features</a></li>-->
+                                <!--<li><a href="#pricing" class="smoothScroll">Pricing</a></li>-->
+                                <!--<li><a href="#contact" class="smoothScroll">Contact</a></li>-->
+
+                                {{ range .Data.Pages }}
+
+                                <li><a href="{{ .Permalink }}">{{ .Type }} - {{ .Title }} - {{ .RelPermalink }}</a></li>
+
+                                {{ end }}
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+        </div>
+    </div>
+</header>
+
