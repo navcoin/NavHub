@@ -8,11 +8,11 @@ theme = "nav-community-v1"
 # English is the default language
 defaultContentLanguage = "en"
 # Force to have /en/my-page and /fr/my-page routes, even for default language.
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "NavCoin Community Site"
 weight = 1
 languageName = "English"
 

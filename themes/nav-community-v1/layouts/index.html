@@ -2,13 +2,17 @@
 <html>
 
 
-{{ template "theme/partials/header.html" . }}
+    {{ template "theme/partials/header.html" . }}
+
+<body data-spy="scroll" data-target="#header-menu">
+
+    {{ template "theme/partials/header_menu.html" . }}
+
+    sadfasdf
+    {{ template "theme/partials/home/home_slider.html" . }}
 
 
-<body>
-{{ template "theme/partials/header_menu.html" . }}
-
-{{ .Content }}
+    {{ template "theme/partials/footer.html" . }}
 
 </body>
 </html>
