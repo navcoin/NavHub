@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+
+{{ template "theme/partials/head.html" . }}
+
+<body data-spy="scroll" data-target="#header-menu">
+
+{{ template "theme/partials/header.html" . }}
+
+
+{{ range .Data.Pages }}
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+{{ end }}
+
+
+
+{{ template "theme/partials/footer.html" . }}
+
+</body>
+</html>

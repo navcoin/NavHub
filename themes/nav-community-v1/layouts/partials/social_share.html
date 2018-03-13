@@ -1,0 +1,14 @@
+<div class="share-icon">
+   <span>share on</span>
+   <ul class="social-icon">
+      <li>
+         <a class="twitter" href="https://twitter.com/intent/tweet?text={{ .Params.title }}&url={{.Site.BaseURL}}{{ .URL }}&via={{ .Site.Params.twitter_username }}&related={{ .Site.Params.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+      </li>
+      <li>
+         <a class="facebook" href="https://facebook.com/sharer.php?u={{.Site.BaseURL}}{{ .URL }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+         <a class="google" href="https://plus.google.com/share?url={{.Site.BaseURL}}{{ .URL }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i></a>
+      </li>
+   </ul>
+</div>
