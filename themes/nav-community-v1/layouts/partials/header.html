@@ -1,40 +1,30 @@
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="author" content="themeix">
-    <meta name="description" content="Mbbile Apps Template">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<header id="stickey-menu">
+    <div class="main-menu">
+        <div class="container">
+            <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="col-sm-3">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed custom-toggle" data-toggle="collapse" data-target="#header-menu" aria-expanded="false">
+                            <i class="fa fa-bars fa-lg"></i>
+                        </button>
+                        <div class="logo-brand">
+                            <a href="">
+                                <img src="/assets/images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right" id="header-menu">
+                        {{ template "theme/partials/header_menu.html" . }}
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+        </div>
+    </div>
+</header>
 
-    <!-- favi icon -->
-
-    <!-- Site Title -->
-    <title>{{ .Title }}</title>
-
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto+Slab" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
-
-    <!-- font awesome css -->
-    <link rel="stylesheet" href='{{ "css/font-awesome.min.css" | relURL }}'>
-
-    <!-- owl carousel css -->
-    <link rel="stylesheet" href='{{ "css/owl.carousel.css" | relURL }}'>
-
-    <!-- animate CSS -->
-    <link rel="stylesheet" href='{{ "css/animate.min.css" | relURL }}'>
-
-    <!-- Magnific CSS -->
-    <link rel="stylesheet" href='{{ "css/magnific-popup.css" | relURL }}'>
-
-    <!-- Theme main css -->
-    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}'>
-
-    <!-- responsive css -->
-    <link rel="stylesheet" href='{{ "css/responsive.css" | relURL }}'>
-
-
-
-</head>
