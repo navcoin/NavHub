@@ -19,11 +19,11 @@
                     <div class="blog-details">
                         {{if .Params.show_title}}
                             <h3 class="blog-title">{{.Title}}</h3>
-                            <div>
+                            <div class="news-content">
                                 {{ .Content }}
                             </div>
                         {{else}}
-                            <div style="margin-top: 20px">
+                            <div class="news-content" style="margin-top: 20px">
                                 {{ .Content }}
                             </div>
                         {{end}}
@@ -44,6 +44,37 @@
 
                     <div class="clearfix"></div>
 
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-md-offset-1">
+                <div class="sidebar">
+
+
+                    <div class="widget">
+                        <h3 class="widget-title">Topics Category</h3>
+                        <ul>
+
+                            {{ range first 10 .Site.Taxonomies.categories.ByCount }}
+                                <li class="cat-item" ><a href="/categories/{{ .Name | urlize }}">{{ .Name }}</a> </li>
+                            {{ end }}
+
+                        </ul>
+                    </div>
+                    <div class="widget custom">
+                        <h3 class="widget-title">Recent Posts</h3>
+                        <ul>
+
+
+                            {{ range first 5 .Site.Pages }}
+                                {{if eq .Type "news" }}
+                                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                                {{ end }}
+                            {{ end }}
+
+
+                        </ul>
+                    </div>
                 </div>
             </div>
 
