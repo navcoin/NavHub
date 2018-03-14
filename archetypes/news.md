@@ -5,6 +5,7 @@ draft: true
 author: ""
 description: ""
 resources: []
+categories: []
 slug: ""
 type: "news"
 feature_image: ""

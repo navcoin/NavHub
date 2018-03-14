@@ -4,17 +4,19 @@ date: 2018-03-07T10:27:21+13:00
 draft: false
 author: "Craig MacGregor"
 description: ""
+categories: ["d"]
 resources: []
 slug: ""
 feature_image: "wed7th.png"
 show_title_text: false
 ---
 
-
 The NavCore team and NavCoin community continue to make development progress on the roadmapped features. The NavCoin website is set for a refresh as well as additional informative content in support of existing projects.
+<!--more-->
 
 ### Development Update
 There’s been lots of development progress across the board this week by NavCore and the wider NavCoin community.
+
 
 The NavCore team have been working closely with the wider community to support their development efforts in building NavCoin applications. The NavCoin Core Docker image has been added to the NavCoin repositories to make it even easier for anyone wanting to build on top of NavCoin. Sakdeniz has continued to make progress on the NavCoinVue project which can be viewed on the NavCommunity site.
 
