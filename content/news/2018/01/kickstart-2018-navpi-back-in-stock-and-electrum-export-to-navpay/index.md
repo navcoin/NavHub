@@ -2,8 +2,9 @@
 title: "Kickstart 2018 Navpi Back in Stock and Electrum Export to Navpay"
 date: 2018-01-10T10:27:21+13:00
 draft: false
-author: ""
+author: "Paul Sanderson"
 description: ""
+categories: ["Nav Coin Updates"]
 resources: []
 slug: ""
 feature_image: "option1-10jan-2018.jpg"
@@ -14,7 +15,7 @@ The team have come back from their holidays feeling rested and energetic! After 
 <!--more-->
 
 ### Kickstart 2018
-We’ve spent the first few days catching up on emails/messages, and have started planning the year ahead. One of our first priorities is to spend some time nailing the vision & strategy for NavCoin going forward. While our goal has always been to create a platform that is exciting, ambitious and world-changing – we think we can do a better job at explaining this vision in a simple way on our website and in our marketing materials. It needs to be simple, unique, and get people excited – which is no easy task. Once we’ve completed our vision & strategy process, we will create a series of articles & content that we will share with everyone.
+We've spent the first few days catching up on emails/messages, and have started planning the year ahead. One of our first priorities is to spend some time nailing the vision & strategy for NavCoin going forward. While our goal has always been to create a platform that is exciting, ambitious and world-changing – we think we can do a better job at explaining this vision in a simple way on our website and in our marketing materials. It needs to be simple, unique, and get people excited – which is no easy task. Once we’ve completed our vision & strategy process, we will create a series of articles & content that we will share with everyone.
 
 With our initial planning well underway, we are currently putting together the official development roadmap for 2018. We have a lot of exciting projects we want to build this year alongside finishing what is on our current roadmap. Polymorph, ADapps and NavPi 2.0 are just the beginning. Keep your eyes peeled for the release of the official 2018 roadmap at the next weekly update to see what we have instore for this year.
 

@@ -4,7 +4,7 @@ date: 2018-03-07T10:27:21+13:00
 draft: false
 author: "Craig MacGregor"
 description: ""
-categories: ["d"]
+categories: ["Nav Coin Updates"]
 resources: []
 slug: ""
 feature_image: "wed7th.png"
