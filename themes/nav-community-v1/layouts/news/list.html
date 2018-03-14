@@ -6,12 +6,51 @@
 
 <body data-spy="scroll" data-target="#header-menu">
 
-{{ template "theme/partials/header.html" . }}
+{{ template "theme/partials/header_two.html" . }}
 
 
-{{ range .Data.Pages }}
-    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-{{ end }}
+<div class="appix-blog-content section-ptb-2">
+    <div class="container">
+        <div class="row">
+            {{ range .Data.Pages }}
+            <div class="col-xs-12 col-sm-6">
+                <div class="blog-item">
+                    <a href="{{ .URL }}"> <div class="blog-image" style="background-image:url({{ .URL }}/{{ .Params.feature_image }});">
+                        <div class="item-overlay"></div>
+                    </div>
+                    </a>
+                    <div class="blog-details">
+                        <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
+                        <ul class="blog-author-name">
+                            <li><i class="fa fa-user-o"></i>{{ .Params.author }}</li>
+
+                            {{ range .Params.categories }}
+                            <li><i class="fa fa-folder-open-o"></i> {{.}}</li>
+                            {{ end }}
+
+
+                        </ul>
+                        <div class="blog-excerpt">
+                            {{.Summary}}
+                        </div>
+                        <div class="read-more">
+                            <div class="themeix-button-group">
+
+
+
+                                <a href="{{ .URL }}" class="themeix-btn themeix-danger">read more</a>
+                            </div>
+                        </div>
+                        {{ template "theme/partials/social_share.html" . }}
+                    </div>
+                </div>
+            </div>
+            {{end}}
+        </div>
+    </div>
+</div>
+
+
 
 
 
