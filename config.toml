@@ -50,3 +50,4 @@ twitter_username = "navcoin"
     weight = -110
     identifier = "about"
     url = "/about/"
+
