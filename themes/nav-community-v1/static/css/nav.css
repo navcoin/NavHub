@@ -16,3 +16,13 @@
 
 }
 
+
+.main-slider-overlay {
+    background: -moz-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(52, 193, 239, 0.88)), color-stop(100%, rgb(221, 56, 194)), color-stop(100%, rgb(221, 56, 194)));
+    background: -webkit-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+    background: -o-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+    background: -ms-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+    background: linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff698e', endColorstr='#3694f4', GradientType=1);
+}
