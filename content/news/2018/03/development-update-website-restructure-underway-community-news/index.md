@@ -62,6 +62,7 @@ https://www.youtube.com/watch?v=Jz62CXljDVk&feature=youtu.be
 ## Xero Presentation
 NavCoin Core Software Engineer, Craig MacGregor gave a presentation at Xero's Auckland office yesterday. His talk was geared towards introducing people to the basics of Bitcoin and blockchain technology. It covered blockchain’s distributed rather than centralized architecture, how transaction data is shared across the network and the emergent benefits that come from this approach. He also covered the fundamentals of Bitcoin’s supply, demand and the blockchain tech company landscape.
 
+![](me-7.jpg)
 
 Thanks again to the NavCoin community and their efforts to raise awareness of the NavCoin project and its goals. We will continue to keep you updated about projects and events throughout the NavCoin community. Don’t forget it’s all open source so you can follow along on GitHub and more importantly get involved.
 
