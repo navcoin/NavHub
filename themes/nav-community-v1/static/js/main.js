@@ -83,7 +83,7 @@ sticky_menu();
            4. service slider
 ========================================== */
 $('.service-slider-section').owlCarousel({
-    loop:true,
+    loop: false,
     autoplay:true,
     smartSpeed:2000,
     responsiveClass:true,
@@ -97,8 +97,6 @@ $('.service-slider-section').owlCarousel({
         },
        1000:{
             items:3
-            
-    
         }
     }
 });
