@@ -50,7 +50,8 @@ twitter_username = "navcoin"
     identifier = "news"
     url = "/news/"
 [[menu.main]]
-    name = "Get Invovled"
-    title = "Get Invovled"
+    name = "Get Involved"
+    title = "Get Involved"
     weight = -110
+    url = "/get-involved/"
     identifier = "get-involved"
