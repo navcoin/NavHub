@@ -27,7 +27,7 @@ It is a long established fact that a reader will be distracted by the readable c
 ### Not to sure where to start?
 The issue tracker for each repository is the best place to find a useful way to contribute to NavCoin and community projects. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working on it.
 
-{{< figure class="contrib-discussion"  src="../images/github.png" caption="Join us on Github" width="200" link="https://github.com/NAVCoin/y4Vu9jw" >}} 
+{{< figure class="contrib-discussion"  src="../images/github.png" caption="Join us on Github" width="200" link="https://github.com/NAVCoin" >}} 
 {{< figure class="contrib-discussion"  src="../images/discord-icon-7.png" caption="Join us on Discord" width="200" link="https://discord.gg/y4Vu9jw" >}} 
 {{< figure class="contrib-discussion" src="../images/reddit.png"  caption="Join us on Reddit" width="200" link="https://www.reddit.com/r/NavCoin/" >}}
 
