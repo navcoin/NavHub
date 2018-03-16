@@ -50,3 +50,21 @@
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f96a91', endColorstr='#3694F4', GradientType=1);
     /* ie6-9 */
 }
+
+.contrib-discussion {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.contrib-discussion figcaption p {
+    text-align: center;
+}
+
+.play-store-button {
+    padding: 18px 25px !important;
+}
+
+.play-store-button:after {
+    display: none;
+
+}
