@@ -32,3 +32,7 @@ The issue tracker for each repository is the best place to find a useful way to 
 {{< figure class="contrib-discussion" src="../images/reddit.png"  caption="Join us on Reddit" width="200" link="https://www.reddit.com/r/NavCoin/" >}}
 
 
+### Have a Nav project?
+Nav is built with you! do you have a Nav project you want to share or get help with? Then you can create a Pull Request to the roadmap section of this site to add your own project here. Also get head over to our dicussion areas and reach out to your community. 
+
+
