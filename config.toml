@@ -37,6 +37,11 @@ twitter_username = "navcoin"
 #title = "NavCoin Community Site"
 
 
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
+
 # Main Menu
 [[menu.main]]
     name = "News"
@@ -49,5 +54,3 @@ twitter_username = "navcoin"
     title = "Get Invovled"
     weight = -110
     identifier = "get-involved"
-    url = "/get-involved/"
-
