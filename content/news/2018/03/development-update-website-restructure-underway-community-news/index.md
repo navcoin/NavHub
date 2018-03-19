@@ -2,7 +2,7 @@
 title: "Development Update, Website Restructure Underway & Community News"
 date: 2018-03-07T10:27:21+13:00
 draft: false
-author: "Craig MacGregor"
+author: "NavCore Team"
 description: ""
 categories: ["Nav Coin Updates"]
 resources: []

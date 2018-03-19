@@ -2,7 +2,7 @@
 title: "NavCore Project Progress, Nav Community & Marketing Update"
 date: 2018-02-21T10:27:21+13:00
 draft: false
-author: "Craig MacGregor"
+author: "Nav Core Team"
 description: ""
 categories: ["Nav Coin Updates"]
 resources: []
