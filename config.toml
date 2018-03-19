@@ -50,14 +50,20 @@ twitter_username = "navcoin"
     identifier = "news"
     url = "/news/"
 [[menu.main]]
+    name = "Community projects"
+    title = "Projects"
+    weight = -110
+    identifier = "Project"
+    url = "/projects/"
+[[menu.main]]
     name = "Get involved"
     title = "Get Involved"
-    weight = -110
+    weight = -100
     url = "/get-involved/"
     identifier = "get-involved"
 [[menu.main]]
     name = "Who runs this?"
     title = "Who Runs This?"
-    weight = -110
+    weight = -100
     url = "/who-runs-this/"
     identifier = "who-runs-this"
