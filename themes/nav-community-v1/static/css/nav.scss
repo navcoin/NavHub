@@ -49,6 +49,10 @@
 
 }
 
+.page-header-bg {
+    height: auto;
+}
+
 .contrib-discussion {
     display: inline-block;
     margin-right: 15px;
@@ -73,8 +77,23 @@
         max-width: 400px;
 
         .info-links {
+
+            display: flex;
+            align-items: center;
+
+
             label {
-                padding: 2px 7px;
+
+                &.card-author {
+                    font-size: 12px;
+                    padding: 6px 10px;
+                }
+
+                i {
+                    padding:10px;
+                }
+
+                margin-right: 5px;
                 background-color: hsla(0, 0%, 13%, 0.5);;
                 color: #fff;
             }
@@ -83,5 +102,8 @@
     }
 
 }
+
+
+
 
 

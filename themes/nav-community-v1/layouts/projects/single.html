@@ -1,67 +1,16 @@
-<!DOCTYPE html>
-<html>
 
 
-{{ template "theme/partials/head.html" . }}
+{{.Params.order_by }}
+{{ if (isset .Params "order_page") }}
 
-<body data-spy="scroll" data-target="#header-menu">
+    <!-- Order the projects by progress -->
+    {{if eq .Params.order_by "progress" }}
+        {{ partial "projects_order_by_progress.html" . }}
+    {{end}}
 
-{{ template "theme/partials/header_three_title.html" . }}
+    <!-- Order the projects by last mod date -->
+    {{if eq .Params.order_by "lastmod" }}
+        {{ partial "projects_order_by_last_updated.html" . }}
+    {{end}}
 
-
-
-
-<div class="appix-blog-content section-ptb-2">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-12">
-                {{ .Content }}
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-9">
-
-                <h3>Projects in Progress</h3>
-                <div class="projects-card-container">
-
-                    {{range .Data.Pages}}
-                        {{ if (.Params.in_progress) }}
-                            {{ partial  "project_card_in_progress.html" . }}
-                        {{end}}
-
-                    {{end}}
-                </div>
-
-                <h3>Upcoming Projects</h3>
-
-                <div class="projects-card-container">
-                    {{range .Data.Pages}}
-                    {{ if not .Params.in_progress }}
-                    {{ partial "project_card_planning.html" . }}
-                    {{end}}
-                    {{end}}
-                </div>
-
-            </div>
-
-            <div class="col-md-3">
-                <h2>Side bae</h2>
-            </div>
-        </div>
-
-
-
-    </div>
-</div>
-
-
-
-
-
-{{ template "theme/partials/footer.html" . }}
-
-</body>
-</html>
+{{end}}

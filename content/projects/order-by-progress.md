@@ -1,5 +1,5 @@
 ---
-title: "Projects dd"
+title: "Projects"
 date: 2018-03-20T08:09:08+13:00
 draft: false
 author: ""
@@ -8,6 +8,7 @@ resources: []
 categories: []
 slug: ""
 order_page: true
+order_by: "progress"
 ---
 
 

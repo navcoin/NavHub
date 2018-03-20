@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+
+{{ template "theme/partials/head.html" . }}
+
+<body data-spy="scroll" data-target="#header-menu">
+
+{{ template "theme/partials/header_three_title.html" . }}
+
+
+
+
+<div class="appix-blog-content section-ptb-2">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                {{ .Content }}
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-9">
+
+                <h3>Projects in Progress</h3>
+                <div class="projects-card-container">
+                    {{range .Data.Pages.ByDate.Reverse}}
+                        {{ if (.Params.in_progress) }}
+                            {{ partial  "project_card_in_progress.html" . }}
+                        {{end}}
+                    {{end}}
+                </div>
+
+                <h3>Upcoming Projects</h3>
+
+                <div class="projects-card-container">
+                    {{range .Data.Pages}}
+                        {{ if (not .Params.in_progress) }}
+                            {{ if (not .Params.order_page) }}
+                                {{ partial "project_card_planning.html" . }}
+                            {{end}}
+                        {{end}}
+                    {{end}}
+                </div>
+
+            </div>
+
+            <div class="col-md-3 project-sidebar">
+               {{ partial "projects_sidebar.html" . }}
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+{{ template "theme/partials/footer.html" . }}
+
+</body>
+</html>
