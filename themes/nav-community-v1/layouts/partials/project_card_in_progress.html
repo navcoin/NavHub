@@ -13,15 +13,15 @@
         {{ end}}
 
         {{ if (isset .Params "twitter_url") | ( not (eq .Params.twitter_url "")) }}
-        <label><i class="fa fa-twitter"></i></label>
+        <a href="{{.Params.twitter_url}}" target="_blank"><label><i class="fa fa-twitter"></i></label></a>
         {{end}}
 
         {{ if (isset .Params "github_url") | ( not (eq .Params.github_url "")) }}
-        <label><i class="fa fa-github"></i></label>
+        <a href="{{.Params.github_url}}" target="_blank"><label><i class="fa fa-github"></i></label></a>
         {{end}}
 
         {{ if (isset .Params "reddit_url") | ( not (eq .Params.reddit_url "")) }}
-        <label><i class="fa fa-reddit"></i></label>
+        <a href="{{.Params.reddit_url}}" target="_blank"><label><i class="fa fa-reddit"></i></label></a>
         {{end}}
 
         {{ if (isset .Params "project_url") | ( not (eq .Params.project_url "")) }}
