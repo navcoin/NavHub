@@ -36,7 +36,7 @@
             <h2>In Progress</h2>
             <hr>
             <div>
-                {{range (.Site.Pages.ByWeight)  }}
+                {{range (.Site.Pages.ByParam "percent_complete").Reverse  }}
                     {{ if (.Params.show_on_roadmap) }}
                         {{ if (.Params.in_progress) }}
                             {{ partial  "roadmap_item_in_progress.html" . }}
