@@ -81,31 +81,31 @@
         margin: 15px 15px 0 0;
         padding: 0 20px 10px 20px ;
         max-width: 400px;
+    }
 
-        .info-links {
+}
 
-            display: flex;
-            align-items: center;
+.info-links {
+
+    display: flex;
+    align-items: center;
 
 
-            label {
-                cursor: pointer;
+    label {
+        cursor: pointer;
 
-                &.card-author {
-                    font-size: 12px;
-                    padding: 6px 10px;
-                }
-
-                i {
-                    padding:10px;
-                }
-
-                margin-right: 5px;
-                background-color: hsla(0, 0%, 13%, 0.5);;
-                color: #fff;
-            }
-
+        &.card-author {
+            font-size: 12px;
+            padding: 6px 10px;
         }
+
+        i {
+            padding:10px;
+        }
+
+        margin-right: 5px;
+        background-color: hsla(0, 0%, 13%, 0.5);;
+        color: #fff;
     }
 
 }

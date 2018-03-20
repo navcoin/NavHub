@@ -21,6 +21,7 @@ reddit_url: ""
 twitter_url: ""
 card_color: "#7d5ab5"
 font_color: "#fff"
+weight: 0
 ---
 
 After the success of the NavPi project, NavCore have decided to fully re-engineer the NavPi from the ground up to make it even better and easier to use. 

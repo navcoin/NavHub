@@ -54,18 +54,19 @@
     margin: 15px 15px 0 0;
     padding: 0 20px 10px 20px;
     max-width: 400px; }
-    .projects-card-container .project-card .info-links {
-      display: flex;
-      align-items: center; }
-      .projects-card-container .project-card .info-links label {
-        cursor: pointer;
-        margin-right: 5px;
-        background-color: rgba(33, 33, 33, 0.5);
-        color: #fff; }
-        .projects-card-container .project-card .info-links label.card-author {
-          font-size: 12px;
-          padding: 6px 10px; }
-        .projects-card-container .project-card .info-links label i {
-          padding: 10px; }
+
+.info-links {
+  display: flex;
+  align-items: center; }
+  .info-links label {
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: rgba(33, 33, 33, 0.5);
+    color: #fff; }
+    .info-links label.card-author {
+      font-size: 12px;
+      padding: 6px 10px; }
+    .info-links label i {
+      padding: 10px; }
 
 /*# sourceMappingURL=nav.css.map */

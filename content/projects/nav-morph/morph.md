@@ -21,6 +21,7 @@ project_url: ""
 twitter_url: "https://twitter.com/navcoin" 
 card_color: "#7d5ab5"
 font_color: "#fff"
+weight: 0
 ---
 
 Formally Polymorph, NavMorph is a fusion of NavTech Private Payments and instant exchange technology to enable sending supported cryptocurrencies privately. 

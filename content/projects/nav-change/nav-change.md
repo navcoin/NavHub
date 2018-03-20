@@ -12,7 +12,7 @@ feature_image: ""
 show_title_text: false
 in_progress: false
 completed: false
-show_on_roadmap: false
+show_on_roadmap: true
 percent_complete: 0
 github_url: ""
 twitter_url: ""
@@ -20,6 +20,7 @@ reddit_url: ""
 project_url: "" 
 card_color: "#7d5ab5"
 font_color: "#fff"
+weight: 0
 ---
 
 
