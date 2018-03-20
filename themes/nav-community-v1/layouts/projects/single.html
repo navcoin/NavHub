@@ -4,86 +4,64 @@
 
 {{ template "theme/partials/head.html" . }}
 
-<body>
+<body data-spy="scroll" data-target="#header-menu">
 
-{{ template "theme/partials/header_two.html" . }}
+{{ template "theme/partials/header_three_title.html" . }}
 
 
 
-<div class="appiex-blog-content section-ptb-2">
+
+<div class="appix-blog-content section-ptb-2">
     <div class="container">
+
         <div class="row">
-            <div class="col-sm-12 col-md-8">
-                <div class="blog-item">
-                    <div class="details-img"><img alt="{{.Params.title}}" src="{{ .Params.feature_image }}"></div>
-                    <div class="blog-details">
-                        {{if .Params.show_title}}
-                            <h3 class="blog-title">{{.Title}}</h3>
-                            <div class="news-content">
-                                {{ .Content }}
-                            </div>
-                        {{else}}
-                            <div class="news-content" style="margin-top: 20px">
-                                {{ .Content }}
-                            </div>
-                        {{end}}
-                    </div>
-
-
-                    <div class="blog-meta-wrapper">
-                        <div class="blog-meta">
-
-                            {{ if .Params.author }}
-                            <div class="blog-author">
-                                <i class="fa fa-user-o"></i> {{.Params.author}}
-                            </div>
-                            {{end}}
-                        </div>
-                        {{ template "theme/partials/social_share.html" . }}
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                </div>
+            <div class="col-xs-12 col-sm-12">
+                {{ .Content }}
             </div>
-
-            <div class="col-md-3 col-sm-12 col-md-offset-1">
-                <div class="sidebar">
-
-
-                    <div class="widget">
-                        <h3 class="widget-title">Topics Category</h3>
-                        <ul>
-
-                            {{ range first 10 .Site.Taxonomies.categories.ByCount }}
-                                <li class="cat-item" ><a href="/categories/{{ .Name | urlize }}">{{ .Name }}</a> </li>
-                            {{ end }}
-
-                        </ul>
-                    </div>
-                    <div class="widget custom">
-                        <h3 class="widget-title">Recent Posts</h3>
-                        <ul>
-
-
-                            {{ range first 5 .Site.Pages }}
-                                {{if eq .Type "news" }}
-                                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                                {{ end }}
-                            {{ end }}
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
         </div>
+
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-9">
+
+                <h3>Projects in Progress</h3>
+                <div class="projects-card-container">
+
+                    {{range .Data.Pages}}
+                        {{ if (.Params.in_progress) }}
+                            {{ partial  "project_card_in_progress.html" . }}
+                        {{end}}
+
+                    {{end}}
+                </div>
+
+                <h3>Upcoming Projects</h3>
+
+                <div class="projects-card-container">
+                    {{range .Data.Pages}}
+                    {{ if not .Params.in_progress }}
+                    {{ partial "project_card_planning.html" . }}
+                    {{end}}
+                    {{end}}
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <h2>Side bae</h2>
+            </div>
+        </div>
+
+
+
     </div>
-</div><!-- start get appix now -->
+</div>
 
 
 
+
+
+{{ template "theme/partials/footer.html" . }}
 
 </body>
 </html>

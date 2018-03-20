@@ -1,70 +1,56 @@
-
-
 .news-content ul {
-
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
-
-    color: #777777;
-    font-size: 15px;
-    line-height: 24px;
-
-}
-
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  color: #777777;
+  font-size: 15px;
+  line-height: 24px; }
 
 .main-slider-overlay {
-    background: -moz-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(52, 193, 239, 0.88)), color-stop(100%, rgb(221, 56, 194)), color-stop(100%, rgb(221, 56, 194)));
-    background: -webkit-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    background: -o-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    background: -ms-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    background: linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff698e', endColorstr='#3694f4', GradientType=1);
-}
-
+  background: -moz-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(52, 193, 239, 0.88)), color-stop(100%, #dd38c2), color-stop(100%, #dd38c2));
+  background: -webkit-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+  background: -o-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+  background: -ms-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+  background: linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%); }
 
 .bg-gradient {
-    background: -moz-linear-gradient(35deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
-    /* ff3.6+ */
-
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(221, 56, 194)), color-stop(100%, rgb(52, 193, 239)));
-    /* safari4+,chrome */
-
-    background: -webkit-linear-gradient(35deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
-    /* safari5.1+,chrome10+ */
-
-    background: -o-linear-gradient(35deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
-    /* opera 11.10+ */
-
-    background: -ms-linear-gradient(35deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
-    /* ie10+ */
-
-    background: linear-gradient(55deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
-    /* w3c */
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f96a91', endColorstr='#3694F4', GradientType=1);
-    /* ie6-9 */
-}
+  background: -moz-linear-gradient(35deg, #dd38c2 0%, #34c1ef 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #dd38c2), color-stop(100%, #34c1ef));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(35deg, #dd38c2 0%, #34c1ef 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(35deg, #dd38c2 0%, #34c1ef 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(35deg, #dd38c2 0%, #34c1ef 100%);
+  /* ie10+ */
+  background: linear-gradient(55deg, #dd38c2 0%, #34c1ef 100%);
+  /* w3c */ }
 
 .contrib-discussion {
-    display: inline-block;
-    margin-right: 15px;
-}
-
-.contrib-discussion figcaption p {
-    text-align: center;
-}
+  display: inline-block;
+  margin-right: 15px; }
+  .contrib-discussion figcaption p {
+    text-align: center; }
 
 .play-store-button {
-    padding: 18px 25px !important;
-}
+  padding: 18px 25px !important; }
 
-.play-store-button:after {
-    display: none;
+.projects-card-container {
+  display: flex;
+  flex-wrap: wrap; }
+  .projects-card-container .project-card {
+    margin: 15px 15px 0 0;
+    padding: 0 20px 10px 20px;
+    max-width: 400px; }
+    .projects-card-container .project-card .info-links label {
+      padding: 2px 7px;
+      background-color: rgba(33, 33, 33, 0.5);
+      color: #fff; }
 
-}
+/*# sourceMappingURL=nav.css.map */

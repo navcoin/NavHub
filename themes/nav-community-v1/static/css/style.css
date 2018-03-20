@@ -61,6 +61,7 @@
     outline: none;
 }
 body {
+    color: #222222;
    font-family: 'Roboto Slab', serif;
     font-weight: 400;
     line-height: 25px;
@@ -98,7 +99,7 @@ img {
     max-width: 100%;
 }
 p {
-    color: #222222;
+    /*color: #222222;*/
 }
 /*=========================
     2.Typography	

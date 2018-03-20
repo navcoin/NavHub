@@ -10,9 +10,15 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
+in_progress: false
+completed: false
+show_on_roadmap: false
 percent_complete: 0
 github_url: ""
-reddit_thread: ""
-project_site: ""
+project_url: "" 
+reddit_url: ""
+twitter_url: ""
+card_color: ""
+font_color: ""
 ---
 

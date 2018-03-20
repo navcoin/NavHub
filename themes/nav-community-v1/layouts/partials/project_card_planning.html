@@ -1,0 +1,26 @@
+<div class="project-card" style="background-color: {{.Params.card_color}}; color: {{.Params.font_color}} !important">
+    <h3 >{{ .Title }} @ {{.Params.percent_complete}}%</h3>
+    <div style="color: {{.Params.font_color}} !important; ">{{.Summary}}</div>
+    <div class="info-links">
+
+        {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}
+        <label class="">{{ .Params.author}}</label>
+        {{ end}}
+
+        {{ if (isset .Params "twitter_url") | ( not (eq .Params.twitter_url "")) }}
+        <label><i class="fa fa-twitter"></i></label>
+        {{end}}
+
+        {{ if (isset .Params "github_url") | ( not (eq .Params.github_url "")) }}
+        <label><i class="fa fa-github"></i></label>
+        {{end}}
+
+        {{ if (isset .Params "reddit_url") | ( not (eq .Params.reddit_url "")) }}
+        <label><i class="fa fa-reddit"></i></label>
+        {{end}}
+
+        {{ if (isset .Params "project_url") | ( not (eq .Params.project_url "")) }}
+        <a href="{{.Params.project_url}}" target="_blank"><label><i class="fa fa-link"></i></label></a>
+        {{end}}
+    </div>
+</div>

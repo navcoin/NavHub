@@ -16,52 +16,47 @@
 
         <div class="row">
             <div class="col-xs-12 col-sm-12">
-
                 {{ .Content }}
             </div>
         </div>
 
+
         <div class="row">
-            {{ range .Data.Pages }}
-            <div class="col-xs-12 col-sm-6">
-                <div class="blog-item">
-                    <a href="{{ .URL }}"> <div class="blog-image" style="background-image:url({{ .URL }}/{{ .Params.feature_image }});">
-                        <div class="item-overlay"></div>
-                    </div>
-                    </a>
-                    <div class="blog-details">
-                        <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
-                        <ul class="blog-author-name">
-                            <li><i class="fa fa-user-o"></i>{{ .Params.author }}</li>
+            <div class="col-xs-12 col-sm-9">
 
-                            {{ range .Params.categories }}
-                            <li><i class="fa fa-folder-open-o"></i> {{.}}</li>
-                            {{ end }}
+                <h3>Projects in Progress</h3>
+                <div class="projects-card-container">
+                {{range .Data.Pages}}
 
-
-                        </ul>
-                        <div class="blog-excerpt">
-                            {{.Summary}}
-                        </div>
-                        <div class="read-more">
-                            <div class="themeix-button-group">
-
-
-
-                                <a href="{{ .URL }}" class="themeix-btn themeix-danger">read more</a>
-                            </div>
-                        </div>
-                        {{ template "theme/partials/social_share.html" . }}
-                    </div>
+                    {{ if (.Params.in_progress) }}
+                        {{ partial  "project_card_in_progress.html" . }}
+                    {{end}}
+                {{end}}
                 </div>
+
+                <h3>Upcoming Projects</h3>
+
+                <div class="projects-card-container">
+                    {{range .Data.Pages}}
+                        {{ if (not .Params.in_progress) }}
+                            {{ if (not .Params.order_page) }}
+                                {{ partial "project_card_planning.html" . }}
+                            {{end}}
+                        {{end}}
+                    {{end}}
+                </div>
+
             </div>
-            {{end}}
+
+            <div class="col-md-3">
+                <h2>Side bar</h2>
+            </div>
         </div>
+
+
+
     </div>
 </div>
-
-
-
 
 
 {{ template "theme/partials/footer.html" . }}
