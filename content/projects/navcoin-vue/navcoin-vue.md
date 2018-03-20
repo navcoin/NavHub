@@ -11,7 +11,7 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-percent_complete: 5
+percent_complete: 10
 in_progress: true
 completed: false
 show_on_roadmap: false

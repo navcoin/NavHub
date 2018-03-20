@@ -44,6 +44,9 @@
 .play-store-button {
   padding: 18px 25px !important; }
 
+.play-store-button:after {
+  content: ""; }
+
 .projects-card-container {
   display: flex;
   flex-wrap: wrap; }
