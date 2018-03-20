@@ -1,6 +1,7 @@
 ---
 title: "Navcoin Vue"
-date: 2018-03-20T11:45:17+13:00
+date: 2018-03-19T11:45:17+13:00
+lastmod: 2018-03-20T11:45:17+13:00
 draft: false
 author: "Sakdeniz"
 description: "s"

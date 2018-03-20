@@ -21,10 +21,9 @@
 
         <div class="row">
             <div class="col-xs-12 col-sm-9">
-
                 <h3>Projects in Progress - Order by Last updated</h3>
                 <div class="projects-card-container">
-                    {{range .Site.Pages.ByLastmod  }}
+                    {{range (.Site.Pages.ByLastmod).Reverse  }}
                         {{ if (.Params.in_progress) }}
                             {{ partial  "project_card_in_progress.html" . }}
                         {{end}}
