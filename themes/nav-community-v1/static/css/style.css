@@ -3221,3 +3221,21 @@ ul li.cat-item a {
 .blog-meta-wrapper .blog-author{
  color:#7d5ab5;
 }
+
+/* ==========================================================================
+                 Progress bars
+   ========================================================================== */
+
+.progress-bar {
+    color: #fff;
+    background: rgba(125,90,181,1);
+    background: -moz-linear-gradient(-45deg, rgba(125,90,181,1) 0%, rgba(125,185,232,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(125,90,181,1)), color-stop(100%, rgba(125,185,232,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(125,90,181,1) 0%, rgba(125,185,232,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(125,90,181,1) 0%, rgba(125,185,232,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(125,90,181,1) 0%, rgba(125,185,232,1) 100%);
+    background: linear-gradient(135deg, rgba(125,90,181,1) 0%, rgba(125,185,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d5ab5', endColorstr='#7db9e8', GradientType=1 );
+}
+
+
