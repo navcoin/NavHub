@@ -6,10 +6,10 @@
   /* conta us */
 .change-color{
 	color: #fff;
-} 
+}
 .about-appix-left-img{
 	margin-top: 95px;
-} 
+}
 .first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
 	transform-origin: 581% 50%;
 }
@@ -25,7 +25,7 @@ span.price-tag {
 .navbar-nav li a {
 		padding: 12px 13px;
 		font-size: 15px;
-	 
+
 		text-transform: uppercase;
 		display: block;
 		transition: all 0.5s ease-in-out;
@@ -90,7 +90,7 @@ span.price-tag {
 }
 /* exclusive feature */
 .padd-minus{
-    padding: 12px 0px!important;        
+    padding: 12px 0px!important;
 }
 /* testimonials */
 .pb-120 {
@@ -169,8 +169,8 @@ span.price-tag {
 .main-menu .navbar-nav li a:hover {
 	background-color:transparent;
 }
- 
- 
+
+
 /* slider area */
 .first-skew-sub-1{
         display: none;
@@ -182,7 +182,7 @@ span.price-tag {
 .caption-area .caption-heading {
 	line-height: 56px;
 	margin-bottom: 40px;
-} 
+}
 .caption-area .caption-para {
 	font-size: 24px;
 	margin-bottom: 20px;
@@ -217,7 +217,7 @@ h1 {
 	padding-bottom: 20px;
 	overflow: hidden;
 }
-    
+
 /* exclusive feature*/
 .themeix-section-heading-title h2{
     font-size: 30px;
@@ -238,13 +238,13 @@ h1 {
 .content-section p::after {
 	right: -23px;
 	bottom: 134px;
-	
+
 }
 /* get appix now */
     .play-store-button {
 	padding: 18px 5px;
-	 margin-right: 0px; 
-	
+	 margin-right: 0px;
+
 }
 .play-store-button {
 	padding: 18px 5px;
@@ -262,15 +262,15 @@ h1 {
 	padding-top: 60px;
 }
 .padd-minus{
-    padding: 0px 0px!important;        
+    padding: 0px 0px!important;
 }
- 
+
 .main-menu ul.navbar-nav li a:hover{
-	color: #F86A90;
+	color: #7d5ab5;
 }
 
 .stickey .main-menu ul li a:hover{
-    color: #F86A90 !important;
+    color: #7d5ab5 !important;
 }
 .custom-toggle i{
 	color:#424242;
@@ -303,7 +303,7 @@ span.price-tag {
 .play-store-button::after {
 	font-size:10px;
 }
- 
+
 .overlay-color.pt-70 {
 	padding-top:20px;
 }
@@ -371,7 +371,7 @@ span.price-tag {
 
 /* Large mobile layout */
 @media(min-width: 480px) and (max-width: 767px){
-    
+
   .single-pricing {
   margin-bottom: 40px;
   margin-left: auto;

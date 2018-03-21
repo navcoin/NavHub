@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------------------------------
-   
+
     Template name: Appix - App Landing Page
     Author: themeix_lab
     Template URI: https://themeforest.net/item/appix-creative-app-landing-page-html5-template-rtl-included/19970801?ref=themeix
@@ -7,7 +7,7 @@
     Design and Developed by: themeix_lab
     Version: 1.2
     Author URI: https://themeforest.net/user/themeix_lab
-	
+
 -----------------------------------------------------------------
 
 
@@ -15,13 +15,13 @@
     =========================
 
     1. General CSS
-    2.Typography	
+    2.Typography
 		2.1. Browser Upgrade Prompt
 		2.2. Default CSS
-		2.3. All Padding Margin	
+		2.3. All Padding Margin
 	3. Main Menu
-	4. Slider	
-	5. About Section	
+	4. Slider
+	5. About Section
 	6. Sticky Menu
 	7. About Fixing
 	8. Our Services
@@ -30,7 +30,7 @@
 	11. App Screenshorts
 	12. App Video
 	13. Testimonials
-	14. Pricing 
+	14. Pricing
 	15. Get appix now
 	16. Contact us
 	17. Footer Area
@@ -38,15 +38,15 @@
 	19. Page Header Background (All)
 	20. Blog
 	21. Pagination
-	22. Blog Footer 
-	23. Blog sidebar 
+	22. Blog Footer
+	23. Blog sidebar
 	24. Left bottom link item
 	25. Comment
 	26. Preloader
 	27. Homepage Dark Version
 	28. Homepage Version 3
 	29. Homepage Version 2
-	30. Print styles	
+	30. Print styles
 
 
 
@@ -115,7 +115,7 @@ h2 {
 }
 h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 21px;
 }
 h4 {
     font-family: 'Raleway', sans-serif;
@@ -311,7 +311,7 @@ header {
 .logo-brand {
     float: left;
 }
- 
+
 .log-icon {
     float: left;
     font-size: 43px;
@@ -346,14 +346,17 @@ header {
     padding: 8px 15px;
     font-size: 16px;
     display: block;
-    transition: all 0.5s ease-in-out;
+    transition: none;
     font-weight: 400;
 	color: #222222;
 }
 .main-menu .navbar-nav li a:hover {
     color: #fff;
-    background-color: #f86a90;
+    background-color: #7d5ab5;
     border-radius: 39px;
+    -webkit-box-shadow: -1px -1px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px -1px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px -1px 14px 2px rgba(0, 0, 0, 0.2);
 }
 .stickey .navbar-nav li a:hover {
     background-color: transparent!important;
@@ -378,7 +381,7 @@ header.stickey .logo-brand img{
 	    height: 30px;
     width: auto!Important;
     margin-top: 9px;
-} 
+}
 
 /* ==========================================
 	4. Slider
@@ -569,7 +572,7 @@ header.stickey .logo-brand img{
 }
 .themeix-section-heading-title h2 {
     margin-top: 0;
-  
+
     color: #3f8ee8;
 }
 .themeix-section-heading-title .head-title {
@@ -748,22 +751,22 @@ header.stickey .logo-brand img{
 .bg-gradient {
     background: -moz-linear-gradient(35deg, rgba(249, 106, 145, 1) 0%, rgba(54, 148, 244, 1) 100%);
     /* ff3.6+ */
-    
+
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(249, 106, 145, 1)), color-stop(100%, rgba(54, 148, 244, 1)));
     /* safari4+,chrome */
-    
+
     background: -webkit-linear-gradient(35deg, rgba(249, 106, 145, 1) 0%, rgba(54, 148, 244, 1) 100%);
     /* safari5.1+,chrome10+ */
-    
+
     background: -o-linear-gradient(35deg, rgba(249, 106, 145, 1) 0%, rgba(54, 148, 244, 1) 100%);
     /* opera 11.10+ */
-    
+
     background: -ms-linear-gradient(35deg, rgba(249, 106, 145, 1) 0%, rgba(54, 148, 244, 1) 100%);
     /* ie10+ */
-    
+
     background: linear-gradient(55deg, rgba(249, 106, 145, 1) 0%, rgba(54, 148, 244, 1) 100%);
     /* w3c */
-    
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f96a91', endColorstr='#3694F4', GradientType=1);
     /* ie6-9 */
 }
@@ -829,7 +832,7 @@ header.stickey .logo-brand img{
     font-size: 24px;
     line-height: 22px;
     margin-right: 20px;
-    color: #f86a90;
+    color: #7d5ab5;
     width: 40px;
     margin-right: 0;
     text-align: left;
@@ -848,7 +851,7 @@ header.stickey .logo-brand img{
     font-size: 20px;
     margin-bottom: 5px;
 
-    color: #f86a90;
+    color: #7d5ab5;
 }
 .feature-section.highlight {
     padding-bottom: 15px;
@@ -1085,7 +1088,7 @@ header.stickey .logo-brand img{
 }
 .owl-controls .owl-nav div {
     display: inline-block;
-    background: #F86A90;
+    background: #7d5ab5;
     width: 30px;
     height: 30px;
     text-align: center;
@@ -1100,7 +1103,7 @@ header.stickey .logo-brand img{
     width: 100%;
     text-align: center;
     /* top: 31px; */
-    
+
     bottom: -6px;
 }
 .owl-next {
@@ -1108,11 +1111,11 @@ header.stickey .logo-brand img{
 }
 .owl-nav div.owl-next {
     /* margin-left: 61px; */
-    
+
     left: 57px;
 }
 /* ==========================================
-14. Pricing 
+14. Pricing
    ========================================== */
 
 section#pricing {
@@ -1385,15 +1388,15 @@ ul.pricing-plan li {
     border-radius: 4px;
     font-size: 34px;
     overflow: hidden;
-padding-top: 25px;
+    padding-top: 25px;
     margin-right: 25px;
-    transition: all .4s linear 0s;
+    transition: none;
 }
 .play-store-button:hover {
     color: #FFFFFF;
-    -webkit-box-shadow: -1px -1px 27px 2px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: -1px -1px 27px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: -1px -1px 17px 8px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: -1px -1px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px -1px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px -1px 14px 2px rgba(0, 0, 0, 0.2);
 }
 .itune-change-bg-color {
     background: #3D93F1;
@@ -1517,28 +1520,28 @@ textarea:focus {
 }
 input::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    
+
     color: #606060;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 input::-moz-placeholder {
     /* Firefox 19+ */
-    
+
     color: #606060;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 input:-ms-input-placeholder {
     /* IE 10+ */
-    
+
     color: #606060;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 input:-moz-placeholder {
     /* Firefox 18- */
-    
+
     color: #606060;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -1605,7 +1608,7 @@ textarea:-moz-placeholder {
    ========================================== */
 
 #scrollUp {
-    background: #F86A90 none repeat scroll 0 0;
+    background: #7d5ab5 none repeat scroll 0 0;
     bottom: 40px;
     color: #FFFFFF;
     font-size: 20px;
@@ -1723,10 +1726,10 @@ ul.page-list li a {
     min-height: 275px;
 }
 .blog-details h3 a {
-    font-size:30px;
+    font-size:21px;
     text-transform: NONE;
     font-weight: 700;
-      margin: 0px;
+    margin: 0px;
     margin-bottom: 0px;
     text-decoration: none;
     color: #333;
@@ -1744,7 +1747,7 @@ ul.page-list li a {
     font-size: 30px;
 }
 .blog-details h3 a:hover {
-    color: #f86a90;
+    color: #7d5ab5;
 }
 ul.blog-author-name li {
     display: inline-block;
@@ -1758,7 +1761,7 @@ ul.blog-author-name li i {
     margin-right: 10px;
     color: #9d9d9d;
 }
-.blog-details p {   
+.blog-details p {
     color: #777777;
     font-size: 15px;
     line-height: 24px;
@@ -1786,7 +1789,7 @@ ul.blog-author-name li i {
     font-size: 16px;
     text-transform: uppercase;
     margin-right: 20px;
-    color: #F86A90;
+    color: #7d5ab5;
 }
 ul.social-icon {
     display: inline-block;
@@ -1862,8 +1865,8 @@ a {
     margin-bottom: 10px;
 }
 .tag-clouds a {
-    border: 1px solid #f86a90;
-    color: #f86a90;
+    border: 1px solid #7d5ab5;
+    color: #7d5ab5;
     padding: 5px 10px;
     margin-right: 5px;
 }
@@ -1898,7 +1901,7 @@ a {
     transition:all .4s linear 0s;
 }
 .hover-color:hover {
-    color: #f86a90;;
+    color: #7d5ab5;
 }
  h5.author-title {
     color: #333333;
@@ -1916,9 +1919,9 @@ a {
     padding-right: 5px;
 }
 .blog-cats a, .blog-author a {
-    color: #f86a90;
+    color: #7d5ab5;
 }
-.previous-blog-post a, .previous-blog-post i, 
+.previous-blog-post a, .previous-blog-post i,
 .next-blog-post a, .next-blog-post i
 {
     color: #3d93f1;
@@ -1963,7 +1966,7 @@ a {
     color: #FFFFFF;
 }
 /* ==========================================
-           22. Blog Footer 
+           22. Blog Footer
  ========================================== */
 
 .footer-area {
@@ -2014,7 +2017,7 @@ a {
     transform: scale(1.1);
 }
 .themeix-color {
-    background-color: #F86A90;
+    background-color: #7d5ab5;
 }
 .twitter-color {
     background-color: #55ACEE;
@@ -2049,7 +2052,7 @@ a {
     display: inline-block;
 }
 .widget-content ul li a:hover {
-    color: #f86a90;
+    color: #7d5ab5;
 }
 .newsletter {
     position: relative;
@@ -2086,7 +2089,7 @@ a {
     background-color: rgba(61, 147, 241, .80);
 }
 /* ==========================================
-           23. Blog sidebar 
+           23. Blog sidebar
    ========================================== */
 
 .details-img img {
@@ -2120,7 +2123,7 @@ a {
     margin-top: 0;
 }
 .sidebar ul li a:hover {
-    color: #F86A90;
+    color: #7d5ab5;
 }
 .tagcloud > li {
     list-style: outside none none;
@@ -2190,7 +2193,7 @@ ul.tagcloud li.widget-active a {
     position: relative;
 }
 .author-box {
-    background: #F86A90;
+    background: #7d5ab5;
     display: inline-block;
     min-height: 50px;
 }
@@ -2365,7 +2368,7 @@ textarea.form-control {
     display: inline-block;
     font-size: 16px;
     line-height: 24px;
-    background: #f86a90;
+    background: #7d5ab5;
     margin-right: 12px;
     font-weight: 400;
 
@@ -2383,7 +2386,7 @@ textarea.form-control {
     width: 100%;
     height: 0;
     position: absolute;
-    background-color: #F86A90;
+    background-color: #7d5ab5;
     top: 50%;
     left: 0;
     transition: 0.4s;
@@ -2401,7 +2404,7 @@ textarea.form-control {
     width: 100%;
     height: 0;
     position: absolute;
-    background-color: #F86A90;
+    background-color: #7d5ab5;
     bottom: 50%;
     left: 0;
     transition: 0.4s;
@@ -2991,8 +2994,8 @@ textarea.form-control {
         opacity: 0;
     }
 }
- 
-  
+
+
 
 /* =======================================
         28. Homepage Version 3
@@ -3105,7 +3108,7 @@ textarea.form-control {
         color: #000 !important;
         /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-        
+
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -3123,7 +3126,7 @@ textarea.form-control {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-    
+
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -3137,7 +3140,7 @@ textarea.form-control {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-    
+
     thead {
         display: table-header-group;
     }
@@ -3216,5 +3219,5 @@ ul li.cat-item a {
 
 .blog-meta-wrapper .blog-cats,
 .blog-meta-wrapper .blog-author{
- color:#F86A90;
+ color:#7d5ab5;
 }

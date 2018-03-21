@@ -16,7 +16,7 @@ completed: false
 show_on_roadmap: false
 percent_complete: 0
 github_url: ""
-project_url: "" 
+project_url: ""
 reddit_url: ""
 twitter_url: ""
 card_color: ""
