@@ -6,14 +6,14 @@
             <div class="about-pb">
                 <div class="col-md-6">
                     <div class="about-appix-left-img">
-                        <img src="/images/nav-logo-1.png" alt="about" class="img-responsive">
+                        <img src="{{ .Get "imgSrc" }}" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="about-appix-right-content">
-                        <h2 class="themeix-title-h1">NavCoin is a decentralized cryptocurrency</h2>
-                        <p class="para-mb">NavCoin is a decentralized cryptocurrency that uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of NavCoin is carried out collectively by the network.</p>
-                        <p class="light-300 color-change">NavCoin is open-source; its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
+                        <h2 class="themeix-title-h1">{{ .Get "title"}}</h2>
+                        <div class="para-mb">{{ .Inner }}</div>
+                        <!--<p class="light-300 color-change">NavCoin is open-source; its design is public, nobody owns or controls NavCoin and everyone can take part.</p>-->
                         <div class="themeix-button-group">
                             <a href="#pricing" class="themeix-btn themeix-danger smoothScroll">NavCoin.org</a>
                             <a href="#get-apps" class="themeix-btn bg-change themeix-info smoothScroll">Help make nav better</a>

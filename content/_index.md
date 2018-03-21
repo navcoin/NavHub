@@ -16,3 +16,11 @@ draft: false
     button2Link = "/get-involved">}}
 
 
+{{< home_left_image_section 
+    title="NavCoin is a decentralized cryptocurrency"
+    imgSrc="/images/nav-logo-1.png">}}
+    
+    <p>NavCoin is a decentralized cryptocurrency that uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of NavCoin is carried out collectively by the network.</p>
+    <p>NavCoin is open-source; its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
+
+{{< /home_left_image_section >}}
