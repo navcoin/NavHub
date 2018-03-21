@@ -1,9 +1,5 @@
-
-
 baseURL = "https://examplesn.com"
 theme = "nav-community-v1"
-
-
 
 # English is the default language
 defaultContentLanguage = "en"
