@@ -17,13 +17,13 @@ completed: false
 show_on_roadmap: false
 github_url: "sdfsdf"
 reddit_url: ""
-project_url: "" 
-twitter_url: "https://twitter.com/navcoin" 
+project_url: ""
+twitter_url: "https://twitter.com/navcoin"
 card_color: "#7d5ab5"
 font_color: "#fff"
 weight: 0
 ---
 
-Formally Polymorph, NavMorph is a fusion of NavTech Private Payments and instant exchange technology to enable sending supported cryptocurrencies privately. 
+Formally Polymorph, NavMorph is a fusion of NavTech Private Payments and instant exchange technology to enable sending supported cryptocurrencies privately.
 <!--more-->
 

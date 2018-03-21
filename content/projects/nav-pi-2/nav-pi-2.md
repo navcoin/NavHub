@@ -16,7 +16,7 @@ completed: false
 show_on_roadmap: false
 percent_complete: 35
 github_url: "https://github.com/NAVCoin/navpi-go"
-project_url: "" 
+project_url: ""
 reddit_url: ""
 twitter_url: ""
 card_color: "#7d5ab5"
@@ -24,6 +24,6 @@ font_color: "#fff"
 weight: 0
 ---
 
-After the success of the NavPi project, NavCore have decided to fully re-engineer the NavPi from the ground up to make it even better and easier to use. 
+After the success of the NavPi project, NavCore have decided to fully re-engineer the NavPi from the ground up to make it even better and easier to use.
 <!--more-->
 

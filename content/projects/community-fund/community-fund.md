@@ -16,8 +16,8 @@ completed: false
 show_on_roadmap: true
 github_url: ""
 reddit_url: ""
-project_url: "" 
-twitter_url: "https://twitter.com/navcoin" 
+project_url: ""
+twitter_url: "https://twitter.com/navcoin"
 card_color: "#7d5ab5"
 font_color: "#fff"
 weight: 100

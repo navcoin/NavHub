@@ -5,10 +5,10 @@ The Navcoin community site is maintained by the community
 Want to add a project, update or fix some errors. Then plase fork the project and get changing.
 
 ## Geting started
-The Nav Community site is built with the static site generator [Hugo](https://gohugo.io/). 
+The Nav Community site is built with the static site generator [Hugo](https://gohugo.io/).
 
 ### Install Hugo
-You will need hugo installed on your system to preview any changes. Follow the install instructions for your OS here: 
+You will need hugo installed on your system to preview any changes. Follow the install instructions for your OS here:
 https://gohugo.io/getting-started/installing/
 
 ### Clone the project
@@ -43,7 +43,7 @@ description: ""                     - currently unused
 categories: ["Nav Coin Updates"]    - Cats
 resources: []                       - currently unused
 slug: ""                            - currenctly unused
-feature_image: "image.png"          - The image that should be herored 
+feature_image: "image.png"          - The image that should be herored
 show_title_text: false              - If you want to show the title below the image
 ```
 
@@ -55,7 +55,7 @@ When adding a project it is recommend you use the Hugo commandline tool as this 
 News page front-meta control:
 ```
 title: "Project name                - Project Name
-date: 2018-03-07T10:27:21+13:00     - The date and time published - defaults to date created        
+date: 2018-03-07T10:27:21+13:00     - The date and time published - defaults to date created
 lastmod: 2018-03-19T10:27:21+13:00  - The date md was last changed
 draft: true                         - Is the item a draft - if true it is not incuded in the site
 author: ""                          - Who is the project lead

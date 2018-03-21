@@ -17,12 +17,12 @@ completed: false
 show_on_roadmap: false
 github_url: ""
 reddit_url: ""
-project_url: "http://navcoin-vue.navcommunity.net" 
-twitter_url: "" 
+project_url: "http://navcoin-vue.navcommunity.net"
+twitter_url: ""
 card_color: "#ffa013"
 font_color: "#fff"
 weight: 0
 ---
 
-Building a desktop NavCoin wallet using Vue JS to give provide an alternative to NavCoin Core and an even more user friendly graphical interface. 
+Building a desktop NavCoin wallet using Vue JS to give provide an alternative to NavCoin Core and an even more user friendly graphical interface.
 <!--more-->

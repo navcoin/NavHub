@@ -16,13 +16,13 @@ completed: false
 show_on_roadmap: false
 github_url: ""
 reddit_url: ""
-project_url: "" 
-twitter_url: "https://twitter.com/navcoin" 
+project_url: ""
+twitter_url: "https://twitter.com/navcoin"
 card_color: "#7d5ab5"
 font_color: "#fff"
-weight: 0 
+weight: 0
 ---
 
-NavCore are working to define a strategic plan for NavCoin to help align community efforts. Once formalised, NavCore will create a content series to present their vision to the community for approval. 
+NavCore are working to define a strategic plan for NavCoin to help align community efforts. Once formalised, NavCore will create a content series to present their vision to the community for approval.
 <!--more-->
 
