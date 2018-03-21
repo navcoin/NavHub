@@ -76,7 +76,7 @@ reddit_url: ""                      - Reddit thread / URL - Optional
 twitter_url: ""                     - Project twitter url - Optional
 card_color: ""                      - Change the card color - Optional
 font_color: ""                      - Change the card font color - Optional
-weight: 0                           - Alows the default postion on the roadmap to be overridden
+weight: 0                           - Allows the default postion on the roadmap to be overridden
 ```
 ## Editing Layouts
 The layouts are held in the theme folder currently `nav-commnity-v1`. Please review the [Hugo documentation](https://gohugo.io/documentation/) for layout template information
