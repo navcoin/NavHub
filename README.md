@@ -1,45 +1,27 @@
 # Nav Community Site
-
 The Navcoin community site is maintained by the community
 
-## Contriuting to the site
+## Contributing to the site
+Want to add a project, update or fix some errors. Then plase fork the project and get changing.
 
- 
+## Geting started
+The Nav Community site is built with the static site generator [Hugo](https://gohugo.io/). 
 
+### Install Hugo
+You will need hugo installed on your system to preview any changes. Follow the install instructions for your OS here: 
+https://gohugo.io/getting-started/installing/
 
+### Clone the project
+You will need to fork and clone the project on github if you wish to make any changes to the site
 
-You can use the [editor on GitHub](https://github.com/NAVCoin/nav-community-site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Running the site
+With the site cloned and Hugo installed you will terminal to the site dir and run the site bu typing:
+```hugo server```
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This will serve the site on http://localhost:1313
 
-### Markdown
+Please note that hugo is a hot loading site and that changing and saving files will auto rebuild the site for you
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Editing Content
+All content for the site is held in markdown files in the content folder. The content sections match the sections of the site.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NAVCoin/nav-community-site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
