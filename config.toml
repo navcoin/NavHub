@@ -50,7 +50,7 @@ twitter_username = "navcoin"
     title = "Projects"
     weight = -110
     identifier = "Project"
-    url = "/projects/"
+    url = "/projects/order-by-progress/"
 [[menu.main]]
     name = "Roadmap"
     title = "Roadmap"
