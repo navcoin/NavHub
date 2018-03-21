@@ -30,7 +30,6 @@ draft: false
 {{< /home_left_image_section >}}
 
 
-
 {{< home_right_image_section 
     title="Right image section"
     imgSrc="/images/nav-logo-1.png"
@@ -42,3 +41,14 @@ draft: false
     <p>This is to show you that we have a right one as well - WHAT!!!</p> 
    
 {{< /home_right_image_section >}}
+
+{{< home_nav_features 
+    feature1Img = "images/service/icon-4.png"
+    feature1Title = "Fast Transactions"
+    feature1Txt = "No need to wait 10 minutes. Send NAV anywhere on the planet instantly and have it confirmed within 30 seconds."
+    feature2Img = "images/service/icon-3.png"
+    feature2Title = "Energy Efficient"
+    feature2Txt = "Nav Coin uses Proof of Stake which only consumes a fraction of the energy used to mine using Proof of Work."
+    feature3Img = "images/service/icon-2.png"
+    feature3Title = "Private Payments"
+    feature3Txt = "Optionally send private transactions through the open source NavTech private payment platform.">}}
