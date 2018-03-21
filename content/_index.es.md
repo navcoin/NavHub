@@ -10,6 +10,3 @@ secIntroThirdLine: "Want to make NavCoin better, see something you dont like. Th
 ---
 
 
-
-
-
