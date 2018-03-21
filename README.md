@@ -1,4 +1,12 @@
-## Welcome to GitHub Pages
+# Nav Community Site
+
+The Navcoin community site is maintained by the community
+
+## Contriuting to the site
+
+ 
+
+
 
 You can use the [editor on GitHub](https://github.com/NAVCoin/nav-community-site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
