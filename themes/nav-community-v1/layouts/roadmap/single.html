@@ -21,13 +21,13 @@
 
     <div class="row" style="margin-bottom: 150px;">
         <div class="col-xs-12 col-sm-12" >
-            <h2>Upcomming Projects</h2>
+            <h2>Upcoming Projects</h2>
             <hr>
             <div style="margin-bottom: 50px;">
                 {{range (.Site.Pages.ByWeight)  }}
                     {{ if (.Params.show_on_roadmap) }}
                         {{ if (not .Params.in_progress) }}
-                            {{ partial  "roadmap_item_upcomming.html" . }}
+                            {{ partial  "roadmap_item_upcoming.html" . }}
                         {{end}}
                     {{end}}
                 {{end}}
