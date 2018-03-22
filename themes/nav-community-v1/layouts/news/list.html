@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-
 {{ partial "head.html" . }}
 
 <body data-spy="scroll" data-target="#header-menu">
 
 {{ partial "header_two.html" . }}
-
 
 <div class="appix-blog-content section-ptb-2">
     <div class="container">
@@ -26,8 +24,6 @@
 
                             {{ range .Params.categories }}
                             <li><i class="fa fa-folder-open-o"></i> {{.}}</li>
-                            {{ end }}
-
 
                         </ul>
                         <div class="blog-excerpt">
@@ -35,9 +31,6 @@
                         </div>
                         <div class="read-more">
                             <div class="themeix-button-group">
-
-
-
                                 <a href="{{ .URL }}" class="themeix-btn themeix-danger">read more</a>
                             </div>
                         </div>
@@ -49,10 +42,6 @@
         </div>
     </div>
 </div>
-
-
-
-
 
 {{ template "theme/partials/footer.html" . }}
 

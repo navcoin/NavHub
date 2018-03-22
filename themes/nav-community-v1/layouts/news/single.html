@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-
 {{ template "theme/partials/head.html" . }}
 
 <body>
 
 {{ template "theme/partials/header_two.html" . }}
-
-
 
 <div class="appiex-blog-content section-ptb-2">
     <div class="container">
@@ -28,8 +25,6 @@
                             </div>
                         {{end}}
                     </div>
-
-
                     <div class="blog-meta-wrapper">
                         <div class="blog-meta">
 
@@ -41,16 +36,12 @@
                         </div>
                         {{ template "theme/partials/social_share.html" . }}
                     </div>
-
                     <div class="clearfix"></div>
-
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-12 col-md-offset-1">
                 <div class="sidebar">
-
-
                     <div class="widget">
                         <h3 class="widget-title">Topics Category</h3>
                         <ul>
@@ -65,25 +56,19 @@
                         <h3 class="widget-title">Recent Posts</h3>
                         <ul>
 
-
                             {{ range first 5 .Site.Pages }}
                                 {{if eq .Type "news" }}
                                     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                                 {{ end }}
                             {{ end }}
 
-
                         </ul>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div><!-- start get appix now -->
-
-
-
 
 </body>
 </html>
