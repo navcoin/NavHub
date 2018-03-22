@@ -35,10 +35,10 @@
 .page-header-bg {
   height: auto; }
 
-.contrib-discussion {
+.icon-block {
   display: inline-block;
   margin-right: 15px; }
-  .contrib-discussion figcaption p {
+  .icon-block figcaption p {
     text-align: center; }
 
 .play-store-button {
