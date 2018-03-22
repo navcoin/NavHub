@@ -17,17 +17,17 @@ The team have come back from their holidays feeling rested and energetic! After 
 ### Kickstart 2018
 We've spent the first few days catching up on emails/messages, and have started planning the year ahead. One of our first priorities is to spend some time nailing the vision & strategy for NavCoin going forward. While our goal has always been to create a platform that is exciting, ambitious and world-changing – we think we can do a better job at explaining this vision in a simple way on our website and in our marketing materials. It needs to be simple, unique, and get people excited – which is no easy task. Once we’ve completed our vision & strategy process, we will create a series of articles & content that we will share with everyone.
 
-With our initial planning well underway, we are currently putting together the official development roadmap for 2018. We have a lot of exciting projects we want to build this year alongside finishing what is on our current roadmap. Polymorph, ADapps and NavPi 2.0 are just the beginning. Keep your eyes peeled for the release of the official 2018 roadmap at the next weekly update to see what we have instore for this year.
+With our initial planning well underway, we are currently putting together the official development roadmap for 2018. We have a lot of exciting projects we want to build this year alongside finishing what is on our current roadmap. Polymorph, ADapps and NavPi 2.0 are just the beginning. Keep your eyes peeled for the release of the official 2018 roadmap at the next weekly update to see what we have in store for this year.
 
 ### NavPi Back in Stock
-Now that we are back in the office and can process orders again, we are opening another batch of NavPi in the NavCoin Store. The NavPi are Raspberry Pi devices which come with NavCoin staking software installed. With these you can earn your NAV staking rewards 24 hours a day without needing to have your laptop or computer running all the time. We use Proof of Stake mining which consumes very little electricity, so you can help maintain the NavCoin network and earn rewards for just cents a day.
+Now that we are back in the office and can process orders again, we are opening another batch of NavPi in the NavCoin Store. The NavPi are Raspberry Pi devices which come with NavCoin staking software installed. With these, you can earn your NAV staking rewards 24 hours a day without needing to have your laptop or computer running all the time. We use Proof of Stake mining which consumes very little electricity, so you can help maintain the NavCoin network and earn rewards for just cents a day.
 
 This batch will be limited to 60 NavPi, so make sure you get in quick if you want to get your hands on one: https://store.navcoin.org/product/navpi-stakebox
 
 If you already own a Raspberry Pi, we also have the image available for download on our website: https://navcoin.org/downloads/#nav-pi
 
 ### Electrum Export to NavPay
-After the NavCoin hardfork implemented in December, an unexpected side effect was that the NavCoin Electrum wallet has been unable to sign transactions. The NavCoin Electrum wallet is a product line which we are discontinuing in favour of of new thin client NavPay. With the combination of the hardfork signature issue and the recently reported security vulnerabilities in Bitcoin Electrum, we urge all NavCoin Electrum users to follow this guide and move their funds to NavPay.
+After the NavCoin hard fork implemented in December, an unexpected side effect was that the NavCoin Electrum wallet has been unable to sign transactions. The NavCoin Electrum wallet is a product line which we are discontinuing in favour of the new thin client NavPay. With the combination of the hard fork signature issue and the recently reported security vulnerabilities in Bitcoin Electrum, we urge all NavCoin Electrum users to follow this guide and move their funds to NavPay.
 
 https://navcoin.org/news/electrum-export-to-navpay
 
@@ -40,14 +40,14 @@ The Community Fund has passed its network vote late last year and is due to be i
 
 https://navcoin.org/files/navcoin-cfund-beta.pdf
 
-In its current format it is all managed through RPC commands. Once we are happy the basic implementation is working flawlessly, we will create an in-wallet UI for browsing and voting on proposals as well as providing proposal submission guidelines.
+In its current format, it is all managed through RPC commands. Once we are happy the basic implementation is working flawlessly, we will create an in-wallet UI for browsing and voting on proposals as well as providing proposal submission guidelines.
 
 We invite users to attempt to break the fund mechanism so we can implement any patches to the system before we deploy it to the mainnet. We will be setting up a bounty program to encourage testers to find and help us resolve any flaws.
 
 For more information on the community fund visit: https://navcoin.org/community-fund
 
 ## News From The Community
-The team have now set up an Instagram account. The plan is to put out images from our Auckland headquarters to give you a behind the scenes look of our day to day activities. There aren’t many images on there yet, but Laura has assured us that her Instagram game is strong, so you should expect to see lots of action in the near future. You can check it out here: https://www.instagram.com/nav.coin.official/
+The team have now set up an Instagram account. The plan is to put out images from our Auckland headquarters to give you a behind the scenes look at our day to day activities. There aren’t many images on there yet, but expect to see lots of action in the near future. You can check it out here: https://www.instagram.com/nav.coin.official
 
 It’s always great to see community members creating their own projects for NavCoin. Here are two interesting creative projects that members of the community have created:
 
