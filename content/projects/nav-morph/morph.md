@@ -19,7 +19,7 @@ github_url: "sdfsdf"
 reddit_url: ""
 project_url: ""
 twitter_url: "https://twitter.com/navcoin"
-card_color: "#7d5ab5"
+card_color: "#6984D8"
 font_color: "#fff"
 weight: 0
 ---

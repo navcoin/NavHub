@@ -19,7 +19,7 @@ github_url: ""
 reddit_url: ""
 project_url: "http://navcoin-vue.navcommunity.net"
 twitter_url: ""
-card_color: "#ffa013"
+card_color: "#3DBBEC"
 font_color: "#fff"
 weight: 0
 ---

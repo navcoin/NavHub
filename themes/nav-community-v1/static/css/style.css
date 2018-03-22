@@ -461,13 +461,12 @@ header.stickey .logo-brand img{
     font-size: 15px;
     text-transform:capitalize;
     line-height: 24px;
-    background: #f96a91;
+    background: #795BB6;
     margin-right: 12px;
     font-weight: 400;
-     color: #fff;
+    color: #fff;
     position: relative;
     z-index: 2;
-    -webkit-transition: 0.4s;
 }
 .themeix-button-group .themeix-btn:hover {
     color: #F96A91;
@@ -480,11 +479,6 @@ header.stickey .logo-brand img{
     background-color: #FFFFFF;
     top: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
     z-index: -11;
 }
 .themeix-button-group .themeix-btn:hover:before {
@@ -498,11 +492,6 @@ header.stickey .logo-brand img{
     background-color: #FFFFFF;
     bottom: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
     z-index: -11;
 }
 .themeix-button-group .themeix-btn:hover:after {
@@ -516,11 +505,6 @@ header.stickey .logo-brand img{
     background-color: #F96A91;
     top: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
     z-index: -11;
 }
 .themeix-button-group .bg-change:hover:before {
@@ -534,11 +518,6 @@ header.stickey .logo-brand img{
     background-color: #F96A91;
     bottom: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
     z-index: -11;
 }
 .themeix-button-group .bg-change:hover:after {
@@ -1399,7 +1378,7 @@ ul.pricing-plan li {
     box-shadow: -1px -1px 14px 2px rgba(0, 0, 0, 0.2);
 }
 .itune-change-bg-color {
-    background: #3D93F1;
+    background: #BF47C0;
     padding: 18px 60px;
 }
 .play-store-button:after {
@@ -1668,7 +1647,7 @@ ul.page-list li a {
 .blog-item .blog-image {
     position: relative;
     overflow: hidden;
-    min-height:300px;
+    min-height: 200px;
     background-size:cover;
     background-position:center center;
 }
@@ -1752,14 +1731,14 @@ ul.page-list li a {
 ul.blog-author-name li {
     display: inline-block;
     margin-right: 10px;
-    color: #F96A91;
+    color: #795BB6;
 }
 ul.blog-author-name li a {
-    color: #F96A91;
+    color: #795BB6;
 }
 ul.blog-author-name li i {
     margin-right: 10px;
-    color: #9d9d9d;
+    color: #795BB6;
 }
 .blog-details p {
     color: #777777;

@@ -19,7 +19,7 @@ github_url: "https://github.com/NAVCoin/navpi-go"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
+card_color: "#6984D8"
 font_color: "#fff"
 weight: 0
 ---

@@ -18,7 +18,7 @@ github_url: ""
 twitter_url: ""
 reddit_url: ""
 project_url: ""
-card_color: "#7d5ab5"
+card_color: "#AB55C6"
 font_color: "#fff"
 weight: 0
 ---
