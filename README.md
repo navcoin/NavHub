@@ -1,14 +1,14 @@
-# NavCoin Community Site
-The NavCoin community site is maintained by the community
+# NAV community site
+Maintained by the global NAV community
 
 ## Contributing to the site
 Want to add a project, update or fix some errors. Then plase fork the project and get changing.
 
 ## Geting started
-The Nav Community site is built with the static site generator [Hugo](https://gohugo.io/).
+The NAV community site is built with the static site generator [Hugo](https://gohugo.io/).
 
 ### Install Hugo
-You will need hugo installed on your system to preview any changes. Follow the install instructions for your OS here:
+You will need Hugo installed on your system to preview any changes. Follow the install instructions for your OS here:
 https://gohugo.io/getting-started/installing/
 
 ### Clone the project
@@ -78,8 +78,9 @@ card_color: ""                      - Change the card color - Optional
 font_color: ""                      - Change the card font color - Optional
 weight: 0                           - Allows the default postion on the roadmap to be overridden
 ```
+
 ## Editing Layouts
 The layouts are held in the theme folder currently `nav-commnity-v1`. Please review the [Hugo documentation](https://gohugo.io/documentation/) for layout template information
 
-
--
+## Editing Styles
+CSS styles can be added/edited in the `static/css` directory. Most of the main styles are in `style.css`
