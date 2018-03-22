@@ -6,7 +6,7 @@ draft: false
 
 {{< home_header
     title = "Nav Coin"
-    subhead = "This site is by the community for the community."
+    subhead = "Simplifying cryptocurrency through global community efforts"
     text = "Want to make NavCoin better? See something you don't like? There are plenty ways to contribute; from writing code, to making translations, to marketing."
     button1Txt = "Community Projects"
     button1Link = "http://www.google.com"

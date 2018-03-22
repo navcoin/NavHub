@@ -18,11 +18,10 @@ github_url: ""
 twitter_url: ""
 reddit_url: ""
 project_url: ""
-card_color: "#AB55C6"
+card_color: "#2E94DF"
 font_color: "#fff"
 weight: 0
 ---
 
-
-Using a combination of lightning network transactions and exchange integrations, NavChange is a Valence powered application which facilitates instant exchange between NAV and other currencies.
+Using a combination of lightning network transactions and exchange integrations, NavChange is a Valence-powered application which facilitates instant exchange between NAV and other currencies.
 <!--more-->

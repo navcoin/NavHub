@@ -148,7 +148,7 @@ h6 {
 }
 .bg-change {
     background: #ffffff!important;
-    color: #f96a91!important;
+    color: #8272D1!important;
 }
 /*===================
  2.3. All Padding Margin
@@ -250,7 +250,7 @@ section.pt-25 {
 .appix-danger {
     display: inline-block;
     padding: 12px 52px;
-    background: #F96A91;
+    background: #2E94DF;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
@@ -469,7 +469,7 @@ header.stickey .logo-brand img{
     z-index: 2;
 }
 .themeix-button-group .themeix-btn:hover {
-    color: #F96A91;
+    color: #2E94DF;
 }
 .themeix-button-group .themeix-btn:before {
     content: "";
@@ -502,7 +502,7 @@ header.stickey .logo-brand img{
     width: 100%;
     height: 0;
     position: absolute;
-    background-color: #F96A91;
+    background-color: #2E94DF;
     top: 50%;
     left: 0;
     z-index: -11;
@@ -515,7 +515,7 @@ header.stickey .logo-brand img{
     width: 100%;
     height: 0;
     position: absolute;
-    background-color: #F96A91;
+    background-color: #2E94DF;
     bottom: 50%;
     left: 0;
     z-index: -11;
@@ -527,7 +527,7 @@ header.stickey .logo-brand img{
     color: #FFFFFF!important;
 }
 .themeix-button-group .bg-change {
-    background: #F96A91;
+    background: #2E94DF;
 }
 .mr {
     margin-right: 10px;
@@ -1110,7 +1110,7 @@ section#pricing {
     position: relative;
 }
 span.price-tag {
-    background-color: #F96A91;
+    background-color: #2E94DF;
     color: #fff;
     font-size: 14px;
     padding: 5px;
@@ -1172,7 +1172,7 @@ ul.pricing-features > li {
     background-color: #4a4a4a;
 }
 .single-pricing .active-color {
-    background: #F96A91;
+    background: #2E94DF;
 }
 .single-pricing:hover .price-table {
     color: #FFFFFF;
@@ -1246,10 +1246,10 @@ ul.pricing-plan li {
 .themeix-button-group .active-bg {
     padding: 14px 60px!important;
     font-size: 15px!important;
-    background: #F96A91!important;
+    background: #2E94DF!important;
 }
 .themeix-price-active {
-    background: #F96A91!important;
+    background: #2E94DF!important;
 }
 /*=========================================
     themeix-price-button-active
@@ -1303,7 +1303,7 @@ ul.pricing-plan li {
     width: 100%;
     height: 0;
     position: absolute;
-    background-color: #F96A91;
+    background-color: #2E94DF;
     top: 50%;
     left: 0;
     transition: 0.4s;
@@ -1321,7 +1321,7 @@ ul.pricing-plan li {
     width: 100%;
     height: 0;
     position: absolute;
-    background-color: #F96A91;
+    background-color: #2E94DF;
     bottom: 50%;
     left: 0;
     transition: 0.4s;
@@ -1419,7 +1419,7 @@ ul.pricing-plan li {
 .themeix-button-group button {
     border-radius: 0!important;
     border: 0;
-    background: #F96A91!important;
+    background: #2E94DF!important;
 }
 input[type="text"],
 input[type="email"],
@@ -1451,7 +1451,7 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus,
 textarea:focus {
-    border: 1px solid #F96A91;
+    border: 1px solid #2E94DF;
 }
 .themeix-button-group .themeix-submit-btn {
     padding: 12px 30px;
@@ -1746,9 +1746,9 @@ ul.blog-author-name li i {
     line-height: 24px;
 }
 .themeix-second-button .btn-read {
-    background-color: #F96A91;
+    background-color: #2E94DF;
     color: #fff;
-    border: 2px solid #F96A91;
+    border: 2px solid #2E94DF;
     border-radius: 4px;
     text-transform: uppercase;
     font-size: 12px;
@@ -1937,11 +1937,11 @@ a {
     margin-right: 8px;
 }
 .pagination li a:hover {
-    background: #F96A91;
+    background: #2E94DF;
     color: #FFFFFF;
 }
 .pagination li a.active {
-    background: #F96A91;
+    background: #2E94DF;
     color: #FFFFFF;
 }
 /* ==========================================
@@ -2051,7 +2051,7 @@ a {
     height: 47px;
     width: 43px;
     line-height: 42px;
-    background: #F96A91;
+    background: #2E94DF;
     color: #FFF;
     border: 0;
 }
@@ -2166,7 +2166,7 @@ ul.tagcloud li.widget-active a {
     color: #222222;
 }
 .left-link-item ul li a {
-    color: #F96A91;
+    color: #2E94DF;
 }
 .middle-section {
     position: relative;
@@ -3034,7 +3034,7 @@ textarea.form-control {
     position: absolute;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    background: #F96A91;
+    background: #2E94DF;
     color: #fff;
     font-size: 22px;
 }
@@ -3058,7 +3058,7 @@ textarea.form-control {
     position: absolute;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    background: #F96A91;
+    background: #2E94DF;
     color: #fff;
     font-size: 22px;
 }
