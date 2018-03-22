@@ -1,5 +1,5 @@
-# Nav Community Site
-The Navcoin community site is maintained by the community
+# NavCoin Community Site
+The NavCoin community site is maintained by the community
 
 ## Contributing to the site
 Want to add a project, update or fix some errors. Then plase fork the project and get changing.
