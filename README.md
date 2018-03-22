@@ -16,8 +16,8 @@ You will need to fork and clone the project on github if you wish to make any ch
 
 ### Running the site
 After cloning the site, cd into the project directory and run it up:
-    cd nav-community-site
-    hugo server
+    `cd nav-community-site`
+    `hugo server`
 
 This will serve the site on http://localhost:1313
 
@@ -34,6 +34,7 @@ When creating a new item it is recommend you use the Hugo commandline tool as th
 You should keep all the post related images in the folder with the index.md folder
 
 #### News page front meta control:
+
     title: "New Title"                  - The title of the news item
     date: 2018-03-07T10:27:21+13:00     - The date and time published - defaults to date created
     draft: false                        - Is the item a draft - if true it is not built
