@@ -1,0 +1,13 @@
+
+<section id="get-apps" class="get-appix-setion section-ptb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="themeix-section-heading-title">
+                    <h2 class="head-title">{{ .Get "title" }}</h2>
+                    <p class="light-300">{{ .Inner }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

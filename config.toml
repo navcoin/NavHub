@@ -40,32 +40,26 @@ twitter_username = "navcoin"
 
 # Main Menu
 [[menu.main]]
+    name = "Home"
+    title = "Home"
+    weight = -130
+    identifier = "home"
+    url = "/"
+[[menu.main]]
     name = "News"
     title = "News"
     weight = -120
     identifier = "news"
     url = "/news/"
 [[menu.main]]
-    name = "Community projects"
+    name = "Projects"
     title = "Projects"
     weight = -110
     identifier = "Project"
     url = "/projects/order-by-progress/"
 [[menu.main]]
-    name = "Roadmap"
-    title = "Roadmap"
-    weight = -110
-    identifier = "Roadmap"
-    url = "/roadmap/"
-[[menu.main]]
-    name = "Get involved"
+    name = "Get Involved"
     title = "Get Involved"
     weight = -100
     url = "/get-involved/"
     identifier = "get-involved"
-[[menu.main]]
-    name = "Who runs this?"
-    title = "Who Runs This?"
-    weight = -100
-    url = "/who-runs-this/"
-    identifier = "who-runs-this"
