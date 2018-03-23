@@ -5,27 +5,27 @@ draft: false
 ---
 
 {{< home_header
-    title = "Nav Coin"
-    subhead = "Simplifying cryptocurrency through global community efforts"
-    text = "Want to make NavCoin better? See something you don't like? There are plenty ways to contribute; from writing code, to making translations, to marketing."
-    button1Txt = "Community Projects"
+    title = "NavCoin Community Hub"
+    subhead = ""
+    text = "NavCoin is a decentralized community initiative that nobody owns - anyone and everyone can take part. The Community Hub is here to help you learn about the NavCoin projects, and how you can get involved."
+    button1Txt = "Learn About Projects"
     button1Link = "http://www.google.com"
-    button2Txt = "Contribute"
+    button2Txt = "Get Involved"
     button2Link = "/get-involved">}}
 
 
 {{< home_left_image_section
-    title="NavCoin is a decentralized cryptocurrency"
+    title="What Is NavCoin?"
     imgSrc="/images/nav-logo-1.png"
-    btn1Txt="NavCoin.org"
-    btn1Link="http://www.google.com"
-    btn2Txt="Help make nav better"
-    btn2Link="/get-involved">}}
+    btn1Txt="Learn About NavCoin"
+    btn1Link="http://www.navcoin.org">}}
 
     <p>NavCoin is a decentralized cryptocurrency that uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of NavCoin is carried out collectively by the network.</p>
-    <p>NavCoin is open source; its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
-
+    <p>NavCoin is open-source; its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
+    <p>Find out more about the protocol at the NavCoin website.</p>
 {{< /home_left_image_section >}}
+
+
 
 {{< home_nav_features
     feature1Img = "images/service/icon-4.png"
@@ -37,3 +37,12 @@ draft: false
     feature3Img = "images/service/icon-2.png"
     feature3Title = "Private Payments"
     feature3Txt = "Optionally send private transactions through the open source NavTech private payment platform.">}}
+
+
+{{< home_centre_text_section
+    title="This Site Is 100% Maintained By The Community"
+    text="">}}
+ 
+<p>The site and its content are open source through GitHub. This means that anyone can update, delete or add any NavCoin related projects and news.
+<p> If you would like to make a contribution, then please <a href="https://github.com/NAVCoin/nav-community-site">follow the readme file in GitHub</a>. Please note that all edits will need to be merged by senior community members, but this is only to avoid unwanted spam from being put on the site.</p>
+    {{< /home_centre_text_section >}}
