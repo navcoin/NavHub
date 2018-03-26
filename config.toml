@@ -63,3 +63,9 @@ twitter_username = "navcoin"
     weight = -100
     url = "/get-involved/"
     identifier = "get-involved"
+[[menu.main]]
+    name = "Roadmap"
+    title = "Roadmap"
+    weight = -100
+    url = "/roadmap/"
+    identifier = "roadmap"

@@ -14,7 +14,7 @@ show_title_text: false
 percent_complete: 10
 in_progress: true
 completed: false
-show_on_roadmap: false
+show_on_roadmap: true
 github_url: ""
 reddit_url: ""
 project_url: "http://navcoin-vue.navcommunity.net"
