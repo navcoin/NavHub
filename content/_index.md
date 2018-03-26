@@ -7,9 +7,9 @@ draft: false
 {{< home_header
     title = "NavCoin Community Hub"
     subhead = ""
-    text = "NavCoin is a decentralized community initiative that nobody owns - anyone and everyone can take part. The Community Hub is here to help you learn about the NavCoin projects, and how you can get involved."
-    button1Txt = "Learn About Projects"
-    button1Link = "http://www.google.com"
+    text = "NavCoin is a community initiative that allows anyone to contribute in a number of different ways. The Community Hub will help you learn about the range of NavCoin projects, and how you can get involved with your own."
+    button1Txt = "Current Projects"
+    button1Link = "/projects/"
     button2Txt = "Get Involved"
     button2Link = "/get-involved">}}
 
@@ -21,7 +21,7 @@ draft: false
     btn1Link="http://www.navcoin.org">}}
 
     <p>NavCoin is a decentralized cryptocurrency that uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of NavCoin is carried out collectively by the network.</p>
-    <p>NavCoin is open-source; its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
+    <p>NavCoin is open-source. Its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
     <p>Find out more about the protocol at the NavCoin website.</p>
 {{< /home_left_image_section >}}
 
