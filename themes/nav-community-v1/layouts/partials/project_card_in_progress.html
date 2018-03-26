@@ -1,11 +1,11 @@
 <div class="project-card" style="background-color: {{.Params.card_color}}; color: {{.Params.font_color}} !important">
-    <h3 >{{ .Title }} @ {{.Params.percent_complete}}%</h3>
+    <h3 ><a href="{{.Permalink }}" style="color: {{.Params.font_color}} !important" > {{ .Title }} @ {{.Params.percent_complete}}%</a></h3>
     <div class="progress">
         <div class="progress-bar progress-bar-info"
              style="width: {{.Params.percent_complete}}%"
              role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{.Params.percent_complete}}%</div>
     </div>
-    <div style="color: {{.Params.font_color}} !important; ">{{.Summary}}</div>
+    <div style="color: {{.Params.font_color}} !important; ">{{ .Params.description}}</div>
     <div class="info-links">
 
         {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}

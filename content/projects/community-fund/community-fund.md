@@ -3,7 +3,7 @@ title: "Community Fund"
 date: 2018-03-20T11:39:02+13:00
 draft: false
 author: "NavCore Team"
-description: ""
+description: "The Community Fund is now live on the testnet and is undergoing community review of its core functionality. After this, the community fund can be introduced onto the mainnet by consensus vote."
 resources: []
 categories: []
 slug: ""
