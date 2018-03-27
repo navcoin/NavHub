@@ -1,0 +1,25 @@
+
+
+<section class="skew first-skew first-skew-deg-3 remove-top-skew {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" id="project" >
+    <div class="main-slider-overlay">
+        <div class="container" style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
+            <div class="row">
+                <div class="col-md-12">
+                    <!--<div class="owl-carousel">-->
+                        <div class="col-md-6">
+                            <div class="caption-area" style="padding: {{ .Get "captionPadding"}} 0;">
+                                <h1 class="caption-heading" style="color: {{ .Get "fontColor" }}">{{ .Get "title" }}</h1>
+                                <p class="caption-para" style="color: {{ .Get "fontColor" }}">{{ .Get "subhead" }}</p>
+                                <p class="caption-para-second" style="color: {{ .Get "fontColor" }}">{{ .Get "text" }}</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-appix-left-img" style="padding: {{ .Get "imgPadding"}} 0;">
+                                <img src="{{ .Get "imgSrc" }}" style="max-height: {{ .Get "imgHeight"}};">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -7,9 +7,7 @@
 .change-color{
 	color: #fff;
 }
-.about-appix-left-img{
-	margin-top: 95px;
-}
+
 .first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
 	transform-origin: 581% 50%;
 }
@@ -65,6 +63,7 @@ span.price-tag {
 	text-align: center;
 	margin-top: 52px;
 }
+
 .first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
 	transform-origin: 977% 50%;
 }
@@ -82,7 +81,7 @@ span.price-tag {
 }
 .about-appix-left-img img{
 	text-align: center;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .about-pb {
 	padding-top: 44px;
@@ -388,4 +387,3 @@ span.price-tag {
 
 
 }
-

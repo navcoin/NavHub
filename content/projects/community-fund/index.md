@@ -36,7 +36,7 @@ The Community Fund is now live on the testnet and is undergoing community review
     button2Link = "/get-involved">}}
 
 
-{{< home_left_image_section
+{{< left_image_section
     title="What Is NavCoin?"
     imgSrc="/images/nav-logo-1.png"
     btn1Txt="Learn About NavCoin"
