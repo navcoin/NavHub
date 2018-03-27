@@ -49,7 +49,7 @@ You should keep all the post related images in the folder with the index.md fold
 ### Adding projects
 When adding a project it is recommend you use the Hugo commandline tool as this will use the right archetype and populate the properties
 
-    hugo new projects/project-name/project-name.md
+    hugo new projects/project-name/index.md
 
 #### Project page front-meta control:
     title: "Project name"               - Project Name

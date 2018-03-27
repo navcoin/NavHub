@@ -116,6 +116,7 @@ h2 {
 h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 21px;
+    font-weight: bold;
 }
 h4 {
     font-family: 'Raleway', sans-serif;
@@ -3218,3 +3219,60 @@ ul li.cat-item a {
 }
 
 
+/* ==========================================================================
+                 Additional CSS
+   ========================================================================== */
+
+   #project .caption-area {
+   	padding: 10% 0;
+   }
+
+   #project .service-main {
+   	padding: 15px 0;
+   }
+
+   #project #links {
+     padding: 40px 20px;
+   }
+
+   #project #links .single-item {
+     padding: 40px 20px;
+   }
+
+   #project #links .service-icon {
+     margin-bottom: 20px;
+   }
+
+   #project #links .service-main {
+     background-color: #FFF;
+     padding: 20px 0 0 0;
+   }
+
+   #project #links a.link-item {
+     display: block;
+   }
+
+   #project #links a.link-item:hover {
+     opacity: 0.9;
+   }
+
+   #project #links .service-content h3 {
+     margin: 0;
+     padding: 15px 0;
+   }
+
+   #project .our-service-section {
+     padding: 40px 0;
+   }
+
+   #project .service-icon img {
+   	 max-width: 176px;
+   }
+
+   .about-appix-left-img {
+     text-align: center;
+   }
+
+   #project .container {
+     background-size: cover;
+   }

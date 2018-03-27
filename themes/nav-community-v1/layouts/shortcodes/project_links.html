@@ -1,0 +1,120 @@
+<section class="skew" id="project">
+    <div class="our-service-section">
+        <div class="container {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" id="links" style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-item">
+                      {{ if ne (.Get "feature1Url") "false" }}
+                      <a href="{{ .Get "feature1Url" }}" target="e" class="link-item">
+                      {{ end }}
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature1Img" }}" alt="">
+                            </div>
+                            <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature1Title" }}</h3>
+                            </div>
+                        </div>
+                      {{ if ne (.Get "feature1Url") "false" }}
+                      </a>
+                      {{ end }}
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-item">
+                      {{ if ne (.Get "feature2Url") "false" }}
+                      <a href="{{ .Get "feature2Url" }}" target="e" class="link-item">
+                      {{ end }}
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature2Img" }}" alt="">
+                            </div>
+                            <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature2Title" }}</h3>
+                            </div>
+                        </div>
+                        {{ if ne (.Get "feature2Url") "false" }}
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-item">
+                      {{ if ne (.Get "feature3Url") "false" }}
+                      <a href="{{ .Get "feature3Url" }}" target="e" class="link-item">
+                      {{ end }}
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature3Img" }}" alt="">
+                            </div>
+                            <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature3Title" }}</h3>
+                            </div>
+                        </div>
+                        {{ if ne (.Get "feature3Url") "false" }}
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ if (or (isset .Params "feature4Img") (isset .Params "feature5Img") (isset .Params "feature6Img")) }}
+            <div class="row">
+              <div class="col-md-4">
+                  <div class="single-item">
+                    {{ if ne (.Get "feature4Url") "false" }}
+                    <a href="{{ .Get "feature4Url" }}" target="e" class="link-item">
+                    {{ end }}
+                      <div class="service-main">
+                          <div class="service-icon">
+                              <img src="{{ .Get "feature4Img" }}" alt="">
+                          </div>
+                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                              <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature4Title" }}</h3>
+                          </div>
+                      </div>
+                      {{ if ne (.Get "feature4Url") "false" }}
+                      </a>
+                      {{ end }}
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="single-item">
+                    {{ if ne (.Get "feature5Url") "false" }}
+                    <a href="{{ .Get "feature5Url" }}" target="e" class="link-item">
+                    {{ end }}
+                      <div class="service-main">
+                          <div class="service-icon">
+                              <img src="{{ .Get "feature5Img" }}" alt="">
+                          </div>
+                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                              <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature5Title" }}</h3>
+                          </div>
+                      </div>
+                      {{ if ne (.Get "feature5Url") "false" }}
+                      </a>
+                      {{ end }}
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="single-item">
+                    {{ if ne (.Get "feature6Url") "false" }}
+                    <a href="{{ .Get "feature6Url" }}" target="e" class="link-item">
+                    {{ end }}
+                      <div class="service-main">
+                          <div class="service-icon">
+                              <img src="{{ .Get "feature6Img" }}" alt="">
+                          </div>
+                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                              <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature6Title" }}</h3>
+                          </div>
+                      </div>
+                      {{ if ne (.Get "feature6Url") "false" }}
+                      </a>
+                      {{ end }}
+                  </div>
+              </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

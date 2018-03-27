@@ -1,8 +1,32 @@
 ---
-title: "NavCoin Community Site"
-date: 2018-03-12T17:47:48+13:00
+title: "Community Fund"
+date: 2018-03-20T11:39:02+13:00
 draft: false
+author: "NavCore Team"
+description: "The Community Fund is now live on the testnet and is undergoing community review of its core functionality. After this, the community fund can be introduced onto the mainnet by consensus vote."
+resources: []
+categories: []
+slug: ""
+type: "project"
+feature_image: ""
+show_title_text: false
+percent_complete: 50
+in_progress: true
+completed: false
+show_on_roadmap: true
+show_on_projects: true
+allow_click_through: false
+github_url: ""
+reddit_url: ""
+project_url: ""
+twitter_url: "https://twitter.com/navcoin"
+card_color: "#6984D8"
+font_color: "#fff"
+weight: 100
 ---
+
+The Community Fund is now live on the testnet and is undergoing community review of its core functionality. After this, the community fund can be introduced onto the mainnet by consensus vote.
+<!--more-->
 
 {{< home_header
     title = "NavCoin Community Hub"
@@ -17,15 +41,13 @@ draft: false
 {{< left_image_section
     title="What Is NavCoin?"
     imgSrc="/images/nav-logo-1.png"
-    imgHeight="286px"
-    imgPadding="44px"
     btn1Txt="Learn About NavCoin"
     btn1Link="http://www.navcoin.org">}}
 
     <p>NavCoin is a decentralized cryptocurrency that uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of NavCoin is carried out collectively by the network.</p>
     <p>NavCoin is open-source. Its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
     <p>Find out more about the protocol at the NavCoin website.</p>
-{{< /left_image_section >}}
+{{< /home_left_image_section >}}
 
 
 

@@ -1,0 +1,90 @@
+<section class="skew" id="project">
+    <div class="our-service-section {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}">
+        <div class="container" style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-item">
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature1Img" }}" alt="">
+                            </div>
+                            <div class="service-content">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature1Title" }}</h3>
+                                <p class="themeix-para-style" style="color: {{ .Get "fontColor" }}">{{ .Get "feature1Txt"  }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-item">
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature2Img" }}" alt="">
+                            </div>
+                            <div class="service-content">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature2Title" }}</h3>
+                                <p class="themeix-para-style" style="color: {{ .Get "fontColor" }}">{{ .Get "feature2Txt"  }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-item">
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature3Img" }}" alt="">
+                            </div>
+                            <div class="service-content">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature3Title" }}</h3>
+                                <p class="themeix-para-style" style="color: {{ .Get "fontColor" }}">{{ .Get "feature3Txt"  }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ if (or (isset .Params "feature4Img") (isset .Params "feature5Img") (isset .Params "feature6Img")) }}
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-item">
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature4Img" }}" alt="">
+                            </div>
+                            <div class="service-content">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature4Title" }}</h3>
+                                <p class="themeix-para-style" style="color: {{ .Get "fontColor" }}">{{ .Get "feature4Txt"  }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-item">
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature5Img" }}" alt="">
+                            </div>
+                            <div class="service-content">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature5Title" }}</h3>
+                                <p class="themeix-para-style" style="color: {{ .Get "fontColor" }}">{{ .Get "feature5Txt"  }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-item">
+                        <div class="service-main">
+                            <div class="service-icon">
+                                <img src="{{ .Get "feature6Img" }}" alt="">
+                            </div>
+                            <div class="service-content">
+                                <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature6Title" }}</h3>
+                                <p class="themeix-para-style" style="color: {{ .Get "fontColor" }}">{{ .Get "feature6Txt"  }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

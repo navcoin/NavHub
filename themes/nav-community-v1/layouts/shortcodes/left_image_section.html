@@ -1,22 +1,24 @@
 
 
-<div class="container">
+<div class="container {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" style="background-color: {{ .Get "bgColor" }};">
     <div class="row">
         <div class="col-md-12">
             <div class="about-pb">
                 <div class="col-md-6">
-                    <div class="about-appix-left-img">
-                        <img src="{{ .Get "imgSrc" }}" class="img-responsive">
+                    <div class="about-appix-left-img" style="padding: {{ .Get "imgPadding"}} 0;">
+                        <img src="{{ .Get "imgSrc" }}" style="max-height: {{ .Get "imgHeight"}};">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="about-appix-right-content">
-                        <h2 class="themeix-title-h1">{{ .Get "title"}}</h2>
-                        <div class="para-mb">{{ .Inner }}</div>
+                        <h2 class="themeix-title-h1" style="color: {{ .Get "fontColor" }}">{{ .Get "title"}}</h2>
+                        <div class="para-mb" style="color: {{ .Get "fontColor" }}">{{ .Inner }}</div>
                         <!--<p class="light-300 color-change">NavCoin is open-source; its design is public, nobody owns or controls NavCoin and everyone can take part.</p>-->
+                        {{ if isset .Params "btn1Link" }}
                         <div class="themeix-button-group">
                             <a href="{{ .Get "btn1Link" }}" class="themeix-btn themeix-danger smoothScroll">{{ .Get "btn1Txt" }}</a>
                         </div>
+                        {{ end }}
                     </div>
                 </div>
             </div>
