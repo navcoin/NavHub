@@ -1,5 +1,13 @@
 <div class="project-card" style="background-color: {{.Params.card_color}}; color: {{.Params.font_color}} !important">
-    <h3 ><a href="{{.Permalink }}" style="color: {{.Params.font_color}} !important" > {{ .Title }} @ {{.Params.percent_complete}}%</a></h3>
+
+    <h3>
+        {{ if .Params.allow_click_through }}
+            <a style="text-decoration: underline; color: {{.Params.font_color}} !important" href="{{.Permalink}}">{{ .Title }}</a>
+        {{else}}
+            {{ .Title }}
+        {{end}}
+    </h3>
+
     <div class="progress">
         <div class="progress-bar progress-bar-info"
              style="width: {{.Params.percent_complete}}%"

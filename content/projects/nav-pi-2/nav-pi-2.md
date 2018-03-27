@@ -11,10 +11,11 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-in_progress: true
-completed: false
+in_progress: false
+completed: true
 show_on_roadmap: false
 show_on_projects: true
+allow_click_through: false
 percent_complete: 35
 github_url: "https://github.com/NAVCoin/navpi-go"
 project_url: ""

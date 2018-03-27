@@ -15,6 +15,7 @@ in_progress: true
 completed: false
 show_on_roadmap: true
 show_on_projects: true
+allow_click_through: false
 github_url: ""
 reddit_url: ""
 project_url: ""

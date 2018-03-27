@@ -1,5 +1,13 @@
 <div class="project-card" style="background-color: {{.Params.card_color}}; color: {{.Params.font_color}} !important">
-    <h3 >{{ .Title }}</h3>
+    <h3>
+        {{ if .Params.allow_click_through }}
+            <a style="text-decoration: underline; color: {{.Params.font_color}} !important" href="{{.Permalink}}">{{ .Title }}</a>
+        {{else}}
+            {{ .Title }}
+        {{end}}
+    </h3>
+
+
     <div style="color: {{.Params.font_color}} !important; ">{{.Summary}}</div>
     <div class="info-links">
 

@@ -12,10 +12,11 @@ type: "project"
 feature_image: ""
 show_title_text: false
 percent_complete: 10
-in_progress: true
-completed: false
+in_progress: false
+completed: true
 show_on_roadmap: true
 show_on_projects: true
+allow_click_through: false
 github_url: ""
 reddit_url: ""
 project_url: "http://navcoin-vue.navcommunity.net"
