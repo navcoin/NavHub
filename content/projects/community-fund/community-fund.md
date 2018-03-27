@@ -14,6 +14,7 @@ percent_complete: 50
 in_progress: true
 completed: false
 show_on_roadmap: true
+show_on_projects: true
 github_url: ""
 reddit_url: ""
 project_url: ""

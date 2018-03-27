@@ -15,6 +15,7 @@ percent_complete: 65
 in_progress: true
 completed: false
 show_on_roadmap: false
+show_on_projects: true
 github_url: "sdfsdf"
 reddit_url: ""
 project_url: ""

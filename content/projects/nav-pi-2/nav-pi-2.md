@@ -14,6 +14,7 @@ show_title_text: false
 in_progress: true
 completed: false
 show_on_roadmap: false
+show_on_projects: true
 percent_complete: 35
 github_url: "https://github.com/NAVCoin/navpi-go"
 project_url: ""

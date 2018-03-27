@@ -13,6 +13,7 @@ show_title_text: false
 in_progress: false
 completed: false
 show_on_roadmap: true
+show_on_projects: true
 percent_complete: 0
 github_url: ""
 twitter_url: ""
