@@ -3274,6 +3274,10 @@ ul li.cat-item a {
      text-align: center;
    }
 
+   .about-appix-center-img {
+     text-align: center;
+   }
+
    #project .container {
      background-size: cover;
    }
