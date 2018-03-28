@@ -29,7 +29,7 @@ weight: 0
 {{< project_header
     title="NavPi Kowhai"
     subhead="Re-Engineered from the ground up in Go"
-    text="Version 2.0 of the low-energy NavCoin staking solution that runs on the Raspberry-Pi platform. The next-generation StakeBox with come pre-installed with Kowhai and will automatically run a setup wizard. All you need to do is plug it in and send it NAV to start earning Nav Coin Stake Rewards."
+    text="Version 2.0 of the low-energy NavCoin staking solution that runs on the Raspberry-Pi platform. The next-generation StakeBox will ship with the Kowhai release and automatically runs a setup wizard. All you need to do is plug it in and send it NAV to start earning Nav Coin Stake Rewards."
     captionPadding="50px"
     imgSrc="stakebox.jpg"
     imgHeight="300px"
@@ -39,7 +39,7 @@ weight: 0
     fontColor="#333">}}
 
 {{< center_text_section
-    title="Complete NavPi Rebuild in Go"
+    title="Complete NavPi Rebuild"
     bgColor="#fff"
     fontColor="7a7a7a">}}
 
@@ -50,7 +50,7 @@ weight: 0
 {{< /center_text_section >}}
 
 {{< center_image_section
-    title="NavPi Kowhai UX Flow"
+    title="User Experience Flow"
     imgSrc="kowhai-ux-flow.png"
     imgHeight="1453px"
     imgPadding="20px"
