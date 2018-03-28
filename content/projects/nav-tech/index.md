@@ -27,24 +27,24 @@ weight: 100
 ---
 
 {{< project_header
-    title="NavPay Wallet"
+    title="NavTech Payments"
     subhead=""
-    text="Secure your NavCoin with an easy to use light wallet that allows you to take ownership of your private keys."
-    captionPadding="70px"
+    text="NavTech is a separate blockchain and software platform which operates on top of the NavCoin protocol."
+    captionPadding="50px"
     imgSrc="navtech1.jpg"
     imgHeight="300px"
-    imgPadding="40px"
+    imgPadding="10px"
     bgColor="#FFF"
     bgImgSrc=""
     fontColor="#333">}}
 
 {{< left_image_section
-    title="What Is NavPay?"
+    title="What is NavTech?"
     imgSrc="navtech2.png"
     imgHeight="300px"
     imgPadding="20px"
-    bgColor="#42b6eb"
-    fontColor="#FFF">}}
+    bgColor="#fff"
+    fontColor="#7a7a7a">}}
 
     <p>NavTech is an application which operates in parallel to the NavCoin protocol to provide optional private payments of NAV.</p>
     <p>NavTech uses a dual blockchain system for sending private NavCoin payments. Essentially, the transaction information is encrypted and sent in & out of a second blockchain, which helps break the link between the sender and receiver.</p>
