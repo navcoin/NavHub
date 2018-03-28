@@ -4,7 +4,7 @@ date: 2018-02-20T22:04:39+13:00
 lastmod: 2018-02-20T22:04:39+13:00
 draft: false
 author: "Mike Delucchi"
-description: "NavPi Kowhai is a full re-engineering of the NavPi software from the ground up to make it even better and easier to use."
+description: "NavPi Kowhai is a complete rebuild of the NavPi StakeBox software with improved performance, security and usability."
 resources: []
 categories: []
 slug: ""
