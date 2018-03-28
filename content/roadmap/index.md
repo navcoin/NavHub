@@ -10,12 +10,12 @@ type: "roadmap"
     imgSrc="/images/icons/icon-globe-purple-large.png"
     imgHeight="400px"
     imgPadding="30px"
-    bgColor="#7d5ab5"
+    bgColor="#fff"
     linkBgColor="#523971"
     gradient=""
     btn1Link="/get-involved"
     btn1Txt="Contribute to NavCoin"
-    fontColor="#FFF">}}
+    fontColor="#7a7a7a">}}
 
     <p>Cryptocurrencies are complicated, and it’s NavCoin’s mission to change that. As a community we are striving to make NavCoin the most usable cryptocurrency on the planet.</p>
     <p>NavCoin’s community roadmap continues that journey. Together we are laying the foundation for NavCoin to be an industry-leading cryptocurrency, by building better money.</p>
