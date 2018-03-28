@@ -3,8 +3,8 @@ title: "NavMorph"
 date: 2018-03-18T10:30:34+13:00
 lastmod: 2018-03-20T10:30:34+13:00
 draft: false
-author: "NavCore Team"
-description: ""
+author: "Mathew Paul"
+description: "A fusion of NavTech Private Payments and instant exchange technology to enable sending supported cryptocurrencies privately. "
 resources: []
 categories: []
 slug: ""
@@ -25,6 +25,3 @@ card_color: "#6984D8"
 font_color: "#fff"
 weight: 0
 ---
-
-Formally Polymorph, NavMorph is a fusion of NavTech Private Payments and instant exchange technology to enable sending supported cryptocurrencies privately.
-<!--more-->

@@ -1,7 +1,7 @@
-<div>
+<div class="roadmap-item-container">
     <h3 >{{ .Title }}</h3>
 
-    <div>{{.Summary}}</div>
+    <div>{{.Params.description}}</div>
     <div class="info-links">
 
         {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}

@@ -1,11 +1,11 @@
-<div>
-    <h3 >{{ .Title }} @ {{.Params.percent_complete}}%</h3>
+<div class="roadmap-item-container">
+    <h3>{{ .Title }} @ {{.Params.percent_complete}}%</h3>
     <div class="progress">
         <div class="progress-bar progress-bar-info"
              style="width: {{.Params.percent_complete}}%"
              role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{.Params.percent_complete}}%</div>
     </div>
-    <div>{{.Summary}}</div>
+    <div>{{.Params.description}}</div>
     <div class="info-links">
 
         {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}

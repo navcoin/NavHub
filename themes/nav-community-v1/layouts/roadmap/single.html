@@ -22,7 +22,7 @@
             <div style="margin-bottom: 50px;">
                 {{range (.Site.Pages.ByWeight)  }}
                     {{ if (.Params.show_on_roadmap) }}
-                        {{ if (not .Params.in_progress) }}
+                        {{ if and (not .Params.in_progress) (not .Params.completed) }}
                             {{ partial  "roadmap_item_upcoming.html" . }}
                         {{end}}
                     {{end}}
@@ -31,7 +31,7 @@
 
             <h2>In Progress</h2>
             <hr>
-            <div>
+            <div style="margin-bottom: 50px;">
                 {{range (.Site.Pages.ByParam "percent_complete").Reverse  }}
                     {{ if (.Params.show_on_roadmap) }}
                         {{ if (.Params.in_progress) }}
@@ -39,6 +39,16 @@
                         {{end}}
                     {{end}}
                 {{end}}
+            </div>
+
+            <h2>Completed</h2>
+            <hr>
+            <div>
+              {{range (.Site.Pages.ByWeight)  }}
+                  {{ if and (.Params.show_on_roadmap) (.Params.completed) }}
+                      {{ partial  "roadmap_item_upcoming.html" . }}
+                  {{end}}
+              {{end}}
             </div>
         </div>
     </div>

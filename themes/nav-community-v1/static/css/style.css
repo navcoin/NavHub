@@ -3322,10 +3322,15 @@ ul li.cat-item a {
     color: #fff;
     position: relative;
     z-index: 2;
-    margin-top: 20px; 
+    margin-top: 20px;
    }
 
    .project-btn:hover {
      color: #FFF;
      opacity: 0.8;
+   }
+
+   .roadmap-item-container {
+     position: relative;
+     padding-bottom: 64px;
    }

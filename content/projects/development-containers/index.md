@@ -3,8 +3,8 @@ title: "Development Containers"
 date: 2018-03-20T22:24:15+13:00
 lastmod: 2018-03-20T22:24:15+13:00
 draft: false
-author: "NavCore Team"
-description: ""
+author: "Paul Sanderson"
+description: "One challenge of having a wide range of NavCoin software is maintaining the development environments. Having easily deployable development environments for each NavCoin project is necessary for productivity within the NavCoin development community."
 resources: []
 categories: []
 slug: ""
