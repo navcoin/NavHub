@@ -3,7 +3,7 @@ title: "NavPay"
 date: 2018-03-27T11:42:31+13:00
 lastmod: 2018-03-27T11:42:31+13:00
 draft: false
-author: "Alex Vazquez"
+author: "Mathew Paul"
 description: "NavPay is an easy to use light wallet, that allows you to securely store your NAV. There’s no blockchain to download, it’s just a quick & simple way to take control of your private keys."
 resources: []
 categories: []
@@ -12,14 +12,16 @@ type: "project"
 feature_image: ""
 show_title_text: false
 in_progress: false
-completed: false
-show_on_roadmap: false
+completed: true
+show_on_roadmap: true
+show_on_projects: true
+allow_click_through: true
 percent_complete: 100
 github_url: "https://github.com/Encrypt-S/navpay"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#6984D8"
+card_color: "#7d5ab5"
 font_color: "#fff"
 weight: 100
 ---
@@ -76,6 +78,8 @@ weight: 100
     feature6Txt = "An easy way to pay your friends! Save your contacts into your NavPay address book, and make payments easier to manage than ever.">}}
 
 {{< project_links
+    title = "Get NavPay"
+    subtitle = "NavPay is available on a range of devices."
     fontColor = "#FFF"
     bgColor = "#7d5ab5"
     linkBgColor = "#523971"

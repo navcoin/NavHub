@@ -3276,3 +3276,56 @@ ul li.cat-item a {
    #project .container {
      background-size: cover;
    }
+
+   .project-card {
+     position: relative;
+     min-width: 400px;
+   }
+
+   .project-desc {
+     margin-bottom: 60px;
+   }
+
+   .info-links {
+     bottom: 14px;
+     position: absolute;
+   }
+
+   .click-through {
+      margin-right: 5px;
+      background-color: rgba(33, 33, 33, 0.5);
+      color: #fff;
+      font-size: 12px;
+      padding: 6px 10px;
+      display: inline-block;
+      cursor: pointer;
+   }
+
+   .click-through:hover {
+     color: #FFF;
+
+   }
+
+   .click-through label {
+     margin: 0;
+   }
+
+   .project-btn {
+     padding: 12px 20px;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 24px;
+    background: #795BB6;
+    margin-right: 12px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px; 
+   }
+
+   .project-btn:hover {
+     color: #FFF;
+     opacity: 0.8;
+   }

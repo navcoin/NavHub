@@ -3,18 +3,18 @@ title: "NavPi 2.0 'Kowhai'"
 date: 2018-02-20T22:04:39+13:00
 lastmod: 2018-02-20T22:04:39+13:00
 draft: false
-author: "NavCore Team"
-description: ""
+author: "Mike Delucchi"
+description: "NavPi Kowhai is a full re-engineering of the NavPi software from the ground up to make it even better and easier to use."
 resources: []
 categories: []
 slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-in_progress: false
-completed: true
-show_on_roadmap: false
-show_on_projects: true
+in_progress: true
+completed: false
+show_on_roadmap: true
+show_on_projects: false
 allow_click_through: false
 percent_complete: 35
 github_url: "https://github.com/NAVCoin/navpi-go"
@@ -28,4 +28,3 @@ weight: 0
 
 After the success of the NavPi project, NavCore have decided to fully re-engineer the NavPi from the ground up to make it even better and easier to use.
 <!--more-->
-

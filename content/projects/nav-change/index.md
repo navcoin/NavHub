@@ -2,8 +2,8 @@
 title: "NavChange"
 date: 2018-03-20T13:35:57+13:00
 draft: false
-author: "NavCore Team"
-description: ""
+author: "Ro Savage"
+description: "Using a combination of lightning network transactions and exchange integrations, NavChange is a Valence-powered application which facilitates instant exchange between NAV and other currencies."
 resources: []
 categories: []
 slug: ""
@@ -24,6 +24,3 @@ card_color: "#2E94DF"
 font_color: "#fff"
 weight: 0
 ---
-
-Using a combination of lightning network transactions and exchange integrations, NavChange is a Valence-powered application which facilitates instant exchange between NAV and other currencies.
-<!--more-->

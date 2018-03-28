@@ -1,6 +1,12 @@
 <section class="skew" id="project">
     <div class="our-service-section">
         <div class="container {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" id="links" style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
+          <div class="row">
+              <div class="col-md-12" style="text-align: center;">
+                <h2 class="themeix-title-h1" style="color: {{ .Get "fontColor" }}">{{ .Get "title"}}</h2>
+                <div style="color: {{ .Get "fontColor" }}">{{ .Get "subtitle" }}</div>
+              </div>
+            </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-item">
@@ -112,6 +118,17 @@
                       </a>
                       {{ end }}
                   </div>
+              </div>
+            </div>
+            {{ end }}
+            {{ if isset .Params "btnLink" }}
+            <div class="row">
+              <div class="col-md-12" style="text-align: center;">
+                <div style="color: {{ .Get "fontColor" }}">{{ .Get "btnTitle" }}</div>
+
+                <div class="themeix-button-group">
+                    <a href="{{ .Get "btnLink" }}" class="project-btn" target="e"  style="background-color: {{ .Get "linkBgColor" }};">{{ .Get "btnTxt" }}</a>
+                </div>
               </div>
             </div>
             {{ end }}

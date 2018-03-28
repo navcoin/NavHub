@@ -14,8 +14,8 @@ show_title_text: false
 percent_complete: 65
 in_progress: true
 completed: false
-show_on_roadmap: false
-show_on_projects: true
+show_on_roadmap: true
+show_on_projects: false
 allow_click_through: false
 github_url: "sdfsdf"
 reddit_url: ""
@@ -28,4 +28,3 @@ weight: 0
 
 Formally Polymorph, NavMorph is a fusion of NavTech Private Payments and instant exchange technology to enable sending supported cryptocurrencies privately.
 <!--more-->
-

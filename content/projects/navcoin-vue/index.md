@@ -4,18 +4,18 @@ date: 2018-03-19T11:45:17+13:00
 lastmod: 2018-03-20T11:45:17+13:00
 draft: false
 author: "Sakdeniz"
-description: "s"
+description: "Building a desktop NavCoin wallet using VueJS to give provide an alternative to NavCoin Core and an even more user friendly graphical interface."
 resources: []
 categories: []
 slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-percent_complete: 10
-in_progress: false
-completed: true
+percent_complete: 25
+in_progress: true
+completed: false
 show_on_roadmap: true
-show_on_projects: true
+show_on_projects: false
 allow_click_through: false
 github_url: ""
 reddit_url: ""

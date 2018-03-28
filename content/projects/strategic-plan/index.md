@@ -15,7 +15,7 @@ percent_complete: 65
 in_progress: true
 completed: false
 show_on_roadmap: true
-show_on_projects: true
+show_on_projects: false
 allow_click_through: false
 github_url: "sdfsdf"
 reddit_url: ""
@@ -28,4 +28,3 @@ weight: 0
 
 NavCore are working to define a strategic plan for NavCoin to help align community efforts. Once formalised, NavCore will create a content series to present their vision to the community for approval.
 <!--more-->
-

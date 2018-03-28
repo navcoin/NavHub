@@ -1,14 +1,22 @@
 <div class="project-card" style="background-color: {{.Params.card_color}}; color: {{.Params.font_color}} !important">
-    <h3>
+
+    <div class="row">
+      <div class="col-md-9">
+        <h3 class="card-title">
+          {{ .Title }}
+        </h3>
+      </div>
+      <div class="col-md-3">
         {{ if .Params.allow_click_through }}
-            <a style="text-decoration: underline; color: {{.Params.font_color}} !important" href="{{.Permalink}}">{{ .Title }}</a>
-        {{else}}
-            {{ .Title }}
+        <a href="{{.Permalink}}" class="click-through">More <span class="fa fa-chevron-right"></span></a>
         {{end}}
-    </h3>
+      </div>
+    </div>
 
 
-    <div style="color: {{.Params.font_color}} !important; ">{{.Summary}}</div>
+
+
+    <div style="color: {{.Params.font_color}} !important; " class="project-desc">{{.Params.description}}</div>
     <div class="info-links">
 
         {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}
