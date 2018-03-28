@@ -1,0 +1,14 @@
+
+
+<div class="container {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" style="background-color: {{ .Get "bgColor" }};">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12" style="text-align: center;">
+                <h2 class="themeix-title-h1" style="color: {{ .Get "fontColor" }}">{{ .Get "title"}}</h2>
+            </div>
+            <div class="col-md-12" style="text-align: center;">
+                <img src="{{ .Get "imgSrc" }}" style="max-height: {{ .Get "imgHeight"}};">
+            </div>
+        </div>
+    </div>
+</div>

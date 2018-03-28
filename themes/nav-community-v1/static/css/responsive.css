@@ -83,6 +83,10 @@ span.price-tag {
 	text-align: center;
   margin: 0 auto;
 }
+.about-appix-center-img img{
+  text-align: center;
+  margin: 0 auto;
+}
 .about-pb {
 	padding-top: 44px;
 	padding-bottom: 70px;

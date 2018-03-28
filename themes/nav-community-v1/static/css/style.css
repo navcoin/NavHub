@@ -61,11 +61,12 @@
     outline: none;
 }
 body {
-    color: #222222;
+    color: #7a7a7a;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 25px;
     font-size: 16px;
+    font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -244,7 +245,7 @@ section.pt-25 {
 .themeix-title-h1 {
     font-size: 36px;
     line-height: 48px;
-    color: #333;
+    color: #333!important;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -379,7 +380,7 @@ header {
     width: auto!Important;
 }
 header.stickey .logo-brand img{
-	    height: 30px;
+	height: 30px;
     width: auto!Important;
     margin-top: 9px;
 }
@@ -446,12 +447,12 @@ header.stickey .logo-brand img{
 }
 .caption-area .caption-para {
     font-size: 24px;
-    color: #fff;
+    color: #7a7a7a!important;
     margin-bottom: 45px;
     line-height: 36px;
 }
 .caption-area .caption-para-second {
-    color: #fff;
+    color: #7a7a7a!important;
     margin-bottom: 40px;
     font-size: 16px;
     line-height: 24px;
@@ -701,9 +702,9 @@ header.stickey .logo-brand img{
     margin-bottom: 30px;
 }
 .themeix-para-style {
-    color: #fff;
+    color: #7a7a7a!important;
     line-height: 24px;
-    font-size: 16px;
+    font-size: 15px;
 }
 /* ==========================================
 9. Skew Design
@@ -3270,6 +3271,10 @@ ul li.cat-item a {
    }
 
    .about-appix-left-img {
+     text-align: center;
+   }
+
+   .about-appix-center-img {
      text-align: center;
    }
 
