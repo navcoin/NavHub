@@ -16,7 +16,7 @@ completed: false
 show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
-percent_complete: 50
+percent_complete: 80
 github_url: "https://github.com/navcoin/navcoin-core/tree/v4.1.2-cfund"
 project_url: ""
 reddit_url: ""

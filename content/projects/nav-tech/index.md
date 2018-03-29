@@ -18,7 +18,7 @@ show_on_projects: true
 allow_click_through: true
 percent_complete: 100
 github_url: "https://github.com/Encrypt-S/navtech"
-project_url: ""
+project_url: "https://navtechservers.com"
 reddit_url: ""
 twitter_url: ""
 card_color: "#7d5ab5"

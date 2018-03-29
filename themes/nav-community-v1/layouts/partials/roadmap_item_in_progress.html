@@ -9,7 +9,7 @@
     <div class="info-links">
 
         {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}
-        <label class="card-author">{{ .Params.author}}</label>
+        <label class="card-author">Project Lead: {{ .Params.author}}</label>
         {{ end}}
 
         {{ if (isset .Params "twitter_url") | ( not (eq .Params.twitter_url "")) }}

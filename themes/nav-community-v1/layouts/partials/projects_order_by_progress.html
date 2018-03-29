@@ -2,22 +2,22 @@
 <html>
 
 
-{{ template "theme/partials/head.html" . }}
+{{ partial "head.html" . }}
 
 <body data-spy="scroll" data-target="#header-menu">
 
-{{ template "theme/partials/header_three_title.html" . }}
+  {{ partial "header_three_title.html" .  }}
 
 
-<div class="appix-blog-content section-ptb-2">
     <div class="container">
 
         <div class="row">
-            <div class="col-xs-12 col-sm-12">
+          <div class="col-sm-12">
+            <div class="news-content" style="margin-bottom: 0px; margin-top: 50px;">
                 {{ .Content }}
             </div>
+          </div>
         </div>
-
 
         <div class="row">
             <div class="col-xs-12 col-sm-9">
@@ -58,10 +58,9 @@
 
 
     </div>
-</div>
 
 
-{{ template "theme/partials/footer.html" . }}
+    {{ partial "footer.html" .  }}
 
 </body>
 </html>
