@@ -7,12 +7,12 @@ description: ""
 categories: ["Nav Coin Updates"]
 resources: []
 slug: ""
-feature_image: "march-14.jpg"
+feature_image: "march-14.png"
 show_title_text: false
 ---
-
 This week again there has been steady development progress across the main layer two applications which the NavCoin Core team are building on top of the NavCoin protocol.
 <!--more-->
+
 With the main APIs for the NavPi Kowhai project finished, Mike and Craig have spent some time planning the user interface to figure out how it will fit together. This includes planning out the primary user flow and the component usage for new Dashboard, Wallet, and Settings views. This user experience flow document will be published to the wider community next week as we make some final refinements on how we see the minimum viable software working.
 
 Rowan and Matt have continued their work on NavMorph as they refine the existing code base, update it’s unit tests and plan the next phases of the project with Craig. Alongside NavMorph Rowan and Matt have also been making improvements to NavPay including adding alerts to notify the user if a new version is available, push notifications, QR scanning on Safari and preparing NavPay for use as a progressive web app. Having NavPay available as a progressive web app gives users more options for how they use NavPay on devices which are as yet unsupported by the bundled versions as we still grapple with iOS app store approval.

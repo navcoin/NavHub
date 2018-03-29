@@ -7,7 +7,7 @@ description: ""
 categories: ["Nav Coin Updates"]
 resources: []
 slug: ""
-feature_image: "feb-28.jpg"
+feature_image: "feb-28.png"
 show_title_text: false
 ---
 
