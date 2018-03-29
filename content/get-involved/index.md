@@ -1,29 +1,86 @@
 ---
 title: "Get Involved"
-date: 2018-03-15T16:14:55+13:00
+date: 2018-03-20T07:41:22+13:00
 draft: false
-type: contribute
+type: "default"
 ---
 
-## We need you!
-NavCoin is a community-driven project that relies on the contributions from people around the world. Contributions can come in many forms: coding, testing, designing, prototyping, technical writing, blogging, and marketing. The vision is to make cryptocurrency simple. By harnessing the shared community passion for NAV, the potential is unlimited.
+{{< left_image_section
+    title="NavCoin Development"
+    imgSrc="/images/icons/icon-n-purple-large.png"
+    imgHeight="400px"
+    imgPadding="20px"
+    containerPadding="40px 0"
+    bgColor="#7d5ab5"
+    linkBgColor="#523971"
+    gradient=""
+    btn1Link="https://github.com/NAVCoin"
+    btn1Txt="Contribute to NavCoin"
+    fontColor="#FFF">}}
 
-Even this community site is [100% open source](https://github.com/NAVCoin/nav-community-site) so feel free to dive right in and create new [issues](https://github.com/NAVCoin/nav-community-site/issues) or submit some pull requests for review.
+    <p>NavCoin is free software and any developer can contribute to the project. Everything you need is in the GitHub repository. Please make sure to read and follow the development process described in the README, as well as to provide good quality code and respect all guidelines.</p>
 
-## Development
-If you're interested in contributing your dev skills to NavCoin, there are plenty of projects that need your help. Check out the official [NavCoin github](https://github.com/NAVCoin) project and dive into a repo that interests you.
+<p> If you would like to make a contribution, then please follow the instructions in the readme file on GitHub.</p>
+{{< /left_image_section >}}
 
-### Help with the community and NavCoin roadmap projects
-Check out the [roadmap](/roadmap) for community-based projects.
+{{< center_text_section
+    bgColor="#FFF"
+    gradient=""
+    containerPadding="40px 0"
+    fontColor="#333">}}
+    <h2>Beyond NavCoin Core</h2>
+    <p>There is a whole eco-system of software which developers have created to operate on or alongside the NavCoin protocol. All software the NavCoin Core developers create is also free and open-source. Any developer can contribute to these projects through their respective GitHub repositories.</p>
 
-### Not to sure where to start?
-The issue tracker for each repository is the best place to find a useful way to contribute to NavCoin and community projects. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure it isn't being worked on by someone else.
+    <p>Development discussion for each project takes place on <a href="https://github.com/NavCoin" target="e">GitHub</a>. Less formal development discussion happens on the <a href="https://discord.gg/y4Vu9jw" target="e">NavCoin Discord</a>.</p>
 
-### Have a new NAV project?
-If you have a new project you'd like to share, simply create a Pull Request to the [roadmap](/roadmap) section of this site.
+    <p>Don’t forget that NavCoin is simply a protocol. Anyone can build their own wallet, service, website, application or space suit that implements NavCoin.</p>
 
-### Join us
-{{< figure class="icon-block"  src="../images/icons/github.png" caption="Github" width="94" link="https://github.com/NAVCoin" >}}
-{{< figure class="icon-block"  src="../images/icons/discord.png" caption="Discord" width="90" link="https://discord.gg/y4Vu9jw" >}}
-{{< figure class="icon-block" src="../images/icons/reddit.png"  caption="Reddit" width="100" link="https://www.reddit.com/r/NavCoin/" >}}
+    <hr style="margin: 40px 0" />
 
+    <h2>Code Review</h2>
+    <p>NavCoin and its associated projects are security software that help protect assets worth millions of dollars, so every code change needs to be reviewed by experienced developers.</p>
+
+    <p>It can take a long time for other developers to review your pull requests. Remember that all reviewers are taking time away from their own projects to review your pull requests, so be patient and respectful of their time.</p>
+
+    <p>Please also consider helping to review other people’s pull requests. You don’t need to be an expert in NavCoin, the NavCoin Core codebase, or C++ (although all these things help). There are almost always open pull requests that any programmer can review.</p>
+
+    <hr style="margin: 40px 0" />
+
+    <h2>Starter Projects</h2>
+    <p>Do you want to begin coding for NavCoin but don’t have a specific improvement in mind? Here are a few ideas:</p>
+
+    <h3>Fix existing issues</h3>
+    <p>The issue tracker for each repository is the best place to find a useful way to contribute to NavCoin. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working on it.</p>
+
+    <h3>Write tests</h3>
+    <p>NavCoin’s various softwares are covered by many tests, but patches that improve test coverage are always welcome and are a great way to build familiarity with the codebase. See the documentation about automated testing.</p>
+
+    <hr style="margin: 40px 0" />
+
+    <h2>Documentation</h2>
+    <p>If you are interested in learning more about the technical details of NavCoin and how to use existing tools and APIs, it is recommended you start by exploring the self documented code in GitHub or join the discussion on the NavCoin Discord.
+
+{{< /center_text_section >}}
+
+{{< links_section
+    title = "Join the Community"
+    subtitle = "If you’re interested in contributing to NavCore.org or any NavCoin projects, get in touch with the NavCoin Community."
+    fontColor = "#FFF"
+    bgColor = "#42b6eb"
+    containerPadding = "40px 0"
+    titleMargin = "0 0 20px 0"
+    gradient = "false"
+    feature1Img = "/images/icons/icon-github.png"
+    feature1Title = "GitHub"
+    feature1Txt = "Join us on GitHub »"
+    feature1Link = "https://github.com/NavCoin"
+    feature2Img = "/images/icons/icon-reddit.png"
+    feature2Title = "Reddit"
+    feature2Txt = "Join us on Reddit »"
+    feature2Link = "https://reddit.com/r/NavCoin"
+    feature3Img = "/images/icons/icon-discord.png"
+    feature3Title = "Discord"
+    feature3Txt = "Join us on Discord »"
+    feature3Link = "https://discord.gg/y4Vu9jw">}}
+
+<br />

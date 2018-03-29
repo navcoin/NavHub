@@ -41,9 +41,9 @@ weight: 1
 
 {{< center_text_section
     title="It’s easy to use"
-    bgColor="#fff"
+    bgColor="#42b6eb"
     gradient=""
-    fontColor="#7a7a7a">}}
+    fontColor="#FFF">}}
     <p>The NavCoin Core wallet has been carefully refined to be intuitive and easy to use. It comes with a setup wizard and everything you need to load the blockchain and start sending transactions in a secure environment.</p>
 {{< /center_text_section >}}
 
@@ -78,7 +78,7 @@ weight: 1
     btnLink = "https://github.com/navcoin/navcoin-core/releases/latest"
     btnTitle = "For all the available download options and SHA256 hashes, please visit the latest GitHub Release."
     fontColor = "#fff"
-    bgColor = "#fff"
+    bgColor = "#7d5ab5"
     linkBgColor = "#523971"
     gradient = ""
     feature1Img = "/images/icons/icon-windows.png"

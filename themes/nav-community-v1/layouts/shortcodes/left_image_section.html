@@ -3,9 +3,9 @@
 <div class="container {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" style="background-color: {{ .Get "bgColor" }};">
     <div class="row">
         <div class="col-md-12">
-            <div class="about-pb">
+            <div class="about-pb" style="padding: {{ .Get "containerPadding" }};">
                 <div class="col-md-6">
-                    <div class="about-appix-left-img" style="padding: {{ .Get "imgPadding"}} 0;">
+                    <div class="about-appix-left-img" style="padding: {{ .Get "imgPadding"}} 0; margin-top: {{ .Get "imgMarginTop"}};">
                         <img src="{{ .Get "imgSrc" }}" style="max-height: {{ .Get "imgHeight"}};">
                     </div>
                 </div>

@@ -5,17 +5,17 @@
 
 <body>
 
-    {{ partial "header_three_title.html" .  }}
+{{ partial "header_three_title.html" .  }}
 
-    <div class="container">
-        <div class="row">
-            <div class="news-content" style="margin-bottom: 0px; margin-top: 50px;">
-                {{ .Content }}
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="news-content" style="margin-bottom: 0px; margin-top: 50px;">
+            {{ .Content }}
         </div>
     </div>
+</div>
 
-    {{ partial "footer.html" .  }}
+  {{ partial "footer.html" .  }}
 
 </body>
 </html>

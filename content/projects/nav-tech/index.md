@@ -43,8 +43,8 @@ weight: 100
     imgSrc="navtech2.png"
     imgHeight="300px"
     imgPadding="20px"
-    bgColor="#fff"
-    fontColor="#7a7a7a">}}
+    bgColor="#42b6eb"
+    fontColor="#FFF">}}
 
     <p>NavTech is an application which operates in parallel to the NavCoin protocol to provide optional private payments of NAV.</p>
     <p>NavTech uses a dual blockchain system for sending private NavCoin payments. Essentially, the transaction information is encrypted and sent in & out of a second blockchain, which helps break the link between the sender and receiver.</p>

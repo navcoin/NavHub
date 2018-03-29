@@ -15,7 +15,7 @@
             {{ end }}
         </ul>
         {{else}}
-        <li>
+        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
             <a href="{{.URL}}">
                 {{ .Pre }}
                 <span>{{ .Name }}</span>
@@ -23,8 +23,6 @@
             {{end}}
             {{end}}
         </li>
-
-
 
         {{ range $.Site.Home.AllTranslations }}
             <!--<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>-->
@@ -37,4 +35,3 @@
         <!--</li>-->
     </ul>
 </nav>
-

@@ -1,6 +1,6 @@
-    <div class="row">
+    <div class="row" style="background-color: {{ .Get "bgColor" }};">
         <div class="col-md-12">
-            <div class="about-pb">
+            <div class="about-pb" style="padding: {{ .Get "containerPadding" }};">
                 <div class="col-md-12" style="text-align: center;">
                     <div class="about-appix-right-content">
                         <h2 class="themeix-title-h1" style="color: {{ .Get "fontColor" }}">{{ .Get "title"}}</h2>

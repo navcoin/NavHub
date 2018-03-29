@@ -1,4 +1,4 @@
-baseURL = "https://examplesn.com"
+baseURL = "https://navcore.org"
 theme = "nav-community-v1"
 
 # English is the default language
@@ -66,6 +66,12 @@ twitter_username = "navcoin"
 [[menu.main]]
     name = "Roadmap"
     title = "Roadmap"
-    weight = -100
+    weight = -105
     url = "/roadmap/"
     identifier = "roadmap"
+[[menu.main]]
+    name = "About"
+    title = "About"
+    weight = -90
+    url = "/about-this-website/"
+    identifier = "about-this-website"

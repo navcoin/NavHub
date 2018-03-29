@@ -7,6 +7,7 @@ draft: false
 {{< home_header
     title = "NavCoin Community Hub"
     subhead = ""
+    txtColor = "#FFF"
     text = "NavCoin is a community initiative that allows anyone to contribute in a number of different ways. The Community Hub will help you learn about the range of NavCoin projects, and how you can get involved with your own."
     button1Txt = "Current Projects"
     button1Link = "/projects/"
@@ -30,6 +31,7 @@ draft: false
 
 
 {{< home_nav_features
+    txtColor = "#FFF"
     feature1Img = "images/service/icon-4.png"
     feature1Title = "Fast Transactions"
     feature1Txt = "No need to wait 10 minutes. Send NAV anywhere on the planet instantly and have it confirmed within 30 seconds."
