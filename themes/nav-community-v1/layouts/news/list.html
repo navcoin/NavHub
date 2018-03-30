@@ -21,7 +21,13 @@
                         <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
                         <ul class="blog-author-name">
                             <li><i class="fa fa-user-o"></i>{{ .Params.author }}</li>
+                            <li>
+                                <i class="fa fa-calendar"></i>
+                                {{ dateFormat "2 Jan 2006" .Params.date }}
+                            </li>
 
+                        </ul>
+                        <ul class="blog-author-name">
                             {{ range .Params.categories }}
                             <li><i class="fa fa-folder-open-o"></i> {{.}}</li>
                             {{end}}

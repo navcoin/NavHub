@@ -1642,7 +1642,8 @@ ul.page-list li a {
    ========================================== */
 
 .blog-item {
-    padding-bottom: 35px;
+    margin-bottom: 35px;
+    position: relative;
     overflow:hidden;
 }
 .blog-item .blog-image {
@@ -1720,8 +1721,8 @@ ul.page-list li a {
 }
 
 .blog-item .blog-excerpt {
-    padding-bottom:25px;
-	padding-top: 10px;
+  padding-bottom:25px;
+	padding-top: 0px;
 }
 .blog-details>h3 {
     font-size: 30px;
@@ -1832,10 +1833,11 @@ a {
     padding-top: 20px;
 }
 .blog-meta-wrapper {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
     float: left;
     width: 100%;
+    position: relative;
 }
 .blog-meta {
     float: left;
@@ -1860,6 +1862,9 @@ a {
 }
 .share-icon {
     float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .blog-navigation {
     margin-bottom: 10px;

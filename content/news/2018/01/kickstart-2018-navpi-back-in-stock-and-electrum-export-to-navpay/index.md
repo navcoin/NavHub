@@ -12,7 +12,7 @@ show_title_text: false
 ---
 
 The team have come back from their holidays feeling rested and energetic! After a fairly hectic end of year period, having some time to unplug and relax has allowed us to recharge our batteries and get ready for the big year ahead.
-
+<!--more-->
 
 ### Kickstart 2018
 We've spent the first few days catching up on emails/messages, and have started planning the year ahead. One of our first priorities is to spend some time nailing the vision & strategy for NavCoin going forward. While our goal has always been to create a platform that is exciting, ambitious and world-changing – we think we can do a better job at explaining this vision in a simple way on our website and in our marketing materials. It needs to be simple, unique, and get people excited – which is no easy task. Once we’ve completed our vision & strategy process, we will create a series of articles & content that we will share with everyone.
