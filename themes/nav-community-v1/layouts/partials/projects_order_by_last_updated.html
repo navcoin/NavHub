@@ -9,21 +9,20 @@
   {{ partial "header_three_title.html" .  }}
 
 
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="news-content" style="margin-bottom: 0px; margin-top: 2px;">
+          {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+
     <div class="container">
-
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="news-content" style="margin-bottom: 0px; margin-top: 50px;">
-                {{ .Content }}
-            </div>
-          </div>
-        </div>
-
 
         <div class="row">
             <div class="col-xs-12 col-sm-9">
                 <div class="projects-card-container">
-                  test
                     {{range .Site.Pages.ByWeight  }}
                     {{ if and (.Params.completed) (.Params.show_on_projects) }}
                             {{ partial "project_card_planning.html" . }}
