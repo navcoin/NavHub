@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-{{ template "theme/partials/head.html" . }}
+{{ template "head.html" . }}
 
-<body>
+<body data-spy="scroll" data-target="#header-menu">
 
-{{ template "theme/partials/header_two.html" . }}
+  {{ partial "header_two.html" . }}
 
 <div class="appiex-blog-content section-ptb-2">
     <div class="container">

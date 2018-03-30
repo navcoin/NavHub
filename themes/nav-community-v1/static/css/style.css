@@ -312,6 +312,7 @@ header {
 }
 .logo-brand {
     float: left;
+    margin-left: 20px;
 }
 
 .log-icon {
@@ -2092,6 +2093,7 @@ a {
 
 .details-img img {
     width: 100%;
+    margin-bottom: 20px;
 }
 .sidebar .widget h5 {
     color: #323232;
