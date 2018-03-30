@@ -41,5 +41,3 @@ type: "default"
     feature3Title = "Discord"
     feature3Txt = "Join us on Discord »"
     feature3Link = "https://discord.gg/y4Vu9jw">}}
-
-<br />

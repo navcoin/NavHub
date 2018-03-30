@@ -58,6 +58,10 @@ span.price-tag {
 /* Tablate layout:768px  */
 @media(min-width: 768px) and (max-width: 991px){
 
+#project .caption-area {
+  padding: 20px!important;
+}
+
 /* slider design */
 .caption-area {
 	text-align: center;
@@ -168,6 +172,10 @@ span.price-tag {
 
 /* Small mobile:320px  */
 @media (max-width: 767px){
+
+  #project .caption-area {
+    padding: 20px!important;
+  }
 
 .main-menu .navbar-nav li a:hover {
 	background-color:transparent;

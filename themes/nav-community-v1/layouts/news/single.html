@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-{{ template "head.html" . }}
+{{ partial "head.html" . }}
 
 <body data-spy="scroll" data-target="#header-menu">
 
@@ -59,7 +59,6 @@
 
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-12 col-md-offset-1">
                 <div class="sidebar">
                     <div class="widget">
@@ -72,12 +71,11 @@
 
                         </ul>
                     </div>
-                    <div class="widget custom">
+                    <div class="widget custom recent-posts">
                         <h3 class="widget-title">Recent Posts</h3>
                         <ul>
-
-                            {{ range first 5 .Site.Pages }}
-                                {{if eq .Type "news" }}
+                            {{ range .Site.Pages }}
+                                {{if (eq .Type "news") }}
                                     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                                 {{ end }}
                             {{ end }}
@@ -89,5 +87,8 @@
         </div>
     </div>
 </div><!-- start get appix now -->
+
+{{ partial "footer.html" . }}
+
 </body>
 </html>

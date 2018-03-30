@@ -23,15 +23,17 @@ draft: false
     <p>NavCoin is open-source. Its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
     <p>Find out more about the protocol at the NavCoin website.</p>
 {{< /left_image_section >}}
-{{< home_nav_features
+{{< home_features
+    bgColor = "#42b6eb"
     txtColor = "#FFF"
-    feature1Img = "images/service/icon-4.png"
+    fontColor = "#FFF"
+    feature1Img = "images/icons/icon-bolt.png"
     feature1Title = "Fast Transactions"
     feature1Txt = "No need to wait 10 minutes. Send NAV anywhere on the planet instantly and have it confirmed within 30 seconds."
-    feature2Img = "images/service/icon-3.png"
+    feature2Img = "images/icons/icon-bulb.png"
     feature2Title = "Energy Efficient"
     feature2Txt = "Nav Coin uses Proof of Stake which only consumes a fraction of the energy used to mine using Proof of Work."
-    feature3Img = "images/service/icon-2.png"
+    feature3Img = "images/icons/icon-lock.png"
     feature3Title = "Private Payments"
     feature3Txt = "Optionally send private transactions through the open source NavTech private payment platform.">}}
 {{< home_centre_text_section
