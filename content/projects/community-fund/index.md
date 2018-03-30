@@ -121,18 +121,18 @@ The NavCoin Core developers propose some changes to the NavCoin consensus protoc
 
 
 {{< project_features
-    fontColor = "#333"
-    gradient = "false"
-    bgColor = ""
-    feature1Img = "/images/icons/icon-bulb.png"
-    feature1Title = "Anyone can make a Proposal"
-    feature1Txt = "Anyone and everyone on the network will be able to propose projects, budgets and initiate network votes to schedule funds."
-    feature2Img = "/images/icons/icon-lock.png"
-    feature2Title = "Funds are Released by Consensus"
-    feature2Txt = "The requested amount is scheduled when the proposal is accepted, but the funds are only released by a second round of voting."
-    feature3Img = "/images/icons/icon-blue-globe.png"
-    feature3Title = "Decentralised Development"
-    feature3Txt = "The aim of the Community Fund is to further decentralise the development of NavCoin projects amongst the community.">}}
+    fontColor="#333"
+    gradient="false"
+    bgColor=""
+    feature1Img="/images/icons/icon-bulb.png"
+    feature1Title="Anyone can make a Proposal"
+    feature1Txt="Anyone and everyone on the network will be able to propose projects, budgets and initiate network votes to schedule funds."
+    feature2Img="/images/icons/icon-lock.png"
+    feature2Title="Funds are Released by Consensus"
+    feature2Txt="The requested amount is scheduled when the proposal is accepted, but the funds are only released by a second round of voting."
+    feature3Img="/images/icons/icon-blue-globe.png"
+    feature3Title="Decentralised Development"
+    feature3Txt="The aim of the Community Fund is to further decentralise the development of NavCoin projects amongst the community.">}}
 
 {{< center_text_section
     title="Want to get involved in testing?"
