@@ -4,7 +4,7 @@ date: 2018-01-10T10:27:21+13:00
 draft: false
 author: "NavCore Team"
 description: ""
-categories: ["Nav Coin Updates"]
+categories: ["NavCoin Updates"]
 resources: []
 slug: ""
 feature_image: "option1-10jan-2018.jpg"

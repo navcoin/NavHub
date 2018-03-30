@@ -4,7 +4,7 @@ date: 2018-03-07T10:27:21+13:00
 draft: false
 author: "The NavCore Team"
 description: ""
-categories: ["Nav Coin Updates"]
+categories: ["NavCoin Updates"]
 resources: []
 slug: ""
 feature_image: "wed7th.png"

@@ -4,7 +4,7 @@ date: 2018-02-21T10:27:21+13:00
 draft: false
 author: "Nav Core Team"
 description: ""
-categories: ["Nav Coin Updates"]
+categories: ["NavCoin Updates"]
 resources: []
 slug: ""
 feature_image: "21-feb-2017.jpg"
