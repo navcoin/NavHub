@@ -33,7 +33,8 @@ weight: 100
     captionPadding="50px"
     imgSrc="navtech1.jpg"
     imgHeight="300px"
-    imgPadding="10px"
+    imgPadding="50px"
+    captionPadding="90px"
     bgColor="#FFF"
     bgImgSrc=""
     fontColor="#333">}}

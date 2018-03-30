@@ -31,7 +31,7 @@ weight: 100
     subhead=""
     gradient=""
     text="Secure your NavCoin with an easy to use light wallet that allows you to take ownership of your private keys."
-    captionPadding="70px"
+    captionPadding="90px"
     imgSrc="navpay-phone2.jpg"
     imgHeight="300px"
     imgPadding="0px"
