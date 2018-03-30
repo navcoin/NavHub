@@ -1,6 +1,6 @@
 ---
 title: "Kickstart 2018 Navpi Back in Stock and Electrum Export to Navpay"
-date: 2018-01-10T10:27:21+13:00
+date: 2017-01-10T10:27:21+13:00
 draft: false
 author: "NavCore Team"
 description: ""
