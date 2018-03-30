@@ -1,30 +1,23 @@
+<!-- main menu area -->
 <header id="stickey-menu">
-    <div class="main-menu">
-        <div class="container">
-            <div class="row">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="col-sm-3">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed custom-toggle" data-toggle="collapse" data-target="#header-menu" aria-expanded="false">
-                            <i class="fa fa-bars fa-lg"></i>
-                        </button>
-                        <div class="logo-brand">
-                            <a href="">
-                                <img src="{{ "images/nav-logo.png" | relURL }}" alt="logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-9">
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse navbar-right" id="header-menu">
-                        {{ template "theme/partials/header_menu.html" . }}
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
+   <nav class="main-menu">
+      <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed custom-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><i class="fa fa-bars fa-lg"></i>
+            </button>
+            <div class="logo-brand">
+               <a href="/">
+                  <img src="{{ "images/nav-logo.png" | relURL }}" alt="logo">
+               </a>
             </div>
-        </div>
-    </div>
+         </div>
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+            {{ template "theme/partials/header_menu.html" . }}
+         </div>
+         <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+   </nav>
 </header>
-
