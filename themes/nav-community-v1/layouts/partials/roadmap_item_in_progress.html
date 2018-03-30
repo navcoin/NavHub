@@ -9,10 +9,13 @@
                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{.Params.percent_complete}}%</div>
       </div>
       <div>{{.Params.description}}</div>
-      <div class="info-links">
+      <div class="info-links roadmap-info-links">
 
           {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}
-          <label class="card-author">Project Lead: {{ .Params.author}}</label>
+          <label class="card-author">
+            <span class="card-author-subhead">Project Lead</span>
+            <span class="card-author-name"> {{ .Params.author}}</span></label>
+          </label>
           {{ end}}
 
           {{ if (isset .Params "twitter_url") | ( not (eq .Params.twitter_url "")) }}

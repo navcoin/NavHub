@@ -3283,7 +3283,7 @@ ul li.cat-item a {
 
    .project-card {
      position: relative;
-     min-width: 400px;
+     min-width: 344px;
    }
 
    .project-desc {
@@ -3303,6 +3303,7 @@ ul li.cat-item a {
       padding: 6px 10px;
       display: inline-block;
       cursor: pointer;
+      float: right;
    }
 
    .click-through:hover {
@@ -3355,6 +3356,12 @@ ul li.cat-item a {
 
 }
 
+@media (max-width: 440px) {
+  .project-more {
+    display:none;
+  }
+}
+
 .roadmap-icon {
     display: inline-block;
     position: absolute;
@@ -3386,3 +3393,23 @@ ul li.cat-item a {
 .roadmap-table:last-child .roadmap-connector {
   display: none;
 }
+
+.card-author-subhead {
+  position: relative;
+  top: -8px;
+  font-size: 10px;
+  height: 0px;
+  display: block;
+}
+
+.card-author-name {
+  position: relative;
+  display: block;
+  top: 6px;
+}
+
+.info-links.roadmap-info-links label {
+  background-color: #523971;
+}
+
+.roadmap-content>p:first-of-type { display: none }
