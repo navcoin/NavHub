@@ -1640,7 +1640,7 @@ ul.page-list li a {
    ========================================== */
 
 .blog-item {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
     position: relative;
     overflow:hidden;
 }
@@ -1719,7 +1719,7 @@ ul.page-list li a {
 }
 
 .blog-item .blog-excerpt {
-  padding-bottom:25px;
+  padding-bottom:12px;
 	padding-top: 0px;
 }
 .blog-details>h3 {
@@ -1745,6 +1745,7 @@ ul.blog-author-name li i {
     font-size: 15px;
     line-height: 24px;
 }
+
 .themeix-second-button .btn-read {
     background-color: #2E94DF;
     color: #fff;
@@ -1896,8 +1897,23 @@ a {
 }
 .blog-excerpt p {
     margin-top: 20px;
-	margin-bottom:20px
+	  margin-bottom:20px;
+    height: 72px;
+    overflow: hidden;
+    position: relative;
 }
+
+.blog-excerpt p:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 1.2em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+
 .previous-blog-post i {
     padding-right: 5px;
 }
