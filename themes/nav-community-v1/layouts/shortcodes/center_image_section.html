@@ -1,6 +1,5 @@
-
-
-<div class="container {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" style="background-color: {{ .Get "bgColor" }};">
+<div class="{{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" style="background-color: {{ .Get "bgColor" }};">
+  <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="col-md-12" style="text-align: center;">
@@ -11,4 +10,5 @@
             </div>
         </div>
     </div>
+  </div>
 </div>

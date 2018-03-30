@@ -3337,6 +3337,7 @@ ul li.cat-item a {
    .roadmap-item-container {
      position: relative;
      padding-bottom: 64px;
+     padding-left: 4em;
    }
 
    .link-section-item:hover {
@@ -3352,4 +3353,36 @@ ul li.cat-item a {
     width: 100%;
   }
 
+}
+
+.roadmap-icon {
+    display: inline-block;
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    border-radius: 100em;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: hsl(263, 38%, 53%);
+    padding: 1em 0;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.roadmap-connector {
+    border-left: 1px dashed hsl(263, 38%, 53%);
+    margin: 1em 0 0 1.5em;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+}
+
+.roadmap-table {
+  display: table;
+  position: relative;
+}
+
+.roadmap-table:last-child .roadmap-connector {
+  display: none;
 }

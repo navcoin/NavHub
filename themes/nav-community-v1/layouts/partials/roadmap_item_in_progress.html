@@ -1,31 +1,35 @@
-<div class="roadmap-item-container">
-    <h3>{{ .Title }} @ {{.Params.percent_complete}}%</h3>
-    <div class="progress">
-        <div class="progress-bar progress-bar-info"
-             style="width: {{.Params.percent_complete}}%"
-             role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{.Params.percent_complete}}%</div>
-    </div>
-    <div>{{.Params.description}}</div>
-    <div class="info-links">
+<div class="roadmap-table">
+  <span class="roadmap-connector"></span>
+  <i class="fa fa-bolt roadmap-icon"></i>
+  <div class="roadmap-item-container">
+      <h3>{{ .Title }} @ {{.Params.percent_complete}}%</h3>
+      <div class="progress">
+          <div class="progress-bar progress-bar-info"
+               style="width: {{.Params.percent_complete}}%"
+               role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{.Params.percent_complete}}%</div>
+      </div>
+      <div>{{.Params.description}}</div>
+      <div class="info-links">
 
-        {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}
-        <label class="card-author">Project Lead: {{ .Params.author}}</label>
-        {{ end}}
+          {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}
+          <label class="card-author">Project Lead: {{ .Params.author}}</label>
+          {{ end}}
 
-        {{ if (isset .Params "twitter_url") | ( not (eq .Params.twitter_url "")) }}
-        <a href="{{.Params.twitter_url}}" target="_blank"><label><i class="fa fa-twitter"></i></label></a>
-        {{end}}
+          {{ if (isset .Params "twitter_url") | ( not (eq .Params.twitter_url "")) }}
+          <a href="{{.Params.twitter_url}}" target="_blank"><label><i class="fa fa-twitter"></i></label></a>
+          {{end}}
 
-        {{ if (isset .Params "github_url") | ( not (eq .Params.github_url "")) }}
-        <a href="{{.Params.github_url}}" target="_blank"><label><i class="fa fa-github"></i></label></a>
-        {{end}}
+          {{ if (isset .Params "github_url") | ( not (eq .Params.github_url "")) }}
+          <a href="{{.Params.github_url}}" target="_blank"><label><i class="fa fa-github"></i></label></a>
+          {{end}}
 
-        {{ if (isset .Params "reddit_url") | ( not (eq .Params.reddit_url "")) }}
-        <a href="{{.Params.reddit_url}}" target="_blank"><label><i class="fa fa-reddit"></i></label></a>
-        {{end}}
+          {{ if (isset .Params "reddit_url") | ( not (eq .Params.reddit_url "")) }}
+          <a href="{{.Params.reddit_url}}" target="_blank"><label><i class="fa fa-reddit"></i></label></a>
+          {{end}}
 
-        {{ if (isset .Params "project_url") | ( not (eq .Params.project_url "")) }}
-        <a href="{{.Params.project_url}}" target="_blank"><label><i class="fa fa-link"></i></label></a>
-        {{end}}
-    </div>
+          {{ if (isset .Params "project_url") | ( not (eq .Params.project_url "")) }}
+          <a href="{{.Params.project_url}}" target="_blank"><label><i class="fa fa-link"></i></label></a>
+          {{end}}
+      </div>
+  </div>
 </div>

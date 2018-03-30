@@ -1,10 +1,14 @@
-    <div class="row" style="background-color: {{ .Get "bgColor" }};">
+    <div style="background-color: {{ .Get "bgColor" }};">
+      <div class="container">
+        <div class="row">
         <div class="col-md-12">
             <div class="about-pb" style="padding: {{ .Get "containerPadding" }};">
                 <div class="col-md-12" style="text-align: center;">
                     <div class="about-appix-right-content">
+                        {{ if isset .Params "title"}}
                         <h2 class="themeix-title-h1" style="color: {{ .Get "fontColor" }}">{{ .Get "title"}}</h2>
-                        <div class="para-mb" style="color: {{ .Get "fontColor" }}">{{ .Inner }}</div>
+                        {{ end }}
+                        <div style="color: {{ .Get "fontColor" }}">{{ .Inner }}</div>
                         <!--<p class="light-300 color-change">NavCoin is open-source; its design is public, nobody owns or controls NavCoin and everyone can take part.</p>-->
                         {{ if isset .Params "btn1Link" }}
                         <div class="themeix-button-group">
@@ -15,4 +19,6 @@
                 </div>
             </div>
         </div>
+      </div>
+    </div>
     </div>
