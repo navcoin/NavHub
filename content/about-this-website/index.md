@@ -19,7 +19,7 @@ type: "default"
 
     <p>NavCore.org is maintained by the NavCoin Core Developers and other NavCoin Community Members. The site and its content are open source. This means that anyone can update, delete or add their own NavCoin related projects and news.</p>
 
-<p> If you would like to make a contribution, then please follow the instructions in the readme file on GitHub.</p>
+<p> If you would like to add or update anything on the site, then please follow the instructions in the readme file on GitHub.</p>
 {{< /left_image_section >}}
 
 {{< links_section
