@@ -2,9 +2,9 @@
 title: "Development Update, New NavCoin Contributors and Community Meetups"
 date: 2018-03-14T10:27:21+13:00
 draft: false
-author: "The NavCore Team"
+author: "NavCore"
 description: ""
-categories: ["NavCoin Updates"]
+categories: ["Nav News"]
 resources: []
 slug: ""
 feature_image: "march-14.png"

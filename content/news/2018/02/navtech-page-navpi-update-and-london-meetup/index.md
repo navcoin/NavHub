@@ -2,9 +2,9 @@
 title: "NavTech page, NavPi update, and London Meetup"
 date: 2018-02-28T10:27:21+13:00
 draft: false
-author: "Nav Core Team"
+author: "NavCore"
 description: ""
-categories: ["NavCoin Updates"]
+categories: ["Nav News"]
 resources: []
 slug: ""
 feature_image: "feb-28.png"

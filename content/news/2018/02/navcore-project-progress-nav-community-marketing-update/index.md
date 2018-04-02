@@ -2,9 +2,9 @@
 title: "NavCore Project Progress, Nav Community & Marketing Update"
 date: 2018-02-21T10:27:21+13:00
 draft: false
-author: "Nav Core Team"
+author: "NavCore"
 description: ""
-categories: ["NavCoin Updates"]
+categories: ["Nav News"]
 resources: []
 slug: ""
 feature_image: "21-feb-2017.jpg"

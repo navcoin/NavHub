@@ -2,7 +2,7 @@
 title: "A Guide To NavTech 1.2 - In Easy To Understand Language"
 date: 2017-08-28T10:27:21+13:00
 draft: false
-author: "NavCore Team"
+author: "NavCore"
 description: ""
 categories: ["Article"]
 resources: []

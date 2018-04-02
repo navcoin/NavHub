@@ -2,9 +2,9 @@
 title: "2018 Roadmap is Live"
 date: 2018-01-17T10:27:21+13:00
 draft: false
-author: "NavCore Team"
+author: "NavCore"
 description: ""
-categories: ["Nav Coin Updates"]
+categories: ["Nav News"]
 resources: []
 slug: ""
 feature_image: "2018-roadmap.png"
