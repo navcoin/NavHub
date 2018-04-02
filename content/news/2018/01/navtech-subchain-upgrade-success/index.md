@@ -2,9 +2,9 @@
 title: "NavTech Subchain Upgrade Success"
 date: 2018-01-31T10:27:21+13:00
 draft: false
-author: "NavCore Team"
+author: "NavCore"
 description: ""
-categories: ["Nav Coin Updates"]
+categories: ["Nav News"]
 resources: []
 slug: ""
 feature_image: "31st-jan.jpg"

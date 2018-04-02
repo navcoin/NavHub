@@ -2,9 +2,9 @@
 title: "Knowledge Base Launched, NavPi Ready, Encrypt S Expansion"
 date: 2018-02-14T10:27:21+13:00
 draft: false
-author: "Nav Core Team"
+author: "NavCore"
 description: ""
-categories: ["NavCoin Updates"]
+categories: ["Nav News"]
 resources: []
 slug: ""
 feature_image: "feb-14.jpg"
