@@ -1,7 +1,6 @@
-
-
 <section class="{{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" id="project" >
-        <div class="container" style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
+        <div style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
+          <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <!--<div class="owl-carousel">-->
@@ -19,5 +18,6 @@
                         </div>
                 </div>
             </div>
+          </div>
         </div>
 </section>

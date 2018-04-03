@@ -25,7 +25,6 @@ card_color: "#7d5ab5"
 font_color: "#fff"
 weight: 1
 ---
-
 {{< project_header
     title="NavCoin Core"
     subhead=""
@@ -35,10 +34,8 @@ weight: 1
     imgSrc="navcoin-core.png"
     imgHeight="400px"
     imgPadding="0px"
-    bgColor="#fff"
+    bgColor="#FFF"
     fontColor="#333">}}
-
-
 {{< center_text_section
     title="It’s easy to use"
     bgColor="#42b6eb"
@@ -46,9 +43,6 @@ weight: 1
     fontColor="#FFF">}}
     <p>The NavCoin Core wallet has been carefully refined to be intuitive and easy to use. It comes with a setup wizard and everything you need to load the blockchain and start sending transactions in a secure environment.</p>
 {{< /center_text_section >}}
-
-
-
 {{< project_features
     fontColor="#333"
     gradient="false"
@@ -70,7 +64,6 @@ weight: 1
     feature6Img="/images/icons/icon-person.png"
     feature6Title="Peer to Peer"
     feature6Txt="NavCoin operates with no central authority; managing transactions and issuing NavCoin is carried out collectively by the network.">}}
-
 {{< project_links
     title="NavCoin Core Downloads"
     subtitle="These wallets run the blockchain & participate in validating transactions."
