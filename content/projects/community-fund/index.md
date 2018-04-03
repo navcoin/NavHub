@@ -25,7 +25,6 @@ card_color: "#6984D8"
 font_color: "#fff"
 weight: 100
 ---
-
 {{< project_header
     title="Community Fund"
     subhead=""
@@ -37,9 +36,6 @@ weight: 100
     bgColor="#FFF"
     bgImgSrc=""
     fontColor="#333">}}
-
-
-
 {{< center_text_section
     title="Why do we need a community fund?"
     bgColor="#42b6eb"
@@ -49,6 +45,7 @@ weight: 100
 {{< /center_text_section >}}
 
 <br />
+<section class="container">
 ## What's changing?
 
 The community have suggested a change in the consensus mechanism which would allow for community contributors to receive funding from the network for their efforts. The NavCoin Core developers agree that implementing community led funding will best serve the interests of this open-source project and foster it’s decentralised nature.
@@ -109,7 +106,7 @@ The NavCoin Core developers propose some changes to the NavCoin consensus protoc
 - The aim of this is to fund the decentralised development of NavCoin amongst the community.
 
 <br /><br />
-
+</section>
 {{< center_text_section
     title="The voting period was successful"
     bgColor="#7d5ab5"
