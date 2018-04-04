@@ -3,6 +3,9 @@ title: "Terms of Use"
 date: 2018-03-12T17:47:48+13:00
 draft: false
 ---
+<br />
+<section class="container">
+
 © NavCoin 2014-2018 is released under the [MIT license](http://opensource.org/licenses/mit-license.php).
 
 By using the NavCoin softwares or network, you also agree to the following terms of use.
@@ -24,3 +27,6 @@ Because some jurisdictions do not allow the disclaimer of warranties, or the exc
 
 ### Viruses and malware
 The NavCoin Core Developers takes many precautions to ensure the files available for downloading through this website are not tampered with, and where appropriate SHA hashes are provided for end users to confirm they have downloaded the correct file. Nonetheless, the NavCoin Core Developers do not guarantee that files available for downloading through this website will be free of infection or viruses or other code that may have contaminating or destructive properties. You are responsible for implementing sufficient procedures and checkpoints to satisfy your particular requirements for integrity, security and accuracy of data input and output, and for maintaining a means external to the site for the reconstruction of any lost data. It is almost always advisable to check the SHA hashes of the files you have downloaded, and if in any doubt consider compiling Nav Coin from the source code.
+
+<br /><br />
+</section>
