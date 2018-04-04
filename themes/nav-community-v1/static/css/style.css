@@ -3413,6 +3413,7 @@ ul li.cat-item a {
 .roadmap-table {
   display: table;
   position: relative;
+  width: 100%;
 }
 
 .roadmap-table:last-child .roadmap-connector {
