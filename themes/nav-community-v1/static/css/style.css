@@ -638,7 +638,6 @@ header.stickey .logo-brand img{
    ========================================== */
 
 .stickey .main-menu {
-    animation: 400ms linear 0s normal none 1 running fadeInDown;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: #FFFFFF;
     left: 0;
@@ -647,7 +646,6 @@ header.stickey .logo-brand img{
     position: fixed;
     right: 0;
     top: 0;
-    transition: all 300ms linear 0s;
     z-index: 10;
     padding: 0px 0;
     border: 0;
@@ -1613,7 +1611,7 @@ textarea:-moz-placeholder {
     background-position: top center;
 }
 .page-header-bg {
-    padding-top: 140px;
+    padding-top: 110px;
     padding-bottom: 72px;
     color: #FFFFFF;
 }
@@ -3452,4 +3450,35 @@ ul li.cat-item a {
 }
 .recent-posts li:nth-child(5) {
   display: block;
+}
+
+.nav li ul {
+  display: none;
+  position: fixed;
+}
+
+.main-menu .navbar-nav li ul li {
+  padding: 0;
+}
+
+.main-menu .navbar-nav li ul li a {
+  padding: 8px 15px;
+}
+
+.nav li:hover ul {
+  display: block;
+  background-color: #FFF;
+}
+
+.sub-menu .fa {
+  margin-right: 5px;
+}
+
+.links-image-shadow .service-icon img {
+  border: 1px solid #EEE;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.2))
+}
+
+.links-desc {
+    padding: 0 20px;
 }

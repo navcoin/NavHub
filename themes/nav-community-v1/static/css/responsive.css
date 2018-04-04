@@ -173,6 +173,11 @@ span.price-tag {
 /* Small mobile:320px  */
 @media (max-width: 767px){
 
+  .nav li ul {
+    display: none;
+    position: relative;
+  }
+
   #project .caption-area {
     padding: 20px!important;
   }
