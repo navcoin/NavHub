@@ -34,8 +34,8 @@ draft: false
     feature2Title="Energy Efficient"
     feature2Txt="Nav Coin uses Proof of Stake which only consumes a fraction of the energy used to mine using Proof of Work."
     feature3Img="images/icons/icon-lock.png"
-    feature3Title="Private Payments"
-    feature3Txt="Optionally send private transactions through the open source NavTech private payment platform.">}}
+    feature3Title="Secure Wallets"
+    feature3Txt="There are a variety of NavCoin wallets which help you keep your private keys secure on most operating systems.">}}
 {{< home_centre_text_section
     title="This Site Is 100% Maintained By The Community"
     text="">}}
