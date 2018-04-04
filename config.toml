@@ -56,7 +56,6 @@ twitter_username = "navcoin"
     title = "Resources"
     weight = -110
     identifier = "resources"
-    url = "#"
 [[menu.main]]
     parent = "resources"
     name = "Projects"

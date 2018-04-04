@@ -281,10 +281,10 @@ h1 {
     padding: 0px 0px!important;
 }
 
-.main-menu ul.navbar-nav li a {
+.main-menu ul.navbar-nav li a, .main-menu ul.navbar-nav li .nav-top-item {
   border-bottom: none!important;
 }
-.main-menu ul.navbar-nav li a:hover{
+.main-menu ul.navbar-nav li a:hover, .main-menu ul.navbar-nav li:hover .nav-top-item {
 	color: #7d5ab5;
 }
 

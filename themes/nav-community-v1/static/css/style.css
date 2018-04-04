@@ -348,16 +348,18 @@ header {
     padding: 0 5px;
 }
 
-.main-menu .navbar-nav li a {
+.main-menu .navbar-nav li a, .main-menu .navbar-nav li .nav-top-item {
     padding: 8px 10px;
     font-size: 16px;
     display: block;
     transition: none;
+    text-transform: uppercase;
+    line-height: 20px;
     font-weight: 400;
   	color: #333;
     border-bottom: 2px solid #FFF;
 }
-.main-menu .navbar-nav li a:hover {
+.main-menu .navbar-nav li a:hover, .main-menu .navbar-nav li:hover .nav-top-item {
     border-bottom: 2px solid #999;
 }
 

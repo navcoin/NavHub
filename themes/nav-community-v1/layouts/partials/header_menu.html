@@ -4,11 +4,11 @@
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
         <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-dropdown">
-        <a href="#">
+        <span class="nav-top-item">
             {{ .Pre }}
             <span>{{ .Name }}</span>
             <span class="fa fa-angle-double-down"></span>
-        </a>
+        </span>
         <ul class="sub-menu">
             {{ range .Children }}
             <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
