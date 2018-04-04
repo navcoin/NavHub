@@ -1,5 +1,5 @@
 ---
-title: "Donation Payment Button"
+title: "Payment Button"
 date: 2018-03-29T14:31:12+13:00
 lastmod: 2018-03-29T14:31:12+13:00
 draft: false
@@ -14,14 +14,14 @@ show_title_text: false
 in_progress: false
 completed: true
 show_on_roadmap: true
-show_on_projects: false
+show_on_projects: true
 allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/brianium/nav-button"
 project_url: "https://brianium.github.io/nav-button"
 reddit_url: ""
 twitter_url: ""
-card_color: ""
-font_color: ""
+card_color: "#7d5ab5"
+font_color: "#FFF"
 weight: 0
 ---

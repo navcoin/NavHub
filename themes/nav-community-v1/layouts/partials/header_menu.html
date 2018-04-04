@@ -3,15 +3,16 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
-        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-dropdown">
         <a href="#">
             {{ .Pre }}
             <span>{{ .Name }}</span>
+            <span class="fa fa-angle-double-down"></span>
         </a>
         <ul class="sub-menu">
             {{ range .Children }}
             <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ .URL }}"><span class="fa fa-angle-right"></span>{{ .Name }}</a>
             {{ end }}
         </ul>
         {{else}}

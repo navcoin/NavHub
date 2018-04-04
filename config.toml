@@ -52,23 +52,45 @@ twitter_username = "navcoin"
     identifier = "news"
     url = "/news/"
 [[menu.main]]
+    name = "Resources"
+    title = "Resources"
+    weight = -110
+    identifier = "resources"
+    url = "#"
+[[menu.main]]
+    parent = "resources"
     name = "Projects"
     title = "Projects"
-    weight = -110
+    weight = -109
     identifier = "Project"
     url = "/projects/order-by-progress/"
 [[menu.main]]
-    name = "Get Involved"
-    title = "Get Involved"
-    weight = -100
-    url = "/get-involved/"
-    identifier = "get-involved"
+    parent = "resources"
+    name = "Merchants"
+    title = "Merchants"
+    weight = -108
+    identifier = "merchants"
+    url = "/merchants/"
+[[menu.main]]
+    parent = "resources"
+    name = "Information"
+    title = "Information"
+    weight = -107
+    identifier = "information"
+    url = "/information/"
 [[menu.main]]
     name = "Roadmap"
     title = "Roadmap"
     weight = -105
     url = "/roadmap/"
     identifier = "roadmap"
+[[menu.main]]
+    name = "Get Involved"
+    title = "Get Involved"
+    weight = -100
+    url = "/get-involved/"
+    identifier = "get-involved"
+
 [[menu.main]]
     name = "About"
     title = "About"
