@@ -3408,6 +3408,7 @@ ul li.cat-item a {
 .roadmap-table {
   display: table;
   position: relative;
+  width: 80%;
 }
 
 .roadmap-table:last-child .roadmap-connector {
