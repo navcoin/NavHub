@@ -11,29 +11,32 @@
   line-height: 24px; }
 
 .main-slider-overlay {
-  background: -moz-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(52, 193, 239, 0.88)), color-stop(100%, #dd38c2), color-stop(100%, #dd38c2));
-  background: -webkit-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-  background: -o-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-  background: -ms-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-  background: linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%); }
+  background: -moz-linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(68, 178, 233, 0.88)), color-stop(100%, #c529b5), color-stop(100%, #c529b5));
+  background: -webkit-linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
+  background: -o-linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
+  background: -ms-linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
+  background: linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%); }
 
 .bg-gradient {
-  background: -moz-linear-gradient(35deg, #dd38c2 0%, #34c1ef 100%);
+  background: -moz-linear-gradient(35deg, #c529b5 0%, #44b2e9 100%);
   /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #dd38c2), color-stop(100%, #34c1ef));
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #c529b5), color-stop(100%, #44b2e9));
   /* safari4+,chrome */
-  background: -webkit-linear-gradient(35deg, #dd38c2 0%, #34c1ef 100%);
+  background: -webkit-linear-gradient(35deg, #c529b5 0%, #44b2e9 100%);
   /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(35deg, #dd38c2 0%, #34c1ef 100%);
+  background: -o-linear-gradient(35deg, #c529b5 0%, #44b2e9 100%);
   /* opera 11.10+ */
-  background: -ms-linear-gradient(35deg, #dd38c2 0%, #34c1ef 100%);
+  background: -ms-linear-gradient(35deg, #c529b5 0%, #44b2e9 100%);
   /* ie10+ */
-  background: linear-gradient(55deg, #dd38c2 0%, #34c1ef 100%);
+  background: linear-gradient(55deg, #c529b5 0%, #44b2e9 100%);
   /* w3c */ }
 
 .page-header-bg {
   height: auto; }
+
+.vert-10 {
+  height: 10px; }
 
 .icon-block {
   display: inline-block;
@@ -51,9 +54,7 @@
   display: flex;
   flex-wrap: wrap; }
   .projects-card-container .project-card {
-    margin: 15px 15px 0 0;
-    padding: 0 20px 10px 20px;
-    max-width: 400px; }
+    padding: 0 20px 10px 20px; }
 
 .info-links {
   display: flex;

@@ -394,6 +394,11 @@ header.stickey .logo-brand img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.themeix-bg.themeix-small {
+  background-position: top center;
+}
+
 .themeix-bg.header-bg-2 {
     background-image: url(../images/slide-image/home-page-image.jpg);
 }
@@ -2085,7 +2090,7 @@ a {
     background-repeat: no-repeat;
 }
 .blog-footer-overlya {
-    background-color: rgba(61, 147, 241, .80);
+    background-color: rgba(68, 178, 233, .80);
 }
 /* ==========================================
            23. Blog sidebar
