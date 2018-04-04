@@ -1,5 +1,5 @@
 ---
-title: "Navcore Community Hub Launched, Alex visits Auckland."
+title: "NavCoin Community Hub Launched, Alex visits Auckland."
 date: 2018-04-04T21:37:45+12:00
 draft: false
 author: "NavCore"
