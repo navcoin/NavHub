@@ -15,6 +15,7 @@ type: "roadmap"
     btn1Link="/get-involved"
     btn1Txt="Contribute to NavCoin"
     fontColor="#FFF">}}
+	<body class="roadmap-row"> 
     <p>Cryptocurrencies are complicated, and it’s NavCoin’s mission to change that. As a community we are striving to make NavCoin the most usable cryptocurrency on the planet.</p>
     <p>NavCoin’s community roadmap continues that journey. Together we are laying the foundation for NavCoin to be an industry-leading cryptocurrency, by building better money.</p>
 {{< /left_image_section >}}
