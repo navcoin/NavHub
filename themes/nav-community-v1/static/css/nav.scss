@@ -18,33 +18,33 @@
 
 
 .main-slider-overlay {
-    background: -moz-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(52, 193, 239, 0.88)), color-stop(100%, rgb(221, 56, 194)), color-stop(100%, rgb(221, 56, 194)));
-    background: -webkit-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    background: -o-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    background: -ms-linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
-    background: linear-gradient(45deg, rgba(52, 193, 239, 0.88) 0%, rgba(221, 56, 194, 0.88) 100%, rgba(221, 56, 194, 0.88) 100%);
+    background: -moz-linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(68, 178, 233, 0.88)), color-stop(100%, rgb(197, 41, 181)), color-stop(100%, rgb(197, 41, 181)));
+    background: -webkit-linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
+    background: -o-linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
+    background: -ms-linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
+    background: linear-gradient(45deg, rgba(68, 178, 233, 0.88) 0%, rgba(197, 41, 181, 0.88) 100%, rgba(197, 41, 181, 0.88) 100%);
 
 }
 
 
 .bg-gradient {
-    background: -moz-linear-gradient(35deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
+    background: -moz-linear-gradient(35deg, rgb(197, 41, 181) 0%, rgb(68, 178, 233) 100%);
     /* ff3.6+ */
 
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(221, 56, 194)), color-stop(100%, rgb(52, 193, 239)));
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(197, 41, 181)), color-stop(100%, rgb(68, 178, 233)));
     /* safari4+,chrome */
 
-    background: -webkit-linear-gradient(35deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
+    background: -webkit-linear-gradient(35deg, rgb(197, 41, 181) 0%, rgb(68, 178, 233) 100%);
     /* safari5.1+,chrome10+ */
 
-    background: -o-linear-gradient(35deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
+    background: -o-linear-gradient(35deg, rgb(197, 41, 181) 0%, rgb(68, 178, 233) 100%);
     /* opera 11.10+ */
 
-    background: -ms-linear-gradient(35deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
+    background: -ms-linear-gradient(35deg, rgb(197, 41, 181) 0%, rgb(68, 178, 233) 100%);
     /* ie10+ */
 
-    background: linear-gradient(55deg, rgb(221, 56, 194) 0%, rgb(52, 193, 239) 100%);
+    background: linear-gradient(55deg, rgb(197, 41, 181) 0%, rgb(68, 178, 233) 100%);
     /* w3c */
 
 }
@@ -82,9 +82,10 @@
     flex-wrap: wrap;
 
     .project-card {
-        //margin: 15px 15px 0 0; 
+        margin: 15px 15px 0 0;
         padding: 0 20px 10px 20px ;
-        //max-width: 400px;
+        max-width: 400px;
+
     }
 
 }
