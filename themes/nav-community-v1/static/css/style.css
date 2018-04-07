@@ -1585,6 +1585,33 @@ textarea:-moz-placeholder {
 .inner-section {
     color: #ffffff;
 }
+
+.themeix-tool{
+	scale: 0.9;
+}
+.themeix-tool:hover{
+	transform: scale(0.9)!important;
+	-webkit-animation: social 1s;
+    animation: social 1s;
+}
+@-webkit-keyframes social {
+      0% { transform: scale(0.9); }
+	 50% { transform: scale(1); }
+    100% { transform: scale(0.9); }
+}
+
+@keyframes social {
+       0% { transform: scale(0.9); }
+	 50% { transform: scale(1); }
+    100% { transform: scale(0.9); }
+}
+
+a.themeix-tool .fa {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-indent: .6px;
+}
+
 /* ==========================================
            18. scrollUP
    ========================================== */
