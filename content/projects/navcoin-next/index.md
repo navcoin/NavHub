@@ -6,7 +6,7 @@ draft: false
 author: "Sakdeniz"
 description: "A cross platform NavCoin wallet that provides an alternative to NavCoin Core and an even more user friendly graphical interface."
 resources: []
-categories: []
+project_categories: ["Wallets"]
 slug: ""
 type: "project"
 feature_image: ""

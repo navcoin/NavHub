@@ -5,7 +5,7 @@ draft: false
 author: "Ro Savage"
 description: "Using a combination of lightning network transactions and exchange integrations, NavChange is a Valence-powered application which facilitates instant exchange between NAV and other currencies."
 resources: []
-categories: []
+project_categories: ["Exchange"]
 slug: ""
 type: "project"
 feature_image: ""

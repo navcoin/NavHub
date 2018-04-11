@@ -2,13 +2,11 @@
 
 
     <div class="widget">
-        <h3 class="widget-title">Sort Projects</h3>
+        <h3 class="widget-title">Filter Projects</h3>
         <ul>
-
-            <li class="cat-item" ><a href="/projects">Date Created</a></li>
-            <li class="cat-item" ><a href="/projects/order-by-progress">By progress</a></li>
-            <li class="cat-item" ><a href="/projects/order-by-last-updated">Last Updated</a></li>
-
+          {{ range first 10 .Site.Taxonomies.project_categories.ByCount }}
+              <li class="cat-item" ><a href="/projects/filter-by-{{ .Name | urlize }}">{{ .Name }}</a> </li>
+          {{ end }}
         </ul>
     </div>
 

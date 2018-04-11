@@ -1,14 +1,4 @@
 
-{{ if (isset .Params "order_page") }}
-
-    <!-- Order the projects by progress -->
-    {{if eq .Params.order_by "progress" }}
-        {{ partial "projects_order_by_progress.html" . }}
-    {{end}}
-
-    <!-- Order the projects by last mod date -->
-    {{if eq .Params.order_by "lastmod" }}
-        {{ partial "projects_order_by_last_updated.html" . }}
-    {{end}}
-
+{{ if (isset .Params "filter_page") }}
+    {{ partial "projects_filter_by.html" . }}
 {{end}}
