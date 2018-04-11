@@ -13,12 +13,12 @@ show_title_text: false
 ---
 This week the core team have started creating NavCoin Core manifesto documents, and we see a fantastic example of how members without coding skills can contribute to the project.
 <!--more-->
-### NavCoin Core Manifesto’s
-The Core Content team are currently working closely with developers to create a suite of NavCoin Core Manifestos. The purpose of these Manifesto’s is to make clear:
+### NavCoin Core Manifestos
+The Core Content team are currently working closely with developers to create a suite of NavCoin Core Manifestos. The purpose of these Manifestos is to make clear:
 
 
-* What the core contributor’s roles are
-* How the contributor’s decide what to work on
+* What the core contributors roles are
+* How the contributors decide what to work on
 * The values that drive the NavCoin core contributors
 
 For a decentralised project like NavCoin, having a clearly defined set of guiding beliefs is hugely important. It formalises how the collective operates and the reasons for doing things in a certain way - enabling all NavCoin contributors to pull in a similar direction.
