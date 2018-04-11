@@ -14,7 +14,7 @@ show_title_text: false
 This week the core team have started creating NavCoin Core manifesto documents, and we see a fantastic example of how members without coding skills can contribute to the project.
 <!--more-->
 ### NavCoin Core Manifesto’s
-The Core Content team are currently working closely with developers to create a suite of NavCoin Core Manifesto’s. The purpose of these Manifesto’s is to make clear:
+The Core Content team are currently working closely with developers to create a suite of NavCoin Core Manifestos. The purpose of these Manifesto’s is to make clear:
 
 
 * What the core contributor’s roles are
@@ -42,7 +42,7 @@ He said that if you are testing, you should also test this binary in mainnet, ev
 
 Alex has also been investigating the staking difficulty bug, and thinks he’s close to finding the cause. He will give more info soon.
 
-Craig has had a week full of meetings, researching blockchain tech, and leading the efforts behind a suite of NavCoin Core manifesto’s. The aim of this is to inspire a lot more people to start contributing to the NavCoin project. So alongside drafting Manifestos with other community members, he has been refining the NavCore Community Hub at navcore.org - looking at ways to make the ‘projects’ page more useful and nicer looking.
+Craig has had a week full of meetings, researching blockchain tech, and leading the efforts behind a suite of NavCoin Core manifestos. The aim of this is to inspire a lot more people to start contributing to the NavCoin project. So alongside drafting Manifestos with other community members, he has been refining the NavCore Community Hub at navcore.org - looking at ways to make the ‘projects’ page more useful and nicer looking.
 
 ‘Project Craig’ has also been getting some overdue work too - including more sleep, which is much needed after several crazy busy months.
 
