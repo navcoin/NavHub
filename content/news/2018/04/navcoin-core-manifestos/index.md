@@ -70,7 +70,7 @@ Prodpeak has been busy creating a new block explorer for NavCoin. It’s still i
 
 http://alpha.navexplorer.com
 
-Sakdeniz has released an alpha version of the NavCoin Next wallet, a modern javascript based wallet which enales some cool extended functionality. Check out the project here and try out the wallet alpha.
+Sakdeniz has released an alpha version of the NavCoin Next wallet, a modern javascript based wallet which enables some cool extended functionality. Check out the project here and try out the wallet alpha.
 
 http://next.navcommunity.net
 
