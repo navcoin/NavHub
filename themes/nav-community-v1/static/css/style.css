@@ -365,6 +365,7 @@ header {
 
 .main-menu .navbar-nav li.nav-dropdown a:hover {
     border-bottom: 2px solid #FFF;
+    background-color: rgb(127,127,127,0.1);
 }
 
 .main-menu .navbar-nav li.nav-dropdown a:hover .fa {
