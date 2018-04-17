@@ -359,8 +359,18 @@ header {
   	color: #333;
     border-bottom: 2px solid #FFF;
 }
-.main-menu .navbar-nav li a:hover, .main-menu .navbar-nav li:hover .nav-top-item {
+.main-menu .navbar-nav li a:hover {
     border-bottom: 2px solid #999;
+}
+
+.main-menu .navbar-nav li.nav-dropdown a:hover {
+    border-bottom: 2px solid #FFF;
+    background-color: rgb(127,127,127,0.1);
+}
+
+.main-menu .navbar-nav li.nav-dropdown a:hover .fa {
+  margin-left: 5px;
+  margin-right: 3px;
 }
 
 .stickey .main-menu .navbar-nav li.active a {
@@ -3506,7 +3516,7 @@ ul li.cat-item a {
 }
 
 .sub-menu .fa {
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .links-image-shadow .service-icon img {
