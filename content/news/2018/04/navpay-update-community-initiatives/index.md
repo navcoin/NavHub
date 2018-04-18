@@ -25,7 +25,7 @@ Rowan has been busy getting the next version of NavPay ready for release (in the
 Matt also had a big NavPay week. All the text that’s been added to the new version has been translated into Spanish, Russian, Italian, Japanese, Dutch, German, and Portuguese.
 Matt sends grateful shout-outs to the NavCoin Italian community, Vlad, Ras, Toffeeapple, and the many others who contributed anonymously - it couldn’t have been done without you.
 
-Paul had to spread himself around, assisting Alex and Craig on the staking difficulty bug patch, helping Craig plan APIs for future crypto wallets, and on-boarding Carter - who’ll you meet in more detail below. Along with all that, Paul started development of a system to roll out a scalable NavCoin testnet of 100's of servers.
+Paul had to spread himself around, assisting Alex and Craig on the staking difficulty bug patch, helping Craig plan APIs for future crypto wallets, and on-boarding Carter - who you’ll meet in more detail below. Along with all that, Paul started development of a system to roll out a scalable NavCoin testnet of 100's of servers.
 
 Last week was another big one for Alex too, as he burned the midnight oil working on the difficulty bug patch. He has submitted the fix as a pull request on GitHub, which is awaiting review and approval by other core developers. Alex continued his Cold Staking project, and set up to upload the bootstrap to the new DigitalOcean servers.
 
