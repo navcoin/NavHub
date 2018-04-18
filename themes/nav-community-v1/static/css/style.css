@@ -3461,7 +3461,7 @@ ul li.cat-item a {
   display: none;
 }
 
-.projec-card .card-author {
+.project-card .card-author {
   position: absolute;
   z-index: 100;
   right: 0;
