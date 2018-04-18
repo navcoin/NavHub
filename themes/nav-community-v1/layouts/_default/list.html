@@ -31,11 +31,12 @@
                           <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
                           <ul class="blog-author-name">
                               <li><i class="fa fa-user-o"></i>{{ .Params.author }}</li>
+                              {{ if .Params.date }}
                               <li>
                                   <i class="fa fa-calendar"></i>
                                   {{ dateFormat "2 Jan 2006" .Params.date }}
                               </li>
-
+                              {{ end }}
                           </ul>
                           <ul class="blog-author-name">
                               {{ range .Params.categories }}
