@@ -294,7 +294,7 @@ section.pt-25 {
 header {
     position: absolute;
     width: 100%;
-    z-index: 22;
+    z-index: 200;
     left: 0;
     top: 0;
 }
@@ -641,7 +641,7 @@ header.stickey .logo-brand img{
     color: #FFFFFF!important;
 }
 /* ==========================================
-6. Sticky Menu
+6. y Menu
    ========================================== */
 
 .stickey .main-menu {
