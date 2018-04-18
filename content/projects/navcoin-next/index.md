@@ -22,7 +22,7 @@ github_url: ""
 reddit_url: ""
 project_url: "http://next.navcommunity.net/"
 twitter_url: ""
-card_color: "#3DBBEC"
+card_color: "#6984D8"
 font_color: "#fff"
 weight: 0
 ---

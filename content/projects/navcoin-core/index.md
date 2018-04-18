@@ -30,7 +30,7 @@ weight: 1
     title="NavCoin Core"
     subhead=""
     gradient=""
-    text="Anyone and everyone on the network will be able to propose projects, budgets and initiate network votes to schedule funds."
+    text="NavCoin Core is the software that runs the blockchain. Combining speed and reliability with usability."
     captionPadding="100px"
     imgSrc="navcoin-core.png"
     imgHeight="400px"
