@@ -5,6 +5,8 @@ lastmod: 2018-03-27T17:53:11+13:00
 draft: false
 author: "Craig MacGregor"
 description: "NavTech enables a dual blockchain based private payment option that operates in parallel to the NavCoin blockchain."
+project_categories: ["Network"]
+bg_image: "/images/icons/icon-purple-network-new.png"
 resources: []
 categories: []
 slug: ""

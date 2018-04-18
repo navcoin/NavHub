@@ -19,6 +19,9 @@
   <div class="container" style="margin-bottom: 50px;">
 
         <div class="row">
+          <div class="col-sm-3 project-sidebar">
+             {{ partial "projects_sidebar.html" . }}
+          </div>
             <div class="col-sm-9">
 
                 <div class="projects-card-container">
@@ -45,9 +48,7 @@
 
             </div>
 
-            <div class="col-sm-3 project-sidebar">
-               {{ partial "projects_sidebar.html" . }}
-            </div>
+
         </div>
 
 

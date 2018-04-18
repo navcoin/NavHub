@@ -9,7 +9,7 @@ resources: []
 categories: []
 slug: ""
 filter_page: true
-filter_by: "Wallets"
+filter_by: "Protocol Improvements"
 ---
 {{< left_image_section
     title="NavCoin Projects"
@@ -31,5 +31,5 @@ filter_by: "Wallets"
     containerPadding="10px 0"
     borderBottom="1px solid #CCC"
     fontColor="#7A7A7A">}}
-    <a href="/projects/">Projects</a> / Wallets
+    <a href="/projects/">Projects</a> / Protocol Improvements
 {{< /left_text_section >}}

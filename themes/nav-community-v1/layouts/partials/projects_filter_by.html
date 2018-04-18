@@ -18,32 +18,33 @@
 
   <div class="container" style="margin-bottom: 50px;">
 
+    {{ $filter := .Params.filter_by }}
+
         <div class="row">
+          <div class="col-sm-3 project-sidebar">
+              {{ partial "projects_sidebar.html" . }}
+          </div>
             <div class="col-sm-9">
 
                 <div class="projects-card-container">
                     {{range .Site.Pages.ByWeight  }}
                         {{ $project := .}}
-                        {{ if .Params.completed }}
 
-                            {{ if and (.Params.completed) (.Params.show_on_projects) }}
+                            {{ if (.Params.show_on_projects) }}
 
                               {{range .Params.project_categories }}
-                                {{ if (eq . "Wallets")  }}
+                                {{ if (eq . $filter)  }}
                                 {{ partial "project_card_planning.html" $project }}
                                 {{end}}
                               {{end}}
 
-                            {{end}}
                         {{end}}
                     {{end}}
                 </div>
 
             </div>
 
-            <div class="col-sm-3 project-sidebar">
-                {{ partial "projects_sidebar.html" . }}
-            </div>
+
         </div>
 
 

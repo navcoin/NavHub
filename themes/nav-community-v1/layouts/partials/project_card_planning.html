@@ -1,27 +1,23 @@
-<div class="project-card" style="background-color: {{.Params.card_color}}; color: {{.Params.font_color}} !important">
-
+<div class="project-card" style="background-color: {{.Params.card_color}}; color: {{.Params.font_color}} !important; ">
+  <div class="bg-container">
+    <img src="{{.Params.bg_image}}" class="background-image" />
+  </div>
+  {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}
+  <label class="card-author">
+    <span class="card-author-subhead">Project Lead</span>
+    <span class="card-author-name"> {{ .Params.author}}</span></label>
+  {{ end}}
+  <div class="bg-overlay" style="background-color: {{.Params.card_color}};"></div>
     <div class="row">
-      <div class="col-xs-9">
+      <div class="col-xs-12">
         <h3 class="card-title">
           {{ .Title }}
         </h3>
       </div>
-      <div class="col-xs-3">
-        {{ if .Params.allow_click_through }}
-        <a href="{{.Permalink}}" class="click-through">More <span class="fa fa-chevron-right project-more"></span></a>
-        {{end}}
-      </div>
     </div>
-
 
     <div style="color: {{.Params.font_color}} !important; " class="project-desc">{{.Params.description}}</div>
     <div class="info-links">
-
-        {{ if (isset .Params "author") | ( not (eq .Params.author "")) }}
-        <label class="card-author">
-          <span class="card-author-subhead">Project Lead</span>
-          <span class="card-author-name"> {{ .Params.author}}</span></label>
-        {{ end}}
 
         {{ if (isset .Params "twitter_url") | ( not (eq .Params.twitter_url "")) }}
         <a href="{{.Params.twitter_url}}" target="_blank"><label><i class="fa fa-twitter"></i></label></a>
@@ -37,6 +33,10 @@
 
         {{ if (isset .Params "project_url") | ( not (eq .Params.project_url "")) }}
         <a href="{{.Params.project_url}}" target="_blank"><label><i class="fa fa-link"></i></label></a>
+        {{end}}
+
+        {{ if .Params.allow_click_through }}
+        <a href="{{.Permalink}}" class="click-through">See Project <span class="fa fa-chevron-right project-more"></span></a>
         {{end}}
     </div>
 </div>

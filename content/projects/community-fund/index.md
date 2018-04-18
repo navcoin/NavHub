@@ -6,7 +6,8 @@ draft: false
 author: "Alex Vazquez"
 description: "The community have suggested a change in the consensus mechanism which would allow for community contributors to receive funding from the network for their efforts."
 resources: []
-project_categories: ["Protocol Improvement"]
+project_categories: ["Protocol Improvements"]
+bg_image: "/images/icons/icon-purple-lightbulb-new.png"
 slug: ""
 type: "project"
 feature_image: ""

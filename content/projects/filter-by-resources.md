@@ -8,10 +8,9 @@ description: ""
 resources: []
 categories: []
 slug: ""
-order_page: true
-order_by: "progress"
+filter_page: true
+filter_by: "Resources"
 ---
-
 {{< left_image_section
     title="NavCoin Projects"
     imgSrc="/images/icons/icon-n-purple-large.png"
@@ -23,7 +22,14 @@ order_by: "progress"
     linkBgColor="#523971"
     gradient=""
     fontColor="#FFF">}}
-
     <p>There is a whole eco-system of software which developers have created to operate on or alongside the NavCoin protocol. All software the NavCoin Core developers create is also free and open-source.</p>
     <p>Here you can find more information about all the awesome projects which have been, or are being built by the NavCoin community.</p>
 {{< /left_image_section >}}
+{{< left_text_section
+    bgColor="#FAFAFA"
+    gradient=""
+    containerPadding="10px 0"
+    borderBottom="1px solid #CCC"
+    fontColor="#7A7A7A">}}
+    <a href="/projects/">Projects</a> / Resources
+{{< /left_text_section >}}
