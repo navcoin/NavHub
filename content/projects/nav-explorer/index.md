@@ -5,6 +5,8 @@ lastmod: 2018-03-10T14:29:06+13:00
 draft: false
 author: "Prodpeak"
 description: "Porting bitcoinj for NavCoin to power an alternative block explorer written in Java. This will offer redundancy if there are any issues with the current cryptoid block explorer."
+project_categories: ["Network"]
+bg_image: "/images/icons/icon-purple-network-new.png"
 resources: []
 categories: []
 slug: ""
