@@ -6,7 +6,10 @@
           <li class="cat-item" ><a href="/projects">All Projects</a> </li>
 
             {{ range .Site.Taxonomies.filter.ByCount }}
-                <li class="cat-item" ><a href="/filter/{{ .Name | urlize }}">{{ .Name }}</a> </li>
+
+            {{ $filter := replace .Name "-" " " }}
+
+                <li class="cat-item" ><a href="/filter/{{ .Name | urlize }}">{{ $filter }}</a> </li>
             {{ end }}
 
         </ul>

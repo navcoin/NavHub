@@ -41,12 +41,14 @@
 
   {{ $lastUrlElement := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
 
+  {{ $filter := replace $lastUrlElement "-" " " }}
+
   <div style="background-color: #FAFAFA; border-bottom: 1px solid #CCC;">
     <div class="container">
       <div class="about-pb" style="padding: 10px 0;">
         <div style="text-align: left;">
             <div class="about-appix-right-content">
-                <div style="color: #7A7A7A"><a href="/projects">All Projects</a> / <span style="text-transform: capitalize">{{ $lastUrlElement }}</span></div>
+                <div style="color: #7A7A7A"><a href="/projects">All Projects</a> / <span style="text-transform: capitalize">{{ $filter }}</span></div>
             </div>
         </div>
     </div>
