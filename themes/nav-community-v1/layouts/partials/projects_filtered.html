@@ -8,40 +8,11 @@
 
   {{ partial "header_three_title.html" .  }}
 
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="news-content" style="margin-bottom: 0px; margin-top: 2px;">
-        <div style="background-color: #7d5ab5;">
-          <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="about-pb" style="padding: 40px 0;">
-                        <div class="col-md-6">
-                            <div class="about-appix-left-img" style="padding: 0; margin-top: 10px;">
-                                <img src="/images/icons/icon-n-purple-large.png" style="max-height: 400px;">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="about-appix-right-content">
-                                <h2 class="themeix-title-h1" style="color: #FFF">NavCoin Projects</h2>
-                                <div class="para-mb" style="color: #FFF">
-                                  <p>There is a whole eco-system of software which developers have created to operate on or alongside the NavCoin protocol. All software the NavCoin Core developers create is also free and open-source.</p>
-                                  <p>Here you can find more information about all the awesome projects which have been, or are being built by the NavCoin community.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   {{ $lastUrlElement := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
 
   {{ $filter := replace $lastUrlElement "-" " " }}
+
+  <div id="scroll" style="position: absolute; margin-top: -49px"></div>
 
   <div style="background-color: #FAFAFA; border-bottom: 1px solid #CCC;">
     <div class="container">
@@ -54,8 +25,6 @@
     </div>
   </div>
 </div>
-
-
 
   <div class="container" style="margin-bottom: 50px;">
 
