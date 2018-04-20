@@ -5,7 +5,7 @@ draft: false
 author: "Ro Savage"
 description: "A payment gateway which enables users to spend NAV at any business which accepts any currency supported by NavChange."
 resources: []
-project_categories: ["Exchanges"]
+filter: ["Exchanges"]
 bg_image: "/images/icons/icon-purple-bank.png"
 slug: ""
 type: "project"

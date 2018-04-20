@@ -39,8 +39,7 @@ twitter_username = "navcoin"
 
 [taxonomies]
   category = "categories"
-  project_category = "project_categories"
-
+  filter = "filter"
 # Main Menu
 [[menu.main]]
     name = "Home"

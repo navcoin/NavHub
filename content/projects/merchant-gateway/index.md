@@ -6,7 +6,7 @@ draft: false
 author: "CoinPayments"
 description: "NavCoin has been added to Coin Payments merchant gateway. This allows merchants to accept NavCoin in their physical stores and also on their websites."
 resources: []
-project_categories: ["Merchant Tools"]
+filter: ["Merchant Tools"]
 bg_image: "/images/icons/icon-purple-scales-new.png"
 slug: ""
 type: "project"

@@ -7,7 +7,7 @@ author: "Sakdeniz"
 description: "A cross platform NavCoin wallet that provides an alternative to NavCoin Core and an even more user friendly graphical interface."
 bg_image: "/images/icons/icon-wallet-purple-large.png"
 resources: []
-project_categories: ["Wallets"]
+filter: ["Wallets"]
 slug: ""
 type: "project"
 feature_image: ""
