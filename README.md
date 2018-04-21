@@ -2,7 +2,7 @@
 Maintained by the global NAV community
 
 ## Contributing to the site
-Want to add a project, update or fix some errors. Then plase fork the project and get changing.
+Want to add a project, update or fix some errors. Then please fork the project and get changing.
 
 ## Geting started
 The NAV community site is built with the static site generator [Hugo](https://gohugo.io/).
