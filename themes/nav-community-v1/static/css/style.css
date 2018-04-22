@@ -3424,10 +3424,12 @@ ul li.cat-item a {
   }
 }
 
-@media (min-width: 1600px) {
-  .merchant-map {
-    transform: scale(1.3);
-    margin-bottom: 90px;
+@media (max-width: 1000px){
+  .themeix-section-heading-title .head-title:after{
+    top: 90px;
+  }
+  .themeix-section-heading-title .head-title:before{
+    top: 88px;
   }
 }
 
