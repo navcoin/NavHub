@@ -23,7 +23,7 @@ order_by: "default"
     linkBgColor="#523971"
     gradient=""
     fontColor="#FFF">}}
-
+	<body class="projects">
     <p>There is a whole eco-system of software which developers have created to operate on or alongside the NavCoin protocol. All software the NavCoin Core developers create is also free and open-source.</p>
     <p>Here you can find more information about all the awesome projects which have been, or are being built by the NavCoin community.</p>
 {{< /left_image_section >}}
