@@ -19,17 +19,20 @@ type: "default"
 <p>Anyone can accept NavCoin on their website or in their store to receive instant global payments.</p>
 <p>If your store accepts NavCoin and you would like to be listed on this page, read about how you can contribute to this website.
 {{< /left_image_section >}}
-    
+
 {{< home_centre_text_section
-    title="World map of all stores and merchants accepting NAV"
+    title="World map of stores and merchants accepting NAV"
     linkBgColor="#43799a"
     gradient=""
     fontColor="#FFF">}}
-    <div>
-      <iframe src="https://www.google.com/maps/d/embed?mid=1wzMJAyujqSQ-Iyy0mqQxP_uuwrphIuYJ&hl=en" width="960" height="720"></iframe>
+    <div class="merchant-map">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1wzMJAyujqSQ-Iyy0mqQxP_uuwrphIuYJ&hl=en" width="720" height="540"></iframe>
+    </div>
+    <div class="add-merchant">
+      <p>If you find a store is missing from map, you can request it to be added via this <a href="https://goo.gl/forms/6IgfIWzUJElaOX7B2">Google Form</a> or by contacting a moderator on Reddit or Discord.</p>
     </div>
     {{< /home_centre_text_section>}}
-    
+
 {{< links_section
     containerPadding="40px 0 60px 0"
     titleMargin="0 0 0 0"
