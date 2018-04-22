@@ -2,12 +2,15 @@
 
 
     <div class="widget">
-        <h3 class="widget-title">Sort Projects</h3>
         <ul>
+          <li class="cat-item" ><a href="/projects">All Projects</a> </li>
 
-            <li class="cat-item" ><a href="/projects">Date Created</a></li>
-            <li class="cat-item" ><a href="/projects/order-by-progress">By progress</a></li>
-            <li class="cat-item" ><a href="/projects/order-by-last-updated">Last Updated</a></li>
+            {{ range .Site.Taxonomies.filter.ByCount }}
+
+            {{ $filter := replace .Name "-" " " }}
+
+                <li class="cat-item" ><a href="/filter/{{ .Name | urlize }}">{{ $filter }}</a> </li>
+            {{ end }}
 
         </ul>
     </div>

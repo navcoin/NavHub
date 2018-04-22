@@ -8,13 +8,23 @@
 
   {{ partial "header_three_title.html" .  }}
 
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="news-content" style="margin-bottom: 0px; margin-top: 2px;">
-          {{ .Content }}
-      </div>
+  {{ $lastUrlElement := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+
+  {{ $filter := replace $lastUrlElement "-" " " }}
+
+  <div id="scroll" style="position: absolute; margin-top: -49px"></div>
+
+  <div style="background-color: #FAFAFA; border-bottom: 1px solid #CCC;">
+    <div class="container">
+      <div class="about-pb" style="padding: 10px 0;">
+        <div style="text-align: left;">
+            <div class="about-appix-right-content">
+                <div style="color: #7A7A7A"><a href="/projects">All Projects</a> / <span style="text-transform: capitalize">{{ $filter }}</span></div>
+            </div>
+        </div>
     </div>
   </div>
+</div>
 
   <div class="container" style="margin-bottom: 50px;">
 

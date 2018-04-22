@@ -294,7 +294,7 @@ section.pt-25 {
 header {
     position: absolute;
     width: 100%;
-    z-index: 22;
+    z-index: 200;
     left: 0;
     top: 0;
 }
@@ -651,7 +651,7 @@ header.stickey .logo-brand img{
     color: #FFFFFF!important;
 }
 /* ==========================================
-6. Sticky Menu
+6. y Menu
    ========================================== */
 
 .stickey .main-menu {
@@ -3350,6 +3350,11 @@ ul li.cat-item a {
 
    .project-desc {
      margin-bottom: 60px;
+     position: relative;
+   }
+
+   .project-card.in-progress .project-desc {
+     margin-bottom: 80px;
    }
 
    .info-links {
@@ -3358,14 +3363,11 @@ ul li.cat-item a {
    }
 
    .click-through {
-      margin-right: 5px;
-      background-color: rgba(33, 33, 33, 0.5);
-      color: #fff;
       font-size: 12px;
-      padding: 6px 10px;
+      padding: 5px 10px 4px 10px;
       display: inline-block;
       cursor: pointer;
-      float: right;
+      margin-top: -5px;
    }
 
    .click-through:hover {
@@ -3457,9 +3459,22 @@ ul li.cat-item a {
   display: none;
 }
 
+.project-card .card-author {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: 5px;
+}
+
+.card-author {
+  background-color: rgba(33,33,33,0.5);
+  padding: 10px 8px 8px 8px;
+
+}
+
 .card-author-subhead {
   position: relative;
-  top: -8px;
+  top: -10px;
   font-size: 10px;
   height: 0px;
   display: block;
@@ -3468,6 +3483,7 @@ ul li.cat-item a {
 .card-author-name {
   position: relative;
   display: block;
+  font-size: 16px;
   top: 6px;
 }
 
@@ -3476,6 +3492,7 @@ ul li.cat-item a {
 }
 
 .roadmap-content>p:first-of-type { display: none }
+.news-content>p:first-of-type { display: none }
 
 .recent-posts li {
   display: none;
@@ -3526,4 +3543,38 @@ ul li.cat-item a {
 
 .links-desc {
     padding: 0 20px;
+}
+
+.project-card {
+  overflow: hidden;
+}
+
+.project-card .bg-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.project-card .progress {
+  position: absolute;
+  width: calc(100% - 40px);
+  bottom: 42px;
+}
+
+.project-card .bg-container {
+  background-color: rgba(33, 33, 33, 0.2);
+  margin: 0px -19px 0 -19px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.project-card .background-image {
+  display: block;
+  height: 250px;
+  margin-left: -10%;
+  margin-top: -50px;
 }

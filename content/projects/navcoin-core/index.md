@@ -5,8 +5,9 @@ lastmod: 2018-03-27T11:42:31+13:00
 draft: false
 author: "Alex Vazquez"
 description: "NavCoin is a decentralised cryptocurrency that uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of NavCoin is carried out collectively by the network."
+bg_image: "/images/icons/icon-wallet-purple-large.png"
 resources: []
-categories: []
+filter: ["Wallets"]
 slug: ""
 type: "project"
 feature_image: ""

@@ -6,7 +6,8 @@ draft: false
 author: "Brianium"
 description: "Enable NAV payments and donations on your website with this easy to configure button that comes with a range of configurations and options."
 resources: []
-categories: []
+filter: ["Merchant Tools"]
+bg_image: "/images/icons/icon-purple-scales-new.png"
 slug: ""
 type: "project"
 feature_image: ""

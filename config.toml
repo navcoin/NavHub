@@ -37,7 +37,9 @@ twitter_username = "navcoin"
   plainIDAnchors = true
   hrefTargetBlank = true
 
-
+[taxonomies]
+  category = "categories"
+  filter = "filter"
 # Main Menu
 [[menu.main]]
     name = "Home"
@@ -62,7 +64,7 @@ twitter_username = "navcoin"
     title = "Projects"
     weight = -109
     identifier = "Project"
-    url = "/projects/order-by-progress/"
+    url = "/projects/"
 [[menu.main]]
     parent = "resources"
     name = "Merchants"

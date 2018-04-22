@@ -6,7 +6,8 @@ draft: false
 author: "Kieren Hyland"
 description: "To consolidate troubleshooting tips and general information about NavCoin its various applications and how to use them, the NavCoin community are compiling a knowledge base of helpful articles."
 resources: []
-categories: []
+filter: ["Resources"]
+bg_image: "/images/icons/icon-purple-book-new.png"
 slug: ""
 type: "project"
 feature_image: ""
