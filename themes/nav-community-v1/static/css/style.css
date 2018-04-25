@@ -1902,9 +1902,7 @@ a {
 }
 .share-icon {
     float: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    margin-top: 9px;
 }
 .blog-navigation {
     margin-bottom: 10px;
@@ -1936,7 +1934,7 @@ a {
 .read-more {
     float: left;
 }
-.blog-excerpt p {
+.blog-excerpt {
     margin-top: 20px;
 	  margin-bottom:20px;
     height: 72px;
@@ -1944,7 +1942,7 @@ a {
     position: relative;
 }
 
-.blog-excerpt p:after {
+.blog-excerpt:after {
   content: "";
   text-align: right;
   position: absolute;
@@ -1953,6 +1951,12 @@ a {
   width: 50%;
   height: 1.2em;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+
+.blog-details h3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .previous-blog-post i {
