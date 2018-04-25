@@ -77,7 +77,7 @@ When adding a project it is recommend you use the Hugo commandline tool as this 
     weight: 0                           - Allows the default postion on the roadmap to be overridden
 
 ## Editing Layouts
-The layouts are held in the theme folder currently `nav-commnity-v1`. Please review the [Hugo documentation](https://gohugo.io/documentation/) for layout template information
+The layouts are held in the theme folder currently `nav-community-v1`. Please review the [Hugo documentation](https://gohugo.io/documentation/) for layout template information
 
 ## Editing Styles
 CSS styles can be added/edited in the `static/css` directory. Most of the main styles are in `style.css`
