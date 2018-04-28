@@ -6,7 +6,7 @@ type: "default"
 ---
 
 {{< left_image_section
-    title="Who maintains NavCore.org?"
+    title="Кто поддерживает NavCore.org?"
     imgSrc="/images/icons/icon-earth-purple-large.png"
     imgHeight="400px"
     imgPadding="20px"
@@ -14,12 +14,12 @@ type: "default"
     linkBgColor="#523971"
     gradient=""
     btn1Link="https://github.com/NAVCoin/nav-community-site"
-    btn1Txt="Contribute to NavCore.org"
+    btn1Txt="Сделать свой вклад в NavCore.org"
     fontColor="#FFF">}}
 
-    <p>NavCore.org is maintained by the NavCoin Core Developers and other NavCoin Community Members. The site and its content are open source. This means that anyone can update, delete or add their own NavCoin related projects and news.</p>
+    <p>NavCore.org поддерживают члены Основной команды разработчиков NavCoin, а также другие члены Сообщества NavCoin. Этот сайт и его содержание обладают открытым исходным кодом. Это значит, что любой может обновить, удалить или добавить свои собственные проекты или новости, связанные с NavCoin.</p>
 
-<p> If you would like to add or update anything on the site, then please follow the instructions in the readme file on GitHub.</p>
+<p> Если Вы хотите обновить или добавить что-либо на этот сайт, тогда следуйте инструкциям в readme файле на GitHub.</p>
 {{< /left_image_section >}}
 
 {{< links_section
