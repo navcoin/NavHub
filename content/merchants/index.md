@@ -26,7 +26,8 @@ type: "default"
     gradient=""
     fontColor="#FFF">}}
     <div class="merchant-map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1wzMJAyujqSQ-Iyy0mqQxP_uuwrphIuYJ&hl=en" width="720" height="540"></iframe>
+      <p>You can view a world map of merchants by visiting <a href="http://bit.ly/nav-accepted-here">this link.</a></p>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1wzMJAyujqSQ-Iyy0mqQxP_uuwrphIuYJ&hl=en"></iframe>
     </div>
     <div class="add-merchant">
       <p>If you find a store is missing from map, you can request it to be added via this <a href="https://goo.gl/forms/6IgfIWzUJElaOX7B2">Google Form</a> or by contacting a moderator on Reddit or Discord.</p>
