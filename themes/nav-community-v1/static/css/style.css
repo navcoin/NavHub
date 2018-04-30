@@ -3415,23 +3415,37 @@ ul li.cat-item a {
     max-width: 100%!important;
     width: 100%;
   }
-
 }
 
-@media (max-width: 440px) {
-  .project-more {
+@media screen and (max-width: 440px) {
+  .project-more, .merchant-map iframe {
     display:none;
   }
+  .merchant-map p {display: inline!important;}
 }
 
-@media (max-width: 1000px){
+@media screen and (max-width: 1000px){
   .themeix-section-heading-title .head-title:after{
     top: 90px;
   }
   .themeix-section-heading-title .head-title:before{
     top: 88px;
   }
+  .merchant-map iframe {
+    max-width: 840px;
+    max-height: 640px;
+  }
 }
+
+@media screen and (min-width: 1000px) {
+  .merchant-map iframe {
+    min-width: 960px!important;
+    min-height: 640px!important;
+  }
+}
+
+.merchant-map iframe {min-width: 400px; min-height: 280px;}
+.merchant-map p {display: none;}
 
 .roadmap-icon {
     display: inline-block;
