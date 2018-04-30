@@ -4,15 +4,15 @@ date: 2018-03-29T14:29:27+13:00
 lastmod: 2018-03-29T14:29:27+13:00
 draft: false
 author: "Alex Vazquez"
-description: "Allowing for NAV, which are stored offline, to sign staking inputs that greatly increase the security of funds used for staking."
+description: "Allowing for NAV, which are stored offline, to sign staking inputs that greatly increase the security of funds used for staking. This means that you can stake using coins in your paper wallet!"
 resources: []
 categories: []
 slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-in_progress: true
-completed: false
+in_progress: false
+completed: true
 show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
