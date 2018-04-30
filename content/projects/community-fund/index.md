@@ -12,12 +12,12 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-in_progress: true
-completed: false
+in_progress: false
+completed: true
 show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
-percent_complete: 80
+percent_complete: 100
 github_url: "https://github.com/navcoin/navcoin-core/tree/v4.1.2-cfund"
 project_url: ""
 reddit_url: ""
@@ -27,8 +27,8 @@ font_color: "#fff"
 weight: 100
 ---
 {{< project_header
-    title="Community Fund"
-    subhead=""
+    title="Community Fund!!"
+    subhead="Decetralising development for NAV!"
     text="Anyone and everyone on the network will be able to propose projects, budgets and initiate network votes to schedule funds."
     captionPadding="80px"
     imgSrc="community-fund.jpg"
