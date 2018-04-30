@@ -27,7 +27,7 @@ font_color: "#fff"
 weight: 100
 ---
 {{< project_header
-    title="Community Fund"
+    title="Community Fund!!"
     subhead="Decetralising development for NAV!"
     text="Anyone and everyone on the network will be able to propose projects, budgets and initiate network votes to schedule funds."
     captionPadding="80px"
