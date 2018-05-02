@@ -32,7 +32,7 @@ Meanwhile at the other end of the retail spectrum check out NavCoin being accept
 <br /><br />
 </section>
 
-Jonathon (on Discord) has been experimenting with button designs using the NavCoin colour palate and different angles at the sides. It was great to see so much positive feedback from other members of the community. Here is just one of Jonathon’s options.
+Jonathan (on Discord) has been experimenting with button designs using the NavCoin colour palate and different angles at the sides. It was great to see so much positive feedback from other members of the community. Here is just one of Jonathon’s options.
 
 <br />
 <section style="text-align: center">
