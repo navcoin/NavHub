@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
-media_folder: "themes/nav-community-1/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+media_folder: "themes/nav-community-v1/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
@@ -14,6 +14,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "news"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "feature_image", widget: "image"}
+      - {label: "Categories", name: "categories", widget: "select", options: ["Nav News", "Community News", "Tech"]}
       - {label: "Body", name: "body", widget: "markdown"}
