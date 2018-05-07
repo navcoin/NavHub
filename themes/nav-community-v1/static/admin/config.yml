@@ -17,5 +17,5 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "feature_image", widget: "image"}
-      - {label: "Categories", name: "categories", widget: "select", options: ["Nav News", "Community News", "Tech"]}
+      - {label: "Categories", name: "categories", widget: "list", default: ["Nav News"]}
       - {label: "Body", name: "body", widget: "markdown"}
