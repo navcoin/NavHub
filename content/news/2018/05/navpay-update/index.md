@@ -5,10 +5,10 @@ draft: false
 author: "NavCore"
 description: ""
 resources: []
-categories: ["Nav News"]
+categories: ["Product Updates"]
 slug: ""
 type: "news"
-feature_image: ""
+feature_image: "navpay-hero.png"
 show_title_text: false
 ---
 
