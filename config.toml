@@ -42,59 +42,53 @@ twitter_username = "navcoin"
   filter = "filter"
 # Main Menu
 [[menu.main]]
-    name = "Home"
-    title = "Home"
-    weight = -130
-    identifier = "home"
-    url = "/"
+    name = "About"
+    title = "About"
+    weight = -120
+    url = "/about-this-website/"
+    identifier = "about-this-website"
 [[menu.main]]
     name = "News"
     title = "News"
-    weight = -120
+    weight = -119
     identifier = "news"
     url = "/news/"
 [[menu.main]]
     name = "Resources"
     title = "Resources"
-    weight = -110
+    weight = -118
     identifier = "resources"
 [[menu.main]]
     parent = "resources"
     name = "Projects"
     title = "Projects"
-    weight = -109
+    weight = -117
     identifier = "Project"
     url = "/projects/"
 [[menu.main]]
     parent = "resources"
-    name = "Merchants"
-    title = "Merchants"
-    weight = -108
-    identifier = "merchants"
-    url = "/merchants/"
-[[menu.main]]
-    parent = "resources"
     name = "Information"
     title = "Information"
-    weight = -107
+    weight = -116
     identifier = "information"
     url = "/information/"
 [[menu.main]]
     name = "Roadmap"
     title = "Roadmap"
-    weight = -105
+    weight = -115
     url = "/roadmap/"
     identifier = "roadmap"
 [[menu.main]]
     name = "Get Involved"
     title = "Get Involved"
-    weight = -100
+    weight = -114
     url = "/get-involved/"
     identifier = "get-involved"
-
 [[menu.main]]
-    name = "About"
-    title = "About"
-    weight = -90
-    url = "/about-this-website/"
-    identifier = "about-this-website"
+    name = "Merchants"
+    title = "Merchants"
+    weight = -113
+    identifier = "merchants"
+    url = "/merchants/"
+
+
