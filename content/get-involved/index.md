@@ -6,61 +6,87 @@ type: "default"
 ---
 
 {{< left_image_section
-    title="NavCoin Development"
+    title="Get Involved with NavCoin"
     imgSrc="/images/icons/icon-n-purple-large.png"
     imgHeight="400px"
-    imgPadding="20px"
+    imgPadding="0px"
     containerPadding="40px 0"
     bgColor="#7d5ab5"
     linkBgColor="#523971"
     gradient=""
-    btn1Link="https://github.com/NAVCoin"
-    btn1Txt="NavCoin GitHub"
     fontColor="#FFF">}}
 
-    <p>NavCoin is free software and any developer can contribute to the project. Everything you need is in the GitHub repository. Please make sure to read and follow the development process described in the README, as well as to provide good quality code and respect all guidelines.</p>
+    <p>NavCoin has a thriving community all over the world, and you can be part of it. It's not just for developers with blockchain expertise, people contribute their creative, business and networking skills too. Whatever you bring to the community you'll find a warm welcome and support from people who share your passion for NavCoin. Here are some handy resources that help make joining the NavCoin community easy. </p>
 
-<p> If you would like to make a contribution, then please follow the instructions in the readme file on GitHub.</p>
 {{< /left_image_section >}}
 
-{{< center_text_section
+{{< links_section
+    containerPadding="40px 0 60px 0"
+    titleMargin="0 0 0 0"
+    class="links-image-shadow"
     bgColor="#FFF"
+    gradient="false"
+    feature1Img="/images/icons/icon-tick-purple.png"
+    feature1Title="Developers"
+    feature1Desc="Any developer can contribute to current NavCoin projects or start your own."
+    feature1Txt="Start developing »"
+    feature1Link="https://navcoin.org"
+    feature2Img="/images/icons/icon-community.png"
+    feature2Title="Brand Bible"
+    feature2Desc="A detailed guide to help you create your own NavCoin content."
+    feature2Txt="Get the guide »"
+    feature2Link="https://milehighambulance.com/now-accepting-navcoin"
+    feature3Img="/images/icons/icon-goals-purple.png"
+    feature3Title="Events"
+    feature3Desc="Want to hold a NavCoin community meetup? Here's how."
+    feature3Txt="Go to article »"
+    feature3Link="https://www.coinpayments.net/store-directory-coin-NAV">}}
+
+{{< left_image_section
+    title="Developer"
+    imgSrc="/images/icons/icon-scales.png"
+    imgHeight="400px"
+    imgPadding="0px"
+    bgColor="#7d5ab5"
+    linkBgColor="#43799a"
     gradient=""
-    containerPadding="40px 0"
-    fontColor="#333">}}
-    <h2>Beyond NavCoin Core</h2>
-    <p>There is a whole eco-system of software which developers have created to operate on or alongside the NavCoin protocol. All software the NavCoin Core developers create is also free and open-source. Any developer can contribute to these projects through their respective GitHub repositories.</p>
+    btn1Link="https://github.com/NAVCoin"
+    btn1Txt="GitHub >>"
+    btn2Link="/roadmap"
+    btn2Txt="Roadmap >>"
+    fontColor="#FFF">}}
+<p>Anyone can contribute to the NavCoin protocol. The software is free and open-source. If you'd like to pitch in on existing projects take a look at the Roadmap to find one that interests you, or you could start a project of your own. You can also contribute by reviewing pull requests or writing patches.</p>
+<p>The self-documented code in GitHub is a great place to get familiar with NavCoin, or you can join the discussion on the NavCoin Discord. You'll find that the NavCoin developer community is active and supportive. Discord is the place for meeting and chatting with other devs, and formal development discussion for each project takes place on GitHub. </p>
 
-    <p>Development discussion for each project takes place on <a href="https://github.com/NavCoin" target="e">GitHub</a>. Less formal development discussion happens on the <a href="https://discord.gg/y4Vu9jw" target="e">NavCoin Discord</a>.</p>
+{{< /left_image_section >}}
 
-    <p>Don’t forget that NavCoin is simply a protocol. Anyone can build their own wallet, service, website, application or space suit that implements NavCoin.</p>
+{{< left_image_section
+    title="NavCoin Brand Bible"
+    imgSrc="/images/icons/icon-scales.png"
+    imgHeight="400px"
+    imgPadding="0px"
+    bgColor="#FFF"
+    linkBgColor="#43799a"
+    gradient=""
+    btn1Link="/about-this-website"
+    btn1Txt="Get the guide >>"
+    >}}
+<p>The NavCoin brand bible collates the NavCoin Core Media and Content Creators suggestions on how to create a consistent look and feel for promotional material and brand assets. It covers typefaces and how to use them, sets out a colour palate, and gives useful tips on how to create visuals and write with the NavCoin tone of voice. It’s hoped that having these guidelines will make it easier for you to get started on creating your own content for NavCoin.</p>
+{{< /left_image_section >}}
 
-    <hr style="margin: 40px 0" />
-
-    <h2>Code Review</h2>
-    <p>NavCoin and its associated projects are security software that help protect assets worth millions of dollars, so every code change needs to be reviewed by experienced developers.</p>
-
-    <p>It can take a long time for other developers to review your pull requests. Remember that all reviewers are taking time away from their own projects to review your pull requests, so be patient and respectful of their time.</p>
-
-    <p>Please also consider helping to review other people’s pull requests. You don’t need to be an expert in NavCoin, the NavCoin Core codebase, or C++ (although all these things help). There are almost always open pull requests that any programmer can review.</p>
-
-    <hr style="margin: 40px 0" />
-
-    <h2>Starter Projects</h2>
-    <p>Do you want to begin coding for NavCoin but don’t have a specific improvement in mind? Here are a few ideas:</p>
-
-    <h3>Fix existing issues</h3>
-    <p>The issue tracker for each repository is the best place to find a useful way to contribute to NavCoin. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working on it.</p>
-
-    <h3>Write tests</h3>
-    <p>NavCoin’s various softwares are covered by many tests, but patches that improve test coverage are always welcome and are a great way to build familiarity with the codebase. See the documentation about automated testing.</p>
-
-    <hr style="margin: 40px 0" />
-
-    <h2>Documentation</h2>
-    <p>If you are interested in learning more about the technical details of NavCoin and how to use existing tools and APIs, it is recommended you start by exploring the self documented code in GitHub or join the discussion on the NavCoin Discord.
-
-{{< /center_text_section >}}
+{{< left_image_section
+    title="NavCoin Meetup Guideline"
+    imgSrc="/images/icons/icon-scales.png"
+    imgHeight="400px"
+    imgPadding="0px"
+    bgColor="#7d5ab5"
+    linkBgColor="#43799a"
+    gradient=""
+    btn1Link="/about-this-website"
+    btn1Txt="Read the article >>"
+    fontColor="#FFF">}}
+<p>Community member Spiritar3 has created a set of simple guidelines for holding a successful meetup for NavCoin fans.</p>
+{{< /left_image_section >}}
 
 {{< links_section
     title="Join the Community"
