@@ -15,7 +15,7 @@ type: "default"
     gradient=""
     fontColor="#FFF">}}
 
-    <p>NavCoin has a thriving community all over the world, and you can be part of it. It's not just for developers with blockchain expertise, people contribute their creative, business and networking skills too. Whatever you bring to the community you'll find a warm welcome and support from people who share your passion for NavCoin. Here are some handy resources that help make joining the NavCoin community easy. </p>
+    <p>NavCoin has a thriving community all over the world, and you can be part of it. It's not just for developers with blockchain expertise - people contribute their creative, business and networking skills too. Whatever you bring to the community, you'll find a warm welcome and support from people who share your passion for NavCoin. So if you're looking to get started, here are some handy resources that help make joining the NavCoin community easy. </p>
 {{< /left_image_section >}}
 {{< links_section
     containerPadding="40px 0 60px 0"
@@ -27,19 +27,20 @@ type: "default"
     feature1Title="Developers"
     feature1Desc="Any developer can contribute to current NavCoin projects or start your own."
     feature1Txt="Start developing »"
-    feature1Link="https://navcoin.org"
+    feature1Link="/get-involved#developer"
     feature2Img="/images/icons/icon-community.png"
     feature2Title="Brand Bible"
     feature2Desc="A detailed guide to help you create your own NavCoin content."
     feature2Txt="Get the guide »"
-    feature2Link="https://milehighambulance.com/now-accepting-navcoin"
+    feature2Link="/get-involved#brand-bible"
     feature3Img="/images/icons/icon-goals-purple.png"
     feature3Title="Events"
     feature3Desc="Want to hold a NavCoin community meetup? Here's how."
     feature3Txt="Go to article »"
-    feature3Link="https://www.coinpayments.net/store-directory-coin-NAV">}}
+    feature3Link="/get-involved#meetup">}}
 {{< left_image_section
     title="Developer"
+    id="developer"
     imgSrc="/images/icons/icon-scales.png"
     imgHeight="400px"
     imgPadding="0px"
@@ -56,6 +57,7 @@ type: "default"
 {{< /left_image_section >}}
 {{< left_image_section
     title="NavCoin Brand Bible"
+    id="brand-bible"
     imgSrc="/images/icons/icon-scales.png"
     imgHeight="400px"
     imgPadding="0px"
@@ -69,6 +71,7 @@ type: "default"
 {{< /left_image_section >}}
 {{< left_image_section
     title="NavCoin Meetup Guideline"
+    id="meetup"
     imgSrc="/images/icons/icon-scales.png"
     imgHeight="400px"
     imgPadding="0px"
