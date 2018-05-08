@@ -23,7 +23,7 @@
 
               <div class="col-xs-12 col-sm-6">
                   <div class="blog-item">
-                    {{ if .Params "generated_by_cms" }}
+                    {{ if isset .Params "generated_by_cms" }}
                         <a href="{{ .URL }}"> <div class="blog-image" style="background-image:url({{ .Params.feature_image }});">
                     {{else}}
                         <a href="{{ .URL }}"> <div class="blog-image" style="background-image:url({{ .URL }}{{ .Params.feature_image }});">
