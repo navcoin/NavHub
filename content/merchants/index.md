@@ -42,7 +42,7 @@ type: "default"
     feature3Title="Merch Store"
     feature3Desc="A range of NavCoin apparel provided by AlwaysHodl."
     feature3Txt="Go to website »"
-    feature3Link="https://chainz.cryptoid.info/nav"
+    feature3Link="https://merch.navcoin.org/"
  >}}
 {{< links_section
     containerPadding="0 0 0 0"
