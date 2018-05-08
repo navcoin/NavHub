@@ -1,5 +1,5 @@
 ---
-title: "New NavPay 4.1 gives you added security, privacy and more"
+title: "New NavPay 4.1 Gives You Added Security, Privacy And More"
 date: 2018-05-08T11:57:03+12:00
 draft: false
 author: "NavCore"
