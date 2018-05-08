@@ -4,7 +4,6 @@ date: 2018-03-20T07:41:22+13:00
 draft: false
 type: "default"
 ---
-
 {{< left_image_section
     title="Get Involved with NavCoin"
     imgSrc="/images/icons/icon-n-purple-large.png"
@@ -17,9 +16,7 @@ type: "default"
     fontColor="#FFF">}}
 
     <p>NavCoin has a thriving community all over the world, and you can be part of it. It's not just for developers with blockchain expertise, people contribute their creative, business and networking skills too. Whatever you bring to the community you'll find a warm welcome and support from people who share your passion for NavCoin. Here are some handy resources that help make joining the NavCoin community easy. </p>
-
 {{< /left_image_section >}}
-
 {{< links_section
     containerPadding="40px 0 60px 0"
     titleMargin="0 0 0 0"
@@ -41,7 +38,6 @@ type: "default"
     feature3Desc="Want to hold a NavCoin community meetup? Here's how."
     feature3Txt="Go to article »"
     feature3Link="https://www.coinpayments.net/store-directory-coin-NAV">}}
-
 {{< left_image_section
     title="Developer"
     imgSrc="/images/icons/icon-scales.png"
@@ -57,9 +53,7 @@ type: "default"
     fontColor="#FFF">}}
 <p>Anyone can contribute to the NavCoin protocol. The software is free and open-source. If you'd like to pitch in on existing projects take a look at the Roadmap to find one that interests you, or you could start a project of your own. You can also contribute by reviewing pull requests or writing patches.</p>
 <p>The self-documented code in GitHub is a great place to get familiar with NavCoin, or you can join the discussion on the NavCoin Discord. You'll find that the NavCoin developer community is active and supportive. Discord is the place for meeting and chatting with other devs, and formal development discussion for each project takes place on GitHub. </p>
-
 {{< /left_image_section >}}
-
 {{< left_image_section
     title="NavCoin Brand Bible"
     imgSrc="/images/icons/icon-scales.png"
@@ -73,7 +67,6 @@ type: "default"
     >}}
 <p>The NavCoin brand bible collates the NavCoin Core Media and Content Creators suggestions on how to create a consistent look and feel for promotional material and brand assets. It covers typefaces and how to use them, sets out a colour palate, and gives useful tips on how to create visuals and write with the NavCoin tone of voice. It’s hoped that having these guidelines will make it easier for you to get started on creating your own content for NavCoin.</p>
 {{< /left_image_section >}}
-
 {{< left_image_section
     title="NavCoin Meetup Guideline"
     imgSrc="/images/icons/icon-scales.png"
@@ -87,7 +80,6 @@ type: "default"
     fontColor="#FFF">}}
 <p>Community member Spiritar3 has created a set of simple guidelines for holding a successful meetup for NavCoin fans.</p>
 {{< /left_image_section >}}
-
 {{< links_section
     title="Join the Community"
     subtitle="If you’re interested in contributing to NavCore.org or any NavCoin projects, get in touch with the NavCoin Community."
