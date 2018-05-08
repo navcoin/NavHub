@@ -23,10 +23,14 @@
 
               <div class="col-xs-12 col-sm-6">
                   <div class="blog-item">
-                      <a href="{{ .URL }}"> <div class="blog-image" style="background-image:url({{ .URL }}/{{ .Params.feature_image }});">
-                          <div class="item-overlay"></div>
-                      </div>
+                    {{ if .Params "generated_by_cms" }}
+                        <a href="{{ .URL }}"> <div class="blog-image" style="background-image:url({{ .Params.feature_image }});">
+                    {{else}}
+                        <a href="{{ .URL }}"> <div class="blog-image" style="background-image:url({{ .URL }}{{ .Params.feature_image }});">
+                    {{ end }}
+                        <div class="item-overlay"></div>
                       </a>
+                      </div>
                       <div class="blog-details">
                           <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
                           <ul class="blog-author-name">
