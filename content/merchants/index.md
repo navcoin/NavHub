@@ -14,14 +14,14 @@ type: "default"
     linkBgColor="#43799a"
     gradient=""
     btn1Link="/about-this-website"
-    btn1Txt="About this Website"
+    btn1Txt="How To Contribute"
     fontColor="#FFF">}}
 <p>Anyone can accept NavCoin on their website or in their store to receive instant global payments.</p>
-<p>If your store accepts NavCoin and you would like to be listed on this page, read about how you can contribute to this website.
+<p>If your store accepts NavCoin and you would like to be listed on this page, read about how you can contribute to this website through the link below.
 {{< /left_image_section >}}
 
 {{< links_section
-  title="Stores"
+  title="Pay With NAV"
     subtitle="Check out a selection of the companies that accept NAV as payment."    
     containerPadding="40px 0 60px 0"
     titleMargin="0 0 20px 0"
