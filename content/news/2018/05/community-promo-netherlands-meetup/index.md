@@ -14,7 +14,7 @@ show_title_text: false
 The NavCoin community is on a roll at the moment. The social channels have been full of positive conversations and great initiatives keep on coming through. And not to be out done, NavCoin developers around the world have be hard at work on a range of interesting projects.
 <!--more-->
 ### What's happening in the community
-If you’re in the Netherland’s you still have time to make the meetup in Utrecht this Saturday evening, which will be hosted at Florin Utrecht at 7pm. If you’re going, make sure to tag your photos #NavCoin so the community can share the experience with you. 
+If you’re in the Netherlands you still have time to make the meetup in Utrecht this Saturday evening, which will be hosted at Florin Utrecht at 7pm. If you’re going, make sure to tag your photos #NavCoin so the community can share the experience with you. 
 <br />
 <section style="text-align: center">
 ![](nth-meetup.png)
