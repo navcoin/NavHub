@@ -3,7 +3,7 @@ title: "NavDelta"
 date: 2018-03-20T13:35:57+13:00
 draft: false
 author: "Ro Savage"
-description: "Using a combination of lightning network transactions and exchange integrations, NavChange is a Valence-powered application which facilitates instant exchange between NAV and other currencies."
+description: "A payment gateway which enables users to spend NAV at any business which accepts any currency supported by NavChange."
 resources: []
 categories: []
 slug: ""
