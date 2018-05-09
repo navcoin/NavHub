@@ -49,6 +49,8 @@ Meanwhile the powerhouse that is NavCoin Italia has added yet another high-end N
 <br /><br />
 </section>
 
+https://twitter.com/NAVcoincripto/status/990999660578865154
+
 ### Technical updates
 
 The devnet went through its own testing and is now operational. Essentially, this devnet mimics the live blockchain environment - with ‘test’ nodes located around the world. But because it uses its own version of the NavCoin blockchain it will allow us throw everything at it and stretch it far beyond its capacity - which will give valuable insights into how the mainnet can be improved. 
