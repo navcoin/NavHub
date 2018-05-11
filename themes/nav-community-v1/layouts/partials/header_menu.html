@@ -12,12 +12,12 @@
         <ul class="sub-menu">
             {{ range .Children }}
             <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-            <a href="{{ .URL }}"><span class="fa fa-angle-right"></span>{{ .Name }}</a>
+            <a href="{{ .URL | absLangURL }}"><span class="fa fa-angle-right"></span>{{ .Name }}</a>
             {{ end }}
         </ul>
         {{else}}
         <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-            <a href="{{.URL}}">
+            <a href="{{.URL | absLangURL}}">
                 {{ .Pre }}
                 <span>{{ .Name }}</span>
             </a>
