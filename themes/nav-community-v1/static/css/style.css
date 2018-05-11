@@ -3446,6 +3446,8 @@ ul li.cat-item a {
 
 .merchant-map iframe {min-width: 400px; min-height: 280px;}
 .merchant-map p {display: none;}
+.add-merchant { margin-top: 20px; }
+/*.news-content > p:first-of-type { display: none; } /*Fixing the empty <p> causing a white gap*/
 
 .roadmap-icon {
     display: inline-block;
