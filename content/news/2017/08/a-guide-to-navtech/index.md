@@ -14,7 +14,7 @@ show_title_text: false
 With the release of NavTech 1.2, we’re making a lot of improvements to make sure that your transactions are safer, more secure, and more private than ever before. So we thought we would take this time to step back and talk about why privacy is important, how privacy in cryptocurrencies work, and how NavTech (Nav Coin’s optional private payment) works.
 <!--more-->
 
-### Why privacy is importantsdf
+### Why privacy is important
 Privacy, in the form of encryption, is what allows transactions on the internet to exist. A secure network means you can send payments from one party to another, without having your money get stolen, or your information intercepted, along the way.
 
 But privacy is about more than just securing your sensitive information. It’s about controlling your information, so that you can choose what to share, and with whom.
