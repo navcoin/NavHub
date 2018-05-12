@@ -11,15 +11,15 @@ type: "news"
 feature_image: "Wed-4th-April.jpg"
 show_title_text: false
 ---
-Last week was all go for Nav community developers as they crammed five days work into four before taking Friday off for the Easter holiday. Alex was in New Zealand on a flying visit and caught up with some of the locals who were keen to get the benefit of his wisdom and experience on all things blockchain. The new NavCoin community hub at navcore.org has been launched and the navcoin.org website reorganized.
+Last week was all go for Nav community developers as they crammed five days work into four before taking Friday off for the Easter holiday. Alex was in New Zealand on a flying visit and caught up with some of the locals who were keen to get the benefit of his wisdom and experience on all things blockchain. The new NavCoin community hub at navhub.org has been launched and the navcoin.org website reorganized.
 <!--more-->
-### NavCore.org the new NavCoin Community Hub.
+### NavHub.org the new NavCoin Community Hub.
 
 The NavCoin Community Hub is brand new space to showcase what’s going on in the NavCoin Community and its wide range of projects. The Community Hub is statically rendered directly from the project files, which are publicly available on the NavCoin GitHub. By running the site in this way, anyone can directly suggest changes or create content - which then is subject to approval by a group of reviewers. It’s decentralization in action, and will help NavCoin become an even more vibrant and creative community. The Community Hub will become like a collective publication for NavCoin news, project information, resource links, merchant listings and the community roadmap. If you want to add any of these things, all you have to do is follow the instructions on the website and GitHub.
 
 The NavCoin Core team will be publishing more information and tutorials over the coming weeks to help make the contribution process as easy as possible.
 
-https://www.navcore.org
+https://www.navhub.org
 
 With the introduction of the Community Hub, the content on the original NavCoin.org site has been trimmed down and refocused towards the NavCoin Core software and protocol. There are links to all the community sites (Community Hub, NavTech Servers & NavCommunity) in the main menu, so it’s still easy to find the information you want.
 

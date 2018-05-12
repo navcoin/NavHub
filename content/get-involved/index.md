@@ -64,7 +64,7 @@ type: "default"
 
 {{< links_section
     title="Join the Community"
-    subtitle="If you’re interested in contributing to NavCore.org or any NavCoin projects, get in touch with the NavCoin Community."
+    subtitle="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
     fontColor="#FFF"
     bgColor="#42b6eb"
     containerPadding="40px 0 60px 0"
