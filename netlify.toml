@@ -10,3 +10,27 @@ HUGO_VERSION = "0.37"
 [build]
 publish = "public"
 command = "hugo"
+
+[[redirects]]
+  from = "https://navcore.org/*"
+  to = "https://navhub.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.navcore.org/*"
+  to = "https://navhub.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.navcore.org/*"
+  to = "https://navhub.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://navcore.org/*"
+  to = "https://navhub.org/:splat"
+  status = 301
+  force = true
