@@ -76,7 +76,7 @@ The downloads page on the NavCoin website (https://navcoin.org/downloads/) has b
 ### Content and media.
 The NavCoin Core Media Collective have been hard at work preparing new material that will be available soon. Last week the focus was creating content for the refreshed developer and community websites, and polishing the NavCoin brand bible and contributor manifestos. Once the brand bible is ready it will be available on the Community Hub website. 
 
-It’s been suggested that the Community Hub currently at NavCore.org needs a new URL to avoid potential confusion between it and the developer website at NavCoin.org
+It’s been suggested that the Community Hub currently at NavHub.org needs a new URL to avoid potential confusion between it and the developer website at NavCoin.org
 Spiritar3 has created a survey to find the new URL. Check out the link below for more information:
 https://www.reddit.com/r/NavCoin/comments/8g8dum/renaming_navcoreorg_what_suggestions_do_you_have/
 

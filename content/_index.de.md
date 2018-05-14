@@ -44,7 +44,7 @@ draft: false
 {{< /home_centre_text_section >}}
 {{< links_section
     title="Tritt der Community bei"
-    subtitle="Wenn du daran interessiert bist einen Beitrag zu NavCore.org oder anderen NavCoin-Projekten zu leisten, tritt gerne unseren Community-Kanälen bei und werde ein Teil dieser Community."
+    subtitle="Wenn du daran interessiert bist einen Beitrag zu NavHub.org oder anderen NavCoin-Projekten zu leisten, tritt gerne unseren Community-Kanälen bei und werde ein Teil dieser Community."
     fontColor="#FFF"
     bgColor="#7d5ab5"
     containerPadding="40px 0 60px 0"
