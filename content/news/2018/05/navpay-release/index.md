@@ -1,6 +1,6 @@
 ---
 title: "New NavPay 4.1 Gives You Added Security, Privacy And More"
-date: 2018-05-08T11:57:03+12:00
+date: 2018-05-15T10:57:03+12:00
 draft: false
 author: "NavCore"
 description: ""
@@ -20,7 +20,7 @@ Version 4.1 of NavPay is out now. It's easier to use, more customisable, and mor
 
 While Apple is going through the process of approving the app for the iTunes store, NavPay has been turned into a Progressive Web App that saves to your home screen for easy access.
 
-On a your first visit to navpay.navcoin.org using the latest iOS version (11.3) you'll be prompted to download the Progressive Web App version. If you have an existing wallet, the download button can be found in Settings at the bottom of the page. 
+On a your first visit to https://navpay.navcoin.org using the latest iOS version (11.3) you'll be prompted to download the Progressive Web App version. If you have an existing wallet, the download button can be found in Settings at the bottom of the page. 
 
 ### Enhanced security and privacy.
 
