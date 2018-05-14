@@ -16,12 +16,12 @@ type: "default"
     fontColor="#FFF">}}
 
     <p>NavCoin has a thriving community all over the world, and you can be part of it. It's not just for developers with blockchain expertise - people contribute their creative, business and networking skills too.</p>
-    <p>Whatever you bring to the community, you'll find a warm welcome and support from people who share your passion for NavCoin. So if you're looking to get started, here are some handy resources that help make joining the NavCoin community easy. </p>
+    <p>So if you're looking to get started, here are some handy resources that help make joining the NavCoin community easy. </p>
 {{< /left_image_section >}}
 {{< links_section
     containerPadding="40px 0 60px 0"
     titleMargin="0 0 0 0"
-    class="links-image-shadow"
+    class="links-image"
     bgColor="#FFF"
     gradient="false"
     feature1Img="/images/icons/icon-tick-purple.png"
@@ -42,43 +42,46 @@ type: "default"
 {{< left_image_section
     title="Developer"
     id="developer"
-    imgSrc="/images/icons/icon-scales.png"
-    imgHeight="400px"
+    imgSrc="/images/icons/icon-tick-purple.png"
+    imgHeight="300px"
     imgPadding="0px"
+    imgMarginTop="14px"
     bgColor="#7d5ab5"
-    linkBgColor="#43799a"
+    linkBgColor="#523971"
     gradient=""
     btn1Link="https://github.com/NAVCoin"
-    btn1Txt="GitHub >>"
+    btn1Txt="GitHub"
     btn2Link="/roadmap"
-    btn2Txt="Roadmap >>"
+    btn2Txt="Roadmap"
     fontColor="#FFF">}}
-<p>Anyone can contribute to the NavCoin protocol. The software is free and open-source. If you'd like to pitch in on existing projects take a look at the Roadmap to find one that interests you, or you could start a project of your own. You can also contribute by reviewing pull requests or writing patches.</p>
-<p>The self-documented code in GitHub is a great place to get familiar with NavCoin, or you can join the discussion on the NavCoin Discord. You'll find that the NavCoin developer community is active and supportive. Discord is the place for meeting and chatting with other devs, and formal development discussion for each project takes place on GitHub. </p>
+<p>The NavCoin protocol is open-source and free for anyone to contribute. If you'd like to pitch in on existing projects take a look at the Roadmap to find one that interests you, or you could start a project of your own. You can also contribute by reviewing pull requests or writing patches.</p>
+<p>The self-documented code in GitHub is a great place to get familiar with NavCoin, or you can join the discussion on the NavCoin Discord.</p>
 {{< /left_image_section >}}
 {{< left_image_section
     title="Brand Guidelines"
     id="brand-bible"
-    imgSrc="/images/icons/icon-scales.png"
-    imgHeight="400px"
+    imgSrc="/images/icons/icon-purple-book-new.png"
+    imgHeight="300px"
     imgPadding="0px"
+    imgMarginTop="32px"
     bgColor="#FFF"
-    linkBgColor="#43799a"
+    linkBgColor="#523971"
     gradient=""
-    btn1Link="/navcore-brand-guidelines.pdf"
-    btn1Txt="Get the guide >>"
+    btn1Link="/themes/nav-community-v1/static/assets/NavCoinBrandGuidelines.pdf"
+    btn1Txt="Get the guide"
     >}}
 <p>The NavCore brand guidlines collates the NavCoin Core Content Creators suggestions on how to create a consistent look and feel for promotional material and brand assets.</p> 
-<p>It covers typefaces and how they are used, sets out a colour palate, and gives useful tips on how to create visuals and write with the NavCoin tone of voice. It’s hoped that having these guidelines will make it easier for you to get started on creating content for NavCoin.</p>
+<p>It gives useful tips on how to create visuals and write with the NavCoin tone of voice. It’s hoped that having these guidelines will make it easier for you to get started on creating content for NavCoin.</p>
 {{< /left_image_section >}}
 {{< left_image_section
     title="NavCoin Meetup Guideline"
     id="meetup"
-    imgSrc="/images/icons/icon-scales.png"
-    imgHeight="400px"
+    imgSrc="/images/icons/icon-goals-purple.png"
+    imgHeight="300px"
     imgPadding="0px"
+    imgMarginTop="auto"
     bgColor="#7d5ab5"
-    linkBgColor="#43799a"
+    linkBgColor="#523971"
     gradient=""
     btn1Link=""
     btn1Txt="Coming Soon"
