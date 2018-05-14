@@ -86,7 +86,6 @@ type: "default"
     gradient=""
     btn1Link=""
     btn1Txt="Coming Soon"
-    btn1Target="e"
     fontColor="#FFF">}}
 <p>Community member Spiritar3 has created a set of simple guidelines for holding a successful meetup for NavCoin fans.</p>
 {{< /left_image_section >}}
