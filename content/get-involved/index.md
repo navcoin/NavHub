@@ -51,6 +51,7 @@ type: "default"
     gradient=""
     btn1Link="https://github.com/NAVCoin"
     btn1Txt="GitHub"
+    btn1Target="e"
     btn2Link="/roadmap"
     btn2Txt="Roadmap"
     fontColor="#FFF">}}
@@ -69,8 +70,8 @@ type: "default"
     gradient=""
     btn1Link="/assets/NavCoinBrandGuidelines.pdf"
     btn1Txt="Get the guide"
-    >}}
-<p>The NavCore brand guidlines collates the NavCoin Core Content Creators suggestions on how to create a consistent look and feel for promotional material and brand assets.</p> 
+    btn1Target="e">}}
+<p>The NavCore brand guidlines collates the NavCoin Core Content Creators suggestions on how to create a consistent look and feel for promotional material and brand assets.</p>
 <p>It gives useful tips on how to create visuals and write with the NavCoin tone of voice. It’s hoped that having these guidelines will make it easier for you to get started on creating content for NavCoin.</p>
 {{< /left_image_section >}}
 {{< left_image_section
@@ -85,6 +86,7 @@ type: "default"
     gradient=""
     btn1Link=""
     btn1Txt="Coming Soon"
+    btn1Target="e"
     fontColor="#FFF">}}
 <p>Community member Spiritar3 has created a set of simple guidelines for holding a successful meetup for NavCoin fans.</p>
 {{< /left_image_section >}}
