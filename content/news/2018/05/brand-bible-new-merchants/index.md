@@ -75,7 +75,7 @@ The brand bible sets out the Core Media and Content Creators suggestions on type
 
 The content collective have also been refining the ‘Core Developer’, and ‘Core Media and Content Creator’ manifestos. These documents detail the beliefs NavCoin core agree to uphold as members of the NavCoin community. Once they’re completed they will also be available on the community site. Look out for them soon.
 
-The NavCoin Core team are also looking to rename the NavCore community hub website to make it more clear what the purpose of the website is. NavCoin.org is aiming to be information related to the protocol - how it works, the technical information, and documentation. The community hub (NavCore.org) on the other hand is more focused on community efforts - such as which projects are being worked on, and how to get involved. So please submit your ideas for domain names to our Discord or Reddit channels - the only requirement is that the domains are available for use.
+The NavCoin Core team are also looking to rename the NavCore community hub website to make it more clear what the purpose of the website is. NavCoin.org is aiming to be information related to the protocol - how it works, the technical information, and documentation. The community hub (NavHub.org) on the other hand is more focused on community efforts - such as which projects are being worked on, and how to get involved. So please submit your ideas for domain names to our Discord or Reddit channels - the only requirement is that the domains are available for use.
 
 They’ve also been preparing content for the release of version 4.1 of NavPay - to help let people know what’s changed, and where to go to download it.
 
