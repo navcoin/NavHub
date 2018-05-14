@@ -4,7 +4,6 @@ date: 2018-03-20T07:41:22+13:00
 draft: false
 type: "default"
 ---
-
 {{< left_image_section
     title="Merchants Accepting NavCoin"
     imgSrc="/images/icons/icon-scales.png"
@@ -32,7 +31,6 @@ type: "default"
       <p>If you find a store is missing from map, you can request it to be added via this <a href="https://goo.gl/forms/6IgfIWzUJElaOX7B2">Google Form</a> or by contacting a moderator on Reddit or Discord.</p>
     </div>
     {{< /home_centre_text_section>}}
-
 {{< links_section
     containerPadding="40px 0 60px 0"
     titleMargin="0 0 0 0"
@@ -54,7 +52,6 @@ type: "default"
     feature3Desc="Over 60 more merchants accept NAV using the CoinPayments merchant gateway."
     feature3Txt="Go to website »"
     feature3Link="https://www.coinpayments.net/store-directory-coin-NAV">}}
-
 {{< links_section
     title="Merchant Tools"
     subtitle="If you’re interested in accepting NavCoin in your store, here are some tools to get you started."
