@@ -67,7 +67,7 @@ type: "default"
     bgColor="#FFF"
     linkBgColor="#523971"
     gradient=""
-    btn1Link="/themes/nav-community-v1/static/assets/NavCoinBrandGuidelines.pdf"
+    btn1Link="/assets/NavCoinBrandGuidelines.pdf"
     btn1Txt="Get the guide"
     >}}
 <p>The NavCore brand guidlines collates the NavCoin Core Content Creators suggestions on how to create a consistent look and feel for promotional material and brand assets.</p> 
