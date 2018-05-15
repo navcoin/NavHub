@@ -3541,7 +3541,6 @@ ul li.cat-item a {
 }
 
 .links-image-shadow .service-icon img {
-  border: 1px solid #EEE;
   filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.2))
 }
 
