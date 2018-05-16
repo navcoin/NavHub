@@ -64,7 +64,7 @@ type: "default"
     feature3Title="HODL Merch Store"
     feature3Desc="The home of crypto merchandise including the NavCoin range of clothing and accessories."
     feature3Txt="Go to website »"
-    feature3Link="https://alwayshodl.com/"
+    feature3Link="https://alwayshodl.com/pages/official-nav-collection"
  >}}
 {{< links_section
     title="Merchant Tools"
