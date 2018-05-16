@@ -44,7 +44,7 @@ draft: false
 {{< /home_centre_text_section >}}
 {{< links_section
     title="Join the Community"
-    subtitle="If you’re interested in contributing to NavCore.org or any NavCoin projects, get in touch with the NavCoin Community."
+    subtitle="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
     fontColor="#FFF"
     bgColor="#7d5ab5"
     containerPadding="40px 0 60px 0"

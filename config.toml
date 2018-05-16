@@ -1,4 +1,4 @@
-baseURL = "https://navcore.org"
+baseURL = "https://navhub.org"
 theme = "nav-community-v1"
 
 # English is the default language
@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir = false
 
 [Languages]
 [Languages.en]
-title = "NavCoin Community Site"
+title = "NavCoin Community Hub"
 weight = 1
 languageName = "English"
 
