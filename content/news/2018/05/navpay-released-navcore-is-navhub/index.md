@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=61LKu0thjFM
 The Netherlands meetup was held on Saturday in Utrecht. Well done to all the community members involved for making this community initiative happen.
 <br /><br />
 <section style="text-align: center">
-![](meetup.png)
+![](meetup.jpg)
 <br /><br />
 </section>
 
