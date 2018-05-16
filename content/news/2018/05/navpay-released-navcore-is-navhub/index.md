@@ -22,7 +22,7 @@ A major focus of the past few weeks for NavCoin Core has been creating a range o
 * Work is progressing on better developer documentation for the NavCoin protocol.
 * The Community Fund launches in the near future.
 
-### What’s happening in the community.
+### What’s happening in the community
 
 It’s the Sakdeniz show this week. He created these awesome animations using Windows Movie Maker, and is happy for everyone in the NavCoin community to use them on social media. Click the ‘Share’ tab under the video player window to get an embeddable link to the video. Check them out and be inspired.
 
@@ -63,7 +63,7 @@ The new NavCoin Paper Wallet version was added to paper.navcoin.org. A Paper Wal
 
 https://navcoin.org/downloads/#paper-wallet
 
-### Content and media.
+### Content and media
 After input from numerous community members the new community website domain name has been selected. The new URL is navhub.org and it’s hoped that this will help remove confusion between NavHub’s community purpose and the more technical, developer focused website at navcoin.org
 <br /><br />
 <section style="text-align: center">
