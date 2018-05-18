@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+
+  <!-- Include the styles for the Netlify CMS UI, after your own styles -->
+  <link rel="stylesheet" href="https://unpkg.com/@encrypt-s/netlify-cms@^1.0.0/dist/cms.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Roboto">
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/@encrypt-s/netlify-cms@^1.0.0/dist/cms.js"></script>
+  <script>
+    CMS.registerPreviewStyle("previewpane.css");
+  </script>
+  <script>
+    var NewsPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var imageData = entry.getIn(['data', 'feature_image']);
+        var image = this.props.getAsset(imageData);
+        console.log(imageData)
+        return h('div', {},
+          h('h1', {}, entry.getIn(['data', 'title'])),
+          h('img', {src: image ? image.toString() : ''}),
+          h('div', {"className": "text"}, this.props.widgetFor('body'))
+        );
+      }
+    });
+
+    CMS.registerPreviewTemplate("news", NewsPreview);
+  </script>
+</body>
+</html>
