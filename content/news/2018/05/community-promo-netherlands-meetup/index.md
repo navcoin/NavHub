@@ -14,7 +14,7 @@ show_title_text: false
 The NavCoin community is on a roll at the moment. The social channels have been full of positive conversations and great initiatives keep on coming through. And not to be out done, NavCoin developers around the world have be hard at work on a range of interesting projects.
 <!--more-->
 ### What's happening in the community
-If you’re in the Netherlands you still have time to make the meetup in Utrecht this Saturday evening, which will be hosted at Florin Utrecht at 7pm. If you’re going, make sure to tag your photos #NavCoin so the community can share the experience with you. 
+If you’re in the Netherlands you still have time to make the meetup in Utrecht this Saturday evening, which will be hosted at Florin Utrecht at 7pm. If you’re going, make sure to tag your photos #NavCoin so the community can share the experience with you.
 <br />
 <section style="text-align: center">
 ![](nth-meetup.png)
@@ -53,11 +53,11 @@ https://twitter.com/NAVcoincripto/status/990999660578865154
 
 ### Technical updates
 
-The devnet went through its own testing and is now operational. Essentially, this devnet mimics the live blockchain environment - with ‘test’ nodes located around the world. But because it uses its own version of the NavCoin blockchain it will allow us throw everything at it and stretch it far beyond its capacity - which will give valuable insights into how the mainnet can be improved. 
+The devnet went through its own testing and is now operational. Essentially, this devnet mimics the live blockchain environment - with ‘test’ nodes located around the world. But because it uses its own version of the NavCoin blockchain it will allow us throw everything at it and stretch it far beyond its capacity - which will give valuable insights into how the mainnet can be improved.
 
 Also this week the final touches were put on the NavPay 4.1 release. A deployment issue was detected early this morning, but we are hopeful NavPay will be rolled out to production once this issue has been resolved.
 
-The new version of the paper wallet it out too. It’s a cheap, easy way to safely store your NavCoin offline. You can find the release notes at Github here. 
+The new version of the paper wallet it out too. It’s a cheap, easy way to safely store your NavCoin offline. You can find the release notes at Github here.
 
 https://github.com/Encrypt-S/paper-wallet/releases/tag/1.0.2
 
@@ -71,10 +71,10 @@ Sakdeniz (on Discord) has teased the UI design for the store section of the NavC
 <br /><br />
 </section>
 
-The downloads page on the NavCoin website (https://navcoin.org/downloads/) has been updated to include quick links to all the wallet downloads that are currently available. 
+The downloads page on the NavCoin website (https://navcoin.org/downloads/) has been updated to include quick links to all the wallet downloads that are currently available.
 
 ### Content and media.
-The NavCoin Core Media Collective have been hard at work preparing new material that will be available soon. Last week the focus was creating content for the refreshed developer and community websites, and polishing the NavCoin brand bible and contributor manifestos. Once the brand bible is ready it will be available on the Community Hub website. 
+The NavCoin Core Media Collective have been hard at work preparing new material that will be available soon. Last week the focus was creating content for the refreshed developer and community websites, and polishing the NavCoin brand bible and contributor manifestos. Once the brand bible is ready it will be available on the Community Hub website.
 
 It’s been suggested that the Community Hub currently at NavHub.org needs a new URL to avoid potential confusion between it and the developer website at NavCoin.org
 Spiritar3 has created a survey to find the new URL. Check out the link below for more information:
