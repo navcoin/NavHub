@@ -40,7 +40,7 @@ weight: 1
     fontColor="#333">}}
     <p>The NavCoin m8 is a low-power device capable of running NavCoin Core and other wallets at the same time at very low energy costs.</p>
     <p>The NavCoin m8 is using the M8S PRO hardware. Android TV device out of the box its possible to be repurposed to use the little powerhouse for various usecases. At only $60 it quickly repays for itself when used as a staking wallet.</p>
-    <p>In the future wallets prepared for plug-and-play-use will be made available but for now its fully DIY. Instructions are available on the project website.</p>
+    <p>In the future wallets prepared for plug-and-play-use will be made available but for now its fully DIY. Instructions are available below or on the website.</p>
     {{< /left_image_section >}}
 {{< project_features
     fontColor="#fff"
