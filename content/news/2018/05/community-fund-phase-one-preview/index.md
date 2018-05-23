@@ -63,6 +63,8 @@ https://navhub.org/news/2018/05/navcoin-core-4.2.0-release-candidate
 
 The NavCoin.org static site has now been launched. The difference you'll notice immediately is that the entire site has had a comprehensive user interface (UI) makeover, modernising its appearance and making navigation easier. A consistent design style has been applied to icons, and text blocks have been cleaned up to enhance readability. The main benefit of converting NavCoin.org to a static site is that it's much more decentralised. Instead of running on a centralized Wordpress database, all the code is managed through GitHub. This also makes it easier for community members to contribute and review content via pull requests on GitHub.
 
+https://navcoin.org
+
 The alpha version of prodpeak's block explorer is now live. What does this do? A block explorer is a website that provides detailed information about NavCoin blocks, addresses, and transactions. So as an example, it can be used as a source of truth if you want to see if a transaction has been successfully sent through the network. You can check it out here:
 
 http://alpha.navexplorer.com
