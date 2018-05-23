@@ -1,5 +1,5 @@
 ---
-title: "Community Fund Phase One Preview"
+title: "Community Fund Phase One Preview and NavCoin.org Refresh"
 date: 2018-05-23T18:56:19+12:00
 draft: false
 author: "NavCore"
