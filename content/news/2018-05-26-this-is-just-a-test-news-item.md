@@ -8,7 +8,13 @@ feature_image: /images/uploads/blog-post-dunes2.jpg
 categories:
   - Nav News
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia fringilla maximus. Quisque commodo ipsum ac ipsum auctor, at fringilla nibh vehicula. Quisque pretium, sapien eu efficitur lobortis, dui eros iaculis risus, sit amet euismod est magna vel ante. Praesent rutrum nibh sapien, id commodo dui imperdiet non. Vestibulum et ligula at diam tempus lobortis id non ligula. Nam vulputate ligula at volutpat bibendum. Fusce in lacus lobortis diam iaculis blandit. Morbi quis velit fermentum odio dapibus molestie sit amet sed sapien. Sed vitae est tincidunt, dictum nisl vitae, vestibulum nulla. Vestibulum placerat venenatis tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent ac odio molestie, tristique libero nec, lacinia nulla. Donec suscipit auctor facilisis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia fringilla maximus. Quisque commodo ipsum ac ipsum auctor, at fringilla nibh vehicula. Quisque pretium, sapien eu efficitur lobortis, dui eros iaculis risus, sit amet euismod est magna vel ante. 
+
+<!--more-->
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia fringilla maximus. Quisque commodo ipsum ac ipsum auctor, at fringilla nibh vehicula. Quisque pretium, sapien eu efficitur lobortis, dui eros iaculis risus, sit amet euismod est magna vel ante. 
+
+Praesent rutrum nibh sapien, id commodo dui imperdiet non. Vestibulum et ligula at diam tempus lobortis id non ligula. Nam vulputate ligula at volutpat bibendum. Fusce in lacus lobortis diam iaculis blandit. Morbi quis velit fermentum odio dapibus molestie sit amet sed sapien. Sed vitae est tincidunt, dictum nisl vitae, vestibulum nulla. Vestibulum placerat venenatis tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent ac odio molestie, tristique libero nec, lacinia nulla. Donec suscipit auctor facilisis.
 
 ## Section title goes here
 
