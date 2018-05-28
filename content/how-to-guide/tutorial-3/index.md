@@ -14,7 +14,7 @@ First we're going to need a text editor, I recommend using Visual Studio Code be
 
 Visit https://code.visualstudio.com/download and then download and install VS Code.
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-10.jpg" width="700">
 </figure>
 
@@ -25,7 +25,7 @@ Since this is just a simple example, we'll edit the front page; So double click 
 
 This will open the page's code inside VS Code. Now you should see some blocks of text on the page text like this:
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-11.jpg" width="700">
 </figure>
 
@@ -37,7 +37,7 @@ To show you how it works, just edit the first shortcode where it says
 Change the title to say whatever you want, save your changes (in the toolbar click **File** and then click **Save**) and then we will preview your changes.
 Make sure that you keep the quotes " " around your text and don't delete the **title=** either.
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-12.jpg" width="700">
 </figure>
 
@@ -50,7 +50,7 @@ Running from another folder: [screencast](https://asciinema.org/a/Hb5FRZWD7yLAMx
 
 Once you've run the commands, without closing the terminal, open your web browser and visit [http://localhost:1313](http://localhost:1313)
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-13.jpg" width="700">
 </figure>
 
@@ -59,13 +59,13 @@ This will load up your version of the website, and you should be able to see you
 Go back into Visual Studio Code and in the same file as before, make another change to the **title**, and save it.
 If you look at your web browser, it should automatically update the page to show your new change. This applies to .html, .css, and .md files.
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-14.jpg" width="700">
 </figure>
 
 `command save (CMD + S)`
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-15.jpg" width="700">
 </figure>
 
@@ -84,14 +84,14 @@ Click on that row and on the right side of the screen you will see three boxes w
 
 **Commit Message**
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-16.jpg" width="700">
 </figure>
 
 Unstaged files are files that you have changed, but haven't selected to "Commit" to GitHub.
 There should be a file in that box called **content/_index.md**, this is the that file for the frontpage that we have just changed.
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-17.jpg" width="700">
 </figure>
 
@@ -107,7 +107,7 @@ This will commit your changes, but before they will appear on GitHub you will ne
 
 Now if you visit your GitHub page for the website:
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-18.jpg" width="700">
 </figure>
 

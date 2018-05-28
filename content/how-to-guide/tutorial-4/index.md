@@ -16,7 +16,7 @@ e.g. `https://www.GitHub.com/[your-user-name]/nav-community-site`
 There is a button that says "New Pull Request" about 1/3rd down the page.
 Click it to begin creating a pull request, your web browser will go to a new page.
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-19.jpg" width="700">
 </figure>
 
@@ -31,7 +31,7 @@ It should automatically select the right settings, but just to be sure (from lef
 
 If these settings are incorrect, change them to match the above, otherwise click "Create New Pull Request"
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-20.jpg" width="700">
 </figure>
 

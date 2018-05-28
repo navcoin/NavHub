@@ -13,7 +13,7 @@ For this tutorial we'll assume you have completed the [previous tutorial](/how-t
 1: First up we need to install a package manager, this lets you install software on your computer easily. Press Command + Spacebar to open Spotlight, and type "Terminal" and press enter.
 This will open a command line window.
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-9.jpg" width="700">
 </figure>
 

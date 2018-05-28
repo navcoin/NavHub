@@ -35,7 +35,7 @@ show_title_text: false
 ---
 ```
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 0 0 10px 0; background-color: #fff">
   <img src="images/How-To-21.jpg" width="700">
 </figure>
 
@@ -48,7 +48,7 @@ For the **date** all you need to write is the day in the format: YYYY-MM-DD (Yea
 
 Next copy your news article and paste it into the new file we're making, underneath the --- of the first section.
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-22.jpg" width="700">
 </figure>
 
@@ -56,7 +56,7 @@ Save this file under `news/content/2018/05/[your-folder]/` as **index.md**
 
 Next make sure your image for your article is saved in the same folder, with the same name that you used for the **feature_image** field.
 
-<figure style="padding: 0 0 5px 0; background-color: #fff">
+<figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-23.jpg" width="700">
 </figure>
 
