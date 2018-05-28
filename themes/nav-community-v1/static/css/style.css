@@ -1745,6 +1745,9 @@ ul.page-list li a {
 .blog-details {
     min-height: 275px;
 }
+.blog-details-how-to {
+    min-height: 193px;
+}
 .blog-details h3 a {
     font-size:21px;
     text-transform: NONE;
