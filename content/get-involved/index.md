@@ -13,6 +13,8 @@ type: "default"
     bgColor="#7d5ab5"
     linkBgColor="#523971"
     gradient=""
+    btn1Link="/how-to-guide/"
+    btn1Txt="Website contribution tutorials"
     fontColor="#FFF">}}
 
     <p>NavCoin has a thriving community all over the world, and you can be part of it. It's not just for developers with blockchain expertise - people contribute their creative, business and networking skills too.</p>
