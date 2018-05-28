@@ -1,6 +1,6 @@
 ---
 title: "How to edit NavHub.org - Tutorial 3"
-date: 2018-05-28T14:22:25+12:00
+date: 2018-05-28T15:03:04+12:00
 draft: false
 type: "how-to-guide"
 feature_image: "images/How-To-11.jpg"
@@ -44,9 +44,9 @@ Make sure that you keep the quotes " " around your text and don't delete the **t
 To preview your changes open your terminal again (Press Command and the Spacebar at the same time, type terminal and then press Enter).
 Watch these to see how to run the website.
 
-Running from Documents: [screencast](https://asciinema.org/a/180120)
+Running Hugo from Documents: [screencast](https://asciinema.org/a/180120)
 
-Running from another folder: [screencast](https://asciinema.org/a/Hb5FRZWD7yLAMxWzdVithqmCk)
+Running Hugo from another folder: [screencast](https://asciinema.org/a/Hb5FRZWD7yLAMxWzdVithqmCk)
 
 Once you've run the commands, without closing the terminal, open your web browser and visit [http://localhost:1313](http://localhost:1313)
 

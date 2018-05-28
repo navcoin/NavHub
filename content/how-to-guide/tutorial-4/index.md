@@ -1,6 +1,6 @@
 ---
 title: "How to edit NavHub.org - Tutorial 4"
-date: 2018-05-28T13:57:55+12:00
+date: 2018-05-28T14:22:25+12:00
 draft: false
 type: "how-to-guide"
 feature_image: "images/How-To-19.jpg"
