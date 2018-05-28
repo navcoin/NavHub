@@ -3,7 +3,7 @@ title: "How to edit NavHub.org - Tutorial 4"
 date: 2018-05-28T14:22:25+12:00
 draft: false
 type: "how-to-guide"
-feature_image: "images/How-To-19.jpg"
+feature_image: "images/TUTE-4.jpg"
 ---
 
 ### How to create a Pull Request (Get your changes added to the community site)

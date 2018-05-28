@@ -3,7 +3,7 @@ title: "How to edit NavHub.org - Tutorial 5"
 date: 2018-05-28T13:57:55+12:00
 draft: false
 type: "how-to-guide"
-feature_image: "images/How-To-21.jpg"
+feature_image: "images/TUTE-5.jpg"
 ---
 
 ### How to add a news post

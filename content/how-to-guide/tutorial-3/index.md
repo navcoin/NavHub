@@ -3,7 +3,7 @@ title: "How to edit NavHub.org - Tutorial 3"
 date: 2018-05-28T15:03:04+12:00
 draft: false
 type: "how-to-guide"
-feature_image: "images/How-To-11.jpg"
+feature_image: "images/TUTE-3.jpg"
 ---
 
 ### How to make a basic edit of existing content

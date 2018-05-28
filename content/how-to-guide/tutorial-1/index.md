@@ -3,7 +3,7 @@ title: "How to edit NavHub.org - Tutorial 1"
 date: 2018-05-28T15:18:26+12:00
 draft: false
 type: "how-to-guide"
-feature_image: "images/How-To-1.jpg"
+feature_image: "images/TUTE-1.jpg"
 ---
 
 ### Getting started with Github
