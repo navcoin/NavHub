@@ -69,9 +69,9 @@ If you look at your web browser, it should automatically update the page to show
   <img src="images/How-To-15.jpg" width="700">
 </figure>
 
-When you are happy with your change, we'll save it with Git Kraken so you can upload it to GitHub (you will need to do this to make actual changes to the real nav community site).
+When you are happy with your change, we'll save it with GitKraken so you can upload it to GitHub (you will need to do this to make actual changes to the real nav community site).
 
-Open Git Kraken on your computer.
+Open GitKraken on your computer.
 Near the top of the window underneath the buttons **Undo Redo Pull Push Branch Stash Pop** you should see a row on the screen with a text box that says:
 
 `// WIP`

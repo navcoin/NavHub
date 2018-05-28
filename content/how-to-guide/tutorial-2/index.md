@@ -36,7 +36,7 @@ Type:
 Installing Brew: [screencast](https://asciinema.org/a/IHLqYujlrckNO5vRqnHzZwNjq)
 
 This will install the software to preview the NavCoin community site on your computer.
-Next we need to go to the folder you saved the community site to using Git Kraken.
+Next we need to go to the folder you saved the community site to using GitKraken.
 
 If you saved it to Documents, in your terminal type:
 

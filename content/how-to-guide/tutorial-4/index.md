@@ -41,7 +41,7 @@ Before your changes can be merged at least three community members will need to 
 
 They may comment and discuss your changes, and perhaps suggest things like tweaks to wording or fixes for typos.
 
-If you need to make changes, simply make the edit on with Visual Studio Code like we did in the previous tutorial. Save them, and then using Git Kraken, create a new commit and "push" the commit up to GitHub.
+If you need to make changes, simply make the edit on with Visual Studio Code like we did in the previous tutorial. Save them, and then using GitKraken, create a new commit and "push" the commit up to GitHub.
 
 After 3 approvals have been reached you can "Merge" your pull request to the NavCoin Community Website by clicking the "Merge Pull Request" button near the bottom of the page.
 

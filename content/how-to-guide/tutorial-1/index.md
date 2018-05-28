@@ -20,21 +20,21 @@ From GitHub, click the "Fork" button on the right side of the page to create you
   <img src="images/How-To-2.jpg" width="700">
 </figure>
 
-Now that you have your own copy, we need to get it so you can edit it, so visit [https://www.gitkraken.com/download](https://www.gitkraken.com/download) and download the version of gitkraken that matches your computer (Windows, MacOS, Linux).
+Now that you have your own copy, we need to get it so you can edit it, so visit [https://www.gitkraken.com/download](https://www.gitkraken.com/download) and download the version of GitKraken that matches your computer (Windows, MacOS, Linux).
 
 <figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-3.jpg" width="700">
 </figure>
 
-Gitkraken will let you download and manage the website code.
+GitKraken will let you download and manage the website code.
 
-Once the download is complete, install gitkraken and then open it.
+Once the download is complete, install GitKraken and then open it.
 
 <figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-4.jpg" width="700">
 </figure>
 
-Inside gitkraken we'll need to click the "Sign in with GitHub" button to log into your account.
+Inside GitKraken we'll need to click the "Sign in with GitHub" button to log into your account.
 
 <figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-6.jpg" width="700">
