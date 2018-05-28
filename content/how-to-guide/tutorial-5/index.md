@@ -8,7 +8,7 @@ feature_image: "images/TUTE-5.jpg"
 
 ### How to add a news post
 
-First we will assume you have both read the previous tutorials and have your piece of news already written.
+First we will assume you have both read the [previous tutorial](/how-to-guide/tutorial-4) and have your piece of news already written.
 
 Your news article will also need to be written in markdown format. Explaining how Markdown works is outside the scope of this tutorial, but there are many existing tutorials on how to use Markdown on the internet.
 

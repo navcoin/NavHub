@@ -8,7 +8,7 @@ feature_image: "images/TUTE-3.jpg"
 
 ### How to make a basic edit of existing content
 
-Assuming you've completed the [previous tutorials, we're going to get started on how to make a simple edit to a page that already exists on the website. Maybe you found a typo or just want to tweak the wording of something.
+Assuming you've completed the [previous tutorial](/how-to-guide/tutorial-2), we're going to get started on how to make a simple edit to a page that already exists on the website. Maybe you found a typo or just want to tweak the wording of something.
 
 First we're going to need a text editor, I recommend using Visual Studio Code because it has "Syntax Highlighting" when means it will highlight the website's code in a way that makes it easier to read.
 
@@ -21,7 +21,7 @@ Visit https://code.visualstudio.com/download and then download and install VS Co
 Next open VS Code and in the toolbar click File and then Open.
 Browse to where you saved the NAV Community Site (for example Documents/nav-community-site) and inside that folder go into the Content folder. This is where we keep all the pages for the website.
 
-Since this is just a simple example, we'll edit the front page; So double click on the file called _index.md inside the content folder.
+Since this is just a simple example, we'll edit the front page; So double click on the file called **_index.md** inside the content folder.
 
 This will open the page's code inside VS Code. Now you should see some blocks of text on the page text like this:
 
@@ -57,7 +57,7 @@ Once you've run the commands, without closing the terminal, open your web browse
 This will load up your version of the website, and you should be able to see your changes you made to the title of the first piece of content on the page.
 
 Go back into Visual Studio Code and in the same file as before, make another change to the **title**, and save it.
-If you look at your web browser, it should automatically update the page to show your new change. This applies to .html, .css, and .md files.
+If you look at your web browser, it should automatically update the page to show your new change. This applies to `.html`, `.css`, and `.md` files.
 
 <figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-14.jpg" width="700">

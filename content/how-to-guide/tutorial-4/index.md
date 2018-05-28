@@ -8,7 +8,7 @@ feature_image: "images/TUTE-4.jpg"
 
 ### How to create a Pull Request (Get your changes added to the community site)
 
-Assuming you've completed the previous tutorials and have pushed a change you've made to GitHub, now we'll go through the process of creating a pull request for the nav-community-site.
+Assuming you've completed the [previous tutorial](/how-to-guide/tutorial-3) and have pushed a change you've made to GitHub, now we'll go through the process of creating a pull request for the nav-community-site.
 
 Open GitHub and navigate to your repository:
 e.g. `https://www.GitHub.com/[your-user-name]/nav-community-site`
