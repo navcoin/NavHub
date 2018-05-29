@@ -1,5 +1,5 @@
 ---
-title: "How to edit NavHub.org - Tutorial 4"
+title: "How to edit NavHub.org - Part 4 of 5"
 date: 2018-05-28T14:22:25+12:00
 draft: false
 type: "how-to-guide"
