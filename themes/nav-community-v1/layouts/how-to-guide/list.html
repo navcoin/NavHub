@@ -22,7 +22,7 @@
               {{ end }}
 
               <div class="col-xs-12 col-sm-6">
-                  <div class="blog-item">
+                  <div class="blog-item-how-to">
                       <a href="{{ .URL }}"> <div class="blog-image" style="background-image:url({{ .URL }}/{{ .Params.feature_image }});">
                           <div class="item-overlay"></div>
                       </div>
@@ -35,8 +35,8 @@
                               {{end}}
 
                           </ul>
-                          <div class="blog-excerpt">
-                              {{.Summary}}
+                          <div class="blog-excerpt-how-to">
+                              {{.Params.feature_text}}
                           </div>
                           <div class="read-more">
                               <div class="themeix-button-group">

@@ -4,6 +4,7 @@ date: 2018-05-28T13:57:55+12:00
 draft: false
 type: "how-to-guide"
 feature_image: "images/TUTE-5.jpg"
+feature_text: "Learn how to add a news post"
 ---
 
 ### How to add a news post

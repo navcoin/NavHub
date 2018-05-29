@@ -1685,7 +1685,13 @@ ul.page-list li a {
     position: relative;
     overflow:hidden;
 }
- .blog-image {
+.blog-item-how-to {
+    margin-bottom: 5px;
+    position: relative;
+    overflow:hidden;
+    height: 420px;
+}
+.blog-image {
     position: relative;
     overflow: hidden;
     min-height: 200px;
@@ -1939,8 +1945,15 @@ a {
 }
 .blog-excerpt {
     margin-top: 20px;
-	  margin-bottom:20px;
+	margin-bottom:20px;
     height: 72px;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog-excerpt-how-to {
+    margin-top: 20px;
+    margin-bottom:20px;
     overflow: hidden;
     position: relative;
 }
