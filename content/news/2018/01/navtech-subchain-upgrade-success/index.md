@@ -38,7 +38,7 @@ Godex is an instant crypto to crypto exchange and has listed NAV as one of their
 
 NAV has also been integrated into Vaulty.io which is a free tool that helps you accept payments in crypto. Just select the cryptocurrencies you would like to support, and it creates a unique URL for you to send users to. Check out this article for more information: https://hackernoon.com/introducing-vaulty-io-e683aea93c89
 
-NAV was ranked in the top 50 on Crypto Miso, which is a website that ranks cryptocurrencies based on Github activity.
+NAV was ranked in the top 50 on Crypto Miso, which is a website that ranks cryptocurrencies based on GitHub activity.
 
 https://cryptomiso.com/
 

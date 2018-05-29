@@ -57,7 +57,7 @@ The devnet went through its own testing and is now operational. Essentially, thi
 
 Also this week the final touches were put on the NavPay 4.1 release. A deployment issue was detected early this morning, but we are hopeful NavPay will be rolled out to production once this issue has been resolved.
 
-The new version of the paper wallet it out too. It’s a cheap, easy way to safely store your NavCoin offline. You can find the release notes at Github here. 
+The new version of the paper wallet it out too. It’s a cheap, easy way to safely store your NavCoin offline. You can find the release notes at GitHub here.
 
 https://github.com/Encrypt-S/paper-wallet/releases/tag/1.0.2
 

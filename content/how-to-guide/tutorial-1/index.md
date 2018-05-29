@@ -6,8 +6,8 @@ type: "how-to-guide"
 feature_image: "images/TUTE-1.jpg"
 ---
 
-### Getting started with Github
-First you need to sign up on [www.Github.com](http://www.github.com), if you haven't already. Just visit the website and fill in the sign up form on the frontpage.
+### Getting started with GitHub
+First you need to sign up on [www.github.com](http://www.github.com), if you haven't already. Just visit the website and fill in the sign up form on the frontpage.
 
 <figure style="padding: 20px 0 20px 0; background-color: #fff">
   <img src="images/How-To-1.jpg" width="700">
@@ -41,7 +41,7 @@ Inside GitKraken we'll need to click the "Sign in with GitHub" button to log int
 </figure>
 
 Now that you are signed in we need to click the folder icon in the top left corner.
-Next click "Clone" and then "Github.com".
+Next click "Clone" and then "GitHub.com".
 
 If your account is new you should only see the nav-community-site listed otherwise you'll see a list of all the things you have on GitHub.
 
