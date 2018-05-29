@@ -4,7 +4,7 @@ date: 2018-05-28T15:18:26+12:00
 draft: false
 type: "how-to-guide"
 feature_image: "images/TUTE-2.jpg"
-feature_text: "Learn how to preview the website on your computer (MacOS)"
+feature_text: "Learn how to preview the website on your computer"
 ---
 
 ### How to preview the website on your computer (MacOS)

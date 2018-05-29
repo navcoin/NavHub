@@ -4,7 +4,7 @@ date: 2018-05-28T15:18:26+12:00
 draft: false
 type: "how-to-guide"
 feature_image: "images/TUTE-1.jpg"
-feature_text: "Learn how to get started with GitHub in Part 1"
+feature_text: "Learn how to get started with GitHub"
 ---
 
 ### Getting started with GitHub
