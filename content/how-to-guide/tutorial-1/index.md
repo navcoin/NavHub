@@ -7,6 +7,7 @@ feature_image: "images/TUTE-1.jpg"
 ---
 
 ### Getting started with GitHub
+
 First you need to sign up on [www.github.com](http://www.github.com), if you haven't already. Just visit the website and fill in the sign up form on the frontpage.
 
 <figure style="padding: 20px 0 20px 0; background-color: #fff">
