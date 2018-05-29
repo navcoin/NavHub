@@ -21,6 +21,9 @@
                             {{ if isset .Params "btn2Link" }}
                             <a href="{{ .Get "btn2Link" }}" target="{{ .Get "btn2Target" }}" class="themeix-btn themeix-danger smoothScroll" style="background-color: {{ .Get "linkBgColor"}}">{{ .Get "btn2Txt" }}</a>
                             {{ end }}
+                            {{ if isset .Params "btn3Link" }}
+                            <a href="{{ .Get "btn3Link" }}" target="{{ .Get "btn3Target" }}" class="themeix-btn themeix-danger smoothScroll" style="background-color: {{ .Get "linkBgColor"}}">{{ .Get "btn3Txt" }}</a>
+                            {{ end }}
                         </div>
                         {{ end }}
                     </div>
