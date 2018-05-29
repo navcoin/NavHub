@@ -27,7 +27,7 @@ draft: false
     title="NavCoin Core Manifestos"
     imgSrc="/images/icons/nav_purple-contract-large.png"
     imgHeight="286px"
-    imgPadding="44px"
+    imgPadding="24px"
     fontColor="#FFF"
     bgColor="#7d5ab5"
     linkBgColor="#523971"
