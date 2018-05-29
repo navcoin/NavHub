@@ -16,8 +16,7 @@ type: "default"
     btn1Txt="Download Manifestos"
     gradient=""
     fontColor="#FFF">}}
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce urna dolor, blandit a nulla sit amet, pharetra molestie risus. Praesent mollis magna sit amet tellus pharetra, et sollicitudin neque molestie. Integer eu arcu eros. Fusce porta, justo ut dictum iaculis, urna turpis euismod sapien, quis tempus mi felis sed justo.</p>
+    <p>The objective of NavCoin Developer and Content Manifestos is to clearly set out the reasons contributors to the NavCoin community do what we do, how we do it and why. These documents cover guiding principles, purpose, scope of work and operational requirements to ensure we share the same values and always operate in the best interests of the network.</p>
 {{< /left_image_section >}}
 
 {{<text_section
@@ -90,16 +89,16 @@ You’ll see that the principles of decentralisation are central:</p>
     gradient="false"
     feature1Img="/images/icons/icon-tick-purple.png"
     feature1Title="Developer Manifesto"
-    feature1Desc="If you want to collaborate with the NavCoin Core developers, read this manifesto."
+    feature1Desc="Essential reading for everyone who wants to contribute to NavCoin open-source code."
     feature1Txt="Get the Manifesto »"
     feature1Link="/assets/NavCoinDeveloperManifesto.pdf"
     feature2Img="/images/icons/nav_purple-books-large.png"
     feature2Title="Content Manifesto"
-    feature2Desc="If you want to collaborate with the NavCoin Core content creators, read this manifesto."
+    feature2Desc="A guide to the shared values and objectives of NavCoin community content contributors."
     feature2Txt="Get the Manifesto »"
     feature2Link="/assets/NavCoinContentManifesto.pdf"
     feature3Img="/images/icons/nav_purple-addressbook-large.png"
     feature3Title="Brand Guidelines"
-    feature3Desc="A detailed guide provided by NavCore to help you create your own NavCoin content."
+    feature3Desc="A handbook to help you match the content your create to the NavCoin brand look and feel."
     feature3Txt="Get the Guide »"
     feature3Link="/assets/NavCoinBrandGuidelines.pdf">}}

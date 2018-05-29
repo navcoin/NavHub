@@ -31,9 +31,9 @@ draft: false
     fontColor="#FFF"
     bgColor="#7d5ab5"
     linkBgColor="#523971"
-    btn1Txt="Read the Manifestos"
+    btn1Txt="View Manifestos"
     btn1Link="/manifestos">}}
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce urna dolor, blandit a nulla sit amet, pharetra molestie risus. Praesent mollis magna sit amet tellus pharetra, et sollicitudin neque molestie. Integer eu arcu eros. Fusce porta, justo ut dictum iaculis, urna turpis euismod sapien, quis tempus mi felis sed justo.</p>
+    <p>The objective of NavCoin Developer and Content Manifestos is to clearly set out the reasons contributors to the NavCoin community do what we do, how we do it and why. These documents cover guiding principles, purpose, scope of work and operational requirements to ensure we share the same values and always operate in the best interests of the network.</p>
 {{< /left_image_section >}}
 {{< home_features
     bgColor="#42b6eb"
