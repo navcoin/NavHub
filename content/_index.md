@@ -18,10 +18,22 @@ draft: false
     imgHeight="286px"
     imgPadding="44px"
     btn1Txt="Learn About NavCoin"
-    btn1Link="http://www.navcoin.org">}}
+    btn1Link="https://www.navcoin.org">}}
     <p>NavCoin is a decentralized cryptocurrency that uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of NavCoin is carried out collectively by the network.</p>
     <p>NavCoin is open-source. Its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
     <p>Find out more about the protocol at the NavCoin website.</p>
+{{< /left_image_section >}}
+{{< left_image_section
+    title="NavCoin Core Manifestos"
+    imgSrc="/images/icons/nav_purple-contract-large.png"
+    imgHeight="286px"
+    imgPadding="44px"
+    fontColor="#FFF"
+    bgColor="#7d5ab5"
+    linkBgColor="#523971"
+    btn1Txt="Read the Manifestos"
+    btn1Link="/manifestos">}}
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce urna dolor, blandit a nulla sit amet, pharetra molestie risus. Praesent mollis magna sit amet tellus pharetra, et sollicitudin neque molestie. Integer eu arcu eros. Fusce porta, justo ut dictum iaculis, urna turpis euismod sapien, quis tempus mi felis sed justo.</p>
 {{< /left_image_section >}}
 {{< home_features
     bgColor="#42b6eb"
