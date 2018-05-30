@@ -22,7 +22,7 @@ NavCoin Italia has continued his efforts to make Italy the NavCoin merchant cent
 
 ![NavCoin Italia Merchant Map](/images/uploads/screen-shot-2018-05-29-at-8.38.45-am.png)
 
-On Reddit, Jonathan reports that he’s considering starting a community Twitter account. He hopes that adding another communication channel will encourage better networking among members. Nice one Jonathan.
+On Reddit, Jonathan reports he wants to collect existing accounts from the community in a comprehensive list in order to boost the community's reach. If you run or know of any NavCoin social channels, head on over to the thread and let him know. Nice one Jonathan.
 
 <https://www.reddit.com/r/NavCoin/comments/8msip2/navcoin_community_twitter_account_collection>
 
