@@ -64,6 +64,10 @@ We’ve also added the Netlify CMS module to the site to make it even easier for
 
 <https://info.navcoin.org/knowledge-base/adding-news-navhub>
 
+The NavCoin Core Collective have also started a Steemit account. Follow them there if you like your updates served from a blockchain based decentralised platform.
+
+<https://steemit.com/@navcoin-core> 
+
 That’s all for this week,
 
 NavCoin Core
