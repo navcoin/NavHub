@@ -16,7 +16,7 @@ type: "default"
     btn1Link="/about-this-website"
     btn1Txt="Contribute To This Page"
     btn2Link="/how-to-accept-navcoin"
-    btn2Txt="How To Accpet NavCoin"
+    btn2Txt="How To Accept NavCoin"
     fontColor="#FFF">}}
 <p>Anyone can accept NavCoin on their website or in their store to receive instant global payments.</p>
 <p>If your store accepts NavCoin and you would like to be listed on this page, read about how you can contribute to this website through the link below.
