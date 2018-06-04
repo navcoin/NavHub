@@ -5,7 +5,7 @@ draft: false
 type: "default"
 ---
 {{< left_image_section
-    title="NavCoin Is Welcome Instore And Online"
+    title="NavCoin welcome instore and online"
     imgSrc="/images/icons/nav_purple-wallet-large.png"
     imgHeight="286px"
     imgPadding="10px"
@@ -62,7 +62,7 @@ NavCoin is one of the longest established digital currencies, and has an extreme
 
 
 {{< links_section
-    title="Merchant Tools"
+    title="Merchant tools"
     subtitle="If you’re interested in accepting NavCoin in your store, here are some tools to get you started."
     id="merchant-tools"
     fontColor="#FFF"

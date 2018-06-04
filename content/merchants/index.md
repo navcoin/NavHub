@@ -6,7 +6,7 @@ type: "default"
 ---
 
 {{< left_image_section
-    title="Merchants Accepting NavCoin"
+    title="Merchants accepting NavCoin"
     imgSrc="/images/icons/nav_purple-exchange-large.png"
     imgHeight="286px"
     imgPadding="10px"
@@ -71,7 +71,7 @@ type: "default"
     feature3Link="https://alwayshodl.com/pages/official-nav-collection"
  >}}
 {{< links_section
-    title="Merchant Tools"
+    title="Merchant tools"
     subtitle="If you’re interested in accepting NavCoin in your store, here are some tools to get you started."
     fontColor="#FFF"
     bgColor="#7d5ab5"
