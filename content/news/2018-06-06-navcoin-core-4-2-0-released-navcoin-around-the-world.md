@@ -8,7 +8,7 @@ feature_image: /images/uploads/2018-06-06.jpg
 categories:
   - Nav News
 ---
-This week the big news is that NavCoin Core 4.2.0 has now been released that includes two soft forks requiring approval by the network. This core protocol update and the thorough testing it required involved developers throughout the global NavCoin community - so a big shout out to all those who contributed their time and expertise. It’s more proof that NavCoin’s decentralization really works! But it’s not just NavCoin developers who have been working hard, as you’ll see there has been lots of other exciting community activity happening all over the world.
+This week the big news is that NavCoin Core 4.2.0 has now been released that includes two soft forks requiring approval by the network. This core protocol update involved developers throughout the global NavCoin community - so a big shout out to all those who contributed their time and expertise. It’s more proof that NavCoin’s decentralization really works! But it’s not just NavCoin developers who have been working hard, as you’ll see there has been lots of other exciting community activity happening all over the world.
 
 ### What’s happening in the community
 
@@ -60,9 +60,14 @@ You can read more detailed information about the changes here:
 
 <https://navcoin.org/notices/2018-06-06-navcoin-4-2-0/>
 
-Because this is a soft fork, it’s important that the NavCoin network agrees to the changes. Network consensus needs to reach 75% before the changes be activated and accumulation to the Community Fund begins. All you need to do to signal your agreement is download the latest version of the NavCoin Core wallet. You can find the download links for your OS here:
+Because this is a soft fork, it’s important that the NavCoin network agrees to the changes. Network consensus needs to reach 75% before the changes be activated and accumulation to the Community Fund begins. All you need to do to signal your agreement is download the latest version of the NavCoin Core wallet. You can find the download links here:
 
 <https://navcoin.org/navcoin-core/>
+
+#### NavCoin 4.2.0 NavPi Patch Notice
+The 4.2.0 update has been found to cause an unexpected issue when upgrading with the NavPi autoupdater and we’re working on a patch to fix the problem as soon as possible. If you’re using a NavPi please read this post to find out more information about when and how you can upgrade:
+
+<https://navcoin.org/notices/2018-06-06-navcoin-4-2-0-navpi-patch-notice/>
 
 Hash512 (on Discord) is working hard on his NavM8 stakebox project. His latest focus has been on developing an automatic price adjustment mechanism that responds to the varying value of NavCoin. The idea is that nobody has to pay too much for their NavM8. Look out for updates in the M8 channel on Discord or check it out here:
 
