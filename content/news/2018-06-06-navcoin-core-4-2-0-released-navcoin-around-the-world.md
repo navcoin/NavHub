@@ -30,7 +30,7 @@ For some background check out this vid on Youtube:
 
 <https://www.youtube.com/watch?v=Hu24APCvHXc&feature=youtu.be>
 
-![null](/images/uploads/screen-shot-2018-06-06-at-4.33.35-pm.png)
+![](/images/uploads/screen-shot-2018-06-06-at-4.33.35-pm.png)
 
 CoinPayments is NavCoin’s crypto payments provider. They are leaders in this space, and support NavCoin - so it’s worth following and supporting them in return. Check them out on Twitter @CoinPaymentNet and take a look at the directory of merchants that accept NAV through their gateway.
 
@@ -38,11 +38,11 @@ CoinPayments is NavCoin’s crypto payments provider. They are leaders in this s
 
 On his way to work in Berlin, Matt (a core developer from New Zealand) caught up with NavCoin Italia in Rome.
 
-![null](/images/uploads/screen-shot-2018-06-04-at-6.35.56-pm.png)
+![Matt in Rome](/images/uploads/screen-shot-2018-06-04-at-6.35.56-pm.png)
 
 Crypto is big in Russia, so it’s good see Nav Coin Russia letting local enthusiasts know how easy it is to get involved in the NavCoin community. Follow it @NavCoin_Russia
 
-![NavCoin Russia]()
+![NavCoin Russia](/images/uploads/screen-shot-2018-06-06-at-7.29.26-pm.png)
 
 ### Technical updates
 
