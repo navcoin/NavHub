@@ -6,12 +6,13 @@ type: "default"
 ---
 
 {{< left_image_section
-    title="Merchants Accepting NavCoin"
-    imgSrc="/images/icons/icon-scales.png"
-    imgHeight="400px"
-    imgPadding="0px"
-    bgColor="#42b6eb"
-    linkBgColor="#43799a"
+    title="Merchants accepting NavCoin"
+    imgSrc="/images/icons/nav_purple-exchange-large.png"
+    imgHeight="286px"
+    imgPadding="10px"
+    containerPadding="40px 0"
+    bgColor="#7d5ab5"
+    linkBgColor="#523971"
     gradient=""
     btn1Link="/about-this-website"
     btn1Txt="Contribute To This Page"
@@ -21,6 +22,7 @@ type: "default"
 <p>Anyone can accept NavCoin on their website or in their store to receive instant global payments.</p>
 <p>If your store accepts NavCoin and you would like to be listed on this page, read about how you can contribute to this website through the link below.
 {{< /left_image_section >}}
+
 
 {{< links_section
   title="Pay With NavCoin Here"
@@ -68,25 +70,27 @@ type: "default"
     feature3Txt="Go to website »"
     feature3Link="https://alwayshodl.com/pages/official-nav-collection"
  >}}
+
 {{< links_section
-    title="Merchant Tools"
+    title="Merchant tools"
     subtitle="If you’re interested in accepting NavCoin in your store, here are some tools to get you started."
+    id="merchant-tools"
     fontColor="#FFF"
     bgColor="#7d5ab5"
     containerPadding="40px 0 60px 0"
     titleMargin="0 0 40px 0"
     gradient="false"
-    feature1Img="payButton.png"
+    feature1Img="/images/icons/payButton.png"
     feature1Title="Payment Button"
-    feature1Desc="Accept NavCoin Payments or donations on your website with this simple button."
+    feature1Desc="Accept NavCoin payments or donations on your website with this simple button."
     feature1Txt="Go to website »"
     feature1Link="https://brianium.github.io/nav-button/"
-    feature2Img="CoinPaymentTools.png"
+    feature2Img="/images/icons/coinPaymentTools.png"
     feature2Title="CoinPayments"
-    feature2Desc="Instant crypto checkout with easy to use cart plugins, buttons, and invoices."
+    feature2Desc="Instant cryptocurrency checkout with easy to use cart plugins, buttons, and invoices."
     feature2Txt="Go to website »"
     feature2Link="https://www.coinpayments.net/merchant-tools"
-    feature3Img="NavPay.png"
+    feature3Img="/images/icons/navPay.png"
     feature3Title="NavPay"
     feature3Desc="A simple way to accept NavCoin payments is with the NavPay mobile wallet."
     feature3Txt="Go to website »"
