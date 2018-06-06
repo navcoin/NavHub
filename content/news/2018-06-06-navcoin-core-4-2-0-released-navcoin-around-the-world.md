@@ -48,7 +48,7 @@ Crypto is big in Russia, so it’s good see Nav Coin Russia letting local enthus
 
 ### Technical updates
 
-After successfully going through the restesting process, the pull request for NavCoin Core 4.2.0 has been approved and the updated code merged into the mainnet. This soft-fork enables the accumulation of NAV in the Community Fund ahead of the Fund’s launch in the coming months. It also fixes the Clock Sync bug caused when a staker has their computer set to the wrong date. 
+After successfully going through the retesting process, the pull request for NavCoin Core 4.2.0 has been approved and the updated code merged into the mainnet. This soft-fork enables the accumulation of NAV in the Community Fund ahead of the Fund’s launch in the coming months. It also fixes the Clock Sync bug caused when a staker has their computer set to the wrong date. 
 
 Here’s a quick recap on what NavCoin 4.2.0 achieves for the Community Fund:
 
@@ -68,7 +68,11 @@ Hash512 (on Discord) is working hard on his NavM8 stakebox project. His latest f
 
 <https://navcoinm8.com/buy/h96pro>
 
-And in other developer news, work is continuing on porting the latest version of BTCD (the Go implementation of Bitcoin) to NAV to test atomic swaps and Lightning Network integration.
+Work is continuing on porting the latest version of BTCD (the Go implementation of Bitcoin) to NAV to test atomic swaps and Lightning Network integration.
+
+Prodpeak’s NavCoin block explorer is no longer in beta, and is now live - check it out here:
+
+<https://www.navexplorer.com/blocks>
 
 ### Content updates
 
