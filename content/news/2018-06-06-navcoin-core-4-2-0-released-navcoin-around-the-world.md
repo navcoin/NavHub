@@ -8,8 +8,6 @@ feature_image: /images/uploads/2018-06-06.jpg
 categories:
   - Nav News
 ---
-![null](/images/uploads/2018-06-06.jpg)
-
 This week the big news is that NavCoin Core 4.2.0 has now been released that includes two soft forks requiring approval by the network. This core protocol update and the thorough testing it required involved developers throughout the global NavCoin community - so a big shout out to all those who contributed their time and expertise. It’s more proof that NavCoin’s decentralization really works! But it’s not just NavCoin developers who have been working hard, as you’ll see there has been lots of other exciting community activity happening all over the world.
 
 ### What’s happening in the community
