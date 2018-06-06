@@ -32,13 +32,13 @@ NavPay is a light wallet that you can use to accept digital payments in NavCoin 
 
 <br>
 
-## For your online business - Coinpayments
+## For your online business - CoinPayments
 
-Coinpayments is a little like PayPal, but instead of conventional credit cards it’s a payment gateway for digital currency payments. 
+CoinPayments is a little like PayPal, but instead of conventional credit cards it’s a payment gateway for digital currency payments. 
 
-Coinpayments features merchant tools that make it easy to integrate NavCoin payments with your current website and at point-of-sale. Plug-ins include a shopping cart, payment button, invoicing, and point-of-sale interface. If your business is based in the US or the Euro Zone you can have your NavCoin payments deposited to your bank account in fiat currency.
+CoinPayments features merchant tools that make it easy to integrate NavCoin payments with your current website and at point-of-sale. Plug-ins include a shopping cart, payment button, invoicing, and point-of-sale interface. If your business is based in the US or the Euro Zone you can have your NavCoin payments deposited to your bank account in fiat currency.
 
-For more information, or to get started with Coinpayments right away visit their website. 
+For more information, or to get started with CoinPayments right away visit their website. 
 
 ><https://www.coinpayments.net/>
 
