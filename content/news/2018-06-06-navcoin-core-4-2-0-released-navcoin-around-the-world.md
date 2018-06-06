@@ -42,7 +42,7 @@ On his way to work in Berlin, Matt (a core developer from New Zealand) caught up
 
 Crypto is big in Russia, so it’s good see Nav Coin Russia letting local enthusiasts know how easy it is to get involved in the NavCoin community. Follow it @NavCoin_Russia
 
-![]()
+![NavCoin Russia]()
 
 ### Technical updates
 
