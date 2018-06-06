@@ -62,7 +62,7 @@ Because this is a soft fork, it’s important that the NavCoin network agrees to
 
 <https://navcoin.org/navcoin-core/>
 
-#### NavCoin 4.2.0 NavPi Patch Notice
+### NavCoin 4.2.0 NavPi Patch Notice
 
 The 4.2.0 update has been found to cause an unexpected issue when upgrading with the NavPi autoupdater and we’re working on a patch to fix the problem as soon as possible. If you’re using a NavPi please read this post to find out more information about when and how you can upgrade:
 
