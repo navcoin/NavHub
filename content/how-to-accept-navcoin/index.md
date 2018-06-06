@@ -1,11 +1,11 @@
 ---
-title: "How To Accept NavCoin"
+title: "Become A NavCoin Merchant"
 date: 2018-03-20T07:41:22+13:00
 draft: false
 type: "default"
 ---
 {{< left_image_section
-    title="NavCoin welcome instore and online"
+    title="How to accept NavCoin"
     imgSrc="/images/icons/nav_purple-wallet-large.png"
     imgHeight="286px"
     imgPadding="10px"
@@ -72,12 +72,12 @@ NavCoin is one of the longest established digital currencies, and has an extreme
     gradient="false"
     feature1Img="/images/icons/payButton.png"
     feature1Title="Payment Button"
-    feature1Desc="Accept NavCoin Payments or donations on your website with this simple button."
+    feature1Desc="Accept NavCoin payments or donations on your website with this simple button."
     feature1Txt="Go to website »"
     feature1Link="https://brianium.github.io/nav-button/"
     feature2Img="/images/icons/coinPaymentTools.png"
     feature2Title="CoinPayments"
-    feature2Desc="Instant crypto checkout with easy to use cart plugins, buttons, and invoices."
+    feature2Desc="Instant cryptocurrency checkout with easy to use cart plugins, buttons, and invoices."
     feature2Txt="Go to website »"
     feature2Link="https://www.coinpayments.net/merchant-tools"
     feature3Img="/images/icons/navPay.png"
