@@ -32,8 +32,6 @@ For some background check out this vid on Youtube:
 
 ![null](/images/uploads/screen-shot-2018-06-06-at-4.33.35-pm.png)
 
-
-
 CoinPayments is NavCoin’s crypto payments provider. They are leaders in this space, and support NavCoin - so it’s worth following and supporting them in return. Check them out on Twitter @CoinPaymentNet and take a look at the directory of merchants that accept NAV through their gateway.
 
 <https://www.coinpayments.net/store-directory-coin-NAV>
@@ -42,9 +40,9 @@ On his way to work in Berlin, Matt (a core developer from New Zealand) caught up
 
 ![null](/images/uploads/screen-shot-2018-06-04-at-6.35.56-pm.png)
 
-
-
 Crypto is big in Russia, so it’s good see Nav Coin Russia letting local enthusiasts know how easy it is to get involved in the NavCoin community. Follow it @NavCoin_Russia
+
+![]()
 
 ### Technical updates
 
@@ -65,6 +63,7 @@ Because this is a soft fork, it’s important that the NavCoin network agrees to
 <https://navcoin.org/navcoin-core/>
 
 #### NavCoin 4.2.0 NavPi Patch Notice
+
 The 4.2.0 update has been found to cause an unexpected issue when upgrading with the NavPi autoupdater and we’re working on a patch to fix the problem as soon as possible. If you’re using a NavPi please read this post to find out more information about when and how you can upgrade:
 
 <https://navcoin.org/notices/2018-06-06-navcoin-4-2-0-navpi-patch-notice/>
