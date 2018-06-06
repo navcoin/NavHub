@@ -22,7 +22,7 @@ github_url: ""
 project_url: "https://navcoinm8.org"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
+card_color: "#6984D8"
 font_color: "#fff"
 weight: 1
 ---
