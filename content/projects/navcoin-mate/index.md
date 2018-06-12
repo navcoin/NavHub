@@ -19,7 +19,7 @@ show_on_projects: true
 allow_click_through: true
 percent_complete: 40
 github_url: ""
-project_url: "https://navcoinm8.org"
+project_url: "https://navcoinm8.com"
 reddit_url: ""
 twitter_url: ""
 card_color: "#6984D8"
