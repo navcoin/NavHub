@@ -3601,7 +3601,7 @@ ul li.cat-item a {
 
 .twitter-tweet {
   padding: 20px 0;
-  width: 100%;
+  width: 100%!important;
   max-width: 520px!important;
   margin: 0 auto;
 }
