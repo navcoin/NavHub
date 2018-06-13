@@ -3597,3 +3597,13 @@ ul li.cat-item a {
   margin-left: -10%;
   margin-top: -50px;
 }
+
+
+.twitter-tweet {
+  padding: 20px 0;
+  width: auto!important;
+}
+
+.EmbeddedTweet {
+  margin: 0 auto;
+}
