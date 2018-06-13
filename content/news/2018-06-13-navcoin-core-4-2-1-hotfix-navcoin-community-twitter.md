@@ -16,14 +16,9 @@ Are you following the NavCoin Community Twitter account @NavCoin_Global yet? It�
 
 <https://twitter.com/NavCoin_Global>
 
-This week there have been some great posts, including this one by community member Spiritar3 drawing attention to the work of xVicious (on Reddit) who has printed these NAV car stickers. This has been in Community News before, but it’s such an efficient way of helping to build awareness for NavCoin it's worth mentioning again.
+They’re doing a great job of helping to spread adoption of NavCoin in the wider community and how to encourage merchants to accept NavCoin. If you have any other ideas about how to get NavCoin accepted at your favourite merchants, please let the community hear about it. Post your ideas in the #community-action channel on Discord.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Custom NAV stickers are available for your vehicle! 🚗 NavCoin contributor, xVicious, has created a sleek, NAV decal colored in white, matt vinyl. If you’d like to place an order, here&#39;s the <a href="https://twitter.com/hashtag/reddit?src=hash&amp;ref_src=twsrc%5Etfw">#reddit</a> post: <a href="https://t.co/12CI1qimDY">https://t.co/12CI1qimDY</a>  <a href="https://twitter.com/hashtag/NavCoin?src=hash&amp;ref_src=twsrc%5Etfw">#NavCoin</a> <a href="https://twitter.com/hashtag/Cryptocurrency?src=hash&amp;ref_src=twsrc%5Etfw">#Cryptocurrency</a> <a href="https://twitter.com/hashtag/NavCoinCommunity?src=hash&amp;ref_src=twsrc%5Etfw">#NavCoinCommunity</a> <a href="https://twitter.com/search?q=%24NAV&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$NAV</a> <a href="https://t.co/Zcfcd0zCdW">pic.twitter.com/Zcfcd0zCdW</a></p>&mdash; NavCoin Community (@NavCoin_Global) <a href="https://twitter.com/NavCoin_Global/status/1005384379919667200?ref_src=twsrc%5Etfw">June 9, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-Another post showed in three simple steps how to help spread adoption of NavCoin in the wider community and how to encourage merchants to accept NavCoin. If you have any other ideas about how to get NavCoin accepted at your favourite merchants, please let the community hear about it. Post your ideas in the General channel on Discord.
-
-https://twitter.com/NavCoin_Global/status/1004682080301862912 
+{{< tweet 1004682080301862912 >}}
 
 CoinPayments helps everyone in the NavCoin community by making it easy to pay using NAV. This week they’ve gone a step further with this Tweet promoting NavCoin to their followers. Thanks guys.
 
@@ -41,7 +36,7 @@ https://thespinoff.co.nz/business/12-06-2018/the-kiwi-behind-the-cheaper-faster-
 
 Core developer Paul @Red01 (on Twitter) gave this video interview to The Futurist Project on why businesses should accept digital currencies. Watch it here.
 
-https://thefuturistproject.com/2018/06/05/in-conversation-navcoin/
+https://thefuturistproject.com/2018/06/05/in-conversation-navcoin
 
 Technical updates
 
@@ -57,7 +52,7 @@ NavCoin m8 will be deployed with the NavCoin software, the NEXT wallet, and a bi
 
 For more info on this awesome community project check out the m8 channel on Discord and visit the NavCoin m8 website
 
-https://www.navcoinm8.com/
+https://www.navcoinm8.com
 
 Content updates
 
