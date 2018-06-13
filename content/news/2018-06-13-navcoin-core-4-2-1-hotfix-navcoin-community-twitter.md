@@ -50,7 +50,7 @@ Congratulations to Sakdeniz (on Discord) for releasing the 1.0.2 alpha version o
 
 <https://blog.navcommunity.net/2018/06/09/next-1-0-2-alpha-released>
 
-![]()
+![NavCoin Next Wallet](/images/uploads/next.1.0.2-1024x686.png)
 
 hash512 (on Discord) has been working with Sakdeniz to get NEXT running on his NavCoin m8. It should be ready to go on sale in early July, after a little more burn in testing. 
 
