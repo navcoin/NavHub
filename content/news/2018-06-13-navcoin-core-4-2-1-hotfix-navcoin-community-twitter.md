@@ -10,6 +10,8 @@ categories:
 ---
 Last week the Core Developers discovered and fixed an issue that prevented NavPi’s updating 4.2.0 and signal their support for the community fund accumulation soft fork. It was good to see Core Developers rallying to fulfill the objectives laid out in the Developer Manifesto - ensuring the stability of the network takes priority over all other tasks. So thanks to everyone who helped out - and burned the midnight oil for the greater good of the NavCoin network.
 
+<!--more-->
+
 ### What’s happening in the community
 
 Are you following the NavCoin Community Twitter account @NavCoin_Global yet? It’s a great place to keep up to date with everything that’s going on in the wide world of NavCoin.
