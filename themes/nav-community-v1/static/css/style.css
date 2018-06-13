@@ -3598,10 +3598,40 @@ ul li.cat-item a {
   margin-top: -50px;
 }
 
-
 .twitter-tweet {
   padding: 20px 0;
   width: 100%!important;
   max-width: 520px!important;
   margin: 0 auto;
+}
+
+.news-content ol {
+
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+
+    color: #777777;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.news-content ul {
+
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+
+    color: #777777;
+    font-size: 16px;
+    line-height: 24px;
+
 }
