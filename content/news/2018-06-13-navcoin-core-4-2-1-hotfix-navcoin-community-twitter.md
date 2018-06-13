@@ -56,7 +56,7 @@ hash512 (on Discord) has been working with Sakdeniz to get NEXT running on his N
 
 NavCoin m8 will be deployed with the NavCoin software, the NEXT wallet, and a bitcoin wallet installed. Any other Proof of Stake coin wallets that have been tested will also go out at launch, or be added at a later date. 
 
-For more info on this awesome community project check out the m8 channel on Discord and visit the NavCoin m8 website
+For more info on this awesome community project check out the m8 channel on Discord and visit the NavCoin m8 website:
 
 <https://www.navcoinm8.com>
 
@@ -64,7 +64,7 @@ For more info on this awesome community project check out the m8 channel on Disc
 
 Social media was a big focus last week, with the creation of a series of posts on the NavCoin Core 4.2.0 release, the 4.2.1 hotfix, CoinPayments, and the Developer and Content Manifestos. There is now a large pool of social posts buffered and ready to go, meaning NavCoin will have a continuous presence on the key social channels.
 
-The Core Content Collective continued their work on updating content in the refreshed navcoin.org developer site and navhub.org community site. You can see more detail on how the Community Fund will operate here. (waiting on PR to go live)
+The Core Content Collective continued their work on updating content in the refreshed navcoin.org developer site and navhub.org community site. You can see more detail on how the Community Fund will operate here.
 
 <https://navhub.org/projects/community-fund>
 
