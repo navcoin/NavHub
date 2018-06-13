@@ -84,21 +84,21 @@ The Community Fund is currently in testing, and once the Fund is launched it wil
 
 1. Dream up the improvements or new projects you would like to see in the NavCoin eco-system. This could be anything from protocol changes, new applications that run on top of the NavCoin protocol, third party services, websites, promotional activities, or even less direct activities like charity donations.
 
-> 2) Document your ideas on the NavCoin Community site and and discuss it with other people involved in the NavCoin community.
+2. Document your ideas on the NavCoin Community site and and discuss it with other people involved in the NavCoin community.
 
-> 3) If you’re unable to complete the work involved in your proposal yourself, you will need to assemble the team necessary to make your proposal a reality.
+3. If you’re unable to complete the work involved in your proposal yourself, you will need to assemble the team necessary to make your proposal a reality.
 
-> 4) Figure out how much NAV you need to complete your proposal.
+4. Figure out how much NAV you need to complete your proposal.
 
-> 5) Create and submit the Community Fund proposal to the NavCoin blockchain for voting.
+5. Create and submit the Community Fund proposal to the NavCoin blockchain for voting.
 
-> 6) Promote your proposal to NavCoin stakers who will decide if your proposal has been well constructed and that it can be completed satisfactorily.
+6. Promote your proposal to NavCoin stakers who will decide if your proposal has been well constructed and that it can be completed satisfactorily.
 
-> 7) If the proposal gets locked in, it’s time to do the work. You and your team need to complete whatever task you set yourselves in the proposal so you can claim the NAV from the Fund.
+7. If the proposal gets locked in, it’s time to do the work. You and your team need to complete whatever task you set yourselves in the proposal so you can claim the NAV from the Fund.
 
-> 8) Retrieve the funds as payment for the work you’ve done.
+8. Retrieve the funds as payment for the work you’ve done.
 
-> 9) Once you’ve done the work outlined in your proposal, a second round of voting will take place to release the funds. Present and promote your work to the NavCoin stakers to get them to agree that you have finished the task defined in your proposal.
+9. Once you’ve done the work outlined in your proposal, a second round of voting will take place to release the funds. Present and promote your work to the NavCoin stakers to get them to agree that you have finished the task defined in your proposal.
 
 Funds can be released in multiple stages. For example, a proposal can indicate that it requires 10% up front to get started. The proposal must be accepted first, then a payment request vote must be completed to release the first 10%. The remaining amounts can be claimed at any later date within the proposals timeframe.
 
