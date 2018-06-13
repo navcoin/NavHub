@@ -12,7 +12,7 @@ Last week the Core Developers discovered and fixed an issue that prevented NavPi
 
 ### What’s happening in the community
 
-Are you following the NavCoin Community Twitter account @NavCoin_Global yet? It’s a great place to keep up to date with everything that’s going on in the wide world of NavCoin. 
+Are you following the NavCoin Community Twitter account @NavCoin_Global yet? It’s a great place to keep up to date with everything that’s going on in the wide world of NavCoin.
 
 <https://twitter.com/NavCoin_Global>
 
@@ -46,15 +46,15 @@ Last week NavCoin Core 4.2.0 was released which includes the Community Fund accu
 
 If you agree with the consensus change and want to signal your support for the community fund accumulation soft fork, make sure you download this new version of NavCoin Core and resume staking blocks.
 
-Congratulations to Sakdeniz (on Discord) for releasing the 1.0.2 alpha version of his NEXT wallet  for Windows, MacOS and Ubuntu. It looks fantastic. Check out the release notes here: 
+Congratulations to Sakdeniz (on Discord) for releasing the 1.0.2 alpha version of his NEXT wallet  for Windows, MacOS and Ubuntu. It looks fantastic. Check out the release notes here:
 
 <https://blog.navcommunity.net/2018/06/09/next-1-0-2-alpha-released>
 
 ![NavCoin Next Wallet](/images/uploads/next.1.0.2-1024x686.png)
 
-hash512 (on Discord) has been working with Sakdeniz to get NEXT running on his NavCoin m8. It should be ready to go on sale in early July, after a little more burn in testing. 
+hash512 (on Discord) has been working with Sakdeniz to get NEXT running on his NavCoin m8. It should be ready to go on sale in early July, after a little more burn in testing.
 
-NavCoin m8 will be deployed with the NavCoin software, the NEXT wallet, and a bitcoin wallet installed. Any other Proof of Stake coin wallets that have been tested will also go out at launch, or be added at a later date. 
+NavCoin m8 will be deployed with the NavCoin software, the NEXT wallet, and a bitcoin wallet installed. Any other Proof of Stake coin wallets that have been tested will also go out at launch, or be added at a later date.
 
 For more info on this awesome community project check out the m8 channel on Discord and visit the NavCoin m8 website:
 
@@ -68,15 +68,13 @@ The Core Content Collective continued their work on updating content in the refr
 
 <https://navhub.org/projects/community-fund>
 
-To introduce the concept of the Fund and invite community members to signal their agreement to the NavCoin Core 4.2.0 soft fork, a short animated video was created. Look out for it soon in our social channels and on navhub.org. 
+To introduce the concept of the Fund and invite community members to signal their agreement to the NavCoin Core 4.2.0 soft fork, a short animated video was created. Look out for it soon in our social channels and on navhub.org.
 
 And if developing the awesome NEXT wallet wasn’t enough Sakdeniz has been experimenting with another batch of NAV logo animations called ‘Dust’ and ‘Bling’, which you can check out here:
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/yd8Nb1hRlGE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="315" style="margin: 10px 0;" src="https://www.youtube.com/embed/yd8Nb1hRlGE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<div style="margin: 20px 0;"></div>
-
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/hbIe8Rbv5tQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="315" style="margin: 10px 0;" src="https://www.youtube.com/embed/hbIe8Rbv5tQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 That’s all for this week,
 
