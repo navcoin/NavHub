@@ -74,7 +74,7 @@ And if developing the awesome NEXT wallet wasn’t enough Sakdeniz has been expe
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/yd8Nb1hRlGE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<br /><br />
+<div style="margin: 20px 0;"></div>
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/hbIe8Rbv5tQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
