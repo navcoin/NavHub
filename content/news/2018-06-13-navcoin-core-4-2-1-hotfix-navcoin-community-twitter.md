@@ -38,7 +38,7 @@ Core developer Paul @Red01 (on Twitter) gave this video interview to The Futuris
 
 <https://thefuturistproject.com/2018/06/05/in-conversation-navcoin>
 
-\### Technical updates
+### Technical updates
 
 Last week NavCoin Core 4.2.0 was released which includes the Community Fund accumulation soft fork. Uptake by the network was slowed due to an issue in the NTP sync calculation on 32 bit systems which included the NavPi. The issue has now been resolved and the NavCoin Core 4.2.1 NTP Hotfix is ready to download. The full list of new binaries to download are available on Github here.
 
@@ -60,7 +60,7 @@ For more info on this awesome community project check out the m8 channel on Disc
 
 <https://www.navcoinm8.com>
 
-\### Content updates
+### Content updates
 
 Social media was a big focus last week, with the creation of a series of posts on the NavCoin Core 4.2.0 release, the 4.2.1 hotfix, CoinPayments, and the Developer and Content Manifestos. There is now a large pool of social posts buffered and ready to go, meaning NavCoin will have a continuous presence on the key social channels.
 
@@ -73,6 +73,8 @@ To introduce the concept of the Fund and invite community members to signal thei
 And if developing the awesome NEXT wallet wasn’t enough Sakdeniz has been experimenting with another batch of NAV logo animations called ‘Dust’ and ‘Bling’, which you can check out here:
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/yd8Nb1hRlGE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<br /><br />
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/hbIe8Rbv5tQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
