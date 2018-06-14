@@ -3444,6 +3444,9 @@ ul li.cat-item a {
   .project-more {
     display:none;
   }
+  .themeix-button-group a {
+    margin-top: 5px;
+  }	
 }
 
 .roadmap-icon {
