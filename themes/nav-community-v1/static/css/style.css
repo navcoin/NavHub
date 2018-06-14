@@ -3598,6 +3598,13 @@ ul li.cat-item a {
   margin-top: -50px;
 }
 
+.twitter-tweet {
+  padding: 20px 0;
+  width: 100%!important;
+  max-width: 520px!important;
+  margin: 0 auto;
+}
+
 .news-content ol {
 
     display: block;
