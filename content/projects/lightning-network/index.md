@@ -3,7 +3,7 @@ title: "Lightning Network"
 date: 2018-03-29T14:30:25+13:00
 lastmod: 2018-03-29T14:30:25+13:00
 draft: false
-author: "Paul Sanderson"
+author: "Alex Vazquez"
 description: "Implementing lightning network transactions to allow instant, cross chain, atomic swaps between NAV and other supported cryptocurrencies."
 resources: []
 categories: []

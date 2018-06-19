@@ -3,7 +3,7 @@ title: "NavDelta"
 date: 2018-03-20T13:35:57+13:00
 draft: false
 author: "Ro Savage"
-description: "A payment gateway that enables users to spend NAV at any business, which accepts any currency supported by NavChange."
+description: "A payment gateway that enables users to spend NAV at any business which accepts currencies supported by the Kauri Wallet."
 resources: []
 categories: []
 slug: ""
@@ -22,5 +22,5 @@ reddit_url: ""
 project_url: ""
 card_color: "#2E94DF"
 font_color: "#fff"
-weight: 0
+weight: 50
 ---

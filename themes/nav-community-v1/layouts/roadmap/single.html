@@ -16,7 +16,7 @@
             <div style="margin-bottom: 50px;">
                 {{range (.Site.Pages.ByWeight)  }}
                     {{ if (.Params.show_on_roadmap) }}
-                        {{ if and (not .Params.in_progress) (not .Params.completed) }}
+                        {{ if and (not .Params.in_progress) (not .Params.completed) (not .Params.on_hold) }}
                             {{ partial  "roadmap_item_upcoming.html" . }}
                         {{end}}
                     {{end}}
