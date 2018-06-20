@@ -1,9 +1,9 @@
 ---
-title: "NavChange"
+title: "Kauri DAEx"
 date: 2018-03-20T13:35:57+13:00
 draft: false
-author: "Ro Savage"
-description: "Using a combination of lightning network transactions and exchange integrations, NavChange is a Valence-powered application, which facilitates instant exchange between NAV and other currencies."
+author: "Alex Vazquez"
+description: "A Decentralised Atomic Exchange which utilises the multi-currency features of the Kauri Wallet. Users will be able to create safe peer 2 peer atomic exchanges for any currency supported by the wallet."
 resources: []
 filter: ["Exchanges"]
 bg_image: "/images/icons/icon-purple-bank.png"
@@ -23,5 +23,5 @@ reddit_url: ""
 project_url: ""
 card_color: "#2E94DF"
 font_color: "#fff"
-weight: 0
+weight: 50
 ---
