@@ -12,6 +12,8 @@ First up this week is a reminder about the latest version of the NavCoin Wallet 
 
 <!--more-->
 
+First up this week is a reminder about the latest version of the NavCoin Wallet that is available for download.
+
 When you download this update you’ll add your vote to the 75% consensus necessary to enable accumulation of NAV into the Community Fund. You can read more about how this works at the community fund project page:
 
 <https://navhub.org/projects/community-fund/>
