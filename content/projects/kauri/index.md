@@ -31,11 +31,11 @@ weight: 0
     title="Kauri Wallet"
     subhead=""
     gradient=""
-    text="Kauri gives your crypto wallet the features you expect from your banking app like accounts and recurring payments but then so much more."
+    text="Kauri is the multi-currency crypto wallet you've been waiting for. Open source, fast, lightweight, secure and with all the features you'd expect from your bank and point-of-sales software. Kauri will set a new standard in managing your crypto assets."
     captionPadding="100px"
     imgSrc="/images/icons/nav_purple-ecofriendly-large.png"
     imgHeight="300px"
-    imgPadding="10px"
+    imgPadding="40px"
     bgColor="#FFF"
     fontColor="#333">}}
 {{< center_text_section
@@ -59,12 +59,12 @@ weight: 0
     feature3Txt="Kauri will be able to operate as a thin client, full node or a staking node either on your desktop, mobile or remotely from a Raspberry Pi."
     feature4Img="/images/icons/nav_blue-peertopeer-large.png"
     feature4Title="Kauri DAEx"
-    feature4Txt="Kauri will be like having a decentralised atomic exchange in your pocket. It enables safe peer 2 peer exchanges for any supported currency."
+    feature4Txt="Kauri will be like having a Decentralised Atomic Exchange (DAEx) in your pocket. It enables safe peer 2 peer exchanges for any supported currency."
     feature5Img="/images/icons/nav_blue-merchants-large.png"
     feature5Title="NavDelta"
-    feature5Txt="Kauri will have a suite of merchant tools including a payment gateway that enables users to spend NAV at any business which accepts a Kauri supported currency."
+    feature5Txt="Kauri will have a suite of merchant tools including a payment gateway that enables NAV to be spent at any business which accepts a Kauri supported currency."
     feature6Img="/images/icons/icon-network.png"
-    feature6Title="Nav Morph"
+    feature6Title="NavMorph"
     feature6Txt="A fusion of NavTech Private Payments and Kauri DAEx exchange technology to enable sending Kauri Wallet supported cryptocurrencies privately.">}}
     {{< left_image_section
         title="Kauri Version 1.0"
@@ -77,6 +77,6 @@ weight: 0
         btn1Target="e"
         btn1Txt="View on GitHub"
         btn1Link="https://github.com/Encrypt-S/kauri-wallet">}}
-        <p>The first stage of the project is to build Kauri as a cross platform thin client which supports NAV, BTC and ETH. At this point the wallet will be able to generate, encrypt and restore private keys as well as send and receive transactions.</p>
+        <p>The first stage of the project is to build Kauri as a cross-platform thin client which supports NAV, BTC and ETH. At this point the wallet will be able to generate, encrypt and restore private keys as well as send and receive transactions.</p>
         <p>This creates a solid foundation for the additional features and functionality outlined here which we will then iteratively implement into the wallet.</p>
     {{< /left_image_section >}}
