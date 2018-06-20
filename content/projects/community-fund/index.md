@@ -42,7 +42,7 @@ weight: 100
     bgColor="#42b6eb"
     gradient=""
     fontColor="#FFF">}}
-    <p>NavCoin is an open-source project to which anyone can contribute - it is a community initiative that ran no pre-mine or initial coin offering. As a community we have ambitious goals for NavCoin and it’s supporting software.</p> 
+    <p>NavCoin is an open-source project to which anyone can contribute - it is a community initiative that ran no pre-mine or initial coin offering. As a community we have ambitious goals for NavCoin and it’s supporting software.</p>
     <p>While the NavCoin Core developers do their best to find funding and build projects independently, the community fund is a decentralised way to fund NavCoin projects and further encourage the decentralisation of the development of NavCoin.</p>
 {{< /center_text_section >}}
 
@@ -50,7 +50,7 @@ weight: 100
 <section class="container">
 
 ## Community Fund - current status
-Following the community suggestion to enable contributors to receive funding from the network for their work, the NavCoin Community Fund was voted on early in 2018 and achieved consensus across the network. 
+Following the community suggestion to enable contributors to receive funding from the network for their work, the NavCoin Community Fund was voted on early in 2018 and achieved consensus across the network.
 
 Because NavCoin is a decentralized open source project it was important that the community had the opportunity to do due diligence prior to this change to the network.
 First let’s review what the changes are, and then we’ll take a look at how the Community Fund will work once it’s launched.
@@ -73,7 +73,7 @@ The following points were voted on and approved by the network.
 * No one (not even the NavCoin Core developers) owns or can directly access, manage or curate the NAV in the Community Fund or how it is distributed. The fund has no private key which can spend the NAV, the only way they can ever be spent is by the dual network consensus vote.
 
 ### Potential value of the fund
-Currently approximately 40% of the 62M NAV in the network are used for staking. This means the network generates approximately 1.24M NAV per year. Therefore 1% of the proof of stake rewards approximately equals 250k NAV per year which is roughly 0.237 NAV per block with NavCoin’s 30 second block time. 
+Currently approximately 40% of the 62M NAV in the network are used for staking. This means the network generates approximately 1.24M NAV per year. Therefore 1% of the proof of stake rewards approximately equals 250k NAV per year which is roughly 0.237 NAV per block with NavCoin’s 30 second block time.
 
 **Why isn’t it calculated as a percentage?**
 
@@ -105,11 +105,14 @@ Funds can be released in multiple stages. For example, a proposal can indicate t
 <br /><br />
 </section>
 {{< center_text_section
-    title="The voting period was successful"
+    title="The Accumulation Vote is now In Progress"
     bgColor="#7d5ab5"
     gradient=""
     fontColor="#FFF">}}
-    <p>The NavCoin Community fund has been voted on by the stakers and been accepted. There were an overwhelming amount of positive votes with the vote period completing at around 81% yes (above and beyond the 75% threshold). </p>
+    <p>The soft fork for the reduction of the staking reward to 4% and the beginning of the accumulation of the community fund is now being voted on by the community. To vote yes, all you need to do is update to version 4.2.x and resume staking with the new version.</p><br />
+    <div class="themeix-button-group">
+    <a class="themeix-btn themeix-danger smoothScroll" target="e" style="background-color: #523971" href="https://www.navexplorer.com/soft-forks">View the Vote Progress</a>
+    </div>
 
 {{< /center_text_section >}}
 
