@@ -4,7 +4,7 @@ date: 2018-03-29T14:28:31+13:00
 lastmod: 2018-03-29T14:28:31+13:00
 draft: false
 author: "Paul Sanderson"
-description: "Kauri is an open-source, multi-currency wallet that will be the foundation for advanced features like mobile staking, merchant tools, atomic exchanges and many more great NavCoin features."
+description: "Kauri is an open-source, multi-currency wallet that will be the foundation for advanced features like merchant tools, atomic exchanges and many more great NavCoin features."
 resources: []
 categories: []
 filter: ["Wallets"]

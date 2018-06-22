@@ -4,7 +4,7 @@ date: 2018-02-20T22:04:39+13:00
 lastmod: 2018-02-20T22:04:39+13:00
 draft: false
 author: "Paul Sanderson"
-description: "Enabling the Kauri Wallet to operate as a staking node on your desktop, remotely on a raspberry pi or even using thin staking on your mobile device."
+description: "Enabling the Kauri Wallet to operate as a staking node on your desktop or remotely on a raspberry pi."
 resources: []
 categories: []
 slug: ""
