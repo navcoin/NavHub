@@ -13,10 +13,7 @@ show_title_text: false
 ---
 A major focus of the past few weeks for NavCoin Core has been creating a range of tools and resources to empower the NavCoin community to be confident contributors within the NavCoin ecosystem.
 
-<!--more-->
-A major focus of the past few weeks for NavCoin Core has been creating a range of tools and resources to empower the NavCoin community to be confident contributors within the NavCoin ecosystem.
-
-* The "Get Involved" page on the NavHub website has been redesigned, and a set of brand guidelines have been released.  
+* The "Get Involved" page on the NavHub website has been redesigned, and a set of brand guidelines have been released.
 * Developer and Content Creator manifestos that clarify roles and responsibilities are almost ready to share.
 * Guides for onboarding merchants and charities will be available soon.
 * Work is progressing on better developer documentation for the NavCoin protocol.
