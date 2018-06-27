@@ -1,0 +1,10 @@
+<div class="text-section flex{{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }} {{ if eq (.Get "smallSize") "true" }} small {{end}}" style="background-color:{{ .Get "bgColor"}}; padding: {{ .Get "containerPadding" }}" >
+    <div class="container">
+    <div class="text-content" style="margin: {{ .Get "textMargin"}}">
+        <div class="" style="max-width: {{ .Get "textWidth" }}; color: {{ .Get "textColor" }}; font-size: {{ .Get "textSize" }}">{{ .Inner }}</div>
+        {{ if isset .Params "btn1Link" }}
+        <a href="{{ .Get "btn1Link" }}" target="{{ .Get "target" }}" class="round-btn purple-btn" style="margin-top: {{ .Get "btnMarginTop" }}; margin-bottom: {{ .Get "btnMarginBtm" }};">{{ .Get "btn1Txt" }}</a>
+        {{ end }}
+    </div>
+  </div>
+</div>

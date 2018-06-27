@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body data-spy="scroll" data-target="#header-menu">
+
+  {{ partial "header_three_title.html" . }}
+
+<div class="appiex-blog-content">
+    <div class="container">
+        <div class="row" style="margin-bottom: 40px; margin-top: 40px;">
+            <div class="col-sm-12">
+               {{.Content}}
+            </div>
+        </div>
+    </div>
+</div><!-- start get appix now -->
+
+{{ partial "footer.html" . }}
+
+</body>
+</html>

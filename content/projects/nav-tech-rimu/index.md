@@ -1,5 +1,5 @@
 ---
-title: "Nav Tech 2.0 'Rimu'"
+title: "NavTech 2.0 'Rimu'"
 date: 2018-03-29T14:28:56+13:00
 lastmod: 2018-03-29T14:28:56+13:00
 draft: false
@@ -23,5 +23,5 @@ reddit_url: ""
 twitter_url: ""
 card_color: ""
 font_color: ""
-weight: 0
+weight: 90
 ---

@@ -12,13 +12,13 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-percent_complete: 25
+percent_complete: 90
 in_progress: true
 completed: false
 show_on_roadmap: true
 show_on_projects: true
 allow_click_through: false
-github_url: ""
+github_url: "https://github.com/sakdeniz/next"
 reddit_url: ""
 project_url: "http://next.navcommunity.net/"
 twitter_url: ""

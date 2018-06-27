@@ -18,7 +18,7 @@ show_on_projects: false
 allow_click_through: false
 percent_complete: 100
 github_url: ""
-project_url: ""
+project_url: "/"
 reddit_url: ""
 twitter_url: ""
 card_color: ""

@@ -13,6 +13,8 @@ type: "default"
     bgColor="#7d5ab5"
     linkBgColor="#523971"
     gradient=""
+    btn1Link="/how-to-guide/"
+    btn1Txt="Website contribution tutorials"
     fontColor="#FFF">}}
 
     <p>NavCoin has a thriving community all over the world, and you can be part of it. It's not just for developers with blockchain expertise - people contribute their creative, business and networking skills too.</p>
@@ -29,7 +31,7 @@ type: "default"
     feature1Desc="Any developer can contribute to current NavCoin projects or start your own."
     feature1Txt="Start developing »"
     feature1Link="/get-involved#developer"
-    feature2Img="/images/icons/icon-community.png"
+    feature2Img="/images/icons/nav_purple-addressbook-large.png"
     feature2Title="Content Creation"
     feature2Desc="A detailed guide provided by NavCore to help you create your own NavCoin content."
     feature2Txt="Get the guide »"
@@ -54,6 +56,9 @@ type: "default"
     btn1Target="e"
     btn2Link="/roadmap"
     btn2Txt="Roadmap"
+    btn3Link="/assets/NavCoinDeveloperManifesto.pdf"
+    btn3Txt="Developer Manifesto"
+    btn3Target="e"
     fontColor="#FFF">}}
 <p>The NavCoin protocol is open-source and free for anyone to contribute. If you'd like to pitch in on existing projects take a look at the Roadmap to find one that interests you, or you could start a project of your own. You can also contribute by reviewing pull requests or writing patches.</p>
 <p>The self-documented code in GitHub is a great place to get familiar with NavCoin, or you can join the discussion on the NavCoin Discord.</p>
@@ -61,7 +66,7 @@ type: "default"
 {{< left_image_section
     title="Content Creation"
     id="brand-bible"
-    imgSrc="/images/icons/icon-purple-book-new.png"
+    imgSrc="/images/icons/nav_purple-addressbook-large.png"
     imgHeight="300px"
     imgPadding="0px"
     imgMarginTop="22px"
@@ -69,8 +74,11 @@ type: "default"
     linkBgColor="#523971"
     gradient=""
     btn1Link="/assets/NavCoinBrandGuidelines.pdf"
-    btn1Txt="Get the guide"
-    btn1Target="e">}}
+    btn1Txt="Brand Guidelines"
+    btn1Target="e"
+    btn2Link="/assets/NavCoinContentManifesto.pdf"
+    btn2Txt="Content Manifesto"
+    btn2Target="e">}}
 <p>The NavCore brand guidlines collates the NavCoin Core Content Creators suggestions on how to create a consistent look and feel for promotional material and brand assets.</p>
 <p>It gives useful tips on how to create visuals and write with the NavCoin tone of voice. It’s hoped that having these guidelines will make it easier for you to get started on creating content for NavCoin.</p>
 {{< /left_image_section >}}

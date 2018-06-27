@@ -50,7 +50,7 @@ https://navcoin.org/navpay
 
 The NavCoin Core protocol 4.2 is almost ready to go. This is a big update which kicks off the community fund accumulation amongst other things, so look out for a blog post in the near future which will outline the key changes you need to be aware of.
 
-Helping curate the NavHub website can be complicated if you’ve never used GitHub before. A step by step tutorial on how to use Github and contribute content to the NavHub site is nearly ready to go, and a new content management system (CMS) for the NavHub site is being created. The CMS is based on GitHub and makes it easy for anyone to add articles to the News section without having to install development tools.
+Helping curate the NavHub website can be complicated if you’ve never used GitHub before. A step by step tutorial on how to use GitHub and contribute content to the NavHub site is nearly ready to go, and a new content management system (CMS) for the NavHub site is being created. The CMS is based on GitHub and makes it easy for anyone to add articles to the News section without having to install development tools.
 
 We’re close to releasing a redesign of NavCoin.org as a static site so the community can contribute to it also. As part of the redesign process the full wallet downloads laundry list has been added back to the "All Downloads" page on the NavCoin website.
 
