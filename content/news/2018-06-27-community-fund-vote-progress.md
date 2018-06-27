@@ -10,6 +10,8 @@ categories:
 ---
 At the time this edition of NavCoin Community News was published, the 75% ‘yes’ vote necessary to approve the NavCoin Core 4.2.1 soft fork had been exceeded. If the level remains above 75% at the end of the current block period (2197440), the soft fork locks in and is scheduled to activate after another block period (at block number 2217600).
 
+At the time this edition of NavCoin Community News was published, the 75% ‘yes’ vote necessary to approve the NavCoin Core 4.2.1 soft fork had been exceeded. If the level remains above 75% at the end of the current block period (2197440), the soft fork locks in and is scheduled to activate after another block period (at block number 2217600).
+
 Once that happens accumulation of NAV in the NavCoin Community Fund can begin. This is a significant step in the development of the NavCoin community, because it makes it possible to reward members for their contributions. Activation of the Fund itself, and the ability to submit proposals will be the subject of another soft fork in the near future.
 
 The idea behind this first phase is that there will be a pool of NAV ready to go when the Fund is launched. There will be more details about proposal creation once the code is ready to be released.
@@ -51,7 +53,7 @@ Following on from NavCoin 4.2.1, testing has already begun on the next release c
  
 As the Community Fund gets closer to launch, testing has begun and remaining features are being added. Proposal and Payment Request versioning allows expansion of these properties in the future without breaking backwards compatibility of the database. The durations of the votes for proposals and payment requests is limited to a predefined amount of full voting cycles. If voting started before the expiration of the proposal, Payment Requests can still be voted on after the deadline date of the Parent Proposal, because the deadline is now set relative to the moment of its acceptance.
 
-Hash512 is getting close to releasing the NavCoin m8 stakebox. Here’s the latest on its specs. 
+Hash512 is getting close to releasing the NavCoin m8 stakebox. Here’s the latest on its specs:
 
 NavCoin m8 runs a 2 or 3GB ram S912 (8-core 1.5Ghz) or S905W (4 core 1.2Ghz).  It features a full Linux 64 bit operating system and Ubuntu Mate 16.04. NavCoin m8 has the ability to build and run a full navcoin-qt wallet, navcoind and NEXT.  It runs on SD storage, USB flash drive or a USB hard drive, and there are a range of accessories available. For more information check out the M8 channel on Discord.
 
@@ -78,4 +80,5 @@ You can still donate to the Oxfam Syrian refugee appeal here.
 <https://my.rationchallenge.org.nz/craig-macgregor>
 
 That’s all for this week,
+
 NavCoin Core
