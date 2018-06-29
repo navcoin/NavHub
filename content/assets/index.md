@@ -15,7 +15,7 @@ type: "default"
     linkBgColor="#523971"
     gradient=""
     fontColor="#FFF">}}
-<p>Looking for NavCoin brand assets? You've come to the right place.</p>
+<p>Resources include: NavCoin Brand Guidelines, Logo Packs, Web Assets, Typefaces, NavPay Assets, and Nav art by Beekart.</p>
 {{< /left_image_section >}}
 
 {{< links_section
@@ -31,7 +31,7 @@ type: "default"
     feature1Desc=""
     feature1Txt="Download Brand Guidelines »"
     feature1Link="https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
-    feature2Img="/images/icons/nav_purple-download-large.png"
+    feature2Img="/images/icons/nav_purple-addressbook-large.png"
     feature2Title="Logos"
     feature2Desc=""
     feature2Txt="Download Logo Pack »"
@@ -43,7 +43,7 @@ type: "default"
     feature3Link="http://bit.ly/iconpack-05-2018"
 >}}
 
-{{< links_section_two_up
+{{< links_section
     title=""
     subtitle=""
     id="downloads"
@@ -61,9 +61,9 @@ type: "default"
     feature2Desc=""
     feature2Txt="Download NavPay Assets »"
     feature2Link="http://bit.ly/navpay-05-2018"
-    feature3Img=""
-    feature3Title=""
+    feature3Img="/images/icons/icon_pack_purple-beekart.png"
+    feature3Title="Beekart"
     feature3Desc=""
-    feature3Txt=""
-    feature3Link=""
+    feature3Txt="Download Beekart's NAV art »"
+    feature3Link="https://www.dropbox.com/sh/rcz5keot51ia9ma/AAAC-qKu5AAZjOlW1Troz5Nha?dl=0"
 >}}
