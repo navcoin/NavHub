@@ -65,6 +65,13 @@ twitter_username = "navcoin"
     weight = -116
     identifier = "information"
     url = "/information/"
+    [[menu.main]]
+        name = "Asset Downloads"
+        title = "Asset Downloads"
+        weight = 2
+        url = "/assets/"
+        identifier = "assets"
+        parent = "information"
 [[menu.main]]
     name = "Merchants"
     title = "Merchants"
