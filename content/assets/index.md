@@ -21,7 +21,7 @@ type: "default"
 {{< /left_image_section >}}
 
 {{< links_section
-    title="Download Asset Packs"
+    title=""
     subtitle=""
     id="downloads"
     bgColor="#FFF"
