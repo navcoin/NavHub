@@ -6,7 +6,7 @@ type: "default"
 ---
 
 {{< left_image_section
-    title="Download NavCoin Brand Guidelines"
+    title="NavCoin Brand Guidelines"
     imgSrc="/images/icons/nav_purple-package-large.png"
     imgHeight="286px"
     imgPadding="10px"
@@ -14,14 +14,14 @@ type: "default"
     bgColor="#7d5ab5"
     linkBgColor="#523971"
     btn1Link="https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
-    btn1Txt="Brand Guidelines"
+    btn1Txt="Download Guidelines"
     gradient=""
     fontColor="#FFF">}}
     <p>The NavCoin Brand Guidelines give you the resources you need to create your own NavCoin websites, banners, and other online and printed material. It contains handy tips and hints for creating impactful images, typography, and writing the NavCoin tone of voice, and lots more.</p>
 {{< /left_image_section >}}
 
 {{< links_section
-    title=""
+    title="Other Assets"
     subtitle=""
     id="downloads"
     bgColor="#FFF"
