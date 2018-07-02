@@ -63,15 +63,21 @@ twitter_username = "navcoin"
     name = "Resources"
     title = "Resources"
     weight = -116
-    identifier = "information"
-    url = "/information/"
+    identifier = "resources"
+    [[menu.main]]
+        name = "Information"
+        title = "Information"
+        weight = 2
+        url = "/information/"
+        identifier = "information"
+        parent = "resources"
     [[menu.main]]
         name = "Community Assets"
         title = "Community Assets"
-        weight = 2
+        weight = 3
         url = "/assets/"
         identifier = "assets"
-        parent = "information"
+        parent = "resources"
 [[menu.main]]
     name = "Merchants"
     title = "Merchants"

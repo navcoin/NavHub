@@ -6,7 +6,7 @@ type: "default"
 ---
 
 {{< left_image_section
-    title="Download Asset Packs"
+    title="Download NavCoin Brand Guidelines"
     imgSrc="/images/icons/nav_purple-package-large.png"
     imgHeight="286px"
     imgPadding="10px"
@@ -17,10 +17,11 @@ type: "default"
     btn1Txt="Brand Guidelines"
     gradient=""
     fontColor="#FFF">}}
+    <p>The NavCoin Brand Guidelines give you the resources you need to create your own NavCoin websites, banners, and other online and printed material. It contains handy tips and hints for creating impactful images, typography, and writing the NavCoin tone of voice, and lots more.</p>
 {{< /left_image_section >}}
 
 {{< links_section
-    title=""
+    title="Download Asset Packs"
     subtitle=""
     id="downloads"
     bgColor="#FFF"
