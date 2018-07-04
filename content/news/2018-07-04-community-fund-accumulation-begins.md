@@ -25,9 +25,11 @@ If you’d like some inspiration for your own NavCoin Community Fund proposal yo
 
 <https://navhub.org/projects/>
 
-You can also start to discuss your project ideas, build your team, or collaborate with other community members. A couple of easy ways to connect are on Discord or the navcommunity.net website forum created by Sakdeniz.
+You can also start to discuss your project ideas, build your team, or collaborate with other community members. A couple of easy ways to connect with others are on Discord:
 
 <https://discord.gg/y4Vu9jw>
+
+Or the navcommunity.net forum created by Sakdeniz:
 
 <https://navcommunity.net/community-fund>
 
@@ -37,7 +39,7 @@ To continue staking your NAV and securing the network you need to update to the 
 
  <https://navcoin.org/navcoin-core/>
 
- ### Developer Updates 
+### Developer Updates 
 
 Along with the Community Fund, much of the focus of NavCoin Core developers over the past week has been on the Kauri multi-currency wallet project.
 
