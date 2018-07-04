@@ -51,6 +51,9 @@ A Proof of Concept has been developed for a master seed phrase that can be used 
 
 The next features to be developed for Kauri will be address generation, getting wallet balances, and a patch to make building the wallet easier on some versions of Mac OSX.
 
+Version 1.0.3 of the NEXT wallet is now available - which adds more functionality, as well an easter egg game of memory you can play inside the wallet! And if you're a business, you can now easily add your location into the NEXT wallet. Read here for more information:
+<https://blog.navcommunity.net/2018/07/03/next-1-0-3-beta-released/>
+
 ### Core Content Creators
  
 To provide easier access to resources that you can use to create your own NavCoin promotional material a new assets page has been created for the NavHub.org community site. It contains the NavCoin Brand Guidelines and a library of downloadable asset packs, including logos, web assets, and art from Beekart. 
