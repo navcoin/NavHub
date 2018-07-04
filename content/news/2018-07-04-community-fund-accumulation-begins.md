@@ -3,7 +3,7 @@ layout: news
 generated_by_cms: true
 title: Community Fund Accumulation Begins
 author: John Darby
-date: '2018-07-04T18:50:20+12:00'
+date: '2018-07-04T16:50:20+12:00'
 feature_image: /images/uploads/july-4th.png
 categories:
   - Nav News
