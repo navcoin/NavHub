@@ -32,7 +32,7 @@ weight: 100
     title="NavPi Stakebox"
     subhead=""
     gradient=""
-    text="All you need to do is plug it in and send it NAV to start earning Nav Coin Stake Rewards. NavPi is a Raspberry Pi device that helps to run the blockchain at low cost. It runs the NavCoin daemon and a web wallet."
+    text="All you need to do is plug it in and send it NAV to start earning NavCoin Stake Rewards. NavPi is a Raspberry Pi device that helps to run the blockchain at low cost. It runs the NavCoin daemon and a web wallet."
     captionPadding="100px"
     imgSrc="navpi3.jpg"
     imgHeight="300px"
@@ -61,7 +61,7 @@ weight: 100
 
 {{< project_links
     title="Get NavPi"
-    subtitle="This software turns your Raspberry Pi into a low cost and convenient way to help maintain the network."
+    subtitle="This software conveniently turns your Raspberry Pi into a low cost way to help maintain the network."
     fontColor="#FFF"
     subtitleFontColor="#FFF"
     bgColor="#7d5ab5"
