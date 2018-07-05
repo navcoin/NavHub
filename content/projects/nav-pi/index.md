@@ -1,5 +1,5 @@
 ---
-title: "Nav Pi"
+title: "NavPi"
 date: 2018-03-29T14:32:01+13:00
 lastmod: 2018-03-29T14:32:01+13:00
 draft: false
