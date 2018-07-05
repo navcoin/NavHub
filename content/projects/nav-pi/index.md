@@ -87,5 +87,5 @@ weight: 100
     feature1Url=""
     feature2Img=""
     feature2Title=""
-    feature2Url=""}}
+    feature2Url="">}}
 
