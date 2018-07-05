@@ -29,63 +29,56 @@ weight: 100
 ---
 
 {{< project_header
-    title="NavPi"
-    subhead="NavPi StakeBox with pre-installed Nav Coin Staking Software. All you need to do is plug it in and send it NAV to start earning Nav Coin Stake Rewards."
+    title="NavPi Stakebox"
+    subhead=""
     gradient=""
-    text="The Raspberry Pi image runs the navcoin daemon and a PHP based web wallet."
-    captionPadding="90px"
-    imgSrc="stakebox.jpg"
+    text="All you need to do is plug it in and send it NAV to start earning Nav Coin Stake Rewards. NavPi is a Raspberry Pi device that helps to run the blockchain at low cost. It runs the NavCoin daemon and a web wallet."
+    captionPadding="100px"
+    imgSrc="navpi3.jpg"
     imgHeight="300px"
-    imgPadding="0px"
+    imgPadding="50px"
     bgColor="#FFF"
     fontColor="#333">}}
 
 {{< left_image_section
-    title="What Is NavPi?"
-    imgSrc="stakebox.jpg"
+    title="Includes"
+    imgSrc="navpi-clear.jpg"
     imgHeight="300px"
     imgPadding="30px"
-    bgColor="#42b6eb"
+    bgColor="#fff"
+    linkBgColor="#523971"
+    btn1Link="https://navpi.navcoinstore.com/product/navpi-stakebox/"
+    btn1Txt="Purchase a NavPi StakeBox"
     gradient=""
-    fontColor="#FFF">}}
+    fontColor="#333">}}
 
-    <p>NavPi is our Raspberry Pi device that helps to run the blockchain at low cost.</p>
+    - Raspberry Pi v3<br>
+    - 16GB SD Card<br>
+    - Plastic Branded Enclosure (Black, White or Transparent)<br>
+    - NavPi StakeBox Software
 
 {{< /left_image_section >}}
 
-{{< project_features
-    fontColor="#333"
-    gradient="false"
-    feature1Img="/images/icons/icon-bulb.png"
-    feature1Title="Easy to use"
-    feature1Txt=""
-    feature2Img="/images/icons/icon-network.png"
-    feature2Title=""
-    feature2Txt=""
-    feature3Img="/images/icons/icon-lock.png"
-    feature3Title=""
-    feature3Txt=""
-    feature4Img="/images/icons/icon-scales.png"
-    feature4Title=""
-    feature4Txt=""
-    feature5Img="/images/icons/icon-bolt.png"
-    feature5Title=""
-    feature5Txt=""
-    feature6Img="/images/icons/icon-person.png"
-    feature6Title=""
-    feature6Txt="">}}
-
 {{< project_links
     title="Get NavPi"
-    subtitle="NavPi is available on..."
+    subtitle="This software turns your Raspberry Pi into a low cost and convenient way to help maintain the network."
     fontColor="#FFF"
+    subtitleFontColor="#FFF"
     bgColor="#7d5ab5"
     linkBgColor="#523971"
     gradient=""
-    feature1Img=""
-    feature1Title=""
-    feature1Url=""
-    feature2Img=""
-    feature2Title=""
-    feature2Url="">}}
+    feature1Img="/images/icons/nav_purple-pi-large.png"
+    feature1Title="NavPi v1.0.8"
+    feature1Link="https://s3-ap-southeast-1.amazonaws.com/org.navcoin.navpi/navpi_1.0.8.img.torrent"
+    feature1ExtraSubtitle="Torrent Magnet"
+    feature2Img="/images/icons/nav_purple-pi-large.png"
+    feature2Title="NavPi v1.0.8"
+    feature2Link="https://s3-ap-southeast-1.amazonaws.com/org.navcoin.navpi/navpi_1.0.8.img.torrent"
+    feature2ExtraSubtitle="Torrent File"
+    feature3Img="/images/icons/nav_purple-pi-large.png"
+    feature3Title="NavPi v1.0.8"
+    feature3Link="https://s3-ap-southeast-1.amazonaws.com/org.navcoin.navpi/navpi_1.0.8.img"
+    feature3ExtraSubtitle="Direct Download"
+    bottomText="SHA256: 20301f2795e745ee5c9627d8f86e0538f051bff7d6b30ea2cd75895ca5fc8a53"
+>}}
 

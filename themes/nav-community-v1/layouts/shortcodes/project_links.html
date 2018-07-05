@@ -20,6 +20,10 @@
                             </div>
                             <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
                                 <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature1Title" }}</h3>
+                                {{ if ne (.Get "feature1ExtraSubtitle") "false" }}
+                                <p class="themeix-para-style extra-subtitle" style="color: {{ .Get "subtitleFontColor" }}">
+                                {{ .Get "feature1ExtraSubtitle"  }}</p>
+                                {{ end }}
                             </div>
                         </div>
                       {{ if ne (.Get "feature1Url") "false" }}
@@ -38,6 +42,10 @@
                             </div>
                             <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
                                 <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature2Title" }}</h3>
+                                {{ if ne (.Get "feature2ExtraSubtitle") "false" }}
+                                <p class="themeix-para-style extra-subtitle" style="color: {{ .Get "subtitleFontColor" }}">
+                                {{ .Get "feature2ExtraSubtitle"  }}</p>
+                                {{ end }}
                             </div>
                         </div>
                         {{ if ne (.Get "feature2Url") "false" }}
@@ -56,6 +64,10 @@
                             </div>
                             <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
                                 <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature3Title" }}</h3>
+                                {{ if ne (.Get "feature3ExtraSubtitle") "false" }}
+                                <p class="themeix-para-style extra-subtitle" style="color: {{ .Get "subtitleFontColor" }}">
+                                {{ .Get "feature3ExtraSubtitle"  }}</p>
+                                {{ end }}
                             </div>
                         </div>
                         {{ if ne (.Get "feature3Url") "false" }}
@@ -122,6 +134,15 @@
               </div>
             </div>
             {{ end }}
+
+            {{ if isset .Params "bottomText" }}
+            <div class="row">
+              <div class="col-md-12" style="text-align: center;">
+                  <div class="bottom-text" style="color: {{.Get "subtitleFontColor"}};">{{ .Get "bottomText" }}</div>
+              </div>
+            </div>
+            {{ end }}
+
             {{ if isset .Params "btnLink" }}
             <div class="row">
               <div class="col-md-12" style="text-align: center;">

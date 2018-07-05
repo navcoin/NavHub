@@ -686,6 +686,12 @@ header.stickey .logo-brand img{
 .our-service-section {
     padding: 25px 0 30px;
 }
+.our-service-section .extra-subtitle {
+  padding: 0 0 15px 0;
+}
+.our-service-section .bottom-text {
+  margin: 30px 0 0 0;
+}
 .themeix-sub-title {
     color: #ffffff;
     position: relative;
