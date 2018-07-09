@@ -55,7 +55,7 @@ weight: 100
     - Raspberry Pi v3<br>
     - 16GB SD Card<br>
     - Plastic Branded Enclosure (Black, White or Transparent)<br>
-    - NavPi StakeBox Software<br><br>
+    - NavPi StakeBox Software
 
 {{< /left_image_section >}}
 
