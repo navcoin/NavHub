@@ -37,25 +37,23 @@ weight: 100
     bgColor="#FFF"
     bgImgSrc=""
     fontColor="#333">}}
+
 {{< center_text_section
     title="Why should I use Open Alias?"
     bgColor="#42b6eb"
     gradient=""
     fontColor="#FFF">}}
-    <p>Open Alias is</p>
-   
+    <p>Open Alias content placeholder...</p>
 {{< /center_text_section >}}
 
 <br />
-
 <section class="container">
 
-## Open Alias - current status
+### Overview
 
-asdfas
+OpenAlias seeks to provide a way to simplify aliasing amidst a rapidly shifting technology climate. Users are trying to cross the bridge to private and cryptographically secure infrastructure and systems, but many of them have just barely started remembering the email addresses of their friends and family.
 
-
-### Registering for Open Alias - a step-by-step process
+### Registering for an NavCoin Open Alias - step-by-step process
 
 1. Goto [http://openalias.nav.community/](http://openalias.nav.community/)
 
@@ -63,22 +61,17 @@ asdfas
 
 3. Enter your NavCoin address
 
-4. Follow the instructions that follow
+4. Follow the instructions to activate your address in NavCoin core wallet
+
+5. Enjoy your new Open Alias address(es)
+
+### Benefits of OpenAlias over other aliasing systems
+
+- instead of using a key-value store, OpenAlias uses a TXT DNS record on a FQDN (fully qualified domain name)
+- removes the responsibility of the cryptocurrency to resolve issues or alias disputes
+- provides a mechanism to resolve situation where a user loses their private key
+- allows the end-user to restore their alias and avoid ending up with dead aliases
 
 <br /><br />
 
 </section>
-
-{{< project_features
-    fontColor="#333"
-    gradient="false"
-    bgColor=""
-    feature1Img="/images/icons/icon-bulb.png"
-    feature1Title="Anyone with a NavCoin address can use OpenAlias"
-    feature1Txt=""
-    feature2Img="/images/icons/icon-lock.png"
-    feature2Title="More info..."
-    feature2Txt=""
-    feature3Img="/images/icons/icon-blue-globe.png"
-    feature3Title="More info..."
-    feature3Txt="">}}
