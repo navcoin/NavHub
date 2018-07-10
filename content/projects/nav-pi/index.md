@@ -28,7 +28,7 @@ font_color: "#fff"
 weight: 100
 ---
 
-{{< project_header
+{{< project_header_two
     title="NavPi Stakebox"
     subhead=""
     gradient=""
@@ -36,28 +36,22 @@ weight: 100
     captionPadding="100px"
     imgSrc="navpi3.jpg"
     imgHeight="300px"
-    imgPadding="50px"
+    imgPadding="0"
+    imgMargin="50px"
     bgColor="#FFF"
-    fontColor="#333">}}
-
-{{< left_image_section
-    title="Includes"
-    imgSrc="navpi-clear.jpg"
-    imgHeight="300px"
-    imgPadding="30px"
-    bgColor="#fff"
-    linkBgColor="#523971"
+    fontColor="#333"
     btn1Link="https://navpi.navcoinstore.com/product/navpi-stakebox/"
+    btn1Target="blank"
     btn1Txt="Purchase a NavPi StakeBox"
-    gradient=""
-    fontColor="#333">}}
-
-    - Raspberry Pi v3<br>
-    - 16GB SD Card<br>
-    - Plastic Branded Enclosure (Black, White or Transparent)<br>
-    - NavPi StakeBox Software
-
-{{< /left_image_section >}}
+    btn1BgColor="#795BB6"
+    btn1Margin="1% 0 0 0"
+    bulletMargin="0 0 8% 18%"
+    bulletList="true"
+    bulletItem1="Raspberry Pi v3"
+    bulletItem2="16GB SD Card"
+    bulletItem3="Plastic Branded Enclosure (Black, White or Transparent)"
+    bulletItem4="NavPi Stakebox Software"
+    >}}
 
 {{< project_links
     title="Get NavPi"
