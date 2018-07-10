@@ -3,7 +3,7 @@ title: "OpenAlias"
 date: 2018-07-09T11:41:44+12:00
 draft: false
 author: "Alex Vazquez"
-description: "This project allows you to register a completely free OpenAlias address"
+description: "This project allows you to register a completely free OpenAlias address by linking your selected user name to your real NavCoin address."
 resources: []
 filter: ["Open Alias"]
 bg_image: "/images/icons/icon-purple-lightbulb-new.png"
@@ -11,17 +11,17 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-in_progress: true
-completed: false
+in_progress: false
+completed: true
 show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
-percent_complete: 90
-github_url: "https://github.com/aguycalled/openalias-register/blob/master/views/index.ejs"
-project_url: ""
+percent_complete: 100
+github_url: "https://github.com/aguycalled/openalias-register"
+project_url: "http://openalias.nav.community"
 reddit_url: ""
 twitter_url: ""
-card_color: "#6984D8"
+card_color: "#7d5ab5"
 font_color: "#fff"
 weight: 100
 ---
@@ -53,9 +53,11 @@ weight: 100
 
 OpenAlias seeks to provide a way to simplify aliasing amidst a rapidly shifting technology climate. Users are trying to cross the bridge to private and cryptographically secure infrastructure and systems, but many of them have just barely started remembering the email addresses of their friends and family.
 
+For more information, visit [openalias.org](https://openalias.org/)
+
 ## Registering for an NavCoin Open Alias
 
-First, visit [http://openalias.nav.community/](http://openalias.nav.community/).
+First, visit [http://openalias.nav.community](http://openalias.nav.community).
 
 ### 1. Register your name
 
