@@ -52,7 +52,7 @@ Now that NavCoin Core 4.2.1 soft fork has locked in and NAV has begun accumulati
 
 Once again it’s the Sakdeniz show. Continuing the Community Fund theme, Sakdeniz produced this video that highlights the simplicity of the idea behind the fund. For inspiration check it out, then head over to the NavCoin community fund forum he built, which is just one of several channels you can use to discuss your project ideas and collaborate with other community members.
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/R5LbxuWDCBc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="315" style="margin-bottom: 20px;" src="https://www.youtube.com/embed/R5LbxuWDCBc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <https://navcommunity.net/community-fund>
 
