@@ -34,7 +34,7 @@ Once you’ve done that post your comments in the GitHub pull request - whether 
 
 When the community is happy with results of testing 4.3.0 it will be released on the mainnet. One thing to note is that if you want to access the new NAV OpenAlias feature, you will need to download the new version of the NavCoin Core wallet.
 
-## Developer Updates
+### Developer Updates
 
 Over the past week the Core dev team has focused on testing the voting, proposal, and payment request functionality in the NavCoin Community Fund. Testing was performed on the new NavCoin Core install and build configuration for developers working on NavCoin Core in OSX, and scoping began on the build out of project pages for NavPi and OpenAlias on the NavHub Community website.
 
@@ -44,11 +44,11 @@ Berlin is fast becoming a global centre of blockchain technology, and because of
 
 ![Berlin Meetups](/images/uploads/berlin-collage.jpg)
 
-## Core Content Creators
+### Core Content Creators
 
 Now that NavCoin Core 4.2.1 soft fork has locked in and NAV has begun accumulating in the Community Fund, the Core Content Creators are spending much of their time working on compiling information to help community members understand how the Fund works. There will be guides to creating and submitting proposals, and ways to enable collaboration on projects with other community members. This content will be rolled out over the coming months as stage two of the Community Fund gets closer to activation.
 
-## Top Community News
+### Top Community News
 
 Once again it’s the Sakdeniz show. Continuing the Community Fund theme, Sakdeniz produced this video that highlights the simplicity of the idea behind the fund. For inspiration check it out, then head over to the NavCoin community fund forum he built, which is just one of several channels you can use to discuss your project ideas and collaborate with other community members.
 
