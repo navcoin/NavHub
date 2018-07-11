@@ -71,7 +71,8 @@ A line of code will be generated to assign the address to the alias. Follow the 
 
 ### 3. Verify
 
-The console in the Debug window will output a line of verification code. This code then needs to be copied back to the NavCoin OpenAlias to complete the verification process.
+The console in the Debug window will output a line of code (the signature). This signature then needs to be copied and pasted to the 'Signature' form input on [http://openalias.nav.community](http://openalias.nav.community). After clicking 'Verify', if successful, you will receive a message saying your new alias has been registered as an OpenAlias address! Coins will be received at the new wallet address you linked to your alias. Please allow up to 10 minutes for the address to be active.
+
 
 ## Why use OpenAlias?
 
