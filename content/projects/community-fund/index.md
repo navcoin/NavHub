@@ -105,13 +105,13 @@ Funds can be released in multiple stages. For example, a proposal can indicate t
 <br /><br />
 </section>
 {{< center_text_section
-    title="The Accumulation Vote is now In Progress"
+    title="Fund Accumulation is now Active!"
     bgColor="#7d5ab5"
     gradient=""
     fontColor="#FFF">}}
-    <p>The soft fork for the reduction of the staking reward to 4% and the beginning of the accumulation of the community fund is now being voted on by the community. To vote yes, all you need to do is update to version 4.2.x and resume staking with the new version.</p><br />
+    <p>The soft fork for the reduction of the staking reward to 4% and the beginning of the accumulation of the community fund has passed! The NavCoin Community fund is now accumulating at a rate of around 5000 NAV per week. The mechanism to create proposals and receive funds is still being tested. For now you can check out the community fund balance below.</p><br />
     <div class="themeix-button-group">
-    <a class="themeix-btn themeix-danger smoothScroll" target="e" style="background-color: #523971" href="https://www.navexplorer.com/soft-forks">View the Vote Progress</a>
+    <a class="themeix-btn themeix-danger smoothScroll" target="e" style="background-color: #523971" href="https://www.navexplorer.com/address/Community%20Fund">View the Fund Balance</a>
     </div>
 
 {{< /center_text_section >}}
