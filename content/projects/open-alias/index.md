@@ -74,6 +74,6 @@ A line of code will be generated to assign the address to the alias. Follow the 
 The console in the Debug window will output a line of code (the signature). This signature then needs to be copied and pasted to the 'Signature' form input on [http://openalias.nav.community](http://openalias.nav.community). After clicking 'Verify', if successful, you will receive a message saying your new alias has been registered as an OpenAlias address! Coins will be received at the new wallet address you linked to your alias. Please allow up to 10 minutes for the address to be active.
 
 
-## Why use OpenAlias?
+## Who created OpenAlias?
 
 OpenAlias was created by contributors to the [Monero](https://getmonero.org/) cryptocurrency project who wanted to find a way of simplifying cryptocurrency payments by bridging the knowledge gap between cryptographically secure systems and users who aren't sophisticated developers.
