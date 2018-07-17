@@ -44,7 +44,7 @@ weight: 100
     gradient=""
     fontColor="#FFF">}}
     <div style="width: 80%; margin: 0 auto;">
-    <p>OpenAlias (openalias.org) is an open standard that allows users to transform a lengthy alphanumeric wallet address into a form that’s much easier to read, write, and remember. For example, yourname@nav.community</p>
+    <p>OpenAlias (openalias.org) is an open standard that allows users to transform a lengthy alphanumeric wallet address into a form that’s much easier to read, write, and remember. For example, NavCoin payments can be sent to username@nav.community instead of n1VjTCJBWDEVnasduUBb1ry83yLYihh8XnP</p>
     </div>
 {{< /center_text_section >}}
 
