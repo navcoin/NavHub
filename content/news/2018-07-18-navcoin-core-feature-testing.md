@@ -10,6 +10,8 @@ categories:
 ---
 Over the past week finding ways to increase participation by the community in NavCoin Core feature testing has been a hot topic among NavCoin Core Developers. It’s important that as many people as possible take part in testing release candidates and software fixes. Not only does it make the NavCoin ecosystem more robust, it also provides the perfect opportunity to learn more about blockchain and how it works. The Core developers sincerely appreciate the assistance of the people in the global NavCoin community who already help out consistently, but there’s always opportunity for more people to come on board and enhance their technology skills.
 
+Over the past week finding ways to increase participation by the community in NavCoin Core feature testing has been a hot topic among NavCoin Core Developers. It’s important that as many people as possible take part in testing release candidates and software fixes. Not only does it make the NavCoin ecosystem more robust, it also provides the perfect opportunity to learn more about blockchain and how it works. The Core developers sincerely appreciate the assistance of the people in the global NavCoin community who already help out consistently, but there’s always opportunity for more people to come on board and enhance their technology skills.
+
 Despite what some people think, testing is not all about checking endless lines of code. It can be as simple as downloading the latest release candidate Core wallet and making sure it works properly, then leaving your feedback as a comment in GitHub. That’s something everyone in the NavCoin community has the ability to do.
 
 <https://github.com/NAVCoin>
