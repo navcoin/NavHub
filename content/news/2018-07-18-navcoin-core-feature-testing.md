@@ -20,13 +20,13 @@ If you’re not sure how to get started, Discord is a great place to go. There y
 
 <https://discord.gg/y4Vu9jw>
 
-#### Developer Updates
+### Developer Updates
 
 Improving the stability of NavPi devices has been a key focus for Core developers over the past week. Now that solutions have been worked out, documenting them is next on the list. Articles for the NavCoin Knowledge Base and updates to the NavPi documentation on GitHub are in the works, and a new NavPi page for the Community Hub website is almost ready to go. When testing is complete they will be released to the wider NavCoin community.  
 
 As always a lot of effort is going into developing the Community Fund. This week it’s been testing ways to optimize developer workflow across platforms. Alongside that, progress has been quick on the NAV OpenAlias website, and it’s hoped to have that ready to go soon. Please remember that once the NavCoin Core wallet 4.3.0 has been approved for release, you will need to remember to download it to access the new NAV OpenAlias feature.
 
-#### Core Content Creators
+### Core Content Creators
 
 Designs and content for the NAV OpenAlias registration website mentioned above are well underway. The new site outlines the benefits of using OpenAlias and guides you through generating your own alias. This will be published soon, but in the meantime check out the OpenAlias.org website to see why it will be a worthwhile addition to the resources offered in the NavCoin community.
 
@@ -37,7 +37,7 @@ Work has also progressed on a new collaboration website that is being created to
 On a side note to that, almost 10,000 NAV has already accumulated in the Community Fund. Have you started thinking about projects you might like to propose for funding?
 
 
-#### Top Community News
+### Top Community News
  
 The NavCoin Twitter account is approaching 50,000 followers. It’s great to be part of such a large community which has members engaging in it from all over the world. It’s also good to see that NavCoin’s Reddit channel is busy too with plenty of activity over the past week, and almost 12,000 people subscribed to the NavCoin subreddit.
 
