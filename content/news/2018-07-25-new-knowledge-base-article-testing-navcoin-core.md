@@ -21,8 +21,8 @@ If you haven’t already seen the information and resources that are available a
 
 Testing is a vital part of building a secure and reliable ecosystem for NavCoin. So following on from the large amount of coding work that’s been covered in recent issues of Community News, testing has been taking the lion’s share of core developers’ time.
 
-The Community Fund and NAV OpenAlias functionality in NavCoin Core. 
-Testing and documenting the optimal approach for resolving NavPi memory issues.
+- The Community Fund and NAV OpenAlias functionality in NavCoin Core. 
+- Testing and documenting the optimal approach for resolving NavPi memory issues.
 
 To go along with their work on NavPi, Core developers have written a new Knowledge Base article aimed at remedying its performance issues. You can view it here:
 <https://info.navcoin.org/knowledge-base/navpi-usb-swap/>
