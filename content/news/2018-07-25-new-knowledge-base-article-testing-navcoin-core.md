@@ -8,7 +8,7 @@ feature_image: /images/uploads/july-25th.jpg
 categories:
   - Nav News
 ---
-It’s important that NavCoin community members are able to contribute to projects and confidently use the range of features that are built into the NavCoin ecosystem. The easier it is to contribute, the stronger the NavCoin ecosystem becomes. With that in mind NavCoin Core developers have committed to adding content regularly to the Knowledge Base on NavCoin.org and on social media.  
+It’s important that NavCoin community members are able to contribute to projects and confidently use the range of features that are built into the NavCoin ecosystem. The easier it is, allows for a wider range of people to contribute to the NavCoin ecosystem. With that in mind NavCoin Core developers have committed to adding content regularly to the Knowledge Base on NavCoin.org and on social media.  
 
 It’s important that NavCoin community members are able to contribute to projects and confidently use the range of features that are built into the NavCoin ecosystem. The easier it is to contribute, the stronger the NavCoin ecosystem becomes. With that in mind NavCoin Core developers have committed to adding content regularly to the Knowledge Base on NavCoin.org and on social media.  
 
@@ -24,15 +24,14 @@ Testing is a vital part of building a secure and reliable ecosystem for NavCoin.
 The Community Fund and NAV OpenAlias functionality in NavCoin Core. 
 Testing and documenting the optimal approach for resolving NavPi memory issues.
 
-To go along with their work on NavPi, Core developers have written a new Knowledge Base article aimed at remedying its performance issues. You can view it here.
-
+To go along with their work on NavPi, Core developers have written a new Knowledge Base article aimed at remedying its performance issues. You can view it here:
 <https://info.navcoin.org/knowledge-base/navpi-usb-swap/>
 
-If you need additional help check out the ‘#navpi-support’ channel on Discord. Here’s your invitation to the channel.
+If you need additional help check out the ‘#navpi-support’ channel on Discord. Here’s your invitation to the channel if you haven't joined already:
 
 <https://discord.gg/FrK5dUP>
 
-Remember that you can get involved in testing too. Head over to GitHub to familiarise yourself with the development platform and to see what’s going on. There could be a Pull Request you could review or a new version of NavCoin software to download, run, and comment on.
+Remember that anyone can get involved in testing too. Head over to GitHub to familiarise yourself with the development platform and to see what’s going on. There could be a Pull Request you could review or a new version of NavCoin software to download, run, and comment on.
 
 <https://github.com/NAVCoin>
 
