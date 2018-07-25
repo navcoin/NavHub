@@ -31,7 +31,7 @@ If you need additional help check out the ‘#navpi-support’ channel on Discor
 
 <https://discord.gg/FrK5dUP>
 
-Remember that anyone can get involved in testing too. Head over to GitHub to familiarise yourself with the development platform and to see what’s going on. There could be a Pull Request you could review or a new version of NavCoin software to download, run, and comment on.
+Remember that anyone can get involved in testing too. Head over to GitHub to familiarise yourself with the development platform and see what’s going on. There could be a Pull Request you could review or a new version of NavCoin software to download, run, and comment on.
 
 <https://github.com/NAVCoin>
 
