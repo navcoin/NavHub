@@ -8,7 +8,7 @@ feature_image: /images/uploads/july-25th.jpg
 categories:
   - Nav News
 ---
-It’s important that NavCoin community members are able to contribute to projects and confidently use the range of features that are built into the NavCoin ecosystem. The easier it is, allows for a wider range of people to contribute to the NavCoin ecosystem. With that in mind NavCoin Core developers have committed to adding content regularly to the Knowledge Base on NavCoin.org and on social media.  
+It’s important that NavCoin community members are able to contribute to projects and confidently use the range of features that are built into the NavCoin ecosystem. The easier it is, allows for a wider range of people to contribute to the NavCoin ecosystem.
 
 It’s important that NavCoin community members are able to contribute to projects and confidently use the range of features that are built into the NavCoin ecosystem. The easier it is to contribute, the stronger the NavCoin ecosystem becomes. With that in mind NavCoin Core developers have committed to adding content regularly to the Knowledge Base on NavCoin.org and on social media.  
 
