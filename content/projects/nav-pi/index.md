@@ -71,7 +71,7 @@ weight: 100
     feature2ExtraSubtitle="Torrent File (coming soon)"
     feature3Img="/images/icons/nav_purple-pi-large.png"
     feature3Title="NavPi v1.0.9"
-    feature3Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9.img"
+    feature3Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img"
     feature3ExtraSubtitle="Direct Download"
     bottomText=""
 >}}
