@@ -4,7 +4,7 @@ generated_by_cms: true
 title: NavPi memory issues resolved
 author: zanuka
 date: '2018-07-30T10:39:01+12:00'
-feature_image: /images/navpi/NavPi-Memory-Issues.jpg
+feature_image: /images/uploads/NavPi-Memory-Issues.jpg
 categories:
   - Nav News
   - NavPi
