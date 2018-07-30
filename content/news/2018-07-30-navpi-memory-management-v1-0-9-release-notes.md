@@ -15,7 +15,7 @@ As most veteran NavPi users know, there has been a significant issue with the me
 
 ### The problem; memory is maxed
 
-When the NavCoin daemon starts, it loads the entire chainstate database — containing information on the entire blockchain — in memory. This causes the NavPi's RAM usage to peak until that operation is complete. Advanced users of the NavPi have made various tweaks to their systems for optimised performance, but for new users the initial setup and configuration mods are most certainly daunting tasks.
+When the NavCoin daemon starts, it loads the chainstate database — containing information on the entire blockchain — in memory. This causes the NavPi's RAM usage to peak until that operation is complete, resulting in sluggish performance and occasional crashes. Advanced users of the NavPi have made various tweaks to their systems for optimised performance, but for new users the initial setup and configuration mods are most certainly daunting tasks.
 
 ### The short term solution; add swap space
 
