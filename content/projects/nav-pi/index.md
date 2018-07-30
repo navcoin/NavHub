@@ -73,5 +73,5 @@ weight: 100
     feature3Title="NavPi v1.0.9"
     feature3Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img"
     feature3ExtraSubtitle="Direct Download"
-    bottomText=""
+    bottomText="SHA256: 894c18ee2e7d8fc66a620b3fe5ac8aa5d3d0a0ea60d537c5e47d8c81ef70f721"
 >}}
