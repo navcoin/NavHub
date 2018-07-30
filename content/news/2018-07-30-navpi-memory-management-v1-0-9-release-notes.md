@@ -19,7 +19,7 @@ When the NavCoin daemon starts, it loads the chainstate database — containing 
 
 ### The short term solution; add swap space
 
-Creating dedicated swap space was the key to resolving the memory issue, and three approaches; ZRAM swap, USB swap, and SD card swap.
+Creating dedicated swap space was the key to resolving the memory issue, and we focused on these three approaches; ZRAM swap, USB swap, and SD card swap.
 
 ### What is the function of swap space?
 
@@ -33,11 +33,11 @@ NavPi uses the swap space to increase the amount of information it can process �
 
 The initial approach to the problem was to enable ZRAM on the NavPi as a temporary fix. For many users it seemed to help, but during the core team’s testing cycles there were still resource issues on the initial load of the chain state in memory. 
 
-* [How to enable ZRAM swap on NavPi](https://info.navcoin.org/knowledge-base/enable-zram-navpi/) (NavCoin Knowledge Base)
+* [How to enable ZRAM swap space on NavPi](https://info.navcoin.org/knowledge-base/enable-zram-navpi/) (NavCoin Knowledge Base)
 
 ### SD swap
 
-As another temporary solution, we created an article on the Knowledge Base demonstrating how to enable the swap space on the SD card of the NavPi. The steps in the article were based on an article written by Justin Ellingwood of Digital Ocean and tested successfully on NavPi v1.0.8. While this approach did result in added stability for both the NavCoin daemon and the Chromium WebUI, it is not our recommended approach long-term as this may cause the NavPi's SD Card to wear out faster.
+As another temporary solution, we created an article on the Knowledge Base demonstrating how to enable the swap space on the SD card of the NavPi. The steps in the article were based on an article written by Justin Ellingwood of Digital Ocean and tested successfully on the NavPi. While this approach did result in added stability for both the NavCoin daemon and the Chromium WebUI, it is not our recommended approach long-term as this may cause the NavPi's SD Card to wear out faster.
 
 * [How to enable SD swap space on NavPi](https://info.navcoin.org/knowledge-base/navpi-sd-swap/) (NavCoin Knowledge Base)
 
@@ -58,10 +58,10 @@ There are plans to enhance the NavPi to remedy the memory issue long term, inclu
 
 This new version includes the following:
 
-* updated to run NavCoin v4.2.1 by default
-* fully-synced blockchain
+* updated to run NavCoin v4.2.1 
+* includes fully-synced blockchain
 * ZRAM swap space enabled and prioritised
-* default swap space increased to 500MB
+* default SD swap space increased to 500MB
 
 ### NavPi v1.0.9 "Optimised"
 
@@ -76,4 +76,6 @@ The new images are available for download:
 
 ### Installation notes
 
-After downloading v1.0.9, you'll need to use a program like [Etcher](https://etcher.io/) to flash the new image onto your SD card. After booting up the NavPi with the updated card installed, the NavCoin daemon should start automatically. If you have a keyboard and mouse connected, you should be able to now use the Chromium WebUI to view your wallet. The memory usage will initially spike as the chainstate database is loaded, but it should stabilise within about 10 minutes.
+After downloading v1.0.9, you'll need to use a program like [Etcher](https://etcher.io/) to flash the new image onto your SD card. After booting up the NavPi with the updated card installed, the NavCoin daemon should start automatically. If you have a keyboard and mouse connected, you should be able to now use the Chromium WebUI to view your wallet. 
+
+The memory usage will initially spike as the chainstate database is loaded, but it should stabilise within about 10 minutes. Enjoy the new update and please report any problems to the NavPi project's [issues](https://github.com/Encrypt-S/navpi/issues) on GitHub or post in the #navpi-support channel in the NavCoin Discord server.
