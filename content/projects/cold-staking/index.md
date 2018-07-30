@@ -11,12 +11,13 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-in_progress: true
+in_progress: false
+beta_testing: true
 completed: false
 show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
-percent_complete: 90
+percent_complete: 100
 github_url: "https://github.com/navcoin/navcoin-core/tree/v4.1.2-cold-staking"
 project_url: ""
 reddit_url: ""

@@ -12,17 +12,19 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-in_progress: true
+in_progress: false
+beta_testing: true
 completed: false
+beta_testing: true
 show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
-percent_complete: 80
+percent_complete: 100
 github_url: "https://github.com/navcoin/navcoin-core/tree/v4.1.2-cfund"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#6984D8"
+card_color: "#7d5ab5"
 font_color: "#fff"
 weight: 100
 ---
