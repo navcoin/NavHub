@@ -75,6 +75,6 @@ The new images are available for download:
 
 ### Installation notes
 
-After downloading v1.0.9, you'll need to use a program like [Etcher](https://etcher.io/) to flash the new image onto your SD card. After booting up the NavPi with the updated card installed, the NavCoin daemon should start automatically. If you have a keyboard and mouse connected, you should be able to now use the Chromium WebUI to view your wallet. 
+After downloading v1.0.9, you'll need to use a program like [Etcher](https://etcher.io/) to flash the new image onto your SD card. After booting up the NavPi with the updated card installed, the NavCoin daemon should start automatically. If you have a keyboard and mouse connected, you can launch Chromium and use the WebUI. 
 
 The memory usage will initially spike as the chainstate database is loaded, but it should stabilise within about 10 minutes. Enjoy the new update and please report any problems to the NavPi project's [issues](https://github.com/Encrypt-S/navpi/issues) on GitHub or post in the #navpi-support channel in the NavCoin Discord server.
