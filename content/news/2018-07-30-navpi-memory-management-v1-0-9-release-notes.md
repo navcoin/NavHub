@@ -62,7 +62,7 @@ There are plans to enhance the NavPi to remedy the memory issue long term, inclu
 * ZRAM swap space enabled and prioritised
 * Default SD swap space increased to 500MB
 
-This version has been optimised, removing many of the non-essential Raspbian applications that come pre-installed. Removing these apps results in a smaller sized NavPi OS, and users can always add apps later if needed. Everything should function exactly the same, and users can still add back applications as needed.
+This version has been optimised, removing many of the non-essential Raspbian applications that come pre-installed. The end result is a much smaller disk image (6GB) that will auto-expand upon initial boot of the NavPi.
 
 This release can be downloaded from the [NavPi Project Page](https://navhub.org/projects/nav-pi/)
 
