@@ -43,7 +43,7 @@ As another temporary solution, we created an article on the Knowledge Base demon
 
 ### USB swap
 
-For best results, it’s recommended to utilize a USB drive as your swap space, due to the fact that repeated reads/writes to the SD card can potentially wear it out. There are multiple articles, posts and resources from the linux and Raspbian community demonstrating how to setup a swap space on a USB. We tested many approaches and created our own version intended for the NavPi, which is now documented Knowledge Base.
+For best results, it’s recommended to utilize a USB drive as your swap space, since repeated reads/writes to the SD card may wear it out. There are multiple articles, posts and resources from the linux and Raspbian community demonstrating how to setup a swap space on a USB. We tested many approaches and created our own version intended for the NavPi, which is now documented Knowledge Base.
 
 * [How to enable USB swap space on NavPi](https://info.navcoin.org/knowledge-base/navpi-usb-swap/) (NavCoin Knowledge Base)
 
@@ -78,6 +78,4 @@ The new images are available for download:
 
 ### Installation notes
 
-After downloading v1.0.9, you'll need to use a program like [Etcher](https://etcher.io/) to flash the new image onto your SD card. After booting up the NavPi with the updated card installed, the NavCoin daemon should start automatically. If you have a keyboard and mouse connected, you should be able to now use the Chromium WebUI to view your wallet. The memory usage will initially spike as the chainstate database is loaded, but it should stabilise within about 10 minutes. 
-
-For the best long-term performance, we recommend following the [guide to setup a USB swap drive](https://info.navcoin.org/knowledge-base/navpi-usb-swap/) instead of relying primarily on the preconfigured ZRAM and default SD swap space.
+After downloading v1.0.9, you'll need to use a program like [Etcher](https://etcher.io/) to flash the new image onto your SD card. After booting up the NavPi with the updated card installed, the NavCoin daemon should start automatically. If you have a keyboard and mouse connected, you should be able to now use the Chromium WebUI to view your wallet. The memory usage will initially spike as the chainstate database is loaded, but it should stabilise within about 10 minutes.
