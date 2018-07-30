@@ -11,15 +11,15 @@ categories:
 ---
 ## NavPi Memory Management
 
-As most veteran NavPi users know, there has been a significant issue with the memory resources being completely maxed out while running the NavCoin daemon. This has resulted in the NavPi’s default Chromium WebUI being nearly unusable and has also caused the daemon to crash on new installations and upgrades.  Advanced users of the NavPi have tweaked their systems for optimised performance, but for new users the initial setup and configuration mods are most certainly daunting tasks. It’s been a frustrating issue for everyone and the core team has been focused on solving the problem by engineering both short and long term solutions.
+As most veteran NavPi users know, there has been a significant issue with the memory resources being completely maxed out while running the NavCoin daemon. It’s been a frustrating issue and the core team has been focused on solving the problem by engineering both short and long term solutions.
 
 ### The problem; memory is maxed
 
-When the NavCoin daemon starts, it loads the entire chainstate database in memory. This causes a large spike in memory usage until that operation is complete. Existing users have reported that after updating to the latest version of NavCoin, the memory spike can cause the Chromium WebUI to be nearly unusable in addition to the navcoind daemon simply crashing. 
+When the NavCoin daemon starts, it loads the entire chainstate database — containing information on the entire blockchain — in memory. This causes the NavPi's RAM usage to peak until that operation is complete. Advanced users of the NavPi have made various tweaks to their systems for optimised performance, but for new users the initial setup and configuration mods are most certainly daunting tasks.
 
 ### The short term solution; add swap space
 
-Creating dedicated swap space was the key to resolving the memory issue, and three approaches; zram swap, usb swap, and sd swap.
+Creating dedicated swap space was the key to resolving the memory issue, and three approaches; ZRAM swap, USB swap, and SD card swap.
 
 ### What is the function of swap space?
 
