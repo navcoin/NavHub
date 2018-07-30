@@ -63,7 +63,7 @@ weight: 100
     gradient=""
     feature1Img="/images/icons/nav_purple-pi-large.png"
     feature1Title="NavPi v1.0.9"
-    feature1Url="xt=urn:btih:046AF03824CD6C22271966A488F2B3AD81D04C53&dn=navpi_1.0.9.img&tr=udp%3a%2f%2ftracker.nav.community%3a6969"
+    feature1Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9.torrent"
     feature1ExtraSubtitle="Torrent Magnet"
     feature2Img="/images/icons/nav_purple-pi-large.png"
     feature2Title="NavPi v1.0.9"
