@@ -76,6 +76,8 @@ The new images are available for download:
 * [NavPi v1.0.9 "Default"](https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9.img) - 11.1 GB
 * [NavPi v1.0.9 "Optimised"](https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img) - 6 GB
 
-### Upgrade notes
+### Installation notes
 
-If you are re-imaging your SD card to v1.0.9, we recommend following the [guide to setup a USB swap drive](https://info.navcoin.org/knowledge-base/navpi-usb-swap/) instead of relying primarily on the preconfigured ZRAM swap.
+After downloading v1.0.9, you'll need to use a program like [Etcher](https://etcher.io/) to flash the new image onto your SD card. After booting up the NavPi with the updated card installed, the NavCoin daemon should start automatically. If you have a keyboard and mouse connected, you should be able to now use the Chromium WebUI to view your wallet. The memory usage will initially spike as the chainstate database is loaded, but it should stabilise within about 10 minutes. 
+
+For the best long-term performance, we recommend following the [guide to setup a USB swap drive](https://info.navcoin.org/knowledge-base/navpi-usb-swap/) instead of relying primarily on the preconfigured ZRAM and default SD swap space.
