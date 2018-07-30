@@ -53,7 +53,7 @@ weight: 100
     bulletItem4="NavPi Stakebox Software"
     >}}
 
-{{< project_links_two
+{{< project_links
     title="Get NavPi"
     subtitle="This software conveniently turns your Raspberry Pi into a low cost way to help maintain the network."
     fontColor="#FFF"
@@ -61,16 +61,17 @@ weight: 100
     bgColor="#7d5ab5"
     linkBgColor="#523971"
     gradient=""
-    linkPadding="0 0 15px 0"
     feature1Img="/images/icons/nav_purple-pi-large.png"
-    feature1Title="NavPi v1.0.9 (Default)"
-    feature1Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9.img"
-    feature1Subtitle="11.1 GB - NavCoin 4.2.1 - Bootstrapped"
-    feature1Description="Raspbian (Jessie) OS with default applications"
+    feature1Title="NavPi v1.0.9"
+    feature1Url=""
+    feature1ExtraSubtitle="Torrent Magnet (coming soon)"
     feature2Img="/images/icons/nav_purple-pi-large.png"
-    feature2Title="NavPi v1.0.9 (Optimised)"
-    feature2Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img"
-    feature2Subtitle="6 GB - NavCoin 4.2.1 - Bootstrapped"
-    feature2Description="Raspbian (Jessie) OS with minimal applications"
+    feature2Title="NavPi v1.0.9"
+    feature2Url=""
+    feature2ExtraSubtitle="Torrent File (coming soon)"
+    feature3Img="/images/icons/nav_purple-pi-large.png"
+    feature3Title="NavPi v1.0.9"
+    feature3Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9.img"
+    feature3ExtraSubtitle="Direct Download"
+    bottomText=""
 >}}
-
