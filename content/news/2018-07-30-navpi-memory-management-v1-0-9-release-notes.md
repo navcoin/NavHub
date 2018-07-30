@@ -56,7 +56,7 @@ There are plans to enhance the NavPi to remedy the memory issue long term, inclu
 * optimise NavPi application (headless)
 * upgrade to new Rasbpian OS (Stretch) for new Pi 3b +
 
-## NavPi v1.0.9 "Default"
+### NavPi v1.0.9 "Default"
 
 This new version includes the following:
 
