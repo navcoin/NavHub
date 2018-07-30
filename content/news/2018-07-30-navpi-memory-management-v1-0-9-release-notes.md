@@ -49,7 +49,7 @@ For best results, it’s recommended to utilize a USB drive as your swap space, 
 
 ### Long-term solutions
 
-In the future the core team has plans to further enhance the NavPi to remedy the memory issue long term. These include: 
+There are plans to enhance the NavPi to remedy the memory issue long term, including: 
 
 * optimise NavCoin core (levelDB)
 * optimise NavPi OS (system configs)
