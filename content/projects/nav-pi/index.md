@@ -70,7 +70,7 @@ weight: 100
     feature2Img="/images/icons/nav_purple-pi-large.png"
     feature2Title="NavPi v1.0.9 (Optimised)"
     feature2Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img"
-    feature2Subtitle="6 GB .img - NavCoin 4.2.1 - Bootstrapped"
+    feature2Subtitle="6 GB - NavCoin 4.2.1 - Bootstrapped"
     feature2Description="Raspbian (Jessie) OS with minimal applications"
 >}}
 
