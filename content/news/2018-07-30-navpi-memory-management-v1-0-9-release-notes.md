@@ -9,7 +9,6 @@ categories:
   - Nav News
   - NavPi
 ---
-## NavPi Memory Management
 
 As most veteran NavPi users know, there has been a significant issue with the memory resources being completely maxed out while running the NavCoin daemon. It’s been a frustrating issue and the core team has been focused on solving the problem by engineering both short and long term solutions.
 
