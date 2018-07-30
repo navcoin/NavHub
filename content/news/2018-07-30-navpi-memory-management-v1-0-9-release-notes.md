@@ -11,7 +11,7 @@ categories:
 ---
 ## NavPi Memory Management
 
-As most veteran NavPi users know, there has been a significant issue with the memory resources being completely maxed out while running the NavCoin daemon.  <!–more–> This has resulted in the NavPi’s default Chromium WebUI being nearly unusable and has also caused the daemon to crash on new installations and upgrades.  Advanced users of the NavPi have tweaked their systems for optimised performance, but for new users the initial setup and configuration mods are most certainly daunting tasks. It’s been a frustrating issue for everyone and the core team has been focused on solving the problem by engineering both short and long term solutions.
+As most veteran NavPi users know, there has been a significant issue with the memory resources being completely maxed out while running the NavCoin daemon. This has resulted in the NavPi’s default Chromium WebUI being nearly unusable and has also caused the daemon to crash on new installations and upgrades.  Advanced users of the NavPi have tweaked their systems for optimised performance, but for new users the initial setup and configuration mods are most certainly daunting tasks. It’s been a frustrating issue for everyone and the core team has been focused on solving the problem by engineering both short and long term solutions.
 
 ### The problem; memory is maxed
 
