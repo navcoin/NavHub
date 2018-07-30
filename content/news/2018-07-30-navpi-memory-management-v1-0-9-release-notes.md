@@ -1,7 +1,7 @@
 ---
 layout: news
 generated_by_cms: true
-title: NavPi Memory Management & v1.0.9 Release Notes
+title: NavPi memory issues resolved
 author: zanuka
 date: '2018-07-30T10:39:01+12:00'
 feature_image: /images/uploads/navpi3.jpg
@@ -58,10 +58,10 @@ There are plans to enhance the NavPi to remedy the memory issue long term, inclu
 
 This new version includes the following:
 
-* updated to run NavCoin v4.2.1 
-* includes fully-synced blockchain
+* Updated to run NavCoin v4.2.1 
+* Includes fully-synced blockchain
 * ZRAM swap space enabled and prioritised
-* default SD swap space increased to 500MB
+* Default SD swap space increased to 500MB
 
 ### NavPi v1.0.9 "Optimised"
 
