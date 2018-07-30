@@ -73,8 +73,8 @@ We have created an optimised version of the NavPi v1.0.9 image, which has had mo
 
 The new images are available for download:
 
-* [NavPi v1.0.9 "Default"](https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.8.img) - 11.87 GB
-* [NavPi v1.0.9 "Optimised"](https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.8.img) - 6 GB
+* [NavPi v1.0.9 "Default"](https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9.img) - 11.87 GB
+* [NavPi v1.0.9 "Optimised"](https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img) - 6 GB
 
 ### Upgrade notes
 
