@@ -1,0 +1,60 @@
+<section id="project">
+    <div class="our-service-section">
+      <div class="{{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" id="links" style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12" style="text-align: center;">
+              <h2 class="themeix-title-h1" style="color: {{ .Get "fontColor" }}">{{ .Get "title"}}</h2>
+              <div style="color: {{ .Get "fontColor" }}">{{ .Get "subtitle" }}</div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4" style="width: 50%;">
+                  <div class="single-item">
+                    {{ if ne (.Get "feature1Url") "false" }}
+                    <a href="{{ .Get "feature1Url" }}" target="e" class="link-item">
+                    {{ end }}
+                      <div class="service-main">
+                          <div class="service-icon">
+                              <img src="{{ .Get "feature1Img" }}" alt="">
+                          </div>
+                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                              <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature1Title" }}</h3>
+                              {{ if ne (.Get "feature1ExtraSubtitle") "false" }}
+                              <p class="themeix-para-style extra-subtitle" style="color: {{ .Get "subtitleFontColor" }}">
+                              {{ .Get "feature1ExtraSubtitle"  }}</p>
+                              {{ end }}
+                          </div>
+                      </div>
+                    {{ if ne (.Get "feature1Url") "false" }}
+                    </a>
+                    {{ end }}
+                  </div>
+              </div>
+              <div class="col-md-4" style="width: 50%;">
+                  <div class="single-item">
+                    {{ if ne (.Get "feature2Url") "false" }}
+                    <a href="{{ .Get "feature2Url" }}" target="e" class="link-item">
+                    {{ end }}
+                      <div class="service-main">
+                          <div class="service-icon">
+                              <img src="{{ .Get "feature2Img" }}" alt="">
+                          </div>
+                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                              <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature2Title" }}</h3>
+                              {{ if ne (.Get "feature2ExtraSubtitle") "false" }}
+                              <p class="themeix-para-style extra-subtitle" style="color: {{ .Get "subtitleFontColor" }}">
+                              {{ .Get "feature2ExtraSubtitle"  }}</p>
+                              {{ end }}
+                          </div>
+                      </div>
+                      {{ if ne (.Get "feature2Url") "false" }}
+                      </a>
+                      {{ end }}
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

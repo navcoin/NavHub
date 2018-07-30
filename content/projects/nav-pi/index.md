@@ -53,7 +53,7 @@ weight: 100
     bulletItem4="NavPi Stakebox Software"
     >}}
 
-{{< project_links
+{{< project_links_two
     title="Get NavPi"
     subtitle="This software conveniently turns your Raspberry Pi into a low cost way to help maintain the network."
     fontColor="#FFF"
@@ -68,7 +68,6 @@ weight: 100
     feature2Img="/images/icons/nav_purple-pi-large.png"
     feature2Title="NavPi v1.0.9"
     feature2Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img"
-    feature2ExtraSubtitle="Optimised - 6GB"
-    bottomText=""
+    feature2ExtraSubtitle="Optimised - 6 GB"
 >}}
 
