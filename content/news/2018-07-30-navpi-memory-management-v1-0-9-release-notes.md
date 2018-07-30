@@ -23,7 +23,7 @@ Creating dedicated swap space was the key to resolving the memory issue, and thr
 
 ### What is the function of swap space?
 
-The swap space is an area on the Raspberry Pi’s SD card (or additional USB drive) intended as a place the operating system can store data temporarily.  
+The swap space is an area on the Raspberry Pi’s SD card (or additional USB drive) intended as a place the operating system can store data temporarily for quick access. This allows the Raspberry Pi to function as as if it has higher RAM (memory) than it actually does.  
 
 ### How does NavPi use swap space?
 
@@ -37,7 +37,7 @@ The initial approach to the problem was to enable ZRAM on the NavPi as a tempora
 
 ### SD swap
 
-As another temporary solution, we created an article on the Knowledge Base demonstrating how to enable the swap space on the SD card of the NavPi. The steps in the article were based on an article written by Justin Ellingwood of Digital Ocean and tested successfully on NavPi v1.0.8. While this approach did result in added stability for both the NavCoin daemon and the Chromium WebUI, it is not our recommended approach long-term.
+As another temporary solution, we created an article on the Knowledge Base demonstrating how to enable the swap space on the SD card of the NavPi. The steps in the article were based on an article written by Justin Ellingwood of Digital Ocean and tested successfully on NavPi v1.0.8. While this approach did result in added stability for both the NavCoin daemon and the Chromium WebUI, it is not our recommended approach long-term as this may cause the NavPi's SD Card to wear out faster.
 
 * [How to enable SD swap space on NavPi](https://info.navcoin.org/knowledge-base/navpi-sd-swap/) (NavCoin Knowledge Base)
 
@@ -51,10 +51,8 @@ For best results, it’s recommended to utilize a USB drive as your swap space, 
 
 There are plans to enhance the NavPi to remedy the memory issue long term, including: 
 
-* optimise NavCoin core (levelDB)
-* optimise NavPi OS (system configs)
-* optimise NavPi application (headless)
-* upgrade to new Rasbpian OS (Stretch) for new Pi 3b +
+* Optimise NavCoin core (specifically it's levelDB databases)
+* Support the new Raspberry Pi 3b + (OS upgrade)
 
 ### NavPi v1.0.9 "Default"
 
@@ -67,7 +65,7 @@ This new version includes the following:
 
 ### NavPi v1.0.9 "Optimised"
 
-We have created an optimised version of the NavPi v1.0.9 image, which has had most of the non-essential Raspbian applications removed. This pruned version contains the same updates noted above but without the additional data consumed by the default Raspbian (jessie) applications. Everything should function exactly the same, and users can still add back applications as needed.
+We have created an optimised version of the NavPi v1.0.9 image, which has had most of the non-essential Raspbian applications removed. This pruned version contains the same updates noted above but without the additional data used by the default Raspbian (jessie) applications. Removing these apps results in a smaller sized NavPi OS, and users can always add apps later if needed. Everything should function exactly the same, and users can still add back applications as needed.
 
 ### Available Downloads
 
