@@ -64,7 +64,7 @@ weight: 100
     feature1Img="/images/icons/nav_purple-pi-large.png"
     feature1Title="NavPi v1.0.9"
     feature1Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9.img"
-    feature1ExtraSubtitle="Default - 11.GB"
+    feature1ExtraSubtitle="Default - 11.1 GB"
     feature2Img="/images/icons/nav_purple-pi-large.png"
     feature2Title="NavPi v1.0.9"
     feature2Url="https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img"
