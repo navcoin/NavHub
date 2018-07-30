@@ -18,11 +18,15 @@
                           <div class="service-icon">
                               <img src="{{ .Get "feature1Img" }}" alt="">
                           </div>
-                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }}; padding: {{ .Get "linkPadding" }};">
                               <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature1Title" }}</h3>
-                              {{ if ne (.Get "feature1ExtraSubtitle") "false" }}
-                              <p class="themeix-para-style extra-subtitle" style="color: {{ .Get "subtitleFontColor" }}">
-                              {{ .Get "feature1ExtraSubtitle"  }}</p>
+                              {{ if ne (.Get "feature1Subtitle") "false" }}
+                              <p class="themeix-para-style" style="color: {{ .Get "subtitleFontColor" }}">
+                              {{ .Get "feature1Subtitle"  }}</p>
+                              {{ end }}
+                              {{ if ne (.Get "feature1Description") "false" }}
+                              <p class="themeix-para-style" style="color: {{ .Get "subtitleFontColor" }}">
+                              {{ .Get "feature1Description"  }}</p>
                               {{ end }}
                           </div>
                       </div>
@@ -40,11 +44,15 @@
                           <div class="service-icon">
                               <img src="{{ .Get "feature2Img" }}" alt="">
                           </div>
-                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }};">
+                          <div class="service-content" style="background-color: {{ .Get "linkBgColor" }}; padding: {{ .Get "linkPadding" }};">
                               <h3 style="color: {{ .Get "fontColor" }}">{{ .Get "feature2Title" }}</h3>
-                              {{ if ne (.Get "feature2ExtraSubtitle") "false" }}
-                              <p class="themeix-para-style extra-subtitle" style="color: {{ .Get "subtitleFontColor" }}">
-                              {{ .Get "feature2ExtraSubtitle"  }}</p>
+                              {{ if ne (.Get "feature2Subtitle") "false" }}
+                              <p class="themeix-para-style" style="color: {{ .Get "subtitleFontColor" }}">
+                              {{ .Get "feature2Subtitle"  }}</p>
+                              {{ end }}
+                              {{ if ne (.Get "feature2Description") "false" }}
+                              <p class="themeix-para-style" style="color: {{ .Get "subtitleFontColor" }}">
+                              {{ .Get "feature2Description"  }}</p>
                               {{ end }}
                           </div>
                       </div>
