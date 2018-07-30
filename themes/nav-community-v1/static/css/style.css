@@ -3452,7 +3452,7 @@ ul li.cat-item a {
   }
   .themeix-button-group a {
     margin-top: 5px;
-  }	
+  }
 }
 
 .roadmap-icon {
@@ -3498,7 +3498,6 @@ ul li.cat-item a {
 .card-author {
   background-color: rgba(33,33,33,0.5);
   padding: 10px 8px 8px 8px;
-
 }
 
 .card-author-subhead {
@@ -3514,6 +3513,11 @@ ul li.cat-item a {
   display: block;
   font-size: 16px;
   top: 6px;
+}
+
+.card-author.card-status {
+  top: 54px;
+  background-color: rgba(255,255,255,0.2);
 }
 
 .info-links.roadmap-info-links label {
@@ -3648,5 +3652,3 @@ ul li.cat-item a {
 .project-header-two .under-image {
     width: 100%;
 }
-
-

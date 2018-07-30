@@ -16,7 +16,7 @@
             <div style="margin-bottom: 50px;">
                 {{range (.Site.Pages.ByWeight)  }}
                     {{ if (.Params.show_on_roadmap) }}
-                        {{ if and (not .Params.in_progress) (not .Params.completed) (not .Params.on_hold) }}
+                        {{ if and (not .Params.in_progress) (not .Params.completed) (not .Params.beta_testing) }}
                             {{ partial  "roadmap_item_upcoming.html" . }}
                         {{end}}
                     {{end}}
@@ -33,6 +33,16 @@
                         {{end}}
                     {{end}}
                 {{end}}
+            </div>
+
+            <h2>Beta Testing</h2>
+            <hr>
+            <div style="margin-bottom: 50px;">
+              {{range (.Site.Pages.ByWeight).Reverse  }}
+                  {{ if and (.Params.show_on_roadmap) (.Params.beta_testing) }}
+                      {{ partial  "roadmap_item_beta.html" . }}
+                  {{end}}
+              {{end}}
             </div>
 
             <h2>Completed</h2>

@@ -7,6 +7,11 @@
     <span class="card-author-subhead">Project Lead</span>
     <span class="card-author-name"> {{ .Params.author}}</span></label>
   {{ end}}
+  {{ if (eq .Params.beta_testing true) }}
+  <label class="card-author card-status">
+    <span class="card-author-subhead">Status</span>
+    <span class="card-author-name">Beta Testing</span></label>
+  {{ end}}
   <div class="bg-overlay" style="background-color: {{.Params.card_color}};"></div>
     <div class="row">
       <div class="col-xs-12">
