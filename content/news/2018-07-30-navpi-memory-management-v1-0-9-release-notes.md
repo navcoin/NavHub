@@ -55,25 +55,16 @@ There are plans to enhance the NavPi to remedy the memory issue long term, inclu
 * Optimise NavCoin core (specifically it's levelDB databases)
 * Support the new Raspberry Pi 3b + (OS upgrade)
 
-### NavPi v1.0.9 "Default"
-
-This new version includes the following:
+### NavPi v1.0.9 Release
 
 * Updated to run NavCoin v4.2.1 
 * Includes fully-synced blockchain
 * ZRAM swap space enabled and prioritised
 * Default SD swap space increased to 500MB
 
-### NavPi v1.0.9 "Optimised"
+This version has been optimised, removing many of the non-essential Raspbian applications that come pre-installed. Removing these apps results in a smaller sized NavPi OS, and users can always add apps later if needed. Everything should function exactly the same, and users can still add back applications as needed.
 
-We have created an optimised version of the NavPi v1.0.9 image, which has had most of the non-essential Raspbian applications removed. This pruned version contains the same updates noted above but without the additional data used by the default Raspbian (jessie) applications. Removing these apps results in a smaller sized NavPi OS, and users can always add apps later if needed. Everything should function exactly the same, and users can still add back applications as needed.
-
-### Available Downloads
-
-The new images are available for download:
-
-* [NavPi v1.0.9 "Default"](https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9.img) - 11.1 GB
-* [NavPi v1.0.9 "Optimised"](https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.9_lite.img) - 6 GB
+This release can be downloaded from the [NavPi Project Page](https://navhub.org/projects/nav-pi/)
 
 ### Installation notes
 
