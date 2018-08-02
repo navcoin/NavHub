@@ -18,7 +18,7 @@ show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
 percent_complete: 100
-github_url: "https://github.com/navcoin/navcoin-core/tree/v4.1.2-cold-staking"
+github_url: "https://github.com/NAVCoin/npips/blob/master/npip-0002.mediawiki"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
