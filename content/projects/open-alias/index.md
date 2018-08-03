@@ -18,7 +18,7 @@ show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
 percent_complete: 100
-github_url: "https://github.com/aguycalled/openalias-register"
+github_url: "https://github.com/NAVCoin/navcoin-core/pull/213"
 project_url: "http://openalias.nav.community"
 reddit_url: ""
 twitter_url: ""

@@ -20,7 +20,7 @@ show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
 percent_complete: 100
-github_url: "https://github.com/navcoin/navcoin-core/tree/v4.1.2-cfund"
+github_url: "https://github.com/NAVCoin/navcoin-core/tree/cfund-test"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
