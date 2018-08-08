@@ -8,7 +8,7 @@ feature_image: /images/uploads/screen-shot-2018-08-08-at-5.00.17-pm-1.png
 categories:
   - Nav News
 ---
-NavCoin OpenAlias is a new feature that will be part of the upcoming NavCoin Core 4.3.0 update, however you’re able to register your NavCoin OpenAlias address now. 
+NavCoin OpenAlias is a new feature that will be part of the upcoming NavCoin Core 4.3.0 update, however you’re able to register your NavCoin OpenAlias address right now. 
 
 NavCoin OpenAlias is a new feature that will be part of the upcoming NavCoin Core 4.3.0 update, however you’re able to register your NavCoin OpenAlias address now. 
 
