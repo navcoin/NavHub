@@ -2,7 +2,7 @@
 layout: news
 generated_by_cms: true
 title: NavPi memory issues resolved
-author: zanuka
+author: Mike Delucchi
 date: '2018-07-30T10:39:01+12:00'
 feature_image: /images/uploads/NavPi-Memory-Issues.jpg
 categories:
