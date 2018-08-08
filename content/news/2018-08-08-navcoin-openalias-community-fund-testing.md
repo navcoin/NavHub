@@ -8,9 +8,11 @@ feature_image: /images/uploads/screen-shot-2018-08-08-at-5.00.17-pm-1.png
 categories:
   - Nav News
 ---
-NavCoin OpenAlias is a new feature that will be part of the upcoming NavCoin Core 4.3.0 update, however you’re able to register your NavCoin OpenAlias address now. NavCoin OpenAlias works by converting the full 32 character NavCoin wallet address into an easy to remember ‘email style’ format, for example Rupert.Rabbit@nav.community. You can register any name or handle you want, but NavCoin OpenAlias doesn’t allow duplicates so it’s first in, first served. 
+NavCoin OpenAlias is a new feature that will be part of the upcoming NavCoin Core 4.3.0 update, however you’re able to register your NavCoin OpenAlias address now. 
 
-NavCoin OpenAlias is a new feature that will be part of the upcoming NavCoin Core 4.3.0 update, however you’re able to register your NavCoin OpenAlias address now. NavCoin OpenAlias works by converting the full 32 character NavCoin wallet address into an easy to remember ‘email style’ format, for example Rupert.Rabbit@nav.community. You can register any name or handle you want, but NavCoin OpenAlias doesn’t allow duplicates so it’s first in, first served. 
+NavCoin OpenAlias is a new feature that will be part of the upcoming NavCoin Core 4.3.0 update, however you’re able to register your NavCoin OpenAlias address now. 
+
+NavCoin OpenAlias works by converting the full 32 character NavCoin wallet address into an easy to remember ‘email style’ format, for example Rupert.Rabbit@nav.community. You can register any name or handle you want, but NavCoin OpenAlias doesn’t allow duplicates so it’s first in, first served. 
 
 Register your NavCoin Open Alias address here:
 
@@ -55,6 +57,7 @@ Sakdeniz has been busy lately, creating this promo video for the NavCoin Communi
 What could you create using your knowledge of NavCoin, its features, ways to use it and the community? Remember all members of the NavCoin community are autonomous individuals, so you’re free to help out however you want. For inspiration take a look at RenderForest and Biteable, which is another popular online video making tool.
 
 <https://www.renderforest.com/>
+
 <https://biteable.com/>
 
 ### Core Content Creators
