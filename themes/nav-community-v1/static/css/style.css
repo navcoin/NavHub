@@ -435,8 +435,7 @@ header.stickey .logo-brand img{
 }
 
 #header-wrapper {
-    width: 100%;
-    padding-top: 70px;
+    width: 100%;    
 }
 
 #wrapper.toggled #header-wrapper {
@@ -532,17 +531,17 @@ header.stickey .logo-brand img{
 }
 
 /*-------------------------------*/
-/*       Hamburger-Cross         */
+/*       Hamburger-Fest         */
 /*-------------------------------*/
 
 .hamburger {
   position: fixed;
-  top: 20px;  
+  top: 9px;  
   z-index: 999;
   display: block;
-  width: 32px;
+  width: 40px;
   height: 32px;
-  margin-left: 15px;
+  margin-left: 80px;
   background: transparent;
   border: none;
 }
@@ -932,7 +931,7 @@ header.stickey .logo-brand img{
     right: 0;
     top: 0;
     z-index: 10;
-    padding: 0px 0;
+    padding: 0 0 10px 0;
     border: 0;
 }
 .stickey .main-menu ul li a {
