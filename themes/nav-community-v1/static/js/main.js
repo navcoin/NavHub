@@ -140,9 +140,9 @@ $('#features').zenith({
            7. Preloader
 ========================================== */
  
-         $(window).load(function(){
-          $('.preloader').fadeOut(1000);  
-        });
+       $(window).on("load", function (e) {
+        $('.preloader').fadeOut(1000);  
+       })
  
 /* ==========================================
            8.  App Screenshots
