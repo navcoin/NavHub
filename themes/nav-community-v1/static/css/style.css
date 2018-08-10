@@ -572,28 +572,7 @@ header.stickey .logo-brand img{
 .themeix-section-heading-title .head-title {
     position: relative;
 }
-.themeix-section-heading-title .head-title:after {
-    position: absolute;
-    content: "";
-    left: 50%;
-    top: 60px;
-    width: 100px;
-    height: 2px;
-    background: #3f8ee8;
-    margin: 0 auto;
-    transform: translateX(-53%);
-}
-.themeix-section-heading-title .head-title:before {
-    position: absolute;
-    content: "";
-    left: 50%;
-    top: 58px;
-    width: 20px;
-    height: 6px;
-    background: #3f8ee8;
-    margin: 0 auto;
-    transform: translateX(-53%);
-}
+
 .themeix-section-heading-title .light-300 {
     padding: 0 70px;
     margin-top: 47px;
