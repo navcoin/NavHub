@@ -1,10 +1,9 @@
-<nav id="sidebar-wrapper" class="">
-    <a id="menu-close" href="#" class="close-btn toggle">CLOSE <i class="ion-log-in"></i></a>
-    <ul class="sidebar-nav">
+ <nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">    
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
-        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-dropdown">
+        <li class="sidebar-brand {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-dropdown">
         <span class="nav-top-item">
             {{ .Pre }}
             <span>{{ .Name }}</span>

@@ -1,23 +1,26 @@
-<!-- main menu area -->
-<header class="stickey fixed" id="header">
-   <nav class="main-menu navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-      <div class="container">
-         <!-- Brand and toggle get grouped for better mobile display -->
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed custom-toggle" role="button" data-toggle="tooltip" data-placement="left" data-original-title="Navigation" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><i class="fa fa-bars fa-lg"></i>
-            </button>
-            <div class="logo-brand">
-               <a href="/">
-                  <img src="{{ "images/nav-logo.png" | relURL }}" alt="logo">
-               </a>
+<div id="wrapper">
+   <div class="overlay"></div>
+   {{ template "theme/partials/header_menu.html" . }}
+   <div id="header-wrapper">
+      <header class="stickey">
+         <nav class="main-menu">
+            <div class="container">
+               <div class="col-sm-10">
+                  <div class="logo-brand">
+                     <a href="/">
+                        <img src="{{ "images/nav-logo.png" | relURL }}" alt="logo">
+                     </a>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                     <span class="hamb-top"></span>
+                     <span class="hamb-middle"></span>
+                     <span class="hamb-bottom"></span>
+                  </button>
+               </div>
             </div>
-         </div>
-         <!-- Collect the nav links, forms, and other content for toggling -->
-         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            {{ template "theme/partials/header_menu.html" . }}
-         </div>
-         <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-   </nav>
-</header>
+         </nav>
+      </header>
+   </div>
+</div>
