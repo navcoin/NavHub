@@ -419,7 +419,7 @@ header.stickey .logo-brand img{
     margin-right: -220px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #fff;
+    background: #42b6eb;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -485,7 +485,7 @@ header.stickey .logo-brand img{
 }
 .sidebar-nav li {
     color: #fff;
-    background-color: #7d5ab5;
+    background-color: #42b6eb;
 }
 .sidebar-nav li:hover:before,
 .sidebar-nav li.open:hover:before {
@@ -498,7 +498,7 @@ header.stickey .logo-brand img{
 
 .sidebar-nav li a {
     display: block;
-    color: #ddd;
+    color: #fff;
     text-decoration: none;
     padding: 10px 15px 10px 30px;    
 }
@@ -526,7 +526,7 @@ header.stickey .logo-brand img{
     margin: 0;
     border-radius: 0;
     border: none;
-    background-color: #222;
+    background-color: #c42bb7;
     box-shadow: none;
 }
 
