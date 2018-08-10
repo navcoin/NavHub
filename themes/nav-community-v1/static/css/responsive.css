@@ -190,9 +190,7 @@ span.price-tag {
   	background-color:transparent;
   }
 
-  /* hamburger menu */
-
-  .main-menu button {
+  #header-wrapper > header > nav > div.col-sm-3 > button {
     margin-right: 9%;
   }
 
@@ -207,8 +205,6 @@ span.price-tag {
     background: transparent;
     border: none;
   }
-
-  /* sidebar */
 
   #sidebar-wrapper {
     margin-top: 49px;
