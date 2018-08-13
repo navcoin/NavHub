@@ -1,6 +1,5 @@
 ---
 layout: news
-generated_by_cms: true
 title: NEXT Wallet Beta 1.0.4 Released
 author: Seyhan Akdeniz
 date: '2018-08-13T16:54:12+12:00'
@@ -8,6 +7,9 @@ feature_image: /images/next-wallet/next_1_0_4_beta_released.png
 categories:
   - Nav News
 ---
+We have been hard at work on the latest BETA release of the NEXT Wallet. Along with a whole lot of improvements, we have now added support  LITECOIN, PIVX, DASH, CROWN, VIACOIN, PARTICL, PHORE as well as NAV. 
+
+We have been hard at work on the latest BETA release of the NEXT Wallet. Along with a whole lot of improvements, we have now added support  LITECOIN, PIVX, DASH, CROWN, VIACOIN, PARTICL, PHORE as well as NAV. 
 
 NEXT 1.0.4 Beta build for Windows, MacOS and Ubuntu released.
 
