@@ -530,6 +530,25 @@ and (orientation : landscape) {
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : portrait) {
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+    margin-top: 1%;
+  }
+
+  header.stickey .logo-brand img {
+    height: 24px;
+    margin-top: 24%;
+  }
+
+  .hamburger {
+    width: 35px;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 0;
+      margin-top: 4%;
+  }
   
 }
 
