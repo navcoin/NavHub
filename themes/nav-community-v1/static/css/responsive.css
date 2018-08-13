@@ -177,6 +177,12 @@ span.price-tag {
     margin-right: 0!important;
   }
 
+  header.stickey .logo-brand img {
+      height: 24px;
+      margin-top: 20%;
+      margin-left: -49%;
+  }
+
   .nav li ul {
     display: none;
     position: relative;
@@ -187,34 +193,33 @@ span.price-tag {
   }
 
   .main-menu .navbar-nav li a:hover {
-  	background-color:transparent;
+  	background-color: transparent;
   }
 
   #header-wrapper > header > nav > div.col-sm-3 > button {
-    margin-right: 9%;
+    margin-right: 1%;
+    margin-top: -1%;
   }
 
   .main-menu .hamburger {
     position: relative;
     float: right;
-    z-index: 999;
-    display: block;
-    width: 40px;
-    height: 32px;
-    margin-right: 0%;
-    background: transparent;
-    border: none;
   }
 
-  #sidebar-wrapper {
-    margin-top: 49px;
-    height: 41%;
+  .sidebar-nav {
+    top: 10%;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 100%;
+    right: -30vw;
   }
 
   /* slider area */
   .first-skew-sub-1{
-          display: none;
-      }
+      display: none;
+  }
   .caption-area {
       padding: 140px 0;
       text-align: center;
