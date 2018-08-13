@@ -1,5 +1,5 @@
 <div id="wrapper">
-   {{ template "theme/partials/header_menu.html" . }}
+
    <div id="header-wrapper">
       <header class="stickey">
          <nav class="main-menu">
@@ -19,6 +19,37 @@
             </div>
          </nav>
       </header>
+   </div>
+
+    <nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+       <ul class="nav sidebar-nav">    
+           {{ $currentPage := . }}
+           {{ range .Site.Menus.main }}
+           {{ if .HasChildren }}
+           <li class="sidebar-brand {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-dropdown">
+           <span class="nav-top-item">
+               {{ .Pre }}
+               <span>{{ .Name }}</span>
+               <span class="fa fa-angle-double-down"></span>
+           </span>
+           <ul class="sub-menu">
+               {{ range .Children }}
+               <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+               <a href="{{ .URL }}"><span class="fa fa-angle-right"></span>{{ .Name }}</a>
+               {{ end }}
+           </ul>
+           {{else}}
+           <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+               <a href="{{.URL}}">
+                   {{ .Pre }}
+                   <span>{{ .Name }}</span>
+               </a>
+           {{end}}
+           {{end}}
+           </li>
+       </ul>
+   </nav> 
+
       <div class="themeix-small">
         <div class="main-slider-overlay page-header-bg">
          <div class="container">
@@ -39,5 +70,3 @@
          </div>
        </div>
       </div>
-   </div>
-</div>

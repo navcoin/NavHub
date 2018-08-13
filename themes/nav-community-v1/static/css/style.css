@@ -294,7 +294,7 @@ section.pt-25 {
 header {
     position: absolute;
     width: 100%;
-    z-index: 200;
+    z-index: 2000;
     left: 0;
     top: 0;
 }
@@ -398,33 +398,35 @@ header.stickey .logo-brand img{
 /*-------------------------------*/
 
 #wrapper {
-    padding-left: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-#wrapper.toggled {
-    padding-left: 220px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
 }
 
 #sidebar-wrapper {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
     z-index: 1000;
     left: auto;
-    right: 220px;
-    width: 33vw;
+    right: -10vw;
+    width: 24vw;
     height: 100vh;
-    margin-right: -220px;
     overflow-y: auto;
     overflow-x: hidden;
     background: white;
-    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0s linear 300ms,opacity 300ms linear;
+    -webkit-box-shadow: 19px 0px 40px 22px rgba(0,0,0,0.32);
+    -moz-box-shadow: 19px 0px 40px 22px rgba(0,0,0,0.32);
+    box-shadow: 19px 0px 40px 22px rgba(0,0,0,0.32);
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
 }
 
 #sidebar-wrapper::-webkit-scrollbar {
@@ -432,7 +434,11 @@ header.stickey .logo-brand img{
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 220px;
+    width: 24vw;
+    right: 0vw;
+    visibility:visible;
+    opacity:1;
+    transition-delay:0s;
 }
 
 #header-wrapper {
@@ -441,7 +447,6 @@ header.stickey .logo-brand img{
 
 #wrapper.toggled #header-wrapper {
     position: absolute;
-    margin-left: -220px;
 }
 
 .nav .open > a, 
@@ -478,11 +483,6 @@ header.stickey .logo-brand img{
     height: 100%;
     width: 3px;
     background-color: white;
-    -webkit-transition: width .2s ease-in;
-      -moz-transition:  width .2s ease-in;
-       -ms-transition:  width .2s ease-in;
-            transition: width .2s ease-in;
-
 }
 .sidebar-nav li {
     background-color: white;
@@ -492,10 +492,6 @@ header.stickey .logo-brand img{
 .sidebar-nav li:hover:before,
 .sidebar-nav li.open:hover:before {
     width: 100%;
-    -webkit-transition: width .2s ease-in;
-      -moz-transition:  width .2s ease-in;
-       -ms-transition:  width .2s ease-in;
-            transition: width .2s ease-in;
 }
 
 .sidebar-nav li a {
@@ -533,13 +529,13 @@ header.stickey .logo-brand img{
 }
 
 /*-------------------------------*/
-/*       Hamburger-Fest         */
+/*       Hamburger-Menu         */
 /*-------------------------------*/
 
 .hamburger {
-  position: fixed;
+  position: absolute;
   top: 9px;  
-  z-index: 999;
+  z-index: 1500;
   display: block;
   width: 40px;
   height: 32px;
