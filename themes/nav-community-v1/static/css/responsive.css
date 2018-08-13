@@ -424,6 +424,26 @@ span.price-tag {
 
 }
 
+/* Large mobile layout */
+@media(min-width: 480px) and (max-width: 767px){
+
+  .single-pricing {
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:330px;
+  }
+  
+  .share-icon span {
+  	display:inline-block;
+  }
+  
+  .image-dawo {
+  	display:block;
+  }
+
+}
+
 /* iphone X */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 
@@ -448,25 +468,6 @@ span.price-tag {
 }
 
 
-/* Large mobile layout */
-@media(min-width: 480px) and (max-width: 767px){
-
-  .single-pricing {
-  margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width:330px;
-  }
-  
-  .share-icon span {
-  	display:inline-block;
-  }
-  
-  .image-dawo {
-  	display:block;
-  }
-
-}
 
 /* iPhone 6 in portrait & landscape */
 @media only screen 
@@ -480,6 +481,33 @@ and (max-device-width : 667px) {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : landscape) {
+
+  header.stickey .main-menu {
+      height: 16vh;
+  }
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+  }
+
+  header.stickey .logo-brand img {
+    height: 30px;
+    margin-top: 32%;
+  }
+
+  .hamburger {
+    width: 8vw;
+    height: 8vh;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1vw;
+      margin-top: 4vh;
+  }
+
+  .sidebar-nav {
+      top: 17%;
+  }
   
 }
 
@@ -522,6 +550,33 @@ and (max-device-width : 736px) {
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : landscape) {
+
+  header.stickey .main-menu {
+      height: 16vh;
+  }
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+  }
+
+  header.stickey .logo-brand img {
+    height: 30px;
+    margin-top: 32%;
+  }
+
+  .hamburger {
+    width: 8vw;
+    height: 8vh;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1vw;
+      margin-top: 4vh;
+  }
+
+  .sidebar-nav {
+      top: 17%;
+  }
   
 }
 
@@ -542,12 +597,13 @@ and (orientation : portrait) {
   }
 
   .hamburger {
-    width: 35px;
+    width: 10vw;
+    height: 5vh;
   }
 
   #header-wrapper > header > nav > div.col-sm-3 > button {
-      margin-right: 0;
-      margin-top: 4%;
+      margin-right: 3vw;
+      margin-top: 2vh;
   }
   
 }
