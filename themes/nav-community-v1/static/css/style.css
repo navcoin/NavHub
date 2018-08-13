@@ -385,11 +385,9 @@ header {
 }
 .logo-brand img {
     height: 47px;
-    width: auto!Important;
 }
 header.stickey .logo-brand img{
 	height: 30px;
-    width: auto!Important;
     margin-top: 9px;
 }
 

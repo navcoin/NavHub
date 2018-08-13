@@ -177,10 +177,17 @@ span.price-tag {
     margin-right: 0!important;
   }
 
-  header.stickey .logo-brand img {
-      height: 24px;
-      margin-top: 20%;
-      margin-left: -49%;
+  .logo-brand {
+    float: left;
+  }
+
+  header.stickey .logo-brand img{
+    height: 24px;
+    margin-top: 24%;
+  }
+
+  header.stickey .main-menu {
+    height: 8vh;
   }
 
   .nav li ul {
@@ -198,7 +205,7 @@ span.price-tag {
 
   #header-wrapper > header > nav > div.col-sm-3 > button {
     margin-right: 1%;
-    margin-top: -1%;
+    margin-top: 3%;
   }
 
   .main-menu .hamburger {
@@ -416,6 +423,30 @@ span.price-tag {
   }
 
 }
+
+/* iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+  header.stickey .logo-brand {
+    margin-left: 5px;
+  }
+
+  header.stickey .logo-brand img{
+    height: 27px;
+    margin-top: 35%;
+  }
+
+  header.stickey .main-menu {
+    height: 8vh;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+    margin-right: 3%;
+    margin-top: 5%;
+  }
+
+}
+
 
 /* Large mobile layout */
 @media(min-width: 480px) and (max-width: 767px){
