@@ -55,7 +55,7 @@ span.price-tag {
 }
 }
 
-/* Tablate layout:768px  */
+/* Tablet layout:768px  */
 @media(min-width: 768px) and (max-width: 991px){
 
 #project .caption-area {
