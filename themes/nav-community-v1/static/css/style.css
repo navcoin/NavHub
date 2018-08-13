@@ -414,12 +414,13 @@ header.stickey .logo-brand img{
     z-index: 1000;
     left: auto;
     right: 220px;
-    width: 0;
-    height: 100%;
+    width: 33vw;
+    height: 100vh;
     margin-right: -220px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #42b6eb;
+    background: white;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -454,7 +455,7 @@ header.stickey .logo-brand img{
 
 .sidebar-nav {
     position: absolute;
-    top: 0;
+    top: 50px;
     width: 220px;
     margin: 0;
     padding: 0;
@@ -476,7 +477,7 @@ header.stickey .logo-brand img{
     z-index: -1;
     height: 100%;
     width: 3px;
-    background-color: #7d5ab5;
+    background-color: white;
     -webkit-transition: width .2s ease-in;
       -moz-transition:  width .2s ease-in;
        -ms-transition:  width .2s ease-in;
@@ -484,8 +485,9 @@ header.stickey .logo-brand img{
 
 }
 .sidebar-nav li {
-    color: #fff;
-    background-color: #42b6eb;
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
 }
 .sidebar-nav li:hover:before,
 .sidebar-nav li.open:hover:before {
@@ -497,10 +499,10 @@ header.stickey .logo-brand img{
 }
 
 .sidebar-nav li a {
+    color: #333;
     display: block;
-    color: #fff;
     text-decoration: none;
-    padding: 10px 15px 10px 30px;    
+    padding: 28px 11px 10px 40px;
 }
 
 .sidebar-nav li a:hover,
@@ -509,7 +511,7 @@ header.stickey .logo-brand img{
 .sidebar-nav li.open a:hover,
 .sidebar-nav li.open a:active,
 .sidebar-nav li.open a:focus{
-    color: #fff;
+    color: #61a5dc;
     text-decoration: none;
     background-color: transparent;
 }
