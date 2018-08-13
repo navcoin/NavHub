@@ -554,7 +554,8 @@ header.stickey .logo-brand img{
   float: right;
   margin-top: 3%;
   display: block;
-  width: 100px;
+  width: 30px;
+  height: 30px;
   font-size: 14px;
   color: #fff;
   line-height: 20px;
