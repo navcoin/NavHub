@@ -1,72 +1,23 @@
 <div id="wrapper">
-
-   <div id="header-wrapper">
-      <header class="stickey">
-         <nav class="main-menu">
-            <div class="col-sm-9">
-               <div class="logo-brand">
-                  <a href="/">
-                     <img src="{{ "images/nav-logo.png" | relURL }}" alt="logo">
-                  </a>
-               </div>
-            </div>
-            <div class="col-sm-3">
-               <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                  <span class="hamb-top"></span>
-                  <span class="hamb-middle"></span>
-                  <span class="hamb-bottom"></span>
-               </button>
-            </div>
-         </nav>
-      </header>
+  {{ template "theme/partials/burger_menu.html" . }}
+  {{ template "theme/partials/sidebar_menu.html" . }}
+  <div class="themeix-small">
+    <div class="main-slider-overlay page-header-bg">
+     <div class="container">
+        <div class="row">
+           <div class="col-md-12">
+              <div class="page-header-title">
+                 <h2>Latest News</h2>
+                 <ul class="page-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/news">News</a></li>
+                    {{ if ne .Title "News" }}
+                    <li>{{ .Title }}</li>
+                    {{ end }}
+                 </ul>
+              </div>
+           </div>
+        </div>
+     </div>
    </div>
-
-    <nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-       <ul class="nav sidebar-nav">    
-           {{ $currentPage := . }}
-           {{ range .Site.Menus.main }}
-           {{ if .HasChildren }}
-           <li class="sidebar-brand {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-dropdown">
-           <span class="nav-top-item">
-               {{ .Pre }}
-               <span>{{ .Name }}</span>
-               <span class="fa fa-angle-double-down"></span>
-           </span>
-           <ul class="sub-menu">
-               {{ range .Children }}
-               <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-               <a href="{{ .URL }}"><span class="fa fa-angle-right"></span>{{ .Name }}</a>
-               {{ end }}
-           </ul>
-           {{else}}
-           <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-               <a href="{{.URL}}">
-                   {{ .Pre }}
-                   <span>{{ .Name }}</span>
-               </a>
-           {{end}}
-           {{end}}
-           </li>
-       </ul>
-   </nav> 
-
-      <div class="themeix-small">
-        <div class="main-slider-overlay page-header-bg">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="page-header-title">
-                     <h2>Latest News</h2>
-                     <ul class="page-list">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/news">News</a></li>
-                        {{ if ne .Title "News" }}
-                        <li>{{ .Title }}</li>
-                        {{ end }}
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-       </div>
-      </div>
+  </div>
