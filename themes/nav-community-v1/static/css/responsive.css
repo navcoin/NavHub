@@ -20,153 +20,202 @@ span.price-tag {
 
 /* Normal desktop:992px  */
 @media(min-width: 992px) and (max-width: 1169px){
-.navbar-nav li a {
-		padding: 12px 13px;
-		font-size: 15px;
 
-		text-transform: uppercase;
-		display: block;
-		transition: all 0.5s ease-in-out;
-		font-weight: 700;
-}
-.themeix-sub-title::after {
-	position: absolute;
-	content: "";
-	height: 3px;
-	left: 48%;
-	top: 40px;
-	width: 4%;
-	background: #ffffff;
-	text-align: center;
-	margin: 0 auto;
-}
-/* conta us */
-.change-color{
-	color: #fff;
-}
-.first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
-	transform-origin: 684% 50%;
-}
-span.price-tag {
+  .navbar-nav li a {
+  		padding: 12px 13px;
+  		font-size: 15px;
+  		text-transform: uppercase;
+  		display: block;
+  		transition: all 0.5s ease-in-out;
+  		font-weight: 700;
+  }
+  
+  .themeix-sub-title::after {
+  	position: absolute;
+  	content: "";
+  	height: 3px;
+  	left: 48%;
+  	top: 40px;
+  	width: 4%;
+  	background: #ffffff;
+  	text-align: center;
+  	margin: 0 auto;
+  }
+  
+  .change-color{
+  	color: #fff;
+  }
+  
+  .first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
+  	transform-origin: 684% 50%;
+  }
+  
+  span.price-tag {
 
-  right: -105px;
-  top: 30px;
+    right: -105px;
+    top: 30px;
+  }
 
-}
 }
 
 /* Tablet layout:768px  */
-@media(min-width: 768px) and (max-width: 991px){
+@media(min-width: 768px) and (max-width: 991px) {
 
-#project .caption-area {
-  padding: 20px!important;
-}
+  header.stickey .logo-brand {
+    margin-left: 0;
+  }
 
-/* slider design */
-.caption-area {
-	text-align: center;
-	margin-top: 52px;
-}
+  header.stickey .logo-brand img {
+    height: 24px;
+    margin-top: 24%;
+  }
 
-.first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
-	transform-origin: 977% 50%;
-}
-/* menu design */
-.navbar-nav li a {
-	padding: 4px 12px;
-}
-/* about appix*/
-.about-appix-right-content{
-	text-align: center;
-}
-.about-pb {
-	padding-top: 100px;
-	padding-bottom: 70px;
-}
-.about-appix-left-img img{
-	text-align: center;
-  margin: 0 auto;
-}
-.about-appix-center-img img{
-  text-align: center;
-  margin: 0 auto;
-}
-.about-pb {
-	padding-top: 44px;
-	padding-bottom: 70px;
-}
-/* exclusive feature */
-.padd-minus{
-    padding: 12px 0px!important;
-}
-/* testimonials */
-.pb-120 {
-	padding-bottom: 60px;
-}
-.pt {
-	padding-top: 30px;
-}
-.pb-70 {
-	padding-bottom: 0px;
-}
-/* pricing table */
-.single-pricing > h2 {
-	font-size: 25px;
-}
+  .hamburger {
+    width: 35px;
+  }
 
-span.dollar-rate {
-	font-size: 40px;
-	line-height: 70px;
-}
-ul.pricing-features > li {
-	font-size: 14px;
-}
-.themeix-button-group .active-bg {
-	padding: 14px 32px !important;
-}
-.themeix-button-group .themeix-btn {
-	margin-right:0;
-}
-.price-btn-cust, .active-bg {
-	padding: 14px 32px !important;
-}
-/* conta us */
-.change-color{
-	color: #fff;
-}
-#carousel {
-	height: 800px;
-	display: relative;
-	margin-top: -122px;
-}
-.phone-holder {
-	width:100%;
-}
-.feature-content .themeix-feature-title {
-	font-size:18px;
-}
-.feature-icon i {
-	margin-right:10px;
-}
-span.price-tag {
+  .main-menu .hamburger {
+    position: relative;
+    float: right;
+  }
 
-  right: -75px;
-  top: 26px;
+  .sidebar-nav {
+    top: 10%;
+    width: 100%;
+  }
 
-}
-.share-icon span {
-	display:none;
-}
-.hgi {
-  height: 410px;
-  left: 12px;
-  position: absolute;
-  text-align: center;
-  top: 58px;
-  visibility: hidden;
-  width: 220px;
-}
+  #wrapper.toggled #sidebar-wrapper {
+    width: 100%;
+    right: -50vw;
+  }
 
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1%;
+      margin-top: 4%;
+  }
+
+  #project .caption-area {
+    padding: 20px!important;
+  }
+
+  .caption-area {
+  	text-align: center;
+  	margin-top: 52px;
+  }
+
+  .first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
+  	transform-origin: 977% 50%;
+  }
+
+  .navbar-nav li a {
+  	padding: 4px 12px;
+  }
+
+  .about-appix-right-content{
+  	text-align: center;
+  }
+
+  .about-pb {
+  	padding-top: 100px;
+  	padding-bottom: 70px;
+  }
+
+  .about-appix-left-img img{
+  	text-align: center;
+    margin: 0 auto;
+  }
+
+  .about-appix-center-img img{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .about-pb {
+  	padding-top: 44px;
+  	padding-bottom: 70px;
+  }
+
+  .padd-minus{
+      padding: 12px 0px!important;
+  }
+
+  .pb-120 {
+  	padding-bottom: 60px;
+  }
+
+  .pt {
+  	padding-top: 30px;
+  }
+
+  .pb-70 {
+  	padding-bottom: 0px;
+  }
+
+  .single-pricing > h2 {
+  	font-size: 25px;
+  }
+
+  span.dollar-rate {
+  	font-size: 40px;
+  	line-height: 70px;
+  }
+
+  ul.pricing-features > li {
+  	font-size: 14px;
+  }
+
+  .themeix-button-group .active-bg {
+  	padding: 14px 32px !important;
+  }
+
+  .themeix-button-group .themeix-btn {
+  	margin-right:0;
+  }
+
+  .price-btn-cust, .active-bg {
+  	padding: 14px 32px !important;
+  }
+
+  .change-color{
+  	color: #fff;
+  }
+  
+  #carousel {
+  	height: 800px;
+  	display: relative;
+  	margin-top: -122px;
+  }
+
+  .phone-holder {
+  	width:100%;
+  }
+
+  .feature-content .themeix-feature-title {
+  	font-size:18px;
+  }
+
+  .feature-icon i {
+  	margin-right:10px;
+  }
+
+  span.price-tag {
+    right: -75px;
+    top: 26px;
+  }
+  
+  .share-icon span {
+  	display:none;
+  }
+  
+  .hgi {
+    height: 410px;
+    left: 12px;
+    position: absolute;
+    text-align: center;
+    top: 58px;
+    visibility: hidden;
+    width: 220px;
+  }
 
 }
 
@@ -181,7 +230,7 @@ span.price-tag {
     float: left;
   }
 
-  header.stickey .logo-brand img{
+  header.stickey .logo-brand img {
     height: 24px;
     margin-top: 24%;
   }
@@ -451,7 +500,7 @@ span.price-tag {
     margin-left: 5px;
   }
 
-  header.stickey .logo-brand img{
+  header.stickey .logo-brand img {
     height: 27px;
     margin-top: 35%;
   }
