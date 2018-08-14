@@ -140,9 +140,9 @@ $('#features').zenith({
            7. Preloader
 ========================================== */
  
-         $(window).load(function(){
-          $('.preloader').fadeOut(1000);  
-        });
+       $(window).on("load", function (e) {
+        $('.preloader').fadeOut(1000);  
+       })
  
 /* ==========================================
            8.  App Screenshots
@@ -228,6 +228,37 @@ var smoothScrollWithoutHash = function (selector, settings) {
   window.addEventListener('click', clickHandler, false );
 };
 smoothScrollWithoutHash( 'a[href*="#"]' );
+
+/* ==========================================
+           11. Hamburgler Supreme
+========================================== */
+
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+      $('#wrapper').toggleClass('toggled');
+  });  
 
 })(jQuery);
 

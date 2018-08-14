@@ -60,24 +60,17 @@ twitter_username = "navcoin"
     url = "/roadmap/"
     identifier = "roadmap"
 [[menu.main]]
-    name = "Resources"
-    title = "Resources"
-    weight = -116
-    identifier = "resources"
-    [[menu.main]]
-        name = "Information"
-        title = "Information"
-        weight = 2
-        url = "/information/"
-        identifier = "information"
-        parent = "resources"
-    [[menu.main]]
-        name = "Community Assets"
-        title = "Community Assets"
-        weight = 3
-        url = "/assets/"
-        identifier = "assets"
-        parent = "resources"
+    name = "Information"
+    title = "Information"
+    weight = 2
+    url = "/information/"
+    identifier = "information"
+[[menu.main]]
+    name = "Community Assets"
+    title = "Community Assets"
+    weight = 3
+    url = "/assets/"
+    identifier = "assets"
 [[menu.main]]
     name = "Merchants"
     title = "Merchants"
