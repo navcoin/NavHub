@@ -40,7 +40,7 @@ command = "hugo"
 
 [[redirects]]
   from = "https://deploy-preview-120--navhub.netlify.com/merchants"
-  to = "https://deploy-preview-26--navcoin.netlify.com/mercants"
+  to = "https://deploy-preview-26--navcoin.netlify.com/merchants"
   status = 301
   force = true
 
