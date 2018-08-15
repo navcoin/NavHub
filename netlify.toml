@@ -33,19 +33,19 @@ command = "hugo"
   force = true
 
 [[redirects]]
-  from = "https://deploy-preview-120--navhub.netlify.com/manifestos"
-  to = "https://deploy-preview-26--navcoin.netlify.com/manifestos"
+  from = "https://navhub.org/manifestos"
+  to = "https://navcoin.org/manifestos"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://deploy-preview-120--navhub.netlify.com/merchants"
-  to = "https://deploy-preview-26--navcoin.netlify.com/merchants"
+  from = "https://navhub.org/merchants"
+  to = "https://navcoin.org/merchants"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://deploy-preview-120--navhub.netlify.com/how-to-accept-navcoin"
-  to = "https://deploy-preview-26--navcoin.netlify.com/how-to-accept-navcoin"
+  from = "https://navhub.org/how-to-accept-navcoin"
+  to = "https://navcoin.org/how-to-accept-navcoin"
   status = 301
   force = true
