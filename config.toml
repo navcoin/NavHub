@@ -72,12 +72,6 @@ twitter_username = "navcoin"
     url = "/assets/"
     identifier = "assets"
 [[menu.main]]
-    name = "Merchants"
-    title = "Merchants"
-    weight = -114
-    identifier = "merchants"
-    url = "/merchants/"
-[[menu.main]]
     name = "Get Involved"
     title = "Get Involved"
     weight = -113

@@ -941,6 +941,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
   
 }
 
+.main-menu {
+	border-bottom:medium none;
+}
+
 /* iPad mini in portrait & landscape */
 @media only screen 
 and (min-device-width : 768px) 
@@ -964,8 +968,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio: 1) {
-  
 }
+
 
 /* Galaxy Tab 10.1 portrait and landscape */
 @media

@@ -32,7 +32,7 @@ draft: false
     bgColor="#7d5ab5"
     linkBgColor="#523971"
     btn1Txt="View Manifestos"
-    btn1Link="/manifestos">}}
+    btn1Link="https://www.navcoin.org/manifestos">}}
     <p>The objective of NavCoin Developer and Content Manifestos is to clearly set out the reasons contributors to the NavCoin community do what we do, how we do it and why. These documents cover guiding principles, purpose, scope of work and operational requirements to ensure we share the same values and always operate in the best interests of the network.</p>
 {{< /left_image_section >}}
 {{< home_features
