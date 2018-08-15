@@ -10,6 +10,8 @@ categories:
 ---
 This week sees the launch of a long-term project by community developer Hash512 - his NavCoin m8 staking device is ready to go later this week. Check out the description of its features a little way down the page, and give your support to this ambitious community project. 
 
+This week sees the launch of a long-term project by community developer Hash512 - his NavCoin m8 staking device is ready to go later this week. Check out the description of its features a little way down the page, and give your support to this ambitious community project. 
+
 Another community developer Prodpeak has been extending the capabilities of his project the NavExplorer - which is a block explorer for NavCoin that allows you to view transactions and blocks as they happen. His pull request on GitHub has just been approved meaning the next release of NavPay and NavCoin Core will use NavExplorer to display detailed records of your transactions. Find out what else he’s been doing in the Developer Updates section below, and view the NavExplorer here:
 
 <https://www.navexplorer.com>
@@ -35,7 +37,7 @@ Prodpeak has deployed OpenAlias integration to the NavExplorer’s testnet brows
 Sakdinez has been hard at work to release the latest version of the NEXT wallet - available for Windows, MacOS, and Ubuntu. This has a number of improvements, including the additional support of other cryptocurrencies.
 
 You can view the release update which was published on NavHub here:
-https://navhub.org/news/2018-08-13-next-wallet-1-0-4-released/
+<https://navhub.org/news/2018-08-13-next-wallet-1-0-4-released>
 
 ### Website Refresh
 The Core developer’s key focus in the past week has been on refreshing navhub.org and navcoin.org. The revised sitemaps are being finalised, some pages were moved between the sites, and a new page was built for the Community Fund on NavHub. The overall objective is to make the role of each website clearer, and to improve and expand the resources available to the community.
