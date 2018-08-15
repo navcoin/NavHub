@@ -34,7 +34,7 @@ Prodpeak has deployed OpenAlias integration to the NavExplorer’s testnet brows
 <https://github.com/NavExplorer>
 
 ### NEXT Wallet 1.0.4
-Sakdinez has been hard at work to release the latest version of the NEXT wallet - available for Windows, MacOS, and Ubuntu. This has a number of improvements, including the additional support of other cryptocurrencies.
+Sakdeniz has been hard at work to release the latest version of the NEXT wallet - available for Windows, MacOS, and Ubuntu. This has a number of improvements, including the additional support of other cryptocurrencies.
 
 You can view the release update which was published on NavHub here:
 <https://navhub.org/news/2018-08-13-next-wallet-1-0-4-released>
