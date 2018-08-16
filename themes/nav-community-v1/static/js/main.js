@@ -2,71 +2,14 @@
     "use strict";
 		
 /* ==========================================
-           4. service slider
-========================================== */
-$('.service-slider-section').owlCarousel({
-    loop: false,
-    autoplay:true,
-    smartSpeed:2000,
-    responsiveClass:true,
-    margin:20,
-    responsive:{
-        0:{
-            items:1,
-        },
-        600:{
-            items:1,
-        },
-       1000:{
-            items:3
-        }
-    }
-});
-
-/* ==========================================
-           5. testimonial-slider
-========================================== */
-$('.testimonial-slider-wrapper').owlCarousel({
-    loop:true,
-    autoplay:true,
-    nav:true,
-    smartSpeed:2000,
-    navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-        },
-        600:{
-            items:1,
-        },
-       1000:{
-            items:1
-            
-    
-        }
-    }
-});
-
-/* ==========================================
-           6. exclusive features
-========================================== */
-$('#features').zenith({
-          slideSpeed: 600, 
-          autoplaySpeed: 2000,
-          animation : "RotateDown",
-          autoplay:true
-      });
-    
-/* ==========================================
            7. Preloader
 ========================================== */
-$(window).on("load", function (e) {
-  $('.preloader').fadeOut(1000);  
-})
+  $(window).on("load", function (e) {
+    $('.preloader').fadeOut(1000);  
+  })
  
 /* ==========================================
-           9. background video
+           Background Video
 ========================================== */
 
    if ($("#video").length > 0) {
@@ -76,7 +19,7 @@ $(window).on("load", function (e) {
 }
 
 /* ==========================================
-           10. Smooth Scroll
+           Smooth Scroll
 ========================================== */
 var scroll = new SmoothScroll();
 var smoothScrollWithoutHash = function (selector, settings) {
@@ -100,7 +43,7 @@ var smoothScrollWithoutHash = function (selector, settings) {
 smoothScrollWithoutHash( 'a[href*="#"]' );
 
 /* ==========================================
-           11. Hamburgler Supreme
+           Hamburger Sidebar Menu
 ========================================== */
 
   var trigger = $('.hamburger'),

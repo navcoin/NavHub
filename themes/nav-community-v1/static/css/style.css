@@ -1061,16 +1061,6 @@ header.stickey .logo-brand img{
     margin-right: 0;
     text-align: left;
 }
-#features .highlight.active .fa {
-    background: none!important;
-}
-#features .highlight.active .themeix-feature-title,
-#features .highlight.active .feature-icon i {
-    color: #3F8EE8;
-}
-#features {
-    background: #fff;
-}
 .feature-content .themeix-feature-title {
     font-size: 20px;
     margin-bottom: 5px;
