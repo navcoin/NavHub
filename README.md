@@ -7,6 +7,8 @@ Want to add a project, update or fix some errors. Then please fork the project a
 ## Geting started
 The NAV community site is built with the static site generator [Hugo](https://gohugo.io/).
 
+This website is built using Hugo Version 0.46.
+
 ### Install Hugo
 You will need Hugo installed on your system to preview any changes. Follow the install instructions for your OS here:
 https://gohugo.io/getting-started/installing/
