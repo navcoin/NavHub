@@ -2,7 +2,7 @@
     "use strict";
 		
 /* ==========================================
-           7. Preloader
+           Preloader
 ========================================== */
   $(window).on("load", function (e) {
     $('.preloader').fadeOut(1000);  
