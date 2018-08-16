@@ -2,84 +2,6 @@
     "use strict";
 		
 /* ==========================================
-           1. Skew BG
-========================================== */  	
-	
-
-	
-	function skew_position() {
-    var window_width = jQuery(window).width();
-    var skew_square_height = window_width / 18.5;
-    jQuery(".skew_appended").height(skew_square_height + "px").css("bottom", "-" + skew_square_height / 2 + "px").css("-webkit-backface-visibility", "hidden !important");
-	  jQuery(".skew_prepended").height(skew_square_height + "px").css("top", "-" + (skew_square_height / 2 + 1) + "px").css("-webkit-backface-visibility", "hidden !important");
-
-   jQuery(".skew").not(".module_google_map").append('<div class="skew_appended"></div>');
-   jQuery(".skew, .module_google_map .skew, .pre_footer.skew").not(".remove-top-skew").append('<div class="skew_prepended"></div>');
-   
- }
-
-	skew_position();
-	
-	
-	var windos = $(window);
-	windos.resize( function(){
-    skew_position();
-  });
-  
-  
-	
-/* ==========================================
-           1. owl carousel
-========================================== */  
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    autoplay:false,
-    smartSpeed:1000,
-    items:1,
-    navText:["<i class=' fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1
-            
-        },
-        600:{
-            items:1
-           
-        },
-        1000:{
-            items:1
-            
-         
-        }
-    }
-});
-
-/* ==========================================
-           2. stickey menu
-   ========================================== */
-
-function sticky_menu(){
-
-var windows = $(window);
-windows.on('scroll',function(){
-  var scroll = windows.scrollTop();
-    if(scroll < 110){   
-        $("#stickey-menu").removeClass("stickey");
-    }else{
-        $("#stickey-menu").addClass("stickey");
-    }
-    
-});
-
-}
-sticky_menu();
-
-
-
-
-
-/* ==========================================
            4. service slider
 ========================================== */
 $('.service-slider-section').owlCarousel({
@@ -125,6 +47,7 @@ $('.testimonial-slider-wrapper').owlCarousel({
         }
     }
 });
+
 /* ==========================================
            6. exclusive features
 ========================================== */
@@ -135,72 +58,19 @@ $('#features').zenith({
           autoplay:true
       });
     
-
 /* ==========================================
            7. Preloader
 ========================================== */
+$(window).on("load", function (e) {
+  $('.preloader').fadeOut(1000);  
+})
  
-       $(window).on("load", function (e) {
-        $('.preloader').fadeOut(1000);  
-       })
- 
-/* ==========================================
-           8.  App Screenshots
-========================================== */
-
-
-
-
-
-function waterwheelCarousel(){
-
-      $(".apps-carousel").waterwheelCarousel({
-        autoPlay :4000,
-        speed :200,
-        animationEasing :'linear',
-       preloadImages : true,
-       sizeMultiplier: 0.6
-    });
-}
-waterwheelCarousel();
-
-function mobiCarousel(){
-
-      $(".mobi-carousel").waterwheelCarousel({
-        autoPlay :4000,
-        speed :200,
-        sidePadding :60,
-        topPadding:10,
-        animationEasing :'linear',
-       preloadImages : true,
-       sizeMultiplier: 0.6,
-       orientation : "vertical"
-    });
-}
-
-var windows = $(window);
-var winWidth = windows.width();
-
- if(winWidth < 700) {
-
-   $(".mobi-carousel").removeClass("apps-carousel").addClass("sm-carousel");
-
-   mobiCarousel();
- }
-
-
- 
-
 /* ==========================================
            9. background video
 ========================================== */
 
-
    if ($("#video").length > 0) {
-
-
     $(".autoplay").magnificPopup({
-
         type: "iframe"
     });
 }
