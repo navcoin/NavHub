@@ -10,6 +10,8 @@ categories:
 ---
 Last week community developer Hash512 (on Discord) achieved a major milestone with the launch of the NavCoin m8 staking device. We covered its specs in detail in last week’s NavCoin Community News, and now it’s available for sale through the NavCoin m8 website. This is the culmination of many months hard work, and is another example of the amazing things can be achieved by the NavCoin community. Get your NavCoin m8 here:
 
+Last week community developer Hash512 (on Discord) achieved a major milestone with the launch of the NavCoin m8 staking device. We covered its specs in detail in last week’s NavCoin Community News, and now it’s available for sale through the NavCoin m8 website. This is the culmination of many months hard work, and is another example of the amazing things can be achieved by the NavCoin community. Get your NavCoin m8 here:
+
 <https://www.navcoinm8.com>
 
 You can get in touch with Hash512 via the m8 Discord channel. Maybe there’s something you could do to help out?
@@ -21,7 +23,6 @@ To show his support for the NavCoin m8 project Beekart created this banner.
 ![NavCoin m8](/images/uploads/dlbqufpuwaa4dvo.jpg)
 
 If you’d like to help spread the word, then feel free to share this post by HaShForce101 on Twitter and show your support: 
-
 
 <https://twitter.com/HaShForce101/status/1031413087742488576>
 
@@ -40,7 +41,6 @@ Community developer BuckoNZ is building an Odroid stakebox for NavCoin. He repor
 Work continued on rolling out the refreshed NavCoin.org website. Once pages are revised or new pages are built they will go live, so make sure to keep an eye out for them. The objective is to make NavCoin.org a more effective resource for developers in the community by providing the tools and support they need to build their own projects.
 
 Craig has started working on his NavCoin Protocol lmprovement Proposal (NPIP004) - the static reward implementation, which is intended to shift NavCoin towards being compliant to the Proof of Stake v3 protocol. You can read Craig’s thoughts on why it’s important here:
-
 
 <https://medium.com/nav-coin/npip004-static-block-reward-70c3a1a1b4e8>
 
