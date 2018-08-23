@@ -18,7 +18,7 @@ You can get in touch with Hash512 via the m8 Discord channel. Maybe there’s so
 
 <https://discord.gg/4z6GPf>
 
-To show his support for the NavCoin m8 project Beekart created this banner.
+To show his support for the NavCoin m8 project Beekart created this banner:
 
 ![NavCoin m8](/images/uploads/dlbqufpuwaa4dvo.jpg)
 
