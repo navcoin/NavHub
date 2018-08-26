@@ -1,4 +1,4 @@
-baseURL = "https://navcore.org"
+baseURL = "https://navhub.org"
 theme = "nav-community-v1"
 
 # English is the default language
@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir = false
 
 [Languages]
 [Languages.en]
-title = "NavCoin Community Site"
+title = "NavCoin Community Hub"
 weight = 1
 languageName = "English"
 
@@ -42,59 +42,40 @@ twitter_username = "navcoin"
   filter = "filter"
 # Main Menu
 [[menu.main]]
-    name = "Home"
-    title = "Home"
-    weight = -130
-    identifier = "home"
-    url = "/"
-[[menu.main]]
     name = "News"
     title = "News"
-    weight = -120
+    weight = -119
     identifier = "news"
     url = "/news/"
 [[menu.main]]
-    name = "Resources"
-    title = "Resources"
-    weight = -110
-    identifier = "resources"
-[[menu.main]]
-    parent = "resources"
     name = "Projects"
     title = "Projects"
-    weight = -109
+    weight = -118
     identifier = "Project"
     url = "/projects/"
 [[menu.main]]
-    parent = "resources"
-    name = "Merchants"
-    title = "Merchants"
-    weight = -108
-    identifier = "merchants"
-    url = "/merchants/"
-[[menu.main]]
-    parent = "resources"
-    name = "Information"
-    title = "Information"
-    weight = -107
-    identifier = "information"
-    url = "/information/"
-[[menu.main]]
     name = "Roadmap"
     title = "Roadmap"
-    weight = -105
+    weight = -117
     url = "/roadmap/"
     identifier = "roadmap"
 [[menu.main]]
+    name = "Information"
+    title = "Information"
+    weight = 2
+    url = "/information/"
+    identifier = "information"
+[[menu.main]]
+    name = "Community Assets"
+    title = "Community Assets"
+    weight = 3
+    url = "/assets/"
+    identifier = "assets"
+[[menu.main]]
     name = "Get Involved"
     title = "Get Involved"
-    weight = -100
+    weight = -113
     url = "/get-involved/"
     identifier = "get-involved"
 
-[[menu.main]]
-    name = "About"
-    title = "About"
-    weight = -90
-    url = "/about-this-website/"
-    identifier = "about-this-website"
+

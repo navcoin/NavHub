@@ -18,10 +18,22 @@ draft: false
     imgHeight="286px"
     imgPadding="44px"
     btn1Txt="Learn About NavCoin"
-    btn1Link="http://www.navcoin.org">}}
+    btn1Link="https://www.navcoin.org">}}
     <p>NavCoin is a decentralized cryptocurrency that uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of NavCoin is carried out collectively by the network.</p>
     <p>NavCoin is open-source. Its design is public, nobody owns or controls NavCoin and everyone can take part.</p>
     <p>Find out more about the protocol at the NavCoin website.</p>
+{{< /left_image_section >}}
+{{< left_image_section
+    title="NavCoin Core Manifestos"
+    imgSrc="/images/icons/nav_purple-contract-large.png"
+    imgHeight="286px"
+    imgPadding="24px"
+    fontColor="#FFF"
+    bgColor="#7d5ab5"
+    linkBgColor="#523971"
+    btn1Txt="View Manifestos"
+    btn1Link="https://www.navcoin.org/manifestos">}}
+    <p>The objective of NavCoin Developer and Content Manifestos is to clearly set out the reasons contributors to the NavCoin community do what we do, how we do it and why. These documents cover guiding principles, purpose, scope of work and operational requirements to ensure we share the same values and always operate in the best interests of the network.</p>
 {{< /left_image_section >}}
 {{< home_features
     bgColor="#42b6eb"
@@ -44,7 +56,7 @@ draft: false
 {{< /home_centre_text_section >}}
 {{< links_section
     title="Join the Community"
-    subtitle="If you’re interested in contributing to NavCore.org or any NavCoin projects, get in touch with the NavCoin Community."
+    subtitle="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
     fontColor="#FFF"
     bgColor="#7d5ab5"
     containerPadding="40px 0 60px 0"

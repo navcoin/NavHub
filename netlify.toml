@@ -1,12 +1,51 @@
 [context.production.environment]
-HUGO_VERSION = "0.37"
-
+HUGO_VERSION = "0.46"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.37"
-
-
+HUGO_VERSION = "0.46"
 
 [build]
 publish = "public"
 command = "hugo"
+
+[[redirects]]
+  from = "https://navcore.org/*"
+  to = "https://navhub.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.navcore.org/*"
+  to = "https://navhub.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.navcore.org/*"
+  to = "https://navhub.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://navcore.org/*"
+  to = "https://navhub.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/manifestos"
+  to = "https://navcoin.org/manifestos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/merchants"
+  to = "https://navcoin.org/merchants"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/how-to-accept-navcoin"
+  to = "https://navcoin.org/how-to-accept-navcoin"
+  status = 301
+  force = true

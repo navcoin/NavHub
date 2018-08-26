@@ -76,11 +76,11 @@ weight: 1
     linkBgColor="#523971"
     gradient=""
     feature1Img="/images/icons/icon-windows.png"
-    feature1Title="Windows (v4.1.1)"
-    feature1Url="https://github.com/NAVCoin/navcoin-core/releases/download/4.1.1/navcoin-4.1.1-win64-setup.exe"
+    feature1Title="Windows (v4.2.1)"
+    feature1Url="https://github.com/NAVCoin/navcoin-core/releases/download/4.2.1/navcoin-4.2.1-win64-setup.exe"
     feature2Img="/images/icons/icon-apple.png"
-    feature2Title="OSX (v4.1.1)"
-    feature2Url="https://github.com/NAVCoin/navcoin-core/releases/download/4.1.1/navcoin-4.1.1-osx.dmg"
+    feature2Title="OSX (v4.2.1)"
+    feature2Url="https://github.com/NAVCoin/navcoin-core/releases/download/4.2.1/navcoin-4.2.1-osx.dmg"
     feature3Img="/images/icons/icon-linux.png"
-    feature3Title="Linux (v4.1.1)"
-    feature3Url="https://github.com/NAVCoin/navcoin-core/releases/download/4.1.1/navcoin-4.1.1-x86_64-linux-gnu.tar.gz">}}
+    feature3Title="Linux (v4.2.1)"
+    feature3Url="https://github.com/NAVCoin/navcoin-core/releases/download/4.2.1/navcoin-4.2.1-x86_64-linux-gnu.tar.gz">}}

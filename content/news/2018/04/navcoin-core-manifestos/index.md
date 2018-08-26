@@ -42,18 +42,18 @@ He said that if you are testing, you should also test this binary in mainnet, ev
 
 Alex has also been investigating the staking difficulty bug, and thinks he’s close to finding the cause. He will give more info soon.
 
-Craig has had a week full of meetings, researching blockchain tech, and leading the efforts behind a suite of NavCoin Core manifestos. The aim of this is to inspire a lot more people to start contributing to the NavCoin project. So alongside drafting manifestos with other community members, he has been refining the NavCore Community Hub at navcore.org - looking at ways to make the ‘projects’ page more useful and nicer looking.
+Craig has had a week full of meetings, researching blockchain tech, and leading the efforts behind a suite of NavCoin Core manifestos. The aim of this is to inspire a lot more people to start contributing to the NavCoin project. So alongside drafting manifestos with other community members, he has been refining the NavCore Community Hub at navhub.org - looking at ways to make the ‘projects’ page more useful and nicer looking.
 
 ‘Project Craig’ has also been getting some overdue work too - including more sleep, which is much needed after several crazy busy months.
 
 Matt has a long list of accomplishments this week:
 
-- Cloned the NavCore.org community site and began work on the static version of NavCoin.org
+- Cloned the NavHub.org community site and began work on the static version of NavCoin.org
 - Built new components for the NavCoin.org static site that will store the content
 - Ported content from the current NavCoin.org to the new NavCoin.org static site
 - NavCoin.org static site now has content parity with the current NavCoin.org site
 - Tested and helped Rowan build new custom NavTech servers feature for NavPay
-- Tested and merged various pull requests for the NavCore.org community site
+- Tested and merged various pull requests for the NavHub.org community site
 
 Rowan powered through a mountain of work this week - spending most of his week updating and enhancing features of NavPay, while managing to find the time to review Sakdeniz’s NavCoin NEXT wallet.
 He finalized and merged the ability to add custom NavTech Servers into NavPay, and improved the setup processes which ensure users protect and encrypt their wallets.

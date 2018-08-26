@@ -24,7 +24,7 @@
                               {{ dateFormat "2 Jan 2006" .Params.date }}
                           </div>
                       </div>
-                      {{ template "theme/partials/social_share.html" . }}
+                      {{ partial "social_share.html" . }}
                   </div>
                   <div class="clearfix"></div>
 
@@ -52,7 +52,7 @@
                                     {{ dateFormat "2 Jan 2006" .Params.date }}
                                 </div>
                             </div>
-                            {{ template "theme/partials/social_share.html" . }}
+                            {{ partial "social_share.html" . }}
                         </div>
                         <div class="clearfix"></div>
                     </div>

@@ -7,6 +7,11 @@
     <span class="card-author-subhead">Project Lead</span>
     <span class="card-author-name"> {{ .Params.author}}</span></label>
   {{ end}}
+  {{ if (eq .Params.beta_testing true) }}
+  <label class="card-author card-status">
+    <span class="card-author-subhead">Status</span>
+    <span class="card-author-name">Beta Testing</span></label>
+  {{ end}}
   <div class="bg-overlay" style="background-color: {{.Params.card_color}};"></div>
     <div class="row">
       <div class="col-xs-12">
@@ -36,7 +41,7 @@
         {{end}}
 
         {{ if .Params.allow_click_through }}
-        <a href="{{.Permalink}}" class="click-through themeix-btn bg-change smoothScroll">Read More <span class="fa fa-chevron-right project-more"></span></a>
+        <a href="{{.RelPermalink}}" class="click-through themeix-btn bg-change smoothScroll">Read More <span class="fa fa-chevron-right project-more"></span></a>
         {{end}}
     </div>
 </div>

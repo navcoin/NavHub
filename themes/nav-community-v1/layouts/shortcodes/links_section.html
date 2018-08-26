@@ -1,5 +1,5 @@
 <section id="project" class="{{ .Get "class"}}">
-    <div class="our-service-section {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}">
+    <div class="our-service-section {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" id="{{ .Get "id"}}">
         <div style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }}; padding: {{ .Get "containerPadding" }};">
           <div class="container">
             <div class="row" style="margin: {{ .Get "titleMargin"}}">

@@ -1,37 +1,33 @@
-<!-- main menu area -->
-<header class="stickey">
-   <nav class="main-menu">
-      <div class="container">
-         <!-- Brand and toggle get grouped for better mobile display -->
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed custom-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><i class="fa fa-bars fa-lg"></i>
-            </button>
-            <div class="logo-brand">
-               <a href="/">
-                  <img src="{{ "images/nav-logo.png" | relURL }}" alt="logo">
-               </a>
+<div id="wrapper">
+   {{ partial "sidebar_menu.html" . }}
+   <div id="header-wrapper">
+      <header class="stickey">
+         <nav class="main-menu">
+            <div class="col-sm-9">
+               <div class="logo-brand">
+                  <a href="/">
+                     <img src="{{ "images/nav-logo.png" | relURL }}" alt="logo">
+                  </a>
+               </div>
             </div>
-         </div>
-         <!-- Collect the nav links, forms, and other content for toggling -->
-         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            {{ template "theme/partials/header_menu.html" . }}
-         </div>
-         <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-   </nav>
-</header>
-<div class="themeix-bg themeix-small">
+            <div class="col-sm-3">
+               <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                  <span class="hamb-top"></span>
+                  <span class="hamb-middle"></span>
+                  <span class="hamb-bottom"></span>
+               </button>
+            </div>
+         </nav>
+      </header>
+   </div>
+</div>
+<div class="themeix-small">
   <div class="main-slider-overlay page-header-bg">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
             <div class="page-header-title">
                <h2>{{ .Title }}</h2>
-               <!--<ul class="page-list">-->
-                  <!--<li><a href="">Home</a></li>-->
-                  <!--<li>News</li>-->
-               <!--</ul>-->
             </div>
          </div>
       </div>

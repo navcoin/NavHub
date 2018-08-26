@@ -63,7 +63,7 @@ Craig's week was one of many meetings, contributing to a range of projects curre
 
 The projects page on the NavCore website has had a refresh, now with sorting by project categories and a more visually appealing design.
 
-https://www.navcore.org/projects
+https://www.navhub.org/projects
 
 If you're working on your ownNavCoin project, you can add it to this page (and the roadmap) by following the instructions on the NavCore GitHub.
 

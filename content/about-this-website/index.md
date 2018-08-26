@@ -6,7 +6,7 @@ type: "default"
 ---
 
 {{< left_image_section
-    title="Who maintains NavCore.org?"
+    title="Who maintains NavHub.org?"
     imgSrc="/images/icons/icon-earth-purple-large.png"
     imgHeight="400px"
     imgPadding="20px"
@@ -14,17 +14,17 @@ type: "default"
     linkBgColor="#523971"
     gradient=""
     btn1Link="https://github.com/NAVCoin/nav-community-site"
-    btn1Txt="Contribute to NavCore.org"
+    btn1Txt="Contribute to NavHub.org"
     fontColor="#FFF">}}
 
-    <p>NavCore.org is maintained by the NavCoin Core Developers and other NavCoin Community Members. The site and its content are open source. This means that anyone can update, delete or add their own NavCoin related projects and news.</p>
+    <p>NavHub.org is maintained by the NavCoin Core Developers and other NavCoin Community Members. The site and its content are open source. This means that anyone can update, delete or add their own NavCoin related projects and news.</p>
 
 <p> If you would like to add or update anything on the site, then please follow the instructions in the readme file on GitHub.</p>
 {{< /left_image_section >}}
 
 {{< links_section
     title="Join the Community"
-    subtitle="If you’re interested in contributing to NavCore.org or any NavCoin projects, get in touch with the NavCoin Community."
+    subtitle="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
     fontColor="#333"
     bgColor=""
     containerPadding="40px 0 60px 0"

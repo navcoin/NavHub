@@ -47,6 +47,8 @@ weight: 100
     imgHeight="300px"
     imgPadding="20px"
     bgColor="#42b6eb"
+    btn1Link="/navtech-servers/"
+    btn1Txt="View Servers"
     fontColor="#FFF">}}
 
     <p>NavTech is an application which operates in parallel to the NavCoin protocol to provide optional private payments of NAV.</p>

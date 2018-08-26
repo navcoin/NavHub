@@ -20,161 +20,223 @@ span.price-tag {
 
 /* Normal desktop:992px  */
 @media(min-width: 992px) and (max-width: 1169px){
-.navbar-nav li a {
-		padding: 12px 13px;
-		font-size: 15px;
 
-		text-transform: uppercase;
-		display: block;
-		transition: all 0.5s ease-in-out;
-		font-weight: 700;
-}
-.themeix-sub-title::after {
-	position: absolute;
-	content: "";
-	height: 3px;
-	left: 48%;
-	top: 40px;
-	width: 4%;
-	background: #ffffff;
-	text-align: center;
-	margin: 0 auto;
-}
-/* conta us */
-.change-color{
-	color: #fff;
-}
-.first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
-	transform-origin: 684% 50%;
-}
-span.price-tag {
+  .navbar-nav li a {
+  		padding: 12px 13px;
+  		font-size: 15px;
+  		text-transform: uppercase;
+  		display: block;
+  		transition: all 0.5s ease-in-out;
+  		font-weight: 700;
+  }
+  
+  .themeix-sub-title::after {
+  	position: absolute;
+  	content: "";
+  	height: 3px;
+  	left: 48%;
+  	top: 40px;
+  	width: 4%;
+  	background: #ffffff;
+  	text-align: center;
+  	margin: 0 auto;
+  }
+  
+  .change-color{
+  	color: #fff;
+  }
+  
+  .first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
+  	transform-origin: 684% 50%;
+  }
+  
+  span.price-tag {
 
-  right: -105px;
-  top: 30px;
-
-}
-}
-
-/* Tablate layout:768px  */
-@media(min-width: 768px) and (max-width: 991px){
-
-#project .caption-area {
-  padding: 20px!important;
-}
-
-/* slider design */
-.caption-area {
-	text-align: center;
-	margin-top: 52px;
-}
-
-.first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
-	transform-origin: 977% 50%;
-}
-/* menu design */
-.navbar-nav li a {
-	padding: 4px 12px;
-}
-/* about appix*/
-.about-appix-right-content{
-	text-align: center;
-}
-.about-pb {
-	padding-top: 100px;
-	padding-bottom: 70px;
-}
-.about-appix-left-img img{
-	text-align: center;
-  margin: 0 auto;
-}
-.about-appix-center-img img{
-  text-align: center;
-  margin: 0 auto;
-}
-.about-pb {
-	padding-top: 44px;
-	padding-bottom: 70px;
-}
-/* exclusive feature */
-.padd-minus{
-    padding: 12px 0px!important;
-}
-/* testimonials */
-.pb-120 {
-	padding-bottom: 60px;
-}
-.pt {
-	padding-top: 30px;
-}
-.pb-70 {
-	padding-bottom: 0px;
-}
-/* pricing table */
-.single-pricing > h2 {
-	font-size: 25px;
-}
-
-span.dollar-rate {
-	font-size: 40px;
-	line-height: 70px;
-}
-ul.pricing-features > li {
-	font-size: 14px;
-}
-.themeix-button-group .active-bg {
-	padding: 14px 32px !important;
-}
-.themeix-button-group .themeix-btn {
-	margin-right:0;
-}
-.price-btn-cust, .active-bg {
-	padding: 14px 32px !important;
-}
-/* conta us */
-.change-color{
-	color: #fff;
-}
-#carousel {
-	height: 800px;
-	display: relative;
-	margin-top: -122px;
-}
-.phone-holder {
-	width:100%;
-}
-.feature-content .themeix-feature-title {
-	font-size:18px;
-}
-.feature-icon i {
-	margin-right:10px;
-}
-span.price-tag {
-
-  right: -75px;
-  top: 26px;
+    right: -105px;
+    top: 30px;
+  }
 
 }
-.share-icon span {
-	display:none;
-}
-.hgi {
-  height: 410px;
-  left: 12px;
-  position: absolute;
-  text-align: center;
-  top: 58px;
-  visibility: hidden;
-  width: 220px;
-}
 
+/* Tablet layout:768px  */
+@media(min-width: 768px) and (max-width: 991px) {
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+  }
+
+  header.stickey .logo-brand img {
+    height: 24px;
+    margin-top: 24%;
+  }
+
+  .hamburger {
+    width: 35px;
+  }
+
+  .main-menu .hamburger {
+    position: relative;
+    float: right;
+  }
+
+  .sidebar-nav {
+    top: 10%;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 100%;
+    right: -50vw;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1%;
+      margin-top: 4%;
+  }
+
+  #project .caption-area {
+    padding: 20px!important;
+  }
+
+  .caption-area {
+  	text-align: center;
+  	margin-top: 52px;
+  }
+
+  .first-skew-sub-1, .first-skew-sub-2, .first-skew-bg {
+  	transform-origin: 977% 50%;
+  }
+
+  .navbar-nav li a {
+  	padding: 4px 12px;
+  }
+
+  .about-appix-right-content{
+  	text-align: center;
+  }
+
+  .about-pb {
+  	padding-top: 100px;
+  	padding-bottom: 70px;
+  }
+
+  .about-appix-left-img img{
+  	text-align: center;
+    margin: 0 auto;
+  }
+
+  .about-appix-center-img img{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .about-pb {
+  	padding-top: 44px;
+  	padding-bottom: 70px;
+  }
+
+  .padd-minus{
+      padding: 12px 0px!important;
+  }
+
+  .pb-120 {
+  	padding-bottom: 60px;
+  }
+
+  .pt {
+  	padding-top: 30px;
+  }
+
+  .pb-70 {
+  	padding-bottom: 0px;
+  }
+
+  .single-pricing > h2 {
+  	font-size: 25px;
+  }
+
+  span.dollar-rate {
+  	font-size: 40px;
+  	line-height: 70px;
+  }
+
+  ul.pricing-features > li {
+  	font-size: 14px;
+  }
+
+  .themeix-button-group .active-bg {
+  	padding: 14px 32px !important;
+  }
+
+  .themeix-button-group .themeix-btn {
+  	margin-right:0;
+  }
+
+  .price-btn-cust, .active-bg {
+  	padding: 14px 32px !important;
+  }
+
+  .change-color{
+  	color: #fff;
+  }
+  
+  #carousel {
+  	height: 800px;
+  	display: relative;
+  	margin-top: -122px;
+  }
+
+  .phone-holder {
+  	width:100%;
+  }
+
+  .feature-content .themeix-feature-title {
+  	font-size:18px;
+  }
+
+  .feature-icon i {
+  	margin-right:10px;
+  }
+
+  span.price-tag {
+    right: -75px;
+    top: 26px;
+  }
+  
+  .share-icon span {
+  	display:none;
+  }
+  
+  .hgi {
+    height: 410px;
+    left: 12px;
+    position: absolute;
+    text-align: center;
+    top: 58px;
+    visibility: hidden;
+    width: 220px;
+  }
 
 }
 
 /* Small mobile:320px  */
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
   .projects-card-container .project-card {
     margin-right: 0!important;
+  }
+
+  .logo-brand {
+    float: left;
+  }
+
+  header.stickey .logo-brand img {
+    height: 24px;
+    margin-top: 24%;
+  }
+
+  header.stickey .main-menu {
+    height: 8vh;
   }
 
   .nav li ul {
@@ -186,209 +248,228 @@ span.price-tag {
     padding: 20px!important;
   }
 
-.main-menu .navbar-nav li a:hover {
-	background-color:transparent;
-}
+  .main-menu .navbar-nav li a:hover {
+  	background-color: transparent;
+  }
 
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+    margin-right: 1%;
+    margin-top: 3%;
+  }
 
-/* slider area */
-.first-skew-sub-1{
-        display: none;
-    }
-.caption-area {
-    padding: 140px 0;
-    text-align: center;
-}
-.caption-area .caption-heading {
-	line-height: 56px;
-	margin-bottom: 40px;
-}
-.caption-area .caption-para {
-	font-size: 24px;
-	margin-bottom: 20px;
-	line-height: 36px;
-}
-h1 {
-	font-size: 40px;
-}
-.themeix-button-group .themeix-btn {
-	margin-bottom: 0;
-}
-/* about appix */
-.themeix-section-heading-title .light-300 {
-    padding: 0 0px;
-}
-.about-appix-right-content{
-    text-align: center;
-}
-.themeix-title-h1 {
-	font-size: 26px;
-	line-height: 35px;
-}
-.para-mb {
-	margin-bottom: 40px;
-	font-size: 14px;
-}
-.about-appix-right-content{
-    text-align: center;
-}
-.about-pb {
-	padding-top: 42px;
-	padding-bottom: 20px;
-	overflow: hidden;
-}
+  .main-menu .hamburger {
+    position: relative;
+    float: right;
+  }
 
-/* exclusive feature*/
-.themeix-section-heading-title h2{
-    font-size: 30px;
-}
-.feature-content{
-     margin-bottom: 36px;
-}
-/* youtube area */
-.youtube .play-button, .youtube .play-button::before {
-	left: 38%;
-	top: 30%;
-	text-align: center;
-}
-/* our testimonial */
-.content-section {
-	padding: 15px;
-}
-.content-section p::after {
-	right: -23px;
-	bottom: 134px;
+  .sidebar-nav {
+    top: 10%;
+    width: 100%;
+  }
 
-}
-/* get appix now */
-    .play-store-button {
-	padding: 18px 5px;
-	 margin-right: 0px;
+  #wrapper.toggled #sidebar-wrapper {
+    width: 100%;
+    right: -20vw;
+  }
 
-}
-.play-store-button {
-	padding: 18px 5px;
-	margin-right: 0px;
-	display: block;
-	margin-top: 20px;
-}
-.pb-50 {
-    padding-bottom: 0px;
-}
-.pb-100 {
-	padding-bottom: 58px;
-}
-.pt {
-	padding-top: 60px;
-}
-.padd-minus{
-    padding: 0px 0px!important;
-}
+  /* slider area */
+  .first-skew-sub-1{
+      display: none;
+  }
+  .caption-area {
+      padding: 140px 0;
+      text-align: center;
+  }
+  .caption-area .caption-heading {
+  	line-height: 56px;
+  	margin-bottom: 40px;
+  }
+  .caption-area .caption-para {
+  	font-size: 24px;
+  	margin-bottom: 20px;
+  	line-height: 36px;
+  }
+  h1 {
+  	font-size: 40px;
+  }
+  .themeix-button-group .themeix-btn {
+  	margin-bottom: 0;
+  }
+  /* about appix */
+  .themeix-section-heading-title .light-300 {
+      padding: 0 0px;
+  }
+  .about-appix-right-content{
+      text-align: center;
+  }
+  .themeix-title-h1 {
+  	font-size: 26px;
+  	line-height: 35px;
+  }
+  .para-mb {
+  	margin-bottom: 40px;
+  	font-size: 14px;
+  }
+  .about-appix-right-content{
+      text-align: center;
+  }
+  .about-pb {
+  	padding-top: 42px;
+  	padding-bottom: 20px;
+  	overflow: hidden;
+  }
 
-.main-menu ul.navbar-nav li a, .main-menu ul.navbar-nav li .nav-top-item {
-  border-bottom: none!important;
-}
-.main-menu ul.navbar-nav li a:hover, .main-menu ul.navbar-nav li:hover .nav-top-item {
-	color: #7d5ab5;
-}
+  /* exclusive feature*/
+  .themeix-section-heading-title h2{
+      font-size: 30px;
+  }
+  .feature-content{
+       margin-bottom: 36px;
+  }
+  /* youtube area */
+  .youtube .play-button, .youtube .play-button::before {
+  	left: 38%;
+  	top: 30%;
+  	text-align: center;
+  }
+  /* our testimonial */
+  .content-section {
+  	padding: 15px;
+  }
+  .content-section p::after {
+  	right: -23px;
+  	bottom: 134px;
 
-.stickey .main-menu ul li a:hover{
-    color: #7d5ab5 !important;
-}
-.custom-toggle i{
-	color:#424242;
-}
+  }
+  /* get appix now */
+      .play-store-button {
+  	padding: 18px 5px;
+  	 margin-right: 0px;
 
-span.price-tag {
-	right:-110px;
-}
-.about-section .themeix-section-heading-title {
-	padding-top:20px;
-}
-span.price-tag {
- display:none;
-}
-.about-section.pt-50 {
-	padding-top:20px;
-}
-.themeix-section-heading-title .light-300 {
-	margin-top:0;
-}
-.themeix-section-heading-title .themeix-title-a-b-col-change::after {
-	content:none;
-}
-.themeix-section-heading-title .themeix-title-a-b-col-change::before {
-	content:none;
-}
-.play-store-button i {
-	font-size:50px;
-}
-.play-store-button::after {
-	font-size:10px;
-}
+  }
+  .play-store-button {
+  	padding: 18px 5px;
+  	margin-right: 0px;
+  	display: block;
+  	margin-top: 20px;
+  }
+  .pb-50 {
+      padding-bottom: 0px;
+  }
+  .pb-100 {
+  	padding-bottom: 58px;
+  }
+  .pt {
+  	padding-top: 60px;
+  }
+  .padd-minus{
+      padding: 0px 0px!important;
+  }
 
-.overlay-color.pt-70 {
-	padding-top:20px;
-}
-.themeix-section-heading-title .head-title::before {
+  .main-menu ul.navbar-nav li a, .main-menu ul.navbar-nav li .nav-top-item {
+    border-bottom: none!important;
+  }
+  .main-menu ul.navbar-nav li a:hover, .main-menu ul.navbar-nav li:hover .nav-top-item {
+  	color: #7d5ab5;
+  }
 
-	content:none;
-}
-.themeix-section-heading-title .head-title::after {
+  .stickey .main-menu ul li a:hover{
+      color: #7d5ab5 !important;
+  }
+  .custom-toggle i{
+  	color:#424242;
+  }
 
-	content:none;
-}
-.main-menu {
-	border-bottom:medium none;
-}
-.display-middle{
-	padding:0;
-}
-.themeix-button-group {
-	display:inline-block;
-}
-.share-icon {
-	float:right;
-	padding-top:15px;
-}
-.blog-item .share-icon {
-	padding-top:0;
-}
+  span.price-tag {
+  	right:-110px;
+  }
+  .about-section .themeix-section-heading-title {
+  	padding-top:20px;
+  }
+  span.price-tag {
+   display:none;
+  }
+  .about-section.pt-50 {
+  	padding-top:20px;
+  }
+  .themeix-section-heading-title .light-300 {
+  	margin-top:0;
+  }
+  .themeix-section-heading-title .themeix-title-a-b-col-change::after {
+  	content:none;
+  }
+  .themeix-section-heading-title .themeix-title-a-b-col-change::before {
+  	content:none;
+  }
+  .play-store-button i {
+  	font-size:50px;
+  }
+  .play-store-button::after {
+  	font-size:10px;
+  }
 
-.social-icon li a {
-	width:30px;
-}
-.share-icon span {
-	display:none;
-}
-.appiex-blog-content .desc-hidden {
-	display:none;
-}
-.image-dawo {
-	display:none;
-}
+  .overlay-color.pt-70 {
+  	padding-top:20px;
+  }
+  .themeix-section-heading-title .head-title::before {
 
-.themeix-dark-home-page .about-appix-left-img img {
-	margin-left:0;
-}
-.blog-meta {
-	width:100%;
-}
-.tag-clouds {
-  padding-bottom: 20px;
-  padding-top: 10px;
-}
-.next-blog-post {
-  width:100%;
-  float:none;
-  padding:0;
-  text-align:left;
-}
-.previous-blog-post {
-  float: none;
-  padding-right: 0;
-  width: auto;
-}
+  	content:none;
+  }
+  .themeix-section-heading-title .head-title::after {
+
+  	content:none;
+  }
+  .main-menu {
+  	border-bottom:medium none;
+  }
+  .display-middle{
+  	padding:0;
+  }
+  .themeix-button-group {
+  	display:inline-block;
+  }
+  .share-icon {
+  	float:right;
+  	padding-top:15px;
+  }
+  .blog-item .share-icon {
+  	padding-top:0;
+  }
+
+  .social-icon li a {
+  	width:30px;
+  }
+  .share-icon span {
+  	display:none;
+  }
+  .appiex-blog-content .desc-hidden {
+  	display:none;
+  }
+  .image-dawo {
+  	display:none;
+  }
+
+  .themeix-dark-home-page .about-appix-left-img img {
+  	margin-left:0;
+  }
+  .blog-meta {
+  	width:100%;
+  }
+  .tag-clouds {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .next-blog-post {
+    width:100%;
+    float:none;
+    padding:0;
+    text-align:left;
+  }
+  .previous-blog-post {
+    float: none;
+    padding-right: 0;
+    width: auto;
+  }
 
 }
 
@@ -400,14 +481,645 @@ span.price-tag {
   margin-left: auto;
   margin-right: auto;
   max-width:330px;
+  }
+  
+  .share-icon span {
+  	display:inline-block;
+  }
+  
+  .image-dawo {
+  	display:block;
+  }
+
 }
-.share-icon span {
-	display:inline-block;
-}
-.image-dawo {
-	display:block;
+
+/* iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+  header.stickey .logo-brand {
+    margin-left: 5px;
+  }
+
+  header.stickey .logo-brand img {
+    height: 27px;
+    margin-top: 35%;
+  }
+
+  header.stickey .main-menu {
+    height: 8vh;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+    margin-right: 3%;
+    margin-top: 5%;
+  }
+
 }
 
 
+
+/* iPhone 6 in portrait & landscape */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  
+}
+
+/* iPhone 6 in landscape */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+
+  header.stickey .main-menu {
+      height: 16vh;
+  }
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+  }
+
+  header.stickey .logo-brand img {
+    height: 30px;
+    margin-top: 32%;
+  }
+
+  .hamburger {
+    width: 8vw;
+    height: 8vh;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1vw;
+      margin-top: 4vh;
+  }
+
+  .sidebar-nav {
+      top: 17%;
+  }
+  
+}
+
+/* iPhone 6 in portrait */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+    margin-top: 1%;
+  }
+
+  header.stickey .logo-brand img {
+    height: 24px;
+    margin-top: 24%;
+  }
+
+  .hamburger {
+    width: 35px;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1%;
+      margin-top: 0;
+  }
+  
+}
+
+/* iPhone 6 Plus in portrait & landscape */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+  
+}
+
+/* iPhone 6 Plus in landscape */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+
+  header.stickey .main-menu {
+      height: 16vh;
+  }
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+  }
+
+  header.stickey .logo-brand img {
+    height: 30px;
+    margin-top: 32%;
+  }
+
+  .hamburger {
+    width: 8vw;
+    height: 8vh;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1vw;
+      margin-top: 4vh;
+  }
+
+  .sidebar-nav {
+      top: 17%;
+  }
+  
+}
+
+/* iPhone 6 Plus in portrait */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+    margin-top: 1%;
+  }
+
+  header.stickey .logo-brand img {
+    height: 24px;
+    margin-top: 24%;
+  }
+
+  .hamburger {
+    width: 10vw;
+    height: 5vh;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 3vw;
+      margin-top: 2vh;
+  }
+  
+}
+
+/* iPhone 5 & 5S in portrait & landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 & 5S in landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+
+  header.stickey .main-menu {
+      height: 16vh;
+  }
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+  }
+
+  header.stickey .logo-brand img {
+    height: 24px;
+    margin-top: 32%;
+  }
+
+  .hamburger {
+    width: 35px;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1%;
+      margin-top: 2%;
+  }
+  
+}
+
+/* iPhone 5 & 5S in portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+
+  header.stickey .logo-brand {
+    margin-left: 0;
+  }
+
+  header.stickey .logo-brand img {
+    height: 24px;
+    margin-top: 24%;
+  }
+
+  .hamburger {
+    width: 35px;
+  }
+
+  #header-wrapper > header > nav > div.col-sm-3 > button {
+      margin-right: 1%;
+      margin-top: 2%;
+  }
+  
+}
+
+/* 
+  iPhone 2G, 3G, 4, 4S Media Queries
+  It's noteworthy that these media queries are also the same for iPod Touch generations 1-4.
+*/
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  
+}
+
+/* iPhone 2G-4S in landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) {
+  
+}
+
+/* iPhone 2G-4S in portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : portrait) {
+  
+}
+
+/* iPad in portrait & landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  
+}
+
+/* iPad in landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  
+}
+
+/* iPad in portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  
+}
+
+/* Galaxy S3 portrait and landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Galaxy S3 portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Galaxy S3 landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* Galaxy S4 portrait and landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Galaxy S4 portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Galaxy S4 landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* Galaxy S5 portrait and landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Galaxy S5 portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Galaxy S5 landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* HTC One portrait and landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* HTC One portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* HTC One landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/*
+  iPad 3 & 4 Media Queries
+  If you're looking to target only 3rd and 4th generation Retina iPads 
+  (or tablets with similar resolution) to add @2x graphics,
+  or other features for the tablet's Retina display, use the following media queries.
+*/
+
+/* Retina iPad in portrait & landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+
+/* Retina iPad in landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+
+/* Retina iPad in portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+
+/*
+  iPad 1 & 2 Media Queries
+  If you're looking to supply different graphics or choose different typography 
+  for the lower resolution iPad display, the media queries below will work 
+  like a charm in your responsive design!
+*/
+
+/* iPad 1 & 2 in portrait & landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  
+}
+
+/* iPad 1 & 2 in landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+  
+}
+
+/* iPad 1 & 2 in portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  
+}
+
+.main-menu {
+	border-bottom:medium none;
+}
+
+/* iPad mini in portrait & landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+  
+}
+
+/* iPad mini in landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+
+/* Galaxy Tab 10.1 portrait and landscape */
+@media
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+
+/* Galaxy Tab 10.1 portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+
+}
+
+/* Galaxy Tab 10.1 landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+}
+
+/* Asus Nexus 7 portrait and landscape */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+
+}
+
+/* Asus Nexus 7 portrait */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: portrait) {
+
+}
+
+/* Asus Nexus 7 landscape */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: landscape) {
+
+}
+
+/* Kindle Fire HD 7" portrait and landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Kindle Fire HD 7" portrait */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+    
+}
+
+/* Kindle Fire HD 7" landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+/* Kindle Fire HD 8.9" portrait and landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Kindle Fire HD 8.9" portrait */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+    
+}
+
+/* Kindle Fire HD 8.9" landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+/* Laptops non-retina screens */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+}
+
+/* Laptops retina screens */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    
+}
+
+/* Apple Watch */
+@media
+  (max-device-width: 42mm)
+  and (min-device-width: 38mm) { 
+
+}
+
+/* Moto 360 Watch */
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+
+}
+
+@media (max-width: 1199px){
+
+  .projects-card-container .project-card {
+    max-width: 100%!important;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 440px) {
+
+  .project-more {
+    display:none;
+  }
+  .themeix-button-group a {
+    margin-top: 5px;
+  }
 
 }
