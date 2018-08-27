@@ -1,7 +1,7 @@
 ---
 title: "NavCoin m8"
-date: 2018-03-27T11:42:31+13:00
-lastmod: 2018-03-27T11:42:31+13:00
+date: 2018-03-10T14:29:06+13:00
+lastmod: 2018-06-01T14:11:00+01:00
 draft: false
 author: "hash512"
 description: "The NavCoin m8 is a low-power device capable of running NavCoin Core and other wallets at the same time at very low energy costs."
@@ -12,19 +12,19 @@ slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
-in_progress: true
-completed: false
+in_progress: false
+completed: true
 show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
-percent_complete: 40
+percent_complete: 100
 github_url: ""
 project_url: "https://navcoinm8.com"
 reddit_url: ""
 twitter_url: ""
-card_color: "#6984D8"
+card_color: "#7d5ab5"
 font_color: "#fff"
-weight: 1
+weight: 0
 ---
 {{< left_image_section
     title="NavCoin m8"
