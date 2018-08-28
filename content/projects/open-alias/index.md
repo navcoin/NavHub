@@ -12,8 +12,8 @@ type: "project"
 feature_image: ""
 show_title_text: false
 in_progress: false
-beta_testing: true
-completed: false
+completed: true
+beta_testing: false
 show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
