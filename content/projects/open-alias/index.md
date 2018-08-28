@@ -39,7 +39,7 @@ weight: 100
     imgMargin="50px"
     bgColor="#FFF"
     fontColor="#333"
-    btn1Link="https://navpi.navcoinstore.com/product/navpi-stakebox/"
+    btn1Link="http://openalias.nav.community"
     btn1Target="blank"
     btn1Txt="Visit NAV OpenAlias Website"
     btn1BgColor="#795BB6"
