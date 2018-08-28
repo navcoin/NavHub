@@ -65,7 +65,7 @@ NAV OpenAlias is a little like PayPal, which lets you send a payment to an email
 
 For more information, visit [openalias.org](https://openalias.org/)
 
-## Registering for an NavCoin Open Alias
+## Registering for a NAV OpenAlias
 
 First, visit [http://openalias.nav.community](http://openalias.nav.community).
 
@@ -83,11 +83,11 @@ The console in the Debug window will output a line of verification code. This co
 
 ## Why use OpenAlias?
 
-Open Alias was created by contributors to the [Monero](https://getmonero.org/) cryptocurrency project who wanted to find a way of simplifying cryptocurrency payments by bridging the knowledge gap between cryptographically secure systems and users who aren’t sophisticated developers.
+OpenAlias was created by contributors to the [Monero](https://getmonero.org/) cryptocurrency project who wanted to find a way of simplifying cryptocurrency payments by bridging the knowledge gap between cryptographically secure systems and users who aren’t sophisticated developers.
 
 1. **It's easy** - You can transform long alphanumeric codes into an easily memorable address.
 
-2. **It's secure** - NavCoin Open Alias leverages DNSSEC to prevent MITM attacks on the alias.
+2. **It's secure** - NAV OpenAlias leverages DNSSEC to prevent MITM attacks on the alias.
 
 3. **It saves time** - It’s quicker and easier to remember a meaningful ‘human-readable’ OpenAlias address than a long string of randomised characters.
 <br /><br />
