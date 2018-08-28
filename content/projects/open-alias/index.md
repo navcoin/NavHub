@@ -63,7 +63,7 @@ weight: 100
 ## Overview
 NAV OpenAlias is a little like PayPal, which lets you send a payment to an email address. The difference is that OpenAlias uses an easy to remember ‘email style’ address to represent your full NavCoin wallet address. 
 
-For more information, visit [openalias.org](https://openalias.org/)
+For more information on how it works, visit [openalias.org](https://openalias.org/)
 
 ## Registering for a NAV OpenAlias
 
