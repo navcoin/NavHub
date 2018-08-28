@@ -75,7 +75,7 @@ Register a name you like and the suffix `@nav.community` will be added automatic
 
 ### 2. Copy message to console
 
-A line of code will be generated to assign the address to the alias. Follow the instruction to copy and paste the code to the console in your NavCoin Wallet's Debug window.
+A line of code will be generated for you to prove that you own the NAV wallet address. Follow the instruction to copy and paste the code to the console in your NavCoin Wallet's Debug window.
 
 ### 3. Verify
 
