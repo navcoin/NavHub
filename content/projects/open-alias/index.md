@@ -19,7 +19,7 @@ show_on_projects: true
 allow_click_through: true
 percent_complete: 100
 github_url: "https://github.com/NAVCoin/navcoin-core/pull/213"
-project_url: "http://openalias.nav.community"
+project_url: "https://openalias.nav.community"
 reddit_url: ""
 twitter_url: ""
 card_color: "#7d5ab5"
@@ -39,7 +39,7 @@ weight: 100
     imgMargin="50px"
     bgColor="#FFF"
     fontColor="#333"
-    btn1Link="http://openalias.nav.community"
+    btn1Link="https://openalias.nav.community"
     btn1Target="blank"
     btn1Txt="Visit NAV OpenAlias Website"
     btn1BgColor="#795BB6"
@@ -67,7 +67,7 @@ For more information on how it works, visit [openalias.org](https://openalias.or
 
 ## Registering for a NAV OpenAlias
 
-First, visit [http://openalias.nav.community](http://openalias.nav.community).
+First, visit [https://openalias.nav.community](https://openalias.nav.community).
 
 ### 1. Register your name
 
