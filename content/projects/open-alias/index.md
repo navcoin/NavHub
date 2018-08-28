@@ -24,7 +24,7 @@ reddit_url: ""
 twitter_url: ""
 card_color: "#7d5ab5"
 font_color: "#fff"
-weight: 100
+weight: 0
 ---
 
 {{< project_header_two
