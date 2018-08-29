@@ -36,7 +36,7 @@ Some bugs were identified and fixed on the new openalias.nav.community website. 
 
 If you haven’t done it already, claim your OpenAlias NavName now:
 
-<http://openalias.nav.community>
+<https://openalias.nav.community>
 
 ### Community Fund
 
