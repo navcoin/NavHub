@@ -674,9 +674,6 @@ header.stickey .logo-brand img{
     background: linear-gradient(45deg, rgba(54, 148, 244, 0.88) 0%, rgba(255, 105, 142, 0.88) 100%, rgba(255, 105, 142, 0.88) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff698e', endColorstr='#3694f4', GradientType=1);
 }
-.mobi-carousel.sm-carousel {
-    margin-bottom:50px;
-}
 .caption-area {
     padding: 40% 0;
 }
@@ -1064,16 +1061,6 @@ header.stickey .logo-brand img{
     margin-right: 0;
     text-align: left;
 }
-#features .highlight.active .fa {
-    background: none!important;
-}
-#features .highlight.active .themeix-feature-title,
-#features .highlight.active .feature-icon i {
-    color: #3F8EE8;
-}
-#features {
-    background: #fff;
-}
 .feature-content .themeix-feature-title {
     font-size: 20px;
     margin-bottom: 5px;
@@ -1313,34 +1300,7 @@ header.stickey .logo-brand img{
     font-size: 20px;
     color: #f96a91;
 }
-.owl-controls .owl-nav div {
-    display: inline-block;
-    background: #7d5ab5;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    margin-right: 6px;
-    color: #FFFFFF;
-}
-.owl-nav {
-    position: absolute;
-    left: 0;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    /* top: 31px; */
 
-    bottom: -6px;
-}
-.owl-next {
-    background: #3D93F1!important;
-}
-.owl-nav div.owl-next {
-    /* margin-left: 61px; */
-
-    left: 57px;
-}
 /* ==========================================
 14. Pricing
    ========================================== */
@@ -2720,9 +2680,6 @@ textarea.form-control {
     width:100%;
     overflow:hidden;
 }
-.apps-carousel {
-    margin-top: -122px;
-}
 #carousel img {
     display: hidden;
     cursor: pointer;
@@ -3481,27 +3438,6 @@ textarea.form-control {
   transform: rotate(-5deg);
   transform-origin: 0 0 0;
   width: 120%;
-}
-.skew_appended,
-.skew_prepended {
-  background: #fff;
-}
-.skew {
-  position: relative;
-}
-.skew_appended,
-.skew_prepended {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  overflow: hidden;
-  -webkit-transform: skewY(-3.1deg);
-  -ms-transform: skewY(-3.1deg);
-  transform: skewY(-3.1deg);
-  -webkit-backface-visibility: hidden !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  z-index: 1;
 }
 
 ul li.cat-item a {
