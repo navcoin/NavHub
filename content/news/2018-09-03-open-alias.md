@@ -10,15 +10,15 @@ categories:
 ---
 OpenAlias is a protocol originally created by the Monero team designed to relate a domain name with a cryptocurrency address. The recently released wallet version 4.3.0 of NavCoin Core includes the changes necessary to support the translation from OpenAlias-ready domains to NavCoin addresses.
 
-![](/images/uploads/screenshot-from-2018-09-03-12-38-24.png)
+![null](/images/uploads/screenshot-from-2018-09-03-12-38-24.png)
 
-The OpenAlias protocol is designed on top of the DNS service, using a TXT DNS record on a FQDN (fully qualified domain name). As a quick reminder, a DNS server is just a computer connected to the internet which stores information related to domain names and that other computers are allowed to query when necessary. Normally this information is the IP of the server hosted behind that name, but the DNS protocol allows different kind of entries. The TXT record provides the ability to associate arbitrary text, we use this record to store specially formatted text so the NavCoin wallet can extract the Nav Address:
+[The OpenAlias protocol](https://openalias.org/) is designed on top of the DNS service, using a TXT DNS record on a FQDN (fully qualified domain name). As a quick reminder, a DNS server is just a computer connected to the internet which stores information related to domain names and that other computers are allowed to query when necessary. Normally this information is the IP of the server hosted behind that name, but the DNS protocol allows different kind of entries. The TXT record provides the ability to associate arbitrary text, we use this record to store specially formatted text so the NavCoin wallet can extract the Nav Address:
 
 `oa1:nav recipient_address=NdvfJGBVETticfC7JSzaFtNNNmkYhdMUb8;`
 
 Because regular Internet users tend to relate persons to email addresses, rather than to domain names, the OpenAlias protocol states that an email address can be a valid OpenAlias address, and when we need to translate it to a domain name, we can do it just by substituting the ‘@’ with ‘.’ (a dot). As a simple example, donate@nav.community would translate to donate.nav.community, the client would try to resolve the TXT record of the domain name, and then extract the NavCoin address from there.
 
-![](/images/uploads/screenshot-from-2018-09-03-12-38-38.png)
+![null](/images/uploads/screenshot-from-2018-09-03-12-38-38.png)
 
 One of the first direct implications of this, is that everyone can host OpenAlias addresses under their own domain, by simply setting up the TXT entry of the corresponding domain name using the specified format to point to a concrete NavCoin address. We already did setup a website (<http://openalias.nav.community>) where users can freely register addresses on the domain @nav.community, but we encourage people to also set his own and spread the OpenAlias use.
 
@@ -34,8 +34,6 @@ Privacy is one of the fundamentals of our project, so we’ve taken the followin
 * NavPi includes dnscrypt-proxy by default from version 1.0.10, encrypting all the DNS requests and using privacy-friendly servers which do not log the requests.
 * If you have a PI Image less than 1.0.10 and want to support sending coins to OpenAlias addresses please [follow this article to setup DNSCrypt.](https://info.navcoin.org/knowledge-base/enable-sending-openalias-addresses-navpi/)
 * **We encourage every user of NavCoin Core to set up dnscrypt-proxy** on its system before using OpenAlias. Detailed instructions can be found at <https://github.com/jedisct1/dnscrypt-proxy/wiki/installation> 
-
-
 
 More information about DNSCrypt and DNS-over-HTTP can be found at <https://dnscrypt.info> 
 
