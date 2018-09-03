@@ -1,7 +1,7 @@
 ---
 layout: news
 generated_by_cms: true
-title: Open Alias
+title: Open Alias Developer Notes
 author: Alex
 date: '2018-09-03T12:27:42+12:00'
 feature_image: /images/uploads/open_alias_dev_notes.png
