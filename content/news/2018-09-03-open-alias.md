@@ -10,6 +10,8 @@ categories:
 ---
 OpenAlias is a protocol originally created by the Monero team designed to relate a domain name with a cryptocurrency address. The recently released wallet version 4.3.0 of NavCoin Core includes the changes necessary to support the translation from OpenAlias-ready domains to NavCoin addresses.
 
+OpenAlias is a protocol originally created by the Monero team designed to relate a domain name with a cryptocurrency address. The recently released wallet version 4.3.0 of NavCoin Core includes the changes necessary to support the translation from OpenAlias-ready domains to NavCoin addresses.
+
 ![null](/images/uploads/screenshot-from-2018-09-03-12-38-24.png)
 
 [The OpenAlias protocol](https://openalias.org/) is designed on top of the DNS service, using a TXT DNS record on a FQDN (fully qualified domain name). As a quick reminder, a DNS server is just a computer connected to the internet which stores information related to domain names and that other computers are allowed to query when necessary. Normally this information is the IP of the server hosted behind that name, but the DNS protocol allows different kind of entries. The TXT record provides the ability to associate arbitrary text, we use this record to store specially formatted text so the NavCoin wallet can extract the Nav Address:
