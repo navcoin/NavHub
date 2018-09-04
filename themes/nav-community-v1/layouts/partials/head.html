@@ -44,17 +44,17 @@
     <meta name="description" content="NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved." />
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="NavCoin Community Hub">
-    <meta name="twitter:description" content="NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved.">
-    <meta name="twitter:image" content="https://navhub.org/images/social-share.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ if isset .Params "twitter_title" }}{{ .Params.twitter_title }}{{ else }}NavCoin Community Hub{{ end }}" />
+    <meta name="twitter:description" content="{{ if isset .Params "twitter_description" }}{{ .Params.twitter_description }}{{ else }}NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved.{{ end }}" />
+    <meta name="twitter:image" content="{{ if isset .Params "twitter_image" }}{{ .Params.twitter_image }}{{ else }}https://navhub.org/images/social-share.png{{ end }}" />
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="NavCoin Community Hub" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://navhub.org{{ .URL }}" />
-    <meta property="og:image" content="https://navhub.org/images/social-share.png" />
-    <meta property="og:description" content="NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved." />
+    <meta property="og:title" content="{{ if isset .Params "og_title" }}{{ .Params.og_title }}{{ else }}NavCoin Community Hub{{ end }}" />
+    <meta property="og:type" content="{{ if isset .Params "og_type" }}{{ .Params.og_type }}{{ else }}article{{ end }}" />
+    <meta property="og:url" content="{{ if isset .Params "og_url" }}{{ .Params.og_url }}{{ else }}https://navhub.org/{{ end }}" />
+    <meta property="og:image" content="{{ if isset .Params "og_image" }}{{ .Params.og_image }}{{ else }}https://navhub.org/images/social-share.png{{ end }}" />
+    <meta property="og:description" content="{{ if isset .Params "og_description" }}{{ .Params.og_description }}{{ else }}NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved.{{ end }}" />
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G8TV7K"

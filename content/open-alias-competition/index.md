@@ -3,6 +3,15 @@ title: "OpenAlias Competition"
 date: 2018-04-04T07:41:22+13:00
 draft: false
 type: "default"
+og_title: "test"
+og_type: "test"
+og_url: "test"
+og_image: "test"
+og_description: "test"
+twitter_summary: "test"
+twitter_title: "test"
+twitter_description: "test"
+twitter_image: "test"
 ---
 
 {{< left_image_section
