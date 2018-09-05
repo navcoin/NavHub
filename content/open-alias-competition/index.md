@@ -12,10 +12,6 @@ fb_app_id: "340808809658155"
 og_description: "What is OpenAlias? OpenAlias is a little like PayPal, which lets you send a payment to an email address. The difference is that OpenAlias allows you to set an easy to remember ‘email style’ address to represent your full NavCoin address."
 ---
 
-<meta property="twitter:card" content="summary_large_image"/>
-<meta property="fb:app_id" content="340808809658155"/>
-
-
 {{< left_image_section
     title="Win up to 1000 NAV"
     imgSrc="/images/icons/nav_purple-trophie-large.png"
