@@ -10,23 +10,15 @@ categories:
 ---
 The big news this week is that OpenAlias has gone live as part of the NavCoin 4.3.0 update. You can read the release notes for the 4.3.0 release here: 
 
-The big news this week is that OpenAlias has gone live as part of the NavCoin 4.3.0 update. You can read the release notes for the 4.3.0 release here: 
+The big news this week is that OpenAlias has gone live as part of the NavCoin 4.3.0 update. You can read the full release notes for the 4.3.0 release here:  <https://navcoin.org/notices/2018-09-04-navcoin-core-4-3-0/>
 
-<https://navcoin.org/notices/2018-09-04-navcoin-core-4-3-0/>
+Alex also posted a technical guide for how OpenAlias works: <https://navhub.org/news/2018-09-03-open-alias/>
 
-You can also find a technical guide to how OpenAlias works in this article by Alex on NavHub: 
-
-<https://navhub.org/news/2018-09-03-open-alias/>
-
-Now OpenAlias is ready to go on all NavCoin wallets. To use this new feature, which significantly simplifies digital currency payment, you need to download latest version of your chosen wallet:
-
-<https://navcoin.org/wallets/>
+With the release of 4.3.0, OpenAlias is ready to go on all NavCoin wallets. To use this new feature, which significantly simplifies digital currency payment, you need to download the latest version of your chosen wallet: <https://navcoin.org/wallets/>
 
 Note: If you’re using a NavPi, you will receive a notification to confirm your auto-update. 
 
-Have you registered your Alias address yet? 
-
-<http://openalias.nav.community>
+Have you registered your Alias address yet? <http://openalias.nav.community>
 
 ### OpenAlias Competition
 
@@ -36,9 +28,9 @@ To celebrate the launch of OpenAlias, a competition has been set up to help rais
 
 ### Live Stream Education Sessions
 
-Starting on September 13, NavCoin Core public education sessions will be streamed live so members of the wider NavCoin community can sit in. These occasional sessions will cover a range of topics that are relevant to anyone who’s interested in blockchain. 
+Starting on September 13, NavCoin Core public education sessions will be streamed live so international members of the NavCoin community can sit in. These occasional sessions will cover a range of topics that are relevant to anyone who’s interested in NavCoin and blockchain. 
 
-The first one will be held next Thursday at 0830 GMT +12 and will cover the NavCoin Protocol Improvement Proposals (NPIPs) for Static Rewards and Cold Staking. After the session, the videos will remain on Youtube, so you can watch them at your leisure. Stay tuned for more details.
+The first one will be held next Thursday at 0830 GMT +12 and will cover the NavCoin Protocol Improvement Proposals (NPIP's) for Static Rewards and Cold Staking. After the session, the videos will remain on Youtube, so you can watch them at your leisure. Stay tuned for more details.
 
 ## Developer Updates
 
