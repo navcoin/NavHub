@@ -41,4 +41,4 @@ More information about DNSCrypt and DNS-over-HTTP can be found at <https://dnscr
 
 Download NavCoin Core v4.3.0 from <http://www.github.com/navcoin/navcoin-core/releases>\
 Download NavPay from <https://navcoin.org/navpay/> \
-Download NavPi from ...
+Download NavPi from 1.0.10 from <https://nav.nyc3.digitaloceanspaces.com/navpi/navpi_1.0.10.img>
