@@ -3,16 +3,18 @@ title: "OpenAlias Competition"
 date: 2018-04-04T07:41:22+13:00
 draft: false
 type: "default"
-og_title: "test"
-og_type: "test"
-og_url: "test"
-og_image: "test"
-og_description: "test"
-twitter_summary: "test"
-twitter_title: "test"
-twitter_description: "test"
-twitter_image: "test"
+og_url: "https://navhub.org/open-alias-competition"
+og_title: "NavCoin OpenAlias Competition"
+og_image: "https://d36eyd5j1kt1m6.cloudfront.net/user-assets/788381/M79jZn1yz2hvHNM6/upload.png?1535951950"
+twitter_card: "summary_large_image"
+twitter_image: "https://d36eyd5j1kt1m6.cloudfront.net/user-assets/788381/M79jZn1yz2hvHNM6/upload.png?1535951950"
+fb_app_id: "340808809658155"
+og_description: "What is OpenAlias? OpenAlias is a little like PayPal, which lets you send a payment to an email address. The difference is that OpenAlias allows you to set an easy to remember ‘email style’ address to represent your full NavCoin address."
 ---
+
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="fb:app_id" content="340808809658155"/>
+
 
 {{< left_image_section
     title="Win up to 1000 NAV"

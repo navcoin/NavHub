@@ -44,10 +44,13 @@
     <meta name="description" content="NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved." />
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{ if isset .Params "twitter_title" }}{{ .Params.twitter_title }}{{ else }}NavCoin Community Hub{{ end }}" />
-    <meta name="twitter:description" content="{{ if isset .Params "twitter_description" }}{{ .Params.twitter_description }}{{ else }}NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved.{{ end }}" />
-    <meta name="twitter:image" content="{{ if isset .Params "twitter_image" }}{{ .Params.twitter_image }}{{ else }}https://navhub.org/images/social-share.png{{ end }}" />
+    <meta name="twitter:card" content="{{ if isset .Params "twitter_card" }}{{ .Params.twitter_card }}{{ else }}summary{{ end }}" />
+    {{ if isset .Params "twitter_title" }}<meta name="twitter:title" content="{{ .Params.twitter_title }}" />{{ end }}
+    {{ if isset .Params "twitter_description" }}<meta name="twitter:description" content="{{ .Params.twitter_description }}" />{{ end }}
+    {{ if isset .Params "twitter_image" }}<meta name="twitter:image" content="{{ .Params.twitter_image }}" />{{ end }}
+
+    <!-- Facebook tags -->
+    {{ if isset .Params "fb_app_id" }}<meta property="fb:app_id" content="{{ .Params.fb_app_id }}"/>{{ end }}
 
     <!-- Open Graph data -->
     <meta property="og:title" content="{{ if isset .Params "og_title" }}{{ .Params.og_title }}{{ else }}NavCoin Community Hub{{ end }}" />
