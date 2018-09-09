@@ -5,15 +5,15 @@ draft: false
 type: "default"
 og_url: "https://navhub.org/open-alias-competition"
 og_title: "NavCoin OpenAlias Competition"
-og_image: "https://d36eyd5j1kt1m6.cloudfront.net/user-assets/788381/M79jZn1yz2hvHNM6/upload.png?1535951950"
+og_image: "https://d36eyd5j1kt1m6.cloudfront.net/user-assets/788381/DKVu6BUdyPjcePR8/open_alias_competition_changed.jpg?1536374190"
 twitter_card: "summary_large_image"
-twitter_image: "https://d36eyd5j1kt1m6.cloudfront.net/user-assets/788381/M79jZn1yz2hvHNM6/upload.png?1535951950"
+twitter_image: "https://d36eyd5j1kt1m6.cloudfront.net/user-assets/788381/DKVu6BUdyPjcePR8/open_alias_competition_changed.jpg?1536374190"
 fb_app_id: "340808809658155"
 og_description: "What is OpenAlias? OpenAlias is a little like PayPal, which lets you send a payment to an email address. The difference is that OpenAlias allows you to set an easy to remember ‘email style’ address to represent your full NavCoin address."
 ---
 
 {{< left_image_section
-    title="Win up to 1000 NAV"
+    title="Win up to 2000 NAV"
     imgSrc="/images/icons/nav_purple-trophie-large.png"
     imgHeight="286px"
     imgPadding="0px"
@@ -23,7 +23,7 @@ og_description: "What is OpenAlias? OpenAlias is a little like PayPal, which let
     btn1Link="/projects/open-alias/"
     btn1Txt="OpenAlias Project"
     fontColor="#FFF">}}
-<p>To celebrate the launch of OpenAlias for NavCoin, the community is giving away 2000 NAV in prizes. Enter the draw using the Gleam App below.</p>
+<p>To celebrate the launch of OpenAlias for NavCoin, the community is giving away 4000 NAV in prizes. Enter the draw using the Gleam App below.</p>
 <p>Or to learn more about OpenAlias visit the project page here.</p>
 {{< /left_image_section >}}
 
