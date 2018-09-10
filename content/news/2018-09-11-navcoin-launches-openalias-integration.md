@@ -8,7 +8,9 @@ feature_image: /images/uploads/social-thumbnail-for-openalias-1-.png
 categories:
   - Product News
 ---
-## Give your NavCoin address a name with OpenAlias
+### Give your NavCoin address a name with OpenAlias
+
+If there’s anything that clearly demonstrates NavCoin’s commitment to Simplifying Cryptocurrency for everybody it’s our latest initiative - NavCoin OpenAlias. Now instead of an impossible to remember long string of random characters you can give your NavCoin wallet a simple ‘email style’ alias. 
 
 If there’s anything that clearly demonstrates NavCoin’s commitment to Simplifying Cryptocurrency for everybody it’s our latest initiative - NavCoin OpenAlias. Now instead of an impossible to remember long string of random characters you can give your NavCoin wallet a simple ‘email style’ alias. 
 
