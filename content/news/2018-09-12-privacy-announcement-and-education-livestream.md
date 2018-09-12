@@ -63,7 +63,7 @@ With a number of proposed releases in the next few months, Prole is writing an a
 
 Work is progressing on the page-by-page update of the NavCoin.org website. The page design templates have been finalised and content continues to be added as it’s created. Stay tuned for updates on when the refreshed site will be ready to be published. Like the current NavCoin and NavHub websites, it will be a static site on Github, making it easier for community members to contribute to and improve it.
 
-### Video
+### Videos
 
 There are two new videos currently in production. The first is for the NavCoin Community Fund and is intended to inspire people to get involved with this exciting open-source project by creating and submitting proposals. Alongside this the Community Collab website is being refined and tested after its migration to AWS last week. 
 
