@@ -9,6 +9,7 @@ categories:
   - Nav News
 ---
 The release of OpenAlias has been well received by the NavCoin community. At the time of writing there have been hundreds of OpenAlias addresses registered under @nav.community. If you haven’t already joined them by creating OpenAlias address of your own take a moment to do it now. All that’s required to get it going is install the latest version of your wallet, and register your address here:
+
 The release of OpenAlias has been well received by the NavCoin community. At the time of writing there have been hundreds of OpenAlias addresses registered under @nav.community. If you haven’t already joined them by creating OpenAlias address of your own take a moment to do it now. All that’s required to get it going is install the latest version of your wallet, and register your address here:
 <https://openalias.nav.community>
 
