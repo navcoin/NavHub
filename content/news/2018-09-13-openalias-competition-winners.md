@@ -15,9 +15,11 @@ To celebrate the release of OpenAlias, the NavCoin Core collective created a com
 There were 357 entrants over the competition period, and nearly 1800 actions performed to gain entries. The winners were drawn at random (using the Gleam app) on 12 September 2018.
 
 The grand prize winner of 2000 NAV is:
+
  - Quentin B
 
 Entry prize winners of 200 NAV:
+
 - PUBG
 - Henry C
 - Gabriel R
