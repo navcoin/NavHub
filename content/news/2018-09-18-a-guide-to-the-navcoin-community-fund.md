@@ -4,7 +4,7 @@ generated_by_cms: true
 title: 'A Guide To The NavCoin Community Fund '
 author: John Darby
 date: '2018-09-18T15:06:56+12:00'
-feature_image: /images/uploads/a-guide-to-the-navcoin-community-fund-min.jpg
+feature_image: /images/uploads/a-guide-to-the-navcoin-community-fund.jpg
 categories:
   - Community Fund
 ---
@@ -21,7 +21,7 @@ The NavCoin Community Fund is different to other development funds for two key r
 1. It’s fully decentralised, meaning it’s not controlled or managed by any individual or single group.
 2. Projects are approved for funding and payment using a unique two-stage voting process. This ensures that people only get paid if they deliver what they promised in their proposal.
 
-![How NavCoin community fund works](/images/uploads/cfund-3-step.jpg)
+![How NavCoin community fund works](/images/uploads/cfund-3-step-1-.jpg)
 
 ### Technical details
 
