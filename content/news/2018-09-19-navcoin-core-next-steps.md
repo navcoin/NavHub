@@ -64,7 +64,7 @@ The NavCoin m8 image for use on the S905 and S912 is also available. It simplifi
 
 It was business as usual for the Core Content Creators with the focus on developing and publishing supporting material for the Community Fund and Collab website. This includes content for the websites, PR articles and social media posts. 
 
-With the revised page templates for the NavCoin.org website finalised, work continued the roll-out of refreshed and additional content.
+With the revised page templates for the NavCoin.org website finalised, work continued for the roll-out of refreshed and additional content.
 
 That’s all for this week,
 
