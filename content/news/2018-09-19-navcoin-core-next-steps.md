@@ -32,7 +32,7 @@ Last week the first in an occasional series of education sessions aimed at helpi
 
 <https://www.youtube.com/watch?v=rjez0_Gd0sU>
 
-If you were in the audience you’ll know there were a few first-time technical difficulties, but they should all be ironed out going forward - including a better internet connection and microphone.
+There were a few first-time technical difficulties, but they should all be ironed out going forward - thanks to a better internet connection and dedicated microphone.
 
 The second education livestream is on Thursday 20 September at 0830 GMT +12. To help you get the time right, check the countdown timer on the Youtube link below.
 
@@ -44,7 +44,7 @@ This week’s topic is the benefit of using static block rewards to secure a Pro
 
 The NavCoin community has a number high profile members who appear regularly on Discord, Reddit and Twitter. But there are many more of you out there who contribute a lot of time and energy to the NavCoin community - and that makes you a genuine NavCoin hero too. 
 
-If you’re active in a NavCoin community where you live, and are keen to help share news and info about NavCoin in your social channels, Laura would love to hear from you. To get involved post in the ‘Community Action’ thread on Discord and tag ‘Laura’. Once you’re connected she’ll work with you to tailor content for you to share.
+If you’re active in a crypto community where you live, and are keen to help share news and info about NavCoin in your social channels, Laura would love to hear from you. To get involved post in the ‘Community Action’ thread on Discord and tag ‘Laura’. Once you’re connected she’ll work with you to tailor content for you to share.
 
 ## Developer news
 
@@ -56,7 +56,7 @@ In preparation for the launch of the Collab website mntyfrsh (on Discord) helped
 
 Hash512 reports that NavCoin m8 images for Odroid are now live. Over 6GB for C2 and over 4GB for XU4 compressed and built for 16GB SD/eMMC or higher. The images are ready to download at navcoinm8.com. 
 
-The NavCoin m8 image for use on the S905 and S912 is also available. It simplifies the DIY instructions, because all you have to do is download an image. Get more details of this , and order your new stakebox at the NavCoin m8 website.
+The NavCoin m8 image for use on the S905 and S912 is also available. It simplifies the DIY instructions, because all you have to do is download an image. Get more details of this, and order your new stakebox at the NavCoin m8 website.
 
 <www.navcoinm8.com>
 
