@@ -42,7 +42,7 @@ This week’s topic is the benefit of using static block rewards to secure a Pro
 
 ### Calling all ‘NavCoin Heroes’
 
-The NavCoin community has a number high profile members who appear regularly on Discord, Reddit and Twitter. But there are many more of you out there who contribute a lot of time and energy to the NavCoin community - and that makes you a genuine NavCoin hero too. 
+The NavCoin community has a number of high profile members who appear regularly on Discord, Reddit and Twitter. But there are many more of you out there who contribute a lot of time and energy to the NavCoin community - and that makes you a genuine NavCoin hero too. 
 
 If you’re active in a crypto community where you live, and are keen to help share news and info about NavCoin in your social channels, Laura would love to hear from you. To get involved post in the ‘Community Action’ thread on Discord and tag ‘Laura’. Once you’re connected she’ll work with you to tailor content for you to share.
 
