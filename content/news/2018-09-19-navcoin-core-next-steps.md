@@ -14,7 +14,7 @@ It’s going to be busy over the next few months, so Craig (Prole on Discord) ha
 
 <https://medium.com/@craig.b.macgregor/next-steps-for-navcoin-core-e7fa9541dca9>
 
-#### NavCoin Collab Forum
+### NavCoin Collab Forum
 
 The NavCoin Collab Forum (aka NavCollab) launches later this week. NavCollab is a supporting resource for the NavCoin Community Fund and is designed to help you in three ways:
 
@@ -26,7 +26,7 @@ The NavCoin Collab Forum (aka NavCollab) launches later this week. NavCollab is 
 
 Now that testing is complete the NavCoin Community Fund is almost ready to go too. Look out for details coming soon on the usual social channels.
 
-#### Education livestream #2
+### Education livestream #2
 
 Last week the first in an occasional series of education sessions aimed at helping non-technical people learn more about the technical side of blockchain and cryptocurrencies was live-streamed on Youtube. It dealt with Cold Staking and how UTXO transactions work. The video will remain on this link so you can watch it at your leisure.
 
@@ -40,19 +40,19 @@ This week’s topic is the benefit of using static block rewards to secure a Pro
 
 <https://www.youtube.com/channel/UCjDs4JceVSsaeCyvkA9cWCg/live>
 
-#### Calling all ‘NavCoin Heroes’
+### Calling all ‘NavCoin Heroes’
 
 The NavCoin community has a number high profile members who appear regularly on Discord, Reddit and Twitter. But there are many more of you out there who contribute a lot of time and energy to the NavCoin community - and that makes you a genuine NavCoin hero too. 
 
 If you’re active in a NavCoin community where you live, and are keen to help share news and info about NavCoin in your social channels, Laura would love to hear from you. To get involved post in the ‘Community Action’ thread on Discord and tag ‘Laura’. Once you’re connected she’ll work with you to tailor content for you to share.
 
-### Developer News
+## Developer News
 
-#### NavCollab on AWS
+### NavCollab on AWS
 
 In preparation for the launch of the Collab website mntyfrsh (on Discord) helped the Core developers finish off migrating of the Collab website from its development environment to a production ready AWS environment.
 
-#### NavCoin m8
+### NavCoin m8
 
 Hash512 reports that NavCoin m8 images for Odroid are now live. Over 6GB for C2 and over 4GB for XU4 compressed and built for 16GB SD/eMMC or higher. The images are ready to download at navcoinm8.com. 
 
@@ -60,7 +60,7 @@ The NavCoin m8 image for use on the S905 and S912 is also available. It simplifi
 
 <www.navcoinm8.com>
 
-### Core Content Creators
+## Core Content Creators
 
 It was business as usual for the Core Content Creators with the focus on developing and publishing supporting material for the Community Fund and Collab website. This includes content for the websites, PR articles and social media posts. 
 
