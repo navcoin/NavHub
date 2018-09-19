@@ -14,9 +14,9 @@ It’s going to be busy over the next few months, so Craig (Prole on Discord) ha
 
 <https://medium.com/@craig.b.macgregor/next-steps-for-navcoin-core-e7fa9541dca9>
 
-### NavCoin Collab Forum
+### NavCoin collab forum
 
-The NavCoin Collab Forum (aka NavCollab) launches later this week. NavCollab is a supporting resource for the NavCoin Community Fund and is designed to help you in three ways:
+The NavCoin Collab Forum (aka NavCollab) will be launching soon. NavCollab is a supporting resource for the NavCoin Community Fund and is designed to help you in three ways:
 
 1. You have a rough idea for a project, and want feedback to help you refine it.
 
@@ -46,7 +46,7 @@ The NavCoin community has a number high profile members who appear regularly on 
 
 If you’re active in a NavCoin community where you live, and are keen to help share news and info about NavCoin in your social channels, Laura would love to hear from you. To get involved post in the ‘Community Action’ thread on Discord and tag ‘Laura’. Once you’re connected she’ll work with you to tailor content for you to share.
 
-## Developer News
+## Developer news
 
 ### NavCollab on AWS
 
@@ -60,7 +60,7 @@ The NavCoin m8 image for use on the S905 and S912 is also available. It simplifi
 
 <www.navcoinm8.com>
 
-## Core Content Creators
+## Core content creators
 
 It was business as usual for the Core Content Creators with the focus on developing and publishing supporting material for the Community Fund and Collab website. This includes content for the websites, PR articles and social media posts. 
 
