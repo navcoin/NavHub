@@ -4,7 +4,7 @@ generated_by_cms: true
 title: 'A Guide To The NavCoin Community Fund '
 author: John Darby
 date: '2018-09-18T15:06:56+12:00'
-feature_image: /images/uploads/a-guide-to-the-navcoin-community-fund.jpg
+feature_image: /images/uploads/a_guide_to_the_navcoin_community_fund_mini.jpg
 categories:
   - Community Fund
 ---
