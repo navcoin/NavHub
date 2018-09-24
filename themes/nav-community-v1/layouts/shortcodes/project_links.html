@@ -12,7 +12,7 @@
                 <div class="col-md-4">
                     <div class="single-item">
                       {{ if ne (.Get "feature1Url") "false" }}
-                      <a href="{{ .Get "feature1Url" }}" target="e" class="link-item">
+                      <a href="{{ .Get "feature1Url" | safeURL}}" target="e" class="link-item">
                       {{ end }}
                         <div class="service-main">
                             <div class="service-icon">
