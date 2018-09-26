@@ -32,12 +32,11 @@ This is a simple form that can be embedded into other websites to enable users t
 
 ## Community Contributors
 
-Beekart has been busy adding to his amazing NavCoin artwork series. To see his latest creations head over to Twitter and follow him @Rogiervdbeek
+Beekart has been busy adding to his amazing NavCoin artwork series. To see his latest creations head over to Twitter and follow him [@Rogiervdbeek](https://twitter.com/rogiervdbeek?lang=en).
+
 Also busy this week was Chasethechaser (on Discord) who utilised some of Beekart’s work to make this infographic for the Community Fund soft-fork. Despite having no prior experience with Photoshop or Illustrator, chasethechaser simply watched some Youtube tutorials and learned on the job.
 
-
 ![NavCoin Community Fund Infographic](/images/uploads/nav_comm_fund_final-min.jpg)
-
 
 What could you create to promote NavCoin on your social networks? For more resources and brand guidelines check out the community assets page at <https://navhub.org/assets>
 
@@ -48,4 +47,5 @@ Share your work on Discord or Twitter and show the community how it’s done.
 The Community Fund ‘inspirational video’ for social media channels and the NavCoin.org home page videos are both in production. The creative team met with the film crew this week to plan the shoot and scout locations for filming. The next step is casting the ‘talent.’ The aim is to find a diverse range of people to reflect wide variety of people who make up the NavCoin community all over the world. The shoot is scheduled in the next few weeks and you can expect to see the finished videos in late October.
 
 That’s all for this week,
+
 NavCoin Core
