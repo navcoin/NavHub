@@ -20,7 +20,7 @@ The redesign of NavCoin.org is finished and will be live in the next week. A ref
 
 ### Community Fund bug bounty
 
-With 250,000 NAV accumulating in the Community Fund every year security is extremely important and testing has absorbed hundreds of hours of Core Developer time. The wider community also made a significant contribution. The 20,000 NAV Bug Bounty was created to incentivize community members to try and break the Fund, and two bounties were paid out to community members who identified bugs. If you reviewed the code, the Core Developers appreciate your help with this project, and encourage you to keeping reviewing and contributing to the NavCoin code base. 
+With 250,000 NAV accumulating in the Community Fund every year security is extremely important and testing has absorbed hundreds of hours of Core Developer time. The wider community also made a significant contribution. The 20,000 NAV Bug Bounty was created to incentivize community members to try and break the Fund, and two bounties were paid out to community members who identified bugs. If you reviewed the code, the Core Developers appreciate your help with this project, and encourage you to keep reviewing and contributing to the NavCoin code base. 
 
 <https://github.com/NAVCoin/navcoin-core>
 
