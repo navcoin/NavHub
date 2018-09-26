@@ -38,7 +38,7 @@ Also busy this week was Chasethechaser (on Discord) who utilised some of Beekart
 
 ![NavCoin Community Fund Infographic](/images/uploads/nav_comm_fund_final-min.jpg)
 
-What could you create to promote NavCoin on your social networks? For more resources and brand guidelines check out the community assets page at <https://navhub.org/assets>
+What could you create to promote NavCoin on your social networks? For more resources and brand guidelines check out the community assets page at <https://navhub.org/assets>.
 
 Share your work on Discord or Twitter and show the community how it’s done.
 
