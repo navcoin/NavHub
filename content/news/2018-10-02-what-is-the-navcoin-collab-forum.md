@@ -4,7 +4,7 @@ generated_by_cms: true
 title: What is the NavCoin Collab Forum?
 author: Kieren Hyland
 date: '2018-10-02T16:30:33+13:00'
-feature_image: /images/uploads/collab_img.png
+feature_image: /images/uploads/navcollab-min.png
 categories:
   - Product News
 ---
