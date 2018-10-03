@@ -42,7 +42,7 @@ Planning has started on ways to make it easier for community members to add thei
 
 The Core Content Creators have been generating a lot of new material, mainly in support of the Community Fund and the refreshed NavCoin.org website.
 
-With a lot going on, the content team has created this image to share what the focuses are for the next few weeks.
+With a lot going on, the content team has created this image to share what the focuses are for the next month or so.
 
 ![Content Creators Roadmap](/images/uploads/artboard-–-1-1-.png)
 
