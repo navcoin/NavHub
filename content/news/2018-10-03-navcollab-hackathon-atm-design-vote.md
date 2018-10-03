@@ -12,7 +12,7 @@ The NavCollab site is live and ready to help you get involved in the NavCoin Com
 
 The NavCollab site is live and ready to help you get involved in the NavCoin Community Fund. The NavCollab website is like a forum, but with a lot more features. The aim is to make it easy for you to start projects, and get others to help you. Take a moment [to read the intro article](https://navhub.org/news/2018-10-02-what-is-the-navcoin-collab-forum/) to see how the NavCollab site works. But if you want to jump straight in, here’s how to get started:
 
-1. Sign up at collab.navcoin.org
+1. Sign up at <collab.navcoin.org>
 2. Check out the Directory, and join in a few different Spaces
 3. Create a Space if you have an idea for a project, and let other people know about it!
 
