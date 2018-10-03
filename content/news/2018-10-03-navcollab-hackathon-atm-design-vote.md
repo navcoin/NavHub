@@ -12,13 +12,13 @@ The NavCollab site is live and ready to help you get involved in the NavCoin Com
 
 The NavCollab site is live and ready to help you get involved in the NavCoin Community Fund. The NavCollab website is like a forum, but with a lot more features. The aim is to make it easy for you to start projects, and get others to help you. Take a moment [to read the intro article](https://navhub.org/news/2018-10-02-what-is-the-navcoin-collab-forum/) to see how the NavCollab site works. But if you want to jump straight in, here’s how to get started:
 
-1. Sign up at <collab.navcoin.org>
+1. Sign up at <https://collab.navcoin.org>
 2. Check out the Directory, and join in a few different Spaces
 3. Create a Space if you have an idea for a project, and let other people know about it!
 
 ### Upcoming Digital Hackathon
 
-NavCoin Core will shortly be hosting a digital Hackathon to promote the Community Fund and the new NavCollab website. If you want to get involved in this event, start thinking about potential ideas/projects you would like to see in the NavCoin ecosystem. Stay tuned for more details.
+NavCoin Core will be hosting a digital Hackathon to promote the Community Fund and the new NavCollab website. If you want to get involved in this event, start thinking about potential ideas/projects you would like to see in the NavCoin ecosystem. Stay tuned for more details.
 
 ### NavCoin ATM Design Community Vote
 
@@ -54,7 +54,7 @@ A major focus of the Content team over the next few months is Public Relations, 
 
 The shoot for the Community Fund and NavCoin.org home page video is set for Thursday this week, with a secondary shoot next Tuesday, where the crew will capture B-Roll footage. Once the filming is complete the shots will be edited together along with additional graphics. This process is likely to take a couple of weeks. 
 
-With the imminent launch of the Community Fund, the video will form a key part of promoting it - primarily via social media. With around 50,000 followers on Twitter, plus thousands more on Reddit and Discord, we hope that we will be able to inspire a lot of people to get involved.
+With the imminent launch of the Community Fund, the video will help with the promotion of it - primarily via social media. With around 50,000 followers on Twitter, plus thousands more on Reddit and Discord, we hope that we will be able to inspire people to get involved.
 
 A lot of people will be giving up their time for free to appear in these videos, so a big thank you to everyone for your help.
 
