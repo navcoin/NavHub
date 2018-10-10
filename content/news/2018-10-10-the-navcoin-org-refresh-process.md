@@ -10,21 +10,23 @@ categories:
 ---
 Redesigning NavCoin.org was all about solving user problems as well as bringing a fresh look to NavCoin. The UX strategy for a content-based website like NavCoin.org, is that the content on the site should be easy to find & navigate, as well as visually appealing, attractive and leads people to read. 
 
+Redesigning NavCoin.org was all about solving user problems as well as bringing a fresh look to NavCoin. The UX strategy for a content-based website like NavCoin.org, is that the content on the site should be easy to find & navigate, as well as visually appealing, attractive and leads people to read. 
+
 ## Content Planning
 
 To start off, we brainstormed different user types and what they need on the website, we came up with many user stories and wrote down what we can provide for those users on paper. This card sorting process enabled us to figure out the outline to improves user flow and grouping on the new site, making things logical to find and easy to navigate. We then drafted out all the content, and wireframed the pages based on the skeleton sitemap, highlighted the goals for each page, and planned different section of content in detail that will fulfill the user needs. 
 
 ![null](/images/uploads/brainstrom.jpg)
 
-Brainstorming the website objectives, features and contents
+_Brainstorming the website objectives, features and contents_
 
 ![null](/images/uploads/sitemap.png)
 
-Sitemap developing, showing how we think the content should be grouped for different users
+_Sitemap developing, showing how we think the content should be grouped for different users_
 
 ![null](/images/uploads/wireframe.png)
 
-Website Wireframes
+_Website Wireframes_
 
 ## Design
 
@@ -32,11 +34,11 @@ Good design isn’t just about looking good. There are thousands of ways to desi
 
 ![null](/images/uploads/desktop-ui.png)
 
-UI template development for desktop
+_UI template development for desktop_
 
 ![null](/images/uploads/mobile-ui.png)
 
-UI template for mobile and tablet screens
+_UI template for mobile and tablet screens_
 
 ## Final Steps
 
