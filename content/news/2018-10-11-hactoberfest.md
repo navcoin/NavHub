@@ -22,9 +22,11 @@ We here at NavCoin want you to help you get that swag and have added the label H
 
 Check out the issues and get Hacktobering
 
-NavHub - <https://github.com/NAVCoin/NavHub/issues>\
-NavCore - <https://github.com/NAVCoin/navcoin-core/issues>\
+NavHub.org - <https://github.com/NAVCoin/NavHub/issues>\
+NavCoin-core - <https://github.com/NAVCoin/navcoin-core/issues>\
 NavCoin.org - <https://github.com/NAVCoin/navcoin-org/issues>\
-Openalias - <https://github.com/Encrypt-S/openalias-website/issues>
+NavPay - <https://github.com/Encrypt-S/NavPay/issues>\
+Openalias - <https://github.com/Encrypt-S/openalias-website/issues>\
+NavCoin Dev Docs - <https://github.com/NAVCoin/navcoin-dev-docs/issues>
 
 If you have questions about how to get started, please join us on [discord](https://discord.gg/y4Vu9jw), [reddit](https://www.reddit.com/r/NavCoin) or hit any of the developers up on twitter - we are a friendly bunch!
