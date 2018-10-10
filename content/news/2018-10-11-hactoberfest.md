@@ -9,6 +9,7 @@ categories:
   - Nav News
 ---
 Navcoin is participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) - what is that you ask? Well its annual celebration of all things open source, Hacktoberfest launched as a partnership between DigitalOcean and GitHub in 2014 and rallies a global community of contributors, with last year’s event drawing nearly 240K pull requests.
+<!--more-->
 
 This year it will be the fifth instalment. During this one-month hackathon, you can support open-source and by participating you can earn a limited edition swag.
 
