@@ -52,9 +52,11 @@ Carter [has done a write up on NavHub](https://navhub.org/news/2018-10-10-the-na
 
 ### ATM design competition
 
-[The ATM design poll on NavCollab is ready to go](https://collab.navcoin.org/s/navcoin-atm/). A few community designers have created designs for the NavCoin ATM. All you have to do is make your profile and cast your vote. This is one of the entries - what do you think?
+[The ATM design poll on NavCollab is ready to go](https://collab.navcoin.org/s/navcoin-atm/). A few community designers have created mockups for a NavCoin ATM. All you have to do is make your profile and cast your vote. This is one of the entries - what do you think?
 
 ![NavCoin ATM](/images/uploads/atm_v1-1-.png)
 
 That’s all for this week,
+
+
 NavCoin Core
