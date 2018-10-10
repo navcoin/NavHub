@@ -40,7 +40,7 @@ A new NavCoin Developer Documentation website is being built. The aim is to crea
 
 ### NavHub.org refresh commences
 
-Now that the new NavCoin.org site is live, the Content Creators are moving onto the next item on their roadmap - refreshing NavHub.org. This site is important because it’s one of the main avenues for community members get involved and contribute to the NavCoin ecosystem. The first step is to define the role of each page on the new site and decide how to execute it most effectively.
+Now that the new NavCoin.org site is live, the Content Creators are moving onto the next item on their roadmap - refreshing NavHub.org. This site is important because it’s one of the main avenues for community members to get involved and contribute to the NavCoin ecosystem. The first step is to define the role of each page on the new site and decide how to execute it most effectively.
 
 ### Video production update
 
