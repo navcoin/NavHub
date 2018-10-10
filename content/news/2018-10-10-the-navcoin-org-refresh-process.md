@@ -38,9 +38,9 @@ UI template development for desktop
 
 UI template for mobile and tablet screens
 
-## Finalize
+## Final Steps
 
-Later I coded the UI in bootstrap for an accurate, responsive representation and made notes for the developers. A good design process is all about teamwork and making the hand-off seamless and painless. While the developers worked on creating the templates, I put the design sections together like Lego pieces to make up the different pages. This process allowed us to finesse each page, improve the copy, create more icons, revise the sections and finalize the design. After hours and hours of hard work done by the team, on-going discussions and finally implementing the pages, we present to you the new navcoin.org! (We promote open source, you can download all [design resources](https://github.com/kakax114/navcoin-handoff) for free, and you can also find the [source code](https://github.com/NAVCoin/navcoin-org) of navcoin.org website to see how the design is implemented)
+Later I coded the UI in bootstrap for an accurate, responsive representation and made notes for the developers. A good design process is all about teamwork and making the hand-off seamless and painless. While the developers worked on creating the templates, I put the design sections together like Lego pieces to make up the different pages. This process allowed us to finesse each page, improve the copy, create more icons, revise the sections and finalize the design. After hours and hours of hard work done by the team, on-going discussions and finally implementing the pages, we present to you the new navcoin.org! (We promote open source, you can download all [design resources](https://github.com/kakax114/navcoin-handoff) for free, and you can also find the [source code](https://github.com/NAVCoin/navcoin-org) of navcoin.org website to see how the design is implemented).
 
 ## What’s Next
 
