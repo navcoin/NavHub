@@ -1,7 +1,7 @@
 ---
 layout: news
 generated_by_cms: true
-title: Hactoberfest
+title: Hacktoberfest
 author: Paul Sanderson
 date: '2018-10-11T11:52:46+13:00'
 feature_image: /images/uploads/hacktoberfest.png
