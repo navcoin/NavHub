@@ -14,7 +14,7 @@ This is your chance to learn all about the new NavCoin Community Fund from the e
 
 This is your chance to learn all about the new NavCoin Community Fund from the experts - lead developers Alex and Craig. You’ll find out why the Fund is a unique example of true decentralisation, hear about the innovative thinking that went into its development, and get insights into why testing and retesting has been such an important part of the process.
 
-[Tune in to NavCoin Core’s Youtube channel](https://www.youtube.com/NavCoinCore) Wednesday 17th October at 1930 GMT.
+[Tune in to NavCoin Core’s Youtube channel](https://www.youtube.com/NavCoinCore/live) Wednesday 17th October at 1930 GMT.
 
 ### NavCoin is now on Delta Direct
 
