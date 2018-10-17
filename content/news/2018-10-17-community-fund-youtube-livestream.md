@@ -12,8 +12,6 @@ categories:
 
 This is your chance to learn all about the new NavCoin Community Fund from the experts - lead developers Alex and Craig. You’ll find out why the Fund is a unique example of true decentralisation, hear about the innovative thinking that went into its development, and get insights into why testing and retesting has been such an important part of the process.
 
-### Education Live Streaming Session #3
-
 This is your chance to learn all about the new NavCoin Community Fund from the experts - lead developers Alex and Craig. You’ll find out why the Fund is a unique example of true decentralisation, hear about the innovative thinking that went into its development, and get insights into why testing and retesting has been such an important part of the process.
 
 [Tune in to NavCoin Core’s Youtube channel](https://www.youtube.com/NavCoinCore) Wednesday 17th October at 1930 GMT.
@@ -64,7 +62,7 @@ Planning has begun for a community event to finish off 2018 on a positive note. 
 
 Prole appeared on Naomi Brockwell’s “Weekly Crypto Recap” - a wide ranging, lighthearted discussion on the latest news and developments in the cryptosphere.
 
-[You can check it out on Naomi’s Twitter account](https://twitter.com/naomibrockwell/status/1051939859856875521).
+[You can find the Youtube link on Naomi’s Twitter account](https://twitter.com/naomibrockwell/status/1051939859856875521).
 
 {{< tweet 1051939859856875521 >}}
 
