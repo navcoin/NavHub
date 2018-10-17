@@ -26,7 +26,7 @@ To get Delta Direct head over to your phone’s app store and search ‘Delta Cr
 
 There are already a number of Spaces that have been created on the NavCollab forum, including [the ‘Carbon Neutral NavCoin’ proposal](https://collab.navcoin.org/s/carbon-neutral-navcoin/). The idea behind this project is “to offset the carbon footprint of the NavCoin network, making NAV the world’s first carbon neutral cryptocurrency.”
 
-Follow this Space if you would like to learn more!
+[Follow this Space](https://collab.navcoin.org/s/carbon-neutral-navcoin/) if you would like to learn more!
 
 ### Tell your friends about NavCoin
 
