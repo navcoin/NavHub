@@ -54,7 +54,7 @@ Sakdeniz has released the latest version of his NEXT wallet, which includes a Na
 
 ## Core Content Creators
 
-### Digital conference
+### NavCoin digital conference
 
 Planning has begun for a community event to finish off 2018 on a positive note. There will be presentations, discussion sessions, and interactive workshops that you can view and take part in from anywhere. Look out for more details in next week’s edition of NavCoin Community News.
 
