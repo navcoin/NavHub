@@ -62,7 +62,7 @@ Planning has begun for a community event to finish off 2018 on a positive note. 
 
 Prole appeared on Naomi Brockwell’s “Weekly Crypto Recap” - a wide ranging, lighthearted discussion on the latest news and developments in the cryptosphere.
 
-[You can find the link to the video from Naomi’s Twitter post.](https://twitter.com/naomibrockwell/status/1051939859856875521).
+[You can find the link to the video from Naomi’s Twitter post](https://twitter.com/naomibrockwell/status/1051939859856875521).
 
 {{< tweet 1051939859856875521 >}}
 
