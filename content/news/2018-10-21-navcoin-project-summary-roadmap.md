@@ -4,7 +4,7 @@ generated_by_cms: true
 title: NavCoin Project Summary & Roadmap
 author: Craig MacGregor
 date: '2018-10-21T14:27:16+13:00'
-feature_image: /images/uploads/navcoin-project-overview.png
+feature_image: /images/uploads/navcoin-project-summary.png
 categories:
   - Nav News
 ---
