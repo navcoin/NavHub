@@ -14,4 +14,12 @@ With open source and decentralised projects, it's sometimes it's hard to see the
 
 Feel free to use this as a resource and publish it wherever you think it's appropriate.
 
+Here's an excerpt from the document:
+
+> NavCoin is a community driven project with many contributors so the possibilities are truly endless. When the Community Fund is activated the only limit will be your imagination.
+>
+> Everyone has unrestricted autonomy when it comes to building software or services that utilise
+> NavCoin online or in the real world. The community works together as willing participants in this
+> new economy to create a better future.
+
 ### [NavCoin Project Overview »](https://navhub.org/assets/NavCoinOverview_October2018.pdf)
