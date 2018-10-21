@@ -12,4 +12,4 @@ With open source and decentralised projects, it's sometimes it's hard to see the
 
 Feel free to use this as a resource and publish it wherever you think it's appropriate.
 
-## [NavCoin Project Overview](https://navhub.org/assets/NavCoinOverview_October2018.pdf)
+### [NavCoin Project Overview](https://navhub.org/assets/NavCoinOverview_October2018.pdf)
