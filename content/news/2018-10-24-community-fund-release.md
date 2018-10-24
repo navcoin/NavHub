@@ -48,7 +48,7 @@ Are you looking forward to the NavCoin Digital Hackathon? It’s not far away. T
 
 This is an initiative on social media to inspire people to share and discuss ideas about what you would like to bring to the NavCoin community. Head over to NavCoin Twitter or Facebook, search #HumansOfNavCoin and read up on the ideas so far. You can like, comment or share your favorite content to spread the word to your own friends and followers.
 
-### Sign up to receive the weekly report by Email
+### Sign up to receive the weekly report by email
 
 Alongside all our current channels, the weekly community news will begin to be sent out via email. If you would like to sign up to the email list, [please sign up here](http://eepurl.com/cGq92z).
 
