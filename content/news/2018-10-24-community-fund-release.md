@@ -48,6 +48,15 @@ Are you looking forward to the NavCoin Digital Hackathon? It’s not far away. T
 
 This is an initiative on social media to inspire people to share and discuss ideas about what you would like to bring to the NavCoin community. Head over to NavCoin Twitter or Facebook, search #HumansOfNavCoin and read up on the ideas so far. You can like, comment or share your favorite content to spread the word to your own friends and followers.
 
+### Community Fund Video
+
+Sakdeniz created this awesome promo video for the Community Fund. It highlights the best features of the Community Fund in a simple way, so make sure to [check it out on Youtube](https://www.youtube.com/watch?v=gUDTYTrsb_4).
+
+
+### Halloween Pumpkin Competition
+
+For some halloween fun [@Powertrader200](https://twitter.com/Powertrader200) is putting on a NavCoin pumpkin carving competition! Post a picture of your NavCoin pumpkin with the hashtag #NavCoinPumpkin anytime before October 31 for a chance to win 250 NAV.
+
 ### Sign up to receive the weekly report by email
 
 Alongside all our current channels, the weekly community news will begin to be sent out via email. If you would like to sign up to the email list, [please sign up here](http://eepurl.com/cGq92z).
