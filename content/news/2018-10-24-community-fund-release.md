@@ -5,7 +5,6 @@ title: Community Fund Release
 author: John Darby
 date: '2018-10-24T16:52:18+13:00'
 feature_image: /images/uploads/24-october-min.png
-draft: true
 categories:
   - Nav News
 ---
