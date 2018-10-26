@@ -14,6 +14,8 @@ NavCoin 4.4.0 is now [ready for you to download at NavCoin.org](https://navcoin.
 
 With 250,000 NAV accumulating in the fund each year - it’s the perfect time for you to get involved and contribute your skills to the community.
 
+![NavCoin Community Fund Steps](/images/uploads/cfund-3-step-1-.jpg)
+
 ### The world’s first fully-decentralised community fund
 
 The NavCoin Community Fund is the world’s most advanced fund. It improves on the way traditional community funds work in three important ways.
@@ -23,8 +25,6 @@ The NavCoin Community Fund is the world’s most advanced fund. It improves on t
 3. There are no rules for what can be proposed. The subject of the proposal is entirely up to the individual who submits it. All it needs is a 75% YES vote from the network to be accepted.
 
 > Your rights as a member of the network are now extended. Exercising them is important. - Alex V
-
-![NavCoin Community Fund Steps](/images/uploads/cfund-3-step-1-.jpg)
 
 ### Soft fork lock-in period
 
