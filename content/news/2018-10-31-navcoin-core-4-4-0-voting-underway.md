@@ -55,11 +55,11 @@ If you’re thinking about getting involved in the upcoming Hackathon make sure 
 Nugget’s News is a cryptocurrency vlog on Youtube, and earlier this week Core developers Alex and Paul [joined Nugget to answer the question ‘What is NavCoin?’](https://www.youtube.com/watch?v=XwyxQjBTqIs&feature=youtu.be).
 When you have a moment it’s well worth watching this video to get an insight into the NavCoin ecosystem from two of the people who know it best.
 
-### Core Content Creators
+### Core content creators
 
 The redesign of Navhub.org is currently the main focus of the content creators. Like the recent refreshment of NavCoin.org this is an extensive project entailing building new pages, and improving existing content, all aimed at making NavHub.org a better resource for community members. 
 
-### Sign up to receive the weekly report by Email
+### Sign up to receive the weekly report by email
 
 Alongside all our current channels, the weekly community news will begin to be sent out via email. If you would like to sign up to the email list, [please sign up here](http://eepurl.com/cGq92z).
 
