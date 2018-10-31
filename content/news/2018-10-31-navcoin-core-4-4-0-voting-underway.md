@@ -22,7 +22,7 @@ There will be announcements in social media when NavCoin Core 4.4.0 has been app
 
 The new NavPi image will be a refreshed version of the image that you can download and flash to an SD Card when you’re setting up your NavPi. The new image will include the up-to-date blockchain, NavCoin 4.4.0 and a simplified version of the UI for basic Community Fund interactions. Keep an eye out for this release in the next few days.
 
-### NPIP voting
+### Soft fork voting
 
 Currently there are three votes underway as part of NavCoin Core 4.4.0. There is the Community Fund activation discussed above, plus two NavCoin Protocol Improvement Proposals - NPIP003 and NPIP005. A fourth - NPIP004 - is currently up for discussion.
 
