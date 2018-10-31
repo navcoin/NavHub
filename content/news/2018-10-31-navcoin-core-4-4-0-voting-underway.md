@@ -36,7 +36,7 @@ Currently there are three votes underway as part of NavCoin Core 4.4.0. There is
 
 ### NPIP004 - under review
 
-NPIP004 proposes moving to a static block reward scheme to better incentivise stakers to assist in increasing network security. It’s planned to include this NPIP in the upcoming NavCoin 4.5.0 as a soft fork. Please check it out on GitHub, and feel free to critique it constructively.
+NPIP004 proposes moving to a static block reward scheme to better incentivise stakers to assist in increasing network security. It’s planned to include this NPIP in the upcoming NavCoin 4.5.0 as a soft fork. Please check it out [on GitHub](https://github.com/NAVCoin/npips/blob/master/npip-0004.mediawiki), and feel free to critique it constructively.
 
 ### Alex’s previews the new privacy solution
 
