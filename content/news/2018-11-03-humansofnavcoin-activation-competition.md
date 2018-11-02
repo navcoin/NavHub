@@ -37,7 +37,7 @@ The competition will run up until the Community Fund activates on the network, o
 * The winner will receive help and support from NavCoin Core to achieve their proposal.
 * The winner will keep the NAV claimed from the community fund proposal.
 
-Easy right? Better get tweeting!
+Easy right? Better get your thinking cap on and start tweeting!
 
 If you're new to NavCoin and don't know what the Community Fund is, you can read all about it on the [NavCoin Community Fund](https://navcoin.org/community-fund) page.
 
