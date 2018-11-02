@@ -32,3 +32,7 @@ The competition will run up until the Community Fund activates on the network, o
 * The winner will keep the NAV claimed from the community fund proposal.
 
 Easy right? Better get tweeting!
+
+If you're new to NavCoin and don't know what the Community Fund is, you can read all about it on the [NavCoin Community Fund Page](https://navcoin.org/community-fund).
+
+To keep an eye on when the competition closes, you can track the softfork voting status on the [NavExplorer site](https://www.navexplorer.com/soft-forks).
