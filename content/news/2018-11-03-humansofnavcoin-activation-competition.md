@@ -17,9 +17,9 @@ You'll find all sorts of great ideas like this one proposed by twitter user [@Cr
 
 {{< tweet 1056817988672913408 >}}
 
-We're really excited about all the great ideas which are being proposed, it looks like there are going to be some amazing things created by the community when the Community Fund activates. To support the community's efforts, NavCoin Core are going to offer their help and support to one of the most popular proposal ideas on twitter.
+We're really excited about all the great ideas which are being proposed, it looks like there are going to be some amazing things created by the community when the Community Fund activates. To support the community's efforts, NavCoin Core are going to offer their help and support to one of the most popular proposal ideas.
 
-All you have to do is tweet your proposal idea with the hashtag #HumansOfNavCoin. The more likes and retweets your tweet gets, the more entries you get into the competition. We will pick one of the most liked and retweeted proposal ideas, and help the creator to bring the project to life.
+All you have to do is tweet your proposal idea with the hashtag [\#HumansOfNavCoin](https://twitter.com/search?q=%23HumansOfNavCoin). The more likes and retweets your tweet gets, the more entries you get into the competition. We will pick one of the most liked and retweeted proposal ideas, and help the creator to bring the project to life.
 
 NavCoin Core will help the winner publish their idea, submit the funding proposal, promote it to the NavCoin Community and even help to execute the idea, or help find the right team which can.
 
@@ -29,7 +29,7 @@ The competition will run up until the Community Fund activates on the network, o
 
 **TL:DR**
 
-* Tweet your Community Fund proposal idea with the #HumansOfNavCoin hashtag.
+* Tweet your Community Fund proposal idea with the [\#HumansOfNavCoin](https://twitter.com/search?q=%23HumansOfNavCoin) hashtag.
 * Get your followers to like and retweet your tweet.
 * The winner will be chosen from the most popular tweets.
 * Likes earn 1 point, retweets earn 2 points.
