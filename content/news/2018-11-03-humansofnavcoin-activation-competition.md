@@ -27,7 +27,7 @@ The winner will of course also earn the NAV which is allocated by the Community 
 
 The competition will run up until the Community Fund activates on the network, one week after lock-in is achieved, approximately 00:00 GMT Friday 16 November 2018 depending on how the network continues to vote.
 
-**TL:DR**
+**TL;DR**
 
 * Tweet your Community Fund proposal idea with the [\#HumansOfNavCoin](https://twitter.com/search?f=tweets&vertical=default&q=%23HumansOfNavCoin) hashtag.
 * Get your followers to like and retweet your tweet.
