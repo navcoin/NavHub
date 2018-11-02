@@ -13,7 +13,9 @@ NavCoin Core are launching a competition to help support the most popular commun
 
 The NavCoin Community Fund softfork voting is well underway and looking likely to lock-in at the end of the next voting period, approximately 00:00 GMT Friday 9 November. To help showcase potential Community Fund proposals we've been running a #HumansOfNavCoin hashtag campaign on twitter. You can see all the great ideas the community has put forward so far by [searching the hashtag](https://twitter.com/search?q=%23HumansOfNavCoin).
 
-{{< tweet 1055005999705321474 >}}
+You'll find all sorts of great ideas like this proposal to launch a grass roots campaign to get NavCoin used in local markets.
+
+{{< tweet 1056817988672913408 >}}
 
 We're really excited about all the great ideas which are being proposed, it looks like there are going to be some amazing things created by the community when the Community Fund activates. To support the community's efforts, we are going to offer our resources to support the most popular proposal idea.
 
