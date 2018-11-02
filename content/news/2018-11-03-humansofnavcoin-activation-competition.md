@@ -17,7 +17,7 @@ You'll find all sorts of great ideas like this proposal by Crypto Smart Hub to l
 
 {{< tweet 1056817988672913408 >}}
 
-We're really excited about all the great ideas which are being proposed, it looks like there are going to be some amazing things created by the community when the Community Fund activates. To support the community's efforts, we are going to offer our resources to support the most popular proposal idea.
+We're really excited about all the great ideas which are being proposed, it looks like there are going to be some amazing things created by the community when the Community Fund activates. To support the community's efforts, we are going to offer our help to support one of the most popular proposal ideas.
 
 All you have to do is tweet your proposal idea with the hashtag #HumansOfNavCoin. The more likes and retweets your tweet gets, will earn you extra entries into the competition. We will pick one of the most liked and retweeted proposal ideas and help the creator to bring the project to life.
 
