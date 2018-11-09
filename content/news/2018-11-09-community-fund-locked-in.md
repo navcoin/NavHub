@@ -23,7 +23,7 @@ So if you haven’t upgraded already, why not do it now with [this link to the l
 NavCoin 4.4.0 is actually three soft-forks in one, because it contains two Community Fund related NavCoin Protocol Improvement Proposals - NPIP003 and NPIP005, plus the activation of the Community Fund itself. Here’s what this protocol update enables:
 
 1. Opening the Community Fund to accept submissions. Now the world’s first fully decentralised, dual-vote fund is ready to go.
-2. Doubling of the network contribution into the Fund to 500,000 NAV per year. Not only does it mean that when static rewards are enabled the 1:4 ratio of contribution to staking rewards is retained, but it also should mean there are more proposals being worked on and completed.
+2. Doubling of the network contribution into the Fund to 500,000 NAV per year. Not only does it mean that when static rewards are enabled the 1:4 ratio of contribution to staking rewards is retained, but it should also mean there are more proposals being worked on and completed.
 3. Bundling together of fund payments from each block to once every 500 blocks. This will save space on the blockchain, by reducing the number of transactions over the network.
 
 ### What’s next?
