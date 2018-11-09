@@ -12,7 +12,11 @@ Good news! The Community Fund soft-fork has locked-in. After almost a year and a
 
 Good news! The Community Fund soft-fork has locked-in. After almost a year and a half since the initial conversations began.
 
-Now there will be a seven day lock-in period and then the soft-fork will be activated. The reason for this seven day grace period is to give everyone who hasn’t already done it a little extra time to upgrade their Core wallet to the latest version. But if you don’t update by the end of the lock-in period you risk being dropped from the network, so if you haven’t done it already, why not do it now - [download NavCoin Core 4.4.0](https://navcoin.org/en/wallets/).
+Now there will be a seven day lock-in period and then the soft-fork will be activated (at block height 2,620,800). The reason for this seven day grace period is to give everyone who hasn’t already done it extra time to upgrade their wallet to the latest version. 
+
+After this activation block, nodes running 4.3.x have an increasing risk of ending up on a fork from the main chain, and forking will become unavoidable when the first payment request is processed.
+
+So if you haven’t upgraded already, why not do it now - [download NavCoin Core 4.4.0](https://navcoin.org/en/wallets/).
 
 ### What’s changing?
 
