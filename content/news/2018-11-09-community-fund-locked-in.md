@@ -16,7 +16,7 @@ Now there will be a seven day lock-in period and then the soft-fork will be acti
 
 After this activation block, nodes running 4.3.x have an increasing risk of ending up on a fork from the main chain, and forking will become unavoidable when the first payment request is processed.
 
-So if you haven’t upgraded already, why not do it now with [this link to latest NavCoin wallets](https://navcoin.org/en/wallets/).
+So if you haven’t upgraded already, why not do it now with [this link to the latest NavCoin wallets](https://navcoin.org/en/wallets/).
 
 ### What’s changing?
 
