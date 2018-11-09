@@ -16,17 +16,17 @@ Now there will be a seven day lock-in period and then the soft-fork will be acti
 
 After this activation block, nodes running 4.3.x have an increasing risk of ending up on a fork from the main chain, and forking will become unavoidable when the first payment request is processed.
 
-So if you haven’t upgraded already, why not do it now - [download NavCoin Core 4.4.0](https://navcoin.org/en/wallets/).
+So if you haven’t upgraded already, why not do it now with [this link to latest NavCoin wallets](https://navcoin.org/en/wallets/).
 
 ### What’s changing?
 
 NavCoin 4.4.0 is actually three soft-forks in one, because it contains two Community Fund related NavCoin Protocol Improvement Proposals - NPIP003 and NPIP005, plus the activation of the Community Fund itself. Here’s what this protocol update enables:
 
-Opening the Community Fund to accept submissions. Now the world’s first fully decentralised, dual-vote fund is ready to go.
+1. Opening the Community Fund to accept submissions. Now the world’s first fully decentralised, dual-vote fund is ready to go.
 
-Doubling of the network contribution to the Fund to 500,000 NAV per year to make it even more financially attractive to create and deliver a Community Fund project.
+2. Doubling of the network contribution to the Fund to 500,000 NAV per year to make it even more financially attractive to create and deliver a Community Fund project.
 
-Bundling together of fund payments, from each block to once every 500 blocks. This will save space on the blockchain, by reducing the number of transactions over the network.
+3. Bundling together of fund payments from each block to once every 500 blocks. This will save space on the blockchain, by reducing the number of transactions over the network.
 
 ### What’s next?
 
@@ -41,6 +41,6 @@ With 4.4.0 locking-in it’s time to start putting together your project ideas, 
 
 This soft-fork which brings the Community Fund to life is a significant milestone for NavCoin. It’s a world first and something we can all be very proud of. 
 
-To guarantee you remain on the network, make sure you’re running the latest version of the Core wallet before the end of the lock-in period - here’s the download link again:
+To guarantee you remain on the network, make sure you’re running the latest version before the end of the lock-in period - here’s the download link again:
 
-[Download NavCoin Core 4.4.0](https://navcoin.org/en/wallets/)
+[Download the latest NavCoin wallets here.](https://navcoin.org/en/wallets/)
