@@ -8,17 +8,15 @@ feature_image: /images/uploads/communityfund-lockin.png
 categories:
   - Nav News
 ---
-The big news from the past week in the world of NavCoin is that NavCoin Core 4.4.0 has locked in, activating the Community Fund and the doubling of the network contribution to the Fund from 250,000 to 500,000 NAV per year. That means that the world’s first fully decentralised Community Fund is almost ready to go! Once it activates, there will be nothing holding you back from submitting your ideas and applying to have them funded by the network. 
+The big news from the past week in the world of NavCoin is that the NavCoin 4.4.0 soft-forks have locked in, which activate the Community Fund and double the network contribution to the Fund from 250,000 to 500,000 NAV per year. That means that the world’s first fully decentralised Community Fund is almost ready to go! Once it activates, there will be nothing holding you back from submitting your ideas and applying to have them funded by the network. 
 
-The big news from the past week in the world of NavCoin is that NavCoin Core 4.4.0 has locked in, activating the Community Fund and the doubling of the network contribution to the Fund from 250,000 to 500,000 NAV per year. That means that the world’s first fully decentralised Community Fund is almost ready to go! Once it activates, there will be nothing holding you back from submitting your ideas and applying to have them funded by the network. 
+The big news from the past week in the world of NavCoin is that the NavCoin 4.4.0 soft-forks have locked in, which activate the Community Fund and double the network contribution to the Fund from 250,000 to 500,000 NAV per year. That means that the world’s first fully decentralised Community Fund is almost ready to go! Once it activates, there will be nothing holding you back from submitting your ideas and applying to have them funded by the network. 
 
 There is a 7 day waiting period between the lock-in and the activation of the soft-fork, in order to allow stakers to upgrade their wallets. The activation will occur at block height 2,620,800 which is roughly in a few days time, after which, you will be able to submit proposals.
 
 After this block, nodes running 4.3.x and below have an increasing risk of ending up on a fork from the main chain and forking will become unavoidable when the first payment request is processed.
 
 It is highly recommended to upgrade to version 4.4.0 as soon as possible to avoid any problems after the consensus change activates. After the soft fork activates, the upgrade is considered mandatory and all older versions of NavCoin Core become deprecated.
-
-
 
 [You can download the latest wallets here.](https://navcoin.org/en/wallets/)
 
@@ -45,9 +43,9 @@ Once you’re ready there are two ways to submit your proposal to the blockchain
 
 Nav_Whale posted an [interesting idea for a NavCoin Lottery](https://www.reddit.com/r/NavCoin/comments/9t3f4x/navcoin_lottery_as_a_proposal_for_community_fund/) that would reward stakers by putting them into a monthly draw to win NAV. Check out the comments below this proposal to see what other community members are feeling, and add your thoughts. 
 
-### Marcus goes full-time + summer interns
+### Marcus goes full-time + interns
 
-Marcus, who was involved in testing the Community Fund, has started working full-time with the NavCoin Core devs during his summer uni break. 
+Marcus, who was involved in testing the Community Fund, has started working full-time with the NavCoin Core devs during his university break. 
 
 Alex, who is also a computer science major at the University of Auckland, has joined the NavCoin Core team as an intern during the summer break. Along with Marcus, he’ll be involved in testing the next NavCoin Core release (4.5.0), which includes cold staking, and static rewards (the subject of [NPIP004](https://github.com/NAVCoin/npips/blob/master/npip-0004.mediawiki) which is currently being discussed by the community). 
 
