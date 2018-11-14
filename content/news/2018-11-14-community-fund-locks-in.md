@@ -55,7 +55,7 @@ The opportunity with the Dev team might suit you if you want to upskill on C++, 
 
 The Content team could have a place for you if have skills in design, marketing or copywriting. To apply please contact kieren@encrypt-s.com
 
-Currently these summer internships are unpaid positions, however, funding is the subject of a Community Fund proposal by Prole, which you can [read about at the NavCoin Collab site](https://collab.navcoin.org/s/navcoin-core-internships/custom_pages/container/view?id=9). 
+Currently these internships are unpaid positions, however, funding is the subject of a Community Fund proposal by Prole, which you can [read about at the NavCoin Collab site](https://collab.navcoin.org/s/navcoin-core-internships/custom_pages/container/view?id=9). 
 
 ### Community Fund Bootcamp
 
