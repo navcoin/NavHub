@@ -8,9 +8,9 @@ feature_image: /images/uploads/communityfund-lockin.png
 categories:
   - Nav News
 ---
-The big news from the past week in the world of NavCoin is that the NavCoin 4.4.0 soft-forks have locked in, which activate the Community Fund and double the network contribution to the Fund from 250,000 to 500,000 NAV per year. That means that the world’s first fully decentralised Community Fund is almost ready to go! Once it activates, there will be nothing holding you back from submitting your ideas and applying to have them funded by the network. 
+The big news from the past week in the world of NavCoin is that the 4.4.0 soft-forks have locked in, which activate the Community Fund and double the network contribution to the Fund from 250,000 to 500,000 NAV per year. That means that the world’s first fully decentralised Community Fund is almost ready to go! Once it activates, there will be nothing holding you back from submitting your ideas and applying to have them funded by the network. 
 
-The big news from the past week in the world of NavCoin is that the NavCoin 4.4.0 soft-forks have locked in, which activate the Community Fund and double the network contribution to the Fund from 250,000 to 500,000 NAV per year. That means that the world’s first fully decentralised Community Fund is almost ready to go! Once it activates, there will be nothing holding you back from submitting your ideas and applying to have them funded by the network. 
+The big news from the past week in the world of NavCoin is that the 4.4.0 soft-forks have locked in, which activate the Community Fund and double the network contribution to the Fund from 250,000 to 500,000 NAV per year. That means that the world’s first fully decentralised Community Fund is almost ready to go! Once it activates, there will be nothing holding you back from submitting your ideas and applying to have them funded by the network. 
 
 There is a 7 day waiting period between the lock-in and the activation of the soft-fork, in order to allow stakers to upgrade their wallets. The activation will occur at block height 2,620,800 which is roughly in a few days time, after which, you will be able to submit proposals.
 
