@@ -23,15 +23,15 @@ In case you aren’t already aware, the NavCoin Community fund is the world’s 
 
 ### What’s next?
 
-Well, that’s totally up to you. This is your Community Fund there are no rules to follow for what your project should or shouldn’t be. All you have to do is convince NavCoin stakers that your project is worthy of their vote, then follow through and deliver it as promised. 
+Well, that’s totally up to you. This is your Community Fund. There are no rules to follow for what your project should or shouldn’t be. All you have to do is convince NavCoin stakers that your project is worthy of their vote, then follow through and deliver it as promised. 
 
 There are two easy ways to submit your project:
 
-* Download the [NavCoin NEXT wallet](http://next.navcommunity.net/) and take advantage of its built-in proposal form - which is just one of the features of this great initiative. 
+* Download the [NavCoin NEXT wallet](http://next.navcommunity.net/) and take advantage of its built-in proposal form.
 * Go to NavCoin.org and use the proposal tool on [the Community Fund page](https://navcoin.org/en/community-fund/) (located at step 4 of the creation guide). This will generate a piece of code that you paste into your NavCoin Core Wallet.
 
-### Community Fund boot camp
+### How to create a great proposal?
 
-Look out for more information coming soon about a digital boot camp designed to help you craft compelling proposals. You can [sign up for the mailing list here](http://eepurl.com/dNvNQc).
+Look out for more information coming soon about a digital boot camp, which is designed to help you craft compelling proposals. You can [sign up for the mailing list here](http://eepurl.com/dNvNQc).
 
-In the meantime, why not head over to the [NavCoin Knowledge base](https://info.navcoin.org/article-categories/community-fund/) where you can read all the step-by-step guides for the Community Fund.
+In the meantime, why not head over to the NavCoin Knowledge Base where you can read [all the step-by-step guides for the Community Fund](https://info.navcoin.org/article-categories/community-fund/).
