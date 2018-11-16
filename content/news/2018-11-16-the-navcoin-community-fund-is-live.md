@@ -36,7 +36,7 @@ For the full instructions on how to submit a proposal - [please view this guide 
 
 You can view proposals once they've been submitted to the blockchain using the [NavCommunity Proposal Viewer](https://communityfund.nav.community/) or alternatively on the [NavExplorer website](https://www.navexplorer.com/community-fund/proposals/pending). 
 
-These tools are designed to make it easier to view, vote and discuss proposals that are being voted on.
+These tools are designed to make it easier to view, vote and discuss proposals that are currently being voted on.
 
 ### How to create a great proposal?
 
