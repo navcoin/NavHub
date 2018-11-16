@@ -34,7 +34,7 @@ For the full instructions on how to submit a proposal - [please view this guide 
 
 ### Viewing Proposals
 
-You can view proposals once they've been submitted to the blockchain using the [NavCommunity website](https://communityfund.nav.community/) - which is a discussion forum for NavCoin stakers. It connects to the blockchain explorer in order to prove you are a staker, which then enables your account to participate in the discussions.
+You can view proposals once they've been submitted to the blockchain using the [NavCommunity website](https://communityfund.nav.community/) - which is a discussion forum for NavCoin stakers. It connects to the blockchain explorer in order to prove you are a staker, which then enables your account to participate in the discussions. The platform can be used under a pseudonymous name (and there's no email sign up), so stakers don't need to worry about revealing any identifiable information.
 
 The other alternative to viewing proposals is the [NavExplorer website](https://www.navexplorer.com/community-fund/proposals/pending). 
 
