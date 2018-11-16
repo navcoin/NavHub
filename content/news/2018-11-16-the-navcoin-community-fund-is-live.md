@@ -40,7 +40,7 @@ It connects to the blockchain explorer in order to prove you are a staker, which
 
 It also has a number of tools that make it easy to create proposals, submit payment requests, and vote on proposals.
 
-The other alternative to viewing proposals is the [NavExplorer website](https://www.navexplorer.com/community-fund/proposals/pending). 
+Another great alternative to viewing proposals in the fund is the [NavExplorer website](https://www.navexplorer.com/community-fund/proposals/pending). 
 
 
 
