@@ -38,9 +38,11 @@ You can view proposals once they've been submitted to the blockchain using the [
 
 It connects to the blockchain explorer in order to prove you are a staker, which then enables your account to participate in the discussions. The platform can be used under a pseudonymous name (and there's no email sign up), so stakers don't need to worry about revealing any identifiable information.
 
+It also has a number of tools that make it easy to create proposals, submit payment requests, and vote on proposals.
+
 The other alternative to viewing proposals is the [NavExplorer website](https://www.navexplorer.com/community-fund/proposals/pending). 
 
-These tools are designed to make it easier to view, vote and discuss proposals that are currently being voted on.
+
 
 ### How to create a great proposal?
 
