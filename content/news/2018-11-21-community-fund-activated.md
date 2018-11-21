@@ -52,7 +52,7 @@ We managed to extend its lifespan by adding the option to use a USB drive as add
 
 If your NavPi is running 4.4.0 and you’re mining blocks successfully, then by all means continue using it, but please be aware that the NavCoin Core team will not continue officially supporting the NavPi. We’re sad to see the end of life of this awesome piece of hardware, which has given such great service to the NavCoin network. On the bright side, if you have a NavPi that isn’t able to mine NAV anymore, you don’t need to throw it away! They are still awesome little computers, which you can use for many different things. [Head over to the Raspberry Pi website](https://www.raspberrypi.org/) and be inspired by all the cool projects.
 
-#### Enter the NavDroid
+**Enter the NavDroid**
 
 We are currently working to release an image for the ODroid XU4 device which is roughly 4x more powerful than the Raspberry Pi. It should be able to mine the NavCoin blockchain for the foreseeable future, while still only drawing 5v of electricity. The plan is for the ODroid XU4 image to come pre-loaded with NavCoin NEXT wallet, which includes advanced features for viewing and voting on Community Fund proposals. The NavDroid will not run the browser-based interface like the NavPi, instead, it will come pre-configured with VNC to use NEXT over a simple remote desktop connection. 
 
@@ -62,7 +62,7 @@ And remember, all these projects are open source, so if anyone else wants to tak
 
 ### YoBit exchange listing
 
-NavCoin is being listed on new exchanges. The most recent application for listing was to YoBit. Their NavCoin/BTC trading pair is expected to go online within the next few weeks.
+NavCoin is looking to be listed on new exchanges. The most recent application for listing was to YoBit. Their NavCoin/BTC trading pair is estimated to go online within the next few weeks.
 
 ### NavPay update
 
