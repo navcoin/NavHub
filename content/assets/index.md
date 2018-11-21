@@ -69,3 +69,10 @@ type: "default"
     feature3Txt="Download Beekart Assets »"
     feature3Link="https://www.dropbox.com/sh/rcz5keot51ia9ma/AAAC-qKu5AAZjOlW1Troz5Nha?dl=0"
 >}}
+<div class="row">
+  {{< generic_box_item
+      image="/images/icons/icon-discord.png"
+      title="Join the Community"
+      description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+      url="/">}}
+</div>
