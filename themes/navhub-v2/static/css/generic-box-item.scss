@@ -1,0 +1,30 @@
+.generic-box-item {
+    width: 376px;
+    height: 320px;
+    background: #fff;
+    border: #DDDDDD solid 1px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h2 {
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: #111111;
+  }
+
+  p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    max-width: 310px;
+    text-align: center;
+    color: #666666;
+  }
+}

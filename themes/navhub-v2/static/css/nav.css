@@ -1,3 +1,29 @@
+/*****************************
+        Shortcodes 
+*****************************/
+.generic-box-item {
+  width: 376px;
+  height: 320px;
+  background: #fff;
+  border: #DDDDDD solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .generic-box-item img {
+    width: 150px;
+    height: 150px; }
+  .generic-box-item h2 {
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: #111111; }
+  .generic-box-item p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    max-width: 310px;
+    text-align: center;
+    color: #666666; }
+
 .news-content ul {
   display: block;
   list-style-type: disc;
@@ -44,6 +70,13 @@
   .icon-block figcaption p {
     text-align: center; }
 
+.icon-block figcaption p {
+  text-align: center; }
+
+.icon-block {
+  display: inline-block;
+  margin-right: 15px; }
+
 .play-store-button {
   padding: 18px 25px !important; }
 
@@ -71,5 +104,3 @@
       padding: 6px 10px; }
     .info-links label i {
       padding: 10px; }
-
-/*# sourceMappingURL=nav.css.map */
