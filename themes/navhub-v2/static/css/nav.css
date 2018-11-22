@@ -4,9 +4,9 @@
 .generic-box-item {
   width: 100%;
   height: 100%;
-  max-width: 376px;
-  max-height: 320px;
-  background: #fff;
+  max-width: 356px;
+  max-height: 375px;
+  background: #7D5AB5;
   border: #DDDDDD solid 1px;
   display: flex;
   flex-direction: column;
@@ -14,17 +14,26 @@
   align-items: center; }
   .generic-box-item img {
     width: 150px;
-    height: 150px; }
+    height: 150px;
+    margin: -15px; }
   .generic-box-item h2 {
     font-family: 'Raleway';
-    font-size: 30px;
-    color: #111111; }
+    font-size: 20px;
+    color: #FFFFFF; }
   .generic-box-item p {
     font-family: 'Roboto';
     font-size: 16px;
     max-width: 310px;
     text-align: center;
-    color: #666666; }
+    color: #FFFFFF; }
+  .generic-box-item div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.generic-box-item .div i {
+  font-size: 16px;
+  color: #FFFFFF; }
 
 @media (max-width: 800px) {
   .generic-box-item img {

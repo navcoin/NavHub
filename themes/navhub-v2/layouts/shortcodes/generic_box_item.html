@@ -1,7 +1,23 @@
-<a href="{{ .Get "url" }}">
-  <div class="generic-box-item">
-    <img src="{{ .Get "image" }}">
-    <h2>{{ .Get "title" }}</h2>
-    <p>{{ .Get "description" }}</p>
+
+<div class="generic-box-item">
+  <img src="{{ .Get "image" }}">
+  <h2>{{ .Get "title" }}</h2>
+  <p>{{ .Get "description" }}</p>
+  <div>
+    <a href="{{ .Get "tw_url" }}">
+      <span class="fa-stack fa-2x">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+    <a href="{{ .Get "fb_url" }}">
+      <span class="fa-stack fa-2x">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
   </div>
-</a>
+
+
+
+</div>
