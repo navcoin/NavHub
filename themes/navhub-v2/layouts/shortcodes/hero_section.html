@@ -1,0 +1,16 @@
+<div class="hero-section">
+    <div class="image-container">
+        <img src="{{ .Get "imageSrc" }}" class="hero-img">
+    </div>
+    <div class="text-section-container">
+        <h1 class="">{{ .Get "titleText"}}</h1>
+        <p class="paragraph-text">{{ .Get "paragraphText" | safeHTML}}</p>
+        {{ if (isset  .Params "buttonText") }}
+            <div>
+                <a href="{{ .Get "buttonLink" }}" class="round-btn blue-btn" {{if isset .Params "newTab"}} target="_blank" {{end}}>
+                    {{ .Get "buttonText" }}  
+                    <img src="{{ .Get "buttonImageSrc" }}" class="btn-img"> </a>
+            </div>    
+        {{ end }}
+    </div>
+</div>
