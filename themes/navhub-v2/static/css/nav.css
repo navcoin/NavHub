@@ -30,8 +30,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .generic-box-item .circle-icon {
-    color: #4F3E6B; }
+  .generic-box-item .icon-circle {
+    background: #4F3E6B;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px; }
+  .generic-box-item .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%; }
+    .generic-box-item .icon-container a {
+      margin: 0px 5px; }
 
 @media (max-width: 800px) {
   .generic-box-item img {
