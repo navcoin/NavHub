@@ -1,6 +1,9 @@
 .generic-box-item {
-    width: 376px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
+
+    max-width: 376px;
+    max-height: 320px;
     background: #fff;
     border: #DDDDDD solid 1px;
 
@@ -26,5 +29,32 @@
     max-width: 310px;
     text-align: center;
     color: #666666;
+
+  
   }
 }
+
+@media (max-width: 800px) {
+  .generic-box-item {
+    
+
+
+    img {
+      width: 90px;
+      height: 90px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+
+
+
+
