@@ -30,10 +30,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-
-.generic-box-item .div i {
-  font-size: 16px;
-  color: #FFFFFF; }
+  .generic-box-item .circle-icon {
+    color: #4F3E6B; }
 
 @media (max-width: 800px) {
   .generic-box-item img {
