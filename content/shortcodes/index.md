@@ -5,10 +5,18 @@ draft: false
 type: "default"
 ---
 
-<div class="row">
-  {{< generic_box_item
-      image="/images/icons/icon-discord.png"
-      title="Join the Community"
-      description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
-      url="/">}}
-</div>
+{{< generic_box_item
+    image="/images/icons/icon-discord.png"
+    title="Join the Community"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/">}}
+{{< generic_box_item
+    image="/images/icons/icon-discord.png"
+    title="Join the Community"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/">}}
+{{< generic_box_item
+    image="/images/icons/icon-discord.png"
+    title="Join the Community"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/">}}
