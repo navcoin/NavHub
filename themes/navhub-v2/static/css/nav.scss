@@ -5,8 +5,36 @@
         Shortcodes 
 *****************************/
 @import './generic-box-item.scss';
+@import './item-container-section.scss';
+@import './hero-section.scss'; 
 
+/*********/
+body {
+    background: #FBFBFB;
+}
+.flex-center { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.news-content > p:empty {
+    display: none;
+}
+
+.ninety-vw-container {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+@media (min-width: 1300px) {
+    .ninety-vw-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/*********/
 .news-content ul {
 
     display: block;
