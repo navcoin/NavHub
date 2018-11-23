@@ -87,3 +87,36 @@ buttonImageSrc=""
       subtext="Download Logo Pack"
       url="/">}}
 {{< /item_container_section >}}
+
+{{< item_container_section
+    titleText="NavCoin Heroes"
+    subtitleText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy&nbsp;eirmod."
+>}}
+{{< navcoin_hero
+    image="/images/icons/icon-discord.png"
+    name="Prodpeak"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/"
+    fb_url="https://www.facebook.com/navcoin/" 
+    twitter_url="https://www.twitter.com/navcoin"
+    >}}
+
+{{< navcoin_hero
+    image="/images/icons/icon-discord.png"
+    name="Prodpeak"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/"
+    fb_url="https://www.facebook.com/navcoin/" 
+    twitter_url="https://www.twitter.com/navcoin"
+    >}}
+    
+{{< navcoin_hero
+    image="/images/icons/icon-discord.png"
+    name="Prodpeak"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/"
+    fb_url="https://www.facebook.com/navcoin/" 
+    twitter_url="https://www.twitter.com/navcoin"
+    >}}
+
+{{< /item_container_section >}}
