@@ -20,41 +20,26 @@ buttonImageSrc=""
     buttonText="Get Started"
     buttonImgSrc=""
 >}}
-
   {{< generic_box_item
-      image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
-      url="/">}}
+        image="/images/icons/icon-discord.png"
+        title="Logos"
+        description="Download Logo Pack">}}
   {{< generic_box_item
-      image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
-      url="/">}}
+        image="/images/icons/icon-discord.png"
+        title="Logos"
+        description="Download Logo Pack">}}
   {{< generic_box_item
-      image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
-      url="/">}}
-  {{< generic_box_item
-      image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
-      url="/">}}
-  {{< generic_box_item
-      image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
-      url="/">}}
-  {{< generic_box_item
-      image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
-      url="/">}}
+        image="/images/icons/icon-discord.png"
+        title="Logos"
+        description="Download Logo Pack">}}
 {{< /item_container_section >}}
 
 {{< item_container_section
-    ls=""
+    titleText="Get Started"
+    subtitleText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy&nbsp;eirmod."
+    buttonUrl="/guides"
+    buttonText="Get Started"
+    buttonImgSrc=""
 >}}
   {{< box_item_w_link
       image="/images/icons/icon-discord.png"
@@ -100,6 +85,30 @@ buttonImageSrc=""
     fb_url="https://www.facebook.com/navcoin/" 
     twitter_url="https://www.twitter.com/navcoin"
     >}}
+{{< navcoin_hero
+    image="/images/icons/icon-discord.png"
+    name="Prodpeak"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/"
+    fb_url="https://www.facebook.com/navcoin/" 
+    twitter_url="https://www.twitter.com/navcoin"
+    >}}
+{{< navcoin_hero
+    image="/images/icons/icon-discord.png"
+    name="Prodpeak"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/"
+    fb_url="https://www.facebook.com/navcoin/" 
+    twitter_url="https://www.twitter.com/navcoin"
+    >}}
+{{< navcoin_hero
+    image="/images/icons/icon-discord.png"
+    name="Prodpeak"
+    description="If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community."
+    url="/"
+    fb_url="https://www.facebook.com/navcoin/" 
+    twitter_url="https://www.twitter.com/navcoin"
+    >}}
 
 {{< navcoin_hero
     image="/images/icons/icon-discord.png"
@@ -109,7 +118,7 @@ buttonImageSrc=""
     fb_url="https://www.facebook.com/navcoin/" 
     twitter_url="https://www.twitter.com/navcoin"
     >}}
-    
+
 {{< navcoin_hero
     image="/images/icons/icon-discord.png"
     name="Prodpeak"
