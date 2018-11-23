@@ -1,4 +1,4 @@
-.generic-box-item {
+.box-item-w-link {
   &:hover{
     filter: brightness(105%);
   }
@@ -8,8 +8,6 @@
   max-height: 320px;
   min-width: 310px;
   min-height: 260px;
-  border: #dddddd solid 1px;
-  background: #fff;
 
   .content {
     padding: 40px 40px 35px 40px;

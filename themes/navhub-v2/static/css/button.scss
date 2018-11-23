@@ -1,0 +1,63 @@
+
+@import "./colors.scss";
+
+.square-btn {
+  font-family: 'Raleway', 'Regular', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  border: transparent 1px solid;
+  padding: 12px 0;
+  min-width: 111px;
+  text-align: center;  
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .square-btn {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+
+.btn-img {
+  height: 12px;
+  margin-left: 25px;
+}
+
+.img-left {
+  img {
+    order: 1;
+  }
+}  
+
+.img-right {
+  img {
+    order: 2;
+  }
+}
+
+.bg-purple {
+  background-color: #795BB6;
+}
+
+.bg-blue {
+  background-color: #1073E7;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.border-white {
+  border: 1px solid #fff;
+}
+
+.txt-purple {
+  color: #7D5AB5;
+}
+
+.txt-white {
+  color: #fff;
+}

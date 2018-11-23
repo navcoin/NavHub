@@ -7,8 +7,8 @@
         <p class="paragraph-text">{{ .Get "paragraphText" | safeHTML}}</p>
         {{ if (isset  .Params "buttonText") }}
             <div>
-                <a href="{{ .Get "buttonLink" }}" class="round-btn blue-btn" {{if isset .Params "newTab"}} target="_blank" {{end}}>
-                    {{ .Get "buttonText" }}  
+                <a href="{{ .Get "buttonLink" }}" class="square-btn bg-blue txt-white img-left" {{if isset .Params "newTab"}} target="_blank" {{end}}>
+                    <span>{{ .Get "buttonText" }}</span>
                     <img src="{{ .Get "buttonImageSrc" }}" class="btn-img"> </a>
             </div>    
         {{ end }}

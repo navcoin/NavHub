@@ -52,42 +52,38 @@ buttonImageSrc=""
       description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
       url="/">}}
 {{< /item_container_section >}}
-{{< item_container_section
-    titleText="Get Started"
-    subtitleText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy&nbsp;eirmod."
-    buttonUrl="/guides"
-    buttonText="Get Started"
-    buttonImgSrc=""
->}}
 
-  {{< generic_box_item
+{{< item_container_section
+    ls=""
+>}}
+  {{< box_item_w_link
       image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
+      title="Logos"
+      subtext="Download Logo Pack"
       url="/">}}
-  {{< generic_box_item
+  {{< box_item_w_link
       image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
+      title="Logos"
+      subtext="Download Logo Pack"
       url="/">}}
-  {{< generic_box_item
+  {{< box_item_w_link
       image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
+      title="Logos"
+      subtext="Download Logo Pack"
       url="/">}}
-  {{< generic_box_item
+  {{< box_item_w_link
       image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
+      title="Logos"
+      subtext="Download Logo Pack"
       url="/">}}
-  {{< generic_box_item
+  {{< box_item_w_link
       image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
+      title="Logos"
+      subtext="Download Logo Pack"
       url="/">}}
-  {{< generic_box_item
+  {{< box_item_w_link
       image="/images/icons/icon-discord.png"
-      title="Community"
-      description="The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax qu."
+      title="Logos"
+      subtext="Download Logo Pack"
       url="/">}}
 {{< /item_container_section >}}

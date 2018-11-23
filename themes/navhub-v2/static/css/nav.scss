@@ -1,16 +1,25 @@
-
-
+@import'./colors.scss';
+@import './button.scss';
 
 /*****************************
         Shortcodes 
 *****************************/
 @import './generic-box-item.scss';
+@import './box-item-w-link.scss';
 @import './item-container-section.scss';
 @import './hero-section.scss'; 
 
 /*********/
+* {
+    box-sizing: border-box; 
+}
+
 body {
     background: #FBFBFB;
+}
+
+a, a:visited, a:hover, a:focus {
+    text-decoration: none;
 }
 .flex-center { 
     display: flex;
