@@ -10,6 +10,8 @@ categories:
 ---
 Since the CFund activated on mainnet the NavPay wallet has been experiencing issues sending transactions. This has now been resolved with an update to the wallet and back end server.
 
+Since the CFund activated on mainnet the NavPay wallet has been experiencing issues sending transactions. This has now been resolved with an update to the wallet and back end server.
+
 If you're using NavPay on Android you should se an update come through as it rolls out to your region. Or you can check in the play store to see if the update is available.
 
 For desktop, you can get the latest version from the NavPay project page:
