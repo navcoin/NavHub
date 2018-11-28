@@ -20,7 +20,7 @@ If you have any questions or need more support, [join the community on Discord](
 
 Sakdeniz’ NEXT wallet provides NavCoin stakers with an easy way to vote on proposals submitted to the Community Fund. You can see an overview of the wallet and its capabilities at the [NEXT wallet page on the Collab website](https://collab.navcoin.org/s/next-wallet/custom_pages/container/view?id=10).
 
-You can also watch [this video from the core team's live stream](https://www.youtube.com/watch?v=b-LEj-fiadM&index=2&list=PLxot8oqy3CYfdLMiIMSvan_9nZekKPxOq) on how the voting for the proposals work.
+You can also watch [this video from the core team's live stream](https://www.youtube.com/watch?v=b-LEj-fiadM&index=2&list=PLxot8oqy3CYfdLMiIMSvan_9nZekKPxOq) on how the voting for the proposals works.
 
 If you’re running a NavPi and having trouble voting, check out this discussion in Reddit for [troubleshooting by community members](https://www.reddit.com/r/NavCoin/comments/9xoodr/voting_with_navpi/). 
 
@@ -30,8 +30,7 @@ Bootstrapping provides you with a much faster way to download the NavCoin blockc
 
 ### NavPi 1.0.9 is available for direct download
 
-In [last week’s Community News](https://navhub.org/news/2018-11-21-community-fund-activated/) we mentioned that due to hardware limitations, the NavPi is approaching the end of its useful life as a staking device for NAV. To ensure that it works until its replacement is ready, there is a stable version [version of the NavPi available](https://navhub.org/projects/nav-pi/). It contains the 4.3.x wallet, and to start staking you will need to run the built-in updater. 
-
+In [last week’s Community News](https://navhub.org/news/2018-11-21-community-fund-activated/) we mentioned that due to hardware limitations, the NavPi is approaching the end of its useful life as a staking device for NAV. To ensure that it works until its replacement is ready, there is a stable [version of the NavPi available](https://navhub.org/projects/nav-pi/). It contains the 4.3.x wallet, and to start staking you will need to run the built-in updater. 
 
 The Core devs are making progress with the new NavDroid stakebox project we also discussed last week. Look out for more updates on this long-term solution in the future.
 
