@@ -8,9 +8,9 @@ feature_image: /images/uploads/testing4-5-0.png
 categories:
   - Nav News
 ---
-Last week Core developers began testing new features that are planned to be included the upcoming NavCoin Core 4.4.0 update - cold staking and static rewards. 
+Last week Core developers began testing new features that are planned to be included the upcoming NavCoin Core 4.4.0 update - the soft forks for cold staking and static rewards. 
 
-Last week Core developers began testing new features that are planned to be included the upcoming NavCoin Core 4.4.0 update - cold staking and static rewards. 
+Last week Core developers began testing new features that are planned to be included the upcoming NavCoin Core 4.4.0 update - the soft forks for cold staking and static rewards. 
 
 This has entailed manual testing of all the features, and writing automated tests that can be run any time code changes are made - to verify that existing functionality still works.
 
