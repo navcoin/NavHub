@@ -16,9 +16,7 @@ Welcome to the second to last edition of NavCoin community news for 2018. After 
 
 Over the last week, the Core developers have been mainly focused on testing, merging and retesting all the features included in NavCoin Core version 4.5.0. Now that everything is merged in and being tested, the last step is to finish cross-platform builds on various servers to check everyone gets the same checksums. NavCoin Core version 4.5.0 contains many new features including the soft forks for Cold Staking and Static Rewards. To read the full feature list, [check out the release notes on GitHub](https://github.com/NAVCoin/navcoin-core/blob/master/doc/release-notes/release-notes-4.5.0.md).
 
-
 NavCoin Core 4.5.0 is scheduled to be released over the next couple of days, so [keep an eye NavCoin’s protocol notices for the release announcement](https://navcoin.org/en/notices) and make sure you upgrade when the new version is available.
-
 
 ### NavHub redesign
 
@@ -32,7 +30,7 @@ Andreas and Hayden are both in the process of getting set up, and next week we�
 
 ### Don’t forget to vote on Community Fund proposals
 
-There are now 12 proposals being voted on, so if you’re staking the network please make sure to join in the voting. Proposals require a minimum 50% participation rate to be accepted into the network, so your vote is important. A couple of the proposals are getting very close to passing!
+[There are now 12 proposals being voted on](https://www.navexplorer.com/community-fund/proposals/pending), so if you’re staking the network please make sure to join in the voting. Proposals require a minimum 50% participation rate to be accepted into the network, so your vote is important. A couple of the proposals are getting very close to passing!
 
 Make sure to [check out the Community Fund site](https://communityfund.nav.community/) and cast your vote now.
 
@@ -46,8 +44,6 @@ This week there was another proposal into the community fund - a live action pro
 
 Salmonskinroll and prodpeak are trying to find out all the addresses that belong to exchanges - in order to provide more context when [looking at the NavCoin rich list](https://www.navexplorer.com/rich-list). The theory is that exchanges (such as Binance/Poloniex/Bittrex) have large amounts of NAV on their addresses - which makes the rich list seem more unequal than the reality, as those coins are ‘owed’ to individuals.
 If you would like to help out, please get in contact.
-
-
 
 ### NEXT 1.1.0
 
