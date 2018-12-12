@@ -8,9 +8,9 @@ feature_image: /images/uploads/navcoin-4.5.0-coming-soon-1-.png
 categories:
   - Nav News
 ---
-Welcome to the second to last edition of NavCoin community news for 2018. After next week the community news will be having a break for the Christmas holidays, but we’ll be back in mid-January 2019 recharged and ready for 2019. 
+Welcome to the second to last edition of NavCoin community news for 2018. After next week the community news will be having a break for the Christmas holidays, but it'll be back in mid-January 2019.
 
-Welcome to the second to last edition of NavCoin community news for 2018. After next week the community news will be having a break for the Christmas holidays, but we’ll be back in mid-January 2019 recharged and ready for 2019. 
+Welcome to the second to last edition of NavCoin community news for 2018. After next week the community news will be having a break for the Christmas holidays, but it'll be back in mid-January 2019.
 
 ### NavCoin Core 4.5.0 release
 
