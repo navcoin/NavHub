@@ -30,15 +30,13 @@ Andreas and Hayden are both in the process of getting set up, and next week we�
 
 ### Don’t forget to vote on Community Fund proposals
 
-[There are now 12 proposals being voted on](https://www.navexplorer.com/community-fund/proposals/pending), so if you’re staking the network please make sure to join in the voting. Proposals require a minimum 50% participation rate to be accepted into the network, so your vote is important. A couple of the proposals are getting very close to passing!
+[There are now 12 proposals being voted on](https://www.navexplorer.com/community-fund/proposals/pending), so if you’re staking the network please make sure to join in the voting. Proposals require a minimum 50% participation rate to be accepted into the network, so your vote is important. 
 
-Make sure to [check out the Community Fund site](https://communityfund.nav.community/) and cast your vote now.
+A couple of the proposals are getting very close to passing! So make sure to [check out the Community Fund site](https://communityfund.nav.community/) and cast your vote now.
 
 ### New Proposals
 
-This week there was another proposal into the community fund - a live action promotional video about NavCoin by NYC Filmmaker Romel (Cryptomoonie).
-
-[You can view the proposal here](https://communityfund.nav.community/discussion/0d840224788a076c466ee13913297d0d0d46ddd2967539bb9765d577a168d897).
+This week there was another proposal into the community fund - a live action promotional video about NavCoin by NYC Filmmaker Romel (Cryptomoonie). [You can view the proposal here](https://communityfund.nav.community/discussion/0d840224788a076c466ee13913297d0d0d46ddd2967539bb9765d577a168d897).
 
 ### Identifying exchanges on NavCoin rich list
 
