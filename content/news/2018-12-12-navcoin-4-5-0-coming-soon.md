@@ -22,9 +22,9 @@ NavCoin Core 4.5.0 is scheduled to be released over the next couple of days, so 
 
 Developers have started to build out the designs for the rebuild of the NavHub website. NavHub will now benefit from the same UX improvements as NavCoin.org with the redesign intended to simplify the site while adding more utility. It will be clearer, more visually appealing and more intuitive to use. One of the goals for the site is to have more resources for community members - enabling you to participate in the community more easily and generate your own NavCoin projects/assets. 
 
-### Summer interns start today
+### More interns start today
 
-Two software engineering interns join the Core team today from the University of Auckland. They’ll primarily be working alongside Matt on various tasks until their new studies begin again in March 2019. 
+Two new software engineering interns join the Core team today from the University of Auckland. They’ll primarily be working alongside Matt on various tasks until their studies begin again in March 2019. 
 
 Andreas and Hayden are both in the process of getting set up, and next week we’ll let you know their nicknames so you can reach out and welcome them to the NavCoin community!
 
@@ -40,12 +40,12 @@ This week there was another proposal into the community fund - a live action pro
 
 [You can view the proposal here](https://communityfund.nav.community/discussion/0d840224788a076c466ee13913297d0d0d46ddd2967539bb9765d577a168d897).
 
-### Identifying Rich List Exchanges
+### Identifying exchanges on NavCoin rich list
 
 Salmonskinroll and prodpeak are trying to find out all the addresses that belong to exchanges - in order to provide more context when [looking at the NavCoin rich list](https://www.navexplorer.com/rich-list). The theory is that exchanges (such as Binance/Poloniex/Bittrex) have large amounts of NAV on their addresses - which makes the rich list seem more unequal than the reality, as those coins are ‘owed’ to individuals.
 If you would like to help out, please get in contact.
 
-### NEXT 1.1.0
+### NEXT wallet version 1.1.0
 
 There was an update to the NEXT wallet - helping to fix an issue with the wallet not closing down properly on mac. It didn't stop the daemon from running, which then would require a device restart to fix. To download the latest version of the wallet [please visit the NEXT website](https://next.navcommunity.net/).
 
