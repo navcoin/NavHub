@@ -41,7 +41,7 @@ This week there was another proposal into the community fund - a live action pro
 ### Identifying exchanges on NavCoin rich list
 
 Salmonskinroll and prodpeak are trying to find out all the addresses that belong to exchanges - in order to provide more context when [looking at the NavCoin rich list](https://www.navexplorer.com/rich-list). The theory is that exchanges (such as Binance/Poloniex/Bittrex) have large amounts of NAV on their addresses - which makes the rich list seem more unequal than the reality, as those coins are ‘owed’ to individuals.
-If you would like to help out, please get in contact.
+If you would like to help out, please reach out to them on Discord.
 
 ### NEXT wallet version 1.1.0
 
