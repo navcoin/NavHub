@@ -24,9 +24,9 @@ This update (if the soft forks activate) brings NavCoin in line with the Proof o
 
 * You are now able to generate cold staking addresses.
 * At the moment there is a standard address type, and with the coins in this address you can both spend and/or stake from it.
-* A cold staking address is essentially a new type of wallet address - that can ONLY stake. You can’t spend these coins in a transaction.
+* A cold staking address is essentially a new type of wallet address - that has 2 private keys associated to it. One of which can stake, and one of which can spend.
 * So what does this allow? If you are staking the NavCoin network, you can now send your coins to a cold staking address for added protection. 
-* This way you can use a cold/offline wallet to create your spending keys, and then stake the network with a ‘hot’ wallet (a hot wallet is one that's connected to the internet e.g. NavPi/Core/NEXT). 
+* This way you can use a cold/offline wallet to create your spending private key, and then stake the network with a ‘hot’ wallet (a hot wallet is one that's connected to the internet e.g. NavPi/Core/NEXT). 
 * Keeping your coins in a cold staking address allows your spending key to remain safely offline. Meaning that if your staking wallet was to be compromised in a hack, your coins would be safe, unlike with a standard address.
 
 **Static Rewards soft fork**
