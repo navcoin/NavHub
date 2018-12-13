@@ -43,7 +43,6 @@ This update (if the soft forks activate) brings NavCoin in line with the Proof o
 
 **Blockchain Headers**
 
-* There are also changes to how blockchain headers are synched.
 * The wallet will now rate-limit the amount of block headers received from a single peer before banning them for misbehaving.
 
 ### Download it now
