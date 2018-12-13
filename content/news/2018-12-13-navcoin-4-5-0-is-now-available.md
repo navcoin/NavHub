@@ -18,7 +18,7 @@ Key features of this release include soft forks for cold staking and static rewa
 
 This update (if the soft forks activate) brings NavCoin in line with the Proof of Stake version 3 specifications. Proof of Stake version 3 was first developed by Pavel Vasin, and aims to better align the incentives of the network for improved security.
 
-## A guide to what's in this release
+### A guide to what's in this release
 
 **Cold Staking soft fork**
 
