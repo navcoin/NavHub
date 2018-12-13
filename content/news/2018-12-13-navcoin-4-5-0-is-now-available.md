@@ -8,17 +8,17 @@ feature_image: /images/uploads/4.5.0-is-now-available-1-.png
 categories:
   - Software Updates
 ---
-[NavCoin 4.5.0 is now available for download](https://navcoin.org/en/wallets#download-core)! 
+[NavCoin 4.5.0 is now available for download](https://navcoin.org/en/wallets#download-core)! So make sure to upgrade your wallet to vote on the latest NavCoin features.
 
-[NavCoin 4.5.0 is now available for download](https://navcoin.org/en/wallets#download-core)! 
+[NavCoin 4.5.0 is now available for download](https://navcoin.org/en/wallets#download-core)! So make sure to upgrade your wallet to vote on the latest NavCoin features.
 
-Key features of this release include soft forks for cold staking and static rewards, and a community fund interface in the NavCoin core wallet. If you would like to find out more technical details, you can [check out the 4.5.0 release notice on navcoin.org](https://navcoin.org/en/notices/2018-12-13-navcoin-core-4-5-0/).
+Key features of this release include soft forks for cold staking and static rewards, and a community fund interface in the NavCoin core wallet. If you would like to find out the full details, you can [check out the 4.5.0 release notice on navcoin.org](https://navcoin.org/en/notices/2018-12-13-navcoin-core-4-5-0/).
 
 ### The road to Proof of Stake version 3
 
 This update (if the soft forks activate) brings NavCoin in line with the Proof of Stake version 3 specifications. Proof of Stake version 3 was first developed by Pavel Vasin, and aims to better align the incentives of the network for improved security.
 
-### A guide to what's in this release
+### A guide to what's in this release:
 
 **Cold Staking soft fork**
 
