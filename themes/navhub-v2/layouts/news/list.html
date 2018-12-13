@@ -3,72 +3,21 @@
 
 {{ partial "head.html" . }}
 
-<body data-spy="scroll" data-target="#header-menu">
+<body>
+{{ partial "hero_section.html" . }}
 
-{{ partial "header_two.html" . }}
-
-<div class="appix-blog-content section-ptb-2">
-    <div class="container">
-
+<div class="item-container-section"  id="{{ .Params.anchor }}">
+    <div class="ninety-vw-container {{if isset .Params "bgWhite"}} bg-white {{ end }}">
+        <div class="grid-container two-col" >                    
         {{ $list := (.Data.Pages) }}
         {{ $len := (len $list) }}
-
         {{ $last := (sub $len 1) }}
-            {{ range .Paginator.Pages }}
 
-            <div class="col-xs-12 col-sm-6">
-                <div class="blog-item">
-                {{ if isset .Params "generated_by_cms" }}
-                    <a href="{{ .URL }}">
-                    <div class="blog-image" style="background-image:url({{ .Params.feature_image }});">
-                        <div class="item-overlay"></div>
-                    </div>
-                    </a>
-                {{else}}
-                    <a href="{{ .URL }}">
-                        <div class="blog-image" style="background-image:url({{ .URL }}/{{ .Params.feature_image }});">
-                        <div class="item-overlay"></div>
-                        </div>
-                    </a>
-                {{ end }}
-                    <div class="blog-details">
-                        <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
-                        <ul class="blog-author-name">
-                            <li><i class="fa fa-user-o"></i>{{ .Params.author }}</li>
-                            <li>
-                                <i class="fa fa-calendar"></i>
-                                {{ dateFormat "2 Jan 2006" .Params.date }}
-                            </li>
-
-                        </ul>
-                        <ul class="blog-author-name">
-                            {{ range .Params.categories }}
-                            <li><i class="fa fa-folder-open-o"></i>{{.}} </li>
-                            {{end}}
-
-                        </ul>
-                        <div class="blog-excerpt">
-                            {{.Summary}}
-                        </div>
-                        <div class="read-more">
-                            <div class="themeix-button-group">
-                                <a href="{{ .URL }}" class="themeix-btn themeix-danger">read more</a>
-                            </div>
-                        </div>
-                        {{ partial "social_share.html" . }}
-                    </div>
-                </div>
-            </div>
-            {{end}}
-            {{ template "pagination.html" . }}
-        </div>
+        {{ range .Paginator.Pages }}
+            {{ partial "news_item.html" . }}
+        {{ end }}
     </div>
 </div>
-
-
-
-
-{{ partial "footer.html" . }}
-
+{{ template "pagination.html" . }}
 </body>
 </html>

@@ -43,6 +43,9 @@
     grid-gap: 30px 20px;
     justify-items: center;
     align-items: center;
+    &.two-col {
+      grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
   }
 }
 

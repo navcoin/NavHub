@@ -1,6 +1,8 @@
 baseURL = "https://navhub.org"
 theme = "navhub-v2"
 
+Paginate = 10
+
 # English is the default language
 defaultContentLanguage = "en"
 # Force to have /en/my-page and /fr/my-page routes, even for default language.
