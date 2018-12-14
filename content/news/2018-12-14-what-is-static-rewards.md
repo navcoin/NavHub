@@ -34,7 +34,7 @@ At the moment, inflation is very low and sitting around 1.2%. While stakers rece
 
 If implemented - static rewards will mean that NavCoin has ‘fixed’ inflation. There will always be roughly 2.1 million NAV added to the network each year, which gives us a yearly inflation rate of 3.3%.
 
-The benefit of static rewards is that 3.3% is the maximum inflation rate NavCoin will have. As each year passes, the new coins make up a smaller & smaller amount relative to the total coins over time - effectively decreasing the inflation rate over time.
+The benefit of static rewards is that 3.3% is the maximum inflation rate NavCoin will ever have. As each year passes, the new coins make up a smaller & smaller amount relative to the total coins over time - effectively decreasing the inflation rate over time.
 
 ### Will the amount of NAV I receive when staking increase or decrease?
 
