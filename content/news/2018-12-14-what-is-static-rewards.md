@@ -38,7 +38,7 @@ The benefit of static rewards is that 3.3% is the maximum inflation rate NavCoin
 
 ### Will the amount of NAV I receive when staking increase or decrease?
 
-You can see Craig's original post that talks about this. It is likely to increase, so that you can receive between 4% to 11% per year. This amount changes based on how many stakers there are - fewer participants means you’re more likely to stake, which means you receive more NAV.
+You can [see Craig's original post that talks about this here](https://www.reddit.com/r/NavCoin/comments/980eql/npip004_static_block_reward/). It is likely to increase, so that you can receive between 4% to 11% per year. This amount changes based on how many stakers there are - fewer participants means you’re more likely to stake, which means you receive more NAV.
 
 ### What is the best way to stake?
 
