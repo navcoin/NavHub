@@ -22,11 +22,11 @@ Previously, NavCoin used ‘coin age’ to determine how much NAV you would rece
 
 It makes it easy to get reward 4% per year, without actually staking the network. You could turn on staking at the start of the year, turn it off, and then just before a year has passed you could turn it back on and receive the full 4% amount.
 
-This doesn’t benefit the NavCoin network. In order to be protected against malicious attacks, the more NAV staking at any one time increases the cost to pull off an attack.
+But this doesn’t benefit the NavCoin network. In order to be protected against malicious attacks, more NAV needs to be staking at any one time to increase the cost to pull off an attack.
 
 ### Introducing static rewards
 
-Static rewards are part of the Proof of Stake version 3 specifications and aim to increase network security through incentivising stakers to remain online as much as possible. Instead of a variable amount, stakers will receive 2 NAV every time they stake. 
+Static rewards are part of the Proof of Stake version 3 specifications and aim to increase network security through incentivizing stakers to remain online as much as possible. Instead of a variable amount, stakers will receive 2 NAV every time they stake. 
 
 ### How does this change inflation?
 
@@ -36,20 +36,19 @@ If implemented - static rewards will mean that NavCoin has ‘fixed’ inflation
 
 The benefit of static rewards is that 3.3% is the maximum inflation rate NavCoin will have. As each year passes, the new coins make up a smaller & smaller amount relative to the total coins over time - effectively decreasing the inflation rate over time.
 
-
 ### Will the amount of NAV I receive when staking increase or decrease?
 
-You can see Craig's original post that talks about this. It is likely to increase to be at a minimum of 4% per year, and at the higher end 11%. This changes based on how many stakers there are - fewer participants means you’re more likely to stake, which means you receive more NAV.
+You can see Craig's original post that talks about this. It is likely to increase, so that you can receive between 4% to 11% per year. This amount changes based on how many stakers there are - fewer participants means you’re more likely to stake, which means you receive more NAV.
 
 ### What is the best way to stake?
 
-**You essentially have two options for how to stake:**
+The two most common approaches to staking are:
 
-- Hardware options (NavPi & NavDroid) for staking are generally the best option, as they can run 24 hours a day while using only small amounts of electricity. This will require the purchase of a hardware device (an ODROID is recommended).
+1. **Dedicated hardware**. Hardware options (NavPi & NavDroid) for staking are generally the best option, as they can run 24 hours a day while using only small amounts of electricity. This will require the purchase of a hardware device (an ODROID is recommended).
+2. **On your computer**. The easiest approach is to install the core wallet on your computer and have it running in the background. Although to maximise your opportunities to stake, we would recommend eventually moving to a dedicated hardware option.
 
-- The easiest way is to install the core wallet on your computer and have it running in the background. Although to maximise your opportunities to stake, we would recommend eventually moving to a dedicated hardware option.
-We will soon be releasing an article that goes into more detail the best way to do this.
+We will soon be releasing an article that goes into more detail on the different ways to stake.
 
 ### Download the latest wallet
 
-So download the latest wallet to have your say on the static rewards soft fork!
+So [download the latest wallet](https://navcoin.org/en/wallets/#download-core) to have your say on the static rewards soft fork!
