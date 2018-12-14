@@ -15,6 +15,9 @@ function buildSass() {
     fufill(gulp.src('themes/navhub-v2/static/css/nav.scss')
     .pipe(sass())
     .pipe(gulp.dest('themes/navhub-v2/static/css')))
+    fufill(gulp.src('themes/navhub-v2/static/css/guides.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('themes/navhub-v2/static/css')))
     console.log('CSS Compiled')
   })
 }

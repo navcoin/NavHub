@@ -1,0 +1,22 @@
+<div class="guides-menu-sticky">
+  <a href="/guides"><h2 class="guides-menu-title">Guide Categories</h2></a>
+  <ul>
+  {{ range $key, $taxonomy := .Site.Taxonomies.guide_categories }}
+   <li class="guides-category"><h3>{{ $key }}</h3>
+     <ul>
+         {{ range $page := $taxonomy.Pages }}
+         <li class="guides-page">
+            <a href="{{ .Permalink}}"><h4>{{ .LinkTitle }}</h4></a>
+            <ul>
+              {{ range $section := .Params.sections }}
+              <li><a href="{{ $page.Permalink}}#{{ $section | urlize }}">{{ $section }}</a></li>
+              {{ end }}
+           </ul>
+         </li>
+         {{ end }}
+     </ul>
+   </li>
+
+  {{ end }}
+  </ul>
+</div>
