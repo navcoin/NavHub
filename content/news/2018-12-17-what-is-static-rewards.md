@@ -12,7 +12,7 @@ NavCoin 4.5.1 is now available for download! And along with it is a soft fork fo
 
 NavCoin 4.5.1 is now available for download! And along with it is a soft fork for ‘static rewards’ (that turns on when 75% of nodes signal for this fork).
 
-This is essentially a change to the Proof of Stake algorithm, and the mechanism for how stakers are rewarded. As the Core Developers manifesto states - “we will always operate in the best interest of the network”, and this change aims to do exactly that.
+This is essentially a change to the Proof of Stake algorithm, and the mechanism for how stakers are rewarded. As the Core Developers manifesto states: “we will always operate in the best interest of the network” and this change aims to do exactly that.
 
 Previously, NavCoin used ‘coin age’ to determine how much NAV you would receive when staking a block. This means that the reward amount changes to ensure you receive roughly around 4% after a years time. 
 
