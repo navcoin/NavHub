@@ -4,7 +4,7 @@
     </div>
     <div class="text-section-container">
         <h1 class="">{{ .Params.titleText}}</h1>
-        <p class="paragraph-text">{{ .Params.paragraphText | safeHTML}}</p>
+        <div class="paragraph-text">{{ .Content | safeHTML}}</div>
         {{ if (isset .Params "buttonText") }}
             <div>
                 <a href="{{ .Params.buttonLink }}" class="square-btn bg-blue txt-white img-left" {{if isset .Params "newTab"}} target="_blank" {{end}}>

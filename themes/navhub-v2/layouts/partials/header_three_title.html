@@ -1,36 +1,5 @@
 <div id="wrapper">
-   {{ partial "sidebar_menu.html" . }}
-   <div id="header-wrapper">
-      <header class="stickey">
-         <nav class="main-menu">
-            <div class="col-sm-9">
-               <div class="logo-brand">
-                  <a href="/">
-                     <img src="{{ "images/nav-logo.png" | relURL }}" alt="logo">
-                  </a>
-               </div>
-            </div>
-            <div class="col-sm-3">
-               <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                  <span class="hamb-top"></span>
-                  <span class="hamb-middle"></span>
-                  <span class="hamb-bottom"></span>
-               </button>
-            </div>
-         </nav>
-      </header>
-   </div>
+      {{ partial "burger_menu.html" . }}
+      {{ partial "sidebar_menu.html" . }}
 </div>
-<div class="themeix-small">
-  <div class="main-slider-overlay page-header-bg">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="page-header-title">
-               <h2>{{ .Title }}</h2>
-            </div>
-         </div>
-      </div>
-   </div>
- </div>
-</div>
+   
