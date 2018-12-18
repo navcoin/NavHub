@@ -4,17 +4,20 @@
 {{ partial "head.html" . }}
 
 <body>
+{{ partial "header.html" . }}
 
 {{ partial "hero_section.html" . }}
 
 <div class="container">
 
     {{ $list := (.Data.Pages) }}
-    {{ $len := (len $list) }}
-    {{ $last := (sub $len 1) }}
 
     {{ range $index, $element := .Data.Pages }}
-        {{ partial "project.html" . }}
+        {{ if (eq .Params.in_progress "true") }}
+            {{ partial "project_card_in_progress.html" . }}
+        {{ else }}
+            {{ partial "project_card_planning.html" . }}
+        {{ end }}
     {{ end }}
 </div>
 </body>

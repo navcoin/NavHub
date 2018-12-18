@@ -4,14 +4,13 @@
 {{ partial "head.html" . }}
 
 <body>
-
+    
+{{ partial "header.html" . }}
 {{ partial "hero_section.html" . }}
 
 <div class="container">
 
     {{ $list := (.Data.Pages) }}
-    {{ $len := (len $list) }}
-    {{ $last := (sub $len 1) }}
 
     {{ range $index, $element := .Data.Pages }}
         {{ partial "asset.html" . }}

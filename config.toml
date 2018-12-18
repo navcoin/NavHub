@@ -23,13 +23,9 @@ languageName = "Français"
 twitter_username = "navcoin"
 
 
-#linkedin = "english-link"
-#
 #languageCode = "en"
 #DefaultContentLanguage = "en"
-#copyright = "Everything is mine"
-#
-#
+
 #[languages]
 #[languages.en]
 #title = "NavCoin Community Site"
@@ -42,42 +38,61 @@ twitter_username = "navcoin"
 [taxonomies]
   category = "categories"
   filter = "filter"
+  
 # Main Menu
+[[menu.main]]
+    name = "Home"
+    title = "Home"
+    weight = 10
+    identifier = "home"
+    url = "/"
 [[menu.main]]
     name = "News"
     title = "News"
-    weight = -119
+    weight = 20
     identifier = "news"
     url = "/news/"
 [[menu.main]]
     name = "Projects"
     title = "Projects"
-    weight = -118
+    weight = 30
     identifier = "Project"
     url = "/projects/"
 [[menu.main]]
-    name = "Roadmap"
-    title = "Roadmap"
-    weight = -117
-    url = "/roadmap/"
-    identifier = "roadmap"
+    name = "Events"
+    title = "Events"
+    weight = 40
+    identifier = "Events"
+    url = "/events/"
 [[menu.main]]
-    name = "Information"
-    title = "Information"
-    weight = 2
-    url = "/information/"
-    identifier = "information"
+    name = "NavCoin Heroes"
+    title = "NavCoin Heroes"
+    weight = 30
+    url = "/navcoin-heroes/"
+    identifier = "navcoin-heroes"
 [[menu.main]]
     name = "Community Assets"
     title = "Community Assets"
-    weight = 3
+    weight = 40
     url = "/assets/"
     identifier = "assets"
 [[menu.main]]
-    name = "Get Involved"
-    title = "Get Involved"
-    weight = -113
-    url = "/get-involved/"
-    identifier = "get-involved"
+    name = "Information"
+    title = "Information"
+    weight = 50
+    url = "/information/"
+    identifier = "information"
+[[menu.main]]
+    name = "NavCollab"
+    title = "NavCollab"
+    weight = 60
+    url = "https://collab.navcoin.org"
+    identifier = "collab"
+[[menu.main]]
+    name = "NavCoin.org"
+    title = "NavCoin.org"
+    weight = 60
+    url = "https://NavCoin.org"
+    identifier = "navcoin"
 
 
