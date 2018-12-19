@@ -14,7 +14,7 @@ Welcome to the last NavCoin Community News of 2018. The big news this week is th
 
 Updating your NavCoin Core wallet to version 4.5.1 before Friday 21 December 2108 at 00.00AM GMT is very important to avoid disruption to the network. Craig has [written a notice](https://navcoin.org/en/notices/2018-12-17-navcoin-4-5-1-hard-fork) detailing this update in NavCoin.org and the [release notes](https://github.com/NAVCoin/navcoin-core/blob/master/doc/release-notes/release-notes-4.5.1.md) are available on Github. 
 
-Craig has also written a [FAQ article](https://medium.com/@craig.b.macgregor/navcoin-4-5-1-hard-fork-what-you-need-to-know-7aad6f314067) which answers some of the common questions people have been having about the fork process.
+Craig has also written a [FAQ article](https://medium.com/@craig.b.macgregor/navcoin-4-5-1-hard-fork-what-you-need-to-know-7aad6f314067) which answers some of the common questions people have been having about the fork process. Have a read to learn more about the process and join the community on [Discord](https://discord.gg/y4Vu9jw) and [Reddit](https://www.reddit.com/r/NavCoin/) if you have any further questions or concerns.
 
 ### First Community Fund proposals accepted by the network
 
