@@ -40,7 +40,7 @@ The world’s first fully decentralised Community Fund started accumulating fund
 
 If you have a spare moment over the holiday season why not [register and make your profile](https://collab.navcoin.org/dashboard) at the NavCoin Collab site. After that, you’ll be able to post your own Community Fund project ideas and give other community members a helping hand with theirs. Remember you don’t need to be a blockchain expert to get involved. To succeed many projects will need a range of different skills - and you might be pleasantly surprised to find that your skills are just what other community members need to complete their project team.
 
-Sign up to receive the weekly report by email 
+### Sign up to receive the weekly report by email 
 
 If you would like to be added to the email list, [please sign up here](https://navcoin.us15.list-manage.com/subscribe?u=5d6950824b3e5a8facdb7e4af&id=ac93cf1555).
 
