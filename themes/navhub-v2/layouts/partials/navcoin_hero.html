@@ -1,38 +1,38 @@
 <div class="navcoin-hero">
-  <img src="{{ .image }}">
-  <h2>{{ .name }}</h2>
-  <p>{{ .description }}</p>
+  <img src="{{ .Params.image }}">
+  <h2>{{ .Params.name }}</h2>
+  <p>{{ .Params.description }}</p>
   <div class="icon-container">
   {{ if (isset .Params "twitter_url")}}
-    <a href="{{ .twitter_url }}">
+    <a href="{{ .Params.twitter_url }}">
       <div class="icon-circle">
         <i class="fa fa-twitter fa-inverse"></i>
       </div>
     </a>
     {{ end }}
     {{ if (isset .Params "fb_url")}}
-      <a href="{{ .fb_url }}">
+      <a href="{{ .Params.fb_url }}">
         <div class="icon-circle">
           <i class="fa fa-facebook fa-inverse icon-itself"></i>
         </div>
       </a>
     {{ end }}
     {{ if (isset .Params "github_url")}}
-      <a href="{{ .github_url }}">
+      <a href="{{ .Params.github_url }}">
       <div class="icon-circle">
         <i class="fa fa-github fa-inverse icon-itself"></i>
       </div>
     </a>
     {{ end }}
     {{ if (isset .Params "website_url")}}
-      <a href="{{ .website_url }}">
+      <a href="{{ .Params.website_url }}">
         <div class="icon-circle">
           <i class="fa fa-mouse-pointer fa-inverse icon-itself"></i>
         </div>
       </a>
     {{ end }}
     {{ if (isset .Params "linkedin_url")}}
-      <a href="{{ .linkedin_url }}">
+      <a href="{{ .Params.linkedin_url }}">
         <div class="icon-circle">
           <i class="fa fa-linkedin fa-inverse icon-itself"></i>
         </div>

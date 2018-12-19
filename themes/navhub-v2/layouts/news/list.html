@@ -9,7 +9,7 @@
 
 <div class="item-container-section"  id="{{ .Params.anchor }}">
     <div class="ninety-vw-container {{if isset .Params "bgWhite"}} bg-white {{ end }}">
-        <div class="grid-container two-col" >                    
+        <div class="ninety-vw-container grid-container two-col" >                    
         {{ $list := (.Data.Pages) }}
         {{ $len := (len $list) }}
         {{ $last := (sub $len 1) }}

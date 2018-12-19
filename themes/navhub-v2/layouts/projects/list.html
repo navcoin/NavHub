@@ -8,8 +8,7 @@
 
 {{ partial "hero_section.html" . }}
 
-<div class="container">
-
+<div class="ninety-vw-container grid-container">
     {{ $list := (.Data.Pages) }}
 
     {{ range $index, $element := .Data.Pages }}
@@ -20,5 +19,6 @@
         {{ end }}
     {{ end }}
 </div>
+{{ partial "footer.html" . }}
 </body>
 </html>

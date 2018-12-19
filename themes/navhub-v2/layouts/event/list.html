@@ -8,8 +8,7 @@
 {{ partial "header.html" . }}
 {{ partial "hero_section.html" . }}
 
-<div class="container">
-
+<div class="ninety-vw-container grid-container">
     {{ $list := (.Data.Pages) }}
     {{ $len := (len $list) }}
     {{ $last := (sub $len 1) }}
@@ -18,5 +17,6 @@
         {{ partial "event.html" . }}
     {{ end }}
 </div>
+{{ partial "footer.html" . }}
 </body>
 </html>
