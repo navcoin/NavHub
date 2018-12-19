@@ -7,8 +7,14 @@
 @import './generic-box-item.scss';
 @import './box-item-w-link.scss';
 @import './item-container-section.scss';
+
+
+/*****************************
+        Partials 
+*****************************/
 @import './hero-section.scss'; 
 @import './navcoin-hero.scss';
+@import './footer.scss';
 @import './hamburger-menu.scss';
 
 /*********/
@@ -44,6 +50,24 @@ a, a:visited, a:hover, a:focus {
         margin: 0 auto;
     }
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px 20px;
+    justify-items: center;
+    align-items: center;
+    &.two-col {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-container {
+        grid-gap: 20px;
+    }
+}
+
 
 /*********/
 .news-content ul {

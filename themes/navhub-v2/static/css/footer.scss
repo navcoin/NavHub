@@ -1,0 +1,14 @@
+footer {
+  &.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+  }
+  &.footer-secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FAFBFC;
+  }
+}
