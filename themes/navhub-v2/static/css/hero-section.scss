@@ -18,7 +18,8 @@
   .image-container {
     grid-area: image;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    flex-direction: row;
   }
 
   .hero-img {
@@ -64,15 +65,11 @@
     padding: 0 0 55px 0; 
     grid-template-areas:  "image image"
                           "text text";
-
+    .image-container {
+      justify-content: center;
+    }
     .hero-img {
       height: 210px;
-      justify-self: center;
-    }
-
-    .hero-img {
-      padding: 0 50px 0 0;
-      height: 194px;
     }
 
     .text-section-container {

@@ -6,15 +6,17 @@
 <body>
 
 {{ partial "header.html" . }}
-{{ partial "hero_section.html" . }}
-
-<div class="ninety-vw-container grid-container">
-    {{ $list := (.Data.Pages) }}
-
-    {{ range $index, $element := .Data.Pages }}
+<main>
+    {{ partial "hero_section.html" . }}
+    
+    <div class="ninety-vw-container grid-container">
+        {{ $list := (.Data.Pages) }}
+        
+        {{ range $index, $element := .Data.Pages }}
         {{ partial "asset.html" . }}
-    {{ end }}
-</div>
-{{ partial "footer.html" . }}
+        {{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+</main>
 </body>
 </html>

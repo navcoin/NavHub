@@ -1108,15 +1108,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 }
 
-@media (max-width: 1199px){
-
-  .projects-card-container .project-card {
-    max-width: 100%!important;
-    width: 100%;
-  }
-
-}
-
 @media (max-width: 440px) {
 
   .project-more {

@@ -7,18 +7,31 @@
 {{ partial "header.html" . }}
 {{ partial "hero_section.html" . }}
 
-<div class="item-container-section"  id="{{ .Params.anchor }}">
-    <div class="ninety-vw-container {{if isset .Params "bgWhite"}} bg-white {{ end }}">
-        <div class="ninety-vw-container grid-container two-col" >                    
-        {{ $list := (.Data.Pages) }}
-        {{ $len := (len $list) }}
-        {{ $last := (sub $len 1) }}
+</body>
+</html>
 
-        {{ range .Paginator.Pages }}
-            {{ partial "news_item.html" . }}
-        {{ end }}
-    </div>
-</div>
-{{ template "pagination.html" . }}
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body>
+{{ partial "header.html" . }}
+<main>
+    {{ partial "hero_section.html" . }}
+    <div class="item-container-section"  id="{{ .Params.anchor }}">
+            <div class="ninety-vw-container {{if isset .Params "bgWhite"}} bg-white {{ end }}">
+                <div class="ninety-vw-container grid-container two-col" >                    
+                {{ $list := (.Data.Pages) }}
+                {{ $len := (len $list) }}
+                {{ $last := (sub $len 1) }}
+        
+                {{ range .Paginator.Pages }}
+                    {{ partial "news_item.html" . }}
+                {{ end }}
+            </div>
+        </div>
+        {{ template "pagination.html" . }}
+        </main>
 </body>
 </html>

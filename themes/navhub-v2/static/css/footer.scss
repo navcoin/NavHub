@@ -1,11 +1,12 @@
 footer {
-  &.footer-main {
+  align-self: flex-end;
+  .footer-main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #fff;
   }
-  &.footer-secondary {
+  .footer-secondary {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
