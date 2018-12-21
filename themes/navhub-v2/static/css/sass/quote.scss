@@ -1,0 +1,24 @@
+.quote {
+  text-align: center;
+  border: 1px solid #DDD;
+  padding: 40px 80px;
+  margin: 40px 0;
+}
+
+.quote-avatar {
+  border-radius: 1000px;
+  border: 4px solid #DDD;
+  overflow: hidden;
+  width: 100px;
+}
+
+.quote-text {
+  margin-top: 20px;
+  font-size: 1.5em;
+  line-height: 1.8em;
+}
+
+.quote-meta {
+  margin-top: 20px;
+  text-align: right;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body data-spy="scroll" data-target="#header-menu">
+
+  <div class="guides-container">
+    <div class="guides-menu">
+      {{ partial "guides-menu.html" . }}
+    </div>
+    <div class="guides-article">
+
+    {{ .Content }}
+
+    </div>
+
+</div>
+
+</body>
+</html>

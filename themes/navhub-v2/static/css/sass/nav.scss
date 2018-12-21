@@ -2,21 +2,30 @@
 @import './button.scss';
 
 /*****************************
-        Shortcodes 
+        Shortcodes
 *****************************/
-@import './generic-box-item.scss';
+@import './big-text.scss';
 @import './box-item-w-link.scss';
+@import './community.scss';
+@import './generic-box-item.scss';
 @import './item-container-section.scss';
+@import './guides.scss';
+@import './info-tiles.scss';
+@import './quote.scss';
+@import './text-block.scss';
+@import './divider.scss';
 
 /*****************************
         Partials 
 *****************************/
+
 @import './hero-section.scss';
 @import './navcoin-hero.scss';
 @import './project-card.scss';
 @import './footer.scss';
 @import './hamburger-menu.scss';
 @import './news-item.scss';
+
 
 /*********/
 

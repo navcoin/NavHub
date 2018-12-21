@@ -37,6 +37,7 @@ twitter_username = "navcoin"
 
 [taxonomies]
   category = "categories"
+  guide_category = "guide_categories"
   filter = "filter"
   
 # Main Menu
@@ -94,5 +95,3 @@ twitter_username = "navcoin"
     weight = 60
     url = "https://NavCoin.org"
     identifier = "navcoin"
-
-
