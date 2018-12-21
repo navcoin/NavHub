@@ -1,7 +1,7 @@
 baseURL = "https://navhub.org"
 theme = "navhub-v2"
 
-Paginate = 10
+Paginate = 8
 
 # English is the default language
 defaultContentLanguage = "en"

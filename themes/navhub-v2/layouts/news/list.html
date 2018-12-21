@@ -5,18 +5,6 @@
 
 <body>
 {{ partial "header.html" . }}
-{{ partial "hero_section.html" . }}
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-
-{{ partial "head.html" . }}
-
-<body>
-{{ partial "header.html" . }}
 <main>
     {{ partial "hero_section.html" . }}
     <div class="item-container-section"  id="{{ .Params.anchor }}">
@@ -33,5 +21,6 @@
         </div>
         {{ template "pagination.html" . }}
         </main>
-</body>
+        {{partial "footer.html" . }}
+    </body>
 </html>
