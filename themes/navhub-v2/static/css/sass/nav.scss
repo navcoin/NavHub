@@ -5,7 +5,7 @@
         Shortcodes
 *****************************/
 @import './big-text.scss';
-@import './box-item-w-link.scss';
+@import './asset.scss';
 @import './community.scss';
 @import './generic-box-item.scss';
 @import './item-container-section.scss';
@@ -57,7 +57,7 @@ a:focus {
   justify-content: center;
 }
 
-.news-content > p:empty {
+.body > p:empty {
   display: none;
 }
 
@@ -81,7 +81,7 @@ a:focus {
   justify-items: center;
   align-items: center;
   &.two-col {
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 400px);
   }
 }
 

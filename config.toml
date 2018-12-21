@@ -95,3 +95,9 @@ twitter_username = "navcoin"
     weight = 60
     url = "https://NavCoin.org"
     identifier = "navcoin"
+[[menu.main]]
+    name = "Get Involved"
+    title = "Get Involved"
+    weight = 70
+    url = "/get-involved/"
+    identifier = "get-involved"
