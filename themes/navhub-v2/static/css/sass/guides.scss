@@ -22,6 +22,14 @@
   grid-column: 2 / 4;
   grid-row: 1;
   padding: 20px;
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  h3 {
+    text-align: center;
+    margin: 20px 0;
+  }
 }
 
 .guides-menu-title {
@@ -29,19 +37,19 @@
   margin: 20px 0;
 }
 
-.guides-category h3 {
+.guides-page h3 {
   font-size: 16px;
   text-transform: capitalize;
   margin: 10px 0;
   border-bottom: 1px solid #DDD;
 }
 
-.guides-category h4 {
+.guides-page h4 {
   font-size: 16px;
   text-transform: capitalize;
 }
 
-.guides-category ul {
+.guides-page ul {
   padding-left: 20px;
 }
 

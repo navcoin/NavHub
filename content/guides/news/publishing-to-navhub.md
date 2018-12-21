@@ -1,11 +1,11 @@
 ---
 layout: guides
-title: 'Publishing to NavHub'
+title: 'News'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, How to create news on NavHub, Title Two, Title Three, Title Four]
-guide_categories:
-  - News
+page_type: "guide"
+
 ---
 
 ## Overview

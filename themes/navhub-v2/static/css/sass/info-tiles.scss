@@ -1,0 +1,58 @@
+
+.info-tile-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 40px 0;
+}
+
+.info-tile-wrapper {
+  position: relative;
+}
+
+.info-tile {
+  padding: 40px;
+  background-color: #FFF;
+  text-align: left;
+  border: 1px solid #DDD;
+  color: #7a7a7a;
+  position: relative;
+  height: 100%;
+  &.default {
+    text-align: center;
+  }
+}
+
+.info-add {
+  color: #7933AA;
+  font-size: 40px;
+  background-color: #F8F4FB;
+  line-height: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin: 0 auto;
+  span {
+    padding: 0;
+    margin: 32px 0 0 4px;
+  }
+}
+
+.info-summary {
+  margin-bottom: 20px;
+}
+
+.info-edit {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  border: 1px solid #DDD;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  color: #7a7a7a;
+  background-color: #FFF;
+}

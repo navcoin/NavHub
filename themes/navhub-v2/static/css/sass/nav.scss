@@ -2,17 +2,25 @@
 @import './button.scss';
 
 /*****************************
-        Shortcodes 
+        Shortcodes
 *****************************/
-@import './generic-box-item.scss';
+@import './big-text.scss';
 @import './box-item-w-link.scss';
+@import './community.scss';
+@import './generic-box-item.scss';
 @import './item-container-section.scss';
-@import './hero-section.scss'; 
+@import './guides.scss';
+@import './info-tiles.scss';
+@import './quote.scss';
+@import './text-block.scss';
+@import './divider.scss';
+@import './hero-section.scss';
 @import './navcoin-hero.scss';
+
 
 /*********/
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
@@ -22,7 +30,7 @@ body {
 a, a:visited, a:hover, a:focus {
     text-decoration: none;
 }
-.flex-center { 
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
