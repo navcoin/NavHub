@@ -30,9 +30,9 @@ Static rewards are part of the Proof of Stake version 3 specifications and aim t
 
 At the moment, inflation is very low and sitting around 1.2%. While stakers receive 4% per year - there is usually only 25-30% of NAV used in staking, which is why the total inflation rate is only 1.2%.
 
-If implemented - static rewards will mean that NavCoin has ‘fixed’ inflation. There will always be roughly 2.1 million NAV added to the network each year, which gives us a yearly inflation rate of 3.3%.
+If implemented - static rewards will mean that NavCoin has ‘fixed’ inflation. There will always be roughly 2,102,400 NAV created per year for staking and 525,600 NAV per year created for the community fund totalling 2,628,000 new NAV created per year. This equals an initial inflation rate of 4.1%. 
 
-The benefit of static rewards is that 3.3% is the maximum inflation rate NavCoin will have. As each year passes, the new coins make up a smaller & smaller amount relative to the total coins over time - effectively decreasing the inflation rate over time.
+The benefit of static rewards is that 4.1% is the maximum inflation rate NavCoin will have. As each year passes, the new coins make up a smaller & smaller amount relative to the total coins over time - effectively decreasing the inflation rate over time.
 
 ### Will the amount of NAV I receive when staking increase or decrease?
 
@@ -49,4 +49,4 @@ We will soon be releasing an article that goes into more detail the best way to 
 
 ### Download the latest wallet
 
-So [download the latest wallet here](https://navcoin.org/en/wallets/) to have your say on the static rewards soft fork!
+So [download the latest wallet here](https://navcoin.org/en/wallets/)!
