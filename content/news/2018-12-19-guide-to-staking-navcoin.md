@@ -47,7 +47,7 @@ Historically we have recommended the NavPi, which is a Raspberry Pi that contain
 
 With the 4.5 release of NavCoin core, you can now perform cold staking which aims to increase the security of your coins when they are staking.
 
-Essentially - it’s a new type of wallet address that is created from the combination of two different wallet addresses. The idea being that it allows you to split your. So if your staking device (which has to be connected to the network) gets compromised, your coins can’t be moved. All the attacker can do is stake your coins for you.
+Essentially - it’s a new type of wallet address that is created from the combination of two different wallet addresses. The idea being that it allows you to split your control over spending and staking. So if your staking device (which has to be connected to the network) gets compromised, your coins can’t be moved. All the attacker can do is stake your coins for you.
 
 To set this up, you need to create a cold staking address in your wallet - it’s a combination of two addresses you specify. 
 
