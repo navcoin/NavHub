@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Times, serif;
   color: black;
   font-size: 36px;
   padding-bottom: 20px;
 }
 
 h2, h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Times, serif;
   font-size: 21px;
   font-weight: bold;
 }
@@ -17,7 +17,7 @@ p, li, {
   color: #777777;
   font-size: 15px;
   line-height: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   margin: 0 0 10px;
 }
 

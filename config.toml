@@ -4,31 +4,19 @@ theme = "navhub-v2"
 Paginate = 8
 
 # English is the default language
-defaultContentLanguage = "en"
+#defaultContentLanguage = "en"
 # Force to have /en/my-page and /fr/my-page routes, even for default language.
-defaultContentLanguageInSubdir = false
+#defaultContentLanguageInSubdir = false
 
-[Languages]
-[Languages.en]
-title = "NavCoin Community Hub"
-weight = 1
-languageName = "English"
-
-[Languages.fr]
-title = "Documentation du thème Hugo Learn"
-weight = 2
-languageName = "Français"
+#[Languages]
+#[Languages.en]
+#title = "NavCoin Community Hub"
+#weight = 1
+#languageName = "English"
 
 
 twitter_username = "navcoin"
 
-
-#languageCode = "en"
-#DefaultContentLanguage = "en"
-
-#[languages]
-#[languages.en]
-#title = "NavCoin Community Site"
 
 
 [blackfriday]

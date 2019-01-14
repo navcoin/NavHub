@@ -12,17 +12,16 @@ type: "project"
 feature_image: ""
 show_title_text: false
 in_progress: false
-beta_testing: true
-completed: false
-show_on_roadmap: true
-show_on_projects: false
+beta_testing: false
+completed: true
+show_on_projects: true
 allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/NAVCoin/npips/blob/master/npip-0002.mediawiki"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: ""
-font_color: ""
+card_color: "#7d5ab5"
+font_color: "#fff"
 weight: 0
 ---

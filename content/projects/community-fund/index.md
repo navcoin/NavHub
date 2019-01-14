@@ -16,7 +16,7 @@ in_progress: false
 beta_testing: true
 completed: false
 beta_testing: true
-show_on_roadmap: true
+
 show_on_projects: true
 allow_click_through: true
 percent_complete: 100

@@ -9,20 +9,13 @@
 {{ partial "hero_section.html" . }}
 
 <div class="ninety-vw-container grid-container">
-    {{ partial "navcoin_hero.html" (dict "image" "/images/icons/icon-discord.png" "name" "Prodpeak1" "description" "If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community." "url" "/" "fb_url" "https://www.facebook.com/navcoin/" "twitter_url" "https://www.twitter.com/navcoin") }}
-    {{ partial "navcoin_hero.html" (dict "image" "/images/icons/icon-discord.png" "name" "Prodpeak2" "description" "If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community." "url" "/" "fb_url" "https://www.facebook.com/navcoin/" "twitter_url" "https://www.twitter.com/navcoin") }}
-    {{ partial "navcoin_hero.html" (dict "image" "/images/icons/icon-discord.png" "name" "Prodpeak3" "description" "If you’re interested in contributing to NavHub.org or any NavCoin projects, get in touch with the NavCoin Community." "url" "/" "fb_url" "https://www.facebook.com/navcoin/" "twitter_url" "https://www.twitter.com/navcoin") }}
-    
-    {{ partial "generic_box_item.html" (dict "image" "/images/icons/icon-discord.png" "title" "Logos" "description" "Download Logo Pack") }}
-    {{ partial "generic_box_item.html" (dict "image" "/images/icons/icon-discord.png" "title" "Logos" "description" "Download Logo Pack") }}
-    {{ partial "generic_box_item.html" (dict "image" "/images/icons/icon-discord.png" "title" "Logos" "description" "Download Logo Pack") }}
-    
-    {{ partial "box_item_w_link.html" (dict "image" "/images/icons/icon-discord.png" "title" "Logos" "subtext" "Download Logo Pack") }}
-    {{ partial "box_item_w_link.html" (dict "image" "/images/icons/icon-discord.png" "title" "Logos" "subtext" "Download Logo Pack") }}
-    {{ partial "box_item_w_link.html" (dict "image" "/images/icons/icon-discord.png" "title" "Logos" "subtext" "Download Logo Pack") }}
-
-
 </div>
+
+    <div style="background:#ccc; width: 100%; padding: 10px 15vw; display: flex; flex-flow: row wrap; place-items: center; place-content: space-around; ">
+        <button class="btn btn-purple">Purple Button</button>
+        <button class="btn btn-blue">Blue Button</button>
+        <button class="btn btn-white">White Button</button>
+    </div>
 {{ partial "footer.html" . }}
 </body>
 </html>

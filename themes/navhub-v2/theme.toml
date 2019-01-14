@@ -1,6 +1,3 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
 name = "NavHub V2"
 license = "MIT"
 description = ""
@@ -10,7 +7,7 @@ features = []
 min_version = "0.37"
 
 [author]
-  name = "Paul Sanderson"
+  name = "Paul Sanderson, Mathew Paul"
   homepage = ""
 
 # If porting an existing theme

@@ -14,7 +14,6 @@ show_title_text: false
 percent_complete: 100
 in_progress: false
 completed: true
-show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
 github_url: ""

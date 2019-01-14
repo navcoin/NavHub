@@ -1,0 +1,29 @@
+.home-page-card-section {
+  margin-bottom: 13px;
+  width: 90vw;
+  margin: 0 auto;
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-size: 26px;
+      font-family: 'Raleway', Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      line-height: 30px;
+      color: #111111;
+    }
+    a {
+      font-size: 16px;
+      font-family: 'Raleway', Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      line-height: 19px;
+      color: #111111;
+      img {
+        margin-left: 18px;
+      }
+    }
+  }
+  .card-container {
+
+  }
+} 

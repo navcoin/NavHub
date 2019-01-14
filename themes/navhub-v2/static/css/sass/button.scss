@@ -1,6 +1,41 @@
 
 @import "./colors.scss";
 
+.btn {
+  border-radius: 0px;
+  border: none;
+  background: none;  
+  color: #fff;
+  transition: 0.4s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  img {
+    height: 8px;
+  }
+}
+
+.btn-blue {
+  background: #1073E7;
+  font-size: 17px;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  min-width: 110px;
+  padding: 8px 30px;
+
+}
+
+.btn-purple {
+  background: #795BB6;
+  padding: 15px 13px;
+}
+
+.btn-white {
+  border: #fff 1px solid;
+  padding: 11px 24px;
+  font: 'Avenir' bolder 12px;
+}
+
+
 .square-btn {
   font-family: 'Raleway', 'Regular', Helvetica, Arial, sans-serif;
   font-size: 15px;

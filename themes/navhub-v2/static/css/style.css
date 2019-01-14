@@ -62,7 +62,7 @@
 }
 body {
     color: #7a7a7a;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-weight: 300;
     line-height: 25px;
     font-size: 16px;
@@ -100,31 +100,31 @@ img {
     max-width: 100%;
 }
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 /*=========================
     2.Typography
 ===========================*/
 
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Times, serif;
     font-size: 48px;
 }
 h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Times, serif;
     font-size: 36px;
 }
 h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Times, serif;
     font-size: 21px;
     font-weight: bold;
 }
 h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Times, serif;
     font-size: 14px;
 }
 h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Times, serif;
     font-weight:400;
 }
 
@@ -3031,22 +3031,6 @@ ul li.cat-item a {
 }
 
 /* ==========================================================================
-                 Progress bars
-   ========================================================================== */
-
-.progress-bar {
-  color: #fff;
-  background: rgba(207,72,207,1);
-  background: -moz-linear-gradient(45deg, rgba(207,72,207,1) 0%, rgba(125,90,181,0.83) 54%, rgba(125,185,232,0.68) 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(207,72,207,1)), color-stop(54%, rgba(125,90,181,0.83)), color-stop(100%, rgba(125,185,232,0.68)));
-  background: -webkit-linear-gradient(45deg, rgba(207,72,207,1) 0%, rgba(125,90,181,0.83) 54%, rgba(125,185,232,0.68) 100%);
-  background: -o-linear-gradient(45deg, rgba(207,72,207,1) 0%, rgba(125,90,181,0.83) 54%, rgba(125,185,232,0.68) 100%);
-  background: -ms-linear-gradient(45deg, rgba(207,72,207,1) 0%, rgba(125,90,181,0.83) 54%, rgba(125,185,232,0.68) 100%);
-  background: linear-gradient(45deg, rgba(207,72,207,1) 0%, rgba(125,90,181,0.83) 54%, rgba(125,185,232,0.68) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf48cf', endColorstr='#7db9e8', GradientType=1 );
-}
-
-/* ==========================================================================
                  Additional CSS
    ========================================================================== */
 
@@ -3109,75 +3093,10 @@ ul li.cat-item a {
  }
 
 
-
-
- .click-through {
-    font-size: 12px;
-    padding: 5px 10px 4px 10px;
-    display: inline-block;
-    cursor: pointer;
-    margin-top: -5px;
- }
-
- .click-through:hover {
-   color: #FFF;
-
- }
-
- .click-through label {
-   margin: 0;
- }
-
- .roadmap-item-container {
-   position: relative;
-   padding-bottom: 64px;
-   padding-left: 4em;
- }
-
- .link-section-item:hover {
-   display: block;
-   border-radius: 5px;
-   opacity: 0.75;
- }
-
-.roadmap-icon {
-    display: inline-block;
-    position: absolute;
-    width: 3em;
-    height: 3em;
-    text-align: center;
-    border-radius: 100em;
-    margin: 0 auto;
-    color: #ffffff;
-    background-color: hsl(263, 38%, 53%);
-    padding: 1em 0;
-    font-size: 1em;
-    margin-top: 1em;
-}
-
-.roadmap-connector {
-    border-left: 1px dashed hsl(263, 38%, 53%);
-    margin: 1em 0 0 1.5em;
-    display: inline-block;
-    height: 100%;
-    position: absolute;
-}
-
-.roadmap-table {
-  display: table;
-  position: relative;
-  width: 100%;
-}
-
-.roadmap-table:last-child .roadmap-connector {
-  display: none;
-}
-
 .info-links.roadmap-info-links label {
   background-color: #523971;
 }
 
-.roadmap-content>p:first-of-type { display: none }
 .news-content>p:first-of-type { display: none }
 
 .recent-posts li {

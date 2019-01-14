@@ -15,7 +15,6 @@ show_title_text: false
 percent_complete: 100
 in_progress: false
 completed: true
-show_on_roadmap: true
 show_on_projects: true
 allow_click_through: false
 github_url: "https://github.com/sakdeniz/next"

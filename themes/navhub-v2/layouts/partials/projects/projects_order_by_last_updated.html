@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+
+{{ partial "head.html" . }}
+
+<body data-spy="scroll" data-target="#header-menu">
+
+  {{ partial "header_three_title.html" .  }}
+
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="news-content" style="margin-bottom: 0px; margin-top: 2px;">
+          {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+    <div class="container" style="margin-bottom: 50px;">
+
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="projects-card-container">
+                    {{range .Site.Pages.ByWeight  }}
+                    {{ if and (.Params.completed) (.Params.show_on_projects) }}
+                            {{ partial "project_card_planning.html" . }}
+                        {{end}}
+                    {{end}}
+
+                    {{range (.Site.Pages.ByLastmod).Reverse  }}
+                    {{ if and (.Params.in_progress) (.Params.show_on_projects) }}
+                            {{ partial  "project_card_in_progress.html" . }}
+                        {{end}}
+                    {{end}}
+
+                    {{range .Site.Pages.ByLastmod }}
+                        {{ if (eq .Type "project") }}
+                        {{ if and (not .Params.in_progress) (not .Params.completed) (.Params.show_on_projects) }}
+                            {{ if (not .Params.order_page) }}
+                                {{ partial "project_card_planning.html" . }}
+                            {{end}}
+                        {{end}}
+                        {{end}}
+                    {{end}}
+                </div>
+
+            </div>
+
+            <div class="col-sm-3 project-sidebar">
+                {{ partial "projects_sidebar.html" . }}
+            </div>
+        </div>
+
+
+
+    </div>
+
+    {{ partial "footer.html" .  }} <h1>assd 6</h1>
+
+</body>
+</html>

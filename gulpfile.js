@@ -7,7 +7,7 @@ gulp.task('sass', function () {
 
 gulp.task('sass:watch', function () {
   buildSass()
-  gulp.watch('./themes/navhub-v2/static/css/sass/*.scss', ['sass']);
+  gulp.watch('./themes/navhub-v2/static/css/sass/**/*.scss', ['sass']);
 });
 
 function buildSass() {

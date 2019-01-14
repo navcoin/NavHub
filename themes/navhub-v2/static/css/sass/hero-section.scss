@@ -7,9 +7,50 @@
   grid-template-columns: 1fr 1fr;
   grid-template-areas:  "image text"
                         "image text";
-  align-items: center;
-  min-width: 100%;
+                        align-items: center;
+                        min-width: 100%;
+                        
+  &.homepage {
+    height: 400px;
+    grid-column-gap: 20px;
+    grid-template-areas:  "text image"
+                          "text image";
 
+    background: no-repeat, no-repeat;
+    background-size: initial, initial;
+    background-position: 10% center, 90% center;
+    
+    .class-content-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .text-section-container {
+        justify-self: flex-end;
+        text-align: right;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0;
+        margin: 0;
+        min-width: 100%;
+    
+        h1, p {
+          padding: 0;
+          margin: 0;
+          font-family: 'Raleway', Times, serif;
+        }
+        h1 {
+          font-size: 45px;
+          font-weight: 600;
+        }
+        p {
+          font-size: 28px;
+          font-weight: 200;
+          line-height: 43px;
+          max-width: 500px;
+        }
+      }
+    }
+  }
 
   a {
     margin-top: 36px;
@@ -20,39 +61,37 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-  }
-
-  .hero-img {
-    max-height: 373px;
-    height: 100%;
-    max-width: 252px;
-  }
-  
-  h1 {
-    color: inherit;
-    font-size: 33px;
-    line-height: 45px;
-    margin: 0 0 10px 0;
-  }
-  
-  p {
-    margin: 5px 0 0 0;
-    line-height: 25px;
-    font-size: 16px;
+    .hero-img {
+      max-height: 373px;
+      height: 100%;
+      max-width: 252px;
+    }
   }
 
   .text-section-container {
     grid-area: text;
     color: inherit;
     text-align: left;
-    align-self: flex-start;
+    justify-self: flex-start;
     max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 100%;
     padding: 0 30px 0 0;
+    h1 {
+      color: inherit;
+      font-size: 33px;
+      line-height: 45px;
+      margin: 0 0 10px 0;
+    }
+    
+    p {
+      margin: 5px 0 0 0;
+      line-height: 25px;
+      font-size: 16px;
+    }
   }
 }
 

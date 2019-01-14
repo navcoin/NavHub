@@ -12,13 +12,9 @@
     {{ $list := (.Data.Pages) }}
 
     {{ range $index, $element := .Data.Pages }}
-        {{ if (eq .Params.in_progress "true") }}
-            {{ partial "project_card_in_progress.html" . }}
-        {{ else }}
-            {{ partial "project_card_planning.html" . }}
-        {{ end }}
+        {{ partial "projects/project_card.html" . }}
     {{ end }}
 </div>
-{{ partial "footer.html" . }}
+{{ partial "footer.html" . }}aa
 </body>
 </html>

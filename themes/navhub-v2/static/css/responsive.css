@@ -254,9 +254,6 @@ span.price-tag {
 /* Small mobile:320px  */
 @media (max-width: 767px) {
 
-  .projects-card-container .project-card {
-    margin-right: 0!important;
-  }
 
   .logo-brand {
     float: left;

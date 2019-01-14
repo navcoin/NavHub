@@ -1,0 +1,89 @@
+$text-grey: #707070;
+$nav-purple:#7D5AB5;
+$border-grey: #A3A6AD;
+
+
+.event-card {
+  display: flex;
+  max-width: 580px;
+  border: 1px solid $border-grey;
+  padding: 28px;
+  height: 100%;
+  .date-icon-container {
+    @media (max-width:500px) {
+      display:none;
+    }
+    margin-right: 21px;
+    .date-icon {
+      $diameter: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: $diameter;
+      height: $diameter;
+      border-radius: $diameter;
+      background-color: $nav-purple;
+      font-family: 'Raleway', Times, serif;
+      color: #fff;
+      line-height: 22px;
+      .short-date-num {
+        font-size: 27px;
+      }
+      .short-date-month {
+        font-weight: 200;
+        font-size: 12px;
+      }
+    }
+  }
+  .event-date {
+    color: $text-grey;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 6px;
+  }
+  .event-title {
+    font-family: 'Raleway', Times, serif;
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 400;
+    color: $nav-purple;
+    margin-bottom: 11px;
+  }
+  .event-location {
+    color: $nav-purple;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .event-host {
+    color: $nav-purple;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 12px;
+  }
+  .event-description {
+    color: $text-grey;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .social-link-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .social-link-icon {
+      $diameter: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: $diameter;
+      height: $diameter;
+      border-radius: $diameter;
+      color: #fff;
+      background-color: $nav-purple;
+      margin-right: 5px; 
+    }
+  }
+}

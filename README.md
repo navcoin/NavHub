@@ -68,7 +68,6 @@ When adding a project it is recommend you use the Hugo commandline tool as this 
     show_title_text: false              - currently unused
     in_progress: false                  - Signal that the project has been started
     completed: false                    - Signal project is complete
-    show_on_roadmap: false              - Show the project on the road map
     percent_complete: 0                 - How much of the project has been completed
     github_url: ""                      - Github repo of the project - Optional
     project_url: ""                     - The project URL - Optional

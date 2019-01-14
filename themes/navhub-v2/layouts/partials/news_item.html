@@ -27,13 +27,20 @@
             {{end}}
         </ul>
         <div class="blog-excerpt">
-            {{.Summary}}
+            {{ .Summary }}
         </div>
-        <div class="read-more">
-            <div class="themeix-button-group">
-                <a href="{{ .URL }}" class="themeix-btn themeix-danger">read more</a>
+        <div class="social-icon-sect">
+            <div class="read-more">
+                <div class="themeix-button-group">
+                    <a href="{{ .URL }}" class="themeix-btn themeix-danger">read more</a>
+                </div>
+            </div>
+            <div class="share-icon">
+                <span>share</span>
+                <a class="social-icon twitter" href="https://twitter.com/intent/tweet?text={{ .Params.title }}&url={{.Site.BaseURL}}{{ .URL }}&via={{ .Site.Params.twitter_username }}&related={{ .Site.Params.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+                <a class="social-icon facebook" href="https://facebook.com/sharer.php?u={{.Site.BaseURL}}{{ .URL }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+                <a class="social-icon google" href="https://plus.google.com/share?url={{.Site.BaseURL}}{{ .URL }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i></a>
             </div>
         </div>
-        {{ partial "social_share.html" . }}
     </div>
 </div>
