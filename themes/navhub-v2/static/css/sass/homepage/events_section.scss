@@ -2,6 +2,9 @@
   --card-width: 580px;
   --border-color: #E3E3E3;
 
+  @media(max-width: 660px) {
+    --card-width: 300px;
+  }
   
   .title-container {
     margin: 16px 0;
@@ -19,7 +22,13 @@
     grid-gap: var(--grid-gap);
     max-width: calc( calc( var(--grid-gap) * 4 ) + calc( var(--card-width) * 4));
     .event-card {
-      .date-icon-container {
+      @media(max-width: 660px) {
+        padding: 10px;
+      }
+      .date-icon {
+        @media(max-width: 660px) {
+          display: none;
+        }
         .short-date-num {
 
         }

@@ -1,13 +1,26 @@
 footer {
+  a {
+    color: #222222;
+    font-size: 14px;
+    display: inline-block;
+    &:hover {
+      color: #7d5ab5;
+    }
+  }
   align-self: flex-end;
   .footer-main {
     padding-top: 35px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     background-color: #fff;
     color: #707070;
-    padding: 32px 0 0 
+    padding: 32px 0 0 ;
+    .footer-group {
+      flex: 1 180px;
+      padding: 12px 0 12px 20px;
+    }
     h2 {
       font-family: 'Roboto';
       font-size: 30px;
@@ -26,6 +39,7 @@ footer {
     }
   }
   .footer-secondary {
+    padding: 10px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

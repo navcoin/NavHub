@@ -1,6 +1,10 @@
 .homepage-news-section {
   --card-width: 540px;
   --border-color: #E3E3E3;
+
+  @media (max-width: 600px) {
+    --card-width: 290px;
+  }
   
   .title-container {
     margin: 16px 0;
@@ -28,6 +32,10 @@
       align-items: center;
       justify-content: center;
       h1 {
+        @media (max-width: 600px) {
+          line-height: 30px;
+          font-size: 20px;
+        }
         line-height: 40px;
         font-weight: bold;
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -43,6 +51,7 @@
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      flex-flow: wrap;
       .project-author {
         margin-left: 15px;
         color: #7D5AB5;

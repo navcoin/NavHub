@@ -239,3 +239,20 @@ a:focus {
 .play-store-button:after {
   content: '';
 }
+
+.widget-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widget-content ul li {
+  margin-bottom: 6px;
+}
+.widget-content ul li a {
+  color: #222222;
+  font-size: 14px;
+  display: inline-block;
+}
+.widget-content ul li a:hover {
+  color: #7d5ab5;
+}

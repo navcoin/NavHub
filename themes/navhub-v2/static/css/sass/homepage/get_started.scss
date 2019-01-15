@@ -5,6 +5,7 @@
   align-items: center;
   width: 100%;
   margin: 50px 0 42px 0;
+  padding: 0 8px;
   h1 {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     line-height: 70px;
@@ -19,6 +20,11 @@
     font-weight: 200;
     color: #707070;
     margin-bottom: 42px;
+    max-width: 70vw;
+    text-align: center;
+    @media (max-width: 870px ) {
+      max-width: 600px;
+    }
   }
   .grid-container {
     margin-bottom: 25px;
@@ -30,27 +36,33 @@
       text-align: center;
       padding: 30px;
       border: #DDDDDD 1px solid;
-      img {
-        $wh: 150px;
-        width: $wh;
-        height: $wh;
-        margin-bottom: 15px;
-      }
-      h2 {
-        font-family: 'Raleway', Times, serif;
-        font-weight: initial;
-        font-size: 30px;
-        line-height: 19px;
-        margin-bottom: 15px;
-        color: #111111;
-
-      }
-      span {
-        font-family: 'Roboto', Helvetica, Arial, sans-serif;
-        font-weight: initial;
-        font-size: 16px;
-        line-height: 27px;
-
+      height: 100%;
+      max-height: 350px;
+      a {
+        color: #707070;
+        &:hover {
+          color: #7d5ab5;
+        }
+        img {
+          $wh: 150px;
+          width: $wh;
+          height: $wh;
+          margin-bottom: 15px;
+        }
+        h2 {
+          font-family: 'Raleway', Times, serif;
+          font-weight: initial;
+          font-size: 30px;
+          line-height: 35px;
+          margin-bottom: 15px;
+          color: #111111;
+        }
+        span {
+          font-family: 'Roboto', Helvetica, Arial, sans-serif;
+          font-weight: initial;
+          font-size: 16px;
+          line-height: 27px;
+        }
       }
     }
   }

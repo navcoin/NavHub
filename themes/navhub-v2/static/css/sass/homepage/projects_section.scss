@@ -1,7 +1,9 @@
 .homepage-projects-section {
   --card-width: 400px;
   --border-color: #E3E3E3;
-
+  @media (max-width: 440px) {
+    --card-width: 300px;
+  }
   .title-container {
     margin: 16px 0;
     display: flex;
@@ -23,6 +25,9 @@
       max-width: 390px;
       width: 100%;
       padding: 20px;
+      @media (max-width: 440px) {
+        padding: 10px;
+      }
       h2 {
         color:#7D5AB5;
         margin-bottom: 10px;

@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
 
-  height: 330px;
+  padding: 15px 5px;
+  min-height: 330px;
   text-align: center;
   background: url("/images/call-to-action-bg.png") no-repeat;
   background-size: cover;
@@ -27,10 +28,13 @@
     }
   .button-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-flow: wrap;
     margin: 0 auto;
     width: 100%;
     max-width: 800px;
+    .btn {
+      margin: 10px;
+    }
   }
 }
