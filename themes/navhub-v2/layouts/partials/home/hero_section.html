@@ -2,11 +2,11 @@
     <div class="text-section-container">
         <h1 class="">{{ .Params.title}}</h1>
         {{ .Content | safeHTML}}
-        <div>
-            <a href="{{ .Params.buttonLink }}" class="btn btn-blue img-left" {{if isset .Params "newTab"}} target="_blank" {{end}}>
-            <span>{{ .Params.buttonText }}</span>
-            <img src="{{ .Params.buttonImageSrc }}" class="btn-img"> </a>
-        </div>    
     </div>    
     <img src="{{ .Params.heroImageSrc }}" class="hero-img">
+    <div class="hero-button">
+        <a href="{{ .Params.buttonLink }}" class="btn btn-blue img-left" {{if isset .Params "newTab"}} target="_blank" {{end}}>
+        <span>{{ .Params.buttonText }}</span>
+        <img src="{{ .Params.buttonImageSrc }}" class="btn-img"> </a>
+    </div>    
 </div>

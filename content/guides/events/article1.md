@@ -8,3 +8,4 @@ guide_parent: 'events'
 github_file: 'content/guides/events/article1.md'
 summary: 'Donec ut efficitur odio. Sed sit amet facilisis lectus. Duis gravida, nulla ac congue luctus, odio dolor laoreet augue, id hendrerit odio justo at enim.'
 ---
+test
