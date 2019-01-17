@@ -1,42 +1,4 @@
-.pagination-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  width: 100%;
-  margin-bottom: 20px;
-}
 
-.nav-pagination li {
-  display: inline;
-}
-
-.nav-pagination .active a.page-number,
-.nav-pagination li a.page-number:hover, .nav-pagination li a.page-number:focus, .nav-pagination li a.page-number:active ,
-.nav-pagination li a:hover span, .nav-pagination li a:focus span, .nav-pagination li a:active span {
-  background-color: #337ab7;
-}
-
-.nav-pagination .ellipse {
-  /* background-color: #337ab7; */
-}
-
-.nav-pagination li a.page-number, .nav-pagination li span{
-  padding: 8px 12px;
-  margin-left: -1px;
-  line-height: 1.42857143;
-  color: #337ab7;
-  text-decoration: none;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  font-weight: 400;
-  color: #fff;
-  font-size: 16px;
-  background: #CCCCCC;
-  margin-right: 8px;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-}
 
 /* Normal Desktop:1366px */
 @media(min-width: 1170px) and (max-width: 1400px){
@@ -235,9 +197,7 @@ span.price-tag {
     top: 26px;
   }
   
-  .share-icon span {
-  	display:none;
-  }
+
   
   .hgi {
     height: 410px;
@@ -453,17 +413,8 @@ span.price-tag {
   .themeix-button-group {
   	display:inline-block;
   }
-  .share-icon {
-  	float:right;
-  	padding-top:15px;
-  }
 
-  .social-icon li a {
-  	width:30px;
-  }
-  .share-icon span {
-  	display:none;
-  }
+ 
   .appiex-blog-content .desc-hidden {
   	display:none;
   }
@@ -492,7 +443,6 @@ span.price-tag {
     padding-right: 0;
     width: auto;
   }
-
 }
 
 /* Large mobile layout */
@@ -503,10 +453,6 @@ span.price-tag {
   margin-left: auto;
   margin-right: auto;
   max-width:330px;
-  }
-  
-  .share-icon span {
-  	display:inline-block;
   }
   
   .image-dawo {

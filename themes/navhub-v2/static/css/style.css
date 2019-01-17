@@ -185,9 +185,7 @@ section.pt-25 {
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.section-ptb-2 {
-    padding-top: 60px;
-}
+
 .section-ptb-3 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -532,32 +530,6 @@ header.stickey .logo-brand img{
     4. Slider
    ========================================== */
 
-.themeix-bg {
-    background-image: url("../images/slide-image/slider-image-1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.themeix-bg.themeix-small {
-  background-position: top center;
-}
-
-.themeix-bg.header-bg-2 {
-    background-image: url(../images/slide-image/home-page-image.jpg);
-}
-.themeix-bg.header-bg-3 {
-    background-image: url(../images/slide-image/slider-image-1.jpg);
-}
-.main-slider-overlay {
-    background: -moz-linear-gradient(45deg, rgba(54, 148, 244, 0.88) 0%, rgba(255, 105, 142, 0.88) 100%, rgba(255, 105, 142, 0.88) 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(54, 148, 244, 0.88)), color-stop(100%, rgba(255, 105, 142, 1)), color-stop(100%, rgba(255, 105, 142, 1)));
-    background: -webkit-linear-gradient(45deg, rgba(54, 148, 244, 0.88) 0%, rgba(255, 105, 142, 0.88) 100%, rgba(255, 105, 142, 0.88) 100%);
-    background: -o-linear-gradient(45deg, rgba(54, 148, 244, 0.88) 0%, rgba(255, 105, 142, 0.88) 100%, rgba(255, 105, 142, 0.88) 100%);
-    background: -ms-linear-gradient(45deg, rgba(54, 148, 244, 0.88) 0%, rgba(255, 105, 142, 0.88) 100%, rgba(255, 105, 142, 0.88) 100%);
-    background: linear-gradient(45deg, rgba(54, 148, 244, 0.88) 0%, rgba(255, 105, 142, 0.88) 100%, rgba(255, 105, 142, 0.88) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff698e', endColorstr='#3694f4', GradientType=1);
-}
 .caption-area {
     padding: 40% 0;
 }
@@ -1702,42 +1674,10 @@ a.themeix-tool .fa {
 }
 
 /* ==========================================
-           18. scrollUP
-   ========================================== */
-
-#scrollUp {
-    background: #7d5ab5 none repeat scroll 0 0;
-    bottom: 40px;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 700;
-    width: 40px;
-    height: 40px;
-    right: 3%;
-    text-align: center;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    line-height: 40px;
-    text-align: center;
-}
-/* ==========================================
            19. Page Header Background (All)
    ========================================== */
 
-.page-header-bg {
-    background: url(../images/blog-image/header-bg.jpg);
-    background-size: cover;
-    background-position: 50% 14px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    background-position: top center;
-}
-.page-header-bg {
-    padding-top: 110px;
-    padding-bottom: 72px;
-    color: #FFFFFF;
-}
+
 ul.page-list {
     list-style: none;
     margin: 0;
@@ -1874,91 +1814,7 @@ ul.page-list li a {
     margin-top: -12px;
 }
 
-/* ==========================================
-           23. Blog sidebar
-   ========================================== */
 
-.details-img img {
-    width: 100%;
-    margin-bottom: 20px;
-}
-.sidebar .widget h5 {
-    color: #323232;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 0;
-}
-.sidebar ul li.cat-item a,
-.sidebar ul li a {
-    color: #222222;
-    font-weight: 400;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    display: block;
-}
-.sidebar ul li.cat-item,
-.sidebar ul li {
-    padding: 10px 0;
-    position: relative;
-}
-.widget {
-    margin-bottom: 50px;
-}
-.sidebar .widget h3 {
-    margin-top: 0;
-}
-.sidebar ul li a:hover {
-    color: #7d5ab5;
-}
-.tagcloud > li {
-    list-style: outside none none;
-}
-.sidebar ul li a {
-    color: #222222;
-    display: inline;
-}
-.sidebar ul li.cat-item a {
-    font-weight: 400;
-}
-.sidebar ul li span {
-    color: #777777;
-    display: block;
-    font-size: 13px;
-    margin: 5px 0;
-}
-span.dis {
-    display: inline!important;
-}
-.tagcloud li {
-    display: inline;
-}
-.tagcloud li a {
-    border: 1px solid #efefef;
-}
-ul.tagcloud li a {
-    border: 1px solid #e4e4e4;
-    color: #777777;
-    display: inline-block;
-    margin-bottom: 6px;
-    margin-right: 2px;
-    padding: 8px 20px;
-}
-ul.tagcloud li a:hover {
-    background-color: #288feb;
-    color: #fff;
-    border-color: #288feb;
-}
-ul.tagcloud li.widget-active a {
-    background-color: #288feb;
-    color: #fff;
-}
-.custom ul li {
-    border-bottom: solid 1px #eee;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
 /* ==========================================
            24. Left bottom link item
    ========================================== */
@@ -2100,15 +1956,6 @@ ul.author-link li a {
   width: 120%;
 }
 
-ul li.cat-item a {
-  text-transform:capitalize;
-}
-
-.sidebar ul li.cat-item a {
-  border-bottom: 1px solid #e4e4e4;
-  padding: 10px 0;
-  position: relative;
-}
 
 .blog-meta-wrapper .blog-cats,
 .blog-meta-wrapper .blog-author{

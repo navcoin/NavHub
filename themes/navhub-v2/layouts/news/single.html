@@ -7,81 +7,56 @@
 
 {{ partial "header_news.html" . }}
 
-<div class="appiex-blog-content section-ptb-2">
-    <div class="ninety-vw-container grid-container">        <div class="row">
-            <div class="col-sm-12 col-md-8">
-                <div class="blog-item">
-                    <div class="blog-meta-wrapper">
-                        <div class="blog-meta">
-                        {{ if .Params.author }}
-                            <div class="blog-author">
-                                <i class="fa fa-user-o"></i> 
-                                {{.Params.author}}
-                            </div>
-                        {{end}}
-                        <div class="blog-author">
-                            <i class="fa fa-calendar"></i>
-                            {{ dateFormat "2 Jan 2006" .Params.date }}
-                        </div>
-                    </div>
-                    {{ partial "social_share.html" . }}
+<div class="blog-grid">
+    <div class="blog-item">
+        <div class="details-img">
+            <img alt="{{.Params.title}}" src="{{ .Params.feature_image }}">
+        </div>
+        <div class="blog-details">
+            {{if .Params.show_title}}
+                <h3 class="blog-title">{{.Title}}</h3>
+                <div class="news-content">
+                    {{ .Content }}
                 </div>
-                <div class="clearfix"></div>
-                <div class="details-img"><img alt="{{.Params.title}}" src="{{ .Params.feature_image }}"></div>
-                <div class="blog-details">
-                    {{if .Params.show_title}}
-                        <h3 class="blog-title">{{.Title}}</h3>
-                        <div class="news-content">
-                            {{ .Content }}
-                        </div>
-                    {{else}}
-                        <div class="news-content">
-                            {{ .Content }}
+            {{else}}
+                <div class="news-content">
+                    {{ .Content }}
+                </div>
+            {{end}}
+            <div class="blog-meta-wrapper" style="margin-top: 30px;">
+                <div class="blog-meta">
+                    {{ if .Params.author }}
+                        <div class="blog-author">
+                            <i class="fa fa-user-o"></i> {{.Params.author}}
                         </div>
                     {{end}}
-                    <div class="blog-meta-wrapper" style="margin-top: 30px;">
-                        <div class="blog-meta">
-                            {{ if .Params.author }}
-                                <div class="blog-author">
-                                    <i class="fa fa-user-o"></i> {{.Params.author}}
-                                </div>
-                            {{end}}
-                            <div class="blog-author">
-                                <i class="fa fa-calendar"></i>
-                                {{ dateFormat "2 Jan 2006" .Params.date }}
-                            </div>
-                        </div>
-                        {{ partial "social_share.html" . }}
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-3 col-sm-12 col-md-offset-1">
-                <div class="sidebar">
-                    <div class="widget">
-                        <h3 class="widget-title">Topics Category</h3>
-                        <ul>
-
-                            {{ range first 10 .Site.Taxonomies.categories.ByCount }}
-                                <li class="cat-item" ><a href="/categories/{{ .Name | urlize }}">{{ .Name }}</a> </li>
-                            {{ end }}
-
-                        </ul>
-                    </div>
-                    <div class="widget custom recent-posts">
-                        <h3 class="widget-title">Recent Posts</h3>
-                        <ul>
-                            {{ range .Site.Pages }}
-                                {{if (eq .Type "news") }}
-                                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                                {{ end }}
-                            {{ end }}
-
-                        </ul>
+                    <div class="blog-author">
+                        <i class="fa fa-calendar"></i>
+                        {{ dateFormat "2 Jan 2006" .Params.date }}
                     </div>
                 </div>
+                {{ partial "social_share.html" . }}
             </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="widget">
+            <h3 class="widget-title">Topics Category</h3>
+            <ul>
+                {{ range first 10 .Site.Taxonomies.categories.ByCount }}
+                    <li class="cat-item" ><a href="/categories/{{ .Name | urlize }}">{{ .Name }}</a> </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="widget recent-posts">
+            <h3 class="widget-title">Recent Posts</h3>
+            <ul>
+                {{ range .Site.Pages }}
+                    {{if (eq .Type "news") }}
+                        <li class="cat-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                {{ end }}
+            </ul>
         </div>
     </div>
 </div>

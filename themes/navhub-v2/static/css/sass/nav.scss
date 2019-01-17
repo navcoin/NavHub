@@ -15,10 +15,13 @@
 @import './text-block.scss';
 @import './divider.scss';
 
+
+
 /*****************************
-        Partials 
+Partials 
 *****************************/
 
+@import './pagination.scss';
 @import './hero-section.scss';
 @import './navcoin-hero.scss';
 @import './project-card.scss';
@@ -26,6 +29,7 @@
 @import './hamburger-menu.scss';
 @import './news-item.scss';
 @import './event-card.scss';
+@import './news-single.scss';
 
 // Homepage
 
@@ -119,6 +123,10 @@ a:focus {
   font-size: 16px;
   line-height: 24px;
 }
+.page-header-bg {
+  padding: 100px 20px 72px 20px;
+  color: #FFFFFF;
+}
 
 .main-slider-overlay {
   background: -moz-linear-gradient(
@@ -205,10 +213,6 @@ a:focus {
     rgb(68, 178, 233) 100%
   );
   /* w3c */
-}
-
-.page-header-bg {
-  height: auto;
 }
 
 .vert-10 {

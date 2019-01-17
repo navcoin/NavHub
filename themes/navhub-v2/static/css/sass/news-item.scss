@@ -1,5 +1,29 @@
+.blog-details, .blog-meta-wrapper {
+  .share-icon {
+    padding-top:15px;
+    display: flex;
+    justify-content: flex-end;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      li a {
+        color: #707070;
+        width:30px;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+.blog-meta-wrapper .share-icon{
+  justify-content: flex-start;
+  ul {
+    justify-content: flex-start;
+  }
+}
 .news-item {
+  margin: 0 auto;
   min-width: 300px;
+  max-width: 95vw;
 
   .blog-image {
     position: relative;
@@ -7,6 +31,7 @@
     min-height: 200px;
     background-size: cover;
     background-position: center center;
+    max-width: 95vw;
     img {
       width: 100%;
     }
@@ -60,6 +85,7 @@
   }
 
   .blog-details {
+    margin: auto;
     h3 {
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -109,7 +135,10 @@
     }
   }
 
+ 
+
   .social-icon-sect {
+    max-width: 95vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -122,6 +151,7 @@
       margin-right: 20px;
       color: #7d5ab5;
     }
+    
     .social-icon {
       display: inline-flex;
       justify-content: center;
