@@ -1,15 +1,21 @@
 .community-channels {
+  margin: 20px 0;
   h2 {
     text-align: center;
   }
 }
 .community-grid {
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  justify-content: center;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(100px,125px));
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100px, 125px);
+  width: 100%;
+  max-width: 660px;
 }
 
 .community-tile {
-  padding: 40px;
+  max-width: 125px;
 }

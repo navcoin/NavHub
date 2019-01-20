@@ -79,11 +79,25 @@ a:focus {
   width: 100%;
   max-width: 90vw;
   margin: 0 auto;
+  &.projects {
+    max-width: 90vw;
+  }
+}
+
+@media (min-width: 1890px) {
+  .ninety-vw-container.projects {
+    max-width: 1299px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1777px) {
   .ninety-vw-container {
     max-width: 1600px;
+    margin: 0 auto;
+  }
+  .ninety-vw-container.projects {
+    max-width: 1299px;
     margin: 0 auto;
   }
 }
@@ -92,15 +106,21 @@ a:focus {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 30px 20px;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  &.projects {
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    
+
+  }
   &.two-col {
     grid-gap: 30px 50px;
     grid-template-columns: repeat(2, minmax(400px,600px));
     @media (max-width: 880px) {
-      grid-template-columns: minmax(400px,600px);
+      grid-template-columns: minmax(300px,600px);
     }
   }
+
 }
 
 @media (max-width: 600px) {

@@ -2,20 +2,21 @@
   position: relative;
   overflow: hidden;
   height: 100%;
-  min-height: 350px;
-  min-width: 344px;
-  padding: 0 5px;
+  min-height: 360px;
+  min-width: 310px;
+  // padding: 0 5px;
 
   .bg-container {
     background-color: rgba(33, 33, 33, 0.2);
-    margin: 0px -19px 0 -19px;
+    margin: 0px  0;
     height: 150px;
+    width: 100%;
     overflow: hidden;
   
     .background-image {
       display: block;
       height: 250px;
-      margin-left: -10%;
+      margin-left: -15%;
       margin-top: -50px;
     
     }
@@ -63,7 +64,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: calc(100% - 150px);
-    padding-bottom: 12px;
+    padding: 0 5px 12px 5px;
   }
 
   .card-title {

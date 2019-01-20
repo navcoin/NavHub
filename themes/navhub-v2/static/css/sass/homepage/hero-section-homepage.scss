@@ -81,6 +81,7 @@
                           "button button";
       justify-content: center;
     .hero-img {
+      margin-top: 12px;
       justify-self: center;
       height: 210px;
     }
@@ -90,16 +91,21 @@
       text-align: center;
       padding: 0 25px;
       align-items: center;
-    }
-    
-    h1 {
-      text-align: center;
-      margin: 27px 0 35px 0;
-      font-size: 32px;
-    }
-
-    a {
-      margin-top: 25px;
+      
+      h1 {
+        text-align: center;
+        margin: 17px 0 0px 0;
+        font-size: 32px;
+      }
+      p {
+        line-height: 36px;
+        font-size: 18px;
+        margin: 20px;
+      }
+      
+      a {
+        margin-top: 25px;
+      }
     }
     .hero-button {
       justify-self: center;

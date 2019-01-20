@@ -1,16 +1,16 @@
-<div class="guides-menu-sticky">
+<div class="guides-stickey">
   <a href="/guides"><h2 class="guides-menu-title">Guide Categories</h2></a>
   <ul>
-      {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
-          <li class="guides-page">
-              <a href="{{ .Permalink}}"><h4>{{ .LinkTitle }}</h4></a>
-              <ul>
-                  {{ range $section := .Params.sections }}
-                    <li><a href="{{ $page.Permalink}}#{{ $section | urlize }}">{{ $section }}</a></li>
-                  {{ end }}
-              </ul>
-          
-            </li>
-      {{end}}
+    {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
+    <li class="guides-page">
+      <a href="{{ .Permalink}}"><h4>{{ .LinkTitle }}</h4></a>
+      <ul>
+        {{ range $section := .Params.sections }}
+        <li><a href="{{ $page.Permalink}}#{{ $section | urlize }}">{{ $section }}</a></li>
+        {{ end }}
+      </ul>
+      
+    </li>
+    {{end}}
   </ul>
-</div> 
+</div>

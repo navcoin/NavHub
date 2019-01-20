@@ -1,7 +1,8 @@
 
 .info-tile-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  justify-content: center;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   margin: 40px 0;

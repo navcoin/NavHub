@@ -1,5 +1,6 @@
 .hamburger-menu {
-  background: #dadada;
+  background: #FFFFFF;
+  box-shadow: rgba(0,0,0,0.5) 0 3px 6px;
   border-radius: 50px;
   width: 50px;
   height: 50px;
@@ -29,7 +30,7 @@
 .hamburger:hover,
 .hamburger:focus,
 .hamburger:active {
-outline: none;
+  outline: none;
 }
 
 .hamburger.is-closed:before {
@@ -62,39 +63,41 @@ display: block;
 .hamburger.is-open .hamb-bottom {
 position: absolute;
 left: 0;
-height: 2px;
+height: 3px;
 width: 100%;
 }
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-background-color: #7d5ab5;
+  border-radius: 5px;
+background-color: #707070;
 }
 .hamburger.is-closed .hamb-top { 
-top: 6px; 
+top: 5px; 
 -webkit-transition: all 200ms ease-in-out;
 }
 .hamburger.is-closed .hamb-middle {
 top: 50%;
-margin-top: -1px;
+margin-top: -2px;
 }
 .hamburger.is-closed .hamb-bottom {
-bottom: 6px;  
+bottom: 5px;  
 -webkit-transition: all 200ms ease-in-out;
 }
 
 .hamburger.is-closed:hover .hamb-top {
-top: 2px;
+top: 1px;
 -webkit-transition: all 200ms ease-in-out;
 }
 .hamburger.is-closed:hover .hamb-bottom {
-bottom: 2px;
+bottom: 1px;
 -webkit-transition: all 200ms ease-in-out;
 }
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-middle,
 .hamburger.is-open .hamb-bottom {
-background-color: #7d5ab5;
+  border-radius: 5px;
+  background-color: #707070;
 }
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-bottom {

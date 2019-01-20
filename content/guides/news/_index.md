@@ -5,6 +5,8 @@ author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, Things I can help with, How can I post an article to NavHub]
 page_type: 'guide'
+github_file: 'content/guides/news/_index.md'
+
 ---
 
 ## Overview

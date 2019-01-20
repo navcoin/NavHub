@@ -21,4 +21,12 @@
 .quote-meta {
   margin-top: 20px;
   text-align: right;
+  .quote-author {
+    a, a:visited {
+      color: #7d5ab5;
+      &:hover, &:active {
+        border-bottom: 1px solid #7d5ab5;  
+      } 
+    }
+  }
 }

@@ -6,7 +6,7 @@ type: "default"
 
 
 titleText: "Community Events"
-imageSrc: "/images/hero-images/navguy-news.png"
+imageSrc: "/images/hero-images/navgal-speech.png"
 buttonText: "Download Guidelines"
 buttonLink: "https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
 buttonImageSrc: "true"

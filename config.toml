@@ -56,36 +56,30 @@ twitter_username = "navcoin"
 [[menu.main]]
     name = "NavCoin Heroes"
     title = "NavCoin Heroes"
-    weight = 30
+    weight = 50
     url = "/navcoin-heroes/"
     identifier = "navcoin-heroes"
 [[menu.main]]
     name = "Community Assets"
     title = "Community Assets"
-    weight = 40
+    weight = 60
     url = "/assets/"
     identifier = "assets"
 [[menu.main]]
-    name = "Information"
-    title = "Information"
-    weight = 50
-    url = "/information/"
-    identifier = "information"
+    name = "Guides & Information"
+    title = "Guides & Information"
+    weight = 70
+    url = "/guides/"
+    identifier = "guides"
 [[menu.main]]
     name = "NavCollab"
     title = "NavCollab"
-    weight = 60
+    weight = 90
     url = "https://collab.navcoin.org"
     identifier = "collab"
 [[menu.main]]
     name = "NavCoin.org"
     title = "NavCoin.org"
-    weight = 60
+    weight = 80
     url = "https://NavCoin.org"
     identifier = "navcoin"
-[[menu.main]]
-    name = "Get Involved"
-    title = "Get Involved"
-    weight = 70
-    url = "/get-involved/"
-    identifier = "get-involved"

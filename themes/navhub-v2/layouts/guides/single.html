@@ -5,32 +5,33 @@
 
 <body data-spy="scroll">
 
+    {{ partial "header.html" . }}
 
   <div class="guides-container">
     <div class="guides-menu">
       {{ partial "guides-menu.html" . }}
     </div>
     <div class="guides-article">
+      <a href="https://github.com/navcoin/navhub/tree/master/{{ .Params.github_file }}" target="e" title="Edit this tile on GitHub" class="github-edit">
+        Edit this page on Github <span class="fa fa-edit"></span>
+      </a>
 
       {{ .Content }}
 
       <div class="blog-meta-wrapper" style="margin-top: 30px;">
           <div class="blog-meta">
-              {{ if .Params.author }}
-              <div class="blog-author">
-                  <i class="fa fa-user-o"></i> {{.Params.author}}
-              </div>
-              {{end}}
               <div class="blog-author">
                   <i class="fa fa-calendar"></i>
                   {{ dateFormat "2 Jan 2006" .Params.date }}
               </div>
           </div>
           {{ partial "social_share.html" . }}
+        </div>
+        <div class="clearfix"></div>
       </div>
-      <div class="clearfix"></div>
+      <div class="footer-container">
+        {{ partial "footer.html" . }}
+      </div>
     </div>
-  </div>
-
-</body>
+  </body>
 </html>

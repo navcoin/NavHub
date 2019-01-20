@@ -5,6 +5,7 @@ author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, Things i can help with, How can I add an event to NavHub]
 page_type: 'guide'
+github_file: 'content/guides/events/_index.md'
 ---
 
 ## Overview

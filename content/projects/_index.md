@@ -12,7 +12,7 @@ order_page: true
 order_by: "default"
 
 titleText: "Projects"
-imageSrc: "/images/hero-images/navguy-news.png"
+imageSrc: "/images/hero-images/navguy-hardhat.png"
 buttonText: "Add News"
 buttonLink: "true"
 buttonImageSrc: "true"

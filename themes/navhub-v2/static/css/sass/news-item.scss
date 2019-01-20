@@ -24,6 +24,9 @@
   margin: 0 auto;
   min-width: 300px;
   max-width: 95vw;
+  @media (max-width: 700px) {
+    max-width: 100%;
+  }
 
   .blog-image {
     position: relative;
@@ -135,7 +138,6 @@
     }
   }
 
- 
 
   .social-icon-sect {
     max-width: 95vw;

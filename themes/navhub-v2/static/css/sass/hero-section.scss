@@ -1,60 +1,19 @@
 .hero-section {
-  color: #7243BF;
+  color: #7243bf;
   padding: 15px 0;
   display: grid;
   grid-column-gap: 32px;
   grid-auto-flow: dense;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas:  "image text"
-                        "image text";
-                        align-items: center;
-                        min-width: 100%;
-                        
-  &.homepage {
-    height: 400px;
-    grid-column-gap: 20px;
-    grid-template-areas:  "text image"
-                          "text image";
-
-    background: no-repeat, no-repeat;
-    background-size: initial, initial;
-    background-position: 10% center, 90% center;
-    
-    .class-content-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .text-section-container {
-        justify-self: flex-end;
-        text-align: right;
-        justify-content: center;
-        align-items: flex-end;
-        padding: 0;
-        margin: 0;
-        min-width: 100%;
-    
-        h1, p {
-          padding: 0;
-          margin: 0;
-          font-family: 'Raleway', Times, serif;
-        }
-        h1 {
-          font-size: 45px;
-          font-weight: 600;
-        }
-        p {
-          font-size: 28px;
-          font-weight: 200;
-          line-height: 43px;
-          max-width: 500px;
-        }
-      }
-    }
-  }
+  grid-template-areas:
+    'image text'
+    'image text';
+  align-items: center;
+  min-width: 100%;
 
   a {
     margin-top: 36px;
-  } 
+  }
 
   .image-container {
     grid-area: image;
@@ -103,24 +62,28 @@
 
 @media (max-width: 700px) {
   .hero-section {
-    padding: 0 0 55px 0; 
-    grid-template-areas:  "image image"
-                          "text text";
+    padding: 10px 0 55px 0;
+    grid-template-areas:
+    'image image'
+    'text text';
     .image-container {
       justify-content: center;
+      .hero-img {
+        max-height: 220px;
+        height: 50vh;
+      }
     }
-    .hero-img {
-      height: 210px;
-    }
-
+    
     .text-section-container {
       align-self: center;
+      justify-self: center;
       padding: 0 25px;
-    }
-
-    h1 {
-      margin: 27px 0 35px 0;
-      font-size: 32px;
+      text-align: center;
+      h1 {
+        margin: 18px 0 10px 0;
+        font-size: 32px;
+        line-height: 40px;
+      }
     }
 
     a {
