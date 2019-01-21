@@ -65,3 +65,37 @@
     }
   }
 }
+
+.recent-posts li {
+  display: none;
+  &:nth-child(1) {
+    display: block;
+  }
+  &:nth-child(2) {
+    display: block;
+  }
+  &:nth-child(3) {
+    display: block;
+  }
+  &:nth-child(4) {
+    display: block;
+  }
+  &:nth-child(5) {
+    display: block;
+  }
+  &:nth-child(6) {
+    display: block;
+  }
+  &:nth-child(7) {
+    display: block;
+  }
+  &:nth-child(8) {
+    display: block;
+  }
+  &:nth-child(9) {
+    display: block;
+  }
+  &:nth-child(10) {
+    display: block;
+  }
+}

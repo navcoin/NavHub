@@ -2031,25 +2031,6 @@ ul.author-link li a {
 
 .news-content>p:first-of-type { display: none }
 
-.recent-posts li {
-  display: none;
-}
-
-.recent-posts li:nth-child(1) {
-  display: block;
-}
-.recent-posts li:nth-child(2) {
-  display: block;
-}
-.recent-posts li:nth-child(3) {
-  display: block;
-}
-.recent-posts li:nth-child(4) {
-  display: block;
-}
-.recent-posts li:nth-child(5) {
-  display: block;
-}
 
 .nav li ul {
   display: none;
