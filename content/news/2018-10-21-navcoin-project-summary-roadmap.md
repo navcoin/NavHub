@@ -22,4 +22,4 @@ Here's an excerpt from the document:
 > NavCoin online or in the real world. The community works together as willing participants in this
 > new economy to create a better future.
 
-### [NavCoin Project Overview »](https://navhub.org/assets/NavCoinOverview_October2018.pdf)
+### [NavCoin Project Overview »](https://navhub.org/assets/NavCoinOverview_November2018.pdf)
