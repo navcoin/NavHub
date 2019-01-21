@@ -4,9 +4,18 @@
         <a href="/events">See all events <img src="/images/icons/rightward-arrow-grey.png" alt=""></a>
     </div>
     <div class="card-container">
-        {{ partial "home/event_card.html" . }}
-        {{ partial "home/event_card.html" . }}
-        {{ partial "home/event_card.html" . }}
-        {{ partial "home/event_card.html" . }}    
+
+        {{ $list := .Site.Pages}}
+        {{ $sorted := sort $list "Params.date" "desc" }}
+        {{ $count := 0 }}
+        {{ range $index, $element := $sorted }}
+            {{ if (hasPrefix $element.Dir "events") }}
+                {{ if lt $count 4 }}
+                    {{ partial "home/event_card.html" . }}
+                    {{ $count = add $count 1 }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
     </div> 
 </div>

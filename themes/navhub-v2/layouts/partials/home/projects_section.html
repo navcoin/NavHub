@@ -4,9 +4,16 @@
         <a href="/projects">See all projects <img src="/images/icons/rightward-arrow-grey.png" alt=""></a>
     </div>
     <div class="card-container">
-        {{ partial "home/project_card.html" . }}
-        {{ partial "home/project_card.html" . }}
-        {{ partial "home/project_card.html" . }}
-        {{ partial "home/project_card.html" . }}
-    </div> 
+        {{ $list := .Site.Pages}}
+        {{ $sorted := sort $list "Params.date" "desc" }}
+        {{ $count := 0 }}
+        {{ range $index, $element := $sorted }}
+            {{ if (hasPrefix $element.Dir "projects") }}
+                {{ if lt $count 4 }}
+                    {{ partial "home/project_card.html" . }}
+                    {{ $count = add $count 1 }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
 </div>

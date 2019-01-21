@@ -4,9 +4,18 @@
         <a href="/news">See all news <img src="/images/icons/rightward-arrow-grey.png" alt=""></a>
     </div>
     <div class="card-container">
-        {{ partial "home/news_card.html" . }}
-        {{ partial "home/news_card.html" . }}
-        {{ partial "home/news_card.html" . }}
-        {{ partial "home/news_card.html" . }}
+        {{ $list := .Site.Pages}}
+        {{ $sorted := sort $list "Params.date" "desc" }}
+        {{ $count := 0 }}
+
+        {{ range $index, $element := $sorted }}
+            {{ if (hasPrefix $element.Dir "news") }}
+                {{ if lt $count 4 }}
+                    {{ partial "home/news_card.html" . }}
+                    {{ $count = add $count 1 }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
     </div>
 </div>

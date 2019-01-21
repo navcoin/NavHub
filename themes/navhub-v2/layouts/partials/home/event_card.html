@@ -1,22 +1,22 @@
 <div class="event-card">
     <div class="date-icon-container"> 
         <div class="date-icon">
-            <h2 class="short-date-num">1{{ .Params.short_date_num }}</h2>
-            <h4 class="short-date-month">JAN {{ .Params.short_month | upper }}</h4>
+            <h2 class="short-date-num">{{ .Params.short_date_num }}</h2>
+            <h4 class="short-date-month">{{ .Params.short_month | upper }}</h4>
         </div>
     </div>
     <div>
         <div class="event-date">
-            {{ .Params.event_long_date }}Wednesday, 01 January 2019, 3.30pm - 5.30pm (GMT)
+            {{ .Params.event_long_date }}
         </div>
         <h2 class="event-title">{{ .Params.title }}</h2>
         <div class="event-location">
             <img src="/images/icons/location-icon.png">
-            {{ .Params.location }}12 Madden Street, Auckland, New Zealand
+            {{ .Params.location }}
         </div>
         <div class="event-host">
             <img src="/images/icons/person-icon.png">
-            {{ .Params.host }}Encrypt-S
+            {{ .Params.host }}
         </div>
     </div>
 </div>

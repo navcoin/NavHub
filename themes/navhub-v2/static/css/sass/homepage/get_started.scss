@@ -28,6 +28,8 @@
   }
   .grid-container {
     margin-bottom: 25px;
+    width: 90vw;
+    max-width: 1200px;
     .grid-item {
       display: flex;
       flex-direction: column;
