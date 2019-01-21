@@ -10,11 +10,28 @@
     width: 90vw;
     max-width: 800px;  
     margin: 0 auto;
+    .news-content {
+      margin-top: 25px;
+    }
+    h2 {
+      margin: 60px 0 35px 0;
+    }
     h3 {
+      margin: 16px 0 12px 0;
       font-size: 24px;
       line-height: 28px;
-      margin: 16px 0 12px 0;
     }
+    a, a:visited {
+      text-decoration: underline;
+      -webkit-transition: all .2s;
+      -o-transition: all .2s;
+      transition: all .2s;
+      color: #7a7a7a ;
+      &:hover, &:active {
+        color: #7d5ab5;
+      }
+    }
+
   }
   .sidebar {
     display: flex;
@@ -46,7 +63,7 @@
           -o-transition: all .5s;
           transition: all .5s;
           display: block;
-          &hover {
+          &:hover {
             color: #7d5ab5;
           }
         }
@@ -97,5 +114,79 @@
   }
   &:nth-child(10) {
     display: block;
+  }
+}
+
+/*-------------------------------*/
+/*     Sidebar nav styles        */
+/*-------------------------------*/
+
+.sidebar-nav {
+  position: absolute;
+  top: 50px;
+  min-width: 220px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    position: relative; 
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 3px;
+    background-color: white;
+  }
+  li {
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  li:hover:before,
+  li.open:hover:before {
+    width: 100%;
+  }
+
+  li a, li a:visited {
+    color: #333;
+    display: block;
+    text-decoration: none;
+    padding: 28px 11px 10px 40px;
+  }
+
+  li a:hover,
+  li a:active,
+  li a:focus,
+  li.open a:hover,
+  li.open a:active,
+  li.open a:focus{
+    color: #7d5ab5;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  >.sidebar-brand {
+    height: 65px;
+    font-size: 20px;
+    line-height: 44px;
+  }
+  .dropdown-menu {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    background-color: #c42bb7;
+    box-shadow: none;
   }
 }
