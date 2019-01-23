@@ -244,10 +244,6 @@ span.price-tag {
   }
 
 
-  .sidebar-nav {
-    top: 10%;
-    width: 100%;
-  }
 
   #wrapper.toggled #sidebar-wrapper {
     width: 100%;
@@ -515,9 +511,7 @@ and (orientation : landscape) {
       margin-top: 4vh;
   }
 
-  .sidebar-nav {
-      top: 17%;
-  }
+
   
 }
 
@@ -576,11 +570,8 @@ and (orientation : landscape) {
       margin-top: 4vh;
   }
 
-  .sidebar-nav {
-      top: 17%;
-  }
-  
 }
+
 
 /* iPhone 6 Plus in portrait */
 @media only screen 

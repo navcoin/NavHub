@@ -1,28 +1,42 @@
- <nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+<nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
     <ul class="nav sidebar-nav">    
+        <li class="sidebar-list-title">NavHub.org</li>
         {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-        <li class="sidebar-brand {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-dropdown">
-        <span class="nav-top-item">
-            {{ .Pre }}
-            <span>{{ .Name }}</span>
-            <span class="fa fa-angle-double-down"></span>
-        </span>
-        <ul class="sub-menu">
-            {{ range .Children }}
-            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-            <a href="{{ .URL }}"><span class="fa fa-angle-right"></span>{{ .Name }}</a>
-            {{ end }}
-        </ul>
-        {{else}}
-        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-            <a href="{{.URL}}">
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
-            </a>
+            {{ range .Site.Menus.main }}
+                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                    <a href="{{ .URL }}">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                        {{ if or (eq .Identifier "navcoin") (eq .Identifier "collab") }}
+                            <img src="/images/icons/external_link.png" alt="" class="external-link-img"> 
+                        {{ end }}
+
+                    </a>
+                </li>
+            {{end}}
+    </ul>
+
+    <ul class="nav sidebar-nav guides">
+        <li class="sidebar-list-title">NavHub guides</li>
+        {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
+            <li class="guides-page">
+                <a href="{{ .Permalink}}"><span>{{ .LinkTitle }}</span></a>
+            </li>
         {{end}}
-        {{end}}
+    </ul>
+    <ul class="nav sidebar-nav">
+        <li class="sidebar-list-title">Community Channels</li>
+        <li>
+            <div class="social-icon-container">
+                <a href=""><img src="" alt="discord"></a>
+                <a href=""><img src="" alt="twitter"></a>
+                <a href=""><img src="" alt="github"></a>
+                <a href=""><img src="" alt="reddit"></a>
+                <a href=""><img src="" alt="youtube"></a>
+                <a href=""><img src="" alt="facebook"></a>
+                <a href=""><img src="" alt="telegram"></a>
+                <a href=""><img src="" alt="medium"></a>
+            </div>
         </li>
     </ul>
 </nav>      

@@ -122,13 +122,20 @@
 /*-------------------------------*/
 
 .sidebar-nav {
-  position: absolute;
-  top: 50px;
+  margin-top: 50px;
+  margin-bottom: 75px;
   min-width: 220px;
-  margin: 0;
   padding: 0;
   list-style: none;
 
+  .sidebar-list-title {
+    padding: 28px 11px 0px 40px;
+    font-size: 18px;
+    color: #A7A7A7;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+  
   li {
     position: relative; 
     line-height: 20px;
@@ -160,7 +167,9 @@
     color: #333;
     display: block;
     text-decoration: none;
-    padding: 28px 11px 10px 40px;
+    padding: 3px 11px 3px 40px;
+    margin: 3px 0;
+    font-size: 20px;
   }
 
   li a:hover,
@@ -174,11 +183,6 @@
     background-color: transparent;
   }
 
-  >.sidebar-brand {
-    height: 65px;
-    font-size: 20px;
-    line-height: 44px;
-  }
   .dropdown-menu {
     position: relative;
     width: 100%;

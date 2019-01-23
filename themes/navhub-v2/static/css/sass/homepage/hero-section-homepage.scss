@@ -52,8 +52,9 @@
 
   a {
     margin-top: 36px;
+    
   } 
-
+  
   .hero-img {
     grid-area: image;
     max-height: 322px;
@@ -63,6 +64,10 @@
     align-self: flex-start;
     justify-self: flex-end;
     grid-area: button;
+    transition: 0.4s;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 

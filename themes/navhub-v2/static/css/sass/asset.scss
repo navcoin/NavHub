@@ -1,3 +1,10 @@
+.ninety-vw-container.grid-container.asset-container {
+  max-width: 1450px;
+  margin: 0 auto;
+  @media (max-width: 1610px) {
+    max-width: 90vw;
+  }
+}
 .asset {
   transition: ease-in-out 0.2s;
   &:hover{
