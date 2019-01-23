@@ -1,15 +1,17 @@
 <div class="homepage-news-card">
-  <div class="title-container">
-    <h1>{{ .Params.title }}</h1>
-  </div>
-  <div class="lower-section">
-    <div class="project-author">
-      <img src="/images/icons/person-icon.png">
-      {{ .Params.author }}
+  <a href="{{ .URL }}">
+    <div class="title-container">
+      <h1>{{ .Params.title }}</h1>
     </div>
-    <div class="project-author">
-      <img src="/images/icons/calendar-icon.png">
-      {{ .Params.date }}
+    <div class="lower-section">
+      <div class="project-author">
+        <img src="/images/icons/person-icon.png">
+        {{ .Params.author }}
+      </div>
+      <div class="project-author">
+        <img src="/images/icons/calendar-icon.png">
+        {{ .Params.date }}
+      </div>
     </div>
-  </div>
+  </a>
 </div>

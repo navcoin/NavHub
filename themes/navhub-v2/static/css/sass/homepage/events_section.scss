@@ -25,6 +25,9 @@
       @media(max-width: 660px) {
         padding: 10px;
       }
+      &:hover {
+        border: 1px solid #9D3CD1;
+      }
       .date-icon {
         @media(max-width: 660px) {
           display: none;

@@ -38,6 +38,10 @@
       text-align: center;
       padding: 30px;
       border: #DDDDDD 1px solid;
+      &:hover {
+        border: 1px solid #9D3CD1;
+      }
+  
       height: 100%;
       max-height: 350px;
       a {

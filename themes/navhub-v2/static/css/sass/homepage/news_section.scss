@@ -24,6 +24,9 @@
 
   .homepage-news-card {
     border: 1px solid var(--border-color);
+    &:hover {
+      border: 1px solid #9D3CD1;
+    }
     max-width: var(--card-width);
     .title-container {
       min-height: 180px;
