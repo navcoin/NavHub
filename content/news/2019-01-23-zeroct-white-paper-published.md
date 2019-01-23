@@ -9,6 +9,9 @@ categories:
   - Nav News
 ---
 Welcome to the first NavCoin Community News of 2019. We hope you had a great holiday season and are keeping to your New Year’s resolutions. The Core team and wider community have certainly hit the ground running this year, with a wide range of interesting projects underway already.
+<!--more-->
+
+Welcome to the first NavCoin Community News of 2019. We hope you had a great holiday season and are keeping to your New Year’s resolutions. The Core team and wider community have certainly hit the ground running this year, with a wide range of interesting projects underway already.
 
 ### Zero CT White Paper
 
