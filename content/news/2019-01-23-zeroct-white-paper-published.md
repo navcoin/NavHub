@@ -21,7 +21,7 @@ Alex will be publishing video explainers to support the White Paper and Craig is
 
 ### “Fake Stake” Vulnerabilities Resolved
 
-NavCoin Core have successfully resolved the "Fake Stake" resource exhaustion vulnerabilities as described by Andrew Miller and his team of students based out of the University of Illinois. The vulnerability was privately disclosed to NavCoin Core and other affected parties last year. The patch was released in NavCoin Core 4.5.0 and subsequently the NavCoin network is no longer vulnerable to this type of attack. 
+NavCoin Core have successfully resolved the "Fake Stake" resource exhaustion vulnerabilities as described by Andrew Miller and his team of students based out of the University of Illinois. The vulnerability was privately disclosed to NavCoin Core and other affected parties last year. The patch was released in NavCoin Core 4.5.0 and subsequently the NavCoin network is no longer vulnerable to this type of attack.
 
 You can read more about the vulnerabilities and the fix process in the protocol notice published today by NavCoin Core:
 
@@ -43,7 +43,7 @@ A major overhaul of the NavHub community site is now finished and in review. Onc
 
 ### NavPay Cold Staking Addresses
 
-With the successful launch of Cold Staking on the network it has been brought to our attention that some users have chosen to use NavPay for the spending address. NavPay doesn’t currently support cold staking addresses which means cold staking coins are safe, but not yet visible in NavPay. The Core Devs are currently testing a fix which would display this balance in NavPay and allow the coins to be spent as normal. We are hoping to have this published as soon as possible. 
+With the successful launch of Cold Staking on the network it has been brought to our attention that some users have chosen to use NavPay for the spending address. NavPay doesn’t currently support cold staking addresses which means cold staking coins are safe, but not yet visible in NavPay. The Core Devs are currently testing a fix which would display this balance in NavPay and allow the coins to be spent as normal. We are hoping to have this published as soon as possible.
 
 The Core Devs are also looking to publish an education video on the best practices for cold staking so people understand the different options for generating your spending key and the pros and cons of each option.
 
@@ -55,7 +55,9 @@ NavShopper is a new project which will allow people to spend NavCoin on a growin
 
 As part of the NavCoin Core internship programme, Hayden has been working on the NavCoffee project. NavCoffee is a [livestream on Twitch](https://www.twitch.tv/navcoffee) where community members can donate 5 NAV to shout an espresso to one of the hardworking NavCoin Core developers. The purpose of the project is really to demonstrate how streamers can accept NAV and integrate the payments into their livestreams. It also gives everyone a real time view on how many coffees it takes to keep NavCoin Core running.
 
-The livestream runs on a Raspberry Pi connected to a webcam pointing at our coffee machine. We’ve also added hardware buttons to redeem the coffee and LED indicators to show us if there’s any coffees waiting to be redeemed. 
+The livestream runs on a Raspberry Pi connected to a webcam pointing at our coffee machine. We’ve also added hardware buttons to redeem the coffee and LED indicators to show us if there’s any coffees waiting to be redeemed.
+
+![NavCoffee Setup](/images/uploads/nav-coffee.jpg)
 
 The live stream should be broadcasting most weekdays from about 9:00am - 4:30pm NZT so make sure you check it out. If you’d like to add NavCoin donations to your livestream you can find the code on this [GitHub repo](https://github.com/hdnsimpson/NavCoffee) or talk to Hayden in the NavCoin discord for further information.
 
