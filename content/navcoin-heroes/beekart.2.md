@@ -1,5 +1,5 @@
 ---
-image: "/images/icons/icon-discord.png"
+image: "/images/icons/icon-community.png"
 name: "Beekart"
 description: "Creator of NavGuy and artist extraordinaire."
 url: "/"

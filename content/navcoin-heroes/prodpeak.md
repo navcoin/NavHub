@@ -1,5 +1,5 @@
 ---
-image: "/images/icons/icon-discord.png"
+image: "/images/icons/icon-community.png"
 name: "Prodpeak"
 description: "Creator and maintainer of NavExplorer.com."
 url: "/"

@@ -1,5 +1,5 @@
 ---
-image: "/images/icons/icon-discord.png"
+image: "/images/icons/icon-community.png"
 name: "Nio, Italian Hero"
 description: "Leader of NavCoin Italia."
 url: "/"

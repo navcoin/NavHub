@@ -5,7 +5,7 @@ draft: false
 type: "default"
 
 titleText: "NavCoin Heroes"
-imageSrc: "/images/hero-images/navguy-heroes.png"
+imageSrc: "/images/hero-images/navguy-bear.png"
 buttonText: "Download Guidelines"
 buttonLink: "https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
 buttonImageSrc: "true"

@@ -99,7 +99,7 @@ type: "default"
     feature2Title="Reddit"
     feature2Txt="Join us on Reddit »"
     feature2Link="https://reddit.com/r/NavCoin"
-    feature3Img="/images/icons/icon-discord.png"
+    feature3Img="/images/icons/icon-community.png"
     feature3Title="Discord"
     feature3Txt="Join us on Discord »"
     feature3Link="https://discord.gg/y4Vu9jw">}}

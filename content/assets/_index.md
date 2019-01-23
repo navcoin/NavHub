@@ -6,7 +6,7 @@ type: "default"
 
 
 titleText: "Community Assets and Brand Guidelines"
-imageSrc: "/images/hero-images/navguy-news.png"
+imageSrc: "/images/hero-images/navpal-shirt.png"
 buttonText: "Download Guidelines"
 buttonLink: "https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
 buttonImageSrc: "true"

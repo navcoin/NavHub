@@ -108,7 +108,7 @@ Adding a USB hard drive with capacity for the entire Bitcoin blockchain will all
         containerPadding="40px 0 60px 0"
         titleMargin="0 0 20px 0"
         gradient="false"
-        feature2Img="/images/icons/icon-discord.png"
+        feature2Img="/images/icons/icon-community.png"
         feature2Title="Discord"
         feature2Txt="Join the NavCoin m8 Discord »"
         feature2Link="https://discord.gg/pqYW7Fs">}}

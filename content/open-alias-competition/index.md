@@ -40,7 +40,7 @@ og_description: "What is OpenAlias? OpenAlias is a little like PayPal, which let
     containerPadding="40px 0 60px 0"
     titleMargin="0 0 20px 0"
     gradient="false"
-    feature1Img="/images/icons/icon-discord.png"
+    feature1Img="/images/icons/icon-community.png"
     feature1Title="Discord"
     feature1Txt="Join us on Discord »"
     feature1Link="https://discord.gg/y4Vu9jw"
