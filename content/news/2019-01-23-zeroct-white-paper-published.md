@@ -13,7 +13,7 @@ Welcome to the first NavCoin Community News of 2019. We hope you had a great hol
 
 Welcome to the first NavCoin Community News of 2019. We hope you had a great holiday season and are keeping to your New Year’s resolutions. The Core team and wider community have certainly hit the ground running this year, with a wide range of interesting projects underway already.
 
-### Zero CT White Paper
+### ZeroCT White Paper
 
 Alex started the year off in impressive style by publishing his [ZeroCT White Paper](https://twitter.com/NavCoin/status/1084960637367635969). The paper details a new private transaction protocol that combines properties from Zero Coin and Confidential Transactions to offer fully anonymous on chain transactions. The paper has been peer reviewed by strong list of industry experts from various projects including Bitcoin Core, Monero and Veil.
 
