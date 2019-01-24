@@ -19,6 +19,6 @@ buttonImageSrc: "true"
 newTab: "true"
 
 ---
-There is a whole eco-system of software which developers have created to operate on or alongside the NavCoin protocol. All software the NavCoin Core developers create is also free and open-source.
-  
-Here you can find more information about all the awesome projects which have been, or are being built by the NavCoin community.
+There is a whole ecosystem of projects which operate on, or alongside the NavCoin protocol. 
+
+The Open Source model is the backbone of the NavCoin network, to ensure it remains free & open to anyone who wants to contribute. Here you can find more information about all the awesome projects which are being built around the world by the NavCoin community.

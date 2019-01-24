@@ -13,4 +13,6 @@ buttonImageSrc: "true"
 newTab: "true"
 
 ---
-The NavCoin Brand Guidelines give you the resources you need to create your own NavCoin websites, banners, and other online and printed material. It contains handy tips and hints for creating impactful images, typography, and writing the NavCoin tone of voice, and lots more.
+NavCoin is a global digital community. It doesn’t matter where you come from - all that matters is the values that connect us together. And since we’re all in this together, let’s get to know each other!
+
+Events can be added by anyone, and can be anything from video livestreams, to local meetups, or even general crypto events that NavCoin members will be attending.
