@@ -122,12 +122,28 @@
 /*-------------------------------*/
 
 .sidebar-nav {
-  margin-top: 50px;
-  margin-bottom: 75px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   min-width: 220px;
   padding: 0;
   list-style: none;
 
+  .social-icon-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    a {
+      padding: 0;
+      margin-right: 21px; 
+      &:last-child {
+        margin-right: 0;
+      }
+      img {
+      height: 21px;
+    }
+  }
+  }
   .sidebar-list-title {
     padding: 28px 11px 0px 40px;
     font-size: 18px;
