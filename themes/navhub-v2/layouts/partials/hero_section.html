@@ -1,16 +1,17 @@
 <div class="hero-section ninety-vw-container">
     <div class="image-container">
-        <img src="{{ .Params.imageSrc }}" class="hero-img">
+        <img src="{{ .Params.image_src }}" class="hero-img">
     </div>
     <div class="text-section-container">
-        <h1 class="">{{ .Params.titleText}}</h1>
+        <h1 class="">{{ .Params.title_text}}</h1>
         <div class="paragraph-text">{{ .Content | safeHTML}}</div>
-        {{ if (isset .Params "buttonText") }}
-            <div>
-                <a href="{{ .Params.buttonLink }}" class="btn btn-blue img-left" {{if isset .Params "newTab"}} target="_blank" {{end}}>
-                    <span>{{ .Params.buttonText }}</span>
-                    <img src="{{ .Params.buttonImageSrc }}" class="btn-img"> </a>
-            </div>    
+        {{ if (isset .Params "button_text")}}
+        <div class="hero-button-container">
+            <a href="{{ .Params.button_link }}" class="btn btn-blue img-left" {{if isset .Params "new_tab"}} target="_blank" {{end}}>
+                <img src="{{ .Params.button_image_src }}" class="btn-img"> 
+                <span>{{ .Params.button_text }}</span>
+            </a>
+        </div>    
         {{ end }}
     </div>
 </div>

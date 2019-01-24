@@ -5,12 +5,12 @@ draft: false
 type: "default"
 
 
-titleText: "Community Assets"
-imageSrc: "/images/hero-images/navpal-shirt.png"
-buttonText: "Download Guidelines"
-buttonLink: "https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
-buttonImageSrc: "true"
-newTab: "true"
+title_text: "Community Assets"
+image_src: "/images/hero-images/navpal-shirt.png"
+button_text: "Download Guidelines"
+button_link: "https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
+button_image_src: "/images/icons/plus-icon.png"
+new_tab: "true"
 
 ---
 A list of logos, illustrations, guidelines, videos, and anything else that are available for the rest of the NavCoin community to reuse.

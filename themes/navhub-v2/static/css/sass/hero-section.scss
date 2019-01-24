@@ -9,7 +9,6 @@
     'image text text'
     'image text text';
   align-items: center;
-  // min-width: 100%;
 
   a {
     margin-top: 36px;
@@ -35,7 +34,6 @@
   .text-section-container {
     grid-area: text;
     color: inherit;
-    text-align: left;
     justify-self: flex-start;
     max-width: 600px;
     display: flex;
@@ -45,12 +43,16 @@
     height: 100%;
     padding: 0 30px 0 0;
     h1 {
+      align-self: flex-start;
+      text-align: left;
       color: inherit;
       font-size: 33px;
       line-height: 45px;
       margin: 0 0 10px 0;
     }
-    
+    .hero-button-container {
+      align-self: flex-start;
+    }
     p {
       margin: 5px 0 0 0;
       line-height: 25px;
@@ -88,6 +90,12 @@
         margin: 18px 0 10px 0;
         font-size: 32px;
         line-height: 40px;
+      }
+      h1 {
+        align-self: center;
+      }
+      .hero-button-container {
+        align-self: center;
       }
     }
 

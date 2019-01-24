@@ -2,6 +2,9 @@
 @import "./colors.scss";
 
 .btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border-radius: 0px;
   border: none;
   background: none;  
@@ -11,7 +14,7 @@
     transform: scale(1.1);
   }
   img {
-    height: 8px;
+    height: 15px;
   }
 }
 
@@ -56,18 +59,22 @@
   }
 }
 
-.btn-img {
-  height: 12px;
-  margin-left: 25px;
-}
 
 .img-left {
   img {
     order: 1;
+    margin-right: 20px;
+  }
+  span {
+    order: 2;
   }
 }  
 
 .img-right {
+  span {
+    order: 1;
+    margin-right: 20px;
+  }
   img {
     order: 2;
   }

@@ -11,12 +11,12 @@ slug: ""
 order_page: true
 order_by: "default"
 
-titleText: "Projects"
-imageSrc: "/images/hero-images/navguy-hardhat.png"
-buttonText: "Add News"
-buttonLink: "true"
-buttonImageSrc: "true"
-newTab: "true"
+title_text: "Projects"
+image_src: "/images/hero-images/navguy-hardhat.png"
+button_text: "Add News"
+button_link: "true"
+button_image_src: "/images/icons/plus-icon.png"
+new_tab: "true"
 
 ---
 There is a whole ecosystem of projects which operate on, or alongside the NavCoin protocol. 
