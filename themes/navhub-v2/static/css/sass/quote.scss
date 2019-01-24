@@ -1,8 +1,10 @@
 .quote {
   text-align: center;
-  border: 1px solid #DDD;
-  padding: 40px 80px;
-  margin: 40px 0;
+  padding: 40px 70px;
+  margin: 40px auto;
+  background: transparent;
+  border: 1px solid #e1e4e8;
+  max-width: 700px;
 }
 
 .quote-avatar {
@@ -16,6 +18,12 @@
   margin-top: 20px;
   font-size: 1.5em;
   line-height: 1.8em;
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+  color: #707070;
 }
 
 .quote-meta {

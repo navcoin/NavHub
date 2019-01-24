@@ -8,18 +8,22 @@ page_type: 'guide'
 github_file: 'content/guides/events/_index.md'
 ---
 
+
+# How To Organize NavCoin Events
+
 ## Overview
+
 
 {{< big_text >}}
 Event are a great way to promote navcoin to the public and build stronger community connections in your area. Where you host it and how you promote your event will all depend on the type of event you are running. Once you know exactly what your event is, write a little description about it on the NavHub website and share it around our community channels.
 {{< /big_text >}}
 
-{{< divider >}}
-
 {{< text_block
   title="Get Started" >}}
   You can see the full list of NavCoin events here, and here is the guide of how to create an event on navhub website, cointinue to read about what kind of event you can organize.
 {{< /text_block >}}
+
+{{< divider >}}
 
 {{< quote
   image="/images/guides/events/proletesseract.jpg"
@@ -63,6 +67,6 @@ If you are hosting a bigger event like conferences or workshop, you might need s
 
 ## How can I add an event to NavHub
 
-If you have an idea for an event, talk about it in our community channels and see who’s interested!
+(add tutorials here)
 
 {{< community >}}

@@ -13,16 +13,29 @@
 }
 
 .info-tile {
-  padding: 40px;
+  padding: 20px;
+  padding-top: 1em;
+  padding-bottom: 3em;
   background-color: #FFF;
   text-align: left;
-  border: 1px solid #DDD;
+  background: #fff;
+  border: 1px solid #e1e4e8;
   color: #7a7a7a;
   position: relative;
   height: 100%;
   &.default {
     text-align: center;
   }
+
+  h3{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #707070;
+  }
+
 }
 
 .info-add {
@@ -34,6 +47,7 @@
   width: 100px;
   border-radius: 100px;
   margin: 0 auto;
+  text-align: center;
   span {
     padding: 0;
     margin: 32px 0 0 4px;
@@ -42,6 +56,13 @@
 
 .info-summary {
   margin-bottom: 20px;
+font-family: Roboto;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+text-align: left;
+color: #a3a6ad;
+
 }
 
 .info-edit {

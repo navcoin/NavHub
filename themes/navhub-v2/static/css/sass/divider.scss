@@ -1,10 +1,11 @@
 .divider {
-  margin: 20px 0;
+  margin: 40px 0;
   text-align: center;
   span {
-    height: 10px;
+    height: 8px;
     width: 100px;
     display: inline-block;
-    background-color: #DDD;
+    background-color: #E1E4E8;
+    border-radius: 10px;
   }
 }

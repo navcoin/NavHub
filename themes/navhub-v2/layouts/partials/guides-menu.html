@@ -1,5 +1,5 @@
 <div class="guides-stickey">
-  <a href="/guides"><h2 class="guides-menu-title">Guide Categories</h2></a>
+  <a href="/guides"><h2 class="guides-menu-title">NavHub Guides</h2></a>
   <ul>
     {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
     <li class="guides-page">
@@ -9,7 +9,6 @@
         <li><a href="{{ $page.Permalink}}#{{ $section | urlize }}">{{ $section }}</a></li>
         {{ end }}
       </ul>
-      
     </li>
     {{end}}
   </ul>
