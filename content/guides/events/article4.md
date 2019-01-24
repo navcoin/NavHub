@@ -1,11 +1,11 @@
 ---
 layout: guides
-title: 'Article 4'
+title: Online education
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 guide_parent: 'events'
 github_file: 'content/guides/events/article4.md'
-summary: 'Donec ut efficitur odio. Sed sit amet facilisis lectus. Duis gravida, nulla ac congue luctus, odio dolor laoreet augue, id hendrerit odio justo at enim.'
+summary: 'Share your knowledge and explain how things work in easy to understand ways. This could be making tutorials or explaining how things work.'
 ---
 
 ## Article 4 Overview

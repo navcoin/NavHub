@@ -9,4 +9,4 @@ heroImageSrc: "/images/hero-images/navguy-homepage.png"
 textBackgroundImageSrc: "/images/hero-images/homepage-bg-a.png"
 imageBackgroundImageSrc: "/images/hero-images/homepage-bg-b.png"
 ---
-NavCoin community site built for programmers and non-technical users
+NavHub is your portal into the NavCoin community, keeping you up to date with the latest NavCoin news, projects, and events.

@@ -12,4 +12,8 @@ buttonImageSrc: "true"
 newTab: "true"
 
 ---
-NavCoin heroes are people in the community who have contributed greatly to the NavCOin ecosystem in..
+The strength of NavCoin is in its community - a group of underdogs that push forward with what they believe in.
+
+Anyone can join our community of thinkers and do’ers - developers, entrepreneurs and technologists all working together to build a new economic system.
+
+How do you become a hero? Get involved, and make a name for yourself!

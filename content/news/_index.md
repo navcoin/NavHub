@@ -8,6 +8,6 @@ buttonImageSrc: "true"
 newTab: "true"
 
 ---
-Quiere la boca exhausta vid, kiwi, piña y fugaz jamón. Fabio me exige,sin tapujos, que añada cerveza al whisky. Jovencillo emponzoñado de whisky, ¡qué figurota exhibes!
+Check out the latest news, articles and updates from the NavCoin community. 
 
-Exhíbanse politiquillos zafios, con orejas kilométricas y uñas de gavilán. El cadáver de Wamba, rey godo de España, fue exhumado y.
+Keen to add your own? This website is open source & run by the community, so all you need is a GitHub account.
