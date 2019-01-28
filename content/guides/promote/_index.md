@@ -3,7 +3,7 @@ layout: guides
 title: 'Promote NavCoin'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, Things i can help with, How can I add an event to NavHub]
+sections: [Overview, What can you promote, Talk to the community]
 page_type: 'guide'
 github_file: 'content/guides/promote/_index.md'
 ---

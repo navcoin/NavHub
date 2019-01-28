@@ -3,7 +3,7 @@ layout: guides
 title: 'News'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, Things I can help with, How can I post an article to NavHub]
+sections: [Overview, What can you write, How can I post an article to NavHub]
 page_type: 'guide'
 github_file: 'content/guides/news/_index.md'
 
@@ -30,11 +30,11 @@ github_file: 'content/guides/news/_index.md'
   link_text="@proletesseract"
 >}}
 
-## Things I can help with
+## What can you write
 
 {{< info_tiles category="events" >}}
 
-{{< community >}}
+
 
 ## How can I post an article to NavHub
 
@@ -43,3 +43,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempu
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus. Nullam malesuada viverra quam, id facilisis ipsum venenatis sit amet. Nam massa tellus, aliquet at lorem id, porta fermentum risus. Nulla cursus mauris vel mauris aliquam tempor. Donec ut efficitur odio. Sed sit amet facilisis lectus. Duis gravida, nulla ac congue luctus, odio dolor laoreet augue, id hendrerit odio justo at enim. In suscipit fringilla risus. Nullam sed lacus pretium, ullamcorper diam at, venenatis neque.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus. Nullam malesuada viverra quam, id facilisis ipsum venenatis sit amet. Nam massa tellus, aliquet at lorem id, porta fermentum risus. Nulla cursus mauris vel mauris aliquam tempor. Donec ut efficitur odio. Sed sit amet facilisis lectus. Duis gravida, nulla ac congue luctus, odio dolor laoreet augue, id hendrerit odio justo at enim. In suscipit fringilla risus. Nullam sed lacus pretium, ullamcorper diam at, venenatis neque.
+
+{{< community >}}
