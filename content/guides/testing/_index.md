@@ -1,17 +1,18 @@
 ---
 layout: guides
-title: 'Design'
+title: 'Testing'
 author: Carter
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, Things i can help with, How can I add an event to NavHub]
 page_type: 'guide'
 github_file: 'content/guides/testing/_index.md'
 ---
+# Testing NavCoin Products
 
 ## Overview
 
 {{< big_text >}}
-Design is a critical part of NavCoin’s marketing efforts. As they say a picture is worth a thousand words. Visual content is much more easily shared on social media, and goes a lot further to cut through the noise. Great design attracts people, and can help educate new users on how NavCoin works.
+Testing is a critical part of open source software - particularly in crypto where there is a financial incentive for people to try attack the network. Testing can help identify any bugs, and improve the overall user experience. And you don’t have to be a developer to help test NavCoin! Anyone can download the latest ‘release candidate wallet’ and give their feedback via GitHub. 
 {{< /big_text >}}
 
 {{< divider >}}
