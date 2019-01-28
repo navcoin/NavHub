@@ -8,6 +8,8 @@ page_type: 'guide'
 github_file: 'content/guides/promote/_index.md'
 ---
 
+# Promote NavCoin
+
 ## Overview
 
 {{< big_text >}}

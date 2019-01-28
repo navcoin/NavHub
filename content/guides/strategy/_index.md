@@ -8,6 +8,8 @@ page_type: 'guide'
 github_file: 'content/guides/strategy/_index.md'
 ---
 
+# Plan The Next Big Thing for NavCoin
+
 ## Overview
 
 {{< big_text >}}
@@ -25,7 +27,7 @@ Ideas can come from everywhere and from anyone. And they’re a great way to hel
   link_text="@proletesseract"
 >}}
 
-## What can you promote
+## What can you plan
 
 {{< info_tiles category="strategy" >}}
 
