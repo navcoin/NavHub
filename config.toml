@@ -66,12 +66,6 @@ twitter_username = "navcoin"
     url = "/assets/"
     identifier = "assets"
 [[menu.main]]
-    name = "Guides & Information"
-    title = "Guides & Information"
-    weight = 70
-    url = "/guides/"
-    identifier = "guides"
-[[menu.main]]
     name = "NavCollab"
     title = "NavCollab"
     weight = 90

@@ -18,6 +18,9 @@
 
     <ul class="nav sidebar-nav guides">
         <li class="sidebar-list-title">NavHub guides</li>
+        <li class="guides-page">
+            <a href="/guides/"><span>Guides Overview</span></a>
+        </li>
         {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
             <li class="guides-page">
                 <a href="{{ .Permalink}}"><span>{{ .LinkTitle }}</span></a>
