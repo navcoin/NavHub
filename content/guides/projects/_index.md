@@ -3,7 +3,7 @@ layout: guides
 title: 'Project'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, Things i can help with, How can I add an event to NavHub]
+sections: [Overview, Ways you can help existing projects, Create new Development project on NavHub]
 page_type: 'guide'
 github_file: 'content/guides/projects/_index.md'
 ---
@@ -48,10 +48,5 @@ If you’re looking to get involved with crypto, this is the perfect opportunity
 Once you’ve come up with an idea - you’ll want to add in a card on NavHub so that people know what you’re working on, and can offer to help out. All you need is a GitHub account, and you’re able to contribute to the website.
 
 Once you’ve created your project, talk about it to the community! Let them know what you’re working on, why, and if you need any help. In our community we’ve got marketers, designers, copywriters, UX experts, developers, and people that are willing to be your first users.
-
-## How to create a project card on NavHub
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est. Vel turpis nunc eget lorem dolor sed viverra. Amet cursus sit amet dictum sit amet justo donec. Tortor posuere ac ut consequat semper viverra nam. Habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat. Nibh tellus molestie nunc non blandit massa. Id diam vel quam elementum. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Quam id leo in vitae turpis massa. Tempus egestas sed sed risus pretium. Aliquam eleifend mi in nulla. Eget dolor morbi non arcu risus quis varius quam quisque. Ultricies mi eget mauris pharetra et. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Nisl nunc mi ipsum faucibus vitae. Leo integer malesuada nunc vel risus commodo viverra. Netus et malesuada fames ac turpis egestas sed tempus urna.
-
 
 {{< community >}}

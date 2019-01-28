@@ -3,12 +3,12 @@ layout: guides
 title: 'Ideas and Strategy'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, Things i can help with, How can I add an event to NavHub]
+sections: [Overview, What kind of ideas, Talk to the community]
 page_type: 'guide'
 github_file: 'content/guides/strategy/_index.md'
 ---
 
-# Plan The Next Big Thing for NavCoin
+# Could you idea be the next big thing?
 
 ## Overview
 
@@ -27,7 +27,7 @@ Ideas can come from everywhere and from anyone. And they’re a great way to hel
   link_text="@proletesseract"
 >}}
 
-## What can you plan
+## What kind of ideas
 
 {{< info_tiles category="strategy" >}}
 

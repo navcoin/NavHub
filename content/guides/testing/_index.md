@@ -3,7 +3,7 @@ layout: guides
 title: 'Testing'
 author: Carter
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, Things i can help with, How can I add an event to NavHub]
+sections: [Overview, Here is what you can help, So what now]
 page_type: 'guide'
 github_file: 'content/guides/testing/_index.md'
 ---
@@ -26,7 +26,7 @@ Testing is a critical part of open source software - particularly in crypto wher
   link_text="@proletesseract"
 >}}
 
-## Here is what you can help!
+## Here is what you can help
 
 {{< info_tiles category="testing" >}}
 

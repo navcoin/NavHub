@@ -3,7 +3,7 @@ layout: guides
 title: 'Design'
 author: Carter
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, Things i can help with, How can I add an event to NavHub]
+sections: [Overview, Here is what you can help, So what now]
 page_type: 'guide'
 github_file: 'content/guides/design/_index.md'
 ---
@@ -26,7 +26,7 @@ Design is a critical part of NavCoin’s marketing efforts. As they say a pictur
   link_text="@proletesseract"
 >}}
 
-## Ways to contribute through testing
+## Here is what you can help
 
 {{< info_tiles category="design" >}}
 

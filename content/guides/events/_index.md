@@ -3,7 +3,7 @@ layout: guides
 title: 'Events'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, Things i can help with, How can I add an event to NavHub]
+sections: [Overview, Types of event you can organize, How to add an event to NavHub]
 page_type: 'guide'
 github_file: 'content/guides/events/_index.md'
 ---
@@ -33,7 +33,7 @@ Event are a great way to promote navcoin to the public and build stronger commun
   link_text="@proletesseract"
 >}}
 
-## Different type of event you can organize!
+## Types of event you can organize
 
 {{< info_tiles category="events" >}}
 
@@ -65,7 +65,7 @@ If you are hosting a bigger event like conferences or workshop, you might need s
 {{< /text_block >}}
 
 
-## How can I add an event to NavHub
+## How to add an event to NavHub
 
 (add tutorials here)
 
