@@ -1,6 +1,9 @@
 <div class="guides-stickey">
-  <a href="/guides"><h2 class="guides-menu-title">NavHub Guides</h2></a>
+  <h2 class="guides-menu-title">NavHub Guides</h2>
   <ul>
+    <li class="guides-page">
+      <a href="/guides"><h4>Guides Overview</h4></a>
+    </li>
     {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
     <li class="guides-page">
       <a href="{{ .Permalink}}"><h4>{{ .LinkTitle }}</h4></a>
