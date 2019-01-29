@@ -16,7 +16,7 @@
     &:hover {
       transform: scale(1.1);
     }
-  
+
   }
 
   .image-container {
@@ -71,7 +71,7 @@
   .hero-section {
     padding: 10px 0 55px 0;
     grid-template-columns: 1fr;
-    grid-template-areas:  'image' 
+    grid-template-areas:  'image'
                           'text';
     .image-container {
       justify-content: center;
@@ -80,7 +80,7 @@
         height: 50vh;
       }
     }
-    
+
     .text-section-container {
       align-self: center;
       justify-self: center;

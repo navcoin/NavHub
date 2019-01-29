@@ -1,8 +1,6 @@
 ---
-image: "/images/icons/icon-community.png"
+image: "/images/navcoin-heroes/beekart.jpg"
 name: "Beekart"
-description: "Creator of NavGuy and artist extraordinaire."
-url: "/"
-fb_url: "https://www.facebook.com/navcoin/"
-twitter_url: "https://www.twitter.com/navcoin"
+description: "Creator of NavGuy & artist extraordinaire"
+twitter_user: "Rogiervdbeek"
 ---
