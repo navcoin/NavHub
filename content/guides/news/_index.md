@@ -23,11 +23,11 @@ github_file: 'content/guides/news/_index.md'
 {{< /text_block >}}
 
 {{< quote
-  image="/images/guides/events/proletesseract.jpg"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus."
-  author="Craig MacGregor"
-  link_href="https://twitter.com/proletesseract"
-  link_text="@proletesseract"
+  image="/images/guides/news/easy.jpg"
+  text="We'd partner with @NavCoin to bring Australia the easiest way to get #crypto - we're ready to launch right now, just need a partner in crime!"
+  author="Easy Crypto"
+  link_href="https://twitter.com/easycryptonz"
+  link_text="@easycryptonz"
 >}}
 
 ## What can you write
