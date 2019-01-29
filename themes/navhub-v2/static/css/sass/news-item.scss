@@ -103,19 +103,15 @@
     h3 {
       font-size: 30px;
       a {
-        font-size: 21px;
+        font-size: 25px;
         text-transform: none;
-        margin: 0px;
-        margin-bottom: 0px;
-        text-decoration: none;
-        color: #333;
+        margin: 10px 0;
+        text-decoration: underline;
+        color: #7d5ab5;
         font-weight: 400;
         transition: all 0.4s linear 0s;
         padding-bottom: 0px;
         display: inline-block;
-        &:hover {
-          color: #7d5ab5;
-        }
       }
     }
     p {
@@ -153,7 +149,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
     .share-icon span {
       display: inline-block;
       font-size: 16px;
@@ -161,7 +157,7 @@
       margin-right: 20px;
       color: #7d5ab5;
     }
-    
+
     .social-icon {
       display: inline-flex;
       justify-content: center;
@@ -172,7 +168,7 @@
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s;
-      
+
       &.twitter {
         background: #1da1f2;
       }
@@ -186,7 +182,7 @@
         background: #424242;
         color: #ffffff;
       }
-      
+
       i {
         color: #fff;
       }
@@ -234,7 +230,7 @@
   }
 
   .blog-author a {
-    color: #7d5ab5;    
+    color: #7d5ab5;
   }
   .blog-author i {
     margin-right: 5px;

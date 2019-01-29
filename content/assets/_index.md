@@ -1,5 +1,5 @@
 ---
-title: "Community Assets"
+title: "NavHub - Community Assets"
 date: 2018-06-29T11:37:33+12:00
 draft: false
 type: "default"

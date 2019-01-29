@@ -1,9 +1,8 @@
 ---
-title: "NavCoin Heroes"
+title: "NavHub - NavCoin Heroes"
 date: 2018-06-29T11:37:33+12:00
 draft: false
 type: "default"
-
 title_text: "NavCoin Heroes"
 image_src: "/images/hero-images/navguy-bear.png"
 

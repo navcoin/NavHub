@@ -1,5 +1,5 @@
 ---
-
+title: "NavHub - News"
 title_text: "Lastest News"
 image_src: "/images/hero-images/navdude-news.png"
 button_text: "Add an Article"

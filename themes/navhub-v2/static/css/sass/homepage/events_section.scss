@@ -12,12 +12,13 @@
     justify-content: space-between;
     align-items: center;
     h2 {
-      
+
       font-family: Raleway;
       font-weight: 600;
       font-size: 26px;
       text-align: left;
       color: #111;
+
     }
   }
   .card-container {
@@ -53,6 +54,7 @@
       }
       .event-title {
         color: #7D5AB5;
+        text-decoration: underline;
       }
       .event-location {
         color: #7D5AB5;

@@ -1,5 +1,6 @@
 ---
-title: "Welcome to NavHub"
+title: "NavHub Community Site"
+title_text: "Welcome to NavHub"
 date: 2019-01-09
 draft: false
 buttonText: "Get Involved"

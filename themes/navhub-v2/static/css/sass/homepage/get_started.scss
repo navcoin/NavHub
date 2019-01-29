@@ -42,7 +42,7 @@
       &:hover {
         border: 1px solid #9D3CD1;
       }
-  
+
       height: 100%;
       max-height: 350px;
       a {
@@ -57,12 +57,14 @@
           margin-bottom: 15px;
         }
         h2 {
-          font-family: 'Raleway', Times, serif;
-          font-weight: initial;
-          font-size: 30px;
-          line-height: 35px;
-          margin-bottom: 15px;
-          color: #111111;
+          font-family: Raleway;
+          font-weight: 500;
+          font-size: 25px;
+          text-align: left;
+          color: #7d5ab5;
+          margin-bottom: 12px;
+          text-decoration: underline;
+          text-align: center;
         }
         span {
           font-family: 'Roboto', Helvetica, Arial, sans-serif;
