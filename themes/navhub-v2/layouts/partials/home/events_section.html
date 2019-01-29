@@ -9,9 +9,9 @@
         {{ $sorted := sort $list "Params.date" "desc" }}
         {{ $count := 0 }}
         {{ range $index, $element := $sorted }}
-            {{ if (hasPrefix $element.Dir "events") }}
+            {{ if (and (hasPrefix $element.Dir "events") (ne $element.Dir "events/" )) }}
                 {{ if lt $count 4 }}
-                    {{ partial "home/event_card.html" . }}
+                {{ partial "home/event_card.html" . }}
                     {{ $count = add $count 1 }}
                 {{ end }}
             {{ end }}
