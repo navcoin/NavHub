@@ -20,11 +20,11 @@ Ideas can come from everywhere and from anyone. And they’re a great way to hel
 
 
 {{< quote
-  image="/images/guides/events/proletesseract.jpg"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus."
-  author="Craig MacGregor"
-  link_href="https://twitter.com/proletesseract"
-  link_text="@proletesseract"
+  image="/images/guides/ideas/laura.jpg"
+  text="I would submit a PR budget proposal to help drive awareness and adoption for NavCoin."
+  author="Laura"
+  link_href=""
+  link_text=""
 >}}
 
 ## What kind of ideas

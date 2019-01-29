@@ -19,11 +19,11 @@ Testing is a critical part of open source software - particularly in crypto wher
 
 
 {{< quote
-  image="/images/guides/events/proletesseract.jpg"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus."
-  author="Craig MacGregor"
-  link_href="https://twitter.com/proletesseract"
-  link_text="@proletesseract"
+  image="/images/guides/testing/carter.jpeg"
+  text="Testing shouldn’t sound scary at all, if you are not into the programming space, you can do very well in testing as a user just the same! There are lots of digital products and software built by the active NavCoin community, tell us how you feel about using a certain product, what may have confused you and what would you suggest to improve!"
+  author="Carter X"
+  link_href=""
+  link_text=""
 >}}
 
 ## Here is what you can help

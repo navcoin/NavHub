@@ -20,7 +20,7 @@ Design is a critical part of NavCoin’s marketing efforts. As they say a pictur
 
 {{< quote
   image="/images/guides/events/proletesseract.jpg"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus."
+  text="I would print a stack of limited edition #NavCoin tees made from #fairtrade #organic cotton and ship them worldwide for free on a first in first served basis."
   author="Craig MacGregor"
   link_href="https://twitter.com/proletesseract"
   link_text="@proletesseract"
