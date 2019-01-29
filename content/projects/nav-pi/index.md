@@ -6,7 +6,7 @@ draft: false
 author: "Craig MacGregor"
 description: "A low-energy NavCoin staking solution based on the Raspberry-Pi platform. The NavPi offers a more energy-efficient way to participate in validating NavCoin transactions."
 filter: ["Network"]
-bg_image: "/images/icons/icon-purple-network-new.png"
+bg_image: "/images/icons/purple-network-new.png"
 resources: []
 categories: []
 slug: ""

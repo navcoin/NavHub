@@ -5,7 +5,7 @@ lastmod: 2018-06-01T14:11:00+01:00
 draft: false
 author: "hash512"
 description: "The NavCoin m8 is a low-power device capable of running NavCoin Core and other wallets at the same time at very low energy costs."
-bg_image: "/images/icons/icon-wallet-purple-large.png"
+bg_image: "/images/icons/purple-wallet.png"
 resources: []
 filter: ["Wallets"]
 slug: ""

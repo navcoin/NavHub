@@ -6,7 +6,7 @@ draft: false
 author: "Craig MacGregor"
 description: "A simplified Raspbian OS build with a basic Angular & NodeJS interface to manage your NavPi staking device."
 filter: ["Network"]
-bg_image: "/images/icons/icon-purple-network-new.png"
+bg_image: "/images/icons/purple-network-new.png"
 resources: []
 categories: []
 slug: ""

@@ -8,7 +8,7 @@ description: "Kauri is an open-source, multi-currency wallet that will be the fo
 resources: []
 categories: []
 filter: ["Wallets"]
-bg_image: "/images/icons/icon-wallet-purple-large.png"
+bg_image: "/images/icons/purple-wallet.png"
 slug: ""
 type: "project"
 feature_image: ""

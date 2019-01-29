@@ -12,15 +12,14 @@
     <span class="card-author-subhead">Status</span>
     <span class="card-author-name">Beta Testing</span></label>
   {{ end}}
-  <div class="bg-overlay" style="background-color: {{.Params.card_color}};"></div>
   <div class="flex-container">
     <div>
       <h3 class="card-title">
         {{ .Title }}
       </h3>
-      
+
       <div style="color: {{.Params.font_color}} !important;" class="project-desc">{{.Params.description}}</div>
-      
+
       {{ if (eq .Params.in_progress true) }}
       <div class="progress">
         <div class="progress-bar progress-bar-info"
@@ -28,26 +27,26 @@
         role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{.Params.percent_complete}}%</div>
       </div>
       {{ end }}
-      
+
     </div>
-    
+
     <div class="info-links">
       {{ if (isset .Params "twitter_url") | ( not (eq .Params.twitter_url "")) }}
       <a href="{{.Params.twitter_url}}" target="_blank"><label><i class="fa fa-twitter"></i></label></a>
       {{end}}
-      
+
       {{ if (isset .Params "github_url") | ( not (eq .Params.github_url "")) }}
       <a href="{{.Params.github_url}}" target="_blank"><label><i class="fa fa-github"></i></label></a>
       {{end}}
-      
+
       {{ if (isset .Params "reddit_url") | ( not (eq .Params.reddit_url "")) }}
       <a href="{{.Params.reddit_url}}" target="_blank"><label><i class="fa fa-reddit"></i></label></a>
       {{end}}
-      
+
       {{ if (isset .Params "project_url") | ( not (eq .Params.project_url "")) }}
       <a href="{{.Params.project_url}}" target="_blank"><label><i class="fa fa-link"></i></label></a>
       {{end}}
-      
+
       {{ if .Params.allow_click_through }}
       <a href="{{.RelPermalink}}" class="click-through themeix-btn bg-change smoothScroll">Read More <span class="fa fa-chevron-right project-more"></span></a>
       {{end}}
