@@ -1,6 +1,6 @@
 ---
 layout: guides
-title: 'Project'
+title: 'Projects'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, Ways you can help existing projects, Create new Development project on NavHub]
