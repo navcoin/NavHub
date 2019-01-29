@@ -31,6 +31,7 @@ Partials
 @import './news-item.scss';
 @import './event-card.scss';
 @import './news-single.scss';
+@import './default-single.scss';
 
 // Homepage
 
@@ -41,6 +42,8 @@ Partials
 @import './homepage/events_section.scss';
 @import './homepage/get_started.scss';
 @import './homepage/call_to_action.scss';
+
+
 
 /*********/
 
@@ -122,8 +125,11 @@ a:focus {
 
   }
   &.two-col {
-    grid-gap: 30px 50px;
+    //grid-gap: 30px 50px;
     grid-template-columns: repeat(2, minmax(400px,600px));
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     @media (max-width: 880px) {
       grid-template-columns: minmax(300px,600px);
     }
@@ -288,3 +294,4 @@ a:focus {
 .widget-content ul li a:hover {
   color: #7d5ab5;
 }
+

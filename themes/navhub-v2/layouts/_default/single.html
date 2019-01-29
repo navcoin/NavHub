@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body class="default-single">
+{{ partial "header.html" . }}
+<main>
+  <div class="ninety-vw-container">
+      <h1>{{ .Params.Title  }}</h1>
+        {{ .Content }}
+      </div>
+    {{ partial "footer.html" . }}
+</main>
+</body>
+</html>
