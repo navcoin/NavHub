@@ -7,15 +7,14 @@ author: "Alex Vazquez"
 description: "The community have suggested a change in the consensus mechanism which would allow for community contributors to receive funding from the network for their efforts."
 resources: []
 filter: ["Protocol Improvements"]
-bg_image: "/images/icons/icon-purple-lightbulb-new.png"
+bg_image: "/images/icons/purple-lightbulb.png"
 slug: ""
 type: "project"
 feature_image: ""
 show_title_text: false
 in_progress: false
-beta_testing: true
-completed: false
-beta_testing: true
+beta_testing: false
+completed: true
 
 show_on_projects: true
 allow_click_through: true
@@ -26,7 +25,7 @@ reddit_url: ""
 twitter_url: ""
 card_color: "#7d5ab5"
 font_color: "#fff"
-weight: 100
+weight: 2
 ---
 {{< project_header
     title="Community Fund"

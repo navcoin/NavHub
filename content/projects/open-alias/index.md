@@ -6,7 +6,7 @@ author: "Alex Vazquez"
 description: "NAV OpenAlias allows you to register a free OpenAlias address and link it to your real NavCoin address using a unique 'email style' user name."
 resources: []
 filter: ["OpenAlias"]
-bg_image: "/images/icons/icon-purple-lightbulb-new.png"
+bg_image: "/images/icons/purple-lightbulb.png"
 slug: ""
 type: "project"
 feature_image: ""

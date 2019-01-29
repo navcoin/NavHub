@@ -7,8 +7,8 @@ type: "default"
 
 title_text: "Community Events"
 image_src: "/images/hero-images/navgal-speech.png"
-button_text: "Download Guidelines"
-button_link: "https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
+button_text: "Add an event"
+button_link: "/guides/events"
 button_image_src: "/images/icons/plus-icon.png"
 new_tab: "true"
 

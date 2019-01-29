@@ -6,7 +6,7 @@ draft: false
 author: "Prodpeak"
 description: "Alternative block explorer written in Java. This will offer redundancy if there are any issues with the current cryptoid block explorer."
 filter: ["Network"]
-bg_image: "/images/icons/icon-purple-network-new.png"
+bg_image: "/images/icons/purple-network-new.png"
 resources: []
 categories: []
 slug: ""

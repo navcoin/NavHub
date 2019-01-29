@@ -9,12 +9,28 @@
 {{ partial "hero_section.html" . }}
 
 <div class="ninety-vw-container grid-container projects">
-    {{ $list := (.Data.Pages) }}
+    {{ $projects := where .Data.Pages.ByWeight "Params.show_on_projects" true }} <!-- Get our list of projects that we want to show -->
+    {{ $complete := $projects | intersect (where .Data.Pages.ByWeight  "Params.completed" true ) }} <!-- Intersect with a list of complete projects -->
+    {{ $in_progress := $projects | intersect (where .Data.Pages.ByWeight "Params.in_progress" true) }} <!-- Intersect with a list of in progress projects -->
+    {{ $planned := $projects | intersect (where (where .Data.Pages.ByWeight "Params.in_progress"  "!=" true) ".Params.completed" "!=" true ) }} <!-- Intersect with a list of projects that aren't in progress or completed-->
+    
+    
 
-    {{ range $index, $element := .Data.Pages }}
+    {{ range $index, $element := $planned }}
         {{ partial "projects/project_card.html" . }}
     {{ end }}
+
+    {{ range $index, $element := $in_progress }}
+        {{ partial "projects/project_card.html" . }}
+    {{ end }}
+    
+    {{ range $index, $element := $complete }}
+        {{ partial "projects/project_card.html" . }}
+    {{ end }}
+    
+
+
 </div>
-{{ partial "footer.html" . }}aa
+{{ partial "footer.html" . }}
 </body>
 </html>
