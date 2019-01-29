@@ -17,10 +17,10 @@ beta_testing: false
 completed: true
 
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/NAVCoin/navcoin-core/tree/cfund-test"
-project_url: ""
+project_url: "https://navcoin.org/community-fund"
 reddit_url: ""
 twitter_url: ""
 card_color: "#7d5ab5"

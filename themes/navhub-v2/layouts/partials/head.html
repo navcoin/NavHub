@@ -50,6 +50,7 @@
     <meta name="twitter:card" content="{{ if isset .Params "twitter_card" }}{{ .Params.twitter_card }}{{ else }}summary{{ end }}" />
     {{ if isset .Params "twitter_title" }}<meta name="twitter:title" content="{{ .Params.twitter_title }}" />{{else}}<meta name="twitter:title" content="{{ .Title }}" />{{ end }}
 
+    <!-- description -->
     {{ if eq .Params.layout "news" }}
       <meta name="twitter:description" content="{{ .Summary }}" />
     {{ else  if isset .Params "twitter_description" }}
@@ -58,6 +59,7 @@
       <meta name="twitter:description" content="NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved." />
     {{ end }}
 
+    <!-- image -->
     {{ if isset .Params "feature_image" }}
       <meta name="twitter:image" content="https://navhub.org/images/uploads{{ .Params.feature_image }}" />
     {{ else  if isset .Params "twitter_image" }}
@@ -66,7 +68,6 @@
       <meta name="twitter:image" content="https://navhub.org/images/social-share.png" />
     {{ end }}
 
-    {{ if isset .Params "twitter_image" }}<meta name="twitter:image" content="{{ .Params.twitter_image }}" />{{ end }}
 
     <!-- Facebook tags -->
     {{ if isset .Params "fb_app_id" }}<meta property="fb:app_id" content="{{ .Params.fb_app_id }}"/>{{ end }}

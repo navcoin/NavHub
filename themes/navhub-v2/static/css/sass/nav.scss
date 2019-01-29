@@ -18,7 +18,7 @@
 
 
 /*****************************
-Partials 
+Partials
 *****************************/
 
 @import './sidebar.scss';
@@ -116,13 +116,12 @@ a:focus {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 30px 20px;
+  grid-gap: 20px 20px;
   justify-content: flex-start;
   align-items: center;
   &.projects {
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-    
-
+    padding-bottom: 20px;
   }
   &.two-col {
     //grid-gap: 30px 50px;
@@ -294,4 +293,3 @@ a:focus {
 .widget-content ul li a:hover {
   color: #7d5ab5;
 }
-

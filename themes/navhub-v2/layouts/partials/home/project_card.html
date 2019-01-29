@@ -1,4 +1,16 @@
-<a href="{{ .URL }}">
+{{ if .Params.allow_click_through }}
+  <a href="{{ .URL }}">
+{{ else if .Params.project_url }}
+  <a href="{{ .Params.project_url }}" target="e">
+{{ else if .Params.github_url }}
+  <a href="{{ .Params.github_url }}" target="e">
+{{ else if .Params.reddit_url }}
+  <a href="{{ .Params.reddit_url }}" target="e">
+{{ else if .Params.twitter_url }}
+  <a href="{{ .Params.twitter_url }}" target="e">
+{{ else }}
+  <a href="/projects">
+{{ end }}
 <div class="homepage-project-card">
     <h2>{{ .Params.title }}</h2>
     <div class="project-author">

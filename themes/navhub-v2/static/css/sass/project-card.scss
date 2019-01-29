@@ -12,13 +12,13 @@
     height: 150px;
     width: 100%;
     overflow: hidden;
-  
+
     .background-image {
       display: block;
       height: 250px;
       margin-left: -15%;
       margin-top: -50px;
-    
+
     }
   }
 
@@ -29,13 +29,13 @@
     top: 5px;
     background-color: rgba(33,33,33,0.5);
     padding: 10px 8px 8px 8px;
-  
+
     .card-author-subhead {
       position: relative;
       top: -10px;
       font-size: 10px;
       height: 0px;
-      display: block;    
+      display: block;
     }
     .card-author-name {
       position: relative;
@@ -45,7 +45,7 @@
     }
     &.card-status {
       top: 54px;
-      background-color: rgba(255,255,255,0.2);    
+      background-color: rgba(255,255,255,0.2);
     }
   }
 
@@ -56,7 +56,7 @@
     opacity: 0;
     top: 0;
     left: 0;
-    z-index: 0;  
+    z-index: 0;
   }
 
   .flex-container {
@@ -64,7 +64,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: calc(100% - 150px);
-    padding: 0 5px 12px 5px;
+    padding: 2px 12px 12px 12px;
   }
 
   .card-title {
@@ -96,11 +96,11 @@
   .info-links {
     display: flex;
     align-items: center;
-  
+
     label {
       cursor: pointer;
       color: #fff;
-      
+
       margin-right: 5px;
       &.card-author {
         font-size: 12px;
@@ -111,9 +111,9 @@
         padding: 10px;
         background-color: hsla(0, 0%, 13%, 0.5);
       }
-    } 
+    }
   }
-  
+
 }
 
 
@@ -132,9 +132,9 @@
       max-width: 100%!important;
       width: 100%;
     }
-  
+
   }
-  
+
   .projects-card-container {
     display: flex;
     flex-wrap: wrap;
@@ -154,17 +154,17 @@
   display: inline-block;
   cursor: pointer;
   }
-  
+
   .click-through:hover {
   color: #FFF;
-  
+
   }
-  
+
   .click-through label {
   margin: 0;
   }
-  
-  
+
+
   .link-section-item:hover {
   display: block;
   border-radius: 5px;
