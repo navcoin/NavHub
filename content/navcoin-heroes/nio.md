@@ -1,8 +1,7 @@
 ---
 image: "/images/icons/icon-community.png"
-name: "Nio, Italian Hero"
-description: "Leader of NavCoin Italia."
-url: "/"
-fb_url: "https://www.facebook.com/navcoin/"
-twitter_url: "https://www.twitter.com/navcoin"
+name: "Nio"
+description: "Leader of NavCoin Italia"
+website_url: "https://www.navcoinitalia.com"
+twitter_user: "NAVcoincripto"
 ---

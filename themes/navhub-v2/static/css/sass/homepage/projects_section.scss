@@ -20,8 +20,8 @@
   .card-container {
     --grid-gap: 16px;
 
-    border-left: 1px solid var(--border-color); 
-    border-right: 1px solid var(--border-color); 
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
     display: grid;
     grid-template-columns: repeat(4, var(--card-width));
     overflow-x: scroll;
@@ -30,14 +30,13 @@
     .homepage-project-card {
       background: #fff;
       border: 1px solid var(--border-color);
-      //max-width: 390px;
       width: 100%;
       padding: 20px;
       height: 100%;
       &:hover {
         border: 1px solid #9D3CD1;
       }
-  
+
       @media (max-width: 440px) {
         padding: 10px;
       }

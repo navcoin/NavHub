@@ -10,7 +10,7 @@
   @media (max-width: 600px) {
     --card-width: 290px;
   }
-  
+
   .title-container {
     margin: 2em 0 1em 0;
     display: flex;
@@ -25,6 +25,9 @@
     }
   }
   .card-container {
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    --grid-gap: 18px;
     border-left: 1px solid var(--border-color); 
     border-right: 1px solid var(--border-color); 
     --grid-gap: 16px;
