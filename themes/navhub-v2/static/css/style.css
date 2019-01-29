@@ -1603,23 +1603,6 @@ a.themeix-tool .fa {
    ========================================== */
 
 
-ul.page-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-ul.page-list li {
-    display: inline-block;
-    color: #e1e2e2;
-}
-ul.page-list li + li::before {
-    font-family: 'FontAwesome';
-    content: "\f101";
-    padding: 0px 8px;
-}
-ul.page-list li a {
-    color: #FFFFFF;
-}
 
 /* ==========================================
            21. Pagination
