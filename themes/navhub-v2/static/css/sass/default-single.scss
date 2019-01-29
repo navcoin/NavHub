@@ -19,4 +19,12 @@
     margin: 10px 0;
     max-width: 750px;
   }
+  a {
+      color: #333;
+      text-decoration: underline;
+      &:hover {
+        color: #7d5ab5;
+        text-decoration: underline;
+      }
+  }
 }
