@@ -22,7 +22,5 @@ github_url: "https://github.com/NavExplorer"
 project_url: "https://www.navexplorer.com"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#FFF"
 weight: 0
 ---

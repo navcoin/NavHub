@@ -20,7 +20,5 @@ github_url: ""
 reddit_url: ""
 project_url: "/manifestos/"
 twitter_url: ""
-card_color: "#6984D8"
-font_color: "#fff"
 weight: 0
 ---

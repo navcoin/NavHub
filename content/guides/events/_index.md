@@ -1,6 +1,7 @@
 ---
 layout: guides
-title: 'Events'
+title: 'NavHub Guides - Events'
+title_text: 'Events'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, Types of event you can organize, How to add an event to NavHub]
@@ -51,7 +52,7 @@ Event are a great way to promote navcoin to the public and build stronger commun
 
 {{< text_block
   title="Make it fun!" >}}
-Help make it an enjoyable event by creating a welcoming, and creative space. Introduce people to each other, bring snacks/drinks, and plan some ways to get to know each other and how you all got into NavCoin. 
+Help make it an enjoyable event by creating a welcoming, and creative space. Introduce people to each other, bring snacks/drinks, and plan some ways to get to know each other and how you all got into NavCoin.
 {{< /text_block >}}
 
 {{< text_block

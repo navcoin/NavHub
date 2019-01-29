@@ -21,7 +21,5 @@ github_url: ""
 project_url: "https://info.navcoin.org"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#FFF"
 weight: 0
 ---

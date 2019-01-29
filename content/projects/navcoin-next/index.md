@@ -21,7 +21,5 @@ github_url: "https://github.com/sakdeniz/next"
 reddit_url: ""
 project_url: "http://next.navcommunity.net/"
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 0
 ---

@@ -20,7 +20,5 @@ github_url: "https://github.com/Encrypt-S/navd"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: ""
-font_color: ""
 weight: 0
 ---

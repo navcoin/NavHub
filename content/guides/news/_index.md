@@ -1,6 +1,7 @@
 ---
 layout: guides
-title: 'News'
+title: 'NavHub Guides - News'
+title_text: 'News'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, What can you write, How can I post an article to NavHub]

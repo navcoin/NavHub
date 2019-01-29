@@ -16,14 +16,12 @@ in_progress: false
 completed: true
 
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/NavCoin/navcoin-core"
 project_url: "https://navcoin.org"
 reddit_url: "https://reddit.com/r/navcoin"
 twitter_url: "https://twitter.com/NavCoin"
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 1
 ---
 {{< project_header

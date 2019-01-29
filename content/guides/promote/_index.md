@@ -1,6 +1,7 @@
 ---
 layout: guides
-title: 'Promote NavCoin'
+title: 'NavHub Guides - Promote NavCoin'
+title_text: 'Promote NavCoin'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, What can you promote, Talk to the community]

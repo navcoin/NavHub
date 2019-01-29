@@ -5,17 +5,12 @@ lastmod: 2018-03-27T17:53:11+13:00
 draft: false
 author: "Alex Vazquez"
 description: "The community have suggested a change in the consensus mechanism which would allow for community contributors to receive funding from the network for their efforts."
-resources: []
 filter: ["Protocol Improvements"]
 bg_image: "/images/icons/purple-lightbulb.png"
-slug: ""
 type: "project"
-feature_image: ""
-show_title_text: false
 in_progress: false
 beta_testing: false
 completed: true
-
 show_on_projects: true
 allow_click_through: false
 percent_complete: 100
@@ -23,8 +18,6 @@ github_url: "https://github.com/NAVCoin/navcoin-core/tree/cfund-test"
 project_url: "https://navcoin.org/community-fund"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 2
 ---
 {{< project_header

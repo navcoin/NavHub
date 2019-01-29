@@ -22,8 +22,6 @@ github_url: "https://github.com/Encrypt-S/navpay"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 100
 ---
 

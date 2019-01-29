@@ -20,7 +20,5 @@ github_url: ""
 twitter_url: ""
 reddit_url: ""
 project_url: ""
-card_color: "#2E94DF"
-font_color: "#fff"
 weight: 50
 ---

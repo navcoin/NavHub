@@ -21,8 +21,6 @@ github_url: "https://github.com/NAVCoin/navcoin-core/pull/213"
 project_url: "https://openalias.nav.community"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 0
 ---
 
