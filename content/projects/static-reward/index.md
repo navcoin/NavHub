@@ -21,7 +21,8 @@ github_url: "https://github.com/craigmacgregor/navcoin-core/pull/3"
 project_url: "https://github.com/NAVCoin/npips/blob/npip-0004/npip-0004.mediawiki"
 reddit_url: "https://www.reddit.com/r/NavCoin/comments/980eql/npip004_static_block_reward/"
 twitter_url: ""
-card_color: ""
-font_color: ""
+card_color: "#7d5ab5"
+font_color: "#fff"
+
 weight: 0
 ---
