@@ -25,7 +25,7 @@ reddit_url: ""
 twitter_url: ""
 card_color: "#7d5ab5"
 font_color: "#fff"
-weight: 100
+weight: 2
 ---
 {{< project_header
     title="Community Fund"
