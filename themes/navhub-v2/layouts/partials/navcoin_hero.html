@@ -44,5 +44,8 @@
         </div>
       </a>
     {{ end }}
+    {{ if and (not (isset .Params "linkedin_url")) (not (isset .Params "website_url")) (not (isset .Params "github_url")) (not (isset .Params "fb_url")) (not (isset .Params "twitter_user")) }}
+      <div>&nbsp;</div>
+    {{ end }}
   </div>
 </div>
