@@ -20,11 +20,11 @@ Promotion is an important and tricky part of crypto. We want people to be able t
 
 
 {{< quote
-  image="/images/guides/events/proletesseract.jpg"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus."
-  author="Craig MacGregor"
-  link_href="https://twitter.com/proletesseract"
-  link_text="@proletesseract"
+  image="/images/guides/promote/cryptosmarthub.jpg"
+  text="Launch a grassroots campaign to increase local adoption and use of NavCoin in local markets."
+  author="Crypto Smart Hub"
+  link_href="https://twitter.com/CryptoSmartHub"
+  link_text="@CryptoSmartHub"
 >}}
 
 ## What can you promote
@@ -33,9 +33,6 @@ Promotion is an important and tricky part of crypto. We want people to be able t
 
 ## Talk to the community
 
-make a plan and connect with Community Groups
-collab is central hub for discussion collaboration and find support
-Some promotions cost money and there's community fund to support you
-
+Make a plan and connect with Community Groups, collab is central hub for discussion collaboration and find support. Some promotions cost money and there's community fund to support you
 
 {{< community >}}

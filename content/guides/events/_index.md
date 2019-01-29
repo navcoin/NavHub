@@ -26,11 +26,11 @@ Event are a great way to promote navcoin to the public and build stronger commun
 {{< divider >}}
 
 {{< quote
-  image="/images/guides/events/proletesseract.jpg"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus."
-  author="Craig MacGregor"
-  link_href="https://twitter.com/proletesseract"
-  link_text="@proletesseract"
+  image="/images/guides/events/rowan.jpg"
+  text="Funding events and business relatd to NAV in countries that are usually hard to get money to (Iran, Palestine, North Korea, Venezuela, even Russia to an extent)."
+  author="Ro"
+  link_href=""
+  link_text=""
 >}}
 
 ## Types of event you can organize

@@ -32,11 +32,11 @@ If you’re looking to get involved with crypto, this is the perfect opportunity
 {{< divider >}}
 
 {{< quote
-  image="/images/guides/events/proletesseract.jpg"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus."
-  author="Craig MacGregor"
-  link_href="https://twitter.com/proletesseract"
-  link_text="@proletesseract"
+  image="/images/guides/projects/matt.jpeg"
+  text="Fund yearly/bi-yearly server costs for sites like the block explorer (any smaller period than that is probably too short for voting to pass). It can help fund people to create new tools/sites/walls or improve existing ones. New paper wallet anyone?"
+  author="Matt"
+  link_href=""
+  link_text=""
 >}}
 
 ## Ways you can help existing projects
