@@ -12,6 +12,23 @@
         <div class="details-img">
             <img alt="{{.Params.title}}" src="{{ .Params.feature_image }}">
         </div>
+        <h1 class="blog-title">{{.Params.title}}</h1>
+        <div class="blog-meta-wrapper">
+            <div>
+                <div class="blog-meta">
+                    {{ if .Params.author }}
+                        <div class="blog-author">
+                            <i class="fa fa-user-o"></i> {{.Params.author}}
+                        </div>
+                    {{end}}
+                    <div class="blog-author">
+                        <i class="fa fa-calendar"></i>
+                        {{ dateFormat "2 Jan 2006" .Params.date }}
+                    </div>
+                </div>
+            </div>
+            {{ partial "social_share.html" . }}
+        </div>
         <div class="blog-details">
             {{if .Params.show_title}}
                 <h3 class="blog-title">{{.Title}}</h3>
@@ -24,15 +41,17 @@
                 </div>
             {{end}}
             <div class="blog-meta-wrapper" style="margin-top: 30px;">
-                <div class="blog-meta">
-                    {{ if .Params.author }}
+                <div>
+                    <div class="blog-meta">
+                        {{ if .Params.author }}
+                            <div class="blog-author">
+                                <i class="fa fa-user-o"></i> {{.Params.author}}
+                            </div>
+                        {{end}}
                         <div class="blog-author">
-                            <i class="fa fa-user-o"></i> {{.Params.author}}
+                            <i class="fa fa-calendar"></i>
+                            {{ dateFormat "2 Jan 2006" .Params.date }}
                         </div>
-                    {{end}}
-                    <div class="blog-author">
-                        <i class="fa fa-calendar"></i>
-                        {{ dateFormat "2 Jan 2006" .Params.date }}
                     </div>
                 </div>
                 {{ partial "social_share.html" . }}
