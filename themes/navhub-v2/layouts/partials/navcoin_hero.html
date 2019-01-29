@@ -1,10 +1,16 @@
 <div class="navcoin-hero">
-  <img src="{{ .Params.image }}">
+  {{ if (isset .Params "image")}}
+    <img src="{{ .Params.image }}">
+  {{ else if (isset .Params "twitter_user")}}
+    <img src="http://avatars.io/twitter/{{ .Params.twitter_user }}">
+  {{ else }}
+    <img src="/images/icons/icon-community.png">
+  {{ end }}
   <h2>{{ .Params.name }}</h2>
   <p>{{ .Params.description }}</p>
   <div class="icon-container">
-  {{ if (isset .Params "twitter_url")}}
-    <a href="{{ .Params.twitter_url }}">
+  {{ if (isset .Params "twitter_user")}}
+    <a href="https://twitter.com/{{ .Params.twitter_user }}">
       <div class="icon-circle">
         <i class="fa fa-twitter fa-inverse"></i>
       </div>
