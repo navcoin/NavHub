@@ -1,10 +1,10 @@
 ---
 layout: guides
-title: 'Unit testing'
-author: Carter
+title: 'Answering Questions'
+author: Craig
 date: '2018-05-30T17:44:23+12:00'
 weight: 1
-guide_parent: 'testing'
-github_file: 'content/guides/testing/article1.md'
-summary: 'If you’re familiar with programming, you can help with the creation of unit test. These are critical to NavCoin, and help speed up the workflow for new releases. Unit testing is the creation of automated tests that run to test specific functions. The aim is that when you make changes to any part of the code, you can see if it breaks any of the unit tests, which makes it much easier to ensure the software is doing what it should, and decreases the chance of any unexpected bugs.'
+guide_parent: 'community'
+github_file: 'content/guides/community/article1.md'
+summary: 'There are always new people becoming interested in NavCoin and they often ask questions on social media, Reddit, Discord and Telegram. A good way to help these people learn about NavCoin and become active members of the community is to constructively answer their questions and provide them with information.'
 ---

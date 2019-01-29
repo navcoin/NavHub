@@ -1,10 +1,10 @@
 ---
 layout: guides
-title: 'Community Project'
-author: Carter
+title: 'Discussion Moderation'
+author: Craig
 date: '2018-05-30T17:44:23+12:00'
-weight: 3
-guide_parent: 'testing'
-github_file: 'content/guides/testing/article3.md'
-summary: 'There are a number of different community projects being worked on, and the more people helping each other out the better. Download and use the software, try a few different tasks, and write down your feedback. Think about what makes you confused, which parts are broken, and what could be made easier. Some NavCoin projects are built in peoples spare time and published before they are completely polished, so user feedback will always be valued. '
+weight: 4
+guide_parent: 'community'
+github_file: 'content/guides/community/article3.md'
+summary: "There are multiple discussion platforms for NavCoin including Reddit, Discord and Telegram. These channels have a lot of activity and while we are a champion of free speech, occasionally users or bots don't comply with our community discussion guidelines."
 ---
