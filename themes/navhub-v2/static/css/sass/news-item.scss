@@ -1,6 +1,11 @@
+.blog-meta-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
 .blog-details, .blog-meta-wrapper {
   .share-icon {
-    padding-top:15px;
     display: flex;
     justify-content: flex-end;
     ul {
