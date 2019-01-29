@@ -13,7 +13,9 @@ type: "project"
 feature_image: ""
 show_title_text: false
 in_progress: false
+beta_testing: false
 completed: true
+
 show_on_projects: true
 allow_click_through: true
 percent_complete: 100

@@ -7,7 +7,7 @@ author: "Mathew Paul"
 description: "NavPay is an easy to use light wallet, that allows you to securely store your NAV. There’s no blockchain to download, it’s just a quick & simple way to take control of your private keys."
 resources: []
 filter: ["Wallets"]
-bg_image: "/images/icons/purple-wallet.png"
+bg_image: "/images/icons/wallet-purple.png"
 slug: ""
 type: "project"
 feature_image: ""
