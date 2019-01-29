@@ -30,6 +30,8 @@
     margin-bottom: 25px;
     width: 90vw;
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     .grid-item {
       display: flex;
       flex-direction: column;
@@ -37,6 +39,7 @@
       align-items: center;
       text-align: center;
       padding: 30px;
+      background: #ffffff;
       border: #DDDDDD 1px solid;
       &:hover {
         border: 1px solid #9D3CD1;

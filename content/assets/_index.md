@@ -7,8 +7,8 @@ type: "default"
 
 title_text: "Community Assets"
 image_src: "/images/hero-images/navpal-shirt.png"
-button_text: "Download Guidelines"
-button_link: "https://navhub.org/assets/NavCoinBrandGuidelines.pdf"
+button_text: "Add your Assets"
+button_link: "/guides/design"
 button_image_src: "/images/icons/plus-icon.png"
 new_tab: "true"
 
