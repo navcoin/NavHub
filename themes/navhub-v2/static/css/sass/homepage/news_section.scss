@@ -1,3 +1,8 @@
+@font-face {
+  font-family: big-john;
+  src: url(/fonts/BIG-JOHN.otf);
+}
+
 .homepage-news-section {
   --card-width: 540px;
   --border-color: #E3E3E3;
@@ -7,14 +12,22 @@
   }
   
   .title-container {
-    margin: 16px 0;
+    margin: 2em 0 1em 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    h2 {
+      font-family: Raleway;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: left;
+      color: #111;
+    }
   }
   .card-container {
     border-left: 1px solid var(--border-color); 
     border-right: 1px solid var(--border-color); 
-    --grid-gap: 18px;
+    --grid-gap: 16px;
     display: grid;
     grid-template-columns: repeat(4, var(--card-width));
     overflow-x: scroll;
@@ -40,12 +53,12 @@
           line-height: 30px;
           font-size: 20px;
         }
-        line-height: 40px;
-        font-weight: bold;
-        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        font-family: "Big John";
+        font-weight: normal;
         font-size: 30px;
+        line-height: 55px;
         text-align: center;
-        color: #9D3CD1;
+        color: #9d3cd1;
       }
     }
     .lower-section {

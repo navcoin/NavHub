@@ -1,18 +1,18 @@
 .hero-section-homepage {
   color: #7243BF;
   padding: 15px 0;
-  
+  margin: 3em 0 0 0;
   display: grid;
   grid-template-areas: "text image" 
                         "button image";
   justify-content: center;
   align-items: center;
-  
   width: 100%;
   min-height: 400px;
   background: no-repeat, no-repeat;
   background-size: initial, initial;
   background-position: 10% center, 90% center;
+  
   .text-section-container {
     grid-area: text;
     color: inherit;
@@ -38,27 +38,25 @@
       color: inherit;
       font-size: 45px;
       line-height: 45px;
-      margin: 0 0 10px 0;
+      margin: 1.2em 0 0.5em 0;
     }
     p {
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 200;
       line-height: 43px;
       max-width: 500px;
-      margin: 5px 0 0 0;
-      margin-bottom: 30px;
+      margin-bottom: 0.5em;
     }
   }
 
   a {
-    margin-top: 36px;
+    margin-top: 1em;
     
   } 
   
   .hero-img {
     grid-area: image;
-    max-height: 322px;
-    max-width: 252px;
+    height: 100%;
   }
   .hero-button {
     align-self: flex-start;

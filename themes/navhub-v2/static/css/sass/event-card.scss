@@ -13,6 +13,7 @@ $border-grey: #A3A6AD;
   display: flex;
   max-width: 580px;
   border: 1px solid $border-grey;
+  background-color: #fff;
   padding: 28px;
   height: 100%;
   .date-icon-container {
@@ -55,6 +56,11 @@ $border-grey: #A3A6AD;
     font-weight: 400;
     color: $nav-purple;
     margin-bottom: 11px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    color: #7d5ab5;
+
   }
   .event-location {
     color: $nav-purple;
