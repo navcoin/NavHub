@@ -1,6 +1,6 @@
 ---
 title: "Gift Cards"
-date: 2018-07-09T11:41:44+12:00
+date: 2019-01-09T11:41:44+12:00
 draft: false
 author: "Bidali"
 description: "Buy digital gift cards with NavCoin. Use your NAV to buy gift cards from 100s of top brands including Amazon, Uber, Overstock, Dominos, Xbox, eBay, iTunes and more."

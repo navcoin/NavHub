@@ -1,6 +1,6 @@
 ---
 title: "NavPi Lite"
-date: 2018-04-29T14:32:01+13:00
+date: 2018-08-29T14:32:01+13:00
 lastmod: 2018-03-29T14:32:01+13:00
 draft: false
 author: "Craig MacGregor"
@@ -19,7 +19,7 @@ show_on_projects: true
 allow_click_through: false
 percent_complete: 30
 github_url: "https://github.com/craigmacgregor/navpi-angular"
-project_url: "/projects/nav-pi/"
+project_url: ""
 reddit_url: ""
 twitter_url: ""
 card_color: "#6984D8"
