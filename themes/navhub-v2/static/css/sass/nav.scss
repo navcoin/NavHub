@@ -52,7 +52,7 @@ body {
   min-height: 100vh;
   display: grid;
   align-items: flex-start;
-  background: #ffffff;
+  background: #F5F5F5;
   main {
     min-height: 100vh;
     display: grid;
@@ -82,7 +82,8 @@ a:focus {
 .ninety-vw-container {
   width: 100%;
   max-width: 90vw;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   &.projects {
     max-width: 90vw;
   }
@@ -91,18 +92,21 @@ a:focus {
 @media (min-width: 1890px) {
   .ninety-vw-container.projects {
     max-width: 1299px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (min-width: 1777px) {
   .ninety-vw-container {
     max-width: 1600px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .ninety-vw-container.projects {
     max-width: 1299px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

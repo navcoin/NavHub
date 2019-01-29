@@ -402,7 +402,7 @@ header.stickey .logo-brand img{
 
 #sidebar-wrapper {
     position: fixed;
-    top: 0;
+    top: 0px;
     right: 0;
     bottom: 0;
     z-index: 1000;
