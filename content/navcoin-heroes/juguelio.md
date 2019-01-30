@@ -1,5 +1,5 @@
 ---
-image: "/images/icons/icon-community.png"
+image: "/images/navcoin-heroes/juguelio.jpg"
 name: "Juguelio"
 description: "Discord & Telegram Moderator"
 twitter_user: "Juguelio"

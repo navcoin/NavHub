@@ -1,6 +1,6 @@
 ---
-image: "/images/icons/icon-community.png"
-name: "Prodpeak"
-description: "Creator of NavExplorer"
-website_url: "https://navexplorer.com"
+image: "/images/navcoin-heroes/prodpeak.JPG"
+name: "Dan Tudor"
+description: "NavExplorer Developer"
+linkedin_url: https://www.linkedin.com/in/dan-tudor
 ---
