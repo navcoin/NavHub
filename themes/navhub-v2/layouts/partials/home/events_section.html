@@ -5,10 +5,9 @@
     </div>
     <div class="card-container">
 
-        {{ $list := .Site.Pages}}
-        {{ $sorted := sort $list "Params.date" "desc" }}
+        {{ $list := .Site.Pages.ByDate.Reverse}}
         {{ $count := 0 }}
-        {{ range $index, $element := $sorted }}
+        {{ range $index, $element := $list }}
             {{ if (and (hasPrefix $element.Dir "events") (ne $element.Dir "events/" )) }}
                 {{ if lt $count 4 }}
                 {{ partial "home/event_card.html" . }}
@@ -17,5 +16,5 @@
             {{ end }}
         {{ end }}
 
-    </div> 
+    </div>
 </div>

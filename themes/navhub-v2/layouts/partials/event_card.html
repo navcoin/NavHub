@@ -1,15 +1,16 @@
-<div class="event-card non-border">
-    <div class="date-icon-container"> 
+<div class="event-card non-border {{ if .Params.past }}past{{ else }}current{{ end }}">
+    <div class="date-icon-container">
         <div class="date-icon">
             <h2 class="short-date-num">{{ .Params.short_date_num }}</h2>
             <h4 class="short-date-month"> {{ .Params.short_month | upper }}</h4>
         </div>
     </div>
     <div>
-        <div class="event-date">
-            {{ .Params.event_long_date }}
-        </div>
         <h2 class="event-title">{{ .Params.title }}</h2>
+        <div class="event-date">
+            <img src="/images/icons/calendar-icon.png">
+            {{ .Params.eventLongDate }}
+        </div>
         <div class="event-location">
             <img src="/images/icons/location-icon.png">
             {{ .Params.location }}
@@ -41,7 +42,7 @@
                 <a href="{{ .Params.misc_url }}">
                     <div class="social-link-icon"><img src="/images/icons/link-icon.png" alt="website link"></div>
                 </a>
-            {{ end }}    
+            {{ end }}
         </div>
     </div>
 </div>

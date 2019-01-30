@@ -2,6 +2,10 @@ $text-grey: #707070;
 $nav-purple:#7D5AB5;
 $border-grey: #A3A6AD;
 
+.events {
+  padding-bottom: 20px;
+}
+
 .homepage-events-section {
    .event-card {
     border: 1px solid var(--border-color);
@@ -9,6 +13,12 @@ $border-grey: #A3A6AD;
 }
 
 .event-card {
+  &.past {
+
+  }
+  &.current {
+    border: 1px solid $nav-purple;
+  }
   display: flex;
   max-width: 580px;
   border: 1px solid $border-grey;
@@ -102,7 +112,7 @@ $border-grey: #A3A6AD;
       color: #fff;
       //background-color: $nav-purple;
       background-color: #4f3e6b;
-      margin-right: 5px; 
+      margin-right: 5px;
     }
   }
 }
