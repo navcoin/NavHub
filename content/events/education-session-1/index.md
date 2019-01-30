@@ -1,6 +1,6 @@
 ---
 short_date_num: "13"
-short_month: "SEPT"
+short_month: "SEP"
 eventLongDate: "Thursday, 13 September 2018, 8.30am - 9.30am (GMT+12)"
 title: "NavCoin Education - Cold Staking"
 location: "12 Madden Street, Auckland, New Zealand"

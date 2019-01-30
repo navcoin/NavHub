@@ -100,14 +100,29 @@ $border-grey: #A3A6AD;
       height: $diameter;
       border-radius: $diameter;
       color: #fff;
-      background-color: $nav-purple;
+      //background-color: $nav-purple;
+      background-color: #4f3e6b;
       margin-right: 5px; 
     }
   }
 }
 
-
 .non-border{
   border: none;
   border-radius: 0;
+  /*
+  background-color: $nav-purple;
+  .event-location{
+    color: white;
+  }
+  .event-description{
+    color: white;
+  }
+  .event-host{
+    color: white;
+  }
+  .event-title{
+    color: white;
+  }
+  */
 }
