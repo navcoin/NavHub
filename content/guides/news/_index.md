@@ -10,6 +10,8 @@ github_file: 'content/guides/news/_index.md'
 
 ---
 
+# News, Blogs, Aricles, Stories
+
 ## Overview
 
 {{< big_text >}}

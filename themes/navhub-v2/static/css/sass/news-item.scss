@@ -94,6 +94,8 @@
 
   .blog-details {
     margin: auto;
+    background: #ffffff;
+    padding: 20px;
     h3 {
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -112,10 +114,11 @@
         transition: all 0.4s linear 0s;
         padding-bottom: 0px;
         display: inline-block;
+        font-weight: 600;
       }
     }
     p {
-      color: #777777;
+      color: #707070;
       font-size: 15px;
       line-height: 24px;
     }
@@ -133,9 +136,11 @@
   ul.blog-author-name li {
     display: inline-block;
     margin-right: 10px;
-    color: #795bb6;
+    color: #707070;
+    font-weight: 400;
     i {
       margin-right: 10px;
+      color: #795bb6;
     }
     a {
       color: #795bb6;
@@ -224,13 +229,13 @@
       background: linear-gradient(
         to right,
         rgba(245, 245, 245, 0),
-        rgba(245, 245, 245, 1) 50%
+        rgb(255, 255, 255) 50%
       );
     }
   }
 
   .blog-author a {
-    color: #7d5ab5;
+    color: #707070;
   }
   .blog-author i {
     margin-right: 5px;

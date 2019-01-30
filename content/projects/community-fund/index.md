@@ -105,7 +105,7 @@ Funds can be released in multiple stages. For example, a proposal can indicate t
     fontColor="#FFF">}}
     <p>The soft fork for the reduction of the staking reward to 4% and the beginning of the accumulation of the community fund has passed! The NavCoin Community fund is now accumulating at a rate of around 5000 NAV per week. The mechanism to create proposals and receive funds is still being tested. For now you can check out the community fund balance below.</p><br />
     <div class="themeix-button-group">
-    <a class="themeix-btn themeix-danger smoothScroll" target="e" style="background-color: #523971" href="https://www.navexplorer.com/address/Community%20Fund">View the Fund Balance</a>
+    <a class="btn btn-purple smoothScroll" target="e" style="background-color: #523971" href="https://www.navexplorer.com/address/Community%20Fund">View the Fund Balance</a>
     </div>
 
 {{< /center_text_section >}}

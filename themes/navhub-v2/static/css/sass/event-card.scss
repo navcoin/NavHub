@@ -2,7 +2,6 @@ $text-grey: #707070;
 $nav-purple:#7D5AB5;
 $border-grey: #A3A6AD;
 
-
 .homepage-events-section {
    .event-card {
     border: 1px solid var(--border-color);
@@ -59,6 +58,7 @@ $border-grey: #A3A6AD;
     margin-bottom: 11px;
     font-size: 25px;
     text-align: left;
+    text-decoration: underline;
 
   }
   .event-location {
@@ -78,6 +78,7 @@ $border-grey: #A3A6AD;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    color:#707070
   }
   .event-description {
     color: $text-grey;
@@ -103,4 +104,10 @@ $border-grey: #A3A6AD;
       margin-right: 5px; 
     }
   }
+}
+
+
+.non-border{
+  border: none;
+  border-radius: 0;
 }
