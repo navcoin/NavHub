@@ -1,6 +1,7 @@
 ---
 layout: guides
-title: 'Ideas and Strategy'
+title: 'NavHub Guides - Ideas and Strategy'
+title_text: 'Ideas and Strategy'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, What kind of ideas, Talk to the community]
@@ -13,7 +14,7 @@ github_file: 'content/guides/strategy/_index.md'
 ## Overview
 
 {{< big_text >}}
-Ideas can come from everywhere and from anyone. And they’re a great way to help inspire the rest of the community who might have the skills, but aren’t sure how they can be helping. It starts with ideas for products, articles, visuals, videos, tools, potential business integrations, marketing campaigns, and more. And then finding people who can help you bring it to life. 
+Ideas can come from everywhere and from anyone. And they’re a great way to help inspire the rest of the community who might have the skills, but aren’t sure how they can be helping. It starts with ideas for products, articles, visuals, videos, tools, potential business integrations, marketing campaigns, and more. And then finding people who can help you bring it to life.
 {{< /big_text >}}
 
 {{< divider >}}
@@ -33,6 +34,6 @@ Ideas can come from everywhere and from anyone. And they’re a great way to hel
 
 ## Talk to the community
 
-Ideas are just the start, so make sure to share them with the community!
+Ideas are just the start, so make sure to share them with the community for feedback and to find collaborators!
 
 {{< community >}}

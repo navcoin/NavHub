@@ -21,7 +21,5 @@ github_url: ""
 reddit_url: ""
 project_url: "https://twitter.com/Encrypt_Sierra/status/1016915524159016960"
 twitter_url: ""
-card_color: "#6984D8"
-font_color: "#fff"
 weight: 0
 ---

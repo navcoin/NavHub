@@ -1,6 +1,7 @@
 ---
 layout: guides
-title: 'Testing'
+title: 'NavHub Guides - Testing'
+title_text: 'Testing'
 author: Carter
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, Here is what you can help, So what now]
@@ -12,7 +13,7 @@ github_file: 'content/guides/testing/_index.md'
 ## Overview
 
 {{< big_text >}}
-Testing is a critical part of open source software - particularly in crypto where there is a financial incentive for people to try attack the network. Testing can help identify any bugs, and improve the overall user experience. And you don’t have to be a developer to help test NavCoin! Anyone can download the latest ‘release candidate wallet’ and give their feedback via GitHub. 
+Testing is a critical part of open source software - particularly in crypto where there is a financial incentive for people to try attack the network. Testing can help identify any bugs, and improve the overall user experience. And you don’t have to be a developer to help test NavCoin! Anyone can download the latest ‘release candidate wallet’ and give their feedback via GitHub.
 {{< /big_text >}}
 
 {{< divider >}}

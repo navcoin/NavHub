@@ -5,7 +5,7 @@
   </li>
   {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
   <li class="guides-page">
-    <a href="{{ .Permalink}}"><h4>{{ .LinkTitle }}</h4></a>
+    <a href="{{ .Permalink}}"><h4>{{ .Params.title_text }}</h4></a>
     <ul>
       {{ range $section := .Params.sections }}
       <li><a href="{{ $page.Permalink}}#{{ $section | urlize }}">{{ $section }}</a></li>

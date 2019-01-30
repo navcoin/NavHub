@@ -23,8 +23,6 @@ github_url: "https://github.com/Encrypt-S/navpi"
 project_url: "https://store.navcoin.org/product/navpi-stakebox"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 100
 ---
 

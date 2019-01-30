@@ -1,4 +1,12 @@
-<div class="project-card" style="background-color: {{.Params.card_color}}; color: {{.Params.font_color}} !important; ">
+{{ if (eq .Params.in_progress true) }}
+<div class="project-card" style="background-color: #6984D8; color: #FFF !important; ">
+{{ else if (eq .Params.completed true) }}
+<div class="project-card" style="background-color: #7d5ab5; color: #FFF !important; ">
+{{ else if (eq .Params.beta_testing true) }}
+<div class="project-card" style="background-color: #6984D8; color: #FFF !important; ">
+{{ else }}
+<div class="project-card" style="background-color: #2E94DF; color: #FFF !important; ">
+{{ end }}
   <div class="bg-container">
     <img src="{{.Params.bg_image}}" class="background-image" />
   </div>

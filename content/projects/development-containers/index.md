@@ -20,7 +20,5 @@ github_url: "https://github.com/NAVCoin/nav-docker"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#6984D8"
-font_color: "#fff"
 weight: 0
 ---

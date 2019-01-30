@@ -21,7 +21,5 @@ github_url: "https://github.com/brianium/nav-button"
 project_url: "https://brianium.github.io/nav-button"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#FFF"
 weight: 0
 ---

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-    <ul class="nav sidebar-nav">    
+    <ul class="nav sidebar-nav">
         <li class="sidebar-list-title">NavHub.org</li>
         {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
@@ -8,7 +8,7 @@
                         {{ .Pre }}
                         <span>{{ .Name }}</span>
                         {{ if or (eq .Identifier "navcoin") (eq .Identifier "collab") }}
-                            <img src="/images/icons/external_link.png" alt="" class="external-link-img"> 
+                            <img src="/images/icons/external_link.png" alt="" class="external-link-img">
                         {{ end }}
 
                     </a>
@@ -23,7 +23,7 @@
         </li>
         {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
             <li class="guides-page">
-                <a href="{{ .Permalink}}"><span>{{ .LinkTitle }}</span></a>
+                <a href="{{ .Permalink}}"><span>{{ .Params.title_text }}</span></a>
             </li>
         {{end}}
     </ul>
@@ -42,5 +42,4 @@
             </div>
         </li>
     </ul>
-</nav>      
-
+</nav>

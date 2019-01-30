@@ -1,6 +1,7 @@
 ---
 layout: guides
-title: 'Community'
+title: 'NavHub Guides - Community'
+title_text: 'Community'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 sections: [Overview, Things you can do, Join the community]
