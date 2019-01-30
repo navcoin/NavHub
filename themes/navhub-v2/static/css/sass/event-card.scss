@@ -16,6 +16,7 @@ $border-grey: #A3A6AD;
   background-color: #fff;
   padding: 28px;
   height: 100%;
+  border-radius: 5px;
   .date-icon-container {
     @media (max-width:500px) {
       display:none;
@@ -53,26 +54,30 @@ $border-grey: #A3A6AD;
     font-family: 'Raleway', Times, serif;
     font-size: 27px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 600;
     color: $nav-purple;
     margin-bottom: 11px;
-    font-weight: 500;
     font-size: 25px;
     text-align: left;
-    color: #7d5ab5;
 
   }
   .event-location {
     color: $nav-purple;
-    font-size: 16px;
     line-height: 25px;
     margin-bottom: 10px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
   }
   .event-host {
     color: $nav-purple;
+    margin-bottom: 12px;
     font-size: 16px;
     line-height: 25px;
-    margin-bottom: 12px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
   }
   .event-description {
     color: $text-grey;

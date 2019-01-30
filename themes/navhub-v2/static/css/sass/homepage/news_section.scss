@@ -12,7 +12,7 @@
   }
 
   .title-container {
-    margin: 2em 0 1em 0;
+    margin: 4em 0 1em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +41,7 @@
   .homepage-news-card {
     background: white;
     border: 1px solid var(--border-color);
+    border-radius: 5px;
     &:hover {
       border: 1px solid #9D3CD1;
     }
@@ -50,6 +51,7 @@
       flex-direction: column;
       margin: 0 42px;
       align-items: center;
+      
       justify-content: center;
       h1 {
         @media (max-width: 600px) {
@@ -58,10 +60,11 @@
         }
         font-family: "Big John";
         font-weight: normal;
-        font-size: 30px;
-        line-height: 55px;
+        font-size: 2.5em;
+        padding-top: 0.3em;
+        line-height: 1.4em;
         text-align: center;
-        color: #9d3cd1;
+        color: #7d5ab5;
       }
     }
     .lower-section {
@@ -74,10 +77,11 @@
       flex-flow: wrap;
       .project-author {
         margin-left: 15px;
-        color: #7D5AB5;
+        color:#7D5AB5;
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        font-weight: 400;
         font-size: 16px;
-        line-height: 25px;
+        color: #707070;
         img {
           height: 20px;
         }

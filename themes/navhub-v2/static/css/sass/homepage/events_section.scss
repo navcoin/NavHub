@@ -7,7 +7,7 @@
   }
 
   .title-container {
-    margin: 2em 0 1em 0;
+    margin: 4em 0 1em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,14 +54,14 @@
       }
       .event-title {
         color: #7D5AB5;
-        text-decoration: underline;
+        //text-decoration: underline;
       }
       .event-location {
-        color: #7D5AB5;
+        color: #707070;
 
       }
       .event-host {
-        color: #7D5AB5;
+        color: #707070;
 
       }
     }
