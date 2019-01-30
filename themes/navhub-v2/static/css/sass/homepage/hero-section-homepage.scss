@@ -56,6 +56,7 @@
   
   .hero-img {
     grid-area: image;
+    max-height: 300px;
   }
   .hero-button {
     align-self: flex-start;
