@@ -1,8 +1,7 @@
 .guides-container {
   display: grid;
   grid-template-columns: minmax(200px, 330px) repeat(2, minmax(200px,450px)) minmax(0,1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  min-height: 100vh;
   .github-edit {
     text-align: right;
     border: 1px solid #DDD;
@@ -20,17 +19,25 @@
     }
   }
 }
+.guides-stickey {
+  position: fixed;
+  min-width: 200px;
+  max-width: 330px;
+  width: 33vw;
 
+}
 .guides-menu {
   grid-column: 1;
-  grid-row: 1 / 3;
+  grid-row: 1 / 2;
   background-color: #FBFBFB;
   width: 100%;
   min-width: 200px;
   max-width: 330px;
-  height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
+  max-height: 100%;
+  padding: 10px 40px 10px 25px;
+
 
   h2 {
     font-size: 24px;
@@ -62,18 +69,13 @@
         transform: scale(1.1);
       }
 }
-.guides-stickey {
-  padding: 10px 40px 10px 25px;
-  position: fixed;
-  min-width: 200px;
-  max-width: 330px;
-  width: 33vw;
-}
+
 
 .footer-container {
-  grid-column: 2 / 5;
+  grid-column: 1 / 5;
   grid-row: 2;
   align-self: flex-end;
+  height: 100%;
 }
 
 .guides-article {
