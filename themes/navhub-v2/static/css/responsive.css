@@ -181,9 +181,7 @@ span.price-tag {
   	width:100%;
   }
 
-  .feature-content .themeix-feature-title {
-  	font-size:18px;
-  }
+
 
   .feature-icon i {
   	margin-right:10px;
@@ -301,9 +299,7 @@ span.price-tag {
   .themeix-section-heading-title h2{
       font-size: 30px;
   }
-  .feature-content{
-       margin-bottom: 36px;
-  }
+
   /* youtube area */
   .youtube .play-button, .youtube .play-button::before {
   	left: 38%;
