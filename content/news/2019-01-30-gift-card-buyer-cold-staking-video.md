@@ -21,7 +21,7 @@ NavCoin has been added to [Giftcards by Bidali](https://giftcards.bidali.com/buy
 
 Laura and Marcus have put together a video that outlines some of the best practices for keeping your coins secure with cold staking. As well as how to generate your staking and spending keys, the video also covers how to send to and spend coins in cold staking addresses. NavCoin Core are hoping to put out more simple bite size content like this over the coming weeks to help inform and educate the NavCoin community.
 
-{{ youtube ERIRWwrajco }}
+<https://www.youtube.com/watch?v=ERIRWwrajco>
 
 As with all security related topics, it’s important to note that this guide should only be considered an introduction and not a definitive guide. There are so many things to consider when choosing how to securely store and backup your keys that we aren’t able to cover all of the details.
 
