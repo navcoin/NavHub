@@ -24,22 +24,22 @@
         </div>
         <div class="social-link-container">
             {{ if ( and (isset .Params "twitter_url") ( not (eq .Params.twitter_url ""))) }}
-                <a href="{{ .Params.twitter_url }}">
+                <a href="{{ .Params.twitter_url }}" target="e">
                     <div class="social-link-icon"><img src="/images/icons/twitter-icon.png" alt="twitter"></div>
                 </a>
             {{ end }}
             {{ if ( and (isset .Params "facebook_url")  ( not (eq .Params.facebook_url ""))) }}
-                <a href="{{ .Params.facebook_url }}">
+                <a href="{{ .Params.facebook_url }}" target="e">
                     <div class="social-link-icon"><img src="/images/icons/facebook-icon.png" alt="facebook"></div>
                 </a>
             {{ end }}
             {{ if ( and (isset .Params "meet_up_url")  ( not (eq .Params.meet_up_url ""))) }}
-                <a href="{{ .Params.meet_up_url }}">
+                <a href="{{ .Params.meet_up_url }}" target="e">
                     <div class="social-link-icon"><img src="/images/icons/meet-up-icon.png" alt="meet up"></div>
                 </a>
             {{ end }}
             {{ if ( and (isset .Params "misc_url")  ( not (eq .Params.misc_url ""))) }}
-                <a href="{{ .Params.misc_url }}">
+                <a href="{{ .Params.misc_url }}" target="e">
                     <div class="social-link-icon"><img src="/images/icons/link-icon.png" alt="website link"></div>
                 </a>
             {{ end }}
