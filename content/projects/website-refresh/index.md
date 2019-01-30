@@ -8,7 +8,7 @@ description: "Refreshing the website to add more information about the currently
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false

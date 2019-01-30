@@ -9,14 +9,14 @@ bg_image: "/images/icons/wallet-purple.png"
 resources: []
 filter: ["Wallets"]
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: true
 
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: ""
 project_url: "https://navcoinm8.com"

@@ -9,7 +9,7 @@ resources: []
 filter: ["Wallets"]
 bg_image: "/images/icons/wallet-purple.png"
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
@@ -51,8 +51,6 @@ weight: 100
     <p>You can use it on your mobile device or even in your browser – giving you the flexibility to protect your NAV in a way that’s most convenient for you.</p>
     <p>Don’t risk having your coins on an exchange – download NavPay and take control today.</p>
 {{< /left_image_section >}}
-
-
 
 {{< project_features
     fontColor="#333"

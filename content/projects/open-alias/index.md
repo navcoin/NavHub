@@ -8,14 +8,14 @@ resources: []
 filter: ["OpenAlias"]
 bg_image: "/images/icons/purple-lightbulb.png"
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: true
 beta_testing: false
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/NAVCoin/navcoin-core/pull/213"
 project_url: "https://openalias.nav.community"

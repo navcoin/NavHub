@@ -8,7 +8,7 @@ description: "Redesigning NavTech to make the private payment system completely 
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false

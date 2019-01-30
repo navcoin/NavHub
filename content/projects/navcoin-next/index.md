@@ -9,7 +9,7 @@ bg_image: "/images/icons/wallet-purple.png"
 resources: []
 filter: ["Wallets"]
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 percent_complete: 100

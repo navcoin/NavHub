@@ -8,7 +8,7 @@ description: "A fusion of NavTech Private Payments and Kauri DAEx exchange techn
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 percent_complete: 65

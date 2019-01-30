@@ -3,13 +3,20 @@
 
 {{ partial "head.html" . }}
 
-<body>
-{{ partial "header.html" . }}
-
-<div class="" style="margin-bottom: 0px; margin-top: 54px;">
-    {{ .Content }}
+<body class="project-single">
+{{ partial "burger_menu.html" . }} 
+{{ partial "sidebar_menu.html" . }}
 </div>
-
-{{ partial "footer.html" . }}
+<div class="header-news">
+    <div class="main-slider-overlay page-header-bg">
+        <div class="page-header-title">
+            <h2>{{ .Title }}</h2>
+        </div>
+    </div>
+</div>
+<main>
+    {{ .Content }}
+    {{ partial "footer.html" . }}
+</main>
 </body>
 </html>

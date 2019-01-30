@@ -8,7 +8,7 @@ description: "Upgrading NavCoin Core to align with the Bitcoin 0.13 source code 
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false

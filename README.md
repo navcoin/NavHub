@@ -63,7 +63,7 @@ When adding a project it is recommend you use the Hugo commandline tool as this 
     resources: []                       - currently unused
     categories: []                      - currently unused
     slug: ""                            - currently unused
-    type: "project"                     - Defines this is a project - DO NOT CHANGE
+    type: "projects"                     - Defines this is a project - DO NOT CHANGE
     feature_image: ""                   - currently unused
     show_title_text: false              - currently unused
     in_progress: false                  - Signal that the project has been started

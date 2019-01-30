@@ -10,7 +10,7 @@ categories: []
 filter: ["Wallets"]
 bg_image: "/images/icons/wallet-purple.png"
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: true

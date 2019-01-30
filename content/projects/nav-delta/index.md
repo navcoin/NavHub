@@ -7,7 +7,7 @@ description: "A payment gateway that enables users to spend NAV at any business 
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false

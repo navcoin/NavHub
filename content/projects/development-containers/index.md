@@ -8,7 +8,7 @@ description: "One challenge of having a wide range of NavCoin software is mainta
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
