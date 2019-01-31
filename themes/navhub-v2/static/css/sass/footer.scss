@@ -75,6 +75,13 @@ footer {
     p {
       flex: 1 1 180px;
     }
+    a {
+      color: #222222;
+      text-decoration: underline;
+      &:hover {
+        color: #7d5ab5;
+      }
+    }
     .themeix-social-area {
       margin-left: 20px;
       flex: 1 0 120px;
