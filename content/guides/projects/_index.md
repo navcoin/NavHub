@@ -97,7 +97,7 @@ weight: 0
 
   Here's an example of a completed template for <strong>Nav Explorer</strong>:
   <br><br>
-  <img src="/images/guides/projects/nav-explorer.jpg" alt="nav-explorer" class="pic thumb">
+  <img src="/images/guides/projects/nav-explorer.png" alt="nav-explorer" class="pic thumb">
   <br>
   <textarea class="textarea" id="txtarea">
 ---
