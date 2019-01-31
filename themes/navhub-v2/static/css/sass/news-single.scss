@@ -14,6 +14,10 @@
       }
       a {
         color: #FFFFFF;
+        text-decoration: underline;
+        &:hover {
+          color: #e1e2e2;
+        }
       }
     }
   }
