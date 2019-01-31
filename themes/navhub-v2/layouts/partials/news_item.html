@@ -15,7 +15,7 @@
     <div class="blog-details">
         <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
         <ul class="blog-author-name">
-            <li><i class="fa fa-user-o"></i>{{ .Params.author }}</li>
+            <li><i class="fa fa-user-circle-o"></i>{{ .Params.author }}</li>
             <li>
                 <i class="fa fa-calendar"></i>
                 {{ dateFormat "2 Jan 2006" .Params.date }}
@@ -32,7 +32,7 @@
         <div class="social-icon-sect">
             <div class="read-more">
                 <div class="themeix-button-group">
-                    <a href="{{ .URL }}" class="themeix-btn themeix-danger">read more</a>
+                    <a href="{{ .URL }}" class="btn btn-purple">read more</a>
                 </div>
             </div>
             <div class="share-icon">

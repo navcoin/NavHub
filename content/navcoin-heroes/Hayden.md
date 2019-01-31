@@ -1,5 +1,5 @@
 ---
-image: "/images/navcoin-heroes/hayden.png"
+image: "images/hayden.png"
 name: "Hayden"
 description: "Community Dev"
 twitter_user: "ManipulusNZ"

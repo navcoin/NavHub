@@ -9,7 +9,7 @@
 {{ else }}
     <a href="/events">
 {{ end }}
-    <div class="event-card">
+    <div class="event-card {{ if .Params.past }}past{{ else }}current{{ end }}">
         <div class="date-icon-container">
             <div class="date-icon">
                 <h2 class="short-date-num">{{ .Params.short_date_num }}</h2>
@@ -17,16 +17,18 @@
             </div>
         </div>
         <div>
-            <div class="event-date">
-                {{ .Params.event_long_date }}
-            </div>
+
             <h2 class="event-title">{{ .Params.title }}</h2>
+            <div class="event-date">
+                    <span class="fa fa-calendar" style=color:#7D5AB5;></span>
+                {{ .Params.eventLongDate }}
+            </div>
             <div class="event-location">
-                <img src="/images/icons/location-icon.png">
+                    <span class="fa fa-location-arrow" style=color:#7D5AB5;></span>
                 {{ .Params.location }}
             </div>
             <div class="event-host">
-                <img src="/images/icons/person-icon.png">
+                    <span class="fa fa-user-circle-o" style=color:#7D5AB5;></span>
                 {{ .Params.host }}
             </div>
         </div>

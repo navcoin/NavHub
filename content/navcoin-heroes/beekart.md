@@ -1,5 +1,5 @@
 ---
-image: "/images/navcoin-heroes/beekart.jpg"
+image: "images/beekart.jpg"
 name: "Roger"
 description: "Artist"
 twitter_user: "Rogiervdbeek"

@@ -5,7 +5,7 @@
     --card-width: 300px;
   }
   .title-container {
-    margin: 2em 0 1em 0;
+    margin: 4em 0 1em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,10 +18,7 @@
     }
   }
   .card-container {
-    --grid-gap: 16px;
-
-    border-left: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
+    --grid-gap: 12px;
     display: grid;
     grid-template-columns: repeat(4, var(--card-width));
     overflow-x: scroll;
@@ -30,6 +27,7 @@
     .homepage-project-card {
       background: #fff;
       border: 1px solid var(--border-color);
+      border-radius: 5px;
       width: 100%;
       padding: 20px;
       height: 100%;
@@ -42,7 +40,7 @@
       }
       h2 {
         font-family: Raleway;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 25px;
         text-align: left;
         color: #7d5ab5;
@@ -52,8 +50,10 @@
       .project-author {
         color:#7D5AB5;
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        font-weight: 400;
         font-size: 16px;
         margin-bottom: 12px;
+        color: #707070;
       }
       .description {
         color: #707070;

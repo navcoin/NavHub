@@ -1,5 +1,5 @@
 ---
-image: "/images/navcoin-heroes/spiritar.png"
+image: "images/spiritar.jpg"
 name: "Diane Henderson"
 description: "Event coordinator & Discord moderator"
 twitter_user: "NavCoin_Global"

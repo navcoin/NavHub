@@ -1,6 +1,6 @@
 .pagination-container {
   width: 100%;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .nav-pagination {
@@ -10,7 +10,7 @@
   flex-flow: wrap;
   li {
     display: inline;
-    margin: 10px 5px;  
+    margin: 10px 5px;
     a.page-number, span{
       padding: 8px 12px;
       margin-left: -1px;
@@ -35,7 +35,7 @@
   li a:hover span, li a:focus span, li a:active span {
     background-color: #337ab7;
   }
-  
+
   .ellipse {
     /* background-color: #337ab7; */
   }

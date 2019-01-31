@@ -2,6 +2,9 @@ $text-grey: #707070;
 $nav-purple:#7D5AB5;
 $border-grey: #A3A6AD;
 
+.events {
+  padding-bottom: 20px;
+}
 
 .homepage-events-section {
    .event-card {
@@ -10,12 +13,35 @@ $border-grey: #A3A6AD;
 }
 
 .event-card {
+  border-radius: 5px;
+  .date-icon {
+    background-color: white;
+  }
+  &.past {
+    background: #7D5AB5;
+    div{
+      color: white;
+    }
+    .event-title {
+      color: white;
+    }
+  }
+  &.current {
+    background: #2E94DF;
+    div{
+      color: white;
+    }
+    .event-title {
+      color: white;
+    }
+  }
   display: flex;
   max-width: 580px;
-  border: 1px solid $border-grey;
+  //border: 1px solid $border-grey;
   background-color: #fff;
   padding: 28px;
   height: 100%;
+  border-radius: 5px;
   .date-icon-container {
     @media (max-width:500px) {
       display:none;
@@ -30,9 +56,9 @@ $border-grey: #A3A6AD;
       width: $diameter;
       height: $diameter;
       border-radius: $diameter;
-      background-color: $nav-purple;
+      background-color: white;
       font-family: 'Raleway', Times, serif;
-      color: #fff;
+      color: #7D5AB5;
       line-height: 22px;
       .short-date-num {
         font-size: 27px;
@@ -44,35 +70,44 @@ $border-grey: #A3A6AD;
     }
   }
   .event-date {
-    color: $text-grey;
-    font-size: 16px;
+    color: $nav-purple;
     line-height: 25px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
   }
   .event-title {
     font-family: 'Raleway', Times, serif;
     font-size: 27px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 600;
     color: $nav-purple;
     margin-bottom: 11px;
-    font-weight: 500;
     font-size: 25px;
     text-align: left;
-    color: #7d5ab5;
+    //text-decoration: underline;
 
   }
   .event-location {
     color: $nav-purple;
-    font-size: 16px;
     line-height: 25px;
     margin-bottom: 10px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
   }
   .event-host {
     color: $nav-purple;
+    margin-bottom: 12px;
     font-size: 16px;
     line-height: 25px;
-    margin-bottom: 12px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#707070
   }
   .event-description {
     color: $text-grey;
@@ -94,8 +129,9 @@ $border-grey: #A3A6AD;
       height: $diameter;
       border-radius: $diameter;
       color: #fff;
-      background-color: $nav-purple;
-      margin-right: 5px; 
+      //background-color: $nav-purple;
+      background-color: #4f3e6b;
+      margin-right: 5px;
     }
   }
 }

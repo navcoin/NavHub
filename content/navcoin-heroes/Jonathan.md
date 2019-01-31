@@ -1,5 +1,5 @@
 ---
-image: "/images/navcoin-heroes/jonathan.jpg"
+image: "images/jonathan.jpg"
 name: "Jonathan"
 description: "Discord & Reddit Moderator"
 twitter_user: "ifaq_yurmama"

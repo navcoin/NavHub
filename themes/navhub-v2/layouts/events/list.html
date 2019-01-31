@@ -8,12 +8,12 @@
 
 {{ partial "hero_section.html" . }}
 
-<div class="ninety-vw-container two-col grid-container">
+<div class="ninety-vw-container two-col grid-container events">
 
 
-    {{ $list := (.Data.Pages) }}
+    {{ $list := (.Data.Pages.ByDate.Reverse) }}
 
-    {{ range $index, $element := .Data.Pages }}
+    {{ range $index, $element := $list }}
         {{ partial "event_card.html" . }}
     {{ end }}
 
