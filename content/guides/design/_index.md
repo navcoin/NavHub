@@ -50,7 +50,7 @@ Design is a critical part of NavCoin’s marketing efforts. As they say a pictur
 </style>
 
 {{< text_block
-  title="Transforom your ideas to reality in 4 steps" >}}
+  title="From NavHub to the Community Fund" >}}
     <br>
     1. Dream up the improvement you would like to see in the NavCoin ecosystem, and submit your idea to the <a href="https://discord.gg/86daWxp" target=e>Discord Design Channel</a>.
     <br><br>

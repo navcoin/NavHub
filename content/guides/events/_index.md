@@ -160,7 +160,7 @@ misc_url: "https://www.youtube.com/watch?v=UKNZBNiq_Zs"
 
 ## How do i get involved
 {{< text_block
-  title="Transforom your ideas to reality in 4 steps" >}}
+  title="From NavHub to the Community Fund" >}}
 
     1. Dream up the improvement you would like to see in the NavCoin ecosystem, and submit your idea to the <a href="https://discord.gg/7dzGmJ7" target=e>Discord Events Channel</a>.
     <br><br>
