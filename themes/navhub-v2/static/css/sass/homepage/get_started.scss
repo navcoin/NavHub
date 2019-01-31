@@ -26,8 +26,12 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  h1, h2 {
+
     @media (max-width: 870px ) {
       max-width: 600px;
+      text-align: center;
     }
   }
   .grid-container {
