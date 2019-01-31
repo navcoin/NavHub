@@ -4,19 +4,19 @@
 {{ partial "head.html" . }}
 
 <body class="project-single">
-{{ partial "burger_menu.html" . }} 
-{{ partial "sidebar_menu.html" . }}
-</div>
-<div class="header-news">
-    <div class="main-slider-overlay page-header-bg">
-        <div class="page-header-title">
-            <h2>{{ .Title }}</h2>
+    {{ partial "header.html" .  }}
+    <!-- <main> -->
+        <div class="header-project">
+            <div class="main-slider-overlay page-header-bg">
+                <div class="sixty-vw-container">
+                    <h2>{{ .Title }}</h2>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-<main>
-    {{ .Content }}
+
+        {{ .Content }}
+        
+    <!-- </main> -->
     {{ partial "footer.html" . }}
-</main>
 </body>
 </html>

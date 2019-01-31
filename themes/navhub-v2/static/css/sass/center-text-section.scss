@@ -1,0 +1,10 @@
+.center-text-section {
+  padding: 60px 0;
+  text-align: center;
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

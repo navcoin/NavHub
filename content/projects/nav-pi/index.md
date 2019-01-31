@@ -17,7 +17,7 @@ in_progress: false
 completed: true
 
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/Encrypt-S/navpi"
 project_url: "https://store.navcoin.org/product/navpi-stakebox"
@@ -43,7 +43,6 @@ weight: 100
     btn1Txt="Purchase a NavPi StakeBox"
     btn1BgColor="#795BB6"
     btn1Margin="8% 0 0 0"
-    bulletMargin="-5% 0 15% 18%"
     bulletList="true"
     bulletItem1="Raspberry Pi v3"
     bulletItem2="16GB SD Card"

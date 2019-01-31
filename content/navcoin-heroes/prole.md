@@ -1,5 +1,5 @@
 ---
-image: "/images/navcoin-heroes/prole.jpg"
+image: "images/prole.jpg"
 name: "Prole"
 description: "Co-Founder & Core Engineer"
 twitter_user: "proletesseract"
