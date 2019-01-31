@@ -97,6 +97,8 @@ If you are hosting a bigger event like conferences or workshop, you might need s
 short_date_num: ""
 short_month: ""
 eventLongDate: ""
+date: ''
+past: false
 title: ""
 location: ""
 host: ""
@@ -109,23 +111,22 @@ misc_url: ""
   </textarea>
   <button class="button" onclick="copyTxt()">Copy to clipboard</button>
 
-  Here's an example of a completed template for <strong>NavCoin Education Session #4</strong>:
+  Here's an example of a completed template for <strong>NavCoin LiveStream - Community Fund</strong>:
   <br><br>
   <img src="/images/guides/events/event-thumb.png" class="pic thumb">
   <br>
   <textarea class="textarea" id="txtarea">
 ---
-short_date_num: "01"
-short_month: "JAN"
-eventLongDate: "Wednesday, 01 January 2019, 3.30pm - 5.30pm (GMT)"
-title: "NavCoin Education Session #4"
+short_date_num: "18"
+short_month: "OCT"
+eventLongDate: "Thursday, 18 October 2019, 8.30am - 9.30am (GMT+12)"
+date: '2018-10-18T08:30:00+12:00'
+past: true
+title: "NavCoin LiveStream - Community Fund"
 location: "12 Madden Street, Auckland, New Zealand"
-host: "Encrypt-S"
-description: "The first live-streamed NavCoin Core education session is being held Thursday at 0830 NZST. This is roughly 12 hours after this Community News goes live."
-twitter_url: "https://www.youtube.com/channel/UCjDs4JceVSsaeCyvkA9cWCg/videos"
-facebook_url: "https://www.youtube.com/channel/UCjDs4JceVSsaeCyvkA9cWCg/videos"
-meet_up_url: "https://www.youtube.com/channel/UCjDs4JceVSsaeCyvkA9cWCg/videos"
-misc_url: "https://www.youtube.com/channel/UCjDs4JceVSsaeCyvkA9cWCg/videos"
+host: "NavCoin Core"
+description: "In this education session the NavCoin Core devs will be discussing NavCoin's decentralized governance system; the Community Fund"
+misc_url: "https://www.youtube.com/watch?v=UKNZBNiq_Zs"
 ---
   </textarea>
 {{< /text_block >}}
