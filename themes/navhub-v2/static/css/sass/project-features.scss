@@ -1,0 +1,32 @@
+.project-features {
+  .feature-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 60px;
+    @media (max-width: 900px) {
+      grid-gap: 25px;
+    }
+    .project-feature {
+      text-align: center;
+      .feature-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+          max-width: 300px;
+        }
+      }
+      
+      .feature-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 176px;
+          height: 176px;
+        }
+      }
+    }
+  }
+}
+

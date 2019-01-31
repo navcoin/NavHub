@@ -1,0 +1,37 @@
+
+.project-header  {
+  .content-container {
+    display: flex;
+    justify-content: center;
+    @media (max-width: 900px) {
+      flex-direction: column-reverse;
+      text-align: center;
+      align-items: center;  
+      justify-content: flex-start;
+      .caption-area {
+        .heading {
+          margin: 10px 0;
+        }
+        .paragraph-container {
+          margin: 20px 0;
+        }
+      }
+    }
+    .caption-area, .left-img {
+      flex: 1 1 50%;
+    }
+    .left-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      >* {
+        
+        flex: 1 1 50%;
+      }
+
+    }
+    .heading {
+      line-height: 50px;
+    }
+  }
+}

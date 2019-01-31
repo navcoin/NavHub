@@ -14,6 +14,11 @@
 @import './quote.scss';
 @import './text-block.scss';
 @import './divider.scss';
+@import './left_image_section.scss';
+@import './project-header.scss';
+@import './center-text-section.scss';
+@import './project-features.scss';
+@import './project-links.scss';
 
 
 
@@ -81,6 +86,19 @@ a:focus {
 
 .body > p:empty {
   display: none;
+}
+
+.sixty-vw-container {
+  width: 100%;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  @media(max-width: 1450px) {
+    max-width: 90vw;
+  }
+  @media(min-width: 1916px) {
+    max-width: 1150px;
+  }
 }
 
 .ninety-vw-container {
