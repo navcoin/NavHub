@@ -43,7 +43,7 @@ NavCoin is a community driven initiative built and maintained by willing partici
 {{< text_block
   title="From NavHub to the Community Fund" >}}
     <br>
-    1. Dream up the improvement you would like to see in the NavCoin ecosystem, and submit your idea to the <a href="https://discord.gg/wAr93T5" target=e>Discord Community Channel</a>.
+    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/wAr93T5" target=e>Discord Community Channel</a>.
     <br><br>
     2. Disuss and refine your news ideas with the community members and get some buy-ins.
     <br><br>
