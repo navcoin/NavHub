@@ -13,15 +13,31 @@ $border-grey: #A3A6AD;
 }
 
 .event-card {
+  border-radius: 5px;
+  .date-icon {
+    background-color: white;
+  }
   &.past {
-
+    background: #7D5AB5;
+    div{
+      color: white;
+    }
+    .event-title {
+      color: white;
+    }
   }
   &.current {
-    border: 1px solid $nav-purple;
+    background: #2E94DF;
+    div{
+      color: white;
+    }
+    .event-title {
+      color: white;
+    }
   }
   display: flex;
   max-width: 580px;
-  border: 1px solid $border-grey;
+  //border: 1px solid $border-grey;
   background-color: #fff;
   padding: 28px;
   height: 100%;
@@ -40,9 +56,9 @@ $border-grey: #A3A6AD;
       width: $diameter;
       height: $diameter;
       border-radius: $diameter;
-      background-color: $nav-purple;
+      background-color: white;
       font-family: 'Raleway', Times, serif;
-      color: #fff;
+      color: #7D5AB5;
       line-height: 22px;
       .short-date-num {
         font-size: 27px;
@@ -54,10 +70,13 @@ $border-grey: #A3A6AD;
     }
   }
   .event-date {
-    color: $text-grey;
-    font-size: 16px;
+    color: $nav-purple;
     line-height: 25px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
   }
   .event-title {
     font-family: 'Raleway', Times, serif;
@@ -68,7 +87,7 @@ $border-grey: #A3A6AD;
     margin-bottom: 11px;
     font-size: 25px;
     text-align: left;
-    text-decoration: underline;
+    //text-decoration: underline;
 
   }
   .event-location {
@@ -115,24 +134,4 @@ $border-grey: #A3A6AD;
       margin-right: 5px;
     }
   }
-}
-
-.non-border{
-  border: none;
-  border-radius: 0;
-  /*
-  background-color: $nav-purple;
-  .event-location{
-    color: white;
-  }
-  .event-description{
-    color: white;
-  }
-  .event-host{
-    color: white;
-  }
-  .event-title{
-    color: white;
-  }
-  */
 }

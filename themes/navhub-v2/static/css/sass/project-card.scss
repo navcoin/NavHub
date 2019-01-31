@@ -2,9 +2,10 @@
   position: relative;
   overflow: hidden;
   height: 100%;
-  min-height: 360px;
+  min-height: 380px;
   min-width: 310px;
   // padding: 0 5px;
+  border-radius: 5px;
 
   .bg-container {
     background-color: rgba(33, 33, 33, 0.2);
@@ -68,7 +69,7 @@
   }
 
   .card-title {
-    margin: 5px 0;
+    margin: 0.8em 0 0.3em 0;
   }
 
   .project-desc {
@@ -77,10 +78,13 @@
   }
 
   .progress {
-    width: calc(100% - 40px);
+    width: calc(100% - 10px);
     margin-top: 5px;
+    background: #ffffff;
+    border-radius: 30px;
 
     .progress-bar {
+      border-radius: 30px;
       color: #fff;
       background: rgba(207,72,207,1);
       background: -moz-linear-gradient(45deg, rgba(207,72,207,1) 0%, rgba(125,90,181,0.83) 54%, rgba(125,185,232,0.68) 100%);

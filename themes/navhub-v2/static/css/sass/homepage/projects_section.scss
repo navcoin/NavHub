@@ -18,10 +18,7 @@
     }
   }
   .card-container {
-    --grid-gap: 16px;
-
-    border-left: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
+    --grid-gap: 12px;
     display: grid;
     grid-template-columns: repeat(4, var(--card-width));
     overflow-x: scroll;

@@ -1636,12 +1636,8 @@ footer {
       text-align: left;
       color: #111; }
   .homepage-news-section .card-container {
-    border-left: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
     --grid-gap: 18px;
-    border-left: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
-    --grid-gap: 16px;
+    --grid-gap: 12px;
     display: grid;
     grid-template-columns: repeat(4, var(--card-width));
     overflow-x: scroll;
@@ -1708,7 +1704,7 @@ footer {
       text-align: left;
       color: #111; }
   .homepage-projects-section .card-container {
-    --grid-gap: 16px;
+    --grid-gap: 12px;
     border-left: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
     display: grid;
@@ -1767,7 +1763,7 @@ footer {
       text-align: left;
       color: #111; }
   .homepage-events-section .card-container {
-    --grid-gap: 16px;
+    --grid-gap: 12px;
     border-left: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
     display: grid;

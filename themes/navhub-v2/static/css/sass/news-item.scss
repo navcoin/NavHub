@@ -40,6 +40,7 @@
     background-size: cover;
     background-position: center center;
     max-width: 95vw;
+    border-radius: 5px 5px 0 0;
     img {
       width: 100%;
     }
@@ -96,6 +97,7 @@
     margin: auto;
     background: #ffffff;
     padding: 20px;
+    border-radius: 0 0 5px 5px;
     h3 {
       text-overflow: ellipsis;
       white-space: nowrap;
