@@ -37,7 +37,6 @@ weight: 100
     bgColor="#FFF"
     fontColor="#333">}}
 
-
 {{< left_image_section
     title="What Is NavPay?"
     imgSrc="navpay-phone1.png"
