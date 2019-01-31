@@ -4,7 +4,7 @@ title: 'NavHub Guides - Events'
 title_text: 'Events'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, Types of event you can organize, How to add an event to NavHub]
+sections: [Overview, Types of event you can organize, How to add an event to NavHub, How do i get involved]
 page_type: 'guide'
 github_file: 'content/guides/events/_index.md'
 ---
@@ -157,6 +157,22 @@ misc_url: "https://www.youtube.com/watch?v=UKNZBNiq_Zs"
   Again, this won't go live straight away because any change to the navhub.org site needs to be reviewed by the community members. To speed things up, it would be greate to share your pull request link to dicord.
 
 {{< /text_block >}}
+
+## How do i get involved
+{{< text_block
+  title="Transforom your ideas to reality in 4 steps" >}}
+
+    1. Dream up the improvement you would like to see in the NavCoin ecosystem, and submit your idea to the <a href="https://discord.gg/7dzGmJ7" target=e>Discord Events Channel</a>.
+    <br><br>
+    2. Disuss and refine your news ideas with the community members and get some buy-ins.
+    <br><br>
+    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard">Nav Collab</a>.
+    <br><br>
+    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e>Check out the community fund page here</a>
+{{< /text_block >}}
+
+<img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">
+
 
 
 {{< community >}}

@@ -1,5 +1,5 @@
 .community-channels {
-  margin: 20px 0;
+  margin: 1em 0 20px 0;
   h2 {
     text-align: center;
   }
@@ -9,13 +9,22 @@
   display: grid;
   justify-content: center;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(100px,125px));
-  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 70px));
+  grid-gap: 20px;
   grid-auto-rows: minmax(100px, 125px);
   width: 100%;
-  max-width: 660px;
+  max-width: 700px;
+
+  @media (max-width: 600px) {
+    .community-grid{
+          grid-template-columns: repeat(auto-fit, minmax(100px, 125px));
+      max-width: 660px;
+      gap: 15px 15px;
+    }
+
+  }
 }
 
 .community-tile {
-  max-width: 125px;
+  max-width: 70px;
 }
