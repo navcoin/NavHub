@@ -13,6 +13,7 @@
 }
 
 .info-tile {
+  border-radius: 5px;
   padding: 20px;
   padding-top: 1em;
   padding-bottom: 3em;
@@ -20,7 +21,7 @@
   text-align: left;
   background: #fff;
   border: 1px solid #e1e4e8;
-  color: #7a7a7a;
+  color: #707070;
   position: relative;
   height: 100%;
   &.default {
@@ -29,17 +30,19 @@
 
   h3{
     font-family: Roboto;
+    font-family: Raleway;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #707070;
+    color: #7D5AB5;
+    font-weight: 600;
   }
 
 }
 
 .info-add {
-  color: #7933AA;
+  color: #7D5AB5;
   font-size: 40px;
   background-color: #F8F4FB;
   line-height: 100px;
@@ -56,12 +59,13 @@
 
 .info-summary {
   margin-bottom: 20px;
-font-family: Roboto;
-font-weight: normal;
-font-size: 16px;
-line-height: 23px;
-text-align: left;
-color: #a3a6ad;
+  font-family: Roboto;
+  font-weight: 200;
+
+  font-size: 16px;
+  line-height: 23px;
+  text-align: left;
+  color: #707070;
 
 }
 
@@ -75,6 +79,7 @@ color: #a3a6ad;
   padding: 0 10px;
   height: 40px;
   line-height: 40px;
-  color: #7a7a7a;
+  color: #707070;
   background-color: #FFF;
+  border-radius: 0 0 5px 5px;
 }

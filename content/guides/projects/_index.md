@@ -43,7 +43,6 @@ If you’re looking to get involved with crypto, this is the perfect opportunity
 ## Ways you can help existing projects
 
 {{< info_tiles category="projects" >}}
-If you’re looking to get involved with crypto, this is the perfect opportunity for you. There are a range of ways to contribute, and you’ll be surrounded by a passionate community of developers who you can reach out to for help. Not only will you be learning new skills, but you’ll also gain a reputation among the community as someone who’s keen to help out.
 
 ## Create new Development project on NavHub
 {{< text_block

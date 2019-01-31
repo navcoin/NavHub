@@ -84,19 +84,20 @@
   padding: 20px;
   h1{
     font-family: Roboto;
-    font-weight: normal;
+    font-family: raleway;
+    font-weight: 600;
     font-size: 40px;
     line-height: 70px;
     text-align: center;
-    color: #111;
+    color: #7d5ab5;
   }
   h2 {
     line-height: 42px;
     text-align: center;
-    padding: 1.5em 0 0 0;
+    padding: 1.2em 0 0.3em 0;
     font-family: Raleway;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 26px;
     text-align: center;
     color: #111;
   }
@@ -127,6 +128,7 @@
   font-size: 16px;
   text-align: left;
   color: #111;
+  color: #7d5ab5;
 
 }
 

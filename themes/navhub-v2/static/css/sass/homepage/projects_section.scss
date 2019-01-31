@@ -20,7 +20,7 @@
   .card-container {
     --grid-gap: 12px;
     display: grid;
-    grid-template-columns: repeat(4, var(--card-width));
+    grid-template-columns: repeat(8, var(--card-width));
     overflow-x: scroll;
     grid-gap: var(--grid-gap);
     max-width: calc( calc( var(--grid-gap) * 4 ) + calc( var(--card-width) * 4));

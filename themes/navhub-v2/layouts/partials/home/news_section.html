@@ -12,7 +12,7 @@
 
         {{ range $index, $element := $sorted }}
             {{ if (hasPrefix $element.Dir "news") }}
-                {{ if lt $count 4 }}
+                {{ if lt $count 8 }}
                     {{ partial "home/news_card.html" . }}
                     {{ $count = add $count 1 }}
                 {{ end }}
