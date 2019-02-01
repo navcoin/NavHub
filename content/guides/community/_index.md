@@ -29,7 +29,7 @@ NavCoin is a community driven initiative built and maintained by willing partici
 
 <style>
 .no-title-text{
-    width: 700px;
+    max-width: 700px;
     font-family: Roboto;
     font-weight: normal;
     font-size: 16px;

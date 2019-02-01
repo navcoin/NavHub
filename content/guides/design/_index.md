@@ -38,7 +38,7 @@ Design is a critical part of NavCoin’s marketing efforts. As they say a pictur
 
 <style>
 .no-title-text{
-    width: 700px;
+    max-width: 700px;
     font-family: Roboto;
     font-weight: normal;
     font-size: 16px;
