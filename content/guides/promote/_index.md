@@ -48,7 +48,7 @@ Promotion is an important and tricky part of crypto. We want people to be able t
     font-size: 16px;
     line-height: 25px;
     text-align: left;
-    color: #707070;
+    color: #24292e;
     margin: 0 auto;
 }
 </style>

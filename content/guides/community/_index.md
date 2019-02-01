@@ -35,7 +35,7 @@ NavCoin is a community driven initiative built and maintained by willing partici
     font-size: 16px;
     line-height: 25px;
     text-align: left;
-    color: #707070;
+    color: #24292e;
     margin: 0 auto;
 }
 </style>

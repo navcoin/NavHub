@@ -48,7 +48,7 @@ Ideas can come from everywhere and from anyone. And they’re a great way to hel
     font-size: 16px;
     line-height: 25px;
     text-align: left;
-    color: #707070;
+    color: #24292e;
     margin: 0 auto;
 }
 </style>

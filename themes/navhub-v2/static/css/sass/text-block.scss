@@ -1,12 +1,12 @@
 .text-block{
     h3{
         font-family: Roboto;
-        font-weight: normal;
+        font-weight: 500;
         font-size: 23px;
         text-align: center;
         color: #111;
         line-height: 30px;
-        padding-top: 3em;
+        //padding-top: 3em;
     }
     p{
         max-width: 700px;
@@ -15,7 +15,7 @@
         font-size: 16px;
         line-height: 25px;
         text-align: left;
-        color: #707070;
+        color: #24292e;
         margin: 0 auto;
     }
 }

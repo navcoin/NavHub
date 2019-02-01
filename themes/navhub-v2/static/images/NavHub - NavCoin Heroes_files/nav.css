@@ -87,7 +87,7 @@
   max-width: 700px;
   font-family: Roboto;
   font-weight: 100;
-  color: #707070;
+  color: #24292e;
   margin: 0 auto; }
 
 .ninety-vw-container.grid-container.asset-container {
@@ -222,7 +222,7 @@
     font-size: 40px;
     margin: 0 0 26px 0; }
   .item-container-section .container-subtitle {
-    color: #707070;
+    color: #24292e;
     font-size: 26px;
     margin: 0 0 35px 0;
     line-height: 25px;
@@ -258,7 +258,7 @@
     padding: 3px 10px;
     height: 40px;
     line-height: 40px;
-    color: #7a7a7a;
+    color: #24292e;
     background-color: #FFF;
     transition: 0.5s ease; }
     .guides-container .github-edit:hover, .guides-container .github-edit:active {
@@ -293,7 +293,7 @@
     font-size: 16px;
     line-height: 26px; }
   .guides-menu a, .guides-menu a:visited {
-    color: #7a7a7a; }
+    color: #24292e; }
     .guides-menu a:hover, .guides-menu a:active, .guides-menu a:visited:hover, .guides-menu a:visited:active {
       color: #7d5ab5; }
 
@@ -400,7 +400,7 @@
   text-align: left;
   background: #fff;
   border: 1px solid #e1e4e8;
-  color: #7a7a7a;
+  color: #24292e;
   position: relative;
   height: 100%; }
   .info-tile.default {
@@ -411,7 +411,7 @@
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #707070; }
+    color: #24292e; }
 
 .info-add {
   color: #7933AA;
@@ -446,7 +446,7 @@
   padding: 0 10px;
   height: 40px;
   line-height: 40px;
-  color: #7a7a7a;
+  color: #24292e;
   background-color: #FFF; }
 
 .quote {
@@ -472,7 +472,7 @@
   font-size: 18px;
   line-height: 31px;
   text-align: center;
-  color: #707070; }
+  color: #24292e; }
 
 .quote-meta {
   margin-top: 20px;
@@ -498,7 +498,7 @@
   font-size: 16px;
   line-height: 25px;
   text-align: left;
-  color: #707070;
+  color: #24292e;
   margin: 0 auto; }
 
 .divider {
@@ -788,7 +788,7 @@ Partials
       font-size: 18px;
       line-height: 28px;
       text-align: left;
-      color: #707070; }
+      color: #24292e; }
 
 @media (max-width: 900px) {
   .hero-section h1 {
@@ -1027,7 +1027,7 @@ footer {
     padding-top: 35px;
     margin: 0 auto;
     background-color: #fff;
-    color: #707070;
+    color: #24292e;
     padding: 32px 0 0; }
     @media (max-width: 530px) {
       footer .footer-main {
@@ -1136,7 +1136,7 @@ footer {
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
   border-radius: 5px;
-  background-color: #707070; }
+  background-color: #24292e; }
 
 .hamburger.is-closed .hamb-top {
   top: 5px;
@@ -1162,7 +1162,7 @@ footer {
 .hamburger.is-open .hamb-middle,
 .hamburger.is-open .hamb-bottom {
   border-radius: 5px;
-  background-color: #707070; }
+  background-color: #24292e; }
 
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-bottom {
@@ -1211,7 +1211,7 @@ footer {
     display: flex;
     justify-content: flex-end; }
     .blog-details .share-icon ul li a, .blog-meta-wrapper .share-icon ul li a {
-      color: #707070;
+      color: #24292e;
       width: 30px;
       margin-left: 5px; }
 
@@ -1302,7 +1302,7 @@ footer {
         display: inline-block;
         font-weight: 600; }
     .news-item .blog-details p {
-      color: #707070;
+      color: #24292e;
       font-size: 15px;
       line-height: 24px; }
   .news-item .blog-details-how-to {
@@ -1313,7 +1313,7 @@ footer {
   .news-item ul.blog-author-name li {
     display: inline-block;
     margin-right: 10px;
-    color: #707070;
+    color: #24292e;
     font-weight: 400; }
     .news-item ul.blog-author-name li i {
       margin-right: 10px;
@@ -1382,7 +1382,7 @@ footer {
       height: 1.2em;
       background: linear-gradient(to right, rgba(245, 245, 245, 0), white 50%); }
   .news-item .blog-author a {
-    color: #707070; }
+    color: #24292e; }
   .news-item .blog-author i {
     margin-right: 5px;
     color: #9d9d9d; }
@@ -1435,7 +1435,7 @@ footer {
       .event-card .date-icon-container .date-icon .short-date-num {
         font-size: 27px; }
       .event-card .date-icon-container .date-icon .short-date-month {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 12px; }
   .event-card .event-date {
     color: #7D5AB5;
@@ -1444,7 +1444,7 @@ footer {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #707070; }
+    color: #24292e; }
   .event-card .event-title {
     font-family: 'Raleway', Times, serif;
     font-size: 27px;
@@ -1461,7 +1461,7 @@ footer {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #707070; }
+    color: #24292e; }
   .event-card .event-host {
     color: #7D5AB5;
     margin-bottom: 12px;
@@ -1470,9 +1470,9 @@ footer {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #707070; }
+    color: #24292e; }
   .event-card .event-description {
-    color: #707070;
+    color: #24292e;
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 10px; }
@@ -1535,7 +1535,7 @@ footer {
       -webkit-transition: all .2s;
       -o-transition: all .2s;
       transition: all .2s;
-      color: #7a7a7a; }
+      color: #24292e; }
       .blog-grid .blog-item a:hover, .blog-grid .blog-item a:active, .blog-grid .blog-item a:visited:hover, .blog-grid .blog-item a:visited:active {
         color: #7d5ab5; }
   .blog-grid .sidebar {
@@ -1682,7 +1682,7 @@ footer {
       margin: 1.2em 0 0.5em 0; }
     .hero-section-homepage .text-section-container p {
       font-size: 24px;
-      font-weight: 200;
+      font-weight: 400;
       line-height: 43px;
       max-width: 500px;
       margin-bottom: 0.5em; }
@@ -1827,7 +1827,7 @@ footer {
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
         font-weight: 400;
         font-size: 16px;
-        color: #707070; }
+        color: #24292e; }
         .homepage-news-section .homepage-news-card .lower-section .project-author img {
           height: 20px; }
 
@@ -1881,9 +1881,9 @@ footer {
         font-weight: 400;
         font-size: 16px;
         margin-bottom: 12px;
-        color: #707070; }
+        color: #24292e; }
       .homepage-projects-section .card-container .homepage-project-card .description {
-        color: #707070;
+        color: #24292e;
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
         font-size: 16px;
         line-height: 25px; }
@@ -1929,14 +1929,14 @@ footer {
         .homepage-events-section .card-container .event-card .date-icon {
           display: none; } }
     .homepage-events-section .card-container .event-card .event-date {
-      color: #707070; }
+      color: #24292e; }
     .homepage-events-section .card-container .event-card .event-title {
       color: #7D5AB5;
       text-decoration: underline; }
     .homepage-events-section .card-container .event-card .event-location {
-      color: #707070; }
+      color: #24292e; }
     .homepage-events-section .card-container .event-card .event-host {
-      color: #707070; }
+      color: #24292e; }
 
 .get-started-section {
   display: flex;
@@ -1957,8 +1957,8 @@ footer {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     line-height: 40px;
     font-size: 26px;
-    font-weight: 200;
-    color: #707070;
+    font-weight: 400;
+    color: #24292e;
     margin-bottom: 42px;
     max-width: 70vw;
     text-align: center;
@@ -1989,7 +1989,7 @@ footer {
       .get-started-section .grid-container .grid-item:hover {
         border: 1px solid #9D3CD1; }
       .get-started-section .grid-container .grid-item a {
-        color: #707070; }
+        color: #24292e; }
         .get-started-section .grid-container .grid-item a:hover {
           color: #7d5ab5; }
         .get-started-section .grid-container .grid-item a img {
@@ -2007,7 +2007,7 @@ footer {
           text-align: center; }
         .get-started-section .grid-container .grid-item a span {
           font-family: 'Roboto', Helvetica, Arial, sans-serif;
-          font-weight: 200;
+          font-weight: 400;
           font-size: 16px;
           line-height: 27px; }
 
@@ -2033,7 +2033,7 @@ footer {
     line-height: 70px; }
   .homepage-call-to-action h3 {
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 40px;
     margin-bottom: 50px; }
   .homepage-call-to-action .button-container {

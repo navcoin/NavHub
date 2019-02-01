@@ -9,7 +9,7 @@
     padding: 3px 10px;
     height: 40px; 
     line-height: 40px;
-    color: #7a7a7a;
+    color: #24292e;
     background-color: #FFF;
     transition: 0.5s ease;
 
@@ -54,7 +54,7 @@
     line-height: 26px;
   }
   a, a:visited {
-    color: #7a7a7a;
+    color: #24292e;
     &:hover, &:active {
       color: #7d5ab5;  
     } 
@@ -90,20 +90,25 @@
     line-height: 70px;
     text-align: center;
     color: #7d5ab5;
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
   }
   h2 {
     line-height: 42px;
     text-align: center;
-    padding: 1em 0 0.5em 0;
+    padding: 1.4em 0 0.5em 0;
     font-family: Raleway;
     font-weight: normal;
-    font-size: 29px;
+    font-size: 2.1em;
+    font-weight: 700;
     text-align: center;
     color: #111;
   }
   h3 {
     text-align: center;
     padding: 20px 0;
+    padding: 32px 0 16px 0;
   }
 }
 

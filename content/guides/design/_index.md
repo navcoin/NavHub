@@ -44,7 +44,7 @@ Design is a critical part of NavCoin’s marketing efforts. As they say a pictur
     font-size: 16px;
     line-height: 25px;
     text-align: left;
-    color: #707070;
+    color: #24292e;
     margin: 0 auto;
 }
 </style>

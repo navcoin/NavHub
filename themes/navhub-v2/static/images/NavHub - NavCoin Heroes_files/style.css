@@ -61,9 +61,9 @@
     outline: none;
 }
 body {
-    color: #7a7a7a;
+    color: #24292e;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 25px;
     font-size: 16px;
     font-style: normal;
@@ -489,12 +489,12 @@ header.stickey .logo-brand img{
 }
 .caption-area .caption-para {
     font-size: 24px;
-    color: #7a7a7a;
+    color: #24292e;
     margin-bottom: 45px;
     line-height: 36px;
 }
 .caption-area .caption-para-second {
-    color: #7a7a7a;
+    color: #24292e;
     font-size: 16px;
     line-height: 24px;
 }
@@ -726,7 +726,7 @@ header.stickey .logo-brand img{
     margin-bottom: 30px;
 }
 .themeix-para-style {
-    color: #7a7a7a;
+    color: #24292e;
     line-height: 24px;
     font-size: 15px;
 }
@@ -1384,7 +1384,7 @@ ul.author-link li a {
 .news-content ol {
   display: block;
   list-style-type: decimal;
-  color: #707070;
+  color: #24292e;
   font-size: 16px;
   line-height: 24px;
   -webkit-margin-before: 1em;
@@ -1397,7 +1397,7 @@ ul.author-link li a {
 .news-content ul {
   display: block;
   list-style-type: decimal;
-  color: #707070;
+  color: #24292e;
   font-size: 16px;
   line-height: 24px;
   -webkit-margin-before: 1em;

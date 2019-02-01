@@ -1,4 +1,4 @@
-$text-grey: #707070;
+$text-grey: #24292e;
 $nav-purple:#7D5AB5;
 $border-grey: #A3A6AD;
 
@@ -64,7 +64,7 @@ $border-grey: #A3A6AD;
         font-size: 27px;
       }
       .short-date-month {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 12px;
       }
     }
@@ -74,9 +74,9 @@ $border-grey: #A3A6AD;
     line-height: 25px;
     margin-bottom: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    color: #707070;
+    color: #6a737d;
   }
   .event-title {
     font-family: 'Raleway', Times, serif;
@@ -95,9 +95,9 @@ $border-grey: #A3A6AD;
     line-height: 25px;
     margin-bottom: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    color: #707070;
+    color: #6a737d;
   }
   .event-host {
     color: $nav-purple;
@@ -105,9 +105,9 @@ $border-grey: #A3A6AD;
     font-size: 16px;
     line-height: 25px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    color:#707070
+    color:#6a737d
   }
   .event-description {
     color: $text-grey;
