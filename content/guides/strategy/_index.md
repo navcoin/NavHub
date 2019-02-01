@@ -34,6 +34,38 @@ Ideas can come from everywhere and from anyone. And they’re a great way to hel
 
 ## Talk to the community
 
-Ideas are just the start, so make sure to share them with the community for feedback and to find collaborators!
+
+
+<p class="no-title-text">
+    Ideas are just the start, so make sure to share them with the community for feedback and to find collaborators!
+</p>
+
+<style>
+.no-title-text{
+    width: 700px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    color: #707070;
+    margin: 0 auto;
+}
+</style>
+
+
+{{< text_block
+  title="From NavHub to the Community Fund" >}}
+
+    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/85Npg5Y" target=e>Discord Ideas & Strategy Channel</a>.
+    <br><br>
+    2. Disuss and refine your news ideas with the community members and get some buy-ins.
+    <br><br>
+    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard">Nav Collab</a>.
+    <br><br>
+    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e>Check out the community fund page here</a>
+{{< /text_block >}}
+
+<img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">
 
 {{< community >}}
