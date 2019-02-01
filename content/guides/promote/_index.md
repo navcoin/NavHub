@@ -34,6 +34,37 @@ Promotion is an important and tricky part of crypto. We want people to be able t
 
 ## Talk to the community
 
-Make a plan and connect with Community Groups, collab is central hub for discussion collaboration and find support. Some promotions cost money and there's community fund to support you
+
+
+<p class="no-title-text">
+    Make a plan and connect with Community Groups, collab is central hub for discussion collaboration and find support. Some promotions cost money and there's community fund to support you
+</p>
+
+<style>
+.no-title-text{
+    max-width: 700px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    color: #707070;
+    margin: 0 auto;
+}
+</style>
+
+{{< text_block
+  title="From NavHub to the Community Fund" >}}
+    <br>
+    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/uzq4jYr" target=e>Discord Promote NavCoin Channel</a>.
+    <br><br>
+    2. Disuss and refine your news ideas with the community members and get some buy-ins.
+    <br><br>
+    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard">Nav Collab</a>.
+    <br><br>
+    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e>Check out the community fund page here</a>
+{{< /text_block >}}
+
+<img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">
 
 {{< community >}}
