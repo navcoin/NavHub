@@ -108,6 +108,22 @@ github_file: 'content/guides/news/_index.md'
 
 {{< /text_block >}}
 
+
+## How do i get involved
+{{< text_block
+  title="From NavHub to the Community Fund" >}}
+
+    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/uzq4jYr" target=e>Discord News Channel</a>.
+    <br><br>
+    2. Disuss and refine your news ideas with the community members and get some buy-ins.
+    <br><br>
+    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard">Nav Collab</a>.
+    <br><br>
+    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e>Check out the community fund page here</a>
+{{< /text_block >}}
+
+<img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">
+
 {{< community >}}
 
 
