@@ -44,9 +44,9 @@ github_file: 'content/guides/news/_index.md'
 {{< text_block
   title="Step 1: Getting you started" >}}
   <br>
-  1. To add a new article to NavHub, you must first have a GitHub account. If you don't have one, <a href="https://github.com/join" target=e>sign up here</a>.
+  1. To add a new article to NavHub, you must first have a GitHub account. If you don't have one, <a href="https://github.com/join" target= e class="a-guide">sign up here</a>.
   <br><br>
-  2. Then go to <a href="https://navhub.org/admin/" target=e>NavHub Admin</a>.
+  2. Then go to <a href="https://navhub.org/admin/" target=e class="a-guide">NavHub Admin</a>.
   <img src="/images/guides/news/admin.png" class="pic">
   3. Login with your GitHub account, authorise the NavHub App and you will now see this dashboard.
   <img src="/images/guides/news/dashboard.png" class="pic">
@@ -63,7 +63,7 @@ github_file: 'content/guides/news/_index.md'
   <img src="/images/guides/news/hero.png" alt="hero image" class="pic">
   The vertical centring of the text is important for when the image is cropped into a thumbnail for the /news listings page as shown below:
   <img src="/images/guides/news/crop.png" alt="cropped" class="pic">
-  There are numbers of online tools which allow you to easily create a feature image like <a href="https://canva.com" target=e> Canva</a>, and we cherry pick the best feature image from <a href="https://unsplash.com/" target=e>Unsplash</a> . In terms of the design style, we recommened you to follow the <a href="https://navcoin.org/assets/NavCoinBrandGuidelines.pdf" target=e>NavCoin Brand Guideline</a>, but totally fine to come up with your own style to surpise the community!
+  There are numbers of online tools which allow you to easily create a feature image like <a href="https://canva.com" target=e class="a-guide"> Canva</a>, and we cherry pick the best feature image from <a href="https://unsplash.com/" target=e class="a-guide">Unsplash</a> . In terms of the design style, we recommened you to follow the <a href="https://navcoin.org/assets/NavCoinBrandGuidelines.pdf" target=e class="a-guide">NavCoin Brand Guideline</a>, but totally fine to come up with your own style to surpise the community!
   <br><br>
 {{< /text_block >}}
 
@@ -75,7 +75,7 @@ github_file: 'content/guides/news/_index.md'
   The first paragraph of your post will be used as the excerpt and won’t display on the actual news item. If you want the excerpt to be the first paragraph of the news article, you will need to repeat the first paragraph before and after the <strong>&lt;!–-more-–&gt;</strong> tag. Continue to format your post, you can insert images, headings, lists, links and more.
   <br><br>
   If you are still confused, you can look at how the old post was done, 
-  <a href="https://navhub.org/admin/#/collections/news/entries/2018-12-13-navcoin-4-5-0-is-now-available" target=e>check out how we did <strong>NavCoin 4.5.0 Is Now Available!</strong> article here</a>.
+  <a href="https://navhub.org/admin/#/collections/news/entries/2018-12-13-navcoin-4-5-0-is-now-available" target=e class="a-guide">check out how we did <strong>NavCoin 4.5.0 Is Now Available!</strong> article here</a>.
   <br><br>
 
   Once you’re happy with the post, click the <span class="highlight">Save</span> button up the top on the left.
@@ -88,7 +88,7 @@ github_file: 'content/guides/news/_index.md'
   <br>
   1. When you save your article, new options will show up on the top bar. Go the the <span class="highlight">Set Status</span> dropdown and choose <strong>In Review</strong>.
   <img src="/images/guides/news/status.png" class="pic">
-  A pull request will be automatically opened on NavHub GitHub repository. <a href="https://github.com/NAVCoin/NavHub/pulls">Find your pull request here</a>.
+  A pull request will be automatically opened on NavHub GitHub repository. <a href="https://github.com/NAVCoin/NavHub/pulls" target=e class="a-guide">Find your pull request here</a>.
   <br>
   Tips: Pull requests let you tell others about the changes you are about to make to the NavHub.org website, <strong>the changes won't happen straight away until it's approved by 4 other contributors</strong>. 
   <br><br><br>
@@ -113,13 +113,13 @@ github_file: 'content/guides/news/_index.md'
 {{< text_block
   title="From NavHub to the Community Fund" >}}
 
-    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/uzq4jYr" target=e>Discord News Channel</a>.
+    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/XpwNpjm" target=e class="a-guide">Discord News Channel</a>.
     <br><br>
     2. Disuss and refine your news ideas with the community members and get some buy-ins.
     <br><br>
-    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard">Nav Collab</a>.
+    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard" class="a-guide" target=e>Nav Collab</a>.
     <br><br>
-    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e>Check out the community fund page here</a>
+    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e class="a-guide">Check out the community fund page here</a>.
 {{< /text_block >}}
 
 <img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">

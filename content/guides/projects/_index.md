@@ -48,9 +48,9 @@ If you’re looking to get involved with crypto, this is the perfect opportunity
 {{< text_block
   title="Step 1: Getting things ready" >}}
   <br>
-  1. Sign in to our GitHub account, if you don't have one, <a href="https://github.com/join" target=e>sign up here</a>.
+  1. Sign in to our GitHub account, if you don't have one, <a href="https://github.com/join" target= e class="a-guide">sign up here</a>.
   <br><br>
-  2. Then <a href="https://github.com/NAVCoin/NavHub/new/master/content/projects" target=e>go to the NavHub repo</a>
+  2. Then <a href="https://github.com/NAVCoin/NavHub/new/master/content/projects" target=e class="a-guide">go to the navhub repo</a>
   <br><br>
   3. Type your project name in the first text field. (For example : my-awesome-project)
   <br><br>
@@ -67,7 +67,7 @@ If you’re looking to get involved with crypto, this is the perfect opportunity
 {{< text_block
   title="Step 2: Fill out the markdown template" >}}
   <br>
-  Copy the template below to the <strong>index.md</strong> you just created. If you want to customize the background icon for your project, you can <a href="https://github.com/NAVCoin/NavHub/tree/master/themes/nav-community-v1/static/images/icons" target=e>pick one from here</a>.
+  Copy the template below to the <strong>index.md</strong> you just created. If you want to customize the background icon for your project, you can <a href="https://github.com/NAVCoin/NavHub/tree/master/themes/nav-community-v1/static/images/icons" target=e class="a-guide">pick one from here</a>.
   
   <br><br>
   <textarea class="textarea" id="txtarea" onClick="SelectAll('txtarea');">
@@ -134,7 +134,7 @@ weight: 0
   2. Add Reviewers
   <img src="/images/guides/projects/add-reviewers.gif" class="pic">
   <br><br>
-  3. After you commit, a new page will show up. Click on <span class="highlight">Create pull request</span> so people can see your changes. You can see your pull request as the first item  <a href="https://github.com/NAVCoin/NavHub/pulls" target=e>here</a>.
+  3. After you commit, a new page will show up. Click on <span class="highlight">Create pull request</span> so people can see your changes. You can see your pull request as the first item  <a href="https://github.com/NAVCoin/NavHub/pulls" target=e class="a-guide">here</a>.
   <br>
   <img src="/images/guides/projects/pull.png" class="pic"> 
 {{< /text_block >}}
@@ -153,14 +153,13 @@ weight: 0
 ## How do i get involved
 {{< text_block
   title="From NavHub to the Community Fund" >}}
-
-    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/uzq4jYr" target=e>Discord Projects Channel</a>.
+    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/3A3u7fu" target=e class="a-guide">Discord Projects Channel</a>.
     <br><br>
     2. Disuss and refine your news ideas with the community members and get some buy-ins.
     <br><br>
-    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard">Nav Collab</a>.
+    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard" class="a-guide" target=e>Nav Collab</a>.
     <br><br>
-    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e>Check out the community fund page here</a>
+    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e class="a-guide">Check out the community fund page here</a>.
 {{< /text_block >}}
 
 <img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">
