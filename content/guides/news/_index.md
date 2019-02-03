@@ -91,7 +91,8 @@ github_file: 'content/guides/news/_index.md'
   A pull request will be automatically opened on NavHub GitHub repository. <a href="https://github.com/NAVCoin/NavHub/pulls" target=e class="a-guide">Find your pull request here</a>.
   <br>
   Tips: Pull requests let you tell others about the changes you are about to make to the NavHub.org website, <strong>the changes won't happen straight away until it's approved by 4 other contributors</strong>. 
-  <br><br><br>
+  <br><br><br>guides-article
+  
   2. You can preview your changes by clicking <span class="highlight">show all checks</span> and then the <span class="highlight">Details</span> link next to the Netlify deploy preview.
   <img src="/images/guides/news/preview.png" class="pic">
   3. Add Reviewers

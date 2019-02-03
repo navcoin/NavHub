@@ -72,10 +72,14 @@
 @media (max-width: 1650px) {
   .hero-section-homepage{
     background-position: 0% center, 100% center;
+    
   }
 }
 
 @media (max-width: 900px) {
+  .hero-section-homepage{
+    background-image: none !important;
+  }
   .hero-section-homepage h1 {
     font-size: 35px;
   }
