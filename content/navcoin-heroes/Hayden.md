@@ -1,5 +1,5 @@
 ---
-image: "images/hayden.png"
+image: "images/hayden.jpg"
 name: "Hayden"
 description: "Community Dev"
 twitter_user: "ManipulusNZ"
