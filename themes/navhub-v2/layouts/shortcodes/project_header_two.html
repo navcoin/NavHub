@@ -1,50 +1,10 @@
 <section class="project-header project-header-2 {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" id="project" >
         <div style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
-<<<<<<< HEAD
             <div class="content-container sixty-vw-container">
                 <div class="caption-area" style="padding: {{ .Get "captionPadding"}} 0;">
                     <h1 class="heading" style="color: {{ .Get "fontColor" }}">{{ .Get "title" }}</h1>
                     <p class="subheading" style="color: {{ .Get "fontColor" }}">{{ .Get "subhead" }}</p>
                     <p class="paragraph" style="color: {{ .Get "fontColor" }}">{{ .Get "text" }}</p>
-=======
-          <div class="container project-header-two">
-            <div class="row">
-                <div class="col-md-12">
-                        <div class="col-md-6">
-                            <div class="caption-area" style="padding: {{ .Get "captionPadding"}} 0;">
-                                <h1 class="caption-heading" style="color: {{ .Get "fontColor" }}">{{ .Get "title" }}</h1>
-                                <p class="caption-para" style="color: {{ .Get "fontColor" }}">{{ .Get "subhead" }}</p>
-                                <p class="caption-para-second" style="color: {{ .Get "fontColor" }}">{{ .Get "text" }}</p>
-                                {{ if isset .Params "btn1Link" }}
-                                <div class="themeix-button-group">
-                                  <a href="{{ .Get "btn1Link" }}" target="{{ .Get "btn1Target" }}" class="btn btn-purple smoothScroll" style="background-color: {{ .Get "btn1BgColor"}}; margin: {{ .Get "btn1Margin" }}">{{ .Get "btn1Txt" }}</a>
-                                </div>
-                                {{ end }}
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="about-appix-left-img" style="padding: {{ .Get "imgPadding"}}; margin: {{ .Get "imgMargin"}};">
-                                <img src="{{ .Get "imgSrc" }}" style="max-height: {{ .Get "imgHeight"}};">
-                            </div>
-                            <div class="under-image" style="margin: {{ .Get "bulletMargin"}};">
-                            {{ if ne (.Get "bulletList") "false" }}
-                                <ul>
-                                    {{ if isset .Params "bulletItem1" }}
-                                        <li>{{ .Get "bulletItem1" }}</li>
-                                    {{ end }}
-                                    {{ if isset .Params "bulletItem2" }}
-                                        <li>{{ .Get "bulletItem2" }}</li>
-                                    {{ end }}
-                                    {{ if isset .Params "bulletItem3" }}
-                                        <li>{{ .Get "bulletItem3" }}</li>
-                                    {{ end }}
-                                    {{ if isset .Params "bulletItem4" }}
-                                        <li>{{ .Get "bulletItem4" }}</li>
-                                    {{ end }}
-                                </ul>
-                            {{ end }}
-                        </div>
->>>>>>> b4c15fc17cf2a9acd3f134a50a4e742f483d2fa0
                 </div>
                 <div class="left-img" style="padding: {{ .Get "imgPadding"}} 0;">
                     <img src="{{ .Get "imgSrc" }}" style="max-height: {{ .Get "imgHeight"}};">

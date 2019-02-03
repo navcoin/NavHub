@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div class="left-image-section {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" style="background-color: {{ .Get "bgColor" }};">
     <div class="content-container sixty-vw-container" style="padding: {{ .Get "containerPadding" }};">
         <div class="left-image" style="padding: {{ .Get "imgPadding"}} 0; margin-top: {{ .Get "imgMarginTop"}};">
@@ -15,38 +14,7 @@
                     {{ end }}
                     {{ if isset .Params "btn3Link" }}
                         <a href="{{ .Get "btn3Link" }}" target="{{ .Get "btn3Target" }}" class="themeix-btn themeix-danger smoothScroll" style="background-color: {{ .Get "linkBgColor"}}">{{ .Get "btn3Txt" }}</a>
-                    {{ end }}
-=======
-
-
-<div class="{{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" style="background-color: {{ .Get "bgColor" }};">
-  <div class="container" id="{{(.Get "id")}}">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="about-pb" style="padding: {{ .Get "containerPadding" }};">
-                <div class="col-md-6">
-                    <div class="about-appix-left-img" style="padding: {{ .Get "imgPadding"}} 0; margin-top: {{ .Get "imgMarginTop"}};">
-                        <img src="{{ .Get "imgSrc" }}" style="max-height: {{ .Get "imgHeight"}};">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about-appix-right-content">
-                        <h2 class="themeix-title-h1" style="color: {{ .Get "fontColor" }}">{{ .Get "title"}}</h2>
-                        <div class="para-mb" style="color: {{ .Get "fontColor" }}">{{ .Inner }}</div>
-                        {{ if isset .Params "btn1Link" }}
-                        <div class="themeix-button-group">
-                            <a href="{{ .Get "btn1Link" }}" target="{{ .Get "btn1Target" }}" class="btn btn-purple smoothScroll" style="background-color: {{ .Get "linkBgColor"}}">{{ .Get "btn1Txt" }}</a>
-                            {{ if isset .Params "btn2Link" }}
-                            <a href="{{ .Get "btn2Link" }}" target="{{ .Get "btn2Target" }}" class="btn btn-purple smoothScroll" style="background-color: {{ .Get "linkBgColor"}}">{{ .Get "btn2Txt" }}</a>
-                            {{ end }}
-                            {{ if isset .Params "btn3Link" }}
-                            <a href="{{ .Get "btn3Link" }}" target="{{ .Get "btn3Target" }}" class="btn btn-purple smoothScroll" style="background-color: {{ .Get "linkBgColor"}}">{{ .Get "btn3Txt" }}</a>
-                            {{ end }}
-                        </div>
-                        {{ end }}
-                    </div>
->>>>>>> b4c15fc17cf2a9acd3f134a50a4e742f483d2fa0
-                </div>
+                    {{ end }}                </div>
             {{ end }}
         </div>
     </div>
