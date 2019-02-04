@@ -1,6 +1,6 @@
 ---
 layout: guides
-title: 'Nav'
+title: 'NavHub Guides Overview'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
 feature_image: /images/uploads/may-20.png

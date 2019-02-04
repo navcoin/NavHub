@@ -18,4 +18,11 @@
         color: #24292e;
         margin: 0 auto;
     }
+    a, a:visited {
+        color:#24292e;
+        text-decoration: underline;
+        &:hover, &:active {
+            color: #7d5ab5;  
+        }
+    }
 }
