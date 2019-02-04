@@ -23,7 +23,10 @@
         margin-right: 0;
       }
       img {
-      height: 30px;
+        height: 18px;
+        &:hover {
+          filter: brightness(359%) hue-rotate(30deg);
+        }
     }
   }
   }

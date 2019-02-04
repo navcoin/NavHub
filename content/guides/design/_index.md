@@ -4,7 +4,7 @@ title: 'NavHub Guides - Design'
 title_text: 'Design'
 author: Carter
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, How you can help, How do i get involved]
+sections: [Overview, How you can help, How do I get involved]
 page_type: 'guide'
 github_file: 'content/guides/design/_index.md'
 ---
@@ -31,7 +31,7 @@ Design is a critical part of NavCoin’s marketing efforts. As they say a pictur
 
 {{< info_tiles category="design" >}}
 
-## How do i get involved
+## How do I get involved
 <p class="no-title-text">
     If you have a passion for design and you're interested in contributing to NavCoin, then join some of the community channels below and say hello. The best way to start is to talk with other community members and see if anyone needs any assistance with a project or has any ideas to share. Otherwise just dive right in there, create some content and share it with the rest of the community for feedback.
 </p>
