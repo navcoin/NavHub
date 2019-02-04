@@ -23,7 +23,7 @@
         </li>
         {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
             <li class="guides-page">
-                <a href="{{ .Permalink}}"><span>{{ .Params.title_text }}</span></a>
+                <a href="{{ .URL }}"><span>{{ .Params.title_text }}</span></a>
             </li>
         {{end}}
     </ul>
@@ -31,6 +31,7 @@
         <li class="sidebar-list-title">Community Channels</li>
         <li>
             <div class="social-icon-container">
+                <!-- Note on discord icon: https://github.com/NAVCoin/NavHub/pull/225#issuecomment-460107790 -->
                 <a href="https://discord.gg/y4Vu9jw" target="_blank"><img src="/images/icons/discord-small.png" alt="discord"></a>
                 <a href="https://twitter.com/navcoin" target="_blank"><span class="fa fa-twitter"></span></a>
                 <a href="https://github.com/navcoin" target="_blank"><span class="fa fa-github"></span></a>
