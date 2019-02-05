@@ -40,19 +40,6 @@ Promotion is an important and tricky part of crypto. We want people to be able t
     Make a plan and connect with Community Groups, collab is central hub for discussion collaboration and find support. Some promotions cost money and there's community fund to support you
 </p>
 
-<style>
-.no-title-text{
-    max-width: 700px;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: left;
-    color: #24292e;
-    margin: 0 auto;
-}
-</style>
-
 {{< text_block
   title="From NavHub to the Community Fund" >}}
     <br>

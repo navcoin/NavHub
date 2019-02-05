@@ -27,19 +27,6 @@ NavCoin is a community driven initiative built and maintained by willing partici
     If you're interested in making the NavCoin community a better place and helping others, then join some of the community channels below and say hello. What are you waiting for?
 </p>
 
-<style>
-.no-title-text{
-    max-width: 700px;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: left;
-    color: #24292e;
-    margin: 0 auto;
-}
-</style>
-
 {{< text_block
   title="From NavHub to the Community Fund" >}}
     <br>

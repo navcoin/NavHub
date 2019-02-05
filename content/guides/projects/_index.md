@@ -54,7 +54,7 @@ If you’re looking to get involved with crypto, this is the perfect opportunity
   <br><br>
   3. Type your project name in the first text field. (For example : my-awesome-project)
   <br><br>
-  4. Then hit <span class="highlight">/</span> on your keyboard, an empty input field will appear. 
+  4. Then hit <span class="highlight">/</span> on your keyboard, an empty input field will appear.
   <br><br>
   5. Type <strong>index.md</strong> in the new input field.
   <br><br>
@@ -68,12 +68,12 @@ If you’re looking to get involved with crypto, this is the perfect opportunity
   title="Step 2: Fill out the markdown template" >}}
   <br>
   Copy the template below to the <strong>index.md</strong> you just created. If you want to customize the background icon for your project, you can <a href="https://github.com/NAVCoin/NavHub/tree/master/themes/nav-community-v1/static/images/icons" target=e class="a-guide">pick one from here</a>.
-  
+
   <br><br>
   <textarea class="textarea" id="txtarea" onClick="SelectAll('txtarea');">
 ---
 title: ""
-date: 
+date:
 draft: false
 author: ""
 description: ""
@@ -136,7 +136,7 @@ weight: 0
   <br><br>
   3. After you commit, a new page will show up. Click on <span class="highlight">Create pull request</span> so people can see your changes. You can see your pull request as the first item  <a href="https://github.com/NAVCoin/NavHub/pulls" target=e class="a-guide">here</a>.
   <br>
-  <img src="/images/guides/projects/pull.png" class="pic"> 
+  <img src="/images/guides/projects/pull.png" class="pic">
 {{< /text_block >}}
 
 
@@ -144,7 +144,7 @@ weight: 0
 {{< text_block
   title="Congrats!" >}}
   <br>
-  Well done! You just created you project card on NavHub! 
+  Well done! You just created you project card on NavHub!
   <br><br>
   Again, this won't go live straight away because any change to the navhub.org site needs to be reviewed by the community members. To speed things up, it would be greate to share your pull request link to dicord.
 
@@ -165,65 +165,6 @@ weight: 0
 <img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">
 
 
-<style>
-.highlight{
-  margin: 0 2px;
-  padding: 0px 5px;
-  border: 1px solid #ddd;
-  background-color: #f8f8f8;
-  border-radius: 3px;
-}
-
-.textarea {
-  line-height: 1.5em;
-  background: #fffff;
-  max-width: 700px;
-  padding: 15px 30px;
-  margin-bottom: 8px;
-  font-size: 14px;
-  font-style: italic;
-  color: #66757f;
-  height: 400px;
-  border: 1px solid #ccd6dd;
-  border-radius: 5px;
-  resize: none;
-  overflow-y: scroll;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.button {
-  background: #1073E7;
-  font-size: 17px;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  min-width: 300px;
-  padding: 8px 30px;
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 0px;
-  border: none;
-  color: #fff;
-  transition: 0.4s;
-  display: flex;
-  margin: 15px auto;
-  margin-bottom: 30px;
-}
-
-.pic {
-  border-radius: 5px;
-  display: flex; 
-  border: 1px solid #ccd6dd; 
-}
-
-.thumb{
-  max-width: 300px;
-}
-
-</style>
-
-
-
 <script type="text/javascript">
 function copyTxt(){
     var copyText = document.getElementById("txtarea");
@@ -232,7 +173,7 @@ function copyTxt(){
 
   document.execCommand("copy");
 }  
-  
+
 function SelectAll(id)
 {
     document.getElementById(id).focus();

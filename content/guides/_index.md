@@ -19,15 +19,25 @@ NavHub is aiming to be a central resource for the community - by helping people 
 
 There are a lot of ways to get involved and ultimately maintaining this website is the responsibility of the whole NavCoin community. Here are a few suggestions of where to get started or you can browse to the specific guide on the left menu.
 
-## Adding guides
-There are a huge number of ways that people can help out, and creating guides makes it easy for people to do so. It can be daunting when first getting involved in an open source community, so making it clear for people how they can get involved lowers the barrier to get involved.
+{{< info_tiles category="overview" >}}
 
-## Adding community assets
-Community assets make it easier for other people to create new content. So instead of needing to spend time finding logos/assets/information - they can just get on with the job, and pull in the assets they need. One way to help the community is by making sure that any & all NavCoin assets are put in the community assets page through GitHub.
+## How do I get involved
+<p class="no-title-text">
+    If you want to contribute to NavHub, then join some of the community channels below and say hello. The best way to start is to talk with other community members and see if anyone needs any assistance ideas for what content needs adding. Otherwise just dive right in there, create some content and share it with the rest of the community for feedback.
+</p>
 
-## Help projects write news/updates
-There can be a lot of progress going on under the hood, and developers don’t always have the time to write about what they’re doing. A great way to add value to the community is to write about what’s going on, in way that’s easy to understand.
+{{< text_block
+  title="From NavHub to the Community Fund" >}}
+    <br>
+    1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/86daWxp" target=e class="a-guide">Discord Design Channel</a>.
+    <br><br>
+    2. Disuss and refine your news ideas with the community members and get some buy-ins.
+    <br><br>
+    3. Pulish the polished idea onto <a href="https://collab.navcoin.org/dashboard" class="a-guide" target=e>Nav Collab</a>.
+    <br><br>
+    4. Great! Now you can apply for the NavCoin Community Fund with has a link to you the project on Nav Collab and get paid for working and deliverying you ideas. <a href="https://navcoin.org/en/community-fund/" target=e class="a-guide">Check out the community fund page here</a>.
+{{< /text_block >}}
 
+<img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">
 
-## Add in heroes from the community
-Notice someone going the extra mile in Discord? Always available to lend a hand or answer a question across our channels? Add them in as a hero, and help them be recognised for their efforts.
+{{< community >}}

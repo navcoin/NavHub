@@ -40,20 +40,6 @@ Ideas can come from everywhere and from anyone. And they’re a great way to hel
     Ideas are just the start, so make sure to share them with the community for feedback and to find collaborators!
 </p>
 
-<style>
-.no-title-text{
-    width: 700px;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: left;
-    color: #24292e;
-    margin: 0 auto;
-}
-</style>
-
-
 {{< text_block
   title="From NavHub to the Community Fund" >}}
     1. If you think you have a greate idea and wish to delivery a major improvement to to the NavCoin ecosystem, it would be greate to communicate with other NavCoin members,and submit your idea to the <a href="https://discord.gg/uzq4jYr" target=e class="a-guide">Discord Ideas & Strategy Channel</a>.

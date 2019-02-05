@@ -33,27 +33,9 @@ Testing is a critical part of open source software - particularly in crypto wher
 
 ## So what now
 
-
-
-
-
-
 <p class="no-title-text">
     It doesn’t matter if you have an idea - come say hi in our discord channel!
 </p>
-
-<style>
-.no-title-text{
-    max-width: 700px;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: left;
-    color: #24292e;
-    margin: 0 auto;
-}
-</style>
 
 {{< text_block
   title="From NavHub to the Community Fund" >}}

@@ -7,14 +7,14 @@
     border: 1px solid #DDD;
     border-radius: 5px;
     padding: 3px 10px;
-    height: 40px; 
+    height: 40px;
     line-height: 40px;
     color: #24292e;
     background-color: #FFF;
     transition: 0.5s ease;
 
       &:hover, &:active {
-        color: #7d5ab5;  
+        color: #7d5ab5;
         border-color: #7d5ab5;
     }
   }
@@ -56,8 +56,8 @@
   a, a:visited {
     color: #24292e;
     &:hover, &:active {
-      color: #7d5ab5;  
-    } 
+      color: #7d5ab5;
+    }
   }
 }
 
@@ -65,7 +65,7 @@
   transition: 0.5s ease;
 
       &:hover, &:active {
-        color: #7d5ab5;  
+        color: #7d5ab5;
         transform: scale(1.1);
       }
 }
@@ -86,13 +86,12 @@
     font-family: Roboto;
     font-family: raleway;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.1em;
     line-height: 70px;
     text-align: center;
     color: #7d5ab5;
     display: block;
-    font-size: 17px;
-    font-weight: 700;
+
   }
   h2 {
     line-height: 42px;
@@ -142,7 +141,7 @@
   text-transform: capitalize;
   margin: 10px 0;
   border-bottom: 1px solid #DDD;
-  
+
 }
 
 .guides-page h4 {
@@ -178,5 +177,73 @@
   li:before {
     content: "";
     text-indent: -5px;
+  }
+}
+
+.guides-container {
+
+  .no-title-text {
+      max-width: 700px;
+      font-family: Roboto;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: left;
+      color: #24292e;
+      margin: 0 auto;
+  }
+
+  .highlight{
+    margin: 0 2px;
+    padding: 0px 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+  }
+
+  .textarea {
+    line-height: 1.5em;
+    background: #fffff;
+    max-width: 700px;
+    padding: 15px 30px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-style: italic;
+    color: #66757f;
+    height: 400px;
+    border: 1px solid #ccd6dd;
+    border-radius: 5px;
+    resize: none;
+    overflow-y: scroll;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .button {
+    background: #1073E7;
+    font-size: 17px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    min-width: 300px;
+    padding: 8px 30px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px;
+    border: none;
+    color: #fff;
+    transition: 0.4s;
+    display: flex;
+    margin: 15px auto;
+    margin-bottom: 30px;
+  }
+
+  .pic {
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #ccd6dd;
+  }
+
+  .thumb{
+    max-width: 400px;
   }
 }

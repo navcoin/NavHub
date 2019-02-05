@@ -36,19 +36,6 @@ Design is a critical part of NavCoin’s marketing efforts. As they say a pictur
     If you have a passion for design and you're interested in contributing to NavCoin, then join some of the community channels below and say hello. The best way to start is to talk with other community members and see if anyone needs any assistance with a project or has any ideas to share. Otherwise just dive right in there, create some content and share it with the rest of the community for feedback.
 </p>
 
-<style>
-.no-title-text{
-    max-width: 700px;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: left;
-    color: #24292e;
-    margin: 0 auto;
-}
-</style>
-
 {{< text_block
   title="From NavHub to the Community Fund" >}}
     <br>

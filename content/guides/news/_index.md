@@ -4,42 +4,33 @@ title: 'NavHub Guides - News'
 title_text: 'News'
 author: Craig MacGregor
 date: '2018-05-30T17:44:23+12:00'
-sections: [Overview, What can you write, How can I post an article to NavHub]
+sections: [Overview,  What can I write, How can I post an article]
 page_type: 'guide'
 github_file: 'content/guides/news/_index.md'
 
 ---
 
-# News, Blogs, Aricles, Stories
+# News, Updates & Articles
 
 ## Overview
 
 {{< big_text >}}
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras enim turpis, tempus non ligula quis, dapibus vestibulum tellus. Cras enim turpis, tempus non ligula quis, dapibus vestibulum.
+   The NavHub News isn't just about reporting on what the NavCoin Core developers are doing. It's a place where any NavCoin community member can showcase the work they are contributing to this decentralised project.
 {{< /big_text >}}
 
 {{< divider >}}
 
 {{< text_block
   title="Who can write to NavHub?" >}}
-  Anyone can add their own news article to the NavHub. The news section is now a decentralised publication about all the things happening in the NavCoin community. We’ve implemented an Content Management System to the site as a way for non-developers to add their articles. There’s still a few steps that need to take place, so be sure to read this guide if you want to contribute.
+  You! The news section is a decentralised publication about all the things happening in the NavCoin community. We’ve implemented an Content Management System to the site as a way for non-developers to add their articles. There’s still a few steps that need to take place, so be sure to read this guide if you want to contribute.
 {{< /text_block >}}
 
-{{< quote
-  image="/images/guides/news/easy.jpg"
-  text="We'd partner with @NavCoin to bring Australia the easiest way to get #crypto - we're ready to launch right now, just need a partner in crime!"
-  author="Easy Crypto"
-  link_href="https://twitter.com/easycryptonz"
-  link_text="@easycryptonz"
->}}
+## What can I write
 
-## What can you write
-
-{{< info_tiles category="events" >}}
+{{< info_tiles category="news" >}}
 
 
-
-## How can I post an article to NavHub
+## How can I post an article
 
 {{< text_block
   title="Step 1: Getting you started" >}}
@@ -74,7 +65,7 @@ github_file: 'content/guides/news/_index.md'
   <img src="/images/guides/news/body.png" alt="write body" class="pic">
   The first paragraph of your post will be used as the excerpt and won’t display on the actual news item. If you want the excerpt to be the first paragraph of the news article, you will need to repeat the first paragraph before and after the <strong>&lt;!–-more-–&gt;</strong> tag. Continue to format your post, you can insert images, headings, lists, links and more.
   <br><br>
-  If you are still confused, you can look at how the old post was done, 
+  If you are still confused, you can look at how the old post was done,
   <a href="https://navhub.org/admin/#/collections/news/entries/2018-12-13-navcoin-4-5-0-is-now-available" target=e class="a-guide">check out how we did <strong>NavCoin 4.5.0 Is Now Available!</strong> article here</a>.
   <br><br>
 
@@ -90,9 +81,9 @@ github_file: 'content/guides/news/_index.md'
   <img src="/images/guides/news/status.png" class="pic">
   A pull request will be automatically opened on NavHub GitHub repository. <a href="https://github.com/NAVCoin/NavHub/pulls" target=e class="a-guide">Find your pull request here</a>.
   <br>
-  Tips: Pull requests let you tell others about the changes you are about to make to the NavHub.org website, <strong>the changes won't happen straight away until it's approved by 4 other contributors</strong>. 
+  Tips: Pull requests let you tell others about the changes you are about to make to the NavHub.org website, <strong>the changes won't happen straight away until it's approved by 4 other contributors</strong>.
   <br><br><br>guides-article
-  
+
   2. You can preview your changes by clicking <span class="highlight">show all checks</span> and then the <span class="highlight">Details</span> link next to the Netlify deploy preview.
   <img src="/images/guides/news/preview.png" class="pic">
   3. Add Reviewers
@@ -103,7 +94,7 @@ github_file: 'content/guides/news/_index.md'
 {{< text_block
   title="Congrats!" >}}
   <br>
-  Well done! You just created your article on NavHub! 
+  Well done! You just created your article on NavHub!
   <br><br>
   Again, this won't go live straight away because any change to the navhub.org site needs to be reviewed by the community members. To speed things up, it would be greate to share your pull request link to dicord.
 
@@ -126,63 +117,3 @@ github_file: 'content/guides/news/_index.md'
 <img src="/images/guides/workflow.png" style="display: flex; max-width: 700px;margin: 0 auto; margin-top: 30px;">
 
 {{< community >}}
-
-
-
-<style>
-.highlight{
-  margin: 0 2px;
-  padding: 0px 5px;
-  border: 1px solid #ddd;
-  background-color: #f8f8f8;
-  border-radius: 3px;
-}
-
-.textarea {
-  line-height: 1.5em;
-  background: #fffff;
-  max-width: 700px;
-  padding: 15px 30px;
-  margin-bottom: 8px;
-  font-size: 14px;
-  font-style: italic;
-  color: #66757f;
-  height: 400px;
-  border: 1px solid #ccd6dd;
-  border-radius: 5px;
-  resize: none;
-  overflow-y: scroll;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.button {
-  background: #1073E7;
-  font-size: 17px;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  min-width: 300px;
-  padding: 8px 30px;
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 0px;
-  border: none;
-  color: #fff;
-  transition: 0.4s;
-  display: flex;
-  margin: 15px auto;
-  margin-bottom: 30px;
-}
-
-.pic {
-  border-radius: 5px;
-  display: flex; 
-  border: 1px solid #ccd6dd; 
-  margin: 15px 0 30px 0;
-}
-
-.thumb{
-  max-width: 300px;
-}
-
-</style>
