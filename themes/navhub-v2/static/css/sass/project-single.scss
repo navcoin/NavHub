@@ -1,0 +1,42 @@
+.project-single {
+  main {
+    grid-template-rows: 1fr;
+  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: flex-start;
+  >* {
+    width: 100vw;
+  }
+  // >.footer {
+// 
+  // }
+  h1 {
+    margin: 30px 0;
+  } 
+  h2 {
+    margin: 20px 0;
+    
+  } 
+  h3 {
+    margin: 15px 0;
+
+  } 
+  p:empty {
+    display: none;
+  }
+  p {
+    margin: 10px 0;
+    max-width: 750px;
+  }
+  a {
+      color: #333;
+      text-decoration: underline;
+      &:hover {
+        color: #7d5ab5;
+        text-decoration: underline;
+      }
+  }
+}

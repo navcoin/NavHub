@@ -1,0 +1,25 @@
+<div class="home-page-card-section homepage-projects-section ninety-vw-container">
+    <div class="title-container">
+        <h2>Community Projects</h2>
+        <a href="/projects">See all projects&nbsp;&nbsp;
+            <span class="fa fa-chevron-right"></span>
+        </a>
+    </div>
+    <div class="card-container">
+
+        {{ $list := .Site.Pages}}
+
+        {{ $projects := where $list "Params.show_on_projects" true }}
+
+        {{ $sorted := sort $projects "Params.date" "desc" }}
+        {{ $count := 0 }}
+        {{ range $index, $element := $sorted }}
+            {{ if (hasPrefix $element.Dir "projects") }}
+                {{ if lt $count 8 }}
+                    {{ partial "home/project_card.html" . }}
+                    {{ $count = add $count 1 }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+</div>

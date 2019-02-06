@@ -1,0 +1,249 @@
+.guides-container {
+  display: grid;
+  grid-template-columns: minmax(200px, 330px) repeat(2, minmax(200px,450px)) minmax(0,1fr);
+  min-height: 100vh;
+  .github-edit {
+    text-align: right;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 3px 10px;
+    height: 40px;
+    line-height: 40px;
+    color: #24292e;
+    background-color: #FFF;
+    transition: 0.5s ease;
+
+      &:hover, &:active {
+        color: #7d5ab5;
+        border-color: #7d5ab5;
+    }
+  }
+}
+.guides-stickey {
+  position: fixed;
+  min-width: 200px;
+  max-width: 330px;
+  width: 33vw;
+
+}
+.guides-menu {
+  grid-column: 1;
+  grid-row: 1 / 2;
+  background-color: #FBFBFB;
+  width: 100%;
+  min-width: 200px;
+  max-width: 330px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+  padding: 10px 40px 10px 25px;
+
+
+  h2 {
+    font-size: 24px;
+  }
+  a h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  ul {
+    margin-bottom: 10px;
+  }
+  li {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  a, a:visited {
+    color: #24292e;
+    &:hover, &:active {
+      color: #7d5ab5;
+    }
+  }
+}
+
+.social-icon li i {
+  transition: 0.5s ease;
+
+      &:hover, &:active {
+        color: #7d5ab5;
+        transform: scale(1.1);
+      }
+}
+
+
+.footer-container {
+  grid-column: 1 / 5;
+  grid-row: 2;
+  align-self: flex-end;
+  height: 100%;
+}
+
+.guides-article {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  padding: 20px;
+  h1{
+    font-family: Roboto;
+    font-family: raleway;
+    font-weight: 600;
+    font-size: 2.1em;
+    line-height: 70px;
+    text-align: center;
+    color: #7d5ab5;
+    display: block;
+
+  }
+  h2 {
+    line-height: 42px;
+    text-align: center;
+    padding: 1.4em 0 0.5em 0;
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 2.1em;
+    font-weight: 700;
+    text-align: center;
+    color: #24292e;
+  }
+  h3 {
+    text-align: center;
+    padding: 20px 0;
+    padding: 32px 0 16px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .guides-container {
+    grid-template-columns: 1fr;
+  }
+
+  .guides-article, .footer-container {
+    grid-column: 1 / -1;
+  }
+  .guides-menu {
+    display: none;
+  }
+}
+
+.guides-menu-title {
+  font-size: 20px;
+  margin: 20px 0;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  color: #24292e;
+  color: #7d5ab5;
+
+}
+
+.guides-page h3 {
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 10px 0;
+  border-bottom: 1px solid #DDD;
+
+}
+
+.guides-page h4 {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100px;
+  text-align: left;
+  color: #24292e;
+  padding: 10px 0;
+}
+
+.guides-page ul li a{
+
+}
+
+.guides-page ul {
+  padding-left: 20px;
+}
+
+.guides-category ul li a {
+  color: #666;
+}
+
+.guides-page ul {
+  list-style-type: none;
+  li {
+    text-indent: -5px;
+    a {
+      padding-left: 3px;
+    }
+  }
+  li:before {
+    content: "";
+    text-indent: -5px;
+  }
+}
+
+.guides-container {
+
+  .no-title-text {
+      max-width: 700px;
+      font-family: Roboto;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: left;
+      color: #24292e;
+      margin: 0 auto;
+  }
+
+  .highlight{
+    margin: 0 2px;
+    padding: 0px 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+  }
+
+  .textarea {
+    line-height: 1.5em;
+    background: #fffff;
+    max-width: 700px;
+    padding: 15px 30px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-style: italic;
+    color: #66757f;
+    height: 400px;
+    border: 1px solid #ccd6dd;
+    border-radius: 5px;
+    resize: none;
+    overflow-y: scroll;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .button {
+    background: #1073E7;
+    font-size: 17px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    min-width: 300px;
+    padding: 8px 30px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px;
+    border: none;
+    color: #fff;
+    transition: 0.4s;
+    display: flex;
+    margin: 15px auto;
+    margin-bottom: 30px;
+  }
+
+  .pic {
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #ccd6dd;
+  }
+
+  .thumb{
+    max-width: 400px;
+  }
+}

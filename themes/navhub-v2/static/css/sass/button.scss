@@ -1,0 +1,105 @@
+
+@import "./colors.scss";
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0px;
+  border: none;
+  background: none;  
+  color: #fff;
+  transition: 0.4s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  img {
+    height: 15px;
+  }
+}
+
+.btn-blue {
+  background: #1073E7;
+  font-size: 17px;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  min-width: 110px;
+  padding: 8px 30px;
+
+}
+
+.btn-purple {
+  background: #1073E7;
+  padding: 10px 20px;
+}
+
+.btn-white {
+  border: #fff 1px solid;
+  padding: 11px 24px;
+  font: 'Avenir' bolder 12px;
+}
+
+
+.square-btn {
+  font-family: 'Raleway', 'Regular', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  border: transparent 1px solid;
+  padding: 12px 0;
+  min-width: 111px;
+  text-align: center;  
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .square-btn {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+
+
+.img-left {
+  img {
+    order: 1;
+    margin-right: 20px;
+  }
+  span {
+    order: 2;
+  }
+}  
+
+.img-right {
+  span {
+    order: 1;
+    margin-right: 20px;
+  }
+  img {
+    order: 2;
+  }
+}
+
+.bg-purple {
+  background-color: #795BB6;
+}
+
+.bg-blue {
+  background-color: #1073E7;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.border-white {
+  border: 1px solid #fff;
+}
+
+.txt-purple {
+  color: #7D5AB5;
+}
+
+.txt-white {
+  color: #fff;
+}

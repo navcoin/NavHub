@@ -1,0 +1,137 @@
+$text-grey: #24292e;
+$nav-purple:#7D5AB5;
+$border-grey: #A3A6AD;
+
+.events {
+  padding-bottom: 20px;
+}
+
+.homepage-events-section {
+   .event-card {
+    border: 1px solid var(--border-color);
+  }
+}
+
+.event-card {
+  border-radius: 5px;
+  .date-icon {
+    background-color: white;
+  }
+  &.past {
+    background: #7D5AB5;
+    div{
+      color: white;
+    }
+    .event-title {
+      color: white;
+    }
+  }
+  &.current {
+    background: #2E94DF;
+    div{
+      color: white;
+    }
+    .event-title {
+      color: white;
+    }
+  }
+  display: flex;
+  max-width: 580px;
+  //border: 1px solid $border-grey;
+  background-color: #fff;
+  padding: 28px;
+  height: 100%;
+  border-radius: 5px;
+  .date-icon-container {
+    @media (max-width:500px) {
+      display:none;
+    }
+    margin-right: 21px;
+    .date-icon {
+      $diameter: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: $diameter;
+      height: $diameter;
+      border-radius: $diameter;
+      background-color: white;
+      font-family: 'Raleway', Times, serif;
+      color: #7D5AB5;
+      line-height: 22px;
+      .short-date-num {
+        font-size: 27px;
+      }
+      .short-date-month {
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+  }
+  .event-date {
+    color: $nav-purple;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6a737d;
+  }
+  .event-title {
+    font-family: 'Raleway', Times, serif;
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 600;
+    color: $nav-purple;
+    margin-bottom: 11px;
+    font-size: 23px;
+    text-align: left;
+    //text-decoration: underline;
+
+  }
+  .event-location {
+    color: $nav-purple;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6a737d;
+  }
+  .event-host {
+    color: $nav-purple;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#6a737d
+  }
+  .event-description {
+    color: $text-grey;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .social-link-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .social-link-icon {
+      $diameter: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: $diameter;
+      height: $diameter;
+      border-radius: $diameter;
+      color: #fff;
+      //background-color: $nav-purple;
+      background-color: #4f3e6b;
+      margin-right: 5px;
+    }
+  }
+}

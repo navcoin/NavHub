@@ -1,0 +1,14 @@
+<section class="item-container-section"  id="{{ .Get "anchor" }}">
+    <div class="ninety-vw-container {{if isset .Params "bgWhite"}} bg-white {{ end }}">
+        {{if isset .Params "titleText"}}<h1 class="container-title">{{ .Get "titleText" | safeHTML}}</h1>{{ end }}
+        {{if isset .Params "subtitleText"}}<h3 class="container-subtitle">{{ .Get "subtitleText" | safeHTML }}</h3>{{ end }}
+        <div class="grid-container" >
+            {{ .Inner }}  
+        </div>
+        {{ if isset .Params "buttonUrl" }}
+	        <div class="flex-center">
+	            <a href="{{ .Get "buttonUrl" }}" class="square-btn blue-btn" target="_blank">{{ .Get "buttonText" }} <img src="{{ .Get "buttonImgSrc" }}" class="btn-img"> </span></a>
+	        </div>
+        {{ end }}
+    </div>
+</section>

@@ -8,12 +8,11 @@ description: "One challenge of having a wide range of NavCoin software is mainta
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: true
-show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
 percent_complete: 100
@@ -21,7 +20,5 @@ github_url: "https://github.com/NAVCoin/nav-docker"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#6984D8"
-font_color: "#fff"
 weight: 0
 ---

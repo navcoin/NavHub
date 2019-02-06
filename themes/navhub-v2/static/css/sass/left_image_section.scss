@@ -1,0 +1,38 @@
+.left-image-section  {
+  padding: 60px 0;
+  @media (max-width: 900px) {
+    padding: 15px 0;
+  }
+  .content-container {
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;  
+      .right-content {
+        .paragraph-container {
+          margin: 20px 0;
+        }
+      }
+    }
+
+    .right-content, .left-image {
+      flex: 1 1 50%;
+    }
+    .left-image {
+      display: flex;
+      justify-content: center;
+    }
+    .right-content {
+      max-width: 90vw;
+      .paragraph-container {
+        margin: 40px 0;
+      }
+      .themeix-button-group a {
+        text-decoration: none;
+      }
+    }
+  }
+}

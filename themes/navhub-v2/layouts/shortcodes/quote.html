@@ -1,0 +1,13 @@
+<div class="quote">
+  <img class="quote-avatar" src="{{ .Get "image" }}" />
+  <p class="quote-text">&ldquo;{{ .Get "text" }}&rdquo;</p>
+  <div class="quote-meta">
+    <div class="quote-author">
+      &mdash; {{ .Get "author" }}
+      {{ if .Get "link_href" }}
+        (<a href="{{ .Get "link_href" }}">{{ .Get "link_text" }}</a>)
+      {{ end }}
+    </div>
+  </div>
+
+</div>

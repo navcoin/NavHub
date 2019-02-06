@@ -1,0 +1,12 @@
+<div class="center-text-section" style="background-color: {{ .Get "bgColor" }};">
+    <div class="content-container sixty-vw-container" style="padding: {{ .Get "containerPadding" }}; color: {{ .Get "fontColor" }}">
+        {{ if isset .Params "title"}}
+            <h2>{{ .Get "title"}}</h2>
+        {{ end }}
+        {{ .Inner }}
+        {{ if isset .Params "btn1Link" }}
+            <div class="themeix-button-group">
+                <a href="{{ .Get "btn1Link" }}" class="themeix-btn themeix-danger smoothScroll">{{ .Get "btn1Txt" }}</a>
+        {{ end }}
+    </div>
+</div>

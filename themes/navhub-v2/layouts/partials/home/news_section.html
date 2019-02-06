@@ -1,0 +1,23 @@
+<div class="home-page-card-section homepage-news-section ninety-vw-container">
+    <div class="title-container">
+        <h2>Community News and stories</h2>
+        <a href="/news">See all news&nbsp;&nbsp;
+            <span class="fa fa-chevron-right"></span>
+        </a>
+    </div>
+    <div class="card-container">
+        {{ $list := .Site.Pages}}
+        {{ $sorted := sort $list "Params.date" "desc" }}
+        {{ $count := 0 }}
+
+        {{ range $index, $element := $sorted }}
+            {{ if (hasPrefix $element.Dir "news") }}
+                {{ if lt $count 8 }}
+                    {{ partial "home/news_card.html" . }}
+                    {{ $count = add $count 1 }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+    </div>
+</div>

@@ -1,0 +1,79 @@
+.homepage-events-section {
+  --card-width: 580px;
+  --border-color: #E3E3E3;
+
+  @media(max-width: 660px) {
+    --card-width: 300px;
+  }
+
+  .title-container {
+    margin: 4em 0 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+
+      font-family: Raleway;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: left;
+      color: #24292e;
+
+    }
+  }
+  // card style on the hompage
+  .card-container {
+    --grid-gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, var(--card-width));
+    overflow-x: scroll;
+    grid-gap: var(--grid-gap);
+    max-width: calc( calc( var(--grid-gap) * 4 ) + calc( var(--card-width) * 4));
+    .event-card {
+      &.past {
+        background-color: white;
+      }
+      &.current {
+        //not have any difference
+        border: 1px solid var(--border-color);
+        background-color: white;
+      }
+      
+      @media(max-width: 660px) {
+        padding: 10px;
+      }
+      &:hover {
+        border: 1px solid #9D3CD1;
+      }
+      .date-icon {
+        //border: 1px solid;
+        background-color: #7D5AB5;
+        color: white;
+        @media(max-width: 660px) {
+          display: none;
+        }
+        .short-date-num {
+          
+        }
+        .short-date-month {
+
+        }
+      }
+      .event-date {
+        color: #6a737d;
+      }
+      .event-title {
+        color: #7D5AB5;
+        text-decoration: underline;
+      }
+      .event-location {
+        color: #6a737d;
+
+      }
+      .event-host {
+        color: #6a737d;
+
+      }
+    }
+  }
+}

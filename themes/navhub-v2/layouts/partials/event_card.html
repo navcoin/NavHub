@@ -1,0 +1,48 @@
+<div class="event-card non-border {{ if .Params.past }}past{{ else }}current{{ end }}">
+    <div class="date-icon-container">
+        <div class="date-icon">
+            <h2 class="short-date-num">{{ .Params.short_date_num }}</h2>
+            <h4 class="short-date-month"> {{ .Params.short_month | upper }}</h4>
+        </div>
+    </div>
+    <div>
+        <h2 class="event-title">{{ .Params.title }}</h2>
+        <div class="event-date">
+            <span class="fa fa-calendar"></span>
+            {{ .Params.eventLongDate }}
+        </div>
+        <div class="event-location">
+            <span class="fa fa-location-arrow"></span>
+            {{ .Params.location }}
+        </div>
+        <div class="event-host">
+            <span class="fa fa-user-circle-o"></span>
+            {{ .Params.host }}
+        </div>
+        <div class="event-description">
+            {{ .Params.description }}
+        </div>
+        <div class="social-link-container">
+            {{ if ( and (isset .Params "twitter_url") ( not (eq .Params.twitter_url ""))) }}
+                <a href="{{ .Params.twitter_url }}" target="e">
+                    <div class="social-link-icon"><span class="fa fa-twitter"></span></div>
+                </a>
+            {{ end }}
+            {{ if ( and (isset .Params "facebook_url")  ( not (eq .Params.facebook_url ""))) }}
+                <a href="{{ .Params.facebook_url }}" target="e">
+                    <div class="social-link-icon"><span class="fa fa-facebook"></span></div>
+                </a>
+            {{ end }}
+            {{ if ( and (isset .Params "meet_up_url")  ( not (eq .Params.meet_up_url ""))) }}
+                <a href="{{ .Params.meet_up_url }}" target="e">
+                    <div class="social-link-icon"><span class="fa fa-meetup"></div>
+                </a>
+            {{ end }}
+            {{ if ( and (isset .Params "misc_url")  ( not (eq .Params.misc_url ""))) }}
+                <a href="{{ .Params.misc_url }}" target="e">
+                    <div class="social-link-icon"><span class="fa fa-link"></span></div>
+                </a>
+            {{ end }}
+        </div>
+    </div>
+</div>

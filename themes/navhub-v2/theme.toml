@@ -1,0 +1,17 @@
+name = "NavHub V2"
+license = "MIT"
+description = ""
+homepage = "http://example.com/"
+tags = []
+features = []
+min_version = "0.37"
+
+[author]
+  name = "Paul Sanderson, Mathew Paul"
+  homepage = ""
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

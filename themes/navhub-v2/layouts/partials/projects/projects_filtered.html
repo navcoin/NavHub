@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+
+{{ partial "head.html" . }}
+
+<body data-spy="scroll" data-target="#header-menu">
+
+  {{ partial "header_three_title.html" .  }}
+
+  {{ $lastUrlElement := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+
+  {{ $filter := replace $lastUrlElement "-" " " }}
+
+  <div id="scroll" style="position: absolute; margin-top: -49px"></div>
+
+  <div style="background-color: #FAFAFA; border-bottom: 1px solid #CCC;">
+    <div class="container">
+      <div class="about-pb" style="padding: 10px 0;">
+        <div style="text-align: left;">
+            <div class="about-appix-right-content">
+                <div style="color: #24292e"><a href="/projects">All Projects</a> / <span style="text-transform: capitalize">{{ $filter }}</span></div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container" style="margin-bottom: 50px;">
+
+        <div class="row">
+          <div class="col-sm-3 project-sidebar">
+             {{ partial "projects/projects_sidebar.html" . }}
+          </div>
+            <div class="col-sm-9">
+
+                <div class="projects-card-container">
+                    {{range .Data.Pages.ByWeight }}
+                        {{ if and (.Params.completed) (.Params.show_on_projects) }}
+                                {{ partial "projects/project_card.html" . }}
+                        {{end}}
+                    {{end}}
+
+                    {{range .Data.Pages.ByDate.Reverse}}
+                        {{ if and (.Params.in_progress) (.Params.show_on_projects) }}
+                            {{ partial  "projects/project_card.html" . }}
+                        {{end}}
+                    {{end}}
+
+                    {{range .Data.Pages}}
+                        {{ if and (not .Params.in_progress) (not .Params.completed) (.Params.show_on_projects) }}
+                            {{ if (not .Params.order_page) }}
+                                {{ partial "projects/project_card.html" . }}
+                            {{end}}
+                        {{end}}
+                    {{end}}
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+    {{ partial "footer.html" .  }} <h1>assd 5</h1>
+
+</body>
+</html>

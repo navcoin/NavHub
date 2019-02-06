@@ -5,25 +5,23 @@ lastmod: 2018-06-01T14:11:00+01:00
 draft: false
 author: "hash512"
 description: "The NavCoin m8 is a low-power device capable of running NavCoin Core and other wallets at the same time at very low energy costs."
-bg_image: "/images/icons/icon-wallet-purple-large.png"
+bg_image: "/images/icons/wallet-purple.png"
 resources: []
 filter: ["Wallets"]
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: true
-show_on_roadmap: true
+
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: ""
 project_url: "https://navcoinm8.com"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 0
 ---
 {{< left_image_section
@@ -108,7 +106,7 @@ Adding a USB hard drive with capacity for the entire Bitcoin blockchain will all
         containerPadding="40px 0 60px 0"
         titleMargin="0 0 20px 0"
         gradient="false"
-        feature2Img="/images/icons/icon-discord.png"
+        feature2Img="/images/icons/icon-community.png"
         feature2Title="Discord"
         feature2Txt="Join the NavCoin m8 Discord »"
         feature2Link="https://discord.gg/pqYW7Fs">}}

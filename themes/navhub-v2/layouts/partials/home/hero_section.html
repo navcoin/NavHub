@@ -1,0 +1,12 @@
+<div class="hero-section-homepage ninety-vw-container" style="background-image: url('{{ .Params.textBackgroundImageSrc }}'), url('{{ .Params.imageBackgroundImageSrc }}');">
+    <div class="text-section-container">
+        <h1 class="">{{ .Params.title_text}}</h1>
+        {{ .Content | safeHTML}}
+    </div>
+    <img src="{{ .Params.heroImageSrc }}" class="hero-img">
+    <div class="hero-button">
+        <a href="{{ .Params.buttonLink }}" class="btn btn-blue img-left" {{if isset .Params "newTab"}} target="_blank" {{end}}>
+        <span>{{ .Params.buttonText }}</span>
+        <img src="{{ .Params.buttonImageSrc }}" class="btn-img"> </a>
+    </div>
+</div>

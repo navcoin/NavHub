@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body>
+{{ partial "header.html" . }}
+<main>
+    {{ partial "hero_section.html" . }}
+    <div class="ninety-vw-container grid-container heroes">
+    {{ $list := (.Data.Pages) }}
+
+    {{ range $index, $element := .Data.Pages }}
+    {{ partial "navcoin_hero.html" . }}
+    {{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+</main>
+</body>
+</html>

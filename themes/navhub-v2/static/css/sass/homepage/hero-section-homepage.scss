@@ -1,0 +1,128 @@
+.hero-section-homepage {
+  color: #7243BF;
+  padding: 15px 0;
+  margin: 3em 0 0 0;
+  display: grid;
+  grid-template-areas: "text image" 
+                        "button image";
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  background: no-repeat, no-repeat;
+  background-size: initial, initial;
+  background-position: 10% center, 90% center;
+  
+  .text-section-container {
+    grid-area: text;
+    color: inherit;
+    justify-self: flex-start;
+    align-self: flex-end;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: flex-end;
+    margin: 0;
+    text-align: right;
+
+    h1, p {
+      padding: 0;
+      margin: 0;
+      font-family: 'Raleway', Times, serif;
+    }
+    h1 {
+      font-weight: 600;
+      color: inherit;
+      font-size: 55px;
+      line-height: 55px;
+      margin: 0.5em 0 0.5em 0;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 43px;
+      max-width: 500px;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  a {
+    margin-top: 1em;
+    
+  } 
+  
+  .hero-img {
+    grid-area: image;
+    max-height: 300px;
+  }
+  .hero-button {
+    align-self: flex-start;
+    justify-self: flex-end;
+    grid-area: button;
+    transition: 0.4s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media (max-width: 1650px) {
+  .hero-section-homepage{
+    background-position: 0% center, 100% center;
+    
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-section-homepage{
+    background-image: none !important;
+  }
+  .hero-section-homepage h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-section-homepage {
+    background: none !important;
+    padding: 0 0 55px 0; 
+    grid-template-areas:  "image image"
+                          "text text"
+                          "button button";
+      justify-content: center;
+    .hero-img {
+      margin-top: 12px;
+      justify-self: center;
+      height: 210px;
+    }
+
+    .text-section-container {
+      justify-self: center;
+      text-align: center;
+      padding: 0 25px;
+      align-items: center;
+      
+      h1 {
+        text-align: center;
+        margin: 17px 0 0px 0;
+        font-size: 32px;
+      }
+      p {
+        line-height: 36px;
+        font-size: 18px;
+        margin: 20px;
+      }
+      
+      a {
+        margin-top: 25px;
+      }
+    }
+    .hero-button {
+      justify-self: center;
+      align-self: center;
+    }
+  }
+}

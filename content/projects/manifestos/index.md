@@ -8,20 +8,17 @@ description: "Defining manifestos for the NavCoin core developers and content cr
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 percent_complete: 100
 in_progress: false
 completed: true
-show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
 github_url: ""
 reddit_url: ""
 project_url: "/manifestos/"
 twitter_url: ""
-card_color: "#6984D8"
-font_color: "#fff"
 weight: 0
 ---

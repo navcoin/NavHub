@@ -8,12 +8,12 @@ description: ""
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: false
-show_on_roadmap: true
+
 show_on_projects: false
 allow_click_through: false
 percent_complete: 0

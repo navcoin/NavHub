@@ -1,36 +1,22 @@
 baseURL = "https://navhub.org"
-theme = "nav-community-v1"
+theme = "navhub-v2"
+
+Paginate = 8
 
 # English is the default language
-defaultContentLanguage = "en"
+#defaultContentLanguage = "en"
 # Force to have /en/my-page and /fr/my-page routes, even for default language.
-defaultContentLanguageInSubdir = false
+#defaultContentLanguageInSubdir = false
 
-[Languages]
-[Languages.en]
-title = "NavCoin Community Hub"
-weight = 1
-languageName = "English"
-
-[Languages.fr]
-title = "Documentation du thème Hugo Learn"
-weight = 2
-languageName = "Français"
+#[Languages]
+#[Languages.en]
+#title = "NavCoin Community Hub"
+#weight = 1
+#languageName = "English"
 
 
 twitter_username = "navcoin"
 
-
-#linkedin = "english-link"
-#
-#languageCode = "en"
-#DefaultContentLanguage = "en"
-#copyright = "Everything is mine"
-#
-#
-#[languages]
-#[languages.en]
-#title = "NavCoin Community Site"
 
 
 [blackfriday]
@@ -39,43 +25,55 @@ twitter_username = "navcoin"
 
 [taxonomies]
   category = "categories"
+  guide_category = "guide_categories"
   filter = "filter"
+  
 # Main Menu
+[[menu.main]]
+    name = "Home"
+    title = "Home"
+    weight = 10
+    identifier = "home"
+    url = "/"
 [[menu.main]]
     name = "News"
     title = "News"
-    weight = -119
+    weight = 20
     identifier = "news"
     url = "/news/"
 [[menu.main]]
     name = "Projects"
     title = "Projects"
-    weight = -118
+    weight = 30
     identifier = "Project"
     url = "/projects/"
 [[menu.main]]
-    name = "Roadmap"
-    title = "Roadmap"
-    weight = -117
-    url = "/roadmap/"
-    identifier = "roadmap"
+    name = "Events"
+    title = "Events"
+    weight = 40
+    identifier = "Events"
+    url = "/events/"
 [[menu.main]]
-    name = "Information"
-    title = "Information"
-    weight = 2
-    url = "/information/"
-    identifier = "information"
+    name = "NavCoin Heroes"
+    title = "NavCoin Heroes"
+    weight = 50
+    url = "/navcoin-heroes/"
+    identifier = "navcoin-heroes"
 [[menu.main]]
     name = "Community Assets"
     title = "Community Assets"
-    weight = 3
+    weight = 60
     url = "/assets/"
     identifier = "assets"
 [[menu.main]]
-    name = "Get Involved"
-    title = "Get Involved"
-    weight = -113
-    url = "/get-involved/"
-    identifier = "get-involved"
-
-
+    name = "NavCollab"
+    title = "NavCollab"
+    weight = 90
+    url = "https://collab.navcoin.org"
+    identifier = "collab"
+[[menu.main]]
+    name = "NavCoin.org"
+    title = "NavCoin.org"
+    weight = 80
+    url = "https://NavCoin.org"
+    identifier = "navcoin"

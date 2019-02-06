@@ -1,0 +1,73 @@
+.heroes {
+  padding-bottom: 20px;
+}
+.navcoin-hero {
+  width: 100%;
+  height: 100%;
+  max-width: 356px;
+  max-height: 375px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 50px,
+    #7d5ab5 50px
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  margin: 0 auto;
+  img {
+    width: 178px;
+    height: 178px;
+    margin-bottom: 40px;
+    border-radius: 178px;
+    border: 10px solid #ffffff4d;
+  }
+
+  h2 {
+    font-family: 'Raleway';
+    font-size: 23px;
+    font-weight: initial;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 0 0 12.5px 0;
+    font-weight: 600;
+  }
+
+  p {
+    font-family: 'Roboto';
+    font-weight: initial;
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 310px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+  }
+  div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-circle {
+    background: #4f3e6b;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+  }
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 33px;
+    width: 100%;
+
+    a {
+      margin: 0px 5px;
+    }
+  }
+}

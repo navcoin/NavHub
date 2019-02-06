@@ -7,12 +7,11 @@ description: "A payment gateway that enables users to spend NAV at any business 
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: false
-show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
 percent_complete: 0
@@ -20,7 +19,5 @@ github_url: ""
 twitter_url: ""
 reddit_url: ""
 project_url: ""
-card_color: "#2E94DF"
-font_color: "#fff"
 weight: 50
 ---

@@ -1,0 +1,46 @@
+<nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+        <li class="sidebar-list-title">NavHub.org</li>
+        {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                    <a href="{{ .URL }}">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                        {{ if or (eq .Identifier "navcoin") (eq .Identifier "collab") }}
+                            <img src="/images/icons/external_link.png" alt="" class="external-link-img">
+                        {{ end }}
+
+                    </a>
+                </li>
+            {{end}}
+    </ul>
+
+    <ul class="nav sidebar-nav guides">
+        <li class="sidebar-list-title">NavHub guides</li>
+        <li class="guides-page">
+            <a href="/guides/"><span>Guides Overview</span></a>
+        </li>
+        {{ range $page := where .Site.Pages "Params.page_type" "guide" }}
+            <li class="guides-page">
+                <a href="{{ .URL }}"><span>{{ .Params.title_text }}</span></a>
+            </li>
+        {{end}}
+    </ul>
+    <ul class="nav sidebar-nav">
+        <li class="sidebar-list-title">Community Channels</li>
+        <li>
+            <div class="social-icon-container">
+                <!-- Note on discord icon: https://github.com/NAVCoin/NavHub/pull/225#issuecomment-460107790 -->
+                <a href="https://discord.gg/y4Vu9jw" target="_blank"><img src="/images/icons/discord-small.png" alt="discord"></a>
+                <a href="https://twitter.com/navcoin" target="_blank"><span class="fa fa-twitter"></span></a>
+                <a href="https://github.com/navcoin" target="_blank"><span class="fa fa-github"></span></a>
+                <a href="https://reddit.com/r/navcoin" target="_blank"><span class="fa fa-reddit"></span></a>
+                <a href="https://www.youtube.com/NavCoinCore" target="_blank"><span class="fa fa-youtube-play"></span></a>
+                <a href="https://facebook.com/navcoin" target="_blank"><span class="fa fa-facebook-official"></span></a>
+                <a href="https://t.me/navcoin" target="_blank"><span class="fa fa-telegram"></span></a>
+                <a href="https://medium.com/@navcoin" target="_blank"><span class="fa fa-medium"></span></a>
+            </div>
+        </li>
+    </ul>
+</nav>

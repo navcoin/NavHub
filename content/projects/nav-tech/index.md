@@ -6,16 +6,15 @@ draft: false
 author: "Craig MacGregor"
 description: "NavTech enables a dual blockchain based private payment option that operates in parallel to the NavCoin blockchain."
 filter: ["Network"]
-bg_image: "/images/icons/icon-purple-network-new.png"
+bg_image: "/images/icons/purple-network-new.png"
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: true
-show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
 percent_complete: 100
@@ -23,8 +22,6 @@ github_url: "https://github.com/Encrypt-S/navtech"
 project_url: "https://navtechservers.com"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 100
 ---
 

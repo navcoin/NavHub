@@ -1,0 +1,42 @@
+.pagination-container {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.nav-pagination {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: wrap;
+  li {
+    display: inline;
+    margin: 10px 5px;
+    a.page-number, span{
+      padding: 8px 12px;
+      margin-left: -1px;
+      line-height: 1.42857143;
+      color: #337ab7;
+      text-decoration: none;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      font-weight: 400;
+      color: #fff;
+      font-size: 16px;
+      background: #CCCCCC;
+      margin-right: 8px;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+    }
+  }
+
+  .active a.page-number,
+  li a.page-number:hover, li a.page-number:focus, li a.page-number:active ,
+  li a:hover span, li a:focus span, li a:active span {
+    background-color: #337ab7;
+  }
+
+  .ellipse {
+    /* background-color: #337ab7; */
+  }
+}

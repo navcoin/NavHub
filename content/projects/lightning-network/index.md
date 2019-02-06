@@ -8,12 +8,11 @@ description: "Implementing lightning network transactions to allow instant, cros
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: true
 completed: false
-show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
 percent_complete: 15
@@ -21,7 +20,5 @@ github_url: "https://github.com/Encrypt-S/navd"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: ""
-font_color: ""
 weight: 0
 ---

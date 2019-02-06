@@ -1,0 +1,42 @@
+.homepage-call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px 5px;
+  min-height: 330px;
+  text-align: center;
+  background: url("/images/call-to-action-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #7D5AB5;
+  h1, h3 {
+      color: #fff;
+      font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      font-family: 'Raleway', Times, serif;
+    }
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 70px;
+
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 40px;
+      margin-bottom: 50px;
+    }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    .btn {
+      margin: 10px;
+    }
+  }
+}

@@ -5,28 +5,20 @@ lastmod: 2018-03-27T17:53:11+13:00
 draft: false
 author: "Alex Vazquez"
 description: "The community have suggested a change in the consensus mechanism which would allow for community contributors to receive funding from the network for their efforts."
-resources: []
 filter: ["Protocol Improvements"]
-bg_image: "/images/icons/icon-purple-lightbulb-new.png"
-slug: ""
-type: "project"
-feature_image: ""
-show_title_text: false
+bg_image: "/images/icons/purple-lightbulb.png"
+type: "projects"
 in_progress: false
-beta_testing: true
-completed: false
-beta_testing: true
-show_on_roadmap: true
+beta_testing: false
+completed: true
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/NAVCoin/navcoin-core/tree/cfund-test"
-project_url: ""
+project_url: "https://navcoin.org/community-fund"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
-weight: 100
+weight: 2
 ---
 {{< project_header
     title="Community Fund"
@@ -113,7 +105,7 @@ Funds can be released in multiple stages. For example, a proposal can indicate t
     fontColor="#FFF">}}
     <p>The soft fork for the reduction of the staking reward to 4% and the beginning of the accumulation of the community fund has passed! The NavCoin Community fund is now accumulating at a rate of around 5000 NAV per week. The mechanism to create proposals and receive funds is still being tested. For now you can check out the community fund balance below.</p><br />
     <div class="themeix-button-group">
-    <a class="themeix-btn themeix-danger smoothScroll" target="e" style="background-color: #523971" href="https://www.navexplorer.com/address/Community%20Fund">View the Fund Balance</a>
+    <a class="btn btn-purple smoothScroll" target="e" style="background-color: #523971" href="https://www.navexplorer.com/address/Community%20Fund">View the Fund Balance</a>
     </div>
 
 {{< /center_text_section >}}

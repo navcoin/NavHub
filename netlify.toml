@@ -1,12 +1,12 @@
 [context.production.environment]
-HUGO_VERSION = "0.46"
+HUGO_VERSION = "0.53"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.46"
+HUGO_VERSION = "0.53"
 
 [build]
 publish = "public"
-command = "hugo"
+command = "gulp sass && hugo"
 
 [[redirects]]
   from = "https://navcore.org/*"
@@ -47,5 +47,41 @@ command = "hugo"
 [[redirects]]
   from = "https://navhub.org/how-to-accept-navcoin"
   to = "https://navcoin.org/how-to-accept-navcoin"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/about"
+  to = "https://navhub.org/guides"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/information"
+  to = "https://navhub.org/guides"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/get_involved"
+  to = "https://navhub.org/guides"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/open-alias-competition"
+  to = "https://navhub.org/how-to-accept-navcoin"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/roadmap"
+  to = "https://navhub.org/projects"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://navhub.org/manifestos"
+  to = "https://navhub.org/assets"
   status = 301
   force = true

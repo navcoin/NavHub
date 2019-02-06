@@ -6,24 +6,21 @@ author: "Alex Vazquez"
 description: "NAV OpenAlias allows you to register a free OpenAlias address and link it to your real NavCoin address using a unique 'email style' user name."
 resources: []
 filter: ["OpenAlias"]
-bg_image: "/images/icons/icon-purple-lightbulb-new.png"
+bg_image: "/images/icons/purple-lightbulb.png"
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: true
 beta_testing: false
-show_on_roadmap: true
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/NAVCoin/navcoin-core/pull/213"
 project_url: "https://openalias.nav.community"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 0
 ---
 
@@ -61,7 +58,7 @@ weight: 0
 <br />
 
 ## Overview
-NAV OpenAlias is a little like PayPal, which lets you send a payment to an email address. The difference is that OpenAlias uses an easy to remember ‘email style’ address to represent your full NavCoin wallet address. 
+NAV OpenAlias is a little like PayPal, which lets you send a payment to an email address. The difference is that OpenAlias uses an easy to remember ‘email style’ address to represent your full NavCoin wallet address.
 
 For more information on how it works, visit [openalias.org](https://openalias.org/)
 

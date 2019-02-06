@@ -8,12 +8,11 @@ description: "Enabling the Kauri Wallet to operate as a staking node on your des
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: false
-show_on_roadmap: true
 show_on_projects: false
 allow_click_through: false
 percent_complete: 0
@@ -21,7 +20,5 @@ github_url: ""
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#6984D8"
-font_color: "#fff"
 weight: 5
 ---

@@ -1,0 +1,113 @@
+.hero-section {
+  color: #7243bf;
+  padding: 15px 0;
+  display: grid;
+  grid-column-gap: 32px;
+  grid-auto-flow: dense;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    'image text text'
+    'image text text';
+  align-items: center;
+
+  a {
+    margin-top: 36px;
+    transition: 0.4s;
+    &:hover {
+      transform: scale(1.1);
+    }
+
+  }
+
+  .image-container {
+    grid-area: image;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    .hero-img {
+      max-height: 373px;
+      height: 100%;
+      max-width: 252px;
+      padding: 20px 0;
+
+    }
+  }
+
+  .text-section-container {
+    grid-area: text;
+    color: inherit;
+    justify-self: flex-start;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 30px 0 0;
+    h1 {
+      align-self: flex-start;
+      text-align: left;
+      color: inherit;
+      font-size: 33px;
+      line-height: 45px;
+      margin: 0 0 10px 0;
+    }
+    .hero-button-container {
+      align-self: flex-start;
+    }
+    p {
+      margin: 5px 0 0 0;
+      font-family: Roboto;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: left;
+      color: #24292e;
+
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-section h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-section {
+    padding: 10px 0 55px 0;
+    grid-template-columns: 1fr;
+    grid-template-areas:  'image'
+                          'text';
+    .image-container {
+      justify-content: center;
+      .hero-img {
+        max-height: 220px;
+        height: 50vh;
+      }
+    }
+
+    .text-section-container {
+      align-self: center;
+      justify-self: center;
+      padding: 0 25px;
+      text-align: center;
+      h1 {
+        margin: 18px 0 10px 0;
+        font-size: 32px;
+        line-height: 40px;
+      }
+      h1 {
+        align-self: center;
+      }
+      .hero-button-container {
+        align-self: center;
+      }
+    }
+
+    a {
+      margin-top: 25px;
+    }
+  }
+}

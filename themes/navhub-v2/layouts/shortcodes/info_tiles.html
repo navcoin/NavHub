@@ -1,0 +1,30 @@
+{{ $category := .Get "category" }}
+<div class="info-tile-container">
+  <a href="https://github.com/navcoin/navhub" target="e" title="Contribute on GitHub">
+    <div class="info-tile default">
+      <div class="info-add">
+        <span class="fa fa-plus"></span>
+      </div>
+      <h3>Add Your Ideas</h3>
+      <p>If you have any suggestions you'd like to add you can contribute to this site through GitHub.</p>
+    </div>
+  </a>
+  {{ range $page := where .Site.AllPages.ByWeight "Params.guide_parent" $category }}
+  <div class="info-tile-wrapper">
+      {{ if .Params.link }}
+        <a href="{{ .Params.link}}">
+      {{ else if .Content }}
+        <a href="{{ .Permalink}}">
+      {{ end }}
+      <div class="info-tile">
+        <h3>{{ .LinkTitle }}</h3>
+        <p class="info-summary">{{ .Params.summary }}</p>
+        <div class="info-summary">{{ .Summary }}</div>
+      </div>
+      {{ if or .Content .Params.link }}</a>{{ end }}
+      <a href="https://github.com/navcoin/navhub/tree/master/{{ .Params.github_file }}" target="e" title="Edit this tile on GitHub" class="info-edit">
+        <span class="fa fa-edit"></span>
+      </a>
+    </div>
+  {{end}}
+</div>

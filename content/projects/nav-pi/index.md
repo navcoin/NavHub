@@ -6,25 +6,23 @@ draft: false
 author: "Craig MacGregor"
 description: "A low-energy NavCoin staking solution based on the Raspberry-Pi platform. The NavPi offers a more energy-efficient way to participate in validating NavCoin transactions."
 filter: ["Network"]
-bg_image: "/images/icons/icon-purple-network-new.png"
+bg_image: "/images/icons/purple-network-new.png"
 resources: []
 categories: []
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: true
-show_on_roadmap: true
+
 show_on_projects: true
-allow_click_through: true
+allow_click_through: false
 percent_complete: 100
 github_url: "https://github.com/Encrypt-S/navpi"
 project_url: "https://store.navcoin.org/product/navpi-stakebox"
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 100
 ---
 
@@ -45,7 +43,6 @@ weight: 100
     btn1Txt="Purchase a NavPi StakeBox"
     btn1BgColor="#795BB6"
     btn1Margin="8% 0 0 0"
-    bulletMargin="-5% 0 15% 18%"
     bulletList="true"
     bulletItem1="Raspberry Pi v3"
     bulletItem2="16GB SD Card"

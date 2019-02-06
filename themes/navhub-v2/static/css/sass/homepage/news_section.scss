@@ -1,0 +1,86 @@
+@font-face {
+  font-family: big-john;
+  src: url(/fonts/BIG-JOHN.otf);
+}
+
+.homepage-news-section {
+  --card-width: 540px;
+  --border-color: #E3E3E3;
+
+  @media (max-width: 600px) {
+    --card-width: 290px;
+  }
+
+  .title-container {
+    margin: 4em 0 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      font-family: Raleway;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: left;
+      color: #24292e;
+    }
+  }
+  .card-container {
+    --grid-gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(8, var(--card-width));
+    overflow-x: scroll;
+    grid-gap: var(--grid-gap);
+    max-width: calc( calc( var(--grid-gap) * 4 ) + calc( var(--card-width) * 4));
+  }
+
+  .homepage-news-card {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    &:hover {
+      border: 1px solid #9D3CD1;
+    }
+    max-width: var(--card-width);
+    .title-container {
+      min-height: 180px;
+      flex-direction: column;
+      margin: 0 42px;
+      align-items: center;
+      
+      justify-content: center;
+      h1 {
+        @media (max-width: 600px) {
+          line-height: 30px;
+          font-size: 20px;
+        }
+        font-family: "Big John";
+        font-weight: normal;
+        font-size: 2.5em;
+        padding-top: 0.3em;
+        line-height: 1.4em;
+        text-align: center;
+        color: #7d5ab5;
+      }
+    }
+    .lower-section {
+      height: 56px;
+      border-top: 1px solid var(--border-color);
+      background: #FFF;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-flow: wrap;
+      .project-author {
+        margin-left: 15px;
+        color:#7D5AB5;
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6a737d;
+        img {
+          height: 20px;
+        }
+      }
+    }
+  }
+}

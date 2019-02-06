@@ -8,14 +8,13 @@ description: "Kauri is an open-source, multi-currency wallet that will be the fo
 resources: []
 categories: []
 filter: ["Wallets"]
-bg_image: "/images/icons/icon-wallet-purple-large.png"
+bg_image: "/images/icons/wallet-purple.png"
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: true
 completed: false
-show_on_roadmap: true
 show_on_projects: true
 allow_click_through: true
 percent_complete: 10
@@ -23,8 +22,6 @@ github_url: "https://github.com/Encrypt-S/kauri-wallet"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#6984D8"
-font_color: "#fff"
 weight: 0
 ---
 {{< project_header

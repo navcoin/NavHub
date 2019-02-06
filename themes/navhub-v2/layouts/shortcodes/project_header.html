@@ -1,0 +1,14 @@
+<section class="project-header {{ if eq (.Get "gradient") "true" }} bg-gradient {{ end }}" id="project" >
+    <div style="background-image: url({{ .Get "bgImgSrc" }}); background-color: {{ .Get "bgColor" }};">
+        <div class="content-container sixty-vw-container">
+            <div class="caption-area" style="padding: {{ .Get "captionPadding"}} 0;">
+                <h1 class="heading" style="color: {{ .Get "fontColor" }}">{{ .Get "title" }}</h1>
+                <p class="subheading" style="color: {{ .Get "fontColor" }}">{{ .Get "subhead" }}</p>
+                <p class="paragraph" style="color: {{ .Get "fontColor" }}">{{ .Get "text" }}</p>
+            </div>
+            <div class="left-img" style="padding: {{ .Get "imgPadding"}} 0;">
+                <img src="{{ .Get "imgSrc" }}" style="max-height: {{ .Get "imgHeight"}};">
+            </div>
+        </div>
+    </div>
+</section>

@@ -7,14 +7,14 @@ author: "Mathew Paul"
 description: "NavPay is an easy to use light wallet, that allows you to securely store your NAV. There’s no blockchain to download, it’s just a quick & simple way to take control of your private keys."
 resources: []
 filter: ["Wallets"]
-bg_image: "/images/icons/icon-wallet-purple-large.png"
+bg_image: "/images/icons/wallet-purple.png"
 slug: ""
-type: "project"
+type: "projects"
 feature_image: ""
 show_title_text: false
 in_progress: false
 completed: true
-show_on_roadmap: true
+
 show_on_projects: true
 allow_click_through: true
 percent_complete: 100
@@ -22,8 +22,6 @@ github_url: "https://github.com/Encrypt-S/navpay"
 project_url: ""
 reddit_url: ""
 twitter_url: ""
-card_color: "#7d5ab5"
-font_color: "#fff"
 weight: 100
 ---
 
@@ -39,7 +37,6 @@ weight: 100
     bgColor="#FFF"
     fontColor="#333">}}
 
-
 {{< left_image_section
     title="What Is NavPay?"
     imgSrc="navpay-phone1.png"
@@ -53,8 +50,6 @@ weight: 100
     <p>You can use it on your mobile device or even in your browser – giving you the flexibility to protect your NAV in a way that’s most convenient for you.</p>
     <p>Don’t risk having your coins on an exchange – download NavPay and take control today.</p>
 {{< /left_image_section >}}
-
-
 
 {{< project_features
     fontColor="#333"
@@ -87,12 +82,15 @@ weight: 100
     gradient=""
     feature1Img="/images/icons/icon-globe.png"
     feature1Title="Web Wallet (v4.4.0)"
+    feature1ExtraSubtitle="false"
     feature1Url="https://navpay.navcoin.org"
     feature2Img="/images/icons/icon-android.png"
     feature2Title="Android (v4.4.0)"
+    feature2ExtraSubtitle="false"
     feature2Url="https://play.google.com/store/apps/details?id=org.navcoin.navpay"
     feature3Img="/images/icons/icon-apple.png"
     feature3Title="iOS PWA (v4.4.0)"
+    feature3ExtraSubtitle="false"
     feature3Url="https://navpay.navcoin.org"
     feature4Img="/images/icons/icon-windows.png"
     feature4Title="Windows (v4.4.0)"

@@ -1,0 +1,41 @@
+.quote {
+  text-align: center;
+  padding: 40px 70px;
+  margin: 40px auto;
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  max-width: 700px;
+  border-radius: 5px;
+}
+
+.quote-avatar {
+  border-radius: 1000px;
+  border: 4px solid #DDD;
+  overflow: hidden;
+  width: 100px;
+}
+
+.quote-text {
+  margin-top: 20px;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+  color: #24292e;
+}
+
+.quote-meta {
+  margin-top: 20px;
+  text-align: right;
+  .quote-author {
+    a, a:visited {
+      color: #7d5ab5;
+      &:hover, &:active {
+        border-bottom: 1px solid #7d5ab5;  
+      } 
+    }
+  }
+}

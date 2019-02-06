@@ -1,0 +1,94 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="themeix">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5G8TV7K');</script>
+    <!-- End Google Tag Manager -->
+    <!-- favi icon -->
+    <link rel="shortcut icon" href="/images/favicon-1.png">
+    <!-- Site Title -->
+    <title>{{ .Title }}</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto+Slab|Raleway|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700,800" rel="stylesheet">
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href='{{ "css/bootstrap.min.css" | relURL }}'> -->
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href='{{ "css/font-awesome.min.css" | relURL }}'>
+
+    <!-- animate css -->
+    <link rel="stylesheet" href='{{ "css/animate.min.css" | relURL }}'>
+
+    <!-- magnific css -->
+    <link rel="stylesheet" href='{{ "css/magnific-popup.css" | relURL }}'>
+
+    <!-- main css -->
+    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}'>
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href='{{ "css/responsive.css" | relURL }}'>
+
+    <!-- nav css -->
+    <link rel="stylesheet" href='{{ "css/nav.css" | relURL }}'>
+
+    {{ if eq .Params.layout "news" }}
+      <meta name="description" content="{{ .Summary }}" />
+    {{ else }}
+      <meta name="description" content="NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved." />
+    {{ end }}
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="{{ if isset .Params "twitter_card" }}{{ .Params.twitter_card }}{{ else }}summary{{ end }}" />
+    {{ if isset .Params "twitter_title" }}<meta name="twitter:title" content="{{ .Params.twitter_title }}" />{{else}}<meta name="twitter:title" content="{{ .Title }}" />{{ end }}
+
+    <!-- description -->
+    {{ if eq .Params.layout "news" }}
+      <meta name="twitter:description" content="{{ .Summary }}" />
+    {{ else  if isset .Params "twitter_description" }}
+      <meta name="twitter:description" content="{{ .Params.twitter_description }}" />
+    {{ else }}
+      <meta name="twitter:description" content="NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved." />
+    {{ end }}
+
+    <!-- image -->
+    {{ if isset .Params "feature_image" }}
+      <meta name="twitter:image" content="https://navhub.org/images/uploads{{ .Params.feature_image }}" />
+    {{ else  if isset .Params "twitter_image" }}
+      <meta name="twitter:image" content="{{ .Params.twitter_image }}" />
+    {{ else }}
+      <meta name="twitter:image" content="https://navhub.org/images/social-share.png" />
+    {{ end }}
+
+
+    <!-- Facebook tags -->
+    {{ if isset .Params "fb_app_id" }}<meta property="fb:app_id" content="{{ .Params.fb_app_id }}"/>{{ end }}
+
+    <!-- Open Graph data -->
+    <meta property="og:type" content="{{ if isset .Params "og_type" }}{{ .Params.og_type }}{{ else }}article{{ end }}" />
+    {{ if isset .Params "feature_image" }}
+      <meta property="og:image" content="https://navhub.org/images/uploads{{ .Params.feature_image }}" />
+    {{ else }}
+      <meta property="og:image" content="{{ if isset .Params "og_image" }}{{ .Params.og_image }}{{ else }}https://navhub.org/images/social-share.png{{ end }}" />
+    {{ end }}
+
+    {{ if eq .Params.layout "news" }}
+      <meta property="og:description" content="{{ .Summary }}" />
+    {{ else }}
+      <meta property="og:description" content="{{ if isset .Params "og_description" }}{{ .Params.og_description }}{{ else }}NavCoin is a community initiative and the Community Hub will help you learn about the range of NavCoin projects, and how you can get involved.{{ end }}" />
+    {{ end }}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G8TV7K"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <meta name="google-site-verification" content="VyCW6KjARJlWvb31qonyqesSDzhyye8OCKgYP3qNsSU" />
+</head>
