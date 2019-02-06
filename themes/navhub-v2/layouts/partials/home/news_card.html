@@ -5,13 +5,14 @@
     </div>
     <div class="lower-section">
       <div class="project-author">
-          <span class="fa fa-calendar" style=color:#7D5AB5;></span>
+        <span class="fa fa-user-circle-o" style=color:#7D5AB5;></span>
+
         {{ .Params.author }}
       </div>
       <div class="project-author">
-          <span class="fa fa-user-circle-o" style=color:#7D5AB5;></span>
+        <span class="fa fa-calendar" style=color:#7D5AB5;></span>
 
-        {{ .Params.date }}
+        {{ dateFormat "2 Jan 2006" .Params.date }}
       </div>
     </div>
   </a>
