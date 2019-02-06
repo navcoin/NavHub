@@ -1,10 +1,10 @@
 ---
 layout: news
 generated_by_cms: true
-title: 'ZeroCT Pull Request Opened, ZeroCT AMA Scheduled'
+title: 'ZeroCT Pull Request Opened, AMA Scheduled'
 author: Craig MacGregor
 date: '2019-02-06T18:37:06+13:00'
-feature_image: /images/uploads/zero-ct-pr-opened.png
+feature_image: /images/uploads/zero-ct-pr-opened2.png
 categories:
   - Nav News
 ---
