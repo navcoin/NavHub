@@ -48,7 +48,7 @@ With the recent change to static rewards, understanding how many NAV you will st
 
 The NavCoin Core Interns are starting to work on improving the NavCoin Core interface for the Community Fund. Carter has put together a wireframe of the design and published his recommendations to [Issue #383](https://github.com/NAVCoin/navcoin-core/issues/383) on GitHub. This update will make it even easier to create, browse and vote on Community Fund proposals and payment requests directly through the NavCoin Core wallet without needing to use the console commands.
 
-NEXT Implementing Lite Wallet
+### NEXT Implementing Lite Wallet
 
 Sakdeniz has started work to give users the option of running NEXT as a lite wallet instead of a full node. Currently NEXT connects to the NavCoin Daemon behind the HTML and JavaScript interface which means users have to run a full node and sync the entire blockchain. Once the lite wallet option is available, users will be able to use NEXT in much the same way as NavPay where their coins are instantly available and no syncing is necessary. Sakdeniz is hoping to have the lite wallet implementation completed some time later this month.
 
