@@ -1,8 +1,6 @@
 ---
-short_date_num: "13"
-short_month: "SEP"
-eventLongDate: "Thursday, 13 September 2018, 8.30am - 9.30am (GMT+12)"
 date: '2018-09-13T08:30:00+12:00'
+publishdate: '2019-02-05T00:00:00+00:00'
 past: true
 title: "NavCoin LiveStream - Cold Staking"
 location: "12 Madden Street, Auckland, New Zealand"

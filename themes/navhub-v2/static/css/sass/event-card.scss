@@ -31,6 +31,9 @@ $border-grey: #A3A6AD;
     div{
       color: white;
     }
+    .date-icon-container .date-icon {
+      color: #2E94DF;
+    }
     .event-title {
       color: white;
     }
@@ -59,13 +62,19 @@ $border-grey: #A3A6AD;
       background-color: white;
       font-family: 'Raleway', Times, serif;
       color: #7D5AB5;
-      line-height: 22px;
       .short-date-num {
         font-size: 27px;
+        line-height: 20px;
+        margin-bottom: 2px;
       }
       .short-date-month {
         font-weight: 400;
         font-size: 12px;
+        line-height: 12px;
+      }
+      .short-date-year {
+        font-size: 12px;
+        line-height: 12px;
       }
     }
   }

@@ -1,8 +1,6 @@
 ---
-short_date_num: "28"
-short_month: "FEB"
-eventLongDate: "Thursday, 28 February 2019, 6.00pm - 9.00pm (GMT+12)"
-date: '2018-12-28T18:00:00+12:00'
+date: '2019-02-28T18:00:00+12:00'
+publishdate: '2019-02-05T00:00:00+00:00'
 past: false
 title: "NavCoin, Cryptocurrency & Blockchain Meetup"
 location: "Jack Tar, Jellicoe Street, Auckland, New Zealand"

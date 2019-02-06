@@ -37,8 +37,14 @@
         //not have any difference
         border: 1px solid var(--border-color);
         background-color: white;
+        .date-icon {
+          background: #2E94DF;
+        }
+        .event-title, .fa::before {
+          color: #2E94DF;
+        }
       }
-      
+
       @media(max-width: 660px) {
         padding: 10px;
       }
@@ -53,7 +59,7 @@
           display: none;
         }
         .short-date-num {
-          
+
         }
         .short-date-month {
 

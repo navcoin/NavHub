@@ -27,7 +27,7 @@ As with all security related topics, it’s important to note that this guide sh
 
 ### NavShopper Platform Underway
 
-While the interns are busy researching which e-commerce sites we could plug into NavShopper, work has begun by Craig on the framework of the platform. The framework build is around 80% complete with most of the major technologies implemented. Once the NavCoin daemon and exchange trading interfaces are built on the ring fenced back end server the framework will be complete and the components can start to be defined and built on top of this framework. You can keep up to date with work as it progresses by starring the [NavShopper GitHub repo](https://github.com/Encrypt-S/nav-shopper). 
+While the interns are busy researching which e-commerce sites we could plug into NavShopper, work has begun by Craig on the framework of the platform. The framework build is around 80% complete with most of the major technologies implemented. Once the NavCoin daemon and exchange trading interfaces are built on the ring fenced back end server the framework will be complete and the components can start to be defined and built on top of this framework. You can keep up to date with work as it progresses by starring the [NavShopper GitHub repo](https://github.com/Encrypt-S/nav-shopper).
 
 ### NavHub Preparing for Launch
 
@@ -35,7 +35,7 @@ The new version of the NavHub community website has gone into final review this 
 
 ### NavCoffee Updates & Discord Bot
 
-Last week we introduced you to the [NavCoffee live stream](https://www.twitch.tv/navcoffee). So far the NavCoin Core team has been donated 7 coffees from the community and the experiment is largely a success. This week Hayden has been working to improve the stability of the Raspberry Pi so that it could reliably stream for at least 8 hours a day. He’s also deployed a Discord bot which pings the #coffee-bot channel on the NavCoin Discord each time a coffee is donated. The bot can also be queried about how many coffees are available for redemption. Jump on discord and check it out, or if you want to see the code, it’s available on Hayden’s [NavCoffee GitHub repo](https://github.com/hdnsimpson/NavCoffee). 
+Last week we introduced you to the [NavCoffee live stream](https://www.twitch.tv/navcoffee). So far the NavCoin Core team has been donated 7 coffees from the community and the experiment is largely a success. This week Hayden has been working to improve the stability of the Raspberry Pi so that it could reliably stream for at least 8 hours a day. He’s also deployed a Discord bot which pings the #coffee-bot channel on the NavCoin Discord each time a coffee is donated. The bot can also be queried about how many coffees are available for redemption. Jump on discord and check it out, or if you want to see the code, it’s available on Hayden’s [NavCoffee GitHub repo](https://github.com/hdnsimpson/NavCoffee).
 
 ### NavCoin Core v4.5.2
 
@@ -45,11 +45,12 @@ Aside from these features, the NavCoin Interns have been working to fix the list
 
 ### Testnet Restart
 
-The NavCoin Core test net is currently offline, but an update that restarts the testnet has been written and is now being tested itself, before being deployed. The patch is pretty straight forward, it includes a new genesis block for the testnet and specifies a new data directory to avoid collisions with old testnet data. We are now working to get a reliable network of nodes up and running. If anyone wants to support the netnet by running a testnet node, compile the code on [PR #402](https://github.com/NAVCoin/navcoin-core/pull/402) and contact the core team to be distributed testnet coins to stake. 
+The NavCoin Core test net is currently offline, but an update that restarts the testnet has been written and is now being tested itself, before being deployed. The patch is pretty straight forward, it includes a new genesis block for the testnet and specifies a new data directory to avoid collisions with old testnet data. We are now working to get a reliable network of nodes up and running. If anyone wants to support the netnet by running a testnet node, compile the code on [PR #402](https://github.com/NAVCoin/navcoin-core/pull/402) and contact the core team to be distributed testnet coins to stake.
 
 ### NavCoin Past, Present and Future
 
 Siflu is a long-time community contributor to NavCoin. As part of his Community Fund proposal he recently published this fascinating [Medium article](https://medium.com/@siflu/the-history-the-current-state-and-the-future-of-navcoin-3390d3455313) that explores the history of NavCoin, where it is now, and what we might expect in the future.
+
 
 That’s all for this week. Don’t forget that you can receive the weekly report by email. If you would like to be added to the mailing list, [please sign up here](http://eepurl.com/cGq92z).
 

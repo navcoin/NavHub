@@ -12,8 +12,9 @@
     <div class="event-card {{ if .Params.past }}past{{ else }}current{{ end }}">
         <div class="date-icon-container">
             <div class="date-icon">
-                <h2 class="short-date-num">{{ .Params.short_date_num }}</h2>
-                <h4 class="short-date-month">{{ .Params.short_month | upper }}</h4>
+                <h2 class="short-date-num">{{ .Date.Format "02" }}</h2>
+                <h4 class="short-date-month">{{ .Date.Format "Jan" | upper }}</h4>
+                <h4 class="short-date-year">{{ .Date.Format "2006" | upper }}</h4>
             </div>
         </div>
         <div>
@@ -21,7 +22,7 @@
             <h2 class="event-title">{{ .Params.title }}</h2>
             <div class="event-date">
                     <span class="fa fa-calendar" style=color:#7D5AB5;></span>
-                {{ .Params.eventLongDate }}
+                    {{ .Date.Format "Monday, 2 January 2006, 15:04 -0700" }} GMT
             </div>
             <div class="event-location">
                     <span class="fa fa-location-arrow" style=color:#7D5AB5;></span>

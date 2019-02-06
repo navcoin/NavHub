@@ -3,7 +3,7 @@ _site/
 .jekyll-metadata
 .idea
 .DS_Store
-node_modules
+node_modules/
 .vscode
 public
 /themes/navhub-v2/static/css/nav.css

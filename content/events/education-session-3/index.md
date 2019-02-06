@@ -1,8 +1,6 @@
 ---
-short_date_num: "18"
-short_month: "OCT"
-eventLongDate: "Thursday, 18 October 2019, 8.30am - 9.30am (GMT+12)"
 date: '2018-10-18T08:30:00+12:00'
+publishdate: '2019-02-05T00:00:00+00:00'
 past: true
 title: "NavCoin LiveStream - Community Fund"
 location: "12 Madden Street, Auckland, New Zealand"
