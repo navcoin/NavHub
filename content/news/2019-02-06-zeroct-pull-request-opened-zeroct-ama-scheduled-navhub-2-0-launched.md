@@ -16,7 +16,7 @@ It’s been another busy week throughout the NavCoin community with two major mi
 
 ### ZeroCT Pull Request Opened
 
-The GitHub Pull Request to add ZeroCT transactions to NavCoin has been opened by an anonymous community developer going by the handle Skreener. The NavCoin Core developers have begun working to validate Skreener’s implementation of Alex’s new privacy protocol. The ZeroCT implementation is complicated and will take considerable time to review, refine and test. The PR adds a new testnet for the ZeroCT transactions. Head on over to the [Pull Request #412](https://github.com/NAVCoin/navcoin-core/pull/412) on GitHub if you want to check out the code and keep upto date with the testing process.
+The GitHub Pull Request to start adding ZeroCT transactions to NavCoin has been opened by an anonymous community developer going by the handle Skreener. The NavCoin Core developers have begun working to validate Skreener's implementation of Alex's new privacy protocol. This Pull Request is the first step of implementing ZeroCT and uses denominated accumulators and not Confidential Transactions. The Confidential Transactions addition is expected to come in a subsequent PR once this first phase has been tested. ZeroCT implementation is complicated and will take considerable time to review, refine and test. The PR also adds a new testnet for the ZeroCT transactions. Head on over to the [Pull Request #412](https://github.com/NAVCoin/navcoin-core/pull/412) on GitHub if you want to check out the code and keep upto date with the testing process.
 
 ### ZeroCT AMA Scheduled
 
