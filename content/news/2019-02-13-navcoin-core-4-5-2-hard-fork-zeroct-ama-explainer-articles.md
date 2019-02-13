@@ -75,9 +75,9 @@ Or you can follow their progress directly on GitHub.
 
 Since discontinuing official support for the NavPi some months ago NavCoin Core have been working towards an alternative solution for a low powered staking device. The best contender so far has been the ODroid XU4 which is nearly 4 times more powerful than the Raspberry Pi. So far we’re confident the navcoin daemon runs well on the device, so if you’re happy using SSH and CLI commands, just dive right in there and grab one. 
 
-There has proven difficult to compile the graphical interface for both NavCoin Core and also NEXT for the ODroid, so we’ve resumed working on the NavDroid StakeBox web interface. 
+It's has proven difficult to compile the graphical interface for both NavCoin Core and also NEXT for the ODroid, so we’ve resumed working on the NavDroid StakeBox web interface. 
 
-Matt and Alex are stating to make some good progress on this project with 4 PR’s already up for review. So far the basic framework has been established, including SSL and JWT login. They have been able to get the wallet and staking information from the daemon as well as sending transactions.
+Matt and Alex are starting to make some good progress on this project with 4 PR’s already up for review. So far the basic framework has been established, including SSL and JWT login. They have been able to get the wallet and staking information from the daemon as well as sending transactions.
 
 To keep up to date with this project you can follow the code bases on GitHub
 
