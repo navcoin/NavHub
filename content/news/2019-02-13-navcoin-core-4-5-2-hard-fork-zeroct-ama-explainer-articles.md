@@ -1,7 +1,7 @@
 ---
 layout: news
 generated_by_cms: true
-title: 'NavCoin Core 4.5.2 Hard Fork, ZeroCT AMA & Explainer Articles'
+title: NavCoin Core 4.5.2 Hard Fork
 author: Craig MacGregor
 date: '2019-02-13T18:08:31+13:00'
 feature_image: /images/uploads/13-feb-2019.png
