@@ -54,7 +54,7 @@ There’s some easy to digest content in the second article like a comparison ch
 
 Make sure you give the articles a good read and share Craig’s post on twitter.
 
-{{< tweet 1095514522318557184 >}}
+<https://twitter.com/proletesseract/status/1095514520917659648>
 
 ### NavCoin Core CFund Interface Progress
 
