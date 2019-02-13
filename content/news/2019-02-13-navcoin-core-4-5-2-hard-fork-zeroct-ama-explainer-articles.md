@@ -8,7 +8,11 @@ feature_image: /images/uploads/13-feb-2019.png
 categories:
   - Nav News
 ---
-As always there’s been a lot going on in the NavCoin Community this week. The major news is that NavCoin is hard forking this Saturday 16 February at 18:30 GMT to to mitigate an issue with the Community Fund payment requests.
+As always there’s been a lot going on in the NavCoin Community this week. The major news is that NavCoin is hard forking this **Saturday 16 February at 18:30 GMT** to to mitigate an issue with the Community Fund payment requests
+
+<!--more-->
+
+As always there’s been a lot going on in the NavCoin Community this week. The major news is that NavCoin is hard forking this **Saturday 16 February at 18:30 GMT** to to mitigate an issue with the Community Fund payment requests.
 
 ### NavCoin Core 4.5.2 Hard Fork
 
