@@ -40,7 +40,7 @@ If you’d like to get involved in their community, follow them on [Twitter](htt
 
 ### NavCoin Core Pull Request Reviews and Testing
 
-Validating the ZeroCT implementation posted by Skreener has begun and continues to be Alex’s primary focus. Marcus and has started some preliminary testing of ZeroCT alongside some other community developers. Besides ZeroCT Marcus has been testing the pull requests for adding mnemonic support, sending staking rewards to a nominated address and had been busy debugging and the community fund implementation for the ODroid. 
+Validating the ZeroCT implementation posted by Skreener has begun and continues to be Alex’s primary focus. Marcus has started some preliminary testing of ZeroCT alongside some other community developers. Besides ZeroCT Marcus has been testing the pull requests for adding mnemonic support, sending staking rewards to a nominated address and had been busy debugging the community fund implementation for the ODroid. 
 
 If you want to help the NavCoin project by reviewing or testing upcoming features in NavCoin Core, head on over to GitHub and have your say in the comments section of the pull requests. Many hands make light work.
 
