@@ -9,6 +9,7 @@ categories:
   - Nav News
 ---
 The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, the Bulletproofs Library being added to the ZeroCT PR, three articles published about NavCoin and a BTC/NAV pair being added on NovaExchange.
+
 <!--more-->
 
 The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, the Bulletproofs Library being added to the ZeroCT PR, three articles published about NavCoin and a BTC/NAV pair being added on NovaExchange.
@@ -69,14 +70,14 @@ That’s all for this week. Don’t forget that you can receive the weekly repor
 
 The NavCoin Core team
 
-#### Join the conversation
+**Join the conversation**
 
 [NavCoin Discord](https://discord.gg/y4Vu9jw) | [NavCoin Reddit](https://www.reddit.com/r/NavCoin) | [NavCoin Twitter](https://twitter.com/NavCoin) | [NavCoin Facebook](https://www.facebook.com/NavCoin/) | [NavCoin Telegram](https://t.me/navcoin) | [NavCoin Bitcoin Talk](https://bitcointalk.org/index.php?topic=679791)
 
-#### Resources
+**Resources**
 
 [NavCoin Knowledge Base](https://info.navcoin.org) | [NavCoin YouTube](https://www.youtube.com/NavCoinCore) | [NavCoin Core GitHub](https://github.com/navcoin/navcoin-core)
 
-#### Learn more about NavCoin
+**Learn more about NavCoin**
 
 [NavCoin Community Fund](https://navcoin.org/en/community-fund) | [NavCoin Governance](https://navcoin.org/en/governance) | [NavCoin Core Roadmap](https://navcoin.org/en/roadmap) | [NavCoin Community Hub](https://navhub.org) | [NavCoin Community Projects](https://navhub.org/projects)
