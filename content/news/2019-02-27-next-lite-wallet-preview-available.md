@@ -76,12 +76,12 @@ The NavCoin Core team
 
 **Join the conversation**
 
-[NavCoin Discord](https://discord.gg/y4Vu9jw) | [NavCoin Reddit](https://www.reddit.com/r/NavCoin) | [NavCoin Twitter](https://twitter.com/NavCoin) | [NavCoin Facebook](https://www.facebook.com/NavCoin/) | [NavCoin Telegram](https://t.me/navcoin) | [NavCoin&nbsp;Bitcoin&nbsp;Talk](https://bitcointalk.org/index.php?topic=679791)
+[NavCoin&nbsp;Discord](https://discord.gg/y4Vu9jw) | [NavCoin&nbsp;Reddit](https://www.reddit.com/r/NavCoin) | [NavCoin&nbsp;Twitter](https://twitter.com/NavCoin) | [NavCoin&nbsp;Facebook](https://www.facebook.com/NavCoin/) | [NavCoin&nbsp;Telegram](https://t.me/navcoin) | [NavCoin&nbsp;Bitcoin&nbsp;Talk](https://bitcointalk.org/index.php?topic=679791)
 
 **Resources**
 
-[NavCoin Knowledge Base](https://info.navcoin.org) | [NavCoin YouTube](https://www.youtube.com/NavCoinCore) | [NavCoin Core GitHub](https://github.com/navcoin/navcoin-core)
+[NavCoin&nbsp;Knowledge&nbsp;Base](https://info.navcoin.org) | [NavCoin&nbsp;YouTube](https://www.youtube.com/NavCoinCore) | [NavCoin&nbsp;Core&nbsp;GitHub](https://github.com/navcoin/navcoin-core)
 
 **Learn more about NavCoin**
 
-[NavCoin Community Fund](https://navcoin.org/en/community-fund) | [NavCoin Governance](https://navcoin.org/en/governance) | [NavCoin Core Roadmap](https://navcoin.org/en/roadmap) | [NavCoin Community Hub](https://navhub.org) | [NavCoin&nbsp;Community&nbsp;Projects](https://navhub.org/projects)
+[NavCoin&nbsp;Community&nbsp;Fund](https://navcoin.org/en/community-fund) | [NavCoin&nbsp;Governance](https://navcoin.org/en/governance) | [NavCoin&nbsp;Core&nbsp;Roadmap](https://navcoin.org/en/roadmap) | [NavCoin Community&nbsp;Hub](https://navhub.org) | [NavCoin&nbsp;Community&nbsp;Projects](https://navhub.org/projects)
