@@ -1,7 +1,7 @@
 ---
 layout: news
 generated_by_cms: true
-title: Next Lite Wallet Preview Available
+title: NEXT Lite Wallet Preview Available
 author: Craig MacGregor
 date: '2019-02-27T15:29:53+13:00'
 feature_image: /images/uploads/27-feb-2019.png
