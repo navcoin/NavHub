@@ -8,10 +8,10 @@ feature_image: /images/uploads/27-feb-2019.png
 categories:
   - Nav News
 ---
-The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, Bulletproofs Library being added to the ZeroCT PR, three articles being published about NavCoin and a BTC/NAV pair being added on NovaExchange.
+The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, the Bulletproofs Library being added to the ZeroCT PR, three articles published about NavCoin and a BTC/NAV pair being added on NovaExchange.
 <!--more-->
 
-The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, Bulletproofs Library being added to the ZeroCT PR, three articles being published about NavCoin and a BTC/NAV pair being added on NovaExchange.
+The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, the Bulletproofs Library being added to the ZeroCT PR, three articles published about NavCoin and a BTC/NAV pair being added on NovaExchange.
 
 ### NEXT Lite Wallet Preview Available
 
