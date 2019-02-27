@@ -66,7 +66,9 @@ There is currently 119,578 NAV available in the community fund with 6 pending pr
 
 <https://www.navexplorer.com/community-fund>
 
-That’s all for this week. Don’t forget that you can receive the weekly report by email. If you would like to be added to the mailing list, please sign up here.
+That’s all for this week. Don’t forget that you can receive the weekly report by email. If you would like to be added to the mailing list, please [sign up here](http://eepurl.com/cGq92z).
+
+And if you want your project included in the community news, jump on the [NavCoin Discord](https://discord.gg/y4Vu9jw) and post it to the #weekly-update channel.
 
 The NavCoin Core team
 
