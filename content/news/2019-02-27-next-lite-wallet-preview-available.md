@@ -8,11 +8,11 @@ feature_image: /images/uploads/27-feb-2019.png
 categories:
   - Nav News
 ---
-The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, the Bulletproofs Library being added to the ZeroCT PR, three articles published about NavCoin and a BTC/NAV pair being added on NovaExchange.
+The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, the Bulletproofs Library being added to ZeroCT, three articles published about NavCoin and a BTC/NAV pair being added on NovaExchange.
 
 <!--more-->
 
-The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, the Bulletproofs Library being added to the ZeroCT PR, three articles published about NavCoin and a BTC/NAV pair being added on NovaExchange.
+The NavCoin Community is a hive of activity this week with NEXT launching their lite wallet preview, the Bulletproofs Library being added to ZeroCT, three articles published about NavCoin and a BTC/NAV pair being added on NovaExchange.
 
 ### NEXT Lite Wallet Preview Available
 
@@ -76,8 +76,7 @@ The NavCoin Core team
 
 **Join the conversation**
 
-[NavCoin Discord](https://discord.gg/y4Vu9jw) | [NavCoin Reddit](https://www.reddit.com/r/NavCoin) | [NavCoin Twitter](https://twitter.com/NavCoin) | 
-[NavCoin Facebook](https://www.facebook.com/NavCoin/) | [NavCoin Telegram](https://t.me/navcoin) | [NavCoin Bitcoin Talk](https://bitcointalk.org/index.php?topic=679791)
+[NavCoin Discord](https://discord.gg/y4Vu9jw) | [NavCoin Reddit](https://www.reddit.com/r/NavCoin) | [NavCoin Twitter](https://twitter.com/NavCoin) | [NavCoin Facebook](https://www.facebook.com/NavCoin/) | [NavCoin Telegram](https://t.me/navcoin) | [NavCoin&nbsp;Bitcoin&nbsp;Talk](https://bitcointalk.org/index.php?topic=679791)
 
 **Resources**
 
@@ -85,5 +84,4 @@ The NavCoin Core team
 
 **Learn more about NavCoin**
 
-[NavCoin Community Fund](https://navcoin.org/en/community-fund) | [NavCoin Governance](https://navcoin.org/en/governance) | [NavCoin Core Roadmap](https://navcoin.org/en/roadmap) | 
-[NavCoin Community Hub](https://navhub.org) | [NavCoin Community Projects](https://navhub.org/projects)
+[NavCoin Community Fund](https://navcoin.org/en/community-fund) | [NavCoin Governance](https://navcoin.org/en/governance) | [NavCoin Core Roadmap](https://navcoin.org/en/roadmap) | [NavCoin Community Hub](https://navhub.org) | [NavCoin&nbsp;Community&nbsp;Projects](https://navhub.org/projects)
