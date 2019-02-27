@@ -34,7 +34,7 @@ Other progress on NavCoin Core has been made this week the NavCore Interns who c
 
 ### NavCoin listed on Nova Exchange
 
-Community Members Juguelio and Chasethechaser working hard to get NavCoin listed on new exchanges over the last few weeks. This week a [BTC/NAV](https://novaexchange.com/market/BTC_NAV/) pair has been added to [NovaExchange](https://novaexchange.com) with more listings in the works.
+Community Members Juguelio and Chasethechaser have been working hard to get NavCoin listed on new exchanges over the last few weeks. This week a [BTC/NAV](https://novaexchange.com/market/BTC_NAV/) pair has been added to [NovaExchange](https://novaexchange.com) with more listings in the works.
 
 ### NavCoin in the News
 
@@ -62,7 +62,7 @@ This event runs from 5:30pm - 7:00pm after which the NavCoin Core team will be h
 
 ### Community Fund Projects Update
 
-There is currently 119,578 NAV available in the community fund with 6 pending proposals and 3 pending payment requests active being voted on. If you are staking coins make sure you head on over, learn what they’re about and cast your votes accordingly.
+There is currently 119,578 NAV available in the community fund with 6 pending proposals and 3 pending payment requests actively being voted on. If you are staking coins make sure you head on over, learn what they’re about and cast your votes accordingly.
 
 <https://www.navexplorer.com/community-fund>
 
