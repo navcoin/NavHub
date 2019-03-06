@@ -8,11 +8,11 @@ feature_image: /images/uploads/6-march-2019.png
 categories:
   - Nav News
 ---
-This week NavCoin’s Co-Founder Craig talked about NavCoin at the first Blockchain NZ event of the year, the first inaugural NavCoin Meetup in Auckland was held and the Spanish translation of the NavCoin website is live.
+This week NavCoin’s Co-Founder Craig talked at the first Blockchain NZ event of the year, the first inaugural NavCoin Meetup in Auckland was held and the Spanish translation of the NavCoin website is live.
 
 <!--more-->
 
-This week NavCoin’s Co-Founder Craig talked about NavCoin at the first Blockchain NZ event of the year, the first inaugural NavCoin Meetup in Auckland was held and the Spanish translation of the NavCoin website is live.
+This week NavCoin’s Co-Founder Craig talked at the first Blockchain NZ event of the year, the first inaugural NavCoin Meetup in Auckland was held and the Spanish translation of the NavCoin website is live.
 
 ### BlockchainNZ Talk & NavCoin Meetup
 
