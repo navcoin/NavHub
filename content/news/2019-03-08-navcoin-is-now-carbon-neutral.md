@@ -18,8 +18,6 @@ While it is hard to quantify the total power consumption of a decentralised netw
 
 You can read the full calculations and assumption used on the NavCollab page that describes the [Carbon Offset proposal](https://collab.navcoin.org/s/carbon-neutral-navcoin/custom_pages/container/view?id=6).
 
-![](/images/uploads/ekos-small.png)
-
 The Ekos projects that the credits are being obtained from are the Drawa project in Fiji, the Sasaboe project in the Solomon Islands as well as the Rameka project in Golden Bay, New Zealand. You can check out the [projects page](https://ekos.org.nz/our-projects) on the Ekos website for further information.
 
 There is approximately 500,000 NAV generated annually for the NavCoin Community Fund and currently there is more than 125,000 NAV in the available for proposals. If you have a project big or small that you would like to see funded by the NavCoin Community, take the time to learn about the fund and join our community on [Reddit](https://reddit.com/r/NavCoin/) & [Discord](https://discordapp.com/invite/y4Vu9jw).
