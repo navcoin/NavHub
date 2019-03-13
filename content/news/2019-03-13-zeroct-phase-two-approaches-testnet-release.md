@@ -64,7 +64,8 @@ You can download the full sized image here, or share NavCoin Australia’s tweet
 
 <https://twitter.com/NavCoinAU/status/1104993620757700608>
 
-Community Fund Projects Update
+### Community Fund Projects Update
+
 There is currently 136,000 NAV available in the community fund with 7 pending proposals and 4 pending payment requests active being voted on. If you are staking coins make sure you head on over, learn what they’re about and cast your votes.
 
 <https://www.navexplorer.com/community-fund>
