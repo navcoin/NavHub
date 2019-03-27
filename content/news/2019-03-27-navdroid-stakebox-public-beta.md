@@ -76,7 +76,7 @@ Last week NavCoin Co-Founder Craig MacGregor flew down to Wellington to talk wit
 
 You can watch the full interview here:
 
-< youtube MtfTzRZqFIw >
+{{< youtube MtfTzRZqFIw >}}
 
 Do subscribe to TheCryptoLark on Twitter and YouTube. His channel is a great source of crypto current events, project reviews, interviews and recently he’s published an education series on crypto and blockchain.
 
