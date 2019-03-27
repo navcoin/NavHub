@@ -82,7 +82,7 @@ Make sure you subscribe to TheCryptoLark on [Twitter](https://twitter.com/TheCry
 
 ### BitPrime Community Fund Review
 
-BitPrime have featured NavCoin and it’s Community Fund in a review published to their site. The review covers everything from NavCoin’s history, how the Community Fund works, how NavCoin’s governance works and its uses in the real world.
+BitPrime have featured NavCoin and its Community Fund in a review published to their site. The review covers everything from NavCoin’s history, how the Community Fund works, how NavCoin’s governance works and its uses in the real world.
 
 You can read the full article here:
 
