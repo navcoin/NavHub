@@ -78,7 +78,7 @@ You can watch the full interview here:
 
 {{< youtube MtfTzRZqFIw >}}
 
-Make sure you subscribe to TheCryptoLark on Twitter and YouTube. His channel is a great source of crypto current events, project reviews, interviews and recently he’s published an education series on crypto and blockchain.
+Make sure you subscribe to TheCryptoLark on [Twitter](https://twitter.com/TheCryptoLark) and [YouTube](https://www.youtube.com/user/larksongbird01). His channel is a great source of crypto current events, project reviews, interviews and recently he’s published an education series on crypto and blockchain.
 
 ### BitPrime Community Fund Review
 
