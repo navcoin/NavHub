@@ -60,25 +60,25 @@ MyLocalCoin is a UK based cryptocurrency exchange platform that now supports BTC
 
 There is currently 112,450 NAV available in the community fund with 6 pending proposals and 1 pending payment requests active being voted on. As a new addition to this section of the weekly report we will be highlighting new proposals in their first voting cycle. We plan to feature all new proposals here moving forward and being featured shouldn’t be considered an endorsement. Please continue to do your own due diligence and vote as you see fit.
 
-#### Social Media Marketing for 2019 (22,500 NAV)
+##### Social Media Marketing for 2019 (22,500 NAV)
 
 This proposal is submitted by blockchain marketing agency Onyxxo to fund advertising and brand awareness for NavCoin on all major crypto channels.
 
 <https://www.navexplorer.com/community-fund/proposal/86d521a55e402fe2a34ff72a96af9c43108d6726fe134eb3521d4d0210459e0e>
 
-#### Translation of 10 Articles to French (5,000 NAV)
+##### Translation of 10 Articles to French (5,000 NAV)
 
 This proposal is submitted by Pan Arte to translate 10 of the most relevant articles about NavCoin into French to create introductory materials for the French crypto community.
 
 <https://www.navexplorer.com/community-fund/proposal/2455135c51a2b3dc090c4ba21716e397fd23a0fde5430c6650c2753cc1816b58>
 
-#### FCAS Rating for NavCoin (4,000 NAV)
+##### FCAS Rating for NavCoin (4,000 NAV)
 
 This proposal is submitted by Craig MacGregor to sponsor Flipside Crypto to review NavCoin and issue their Fundamental Crypto Asset Score (FCAS) as seen on CoinMarketCap.
 
 <https://www.navexplorer.com/community-fund/proposal/3bfa0d3354ddde6a1570c1ff7818353d6e9408642462775b731c57110572074c>
 
-#### + More Existing Proposals
+##### + More Existing Proposals
 
 To check out the full list of pending proposals and payment requests, visit the community fund page of the block explorer.
 
