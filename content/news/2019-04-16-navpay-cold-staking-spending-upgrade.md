@@ -40,6 +40,8 @@ It's worth re-iterating that even with this update, NavPay is still not recommen
 
 It's best practice to use NavCoin Core in a secure environment to create spending keys for cold staking. It has the best tools for spending cold staking transactions like, the ability to set your cold staking address as the custom change address and all the coin control features which make sure you're spending the right transactions.
 
-For more information about Cold Staking best practices, please watch the neat video Laura & Marcus made and join us on [discord](https://discord.gg/y4Vu9jw) if you have further questions
+For more information about Cold Staking best practices, please watch the neat video Laura & Marcus made.
 
 {{<youtube ERIRWwrajco>}}
+
+Join us on [discord](https://discord.gg/y4Vu9jw) if you have further questions.
