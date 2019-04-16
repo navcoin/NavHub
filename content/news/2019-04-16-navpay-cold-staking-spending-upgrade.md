@@ -11,6 +11,8 @@ categories:
 The upgrade to enable spending of cold staking balances where NavPay was used as the spending key has been successfully deployed to NavPay's production servers. The upgrade also requires a wallet update (NavPay v4.6.0) which is in the process of rolling out.
 <!-- more -->
 
+The upgrade to enable spending of cold staking balances where NavPay was used as the spending key has been successfully deployed to NavPay's production servers. The upgrade also requires a wallet update (NavPay v4.6.0) which is in the process of rolling out.
+
 If you're on Android, your app should update as soon as the new version rolls out to your region (within 48 hours).
 
 Desktop and Web Wallets should be available from the website and GitHub within the next 24 hours.
