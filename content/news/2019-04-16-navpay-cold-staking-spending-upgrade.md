@@ -8,11 +8,11 @@ feature_image: /images/uploads/16-april-2019.png
 categories:
   - Nav News
 ---
-The upgrade to enable spending of cold staking balances where NavPay was used as the spending key has been successfully deployed to NavPay's production servers. The upgrade also requires a wallet update which we are in the process of rolling out.
+The upgrade to enable spending of cold staking balances where NavPay was used as the spending key has been successfully deployed to NavPay's production servers. The upgrade also requires a wallet update (NavPay v4.6.0) which is in the process of rolling out.
 
 If you're on Android, your app should update as soon as the new version rolls out to your region (within 48 hours).
 
-Desktop and Web Wallets should be available from the website and github within the next 24 hours.
+Desktop and Web Wallets should be available from the website and GitHub within the next 24 hours.
 
 What's included in this update;
 
@@ -37,7 +37,7 @@ What's not included in this update;
 
 It's worth re-iterating that even with this update, NavPay is still not recommended for use as your cold staking spending wallet. 
 
-It's best practice to use NavCoin Core to create spending keys for cold staking. It has the best tools for spending cold staking transactions like, the ability to set your cold staking address as the custom change address and all the coin control features which make sure you're spending the right transactions.
+It's best practice to use NavCoin Core in a secure environment to create spending keys for cold staking. It has the best tools for spending cold staking transactions like, the ability to set your cold staking address as the custom change address and all the coin control features which make sure you're spending the right transactions.
 
 For more information about Cold Staking best practices, please watch the neat video Laura & Marcus made and join us on [discord](https://discord.gg/y4Vu9jw) if you have further questions
 
