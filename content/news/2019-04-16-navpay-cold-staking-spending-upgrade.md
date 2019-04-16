@@ -41,4 +41,4 @@ It's best practice to use NavCoin Core in a secure environment to create spendin
 
 For more information about Cold Staking best practices, please watch the neat video Laura & Marcus made and join us on [discord](https://discord.gg/y4Vu9jw) if you have further questions
 
-{(<youtube ERIRWwrajco>}}
+{{<youtube ERIRWwrajco>}}
