@@ -1,7 +1,7 @@
 ---
 layout: news
 generated_by_cms: true
-title: NavPay Cold Staking Spending Upgrade
+title: NavPay Cold Staking Upgrade
 author: Craig MacGregor
 date: '2019-04-16T17:47:00+12:00'
 feature_image: /images/uploads/16-april-2019.png
