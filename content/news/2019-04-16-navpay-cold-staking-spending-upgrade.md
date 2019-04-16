@@ -23,7 +23,9 @@ What's included in this update;
 * Cold staking transactions will appear as 'received' in the transaction history of your wallet.
 * These transactions are now spendable by NavPay.
 
-If you've got the latest wallet and you're still not able to see your cold staking transactions you might need to scan your wallet for unspent transactions. Navigate to;
+Once you've updated to NavPay 4.6.0 you will probably need to scan your wallet for unspent transactions to see the cold staking balance.
+
+Navigate to;
 
 Settings > (Your Wallet) > More Options > Wallet Addresses
 
