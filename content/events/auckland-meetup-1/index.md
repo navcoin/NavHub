@@ -1,7 +1,7 @@
 ---
 date: '2019-02-28T18:00:00+12:00'
 publishdate: '2019-02-05T00:00:00+00:00'
-past: false
+past: true
 title: "NavCoin, Cryptocurrency & Blockchain Meetup"
 location: "Jack Tar, Jellicoe Street, Auckland, New Zealand"
 host: "Encrypt S"

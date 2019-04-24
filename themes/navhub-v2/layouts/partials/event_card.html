@@ -1,4 +1,4 @@
-<div class="event-card non-border {{ if .Params.past }}past{{ else }}current{{ end }}">
+<div class="event-card non-border {{ if .Params.past }}past{{ else }}current{{ end }}" id="{{ .Title | urlize }}">
     <div class="date-icon-container">
         <div class="date-icon">
           <h2 class="short-date-num">{{ .Date.Format "02" }}</h2>
