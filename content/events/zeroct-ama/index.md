@@ -1,7 +1,7 @@
 ---
 date: '2019-02-12T19:00:00+00:00'
 publishdate: '2019-02-05T00:00:00+00:00'
-past: false
+past: true
 title: "NavCoin ZeroCT AMA"
 location: "r/NavCoin"
 host: "NavCoin Core"
