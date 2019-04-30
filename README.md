@@ -1,6 +1,8 @@
 # NAV community site
 Maintained by the global NAV community
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c02a0ab-b7eb-411a-96f8-291e9ffcd039/deploy-status)](https://app.netlify.com/sites/navhub/deploys)
+
 ## Contributing to the site
 Want to add a project, update or fix some errors. Then please fork the project and get changing.
 
