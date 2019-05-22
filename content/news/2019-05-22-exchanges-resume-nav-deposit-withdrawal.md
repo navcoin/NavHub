@@ -26,7 +26,7 @@ NavCoin Core Contributor mxaddict is proving to be a valuable asset to the NavCo
 
 So far mxaddict has the basic BOLOS App for NAV working on the ledger firmware.
 
-![](/images/uploads/navcoin-ledger.png)
+![null](/images/uploads/navcoin-ledger.png)
 
 Pull Requests for the BOLOS app have been submitted to the Ledger GitHub repository and is now awaiting feedback, review and integration.
 
@@ -76,13 +76,13 @@ For now, the privacy debate rages on. If you’d like to share your thoughts or 
 
 Some weeks ago Fuseini Alhassan - also known as cryptoeye - put forward a Community Fund proposal to sponsor a NavCoin Meet-Up and cryptocurrency education session at the Bolgantanga Technical University in Ghana. The proposal passed, cryptoeye received the funding and has since put on the event which was the first NavCoin meet-up to be held on the African continent. The meet-up was a success with a full class of 49 participants attending eager to learn about cryptocurrency and NavCoin. The attendees received airdrops of NavCoin so they could experience how fast and easy cryptocurrency is to use, NavCoin t-shirts and an education seminar on the benefits of cryptocurrencies and NavCoin.
 
-![](/images/uploads/d6udlcguwaay5fu1.jpg)
+![null](/images/uploads/d6udlcguwaay5fu1.jpg)
 
-![](/images/uploads/d6udnabuuaa1eqn.jpg)
+![null](/images/uploads/d6udnabuuaa1eqn.jpg)
 
-![](/images/uploads/d6udkf_u8aa799s.jpg)
+![null](/images/uploads/d6udkf_u8aa799s.jpg)
 
-![](/images/uploads/d6udo1rv4aaeq6g.jpg)
+![null](/images/uploads/d6udo1rv4aaeq6g.jpg)
 
 Ghana is the recipient of USD $2.2 Billion in remittances annually and Africa at large is a huge economy which is ripe to make use of such technologies as NavCoin. Having people on the ground in the region like cryptoeye to help educate people at the grassroots level is such an important part of helping Ghanians achieve financial autonomy.
 
@@ -96,10 +96,12 @@ If you want to keep up to date with what cryptoeye is up to in Ghana and get inv
 
 NavCoin is now available on two new exchanges;
 
-CoinSwitch - https://coinswitch.co
+**CoinSwitch** - https://coinswitch.co
+
 An instant exchange platform which supports over 300 currencies and simplifies the trading process.
 
-StakeCube - https://stakecube.net 
+**StakeCube** - https://stakecube.net 
+
 A proof of stake and masternode pooling service which also has exchange capability between the coins it supports.
 
 As with all new listings and services it is our duty to inform the community about them, but it can’t be considered an endorsement. It is always up to you to do your own due diligence before sending your NAV or other forms of money to any third party service. 
