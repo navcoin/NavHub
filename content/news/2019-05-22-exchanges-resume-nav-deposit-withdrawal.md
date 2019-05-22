@@ -90,7 +90,7 @@ The Ghana meet-up marks the first NavCoin event to be sponsored by the decentral
 
 If you want to keep up to date with what cryptoeye is up to in Ghana and get involved, make sure you start following NavCoin Africa on twitter.
 
-<https://twitter.com/NavcoinT>
+<https://twitter.com/NavcoinAfrica>
 
 ### New Exchange Listings
 
