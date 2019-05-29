@@ -7,15 +7,29 @@
     </div>
     <div class="card-container">
 
-        {{ $list := .Site.Pages.ByDate.Reverse}}
+        {{ $list := .Site.Pages.ByDate}}
         {{ $count := 0 }}
         {{ range $index, $element := $list }}
+          {{ if eq $element.Params.past false }}
             {{ if (and (hasPrefix $element.Dir "events") (ne $element.Dir "events/" )) }}
                 {{ if lt $count 4 }}
                 {{ partial "home/event_card.html" . }}
                     {{ $count = add $count 1 }}
                 {{ end }}
             {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ $pastList := .Site.Pages.ByDate.Reverse}}
+        {{ range $index, $element := $pastList }}
+          {{ if ne $element.Params.past false }}
+            {{ if (and (hasPrefix $element.Dir "events") (ne $element.Dir "events/" )) }}
+                {{ if lt $count 4 }}
+                {{ partial "home/event_card.html" . }}
+                    {{ $count = add $count 1 }}
+                {{ end }}
+            {{ end }}
+          {{ end }}
         {{ end }}
 
     </div>

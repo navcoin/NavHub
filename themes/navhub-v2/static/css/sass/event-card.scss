@@ -2,6 +2,24 @@ $text-grey: #24292e;
 $nav-purple:#7D5AB5;
 $border-grey: #A3A6AD;
 
+.title-divider {
+  border-bottom: 1px solid #DDD;
+  margin: 0 20px 20px 20px;
+  padding-bottom: 20px;
+  &.second-divider {
+    border-top: 1px solid #DDD;
+    padding-top: 20px;
+  }
+
+  h2 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    color: #24292e;
+  }
+}
+
 .events {
   padding-bottom: 20px;
 }
