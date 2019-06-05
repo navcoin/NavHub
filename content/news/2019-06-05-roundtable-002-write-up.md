@@ -9,19 +9,20 @@ categories:
   - Nav News
 ---
 This week we look at what was discussed during the June 2019 NavCoin Community Roundtable and the progress being made in NavCoin Core.
+
 <!--more-->
 
 ### Roundtable 002 Write Up
 
-The second Community Roundtable was a success with a growing number of readers and participants. The discussion was varied and covered a broad number of topics and projects which are going on in the community at the moment. A big thank you to NavCoin Contributor chasethechaser for organising and hosting the discussion.
+The second Community Roundtable was a success with a growing number of readers and participants. The discussion was varied and covered a broad number of topics and projects which are going on in the community at the moment. A big thank you to NavCoin Contributor _**salmonskinroll**_ for organising and hosting the discussion.
 
 #### NavPool
 
-NavCoin Developer _**prodpeak**_ has been working to create a cold staking mining pool for NavCoin. The beta testing is largely finished and he expects the site to be publicly launched in approximately two weeks. He has requested _**proletesseract**_ and _**ro**_ to review the React JS web application.
+NavCoin Developer **_prodpeak_** has been working to create a cold staking mining pool for NavCoin. The beta testing is largely finished and he expects the site to be publicly launched in approximately two weeks. He has requested **_proletesseract_** and **_ro_** to review the React JS web application.
 
 #### Privacy Protocol
 
-More discussion was had about which privacy implementation to pursue now that Zerocoin is defunct and the results of the network vote were inconclusive. One suggestion from _**aguycalled**_ is to combine coinjoin with confidential transactions to create an acceptable level of privacy. Alex plans to put together a brief write up of the proposal and create a community fund vote to gauge sentiment on proceed with the implementation.
+More discussion was had about which privacy implementation to pursue now that Zerocoin is defunct and the results of the network vote were inconclusive. One suggestion from **_aguycalled_** is to combine coinjoin with confidential transactions to create an acceptable level of privacy. Alex plans to put together a brief write up of the proposal and create a community fund vote to gauge sentiment on proceed with the implementation.
 
 #### Community Fund Extensions
 
@@ -39,7 +40,7 @@ For some time there’s been the notion of NavCoin Core and the Community Contri
 
 NavCoin Contributors are seeking additional content creators to help create promotional content for NavCoin. With access to the Community Fund anyone can now make a proposal to promote NavCoin and there are multiple longstanding community members who are able to help content creators with any project insights or technical information they require.
 
-To read the full write up by NavCoin Contributor chasethechaser please join the discussion on the [Roundtable 002 Notes](https://www.reddit.com/r/NavCoin/comments/bwtyi9/roundtable_002_notes/) reddit thread.
+To read the full write up by NavCoin Contributor _**salmonskinroll**_ please join the discussion on the [Roundtable 002 Notes](https://www.reddit.com/r/NavCoin/comments/bwtyi9/roundtable_002_notes/) reddit thread.
 
 Or read the full conversation on the Discord server, channel #roundtable
 
@@ -49,15 +50,15 @@ Or read the full conversation on the Discord server, channel #roundtable
 
 Steady progress continues this week on NavCoin Core. Two more pull requests have been merged to master this week making a total of 15 PR’s ready for inclusion in the next version of NavCoin Core.
 
-This week’s merged pull requests are relatively minor fixes from _**prodpeak**_ and _**mxaddict**_ but there are a number of larger pull requests currently under review. There are currently 5 pull requests tagged as “needed for final release” as the NavCoin Developers work towards releasing minor version 4.6.1 in the coming weeks.
+This week’s merged pull requests are relatively minor fixes from **_prodpeak_** and **_mxaddict_** but there are a number of larger pull requests currently under review. There are currently 5 pull requests tagged as “needed for final release” as the NavCoin Developers work towards releasing minor version 4.6.1 in the coming weeks.
 
-To check out everything that’s being worked on head on over to the NavCoin Core GitHub repository and take a look at the Issues and Pull Requests tabs. There’s still plenty of issues with developer bounties assigned if you want to earn some NAV and contribute to NavCoin Core. All you have to do is claim an issue or if you find a feature or bug you want to work on then write your own issue and request a bounty assessment from _**aguycalled**_.
+To check out everything that’s being worked on head on over to the NavCoin Core GitHub repository and take a look at the Issues and Pull Requests tabs. There’s still plenty of issues with developer bounties assigned if you want to earn some NAV and contribute to NavCoin Core. All you have to do is claim an issue or if you find a feature or bug you want to work on then write your own issue and request a bounty assessment from **_aguycalled_**.
 
 <https://github.com/navcoin/navcoin-core>
 
 ### FCAS Rating Update
 
-NavCoin Developer _**proletesseract**_ has been busy working with the team at Flipside Crypto to build a chainwalker program which will help them to analyse the NavCoin blockchain and prepare their rating. The chainwalker is now completed and the team at flipside crypto are starting to work on parsing the blockchain and producing their rating. More information will be provided as it unfolds.
+NavCoin Developer **_proletesseract_** has been busy working with the team at Flipside Crypto to build a chainwalker program which will help them to analyse the NavCoin blockchain and prepare their rating. The chainwalker is now completed and the team at flipside crypto are starting to work on parsing the blockchain and producing their rating. More information will be provided as it unfolds.
 
 <https://collab.navcoin.org/s/fcas-rating>
 
