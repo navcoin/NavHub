@@ -16,27 +16,27 @@ This week we look at what was discussed during the June 2019 NavCoin Community R
 
 The second Community Roundtable was a success with a growing number of readers and participants. The discussion was varied and covered a broad number of topics and projects which are going on in the community at the moment. A big thank you to NavCoin Contributor _**salmonskinroll**_ for organising and hosting the discussion.
 
-#### NavPool
+##### NavPool
 
 NavCoin Developer **_prodpeak_** has been working to create a cold staking mining pool for NavCoin. The beta testing is largely finished and he expects the site to be publicly launched in approximately two weeks. He has requested **_proletesseract_** and **_ro_** to review the React JS web application.
 
-#### Privacy Protocol
+##### Privacy Protocol
 
 More discussion was had about which privacy implementation to pursue now that Zerocoin is defunct and the results of the network vote were inconclusive. One suggestion from **_aguycalled_** is to combine coinjoin with confidential transactions to create an acceptable level of privacy. Alex plans to put together a brief write up of the proposal and create a community fund vote to gauge sentiment on proceed with the implementation.
 
-#### Community Fund Extensions
+##### Community Fund Extensions
 
 The need to expand the community fund’s capabilities is clear when the community is using it for things like sentiment votes and not only funding proposals. Alex has written up his ideas about expanding the features to include a voting system and possibly some other extensions like proposal bidding. The main discussion point was around what to call the system as it outgrows being only the community fund. NavDAO and a few other names were mentioned but nothing is set.
 
-#### NavCoin Foundation Creation
+##### NavCoin Foundation Creation
 
 While the development side of NavCoin is operating well with decentralised development and developer bounties, contributors on the organisational and promotional side of the community are interested to setup a NavCoin Foundation. The scope of the foundation would be to help onboard new exchanges, sponsorships and other network level promotional or outreach activities. For now it’s just something to think about as the discussion continues in the community.
 
-#### Flattening NavCoin’s Hierarchy
+##### Flattening NavCoin’s Hierarchy
 
 For some time there’s been the notion of NavCoin Core and the Community Contributors as two distinct groups which is an idea the community wishes to completely discard. NavCoin is a decentralised, open source project and any type of hierarchy is not in the best interest of the project. As a tight knit community, developers often now work on multiple software verticals and defining someone’s title by the software they contribute to is becoming meaningless. The term NavCoin Developer will now be used in reference to anyone working on NavCoin Core or related software and NavCoin Contributor for anyone who promotes or otherwises helps to advance NavCoin. The discord roles have been renamed to reflect this.
 
-#### Content Creators
+##### Content Creators
 
 NavCoin Contributors are seeking additional content creators to help create promotional content for NavCoin. With access to the Community Fund anyone can now make a proposal to promote NavCoin and there are multiple longstanding community members who are able to help content creators with any project insights or technical information they require.
 
