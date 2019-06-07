@@ -17,7 +17,7 @@ in_progress: true
 completed: false
 show_on_projects: true
 allow_click_through: false
-percent_complete: 10
+percent_complete: 80
 github_url: "https://github.com/NavPool"
 project_url: ""
 reddit_url: ""
