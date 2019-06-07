@@ -10,7 +10,17 @@
 <div class="blog-grid">
     <div class="blog-item">
         <div class="details-img">
-            <img alt="{{.Params.title}}" src="{{ .Params.feature_image }}">
+
+            {{ $image_ext := path.Ext .Params.feature_image }}
+            {{ $image_base := path.Base .Params.feature_image }}
+            {{ $image_no_ext := strings.TrimSuffix $image_ext $image_base }}
+            {{ $image_dir := path.Dir .Params.feature_image }}
+
+
+            <picture>
+                <source type="image/webp" srcset="{{ $image_dir }}{{ $image_no_ext }}.webp">
+                <img alt="{{.Params.title}}" src="{{ .Params.feature_image }}">
+            </picture>
         </div>
         <h1 class="blog-title">{{.Params.title}}</h1>
         <div class="blog-meta-wrapper">
