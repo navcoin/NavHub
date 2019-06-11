@@ -6,7 +6,7 @@ HUGO_VERSION = "0.53"
 
 [build]
 publish = "public"
-command = "gulp sass && hugo"
+command = "gulp exportWebP && gulp sass && hugo"
 
 [[redirects]]
   from = "https://navcore.org/*"
