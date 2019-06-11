@@ -15,7 +15,7 @@ gulp.task('sass:watch', function () {
 
 gulp.task("exportWebP", function() {
 
-    imagemin(['./**/*.{jpg,png}'], {
+    imagemin(['./**/*.{jpg,png,jpeg,JPG,PNG,JPEG}'], {
         use: [
             imageminWebp({quality: 85})
         ]
