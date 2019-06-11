@@ -3,7 +3,12 @@
         <h1 class="">{{ .Params.title_text}}</h1>
         {{ .Content | safeHTML}}
     </div>
-    <img src="{{ .Params.heroImageSrc }}" class="hero-img">
+
+    {{ partial "image.html" (dict "imagePath"  .Params.heroImageSrc "class" "hero-img"  ) }}
+
+
+
+    <!--<img src="{{ .Params.heroImageSrc }}" class="hero-img">-->
     <div class="hero-button">
         <a href="{{ .Params.buttonLink }}" class="btn btn-blue img-left" {{if isset .Params "newTab"}} target="_blank" {{end}}>
         <span>{{ .Params.buttonText }}</span>

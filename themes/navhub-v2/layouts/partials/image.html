@@ -1,0 +1,12 @@
+
+{{ $image_ext := path.Ext .imagePath }}
+{{ $image_base := path.Base .imagePath }}
+{{ $image_no_ext := strings.TrimSuffix $image_ext $image_base }}
+{{ $image_dir := path.Dir .imagePath }}
+
+<!-- Image Partial -->
+<picture >
+    <source type="image/webp" srcset="{{ $image_dir }}/{{ $image_no_ext }}.webp" class="{{.class}}">
+    <img alt="{{.Params.title}}" src="{{ .imagePath }}" class="{{.class}}">
+</picture>
+<!-- Image Partial -->
