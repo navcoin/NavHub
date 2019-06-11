@@ -1,14 +1,28 @@
 <div class="news-item">
     {{ if isset .Params "generated_by_cms" }}
         <a href="{{ .URL }}">
-        <div class="blog-image" style="background-image:url({{ .Params.feature_image }});">
+
+        <div class="blog-image" style="display: flex; justify-content: center;  align-items: center; height: 200px; overflow: hidden;" >
+            <img src="{{ .Params.feature_image}}" style=" flex: none;" />
             <div class="item-overlay"></div>
         </div>
         </a>
+<!--
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center center;
+    max-width: 95vw;
+    border-radius: 5px 5px 0 0;
+    -->
+
     {{else}}
         <a href="{{ .URL }}">
-            <div class="blog-image" style="background-image:url({{ .URL }}/{{ .Params.feature_image }});">
-            <div class="item-overlay"></div>
+
+            <div class="blog-image"  style="display: flex; justify-content: center;  align-items: center; height: 200px; overflow: hidden;" >
+                <img src="{{ .Params.feature_image}}" style=" flex: none;" />
+                <div class="item-overlay"></div>
             </div>
         </a>
     {{ end }}
