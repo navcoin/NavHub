@@ -1,10 +1,12 @@
 <div class="navcoin-hero">
   {{ if (isset .Params "image")}}
-    <img src="{{ .Params.image }}">
+  {{ partial "image.html"  (dict "imagePath" .Params.image)  }}
+
   {{ else if (isset .Params "twitter_user")}}
     <img src="http://avatars.io/twitter/{{ .Params.twitter_user }}">
   {{ else }}
-    <img src="/images/icons/icon-community.png">
+  {{ partial "image.html"  (dict "imagePath" "/images/icons/icon-community.png")  }}
+    <!--<img src="/images/icons/icon-community.png">-->
   {{ end }}
   <h2>{{ .Params.name }}</h2>
   <p>{{ .Params.description }}</p>
