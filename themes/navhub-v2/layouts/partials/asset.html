@@ -1,6 +1,8 @@
 <a class="asset" href="{{ .Params.downloadUrl }}">
   <div class="content">
-    <img src="{{ .Params.iconSrc }}">
+    <!--<img src="{{ .Params.iconSrc }}">-->
+    {{ partial "image.html" (dict "imagePath" .Params.iconSrc) }}
+
     <h2>{{ .Params.title }}</h2>
     <p>{{ .Params.subtext }}&nbsp;»</p>
   </div>
