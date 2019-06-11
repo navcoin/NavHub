@@ -21,17 +21,6 @@ gulp.task("exportWebP", function() {
         ]
     });
 
-    // let src = "./**/*.png"; // Where your PNGs are coming from.
-    // let dest = "dist/images"; // Where your WebPs are going.
-    //
-    // return gulp.src(src)
-    //     .pipe(imagemin([
-    //         webp({
-    //             quality: 85
-    //         })
-    //     ]))
-    //     .pipe(extReplace(".webp"))
-    //     .pipe(gulp.dest(src));
 });
 
 function buildSass() {
