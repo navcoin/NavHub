@@ -28,7 +28,7 @@ NavPool is offering a 1000 NAV prize to one lucky staker to celebrate the launch
 
 And don’t forget to follow [@nav_pool](https://twitter.com/nav_pool) on twitter for all the latest updates.
 
-#### Concerns about Centralisation
+##### Concerns about Centralisation
 
 While the NavPool service is convenient, there is some discussion in the community about the effect it will have on network security over time. 
 
