@@ -13,7 +13,9 @@ Paste the preview links where the changes can be viewed on the netlify deploy pr
 eg.
 
 https://deploy-preview-200--navhub.netlify.com/
+
 https://deploy-preview-200--navhub.netlify.com/news/
+
 https://deploy-preview-200--navhub.netlify.com/news/2019-06-20-privacy-implementation-vote-underway/
 
 The preview can be found on the pull reqeuest once it's made by clicking `show all checks` > `details`.
