@@ -4,7 +4,22 @@ Maintained by the global NAV community
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2c02a0ab-b7eb-411a-96f8-291e9ffcd039/deploy-status)](https://app.netlify.com/sites/navhub/deploys)
 
 ## Contributing to the site
-Want to add a project, update or fix some errors. Then please fork the project and get changing.
+
+Anyone can contribute to the site by making a pull request with the changes you'd like to see included.
+
+## Bounty Program
+
+There is a bounty program which you can get paid in NAV for contributing to this websites.
+
+https://www.reddit.com/r/NavCoin/comments/bttld6/websites_bounty_program
+
+To make sure you are eligible to claim a bounty please follow these simple steps;
+
+1. Check the issues list for issues tagged with `bounty` or make your own issue and tag it with `bounty-review` to have it reviewed and assigned a bounty.
+2. Comment on the bounty issue you'd like to work on to claim it and ensure no one else is working on it.
+3. Fork the repository and do the work outlined in the bounty issue.
+4. Make a pull request to the main repository and fill out the pull request template in full.
+5. Once the pull request is reviewed, approved and merged to master the bounty will be paid.
 
 ## Geting started
 The NAV community site is built with the static site generator [Hugo](https://gohugo.io/).
