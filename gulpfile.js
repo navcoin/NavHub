@@ -1,5 +1,11 @@
 var gulp = require('gulp');
+var browserify = require('browserify');
+var babelify = require('babelify');
+var source = require('vinyl-source-stream');
+var buffer = require('vinyl-buffer');
+var rename = require('gulp-rename');
 var sass = require('gulp-sass');
+var concat = require('gulp-concat');
 
 gulp.task('sass', function () {
   buildSass()
@@ -17,4 +23,34 @@ function buildSass() {
     .pipe(gulp.dest('themes/navhub-v2/static/css')))
     console.log('CSS Compiled')
   })
+}
+
+gulp.task('react:watch', function(){
+  buildReact()
+  gulp.watch('./react-components/src/**/*.js', ['react'])
+});
+
+gulp.task('react', function () {
+  buildReact()
+});
+
+function buildReact() {
+  concatJS()
+  var bundler = browserify('./react-components/app.js').transform(babelify, {presets: ['@babel/preset-react']})
+  bundle(bundler);
+}
+
+function concatJS() {
+  return gulp.src('./react-components/src/**/*.js')
+    .pipe(concat({ path: 'app.js', stat: { mode: 0666 }}))
+    .pipe(gulp.dest('./react-components/'));
+}
+
+function bundle(bundler) {
+  bundler
+      .bundle() 
+      .pipe(source('./react-components/app.js')) 
+      .pipe(buffer())   
+      .pipe(rename('app.js'))        
+      .pipe(gulp.dest('./themes/navhub-v2/static/js/react/'));   
 }
