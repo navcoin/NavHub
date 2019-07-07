@@ -7,6 +7,7 @@ var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 
+
 gulp.task('sass', function () {
   buildSass()
 });
@@ -27,7 +28,7 @@ function buildSass() {
 
 gulp.task('react:watch', function(){
   buildReact()
-  gulp.watch('./react-components/src/**/*.js', ['react'])
+  gulp.watch('./react-components/**/*.js', ['react'])
 });
 
 gulp.task('react', function () {
@@ -35,16 +36,26 @@ gulp.task('react', function () {
 });
 
 function buildReact() {
-  concatJS()
-  var bundler = browserify('./react-components/app.js').transform(babelify, {presets: ['@babel/preset-react']})
+  //concatJS()
+  var bundler = browserify({
+    cache: {},
+    packageCache: {},
+    fullPaths: false,
+    debug: true,
+    sourceType: 'module'
+  })
+  bundler.add(('./react-components/app.js'))
+  bundler.transform(babelify, {
+    presets: ['@babel/preset-react'],
+  })
   bundle(bundler);
 }
 
-function concatJS() {
-  return gulp.src('./react-components/src/**/*.js')
-    .pipe(concat({ path: 'app.js', stat: { mode: 0666 }}))
-    .pipe(gulp.dest('./react-components/'));
-}
+// function concatJS() {
+//   return gulp.src('./react-components/src/**/*.js')
+//     .pipe(concat({ path: 'app.js', stat: { mode: 0666 }}))
+//     .pipe(gulp.dest('./react-components/'));
+// }
 
 function bundle(bundler) {
   bundler

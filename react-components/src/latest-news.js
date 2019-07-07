@@ -3,6 +3,7 @@
 let Parser = require('rss-parser');
 let React = require('react');
 let ReactDOM = require('react-dom');
+import NewsCard  from './news-card';
 
 class LatestNews extends React.Component {
   constructor(props) {
@@ -20,35 +21,73 @@ class LatestNews extends React.Component {
 
     let parser = new Parser();
 
-    (async () => {
- 
-      let feed = await parser.parseURL(CORS_PROXY + 'https://medium.com/feed/nav-coin');
+    const latestNews = this;
+
+    parser.parseURL(CORS_PROXY + 'https://medium.com/feed/nav-coin', function(err, feed) {
       console.log(feed);
-      console.log('done');
-     
-    })();
+      if (err) {
+        console.error(err);
+        return latestNews.setState({
+          error: true
+        });
+      }
+      latestNews.setState({
+        isLoaded: true,
+        items: feed.items,
+      });
+    })
+
   }
 
   render() {
     const { error, isLoaded, items } = this.state;
     if (error) {
       return (
-        <div>Error: {error.message}</div>
+        <div className="home-page-card-section homepage-news-section ninety-vw-container">
+          <div className="title-container">
+              <h2>Community News and Articles</h2>
+              <a href="/news">See all news&nbsp;&nbsp;
+                  <span className="fa fa-chevron-right"></span>
+              </a>
+          </div>
+          <div className="status-container">
+            <h3>Something went wrong</h3>
+            <p>We were unable to fetch the latest stories from medium, you can try viewing them directly on the NavCoin Collective publication on Medium.</p>
+            <a href="https://medium.com/nav-coin">NavCoin Collective &nbsp;&nbsp;
+                  <span className="fa fa-chevron-right"></span>
+              </a>
+          </div>
+        </div>
       );
     } else if (!isLoaded) {
       return (
-        <div>Loading...</div>
+        <div className="home-page-card-section homepage-news-section ninety-vw-container">
+          <div className="title-container">
+              <h2>Community News and Articles</h2>
+              <a href="/news">See all news&nbsp;&nbsp;
+                  <span className="fa fa-chevron-right"></span>
+              </a>
+          </div>
+          <div className="status-container">
+            <h3>Loading...</h3>
+          </div>
+        </div>
       );
     } else {
       return (
-        <div class="home-page-card-section homepage-news-section ninety-vw-container">
-          <div class="title-container">
+        <div className="home-page-card-section homepage-news-section ninety-vw-container">
+          <div className="title-container">
               <h2>Community News and Articles</h2>
               <a href="/news">See all news&nbsp;&nbsp;
-                  <span class="fa fa-chevron-right"></span>
+                  <span className="fa fa-chevron-right"></span>
               </a>
           </div>
-          <div class="card-container">
+          <div className="card-container">
+            {items.map((value, index) => {
+              if (index < 8) {
+                return <NewsCard key={index.toString()} item={value} />
+              }
+            })}            
           </div>
         </div>
       );
