@@ -3,7 +3,7 @@
 let Parser = require('rss-parser');
 let React = require('react');
 let ReactDOM = require('react-dom');
-import NewsCard  from './news-card';
+import NewsCard  from './lib/news-card';
 
 class LatestNews extends React.Component {
   constructor(props) {
@@ -24,7 +24,6 @@ class LatestNews extends React.Component {
     const latestNews = this;
 
     parser.parseURL(CORS_PROXY + 'https://medium.com/feed/nav-coin', function(err, feed) {
-      console.log(feed);
       if (err) {
         console.error(err);
         return latestNews.setState({

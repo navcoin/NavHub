@@ -9,14 +9,14 @@ export default function NewsCard(props) {
     const urlSegment = linkSplit[0].replace("https://medium.com/nav-coin/", "");
 return(
     <div className="homepage-news-card">
-        <a href={'/news/' + urlSegment}>
+        <a href={'/article/?id=' + urlSegment}>
         <div className="title-container">
             <h1 dangerouslySetInnerHTML={{__html: nbspTitle}}></h1>
         </div>
         <div className="lower-section">
             <div className="project-author">
             <span className="fa fa-user-circle-o" style={{color: "#7D5AB5"}}></span>
-            {`${props.item.creator}`}
+            {props.item.creator}
             </div>
             <div className="project-date">
                 <span className="fa fa-calendar" style={{color: "#7D5AB5"}}></span>

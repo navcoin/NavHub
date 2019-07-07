@@ -1,1 +1,0 @@
-var LatestNews = require('./src/latest-news');

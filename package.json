@@ -18,6 +18,7 @@
     "@babel/preset-react": "^7.0.0",
     "babelify": "^10.0.0",
     "browserify": "^16.3.0",
+    "file-system": "^2.2.2",
     "gulp-buffer": "0.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0",

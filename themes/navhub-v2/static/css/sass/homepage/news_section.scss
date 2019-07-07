@@ -3,6 +3,28 @@
   src: url(/fonts/BIG-JOHN.otf);
 }
 
+.status-container {
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 2em;
+  min-height: 253px;
+  h3 {
+    margin-bottom: 1em;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  a {
+    font-size: 18px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 19px;
+    color: #7D5AB5;
+    text-decoration: underline;
+  }
+}
+
 .homepage-news-section {
   --card-width: 540px;
   --border-color: #E3E3E3;
@@ -31,28 +53,6 @@
     overflow-x: scroll;
     grid-gap: var(--grid-gap);
     max-width: calc( calc( var(--grid-gap) * 4 ) + calc( var(--card-width) * 4));
-  }
-
-  .status-container {
-    background-color: white;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    padding: 2em;
-    min-height: 253px;
-    h3 {
-      margin-bottom: 1em;
-    }
-    p {
-      margin-bottom: 1em;
-    }
-    a {
-      font-size: 18px;
-      font-family: 'Raleway', Helvetica, Arial, sans-serif;
-      font-weight: 700;
-      line-height: 19px;
-      color: #7D5AB5;
-      text-decoration: underline;
-    }
   }
 
   .homepage-news-card {

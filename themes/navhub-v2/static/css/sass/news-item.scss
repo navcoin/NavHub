@@ -42,6 +42,67 @@
   }
 }
 
+#react-news-article {
+  .blog-meta-wrapper {
+    border-top: 1px solid #EEE;
+    padding-top: 2em;
+  }
+  .read-more {
+    .btn {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.social-icon-sect {
+  max-width: 95vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  
+
+  .share-icon span {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #7d5ab5;
+  }
+
+  .social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: rgb(150, 150, 150);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    text-decoration: none!important;
+    &.twitter {
+      background: #1da1f2;
+    }
+    &.facebook {
+      background: #3b5998;
+    }
+    &.google {
+      background: #dc4a3d;
+    }
+    &:hover {
+      background: #424242;
+      color: #ffffff;
+    }
+
+    i {
+      color: #fff;
+    }
+  }
+}
+
 .news-item {
   margin: 0 auto;
   min-width: 300px;
@@ -141,6 +202,14 @@
       font-size: 15px;
       line-height: 24px;
     }
+    .news-tag {
+      padding: 2px 5px;
+      margin-right: 5px;
+      &:hover {
+        background-color: #7d5ab5;
+        color: #FFF;
+      }
+    }
   }
 
   .blog-details-how-to {
@@ -152,7 +221,12 @@
     padding-top: 0px;
   }
 
-  ul.blog-author-name li {
+  ul.blog-tags {
+    height: 1.6em;
+    overflow: hidden;
+  }
+
+  ul.blog-author-name li, ul.blog-tags li {
     display: inline-block;
     margin-right: 10px;
     color: #24292e;
@@ -164,52 +238,8 @@
     a {
       color: #795bb6;
     }
-  }
-
-
-  .social-icon-sect {
-    max-width: 95vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    .share-icon span {
-      display: inline-block;
-      font-size: 16px;
-      text-transform: uppercase;
-      margin-right: 20px;
-      color: #7d5ab5;
-    }
-
-    .social-icon {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      width: 30px;
-      height: 30px;
-      background: rgb(150, 150, 150);
-      -webkit-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s;
-
-      &.twitter {
-        background: #1da1f2;
-      }
-      &.facebook {
-        background: #3b5998;
-      }
-      &.google {
-        background: #dc4a3d;
-      }
-      &:hover {
-        background: #424242;
-        color: #ffffff;
-      }
-
-      i {
-        color: #fff;
-      }
+    &.hash i, &.tag {
+      margin-right: 0;
     }
   }
 

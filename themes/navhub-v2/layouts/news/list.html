@@ -7,20 +7,16 @@
 {{ partial "header.html" . }}
 
     {{ partial "hero_section.html" . }}
-    <div class=""  id="{{ .Params.anchor }}">
-            <div class="ninety-vw-container {{if isset .Params "bgWhite"}} bg-white {{ end }}">
-                <div class="ninety-vw-container grid-container two-col" >                    
-                {{ $list := (.Data.Pages) }}
-                {{ $len := (len $list) }}
-                {{ $last := (sub $len 1) }}
-        
-                {{ range .Paginator.Pages }}
-                    {{ partial "news_item.html" . }}
-                {{ end }}
-            </div>
-        </div>
-        {{ template "pagination.html" . }}
+    <div class="" id="{{ .Params.anchor }}">
+        <div id="react-news"></div>
+    </div>
+    
+    <div class="more-news">
+        <a href='https://medium.com/nav-coin' class="btn btn-purple" target="e">Read More on Medium</a>
+    </div>
+    {{partial "footer.html" . }}
 
-        {{partial "footer.html" . }}
+    <!-- React components. -->
+    <script src="/js/react/news.js"></script>
     </body>
 </html>
