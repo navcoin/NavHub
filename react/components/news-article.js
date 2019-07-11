@@ -41,8 +41,6 @@ class NewsArticle extends React.Component {
       const publication = highResImages.replace(/href="\/nav-coin/g, 'href="https://medium.com/nav-coin')
       const author = publication.replace(/href="\/@/g, 'href="https://medium.com/@')
 
-      console.log(author)
-
       const footerIndex = author.search(/<p[\w\s"=]+>— — —<\/p>/)
       
       let article = ""

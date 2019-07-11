@@ -6,34 +6,26 @@
     "node": ">=8.9.0"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.2.1",
     "rss-parser": "^3.7.2",
-    "sass": "^1.16.1"
+    "sass": "^1.16.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
     "@babel/preset-react": "^7.0.0",
-    "babelify": "^10.0.0",
-    "browserify": "^16.3.0",
-    "file-system": "^2.2.2",
-    "gulp-buffer": "0.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-tap": "^1.0.1",
-    "gulp-uglify": "^3.0.2",
+    "babel-loader": "^8.0.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
   },
   "scripts": {
     "start": "hugo server",
     "sass": "gulp sass:watch",
-    "react:watch": "gulp react:watch"
+    "build": "webpack --mode production"
   },
   "keywords": [
     "NAV",
