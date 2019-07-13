@@ -3,13 +3,28 @@
   src: url(/fonts/BIG-JOHN.otf);
 }
 
+#react-latest-news {
+  min-height: 253px;
+}
+
 .status-container {
   background-color: white;
   border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 2em;
   min-height: 253px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  &.no-flex {
+    display: block;
+  }
+  &.small {
+    max-width: 590px;
+    margin: 0 auto;
+  }
   h3 {
+    height: 100%;
     margin-bottom: 1em;
   }
   p {

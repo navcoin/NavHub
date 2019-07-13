@@ -25,7 +25,8 @@
   "scripts": {
     "start": "hugo server",
     "sass": "gulp sass:watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "watch:react": "webpack --watch --mode development"
   },
   "keywords": [
     "NAV",

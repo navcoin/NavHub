@@ -26,6 +26,14 @@
 .more-news {
   max-width: 300px;
   margin: 4em auto;
+  a {
+    font-size: 18px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 19px;
+    color: #7D5AB5;
+    text-decoration: underline;
+  }
 }
 
 #react-news-article {
@@ -65,7 +73,7 @@
     width: 90vw;
     max-width: 700px;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     .news-content {
       margin-top: 25px;
     }

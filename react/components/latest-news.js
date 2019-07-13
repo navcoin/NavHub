@@ -42,52 +42,28 @@ class LatestNews extends React.Component {
     const { error, isLoaded, items } = this.state;
     if (error) {
       return (
-        <div className="home-page-card-section homepage-news-section ninety-vw-container">
-          <div className="title-container">
-              <h2>Community News and Articles</h2>
-              <a href="/news">See all news&nbsp;&nbsp;
-                  <span className="fa fa-chevron-right"></span>
-              </a>
-          </div>
-          <div className="status-container">
-            <h3>Something went wrong</h3>
-            <p>We were unable to fetch the latest stories from medium, you can try viewing them directly on the NavCoin Collective publication on Medium.</p>
-            <a href="https://medium.com/nav-coin">NavCoin Collective &nbsp;&nbsp;
-                  <span className="fa fa-chevron-right"></span>
-              </a>
-          </div>
+        <div className="status-container no-flex">
+          <h3>Something went wrong</h3>
+          <p>We were unable to fetch the latest stories from medium, you can try viewing them directly on the NavCoin Collective publication on Medium.</p>
+          <a href="https://medium.com/nav-coin">NavCoin Collective &nbsp;&nbsp;
+                <span className="fa fa-chevron-right"></span>
+            </a>
         </div>
       );
     } else if (!isLoaded) {
       return (
-        <div className="home-page-card-section homepage-news-section ninety-vw-container">
-          <div className="title-container">
-              <h2>Community News and Articles</h2>
-              <a href="/news">See all news&nbsp;&nbsp;
-                  <span className="fa fa-chevron-right"></span>
-              </a>
-          </div>
-          <div className="status-container">
-            <h3>Loading...</h3>
-          </div>
+        <div className="status-container">
+          <h3>Loading...</h3>
         </div>
       );
     } else {
       return (
-        <div className="home-page-card-section homepage-news-section ninety-vw-container">
-          <div className="title-container">
-              <h2>Community News and Articles</h2>
-              <a href="/news">See all news&nbsp;&nbsp;
-                  <span className="fa fa-chevron-right"></span>
-              </a>
-          </div>
-          <div className="card-container">
-            {items.map((value, index) => {
-              if (index < 8) {
-                return <NewsCard key={index.toString()} item={value} />
-              }
-            })}            
-          </div>
+        <div className="card-container">
+          {items.map((value, index) => {
+            if (index < 8) {
+              return <NewsCard key={index.toString()} item={value} />
+            }
+          })}            
         </div>
       );
     }

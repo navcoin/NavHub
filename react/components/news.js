@@ -44,7 +44,7 @@ class News extends React.Component {
     if (error) {
       return (
         <div className="ninety-vw-container">
-          <div className="status-container">
+          <div className="status-container no-flex small">
             <h3>Something went wrong</h3>
             <p>We were unable to fetch the latest stories from medium, you can try viewing them directly on the NavCoin Collective publication on Medium.</p>
             <a href="https://medium.com/nav-coin">NavCoin Collective &nbsp;&nbsp;
@@ -56,7 +56,7 @@ class News extends React.Component {
     } else if (!isLoaded) {
       return (
         <div className="ninety-vw-container">
-          <div className="status-container">
+          <div className="status-container small">
             <h3>Loading...</h3>
           </div>
         </div>

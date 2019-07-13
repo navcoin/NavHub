@@ -1,1 +1,250 @@
-!function(e){function t(t){for(var r,c,l=t[0],i=t[1],s=t[2],m=0,f=[];m<l.length;m++)c=l[m],a[c]&&f.push(a[c][0]),a[c]=0;for(r in i)Object.prototype.hasOwnProperty.call(i,r)&&(e[r]=i[r]);for(u&&u(t);f.length;)f.shift()();return o.push.apply(o,s||[]),n()}function n(){for(var e,t=0;t<o.length;t++){for(var n=o[t],r=!0,l=1;l<n.length;l++){var i=n[l];0!==a[i]&&(r=!1)}r&&(o.splice(t--,1),e=c(c.s=n[0]))}return e}var r={},a={2:0},o=[];function c(t){if(r[t])return r[t].exports;var n=r[t]={i:t,l:!1,exports:{}};return e[t].call(n.exports,n,n.exports,c),n.l=!0,n.exports}c.m=e,c.c=r,c.d=function(e,t,n){c.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},c.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},c.t=function(e,t){if(1&t&&(e=c(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(c.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)c.d(n,r,function(t){return e[t]}.bind(null,r));return n},c.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return c.d(t,"a",t),t},c.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},c.p="";var l=window.webpackJsonp=window.webpackJsonp||[],i=l.push.bind(l);l.push=t,l=l.slice();for(var s=0;s<l.length;s++)t(l[s]);var u=i;o.push([109,0]),n()}({109:function(e,t,n){"use strict";n.r(t);var r=n(14),a=n(4);function o(e){var t=e.tag.replace("-","&#8209;");return a.createElement("a",{className:"news-tag",href:"https://medium.com/tag/"+e.tag,dangerouslySetInnerHTML:{__html:t}})}var c=n(4);function l(e){var t=e.item.title.replace(/ (?=[^ ]*$)/i,"&nbsp;"),n=e.item.link.split("?")[0].replace("https://medium.com/nav-coin/",""),a=e.item["content:encoded"],l=document.createElement("div");l.innerHTML=a;var i=l.getElementsByTagName("img"),s=l.getElementsByTagName("p"),u=s[0].innerHTML;return u.length<150&&(u+=" ",u+=s[1].innerHTML),c.createElement("div",{className:"news-item"},c.createElement("a",{href:"/article/?id="+n},c.createElement("div",{className:"blog-image",style:{backgroundImage:"url(".concat(i[0].src,")")}},c.createElement("div",{className:"item-overlay"}))),c.createElement("div",{className:"blog-details"},c.createElement("h3",null,c.createElement("a",{href:"/article/?id="+n,dangerouslySetInnerHTML:{__html:t}})),c.createElement("ul",{className:"blog-author-name"},c.createElement("li",null,c.createElement("i",{className:"fa fa-user-circle-o"}),e.item.creator),c.createElement("li",null,c.createElement("i",{className:"fa fa-calendar"}),c.createElement(r.a,{isoDate:e.item.isoDate}))),c.createElement("ul",{className:"blog-tags"},c.createElement("li",{className:"hash"},c.createElement("i",{className:"fa fa-hashtag"})),e.item.categories&&e.item.categories.map(function(e,t){return c.createElement("li",{className:"tag",key:t.toString()},c.createElement(o,{tag:e}))}),!e.item.categories&&["navcoin","cryptocurrency","blockchain"].map(function(e,t){return c.createElement("li",{className:"tag",key:t.toString()},c.createElement(o,{tag:e}))})),c.createElement("div",{className:"blog-excerpt",dangerouslySetInnerHTML:{__html:u}}),c.createElement("div",{className:"social-icon-sect"},c.createElement("div",{className:"read-more"},c.createElement("div",{className:"themeix-button-group"},c.createElement("a",{href:"/article/?id="+n,className:"btn btn-purple"},"read more"))),c.createElement("div",{className:"share-icon"},c.createElement("span",null,"share"),c.createElement("a",{className:"social-icon twitter",href:"https://twitter.com/intent/tweet?text=".concat(e.item.title,"&url=").concat("https://medium.com/nav-coin","/").concat(n,"&via=NavCoin&related=NavCoin"),rel:"nofollow",target:"_blank",title:"Share on Twitter"},c.createElement("i",{className:"fa fa-twitter"})),c.createElement("a",{className:"social-icon facebook",href:"https://facebook.com/sharer.php?u=".concat("https://medium.com/nav-coin","/").concat(n),rel:"nofollow",target:"_blank",title:"Share on Facebook"},c.createElement("i",{className:"fa fa-facebook"}))))))}function i(e){return(i="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function s(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function u(e,t){return!t||"object"!==i(t)&&"function"!=typeof t?function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e):t}function m(e){return(m=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function f(e,t){return(f=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}var p=n(34),d=n(4),h=n(33),v=function(e){function t(e){var n;return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,t),(n=u(this,m(t).call(this,e))).state={error:null,isLoaded:!1,items:[]},n}var n,r,a;return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&f(e,t)}(t,d.Component),n=t,(r=[{key:"componentDidMount",value:function(){var e=new p,t=this;e.parseURL("https://cors-anywhere.herokuapp.com/https://medium.com/feed/nav-coin",function(e,n){if(console.log(n),e)return console.error(e),t.setState({error:!0});t.setState({isLoaded:!0,items:n.items})})}},{key:"render",value:function(){var e=this.state,t=e.error,n=e.isLoaded,r=e.items;return t?d.createElement("div",{className:"ninety-vw-container"},d.createElement("div",{className:"status-container"},d.createElement("h3",null,"Something went wrong"),d.createElement("p",null,"We were unable to fetch the latest stories from medium, you can try viewing them directly on the NavCoin Collective publication on Medium."),d.createElement("a",{href:"https://medium.com/nav-coin"},"NavCoin Collective   ",d.createElement("span",{className:"fa fa-chevron-right"})))):n?d.createElement("div",{className:"ninety-vw-container"},d.createElement("div",{className:"ninety-vw-container grid-container two-col"},r.map(function(e,t){return d.createElement(l,{key:t.toString(),item:e})}))):d.createElement("div",{className:"ninety-vw-container"},d.createElement("div",{className:"status-container"},d.createElement("h3",null,"Loading...")))}}])&&s(n.prototype,r),a&&s(n,a),t}(),y=document.querySelector("#react-news");h.render(d.createElement(v),y)},14:function(e,t,n){"use strict";n.d(t,"a",function(){return a});var r=n(4);function a(e){var t=new Date(e.isoDate),n="".concat(t.getDate()," ").concat(["January","February","March","April","May","June","July","August","September","October","November","December"][t.getMonth()]," ").concat(t.getFullYear());return r.createElement("span",null,n)}},41:function(e,t){},42:function(e,t){},53:function(e,t){},54:function(e,t){}});
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// install a JSONP callback for chunk loading
+/******/ 	function webpackJsonpCallback(data) {
+/******/ 		var chunkIds = data[0];
+/******/ 		var moreModules = data[1];
+/******/ 		var executeModules = data[2];
+/******/
+/******/ 		// add "moreModules" to the modules object,
+/******/ 		// then flag all "chunkIds" as loaded and fire callback
+/******/ 		var moduleId, chunkId, i = 0, resolves = [];
+/******/ 		for(;i < chunkIds.length; i++) {
+/******/ 			chunkId = chunkIds[i];
+/******/ 			if(installedChunks[chunkId]) {
+/******/ 				resolves.push(installedChunks[chunkId][0]);
+/******/ 			}
+/******/ 			installedChunks[chunkId] = 0;
+/******/ 		}
+/******/ 		for(moduleId in moreModules) {
+/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
+/******/ 				modules[moduleId] = moreModules[moduleId];
+/******/ 			}
+/******/ 		}
+/******/ 		if(parentJsonpFunction) parentJsonpFunction(data);
+/******/
+/******/ 		while(resolves.length) {
+/******/ 			resolves.shift()();
+/******/ 		}
+/******/
+/******/ 		// add entry modules from loaded chunk to deferred list
+/******/ 		deferredModules.push.apply(deferredModules, executeModules || []);
+/******/
+/******/ 		// run deferred modules when all chunks ready
+/******/ 		return checkDeferredModules();
+/******/ 	};
+/******/ 	function checkDeferredModules() {
+/******/ 		var result;
+/******/ 		for(var i = 0; i < deferredModules.length; i++) {
+/******/ 			var deferredModule = deferredModules[i];
+/******/ 			var fulfilled = true;
+/******/ 			for(var j = 1; j < deferredModule.length; j++) {
+/******/ 				var depId = deferredModule[j];
+/******/ 				if(installedChunks[depId] !== 0) fulfilled = false;
+/******/ 			}
+/******/ 			if(fulfilled) {
+/******/ 				deferredModules.splice(i--, 1);
+/******/ 				result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
+/******/ 			}
+/******/ 		}
+/******/
+/******/ 		return result;
+/******/ 	}
+/******/
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// object to store loaded and loading chunks
+/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 	// Promise = chunk loading, 0 = chunk loaded
+/******/ 	var installedChunks = {
+/******/ 		"news": 0
+/******/ 	};
+/******/
+/******/ 	var deferredModules = [];
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
+/******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
+/******/ 	jsonpArray.push = webpackJsonpCallback;
+/******/ 	jsonpArray = jsonpArray.slice();
+/******/ 	for(var i = 0; i < jsonpArray.length; i++) webpackJsonpCallback(jsonpArray[i]);
+/******/ 	var parentJsonpFunction = oldJsonpFunction;
+/******/
+/******/
+/******/ 	// add entry module to deferred list
+/******/ 	deferredModules.push(["./react/components/news.js","vendor"]);
+/******/ 	// run deferred modules when ready
+/******/ 	return checkDeferredModules();
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./react/components/lib/formatted-date.js":
+/*!************************************************!*\
+  !*** ./react/components/lib/formatted-date.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return FormattedDate; });\n\n\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction FormattedDate(props) {\n  var date = new Date(props.isoDate);\n  var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];\n  var formattedDate = \"\".concat(date.getDate(), \" \").concat(months[date.getMonth()], \" \").concat(date.getFullYear());\n  return React.createElement(\"span\", null, formattedDate);\n}\n\n//# sourceURL=webpack:///./react/components/lib/formatted-date.js?");
+
+/***/ }),
+
+/***/ "./react/components/lib/news-item.js":
+/*!*******************************************!*\
+  !*** ./react/components/lib/news-item.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return NewsItem; });\n/* harmony import */ var _formatted_date__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./formatted-date */ \"./react/components/lib/formatted-date.js\");\n/* harmony import */ var _news_tag__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./news-tag */ \"./react/components/lib/news-tag.js\");\n\n\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\n\nfunction NewsItem(props) {\n  var nbspTitle = props.item.title.replace(/ (?=[^ ]*$)/i, '&nbsp;');\n  var linkSplit = props.item.link.split('?');\n  var urlSegment = linkSplit[0].replace(\"https://medium.com/nav-coin/\", \"\");\n  var publicationUrl = 'https://medium.com/nav-coin';\n  var defaultTags = ['navcoin', 'cryptocurrency', 'blockchain'];\n  var contentEncoded = props.item['content:encoded'];\n  var elm = document.createElement('div');\n  elm.innerHTML = contentEncoded;\n  var images = elm.getElementsByTagName(\"img\");\n  var paragraphs = elm.getElementsByTagName(\"p\");\n  var excerpt = paragraphs[0].innerHTML;\n\n  if (excerpt.length < 150) {\n    excerpt += ' ';\n    excerpt += paragraphs[1].innerHTML;\n  }\n\n  return React.createElement(\"div\", {\n    className: \"news-item\"\n  }, React.createElement(\"a\", {\n    href: '/article/?id=' + urlSegment\n  }, React.createElement(\"div\", {\n    className: \"blog-image\",\n    style: {\n      backgroundImage: \"url(\".concat(images[0].src, \")\")\n    }\n  }, React.createElement(\"div\", {\n    className: \"item-overlay\"\n  }))), React.createElement(\"div\", {\n    className: \"blog-details\"\n  }, React.createElement(\"h3\", null, React.createElement(\"a\", {\n    href: '/article/?id=' + urlSegment,\n    dangerouslySetInnerHTML: {\n      __html: nbspTitle\n    }\n  })), React.createElement(\"ul\", {\n    className: \"blog-author-name\"\n  }, React.createElement(\"li\", null, React.createElement(\"i\", {\n    className: \"fa fa-user-circle-o\"\n  }), props.item.creator), React.createElement(\"li\", null, React.createElement(\"i\", {\n    className: \"fa fa-calendar\"\n  }), React.createElement(_formatted_date__WEBPACK_IMPORTED_MODULE_0__[\"default\"], {\n    isoDate: props.item.isoDate\n  }))), React.createElement(\"ul\", {\n    className: \"blog-tags\"\n  }, React.createElement(\"li\", {\n    className: \"hash\"\n  }, React.createElement(\"i\", {\n    className: \"fa fa-hashtag\"\n  })), props.item.categories && props.item.categories.map(function (value, index) {\n    return React.createElement(\"li\", {\n      className: \"tag\",\n      key: index.toString()\n    }, React.createElement(_news_tag__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n      tag: value\n    }));\n  }), !props.item.categories && defaultTags.map(function (value, index) {\n    return React.createElement(\"li\", {\n      className: \"tag\",\n      key: index.toString()\n    }, React.createElement(_news_tag__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n      tag: value\n    }));\n  })), React.createElement(\"div\", {\n    className: \"blog-excerpt\",\n    dangerouslySetInnerHTML: {\n      __html: excerpt\n    }\n  }), React.createElement(\"div\", {\n    className: \"social-icon-sect\"\n  }, React.createElement(\"div\", {\n    className: \"read-more\"\n  }, React.createElement(\"div\", {\n    className: \"themeix-button-group\"\n  }, React.createElement(\"a\", {\n    href: '/article/?id=' + urlSegment,\n    className: \"btn btn-purple\"\n  }, \"read more\"))), React.createElement(\"div\", {\n    className: \"share-icon\"\n  }, React.createElement(\"span\", null, \"share\"), React.createElement(\"a\", {\n    className: \"social-icon twitter\",\n    href: \"https://twitter.com/intent/tweet?text=\".concat(props.item.title, \"&url=\").concat(publicationUrl, \"/\").concat(urlSegment, \"&via=NavCoin&related=NavCoin\"),\n    rel: \"nofollow\",\n    target: \"_blank\",\n    title: \"Share on Twitter\"\n  }, React.createElement(\"i\", {\n    className: \"fa fa-twitter\"\n  })), React.createElement(\"a\", {\n    className: \"social-icon facebook\",\n    href: \"https://facebook.com/sharer.php?u=\".concat(publicationUrl, \"/\").concat(urlSegment),\n    rel: \"nofollow\",\n    target: \"_blank\",\n    title: \"Share on Facebook\"\n  }, React.createElement(\"i\", {\n    className: \"fa fa-facebook\"\n  }))))));\n}\n\n//# sourceURL=webpack:///./react/components/lib/news-item.js?");
+
+/***/ }),
+
+/***/ "./react/components/lib/news-tag.js":
+/*!******************************************!*\
+  !*** ./react/components/lib/news-tag.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return NewsTag; });\n\n\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction NewsTag(props) {\n  var dashedTag = props.tag.replace('-', '&#8209;');\n  return React.createElement(\"a\", {\n    className: \"news-tag\",\n    href: 'https://medium.com/tag/' + props.tag,\n    dangerouslySetInnerHTML: {\n      __html: dashedTag\n    }\n  });\n}\n\n//# sourceURL=webpack:///./react/components/lib/news-tag.js?");
+
+/***/ }),
+
+/***/ "./react/components/news.js":
+/*!**********************************!*\
+  !*** ./react/components/news.js ***!
+  \**********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib_news_item__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/news-item */ \"./react/components/lib/news-item.js\");\n\n\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nvar Parser = __webpack_require__(/*! rss-parser */ \"./node_modules/rss-parser/index.js\");\n\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\n\n\nvar News =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(News, _React$Component);\n\n  function News(props) {\n    var _this;\n\n    _classCallCheck(this, News);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(News).call(this, props));\n    _this.state = {\n      error: null,\n      isLoaded: false,\n      items: []\n    };\n    return _this;\n  }\n\n  _createClass(News, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      var CORS_PROXY = \"https://cors-anywhere.herokuapp.com/\";\n      var parser = new Parser();\n      var latestNews = this;\n      parser.parseURL(CORS_PROXY + 'https://medium.com/feed/nav-coin', function (err, feed) {\n        console.log(feed);\n\n        if (err) {\n          console.error(err);\n          return latestNews.setState({\n            error: true\n          });\n        }\n\n        latestNews.setState({\n          isLoaded: true,\n          items: feed.items\n        });\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this$state = this.state,\n          error = _this$state.error,\n          isLoaded = _this$state.isLoaded,\n          items = _this$state.items;\n\n      if (error) {\n        return React.createElement(\"div\", {\n          className: \"ninety-vw-container\"\n        }, React.createElement(\"div\", {\n          className: \"status-container no-flex small\"\n        }, React.createElement(\"h3\", null, \"Something went wrong\"), React.createElement(\"p\", null, \"We were unable to fetch the latest stories from medium, you can try viewing them directly on the NavCoin Collective publication on Medium.\"), React.createElement(\"a\", {\n          href: \"https://medium.com/nav-coin\"\n        }, \"NavCoin Collective \\xA0\\xA0\", React.createElement(\"span\", {\n          className: \"fa fa-chevron-right\"\n        }))));\n      } else if (!isLoaded) {\n        return React.createElement(\"div\", {\n          className: \"ninety-vw-container\"\n        }, React.createElement(\"div\", {\n          className: \"status-container small\"\n        }, React.createElement(\"h3\", null, \"Loading...\")));\n      } else {\n        return React.createElement(\"div\", {\n          className: \"ninety-vw-container\"\n        }, React.createElement(\"div\", {\n          className: \"ninety-vw-container grid-container two-col\"\n        }, items.map(function (value, index) {\n          return React.createElement(_lib_news_item__WEBPACK_IMPORTED_MODULE_0__[\"default\"], {\n            key: index.toString(),\n            item: value\n          });\n        })));\n      }\n    }\n  }]);\n\n  return News;\n}(React.Component);\n\nvar domContainer = document.querySelector('#react-news');\nReactDOM.render(React.createElement(News), domContainer);\n\n//# sourceURL=webpack:///./react/components/news.js?");
+
+/***/ }),
+
+/***/ 0:
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/* (ignored) */\n\n//# sourceURL=webpack:///util_(ignored)?");
+
+/***/ }),
+
+/***/ 1:
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/* (ignored) */\n\n//# sourceURL=webpack:///util_(ignored)?");
+
+/***/ }),
+
+/***/ 2:
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/* (ignored) */\n\n//# sourceURL=webpack:///util_(ignored)?");
+
+/***/ }),
+
+/***/ 3:
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/* (ignored) */\n\n//# sourceURL=webpack:///util_(ignored)?");
+
+/***/ })
+
+/******/ });
