@@ -44,7 +44,7 @@ class LatestNews extends React.Component {
       return (
         <div className="status-container no-flex">
           <h3>Something went wrong</h3>
-          <p>We were unable to fetch the latest stories from medium, you can try viewing them directly on the NavCoin Collective publication on Medium.</p>
+          <p>We were unable to fetch the latest stories, you can try viewing them directly on the NavCoin Collective Medium publication.</p>
           <a href="https://medium.com/nav-coin">NavCoin Collective &nbsp;&nbsp;
                 <span className="fa fa-chevron-right"></span>
             </a>

@@ -9,6 +9,7 @@ class NewsArticle extends React.Component {
     super(props);
     this.state = {
       error: null,
+      notOk: false,
       isLoaded: false,
       items: []
     };
@@ -24,8 +25,20 @@ class NewsArticle extends React.Component {
     const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 
     fetch(CORS_PROXY + 'https://medium.com/nav-coin/' + articleId)
-    .then(res => res.text())
+    .then(res => {
+      if (!res.ok) return false
+      return res.text()
+    })
     .then(result => {
+
+      if(!result) {
+        newsArticle.setState({
+          notOk: true
+        });
+        return
+      }
+
+      console.log('RESULT', result)
 
       const body = this.getBody(result);
 
@@ -68,13 +81,13 @@ class NewsArticle extends React.Component {
   } 
 
   render() {
-    const { error, isLoaded, article, id, title } = this.state;
-    if (error) {
+    const { error, isLoaded, article, id, title, notOk } = this.state;
+    if (error || notOk) {
       return (
         <div className="ninety-vw-container">
           <div className="status-container no-flex">
             <h3>Something went wrong</h3>
-            <p>We were unable to fetch the latest stories from medium, you can try viewing them directly on the NavCoin Collective publication on Medium.</p>
+            <p>We were unable to fetch this story, you can try finding the article directly on the NavCoin Collective Medium publication.</p>
             <a href="https://medium.com/nav-coin">NavCoin Collective &nbsp;&nbsp;
               <span className="fa fa-chevron-right"></span>
             </a>
