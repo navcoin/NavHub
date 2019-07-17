@@ -85,3 +85,9 @@ command = "gulp sass && hugo"
   to = "https://navhub.org/assets"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://navhub.org/news/*"
+  to = "https://medium.com/nav-coin"
+  status = 301
+  force = true
