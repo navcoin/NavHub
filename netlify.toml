@@ -85,3 +85,4 @@ command = "gulp sass && hugo"
   to = "https://navhub.org/assets"
   status = 301
   force = true
+  

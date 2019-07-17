@@ -6,14 +6,27 @@
     "node": ">=8.9.0"
   },
   "dependencies": {
+    "rss-parser": "^3.7.2",
+    "sass": "^1.16.1",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.2.1",
-    "sass": "^1.16.1"
+    "gulp-sass": "^3.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  },
   "scripts": {
     "start": "hugo server",
-    "sass": "gulp sass:watch"
+    "sass": "gulp sass:watch",
+    "build": "webpack --mode production",
+    "watch:react": "webpack --watch --mode development"
   },
   "keywords": [
     "NAV",

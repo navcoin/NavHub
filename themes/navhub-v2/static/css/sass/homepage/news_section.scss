@@ -3,6 +3,43 @@
   src: url(/fonts/BIG-JOHN.otf);
 }
 
+#react-latest-news {
+  min-height: 253px;
+}
+
+.status-container {
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 2em;
+  min-height: 253px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  &.no-flex {
+    display: block;
+  }
+  &.small {
+    max-width: 590px;
+    margin: 0 auto;
+  }
+  h3 {
+    height: 100%;
+    margin-bottom: 1em;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  a {
+    font-size: 18px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 19px;
+    color: #7D5AB5;
+    text-decoration: underline;
+  }
+}
+
 .homepage-news-section {
   --card-width: 540px;
   --border-color: #E3E3E3;
@@ -55,7 +92,7 @@
         }
         font-family: "Big John";
         font-weight: normal;
-        font-size: 2.5em;
+        font-size: 2em;
         padding-top: 0.3em;
         line-height: 1.4em;
         text-align: center;
@@ -70,7 +107,7 @@
       justify-content: flex-start;
       align-items: center;
       flex-flow: wrap;
-      .project-author {
+      .project-author, .project-date {
         margin-left: 15px;
         color:#7D5AB5;
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -79,6 +116,9 @@
         color: #6a737d;
         img {
           height: 20px;
+        }
+        .fa {
+          margin-right: 5px;
         }
       }
     }

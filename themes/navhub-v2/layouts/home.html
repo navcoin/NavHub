@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    {{ partial "head.html" . }}
+
+    <body >
+    {{ partial "header.html" .  }}
+
+    {{ partial "home/hero_section.html" . }}
+    <div class="home-page-card-section homepage-news-section ninety-vw-container">
+        <div class="title-container">
+            <h2>Community News and Articles</h2>
+            <a href="/news">See all news&nbsp;&nbsp;
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+        <div id="react-latest-news">
+            <div class="status-container">
+                <h3>Loading...</h3>
+            </div>
+        </div>
+    </div>
+    
+    {{ partial "home/projects_section.html" . }}
+
+    {{ partial "home/events_section.html" . }}
+
+    {{ partial "home/get_started.html" . }}
+
+    {{ partial "home/call_to_action.html" . }}
+
+    {{ partial "footer.html" . }}
+
+    <!-- React components. -->
+    <script src="/js/react/vendor.bundle.js"></script>
+    <script src="/js/react/latest-news.js"></script>
+
+</body>
+</html>

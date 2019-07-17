@@ -46,24 +46,7 @@ Please note that Hugo is a hot loading site and that changing and saving files w
 All content for the site is held in markdown files in the content folder. The content sections match the sections of the site.
 
 ### Adding news item
-When creating a new item it is recommend you use the Hugo commandline tool as this will use the right archetype and populate the properties
-
-    hugo new news/[year]/[month]/[post-title]/index.md
-
-You should keep all the post related images in the folder with the index.md folder
-
-#### News page front meta control:
-
-    title: "New Title"                  - The title of the news item
-    date: 2018-03-07T10:27:21+13:00     - The date and time published - defaults to date created
-    draft: false                        - Is the item a draft - if true it is not built
-    author: ""                          - Who authored the article
-    description: ""                     - currently unused
-    categories: ["Nav Coin Updates"]    - Cats
-    resources: []                       - currently unused
-    slug: ""                            - currenctly unused
-    feature_image: "image.png"          - The image that should be herored
-    show_title_text: false              - If you want to show the title below the image
+News items are now loaded in from the NavCoin Collective publication on Medium. To get an article featured on the site, publish it to your own Medium account then contact the publication editors who can help you get it included.
 
 ### Adding projects
 When adding a project it is recommend you use the Hugo commandline tool as this will use the right archetype and populate the properties
@@ -99,3 +82,24 @@ The layouts are held in the theme folder currently `nav-community-v1`. Please re
 
 ## Editing Styles
 CSS styles can be added/edited in the `static/css` directory. Most of the main styles are in `style.css`
+
+Styles are built using sass. To compile the sass run `npm run sass`
+
+## Editing React Components
+Some content is loaded dynamically as React Components. If you need to change these, you can watch for changes and build for development by running `npm run watch:react`.
+
+Before you commit your PR with the changes, you'll need to run `npm run build` which will compile the React components for production.
+
+To add a new component simply add the js file to the `/react/components/` directory. All files in this directory are considred entry points and are bundled by webpack. If you write sub components which aren't entry points, add them to the `/react/components/lib` directory instead. Webpack will put all the dependencies into a common file called `vendor.bundle.js`. To add your components to the html, just make sure the vendor.bundle.js file is included into the page before your component followed by your component which should both be just before the closing body tag. eg.
+
+```
+...
+{{ partial "footer.html" . }}
+
+<!-- React components. -->
+<script src="/js/react/vendor.bundle.js"></script>
+<script src="/js/react/news-article.js"></script>
+
+</body>
+</html>
+```

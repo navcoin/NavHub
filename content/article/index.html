@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body>
+
+{{ partial "header_news.html" . }}
+
+<div class="blog-grid">
+    <div class="blog-item" id="react-news-article">
+        <div class="ninety-vw-container">
+            <div class="status-container">
+              <h3>Loading...</h3>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <!-- <div class="widget">
+            <h3 class="widget-title">Topics Category</h3>
+            <ul>
+                {{ range first 10 .Site.Taxonomies.categories.ByCount }}
+                    <li class="cat-item" ><a href="/categories/{{ .Name | urlize }}">{{ .Name }}</a> </li>
+                {{ end }}
+            </ul>
+        </div> -->
+        <div class="widget recent-posts">
+            <h3 class="widget-title">NavCoin on Medium</h3>
+            <p>These articles are just the latest posts on the NavCoin Collective Medium publication.</p>
+            <br />
+            <p>To browse all the articles and follow the NavCoin Collective, head on over to Medium and click follow.</p>
+            <div class="more-news" style="margin-top: 2em; max-width: 450px">
+                <a href="https://medium.com/nav-coin">NavCoin Collective &nbsp;&nbsp;
+                    <span class="fa fa-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
+
+<!-- React components. -->
+<script src="/js/react/vendor.bundle.js"></script>
+<script src="/js/react/news-article.js"></script>
+
+</body>
+</html>
