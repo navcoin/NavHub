@@ -1,7 +1,7 @@
 ---
 date: '2019-10-07T20:00:00+00:00'
 publishdate: '2019-04-20T00:00:00+00:00'
-past: false
+past: true
 title: "Community Roundtable 006"
 location: "NavCoin Discord #roundtable"
 host: "NavCoin Core"
