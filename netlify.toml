@@ -6,7 +6,7 @@ HUGO_VERSION = "0.53"
 
 [build]
 publish = "public"
-command = "gulp sass && hugo"
+command = "gulp sass && npm run data-medium && hugo"
 
 [[redirects]]
   from = "https://navcore.org/*"
@@ -85,4 +85,3 @@ command = "gulp sass && hugo"
   to = "https://navhub.org/assets"
   status = 301
   force = true
-  

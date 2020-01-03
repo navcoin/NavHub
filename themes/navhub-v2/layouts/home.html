@@ -14,13 +14,13 @@
                 <span class="fa fa-chevron-right"></span>
             </a>
         </div>
-        <div id="react-latest-news">
-            <div class="status-container">
-                <h3>Loading...</h3>
-            </div>
+        <div id="latest-news" class="card-container">
+            {{ range first 8 .Site.Data.medium.items }}
+                {{ partial "news/news_card.html" . }}
+            {{ end }}
         </div>
     </div>
-    
+
     {{ partial "home/projects_section.html" . }}
 
     {{ partial "home/events_section.html" . }}
@@ -30,10 +30,6 @@
     {{ partial "home/call_to_action.html" . }}
 
     {{ partial "footer.html" . }}
-
-    <!-- React components. -->
-    <script src="/js/react/vendor.bundle.js"></script>
-    <script src="/js/react/latest-news.js"></script>
 
 </body>
 </html>

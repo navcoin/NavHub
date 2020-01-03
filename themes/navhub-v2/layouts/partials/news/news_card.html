@@ -1,0 +1,15 @@
+<div class="homepage-news-card">
+    <a href="{{ .link }}}" target="_blank">
+      <div class="title-container"><h1>{{ .title }}</h1></div>
+      <div class="lower-section">
+          <div class="project-author">
+              <span class="fa fa-user-circle-o"></span>
+              {{ .creator }}
+          </div>
+          <div class="project-date">
+              <span class="fa fa-calendar"></span>
+              <span>{{ dateFormat "2 January 2006" .pubDate }} </span>
+          </div>
+      </div>
+    </a>
+</div>

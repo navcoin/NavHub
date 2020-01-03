@@ -23,6 +23,7 @@
     "webpack-cli": "^3.3.5"
   },
   "scripts": {
+    "data-medium": "mkdir -p data && node tools/rss-to-json.js https://medium.com/feed/nav-coin?limit=8 ./data/medium.json",
     "start": "hugo server",
     "sass": "gulp sass:watch",
     "build": "webpack --mode production",
