@@ -28,7 +28,6 @@ From a shortlist of candidates, two developer interns have been selected to join
 
 Spiritar3 has created a survey to get your opinion on the NavCoin community, including any ideas you have to improve community engagement - so please fill it out with your feedback, it will be a huge help!
 
-{{< tweet 1069988704079499264 >}}
 
 ### Don’t forget to vote!
 

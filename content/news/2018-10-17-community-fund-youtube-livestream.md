@@ -64,7 +64,7 @@ Prole appeared on Naomi Brockwell’s “Weekly Crypto Recap” - a wide ranging
 
 [You can find the link to the video from Naomi’s Twitter post](https://twitter.com/naomibrockwell/status/1051939859856875521).
 
-{{< tweet 1051939859856875521 >}}
+<https://twitter.com/naomibrockwell/status/1051939859856875521>
 
 That’s all for this week,
 

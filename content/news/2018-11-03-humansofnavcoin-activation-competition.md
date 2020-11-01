@@ -15,7 +15,7 @@ The NavCoin Community Fund softfork voting is well underway and looking likely t
 
 You'll find all sorts of great ideas like this one proposed by twitter user [@CryptoSmartHub](https://twitter.com/CryptoSmartHub) to launch a grass roots campaign to get NavCoin used in local markets.
 
-{{< tweet 1056817988672913408 >}}
+<https://twitter.com/NavCoin/status/1056817988672913408>
 
 We're really excited about all the great ideas which are being proposed, it looks like there are going to be some amazing things created by the community when the Community Fund activates. To support the community's efforts, NavCoin Core are going to offer their help and support to one of the most popular proposal ideas.
 

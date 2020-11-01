@@ -66,7 +66,7 @@ If you’re unsure about the differences between the NavCoin wallet options then
 
 
 
-{{< tweet 1007214990951092224 >}}
+<https://twitter.com/NavCoin_Global/status/1007214990951092224>
 
 
 Keith from @CryptoCoinMind posted this step by step video on Youtube that shows how easy it is to update to the new NavCoin Core 4.2.1 wallet. 
@@ -87,7 +87,6 @@ Globe-trotting NavCoin Core developers Matt and Rowan caught up over a beer with
 
 
 
-{{< tweet 1007314561987379200 >}}
 
 
 It looks like Rowan definitely earned that beer - here’s another perspective from his visit to Iceland on his way to Berlin.
@@ -95,9 +94,6 @@ It looks like Rowan definitely earned that beer - here’s another perspective f
 
 
 
-
-
-{{< tweet 1006849499451609093 >}}
 
 
 By now NavCoin Core Developer Craig (prole on Discord) is a few days into his Oxfam Refugee Ration Challenge. Over the course of the week, he will discover what it’s like to survive on the strictly limited amount of very basic rations Syrian refugees are issued, Craig’s aim is to raise $10,000 NZD for the cause. You can show your support by following his journey on his Instagram and Twitter.
@@ -247,8 +243,7 @@ Last week this animated video introducing NavCoin 4.2.1 was created and launched
 
 
 
-{{< tweet 1006974592580308994 >}}
-
+<https://twitter.com/NavCoin/status/1006974592580308994>
 
 
 If you haven’t already downloaded the new NavCoin Core 4.2.1 wallet to add your vote to the 75% consensus necessary to begin accumulating funds, you can get it here.
