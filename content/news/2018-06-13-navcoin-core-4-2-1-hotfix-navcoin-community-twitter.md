@@ -22,11 +22,11 @@ Are you following the NavCoin Community Twitter account @NavCoin_Global yet? It�
 
 They’re doing a great job of helping to spread adoption of NavCoin in the wider community and how to encourage merchants to accept NavCoin. If you have any other ideas about how to get NavCoin accepted at your favourite merchants, please let the community hear about it. Post your ideas in the #community-action channel on Discord.
 
-{{< tweet 1004682080301862912 >}}
+<https://twitter.com/NavCoin_Global/status/1004682080301862912>
 
 CoinPayments helps everyone in the NavCoin community by making it easy to pay using NAV. This week they’ve gone a step further with this Tweet promoting NavCoin to their followers. Thanks guys.
 
-{{< tweet 1006308134074265601 >}}
+<https://twitter.com/coinpaymentsnet/status/1006308134074265601>
 
 To support Coin Payments, start by checking out their directory of stores accepting NAV, then get out your NavCoin wallet and buy something.
 
