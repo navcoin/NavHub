@@ -1,5 +1,8 @@
 # NAV community site
-Maintained by the global NAV community
+NavHub is your portal into the NavCoin community. 
+
+Maintained by the global NAV community to keep you up to date with the latest NavCoin news, projects, and events.
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2c02a0ab-b7eb-411a-96f8-291e9ffcd039/deploy-status)](https://app.netlify.com/sites/navhub/deploys)
 
