@@ -87,7 +87,7 @@ weight: 100
     feature2Img="/images/icons/icon-android.png"
     feature2Title="Android (v5.0.1)"
     feature2ExtraSubtitle="false"
-    feature2Url="https://navpay.navcoin.orgy"
+    feature2Url="https://navpay.navcoin.org"
     feature3Img="/images/icons/icon-apple.png"
     feature3Title="iOS PWA (v5.0.1)"
     feature3ExtraSubtitle="false"
